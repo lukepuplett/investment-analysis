@@ -1,0 +1,91 @@
+# CoreWeave, Inc. (CRWV) – Q1 2025 Earnings Release
+*May 14, 2025*
+
+## Press Release
+
+CoreWeave Reports Strong First Quarter 2025 Results
+Growth Driven by Accelerating Demand for CoreWeave's Purpose-built AI Platform
+
+LIVINGSTON, N.J., May 14, 2025 /PRNewswire/ -- CoreWeave, Inc. (Nasdaq: CRWV), the AI Hyperscaler™, today reported financial results for the first quarter ended March 31, 2025.
+
+## Management Commentary
+
+### CEO Statement
+"We've delivered an outstanding start to 2025 on multiple fronts. Our strong first quarter financial performance caps a string of milestones including our IPO, our major strategic deal with OpenAI as well as other customer wins, our acquisition of Weights & Biases and many technical achievements," said Michael Intrator, CoreWeave's co-founder and Chief Executive Officer. "Demand for our platform is robust and accelerating as AI leaders seek the highly performant AI cloud infrastructure required for the most advanced applications. We are scaling as fast as possible to capture that demand. The future runs on CoreWeave."
+
+### CFO Statement
+"CoreWeave's strong financial performance in Q1 highlights the large and rapidly growing opportunity," said Nitin Agrawal, CoreWeave's Chief Financial Officer. "We are focused on executing, while effectively managing our capital structure to support accelerating investments in growth and maintaining flexibility to capitalize on strategic opportunities."
+
+## Financial Highlights
+
+### GAAP Results
+| Metric                        | Q1 2025  | Q1 2024  | % Change |
+|-------------------------------|----------|----------|----------|
+| Revenue                       | 981,632  | 188,684  | 420%     |
+| Operating Expenses            | 1,009,102| 171,837  | 487%     |
+| Operating Income (Loss)       | (27,470) | 16,847   | (263)%   |
+| Operating Margin              | (3)%     | 9%       | -        |
+| Interest Expense, Net         | (263,835)| (40,656) | 549%     |
+| Net Loss                      | (314,641)| (129,248)| 143%     |
+| Net Loss Margin               | (32)%    | (68)%    | -        |
+| Basic Net Loss Per Share      | (1.40)   | (0.62)   | 126%     |
+| Diluted Net Loss Per Share    | (1.49)   | (0.62)   | 140%     |
+
+*Note: All numbers in thousands USD except percentages and per share amounts. Includes $177 million of stock-based compensation expense for awards with a liquidity-event performance-based vesting condition.*
+
+### Non-GAAP Results
+| Metric                        | Q1 2025  | Q1 2024  | % Change |
+|-------------------------------|----------|----------|----------|
+| Adjusted EBITDA               | 606,131  | 104,546  | 480%     |
+| Adjusted EBITDA Margin        | 62%      | 55%      | -        |
+| Adjusted Operating Income     | 162,634  | 25,036   | 550%     |
+| Adjusted Operating Margin     | 17%      | 13%      | -        |
+| Adjusted Net Loss             | (149,555)| (23,559) | 535%     |
+| Adjusted Net Loss Margin      | (15)%    | (12)%    | -        |
+
+## Business Highlights
+
+### Financial
+- Revenue backlog of $25.9 billion as of March 31, 2025
+  * RPO: $14.7 billion
+  * Other committed contracts: $11.2 billion
+
+### Customer & Partnership Wins
+- Strategic deal with OpenAI, adding $11.2 billion in revenue backlog
+- Partnership with IBM to deliver compute capacity for IBM's Granite models
+
+### Infrastructure Growth
+- Active compute capacity: ~420 MW
+- Contracted power: ~1.6 GW
+
+### Technical Achievements
+- MLPerf Inference v5.0 results set new industry benchmark with NVIDIA GB200 Grace Blackwell Superchips
+- Highest Platinum rating in SemiAnalysis's ClusterMAX™ Rating System
+
+### Product Launches
+- CoreWeave AI Object Storage (CAIOS)
+- GB200 based instances throughout Cloud Platform Stack
+- On-Demand Cluster Scaling via CoreWeave Kubernetes Service
+- Detailed billing and usage metrics
+- Support for NVIDIA AI Enterprise software and NVIDIA Cloud Functions
+
+### Capital Structure
+- Raised $1.4 billion in net proceeds through IPO
+- Total debt and equity raised: $17.2 billion
+
+## Forward-Looking Statements
+[Standard forward-looking statements section included in press release]
+
+## Non-GAAP Financial Measures
+[Standard non-GAAP reconciliation and definitions included in press release]
+
+## Conference Call Information
+- Date: May 14, 2025
+- Time: 2:00 pm PT / 5:00 pm ET
+- Webcast: investors.coreweave.com
+
+## Contact Information
+- Investor Relations: Investor-Relations@coreweave.com
+- Media: Press@coreweave.com
+
+*Source: CoreWeave Press Release, May 14, 2025*

@@ -1,0 +1,739 @@
+May 8, 2025
+Sir Peter Beck, CEO & Adam Spice, CFO
+Q1 2025
+INVESTOR
+UPDATE
+Forward Looking Statements
+This presentation may contain certain “forward-looking statements” within the
+meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of
+the Securities Act of 1933, as amended, and Section 21E of the Securities
+Exchange Act of 1934, as amended. All statements, other than statements of
+historical facts, contained in this presentation, including statements regarding
+our expectations of financial results for the second quarter of 2025, strategy,
+future operations, future financial position, projected costs, prospects, plans
+and objectives of management, are forward-looking statements. Words such as,
+but not limited to, “anticipate,” “aim,” “believe,” “contemplate,” “continue,”
+“could,” “design,” “estimate,” “expect,” “intend,” “may,” “might,” “plan,” “possible,”
+“potential,” “predict,” “project,” “seek,” “should,” “suggest,” “strategy,” “target,”
+“will,” “would,” and similar expressions or phrases, or the negative of those
+expressions or phrases, are intended to identify forward-looking statements,
+although not all forward-looking statements contain these identifying words.
+These forward-looking statements are based on Rocket Lab’s current
+expectations and beliefs concerning future developments and their potential
+effects. These forward-looking statements involve a number of risks,
+uncertainties (many of which are beyond Rocket Lab’s control), or other
+assumptions that may cause actual results or performance to be materially
+different from those expressed or implied by these forward-looking statements.
+Many factors could cause actual future events to differ materially from the
+forward-looking statements in this release, including risks related to delays and
+disruptions in expansion efforts; delays in the development of our Neutron
+rocket; our dependence on a limited number of customers; the harsh and
+unpredictable environment of space in which our products operate which could
+adversely affect our launch vehicle and spacecraft; increased competition in
+our industry due in part to rapid technological development; technological
+change in our industry which we may not be able to keep up with or which may
+render our services uncompetitive; average selling price trends; general
+economic uncertainty and turbulence which could impact our customers’
+ability to pay what we are owed; failure of our launch vehicles, spacecraft and
+components to operate as intended either due to our error in design, in
+production or through no fault of our own; launch schedule disruptions; supply
+chain disruptions, product delays or failures; design and engineering flaws;
+launch failures; natural disasters and epidemics or pandemics; any inability to
+effectively integrate recently acquired assets; a US government shutdown or
+delays in government funding; changes in governmental regulations including
+with respect to trade and export restrictions, or in the status of our regulatory
+approvals or applications; or other events that force us to cancel or reschedule
+launches, including customer contractual rescheduling and termination rights;
+risks that acquisitions may not be completed on the anticipated time frame or
+at all or do not achieve the anticipated benefits and results; and the other risks
+detailed from time to time in Rocket Lab’s filings with the Securities and
+Exchange Commission (the “SEC”), including under the heading “Risk Factors” in
+Rocket Lab’s Annual Report on Form 10-K for the fiscal year ended December
+31, 2024, which was filed with the SEC on February 27, 2025 and elsewhere.
+There can be no assurance that the future developments affecting Rocket Lab
+will be those that we have anticipated. Except as required by law, Rocket Lab is
+not undertaking any obligation to update or revise any forward-looking
+statements whether as a result of new information, future events or otherwise.
+Use of Non-GAAP Financial Measures
+To supplement our unaudited consolidated financial statements presented on
+a basis consistent with GAAP, we disclose certain non-GAAP financial
+measures, including non-GAAP gross margin, operating expenses, research and
+development expenses, and non-GAAP net selling, general and administrative
+expenses. These supplemental measures exclude the effects of (i) stock-based
+compensation expense; (ii) amortization of purchased intangible assets and
+favorable lease; (iii) non-cash income tax benefits and expenses (iv)
+depreciation; (v) transaction costs; (vi) change in fair value of contingent
+consideration; (vii) performance reserve escrow; (viii) provision for income
+taxes; (ix) (Gain) loss on foreign exchange; (x) accretion of marketable
+securities purchased at a discount; (xi) (gain) loss on disposal of assets; and
+(xii) employee retention credit. We also supplement our unaudited historical
+statements and forward-looking guidance with the measure of adjusted
+EBITDA, where adjustments to EBITDA include share-based compensation,
+warrant expense related to customers and partners, foreign exchange gains or
+losses, acquisition related performance reserve and escrow, loss on
+extinguishment of debt, interest expense, net and other non-recurring gains or
+losses. These non-GAAP measures should only be viewed in conjunction with
+corresponding GAAP measures. We compensate for the limitations of nonGAAP financial measures by relying upon GAAP results to gain a complete
+picture of our performance. Non-GAAP financial measures are not in
+accordance with and do not serve as an alternative for the presentation of our
+GAAP financial results. We are providing this information to enable investors to
+perform more meaningful comparisons of our operating results in a manner
+similar to management's analysis of our business. We believe that these nonGAAP measures have limitations in that they do not reflect all of the amounts
+associated with our GAAP results of operations. We encourage investors to
+review the detailed reconciliation of our GAAP and non-GAAP presentations in
+our Earnings Release dated May 8, 2025 available on our website at
+investors.rocketlabusa.com. We have not provided a reconciliation for the
+forward-looking non-GAAP financial measures because, without unreasonable
+efforts, we are unable to predict with reasonable certainty the amount and
+timing of adjustments that are used to calculate these non-GAAP financial
+measures, particularly related to stock-based compensation and its related tax
+effects.
+2 2 Rocket Lab | Q1 2025 Financial Update
+FORWARD
+LOOKING
+STATEMENTS
+3
+FULL
+SPACE
+VALUE
+CHAIN
+FUTURE
+Rocket Lab | Q1 2025 Financial Update
+OVERVIEW
+LAUNCH (SMALL, MEDIUM, HYPERSONIC) SPACECRAFT | COMPONENTS
+NEAR PRESENT
+NEUTRON FLATELLITE
+Everything we’re doing feeds into
+our strategic vision of delivering
+our own services from space with
+our own satellite constellation.
+4
+2025 TO DATE: HIGHLIGHTS
+Rocket Lab | Q1 2025 Financial Update
+OVERVIEW
+$122.6m
+Q1 2025 revenue, one of our
+highest quarters ever. Up 32%
+YoY compared to Q1 2024.
+LAUNCHED
+FIVE,
+BOOKED
+EIGHT
+100% mission success for Electron
+in Q1 2025, including a rapid
+turnaround of three launches in 13
+days. Secured new launch
+contracts for Electron, HASTE, and
+Neutron.
+NSSL
+Neutron onramped to the
+Department of Defense’s most
+competitive launch program for
+its highest priority missions.
+USAF
+New launch contract with the U.S.
+Air Force Research Laboratory.
+15 DAYS
+Between the return to Earth of
+our 2nd mission for Varda, and the
+launch of our 3rd spacecraft in
+the mission series.
+FINANCE ELECTRON NEUTRON SPACE SYSTEMS
+SECTION
+ELECTRON
+01
+100% MISSION
+SUCCESS
+FOR MULTIPLE
+CUSTOMERS
+Busy launch quarter with five
+missions for Earth-imaging,
+monitoring and intelligence,
+and global wildfire detection.
+Commercial and government
+demand for 20+ launches in
+2025.
+ELECTRON
+Rocket Lab | Q1 2025 Financial Update
+Electron remains the global
+leader in orbital small launch,
+second most-frequently
+launched U.S. rocket, and
+one of only two U.S. rockets
+to have reached orbit
+multiple times so far in 2025.
+6
+9 Feb 2025 19 Feb 2025 15 Mar 2025 18 Mar 2025 27 Mar 2025
+A DECADE
+OF SMALL
+LAUNCH
+ELECTRON
+Rocket Lab | Q1 2025 Financial Update
+*Successful and attempted orbital and suborbital launches from 01 January 2015 to 01 May 2025.
+Partial failures not counted as successful launches.
+7
+Electron has completed 3x more
+successful launches than all other
+American small launch providers
+combined in the last decade.
+TEN YEARS OF AMERICAN DEDICATED SMALL LAUNCH
+2015-NOW*
+HASTE
+8 Rocket Lab | Q1 2025 Financial Update
+HASTE onramped to
+compete for multiple
+defense contracts:
+• $46b EWAAC with US Air
+Force.
+• ~$1.3b (£1b) HTCDF with
+United Kingdom’s Ministry
+of Defence – HASTE’s first
+international call-up.
+• $1.45b MACH-TB 2.0 for
+U.S. DOD through Kratos.
+Launch contract awarded in Q1
+2025 for MACH-TB 2.0 – the
+first full-scale flight test
+awarded by Kratos for the
+program.
+Seven launches awarded in total
+for HASTE across MACH-TB,
+making Rocket Lab one of the
+most prolific commercial launch
+providers for the program.
+NEW
+HYPERSONIC
+CONTRACTS
+SECTION
+NEUTRON
+02
+NEUTRON
+10 Rocket Lab | Q1 2025 Financial Update
+NEUTRON
+ADDED TO $5.6B
+NSSL PROGRAM
+Neutron selected for
+onboarding to U.S. Space
+Force’s National Security Space
+Launch (NSSL) Phase 3 Lane 1
+program - $5.6b firm-fixed
+price IDIQ contract through to
+2029.
+On-ramp includes $5m task
+order to demonstrate mission
+assurance approach for NSSL
+launches.
+The selection affirms Rocket
+Lab as one of America’s most
+capable launch providers.
+Rocket Lab is one of only five
+onboarded launchers for the
+DOD’s highest priority
+national security missions.
+The only publicly-traded
+company on NSSL.
+NEUTRON
+11 Rocket Lab | Q1 2025 Financial Update
+NEW LAUNCH
+CONTRACT FOR
+U.S. AIR FORCE
+The mission for the U.S. Air
+Force Research Laboratory
+(AFRL) will execute a
+survivability experiment for a
+rocket-based point-to-point
+transportation system.
+Scheduled for a return-toEarth launch on Neutron no
+earlier than 2026.
+This latest launch contract &
+selection to NSSL signifies
+Neutron as one of the most
+anticipated and capable new
+rockets for DOD missions.
+NEUTRON
+12 Rocket Lab | Q1 2025 Financial Update
+STAGE 2
+QUALIFICATION
+COMPLETE
+NEUTRON
+13 Rocket Lab | Q1 2025 Financial Update
+STAGE 1
+QUALIFICATION
+UNDERWAY
+Full flight
+hardware with all
+mechanisms,
+avionics, flight
+control, and
+actuators that
+control the Stage
+1 Upper Module.
+Currently
+undergoing final
+qualification.
+NEUTRON
+14 Rocket Lab | Q1 2025 Financial Update
+ROCKET
+ASSEMBLY
+IN PROGRESS
+NEUTRON
+15 Rocket Lab | Q1 2025 Financial Update
+NEUTRON
+LAUNCH SITE
+ON SCHEDULE
+Through Neutron launches,
+Launch Complex 3 will be the
+first launch site in Virginia to
+support the NSSL program –
+highlighting the importance
+of the site as a critical
+national security asset.
+With the major infrastructure
+already installed, the team is
+working through system
+activation in preparation for
+major integrated tests and
+launch operations.
+NEUTRON
+16 Rocket Lab | Q1 2025 Financial Update
+ARCHIMEDES
+ENGINE TESTING
+AT DOUBLE
+CAPACITY
+Second test cell online,
+enabling simultaneous test
+campaigns at Stennis for
+increased hot fire cadence. 
+NEUTRON
+PROGRESS
+TO THE
+LAUNCH
+PAD
+17 Rocket Lab | Q1 2025 Financial Update
+Vehicle
+Integration
+Stage 1
+Static Fire
+Stage 2
+Static Fire
+Wet Dress
+Rehearsal
+Stage 1
+Flight
+Hardware
+Stage 2
+Flight
+Hardware
+Hungry
+Hippo
+Qualification
+Stage 2
+Structures
+Qualification
+Stage 1
+Structures
+Qualification
+Flight
+Mechanisms
+Test Program
+Engine
+Qualification
+Launch
+Complex 3
+Operational
+Regulatory
+Approval
+Launch!
+Underway concurrently.
+Pending.
+MILESTONES TO MONITOR
+SECTION
+SPACE
+03
+SYSTEMS
+Image: Varda
+SPACE SYSTEMS
+MYNARIC:
+AN IMPORTANT
+ELEMENT
+19 Rocket Lab | Q1 2025 Financial Update
+Working through the process to
+acquire Mynaric, a leading
+provider of laser optical
+communications terminals for
+air, space, and mobile
+applications.
+Supplier to SDA, commercial
+constellations, primes, defense
+and civil government agencies.
+Pending completion, we
+will continue serving existing
+customers and tap into our scale
+to expand production and enter
+new markets and programs.
+SPACE SYSTEMS
+FLATELLITE
+VERTICAL
+INTEGRATION
+20 Rocket Lab | Q1 2025 Financial Update
+Laser Communication
+SPACE SYSTEMS
+THIRD PIONEER
+SPACECRAFT
+IN SPACE
+21 Rocket Lab | Q1 2025 Financial Update
+Third Pioneer spacecraft for Varda
+launched and successfully
+operating on orbit.
+Reentry maneuvers to position our
+W-3 spacecraft to return a third
+Varda capsule to Earth underway
+shortly.
+Fourth Pioneer spacecraft in Varda
+contract undergoing integration
+and testing in Long Beach.
+SPACE Systems
+PRODUCT
+EXPANSION
+22 Rocket Lab | Q1 2025 Financial Update
+FRONTIER
+RADIOS
+Expanded suite of
+space-grade radio
+communications
+systems.
+Frontier radios used
+across multiple
+Rocket Lab and
+NASA spacecraft
+missions beyond
+Earth orbit incl. to
+the Sun, the Moon,
+Mars, and Jupiter.
+STAR RAY
+Customizable,
+modular
+solar arrays.
+Short lead times
+and lower costs for
+the industry.
+Producible at
+constellation scale.
+Tailored for use
+across commercial,
+civil, and defense
+sectors.
+Space
+software
+MAX Constellation
+Delivers automation
+and cybersecurity for
+constellation on-orbit
+management.
+InterMission
+Ground data and
+space operations
+real-time
+management
+platform. Scalable for
+full constellations.
+L - STAR T - STAR
+FRONTIER
+introducing
+ROCKET LAB
+CORPORATION
+23 Rocket Lab | Q1 2025 Financial Update
+Significant corporate
+development underway with
+multiple strategic
+opportunities under active
+consideration, including
+international expansion.
+Alongside successfully
+entering new markets across
+launch and space systems,
+ongoing product development
+and deepening national
+security work, it’s time for a
+modernized corporate legal
+structure.
+New parent company, Rocket
+Lab Corporation, will replace
+Rocket Lab USA, Inc as the
+publicly traded company with
+the ticker “RKLB.”
+All shares of Rocket Lab USA,
+Inc, will be exchanged on a 1
+for 1 basis for Rocket Lab
+Corporation shares, with no
+impact to shareholders’
+ownership or rights.
+New company structure
+expected to be in effect from
+1 June 2025.
+FINANCIAL
+HIGHLIGHTS
+AND OUTLOOK
+SECTION
+04
+REVIEW OF REVENUE AND GROSS MARGINS Revenue increased 32.1% or $29.8M year-on-year, driven by
+an increase in launches from 4 to 5 as well as growth in our
+Space Systems business, driven primarily by our SDA
+satellite manufacturing contract and component businesses.
+Sequential revenue decrease of 7.4% quarter-over-quarter,
+or $9.8M, driven by lower priced Electron launches within the
+quarter as well as a shift in program contribution within our
+satellite manufacturing business as MDA contribution rolls
+off and SDA contribution ramps.
+Quarter-on-Quarter Q1 GAAP gross margin increase was
+driven by improved mix within our satellite manufacturing
+business, partially offset by decreased launch margin due to
+a lower launch ASP in the quarter.
+Quarter-on-Quarter Q1 Non-GAAP gross margin slight
+decrease reflects a mix of lower margin launch, paired with a
+decreased amount of stock-based compensation in cost of
+goods sold under our EAC program accounting.
+$60.0
+$90.0 $87.0
+$32.7
+$42.4 $35.6
+$0
+$20
+$40
+$60
+$80
+$100
+$120
+$140
+Q1 2024 Q4 2024 Q1 2025
+Revenue and GAAP / Non-GAAP Gross Margin
+Space Systems ($M) Launch ($M)
+GAAP GM:
+Non-GAAP GM:
+32.1%
+Year-on-Year revenue increase
+27.8%
+34.0%
+FINANCIAL highlights
+25 Rocket Lab | Q1 2025 Financial Update
+28.8%
+33.4%
+26.1%
+31.7%
+$122.6M
+Revenue in Q1 2025
+REVIEW OF BACKLOG
+FINANCIAL highlights
+26 Rocket Lab | Q1 2025 Financial Update
+Backlog as of Q1 2025.
+64%
+36%
+49% 51%
+Q4’24 Ending Backlog:
+60
+%
+40
+%
+54% 46%
+Q1’25 Ending Backlog:
+Sequential rebalancing in backlog mix as healthy
+Launch bookings continue, offset by another strong
+quarter of Space Systems revenue recognition.
+We expect approximately 56% of our ending Q1
+backlog to be recognized within 12 months with the
+remaining 44% to be recognized beyond 12 months.
+Healthy pipeline including multi-launch deals and large
+Satellite Manufacturing contracts can create lumpiness
+in backlog growth given the size and complexities of
+these opportunities.
+BACKLOG BY CUSTOMER BACKLOG BY CUSTOMER
+BACKLOG BY SEGMENT BACKLOG BY SEGMENT
+Space Systems ($M) Launch ($M) Space Systems ($M) Launch ($M)
+Commercial ($M) Government ($M) Commercial ($M) Government ($M)
+$1.067 BILLION
+FINANCIAL highlights
+27 Rocket Lab | Q1 2025 Financial Update
+$48.3 $55.1 $46.1 $50.1
+$40.1
+$39.3
+$28.4 $26.8
+$88.4
+$94.4
+$74.5 $76.8
+$0
+$10
+$20
+$30
+$40
+$50
+$60
+$70
+$80
+$90
+$100
+Q4 2024
+GAAP
+Q1 2025
+GAAP
+Q4 2024
+Non-GAAP
+Q1 2025
+Non-GAAP
+GAAP & Non-GAAP
+R&D vs. SG&A Spending
+R&D ($M) SG&A ($M) Column1
+GAAP and Non-GAAP SG&A expense decreased modestly
+due primarily to a decrease in software licenses, paired with
+a slight step down in non-recurring transaction costs.
+GAAP and Non-GAAP R&D expense increased due to
+increased software license costs, paired with a step-up in
+Neutron development spending, in particular; propulsion as
+we continue to qualify the Archimedes engine, complete
+tank prototypes and other vehicle structures.
+QUARTER-ON-QUARTER
+REVIEW OF OPERATING EXPENSES
+28 Rocket Lab | Q1 2025 Financial Update
+$517M in cash and cash equivalents, marketable securities
+and restricted cash, end of period in Q1 2025.
+Purchases of property, equipment and capitalized
+software increased $7.2M sequentially to $28.7M as we
+accelerate our Neutron infrastructure investments
+across the pad at LC3 at Wallops VA, the second engine
+test stand at Stennis MS, and our large composite
+structure facility at Middle River MD.
+Negative GAAP Operating Cash Flow increased $51.8M
+sequentially, primarily driven by materially lumpy cash
+receipts from our SDA satellite program, paired with
+continued Neutron investment and longer lead
+procurement for SDA and subsequent Neutron tails and
+related infrastructure to scale the business beyond our
+initial test flight.
+Adj. EBITDA loss increased $6.8M sequentially due to the
+slight decrease in revenue quarter-over-quarter paired
+with an increase in R&D spending related to Neutron.
+Note: Non-GAAP free cash flow is defined as GAAP operating cash flow reduced by purchases of property, equipment and software.
+Consistent with past practice, we have defined adjusted EBITDA to reflect adjustments for stock-based compensation, transaction costs, depreciation
+and amortization, FX gains and losses, interest expense, warrant expense, taxes, acquisition related performance reserve escrow, and other recurring
+and non-recurring items. A reconciliation of our GAAP and non-GAAP presentations in our Earnings Release dated May 8, 2025
+-$21.5 -$28.7
+-$2.4
+-$54.2
+-$23.2 -$30.0
+-$100
+-$80
+-$60
+-$40
+-$20
+$0
+Q4 2024 Q1 2025 Q4 2024 Q1 2025
+Non-GAAP Free Cash Flow
+Purchases of property, equipment and software ($M) GAAP Operating Cash Flow ($M) Adj EBITDA
+Q4 Non-GAAP
+Free Cash Flow
+$(23.9M)
+Q1 Non-GAAP
+Free Cash Flow
+$(82.9M)
+NON-GAAP FREE CASH FLOW AND ADJ EBITDA
+FINANCIAL highlights
+QUARTER-ON-QUARTER
+Adj EBITDA
+29 Rocket Lab | Q1 2025 Financial Update
+FINANCIAL highlights
+Q2 2025
+Revenue Outlook
+• Expect revenue to range
+between $130 million to $140
+million.
+• Expect year-on-year increases
+in both Space Systems and
+Launch revenue.
+Note: Stock-based compensation is currently expected to range from $13 million to $14 million in Q2 2025.
+1 Consistent with past practice, we have defined adjusted EBITDA to reflect adjustments for stock-based compensation, transaction costs, depreciation and amortization, FX gains and losses, interest expense, warrant expense, taxes, acquisition related performance reserve
+escrow, and other recurring and non-recurring items. Note: For a description of other Non-GAAP measures used herein, see our Earnings Release dated May 8, 2025 contained on our website at investors.rocketlabusa.com. `We have not provided a reconciliation for the
+forward-looking non-GAAP financial measures because, without unreasonable efforts, we are unable to predict with reasonable certainty the amount and timing of adjustments that are used to calculate these non-GAAP financial measures, particularly related to stock-based
+compensation and its related tax effects.
+2 Issued as a result of the exchange of 50,951,250 shares of the Company’s common stock on January 7, 2025.
+Q2 2025 GAAP and
+Non-GAAP Gross Margins
+• Expect GAAP gross margin to
+range between 30 - 32%,
+driven by operating leverage
+and launch pricing
+improvement
+• Expect Non-GAAP gross
+margin of 34 - 36%.
+Q2 2025
+Adjusted EBITDA
+• Expect Interest Expense
+(Income), net: $3.1 million.
+• Adjusted EBITDA loss of $28
+million to $30 million.1
+• Weighted Average Shares
+Outstanding of 514 million,
+including approximately 51 million
+of Series A Convertible
+Participating Preferred Stock. 2
+Q2 2025 GAAP and
+Non-GAAP Operating
+Expense
+• Expect GAAP Operating Expenses
+of $96 million to $98 million.
+• Expect Non-GAAP Operating
+Expenses of $82 million to $84
+million.
+Q2 2025 OUTLOOK
+Adam Spice
+CFO
+31 Rocket Lab | Q1 2025 Financial Update
+FINANCIAL
+UPCOMING INVESTOR EVENTS
+Cross Sector 1x1
+Conference
+June 3-4, 2025
+Attending:
+VP Finance
+Stephen Ananias
+2025 Industrials
+& Basic Materials
+Conference
+May 29, 2025
+Attending:
+VP Finance
+Stephen Ananias
+Transportation,
+Airlines, and
+Industrials
+Conference
+May 14, 2025
+Attending:
+CFO Adam Spice
+William Blair
+Stock Growth
+Conference
+June 4-5, 2025
+Attending:
+VP Finance
+Stephen Ananias
+Needham
+Technology,
+Media, &
+Consumer
+Conference
+(Virtual)
+May 12, 2025
+Attending:
+CFO Adam Spice
+Virtual Space
+Summit
+June 24-26, 2025
+Attending:
+CFO Adam Spice
+Industrials
+Conference
+2025
+June 10-12, 2025
+Attending:
+CFO Adam Spice
+Thank YOU
+rocketlabusa.com
