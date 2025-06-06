@@ -1,0 +1,74 @@
+---
+description: Standards for business model analysis
+globs: ["**/analysis/**"]
+alwaysApply: true
+---
+
+## Business Model Analysis Standards
+
+### Revenue Model Analysis
+- Pricing strategy
+- Revenue streams
+- Contract types and durations
+- Customer concentration
+- Vertical integration benefits
+
+### Product/Service Economics
+- Manufacturing margins
+- Service delivery costs
+- Contract value vs actual revenue
+- Backlog analysis
+- Capacity utilization
+
+### Competitive Position
+- Market Share
+  * Segment leadership
+  * Global competition
+  * Capacity vs demand
+  * Market dynamics
+- Competitive Advantages
+  * Technology differentiation
+  * Cost advantages
+  * Network effects
+  * Brand strength
+  * Vertical integration
+
+### Growth Catalysts
+- Product Development
+  * Timeline and milestones
+  * Capital requirements
+  * Market potential
+  * Government contract eligibility
+  * Actual contract wins
+- Operational Improvements
+  * Cost reduction potential
+  * Efficiency gains
+  * Implementation timeline
+  * Financial impact scenarios
+- Market Expansion
+  * New product development
+  * Market penetration
+  * Strategic partnerships
+  * Acquisition integration
+
+### Risk Assessment
+- Technical Risks
+  * Product reliability
+  * Development delays
+  * Technology challenges
+  * Implementation risks
+- Market Risks
+  * Competition intensity
+  * Pricing pressure
+  * Market size limitations
+  * Capacity constraints
+- Financial Risks
+  * Cash burn rate
+  * Funding requirements
+  * Dilution potential
+  * Scaling costs
+- Contract Risks
+  * Program value vs actual revenue
+  * Eligibility vs guaranteed work
+  * Government funding uncertainty
+  * Customer satisfaction 

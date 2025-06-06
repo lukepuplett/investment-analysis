@@ -1,0 +1,64 @@
+---
+description: Standards for financial analysis and documentation
+globs: ["**/financials/**", "**/quarterly/**"]
+alwaysApply: true
+---
+
+## Financial Analysis Standards
+
+### Document Organization
+- Store financial documents in appropriate directories:
+  * `financials/`: Core financial analysis
+  * `quarterly/`: Quarterly financial data
+  * `analysis/`: Detailed research and analysis
+
+### Financial Metrics to Track
+- Revenue Growth
+  * Segment breakdown
+  * Quarterly and annual trends
+  * Backlog analysis
+  * Capacity constraints
+  * Market penetration
+- Profitability Metrics
+  * Gross margins by segment
+  * Operating margins
+  * EBITDA
+  * Free cash flow
+  * Return on invested capital
+- Balance Sheet Health
+  * Cash position
+  * Debt levels
+  * Working capital
+  * Capital expenditure requirements
+  * Scaling investment needs
+
+### Table Formatting
+1. Use consistent table formatting with three columns:
+   - Metric: Left-aligned
+   - Value: Right-aligned
+   - Period: Right-aligned
+2. Format values consistently:
+   - Currency values with $ and appropriate units (M, B)
+   - Percentages with % symbol
+   - Dates in MM/DD/YYYY format
+   - Use N/A for unavailable data
+3. Always include abbreviations legend:
+   - MRQ = Most Recent Quarter
+   - TTM = Trailing Twelve Months
+   - YoY = Year over Year
+
+### Required Analysis Components
+1. Regular Updates
+   - Quarterly earnings analysis
+   - Milestone tracking
+   - News and developments
+   - Market sentiment
+   - Capacity utilization
+
+2. Data Sources
+   - SEC filings (Form 10-Q)
+   - Company presentations
+   - Press releases
+   - Industry reports
+   - Market data
+   - News articles 

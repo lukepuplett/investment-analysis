@@ -1,0 +1,60 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+## File Organization Standards
+
+### Directory Structure
+- `analysis/`: Detailed research and analysis documents
+  * Market analysis
+  * Competitive analysis
+  * Investment thesis
+  * Technical analysis
+  * Risk assessment
+- `financials/`: Core financial analysis
+  * Balance sheet analysis
+  * Income statement analysis
+  * Cash flow analysis
+  * Key financial metrics
+- `quarterly/`: Quarterly financial data
+  * SEC Form 10-Q filings
+  * Earnings presentations
+  * Press releases
+  * Quarterly performance analysis
+  * Year-over-year comparisons
+  * Quarterly trends
+
+### File Naming Conventions
+
+#### Quarterly Releases
+- Format: `YYYY_Q#_press_release.txt`
+- Examples:
+  * `2025_Q1_press_release.txt`
+  * `2024_Q4_press_release.txt`
+
+#### SEC Filings
+- Format: `YYYY_Q#_10q.txt`
+- Examples:
+  * `2025_Q1_10q.txt`
+  * `2024_Q4_10q.txt`
+
+#### Financial Statements
+- Format: `YYYY_MM/statement_type.md`
+- Examples:
+  * `2025_05/income_statement.md`
+  * `2025_05/balance_sheet.md`
+  * `2025_05/cashflow.md`
+
+#### Analysis Documents
+- Format: `YYYY_MM_analysis_type.md`
+- Examples:
+  * `2025_05_market_analysis.md`
+  * `2025_05_competitive_analysis.md`
+
+### General Guidelines
+1. Use consistent naming conventions
+2. Maintain chronological order in quarterly data
+3. Keep analysis documents up to date
+4. Cross-reference between directories
+5. Track source documents in quarterly/financial_statements

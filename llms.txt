@@ -1,3 +1,27 @@
+# ⚠️ IMPORTANT NOTE: CURSOR USERS READ THIS FIRST ⚠️
+
+This file has been converted into Cursor Rules for better integration with the Cursor IDE. The rules are stored in `.cursor/rules/` and include:
+
+- `financial_analysis.mdc`: Standards for financial analysis and documentation
+- `business_model_analysis.mdc`: Standards for business model analysis
+- `file_organization.mdc`: Standards for file organization and naming conventions
+
+These rules are automatically applied in Cursor and provide the same guidance in a more structured, IDE-integrated way. The rules are:
+- Always included in the model context
+- Version controlled with your code
+- Easily modifiable through the Cursor interface
+- Scoped to specific directories using glob patterns
+
+This file is maintained for:
+1. Non-Cursor LLM interactions
+2. Reference documentation
+3. Historical record
+4. Other tools that may use this format
+
+For Cursor users, please refer to the rules in `.cursor/rules/` instead of this file.
+
+---
+
 # AI Investment Analysis Prompt
 
 ## Meta-Instructions for AI
