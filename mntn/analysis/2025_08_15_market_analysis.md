@@ -10,13 +10,14 @@ MNTN operates in the rapidly growing Connected TV (CTV) advertising market, whic
 
 ## Market Overview
 
-### Connected TV Market Size & Growth
-| Metric                    | 2024    | 2025E   | 2026E   | 2027E   | CAGR    |
-|--------------------------|---------|---------|---------|---------|---------|
-| Global CTV Ad Spend      | $25.2B  | $32.1B  | $40.8B  | $51.2B  | 26.5%   |
-| US CTV Ad Spend          | $18.7B  | $23.9B  | $30.2B  | $37.8B  | 26.3%   |
-| CTV Household Penetration| 78.2%   | 82.1%   | 85.7%   | 88.9%   | 4.4%    |
-| CTV Viewing Hours        | 2.8B    | 3.1B    | 3.5B    | 3.9B    | 11.7%   |
+### Connected TV Market Size & Growth*
+| Metric                    | 2024    | 2025E   | 2026E   | 2027E   | Notes    |
+|--------------------------|---------|---------|---------|---------|----------|
+| US CTV Ad Spend          | $25-30B | $26-32B | $35-45B | $40-50B | Varies by source |
+| CTV Household Penetration| 78-85%  | 80-90%  | 85-95%  | 88-95%  | Regional variation |
+
+*⚠️ Market forecasts vary significantly between industry sources (IAB, eMarketer, MAGNA). 
+Growth rates range from 12-25% CAGR depending on methodology and scope.
 
 ### Market Growth Drivers
 1. **Cord-Cutting Acceleration**: Traditional pay-TV subscribers declining at 5-7% annually
@@ -34,17 +35,17 @@ MNTN operates in the rapidly growing Connected TV (CTV) advertising market, whic
 
 ## Competitive Landscape
 
-### Market Share Analysis
-| Company                  | Market Share | Revenue (2024) | Growth Rate | Key Strengths |
+### Competitive Landscape*
+| Company                  | Position     | Revenue (2024) | Growth Rate | Key Strengths |
 |--------------------------|--------------|----------------|-------------|---------------|
-| The Trade Desk (TTD)    | 18%         | $1.95B        | 23%         | Programmatic leader, global scale |
-| Magnite (MGNI)          | 12%         | $1.30B        | 19%         | SSP platform, publisher relationships |
-| PubMatic (PUBM)         | 8%          | $0.87B        | 15%         | Publisher-focused, international |
-| **MNTN**                | **3%**      | **$0.26B**    | **25%**     | **Performance focus, direct relationships** |
-| Roku (ROKU)             | 15%         | $1.62B        | 12%         | Platform ownership, first-party data |
-| Amazon (AMZN)           | 10%         | $1.08B        | 35%         | Retail media, Prime Video integration |
-| Google (GOOGL)          | 8%          | $0.86B        | 28%         | YouTube TV, Google Ads integration |
-| Others                  | 26%         | $2.82B        | 22%         | Fragmented market, specialized solutions |
+| The Trade Desk (TTD)    | DSP Leader   | $2.45B        | 26%         | Programmatic leader, global scale |
+| Roku (ROKU)             | Platform     | $3.5B Platform | 18%         | Platform ownership, first-party data |
+| Magnite (MGNI)          | SSP Leader   | ~$750M        | Variable    | SSP platform, publisher relationships |
+| Amazon (AMZN)           | Retail Media | $1B+ Ad Rev    | 35%+        | Retail media, Prime Video integration |
+| Google (GOOGL)          | YouTube      | Not disclosed  | High        | YouTube TV, Google Ads integration |
+| **MNTN**                | **Niche**    | **$0.26B**    | **25%**     | **Performance focus, self-service** |
+
+*Market share percentages difficult to verify from public sources. Position based on revenue size and specialization.
 
 ### Competitive Positioning
 
@@ -201,3 +202,23 @@ The market's rapid growth and MNTN's strong competitive position support a posit
 ---
 
 *Market analysis based on industry research, company filings, and market data as of August 2025.*
+
+## Data Sources
+
+**Verified Market Data:**
+- IAB reports on CTV advertising trends and growth
+- eMarketer analysis on connected TV market forecasts
+- MAGNA Global advertising market forecasts
+- Public company SEC filings for competitive revenue data
+
+**Industry Intelligence:**
+- Company earnings calls and investor presentations
+- Industry news and trade publications
+- Established research firm reports (Nielsen, Comscore)
+
+**⚠️ Important Disclaimers:**
+- Market size projections vary significantly between sources
+- Growth rate estimates range from 12-25% CAGR depending on methodology
+- Market share data is largely estimated and difficult to verify
+- Competitive positioning based on publicly available information
+- Regional and global market data may use different measurement criteria

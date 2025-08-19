@@ -11,16 +11,18 @@ MNTN competes in the highly competitive Connected TV (CTV) advertising market ag
 ## Competitive Landscape Overview
 
 ### Market Share Distribution
-| Company                  | Market Share | Revenue (2024) | Growth Rate | Primary Focus |
-|--------------------------|--------------|----------------|-------------|---------------|
-| The Trade Desk (TTD)    | 18%         | $1.95B        | 23%         | Programmatic DSP |
-| Roku (ROKU)             | 15%         | $1.62B        | 12%         | Platform & Content |
-| Magnite (MGNI)          | 12%         | $1.30B        | 19%         | SSP Platform |
-| Amazon (AMZN)           | 10%         | $1.08B        | 35%         | Retail Media |
-| Google (GOOGL)          | 8%          | $0.86B        | 28%         | YouTube & Ads |
-| PubMatic (PUBM)         | 8%          | $0.87B        | 15%         | Publisher SSP |
-| **MNTN**                | **3%**      | **$0.26B**    | **25%**     | **Performance CTV** |
-| Others                  | 26%         | $2.82B        | 22%         | Specialized Solutions |
+| Company                  | Market Share* | Revenue (2024) | Growth Rate | Primary Focus |
+|--------------------------|---------------|----------------|-------------|---------------|
+| The Trade Desk (TTD)    | Large†       | $2.45B        | 26%         | Programmatic DSP |
+| Roku (ROKU)             | Platform      | $3.5B Platform | 18%         | Platform & Content |
+| Magnite (MGNI)          | SSP Leader    | ~$750M        | Variable    | SSP Platform |
+| Amazon (AMZN)           | Growing       | $1B+ Ad Revenue| 35%+        | Retail Media |
+| Google (GOOGL)          | YouTube       | Undisclosed    | High        | YouTube & Ads |
+| PubMatic (PUBM)         | Publisher SSP | ~$300M        | Variable    | Publisher SSP |
+| **MNTN**                | **Niche**     | **$0.26B**    | **25%**     | **Performance CTV** |
+
+*Market share percentages difficult to verify from public sources  
+†Market positioning based on revenue size and industry reports
 
 ### Competitive Positioning Matrix
 | Factor                  | MNTN | TTD | MGNI | ROKU | AMZN | GOOGL |
@@ -37,8 +39,8 @@ MNTN competes in the highly competitive Connected TV (CTV) advertising market ag
 ## Key Competitor Analysis
 
 ### The Trade Desk (TTD) - Primary Competitor
-**Market Position**: Programmatic DSP leader with 18% market share  
-**Revenue**: $1.95B (2024), 23% YoY growth  
+**Market Position**: Programmatic DSP leader in digital advertising  
+**Revenue**: $2.45B (2024), 26% YoY growth  
 **Strengths**:
 - Global scale and market leadership
 - Advanced programmatic technology
@@ -55,8 +57,8 @@ MNTN competes in the highly competitive Connected TV (CTV) advertising market ag
 **Competitive Threat Level**: High - Direct competition in programmatic CTV
 
 ### Roku (ROKU) - Platform Competitor
-**Market Position**: CTV platform owner with 15% market share  
-**Revenue**: $1.62B (2024), 12% YoY growth  
+**Market Position**: Leading CTV platform owner  
+**Revenue**: $4.1B total (2024), $3.5B platform revenue, 18% YoY growth  
 **Strengths**:
 - Platform ownership and first-party data
 - Direct consumer relationships
@@ -73,8 +75,8 @@ MNTN competes in the highly competitive Connected TV (CTV) advertising market ag
 **Competitive Threat Level**: Medium - Platform-specific competition
 
 ### Magnite (MGNI) - SSP Competitor
-**Market Position**: Supply-side platform leader with 12% market share  
-**Revenue**: $1.30B (2024), 19% YoY growth  
+**Market Position**: Leading independent supply-side platform  
+**Revenue**: ~$750M (2024), with strong CTV segment growth  
 **Strengths**:
 - Strong publisher relationships
 - Comprehensive SSP capabilities
@@ -91,8 +93,8 @@ MNTN competes in the highly competitive Connected TV (CTV) advertising market ag
 **Competitive Threat Level**: Medium - Complementary but competitive
 
 ### Amazon (AMZN) - Technology Giant
-**Market Position**: Retail media leader with 10% market share  
-**Revenue**: $1.08B (2024), 35% YoY growth  
+**Market Position**: Major retail media and Prime Video advertising player  
+**Revenue**: $1B+ advertising revenue (2024), 35%+ growth estimated  
 **Strengths**:
 - Massive scale and resources
 - Retail media integration
@@ -109,8 +111,8 @@ MNTN competes in the highly competitive Connected TV (CTV) advertising market ag
 **Competitive Threat Level**: High - Significant resources and platform ownership
 
 ### Google (GOOGL) - Technology Giant
-**Market Position**: YouTube and ads platform with 8% market share  
-**Revenue**: $0.86B (2024), 28% YoY growth  
+**Market Position**: YouTube and advertising technology leader  
+**Revenue**: YouTube advertising revenue not separately disclosed for CTV segment  
 **Strengths**:
 - Massive scale and resources
 - YouTube platform ownership
@@ -368,3 +370,21 @@ The competitive landscape is intense but MNTN's focused strategy and strong exec
 ---
 
 *Competitive analysis based on company filings, industry research, and market data as of August 2025.*
+
+## Data Sources
+
+**Verified Financial Data:**
+- Public company SEC filings (10-K/10-Q) for TTD, ROKU, MGNI, PUBM, AMZN, GOOGL
+- Company earnings calls and investor relations materials
+- SEC EDGAR database for official financial statements
+
+**Market Intelligence:**
+- Company investor presentations and earnings transcripts
+- Industry reports from verified sources (IAB, eMarketer, established research firms)
+- News reports and financial press coverage
+
+**⚠️ Important Notes:**
+- Market share percentages are estimates and difficult to verify from public sources
+- Revenue figures updated to latest available data from official sources
+- Competitive positioning based on publicly available information
+- Industry analyst reports vary significantly in methodologies and conclusions

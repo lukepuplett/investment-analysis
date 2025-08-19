@@ -91,11 +91,12 @@ MNTN represents a compelling investment opportunity in the rapidly growing Conne
 
 ## Market Opportunity Assessment
 
-### Addressable Market
-- **Global CTV Ad Spend**: $25.2B (2024) → $51.2B (2027) - 26.5% CAGR
-- **US CTV Ad Spend**: $18.7B (2024) → $37.8B (2027) - 26.3% CAGR
-- **Performance CTV Segment**: 20% of market, 45% growth rate
-- **MNTN Market Share**: 3% with opportunity for expansion
+### Addressable Market*
+- **US CTV Ad Spend**: $25-30B (2024) → $40-50B+ (2027) - 12-25% CAGR range
+- **Performance CTV Segment**: Estimated 15-25% of market, growing rapidly
+- **MNTN Position**: Niche leader in performance CTV with expansion opportunity
+
+*Market forecasts vary significantly between industry sources
 
 ### Growth Drivers
 1. **Cord-Cutting Acceleration**: 5-7% annual decline in traditional pay-TV
@@ -112,15 +113,17 @@ MNTN represents a compelling investment opportunity in the rapidly growing Conne
 
 ## Competitive Analysis Summary
 
-### Competitive Landscape
-| Competitor               | Market Share | Growth Rate | Key Strengths | Threat Level |
+### Competitive Landscape*
+| Competitor               | Position     | Growth Rate | Key Strengths | Threat Level |
 |--------------------------|--------------|-------------|---------------|--------------|
-| The Trade Desk (TTD)    | 18%         | 23%         | Global scale, programmatic | High |
-| Roku (ROKU)             | 15%         | 12%         | Platform ownership | Medium |
-| Magnite (MGNI)          | 12%         | 19%         | Publisher relationships | Medium |
-| Amazon (AMZN)           | 10%         | 35%         | Retail media, Prime Video | High |
-| Google (GOOGL)          | 8%          | 28%         | YouTube, global scale | High |
-| **MNTN**                | **3%**      | **25%**     | **Performance focus** | **N/A** |
+| The Trade Desk (TTD)    | DSP Leader   | 26%         | Global scale, programmatic | High |
+| Roku (ROKU)             | Platform     | 18%         | Platform ownership | Medium |
+| Magnite (MGNI)          | SSP Leader   | Variable    | Publisher relationships | Medium |
+| Amazon (AMZN)           | Retail Media | 35%+        | Retail media, Prime Video | High |
+| Google (GOOGL)          | YouTube      | High        | YouTube, global scale | High |
+| **MNTN**                | **Niche**    | **25%**     | **Performance focus** | **N/A** |
+
+*Market positions based on revenue size and specialization rather than precise market share
 
 ### Competitive Advantages
 1. **Performance-First Approach**: Measurable outcomes vs. traditional models
@@ -325,3 +328,29 @@ The company's performance-first approach, technology leadership, and strong cash
 ---
 
 *Investment thesis based on comprehensive financial, market, competitive, and risk analysis as of August 2025.*
+
+## Data Sources
+
+**Primary Financial Data:**
+- MNTN, Inc. Form 10-Q for Q2 2025 (SEC EDGAR)
+- MNTN, Inc. IPO documentation and NYSE filings (May 2025)
+- MNTN Q2 2025 earnings call transcript (August 5, 2025)
+- Yahoo Finance and financial data providers
+
+**Market Intelligence:**
+- IAB reports on CTV advertising trends
+- eMarketer connected TV market analysis
+- MAGNA Global advertising forecasts
+- Public company SEC filings for competitive data
+
+**Industry Analysis:**
+- Company earnings calls and investor presentations
+- Industry publications and research reports
+- Established research firms (Nielsen, Comscore, etc.)
+
+**⚠️ Investment Disclaimers:**
+- Market projections vary significantly between sources (12-25% CAGR range)
+- Competitive data based on publicly available information
+- Market share estimates are approximations and difficult to verify
+- Forward-looking statements subject to significant uncertainty
+- Past performance does not guarantee future results

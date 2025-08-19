@@ -261,3 +261,22 @@ The high valuation multiples reflect market expectations for continued growth an
 ---
 
 *Analysis based on financial data as of June 30, 2025 (Q2 2025) and market data as of August 2025.*
+
+## Data Sources
+
+**Verified Financial Data:**
+- MNTN, Inc. Form 10-Q for Q2 2025 (SEC EDGAR Database)
+- MNTN, Inc. IPO documentation and NYSE filings (May 2025)
+- MNTN Q2 2025 earnings call transcript and press release (August 5, 2025)
+- Yahoo Finance and SEC EDGAR for current market data
+
+**Peer Comparison Data:**
+- Public company SEC filings (10-K/10-Q forms) for comparative analysis
+- Company investor relations websites for earnings data
+
+**Industry Context:**
+- IAB reports on CTV advertising trends (verified publications)
+- eMarketer analysis on connected TV market forecasts
+- Public earnings calls and investor presentations
+
+**⚠️ Data Quality Note:** Market size projections and competitive positioning data should be verified against multiple industry sources before making investment decisions. Some industry forecasts vary significantly between sources.

@@ -292,3 +292,21 @@ The company's technology leadership and innovation pipeline position it well for
 ---
 
 *Technical analysis based on platform architecture, capabilities, and industry research as of August 2025.*
+
+## Data Sources
+
+**Platform Information:**
+- MNTN official website (mountain.com) - Platform capabilities and features
+- MNTN Q2 2025 earnings materials - Technology investments and roadmap
+- Company investor presentations - Platform architecture overview
+
+**Industry Technology Research:**
+- Industry reports on CTV advertising technology trends
+- Technology analysis from established research firms
+- Public information on competitor platforms and capabilities
+
+**⚠️ Technical Analysis Limitations:**
+- Detailed technical specifications not publicly available
+- Platform architecture details based on marketing materials
+- Performance comparisons estimated from public information
+- Technology roadmap based on management guidance and industry trends

@@ -264,3 +264,27 @@ The valuation analysis supports a positive investment thesis for MNTN, with stro
 ---
 
 *Valuation analysis based on financial projections, market data, and industry research as of August 2025.*
+
+## Data Sources
+
+**Primary Financial Data:**
+- MNTN, Inc. Form 10-Q for Q2 2025 (SEC EDGAR) - Financial metrics and performance data
+- MNTN, Inc. IPO Prospectus (May 2025) - Valuation methodology and share structure
+- MNTN Q2 2025 earnings materials - Management guidance and projections
+
+**Market Data:**
+- Yahoo Finance and financial data providers - Current stock price and market metrics
+- Public company SEC filings for peer comparison data
+- Market data for valuation multiples and trading information
+
+**Valuation Methodology:**
+- Standard financial valuation approaches (DCF, comparable company analysis, precedent transactions)
+- Industry-standard valuation methodologies from established sources
+- Market multiple analysis from financial data providers
+
+**⚠️ Valuation Limitations:**
+- Forward-looking projections subject to significant uncertainty
+- Market multiple comparisons limited by company differences
+- DCF assumptions based on limited historical data and management guidance
+- Valuation range reflects significant uncertainty in key assumptions
+- Investment returns are not guaranteed and may differ significantly from projections

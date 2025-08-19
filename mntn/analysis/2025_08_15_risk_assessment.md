@@ -521,8 +521,31 @@ MNTN faces a range of risks across financial, operational, market, and competiti
 
 The company's strong cash position and positive operating cash flow provide significant risk mitigation, but investors should carefully consider these risks in their investment decision. Success will depend on maintaining technology leadership, strengthening customer relationships, and executing on the path to profitability.
 
-**Risk Recommendation**: MNTN represents a high-growth, high-risk investment opportunity. While the company has strong fundamentals and competitive advantages, investors should be prepared for continued volatility and potential downside risk. The strong cash position and positive cash flow provide some downside protection, but the high valuation and competitive risks require careful consideration.
+**Final Recommendation**: MNTN represents a high-growth, high-risk investment opportunity. While the company has strong fundamentals and competitive advantages, investors should be prepared for continued volatility and potential downside risk. The strong cash position and positive cash flow provide some downside protection, but the high valuation and competitive risks require careful consideration.
 
 ---
 
 *Risk assessment based on company filings, industry analysis, and market data as of August 2025.*
+
+## Data Sources
+
+**Financial Risk Data:**
+- MNTN, Inc. Form 10-Q for Q2 2025 (SEC EDGAR) - Financial performance and risk factors
+- MNTN, Inc. IPO Prospectus (May 2025) - Risk factor disclosures
+- MNTN Q2 2025 earnings call - Management risk discussion
+
+**Industry Risk Analysis:**
+- Industry reports on CTV advertising market risks
+- Economic research on advertising spend sensitivity
+- Technology sector risk analysis from established research firms
+
+**Market Intelligence:**
+- Company filings and public disclosures
+- Industry news and trade publications
+- Competitive analysis from public sources
+
+**⚠️ Risk Assessment Limitations:**
+- Risk quantification based on limited public data
+- Industry risk estimates vary significantly between sources
+- Forward-looking risk assessments subject to significant uncertainty
+- Risk mitigation effectiveness difficult to verify independently
