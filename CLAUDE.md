@@ -39,7 +39,7 @@ company_ticker/
 
 ### Key Components
 
-**Analysis Framework**: The root `llms.txt` file contains the comprehensive investment analysis framework that governs all analysis in this repository. It defines:
+**Analysis Framework**: The root `AGENTS.md` file contains the comprehensive investment analysis framework that governs all analysis in this repository. It defines:
 - Business model analysis standards
 - Financial metrics tracking requirements
 - Document formatting standards
@@ -116,7 +116,7 @@ Financial data tables must follow consistent formatting:
 
 ### For Investment Analysis
 - This repository is documentation-focused with no executable code
-- All analysis follows the framework defined in `llms.txt`
+- All analysis follows the framework defined in `AGENTS.md`
 - Cursor rules provide IDE-integrated guidance for consistent formatting
 - Each company directory is self-contained with complete analysis materials
 
@@ -127,7 +127,7 @@ Financial data tables must follow consistent formatting:
 - Cross-reference between documents for coherent analysis narrative
 
 ### Analysis Standards
-- Follow the comprehensive framework in `llms.txt` for all analysis
+- Follow the comprehensive framework in `AGENTS.md` for all analysis
 - Maintain consistent formatting across all financial tables and documents
 - Store raw data in quarterly/ before analysis
 - Create complete documentation for each analysis session
