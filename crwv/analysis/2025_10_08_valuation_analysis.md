@@ -225,15 +225,25 @@ Based on the latest financial data as of October 8, 2025, CoreWeave presents a c
 - Competitive pressure
 
 ### Recommendation
-**HOLD with CAUTION** - While CoreWeave presents significant upside potential given its growth trajectory and market position, weak cash flow coverage and negative profitability create substantial risk. The current valuation appears reasonable for the growth stage, but investors should monitor:
+**BUY with CAUTION** - CoreWeave presents compelling upside potential with asset value significantly exceeding market cap ($117-122B assets vs $68B market cap). While weak cash flow coverage creates risk, the strong asset backing (8x coverage) and exceptional growth trajectory (206% YoY) justify a BUY position.
 
+**Investment Thesis:**
+- **Asset Value Play**: 73-79% upside from current market cap based on asset value
+- **Growth Potential**: 46-193% upside in base to bull cases
+- **Downside Protection**: Strong asset backing limits downside risk
+- **Strategic Position**: Leading AI hyperscaler in infrastructure boom
+
+**Key Monitoring Points:**
 1. **Cash Flow Improvement**: Path to positive operating cash flow and interest coverage
 2. **Profitability Improvement**: Path to positive operating margins
 3. **Execution**: Successful infrastructure deployment and Core Scientific integration
 4. **Competition**: Response to major tech company entries
 
+**Position Sizing**: 2-3% of portfolio (high risk, high reward)
+**Time Horizon**: 2-3 years minimum
+
 **Key Insight**: The $9B Core Scientific acquisition provides strong asset backing (8x coverage) and reduces lease dependency, improving the debt profile despite high debt/equity ratios.
 
-The stock offers 46-193% upside potential in base to bull cases, but carries significant downside risk if execution falters or competition intensifies.
+The stock offers significant upside potential with strong asset backing, but requires careful monitoring of cash flow improvement and execution.
 
 *Note: This analysis is based on data as of October 8, 2025, and should be updated with new information as it becomes available.*
