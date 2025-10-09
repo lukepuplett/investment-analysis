@@ -3,7 +3,7 @@
 
 ## Executive Summary
 
-Based on the latest financial data as of October 8, 2025, CoreWeave presents a compelling but high-risk investment opportunity. The company has demonstrated exceptional growth (206.70% YoY quarterly revenue growth) and strong market positioning, but faces significant financial challenges including high debt levels and negative profitability.
+Based on the latest financial data as of October 8, 2025, CoreWeave presents a compelling but high-risk investment opportunity. The company has demonstrated exceptional growth (206.70% YoY quarterly revenue growth) and strong market positioning, with a strategic $9B Core Scientific acquisition providing significant asset backing. However, the company faces challenges including weak cash flow coverage and negative profitability.
 
 **Key Valuation Metrics:**
 - Current Market Cap: $68.32B
@@ -11,6 +11,7 @@ Based on the latest financial data as of October 8, 2025, CoreWeave presents a c
 - Price/Sales: 19.10x
 - Price/Book: 17.88x
 - EV/EBITDA: 52.81x
+- Asset Coverage: 8-8.4x (excellent)
 
 ## 1. Current Financial Position
 
@@ -89,11 +90,12 @@ Based on the latest financial data as of October 8, 2025, CoreWeave presents a c
 ### Infrastructure Assets
 | Component | Description | Estimated Value |
 |-----------|-------------|-----------------|
-| Data Centers | 14+ facilities across US/Europe | $25B |
-| GPU Capacity | 100,000+ H100 GPUs contracted | $40B |
-| Power Contracts | 500MW+ secured capacity | $5B |
-| Real Estate | Strategic locations | $3B |
-| **Total Infrastructure** | | **$73B** |
+| Owned Data Centers | 32 facilities (up from 15 in 2024) | $24-29B |
+| Core Scientific Acquisition | 1.3 GW power capacity (Texas, OK, ND) | $9B |
+| GPU Capacity | 100,000+ H100 GPUs at $30k each | $3B |
+| Additional Power Contracts | 500MW+ secured capacity | $3-5B |
+| Real Estate | Strategic locations (US + Europe) | $2-3B |
+| **Total Infrastructure** | | **$45-50B** |
 
 ### Technology & IP
 | Component | Description | Estimated Value |
@@ -120,11 +122,11 @@ Based on the latest financial data as of October 8, 2025, CoreWeave presents a c
 | **Total Financial** | | **$4.15B** |
 
 ### Sum of Parts Total
-- **Infrastructure**: $73B
+- **Infrastructure**: $45-50B
 - **Technology & IP**: $30B
 - **Customer Relationships**: $38B
 - **Financial Assets**: $4.15B
-- **Total Asset Value**: $145.15B
+- **Total Asset Value**: $117-122B
 
 ## 5. Scenario Analysis
 
@@ -184,11 +186,20 @@ Based on the latest financial data as of October 8, 2025, CoreWeave presents a c
 4. **Cost Optimization**: Operational improvements over time
 
 ### Risk Factors
-1. **High Debt Levels**: $14.56B total debt (381% debt/equity)
+1. **Cash Flow Coverage**: Weak interest coverage ratio (~0.6-0.8x)
 2. **Negative Cash Flow**: -$1.1B net income TTM
 3. **Capital Intensity**: High CapEx requirements
 4. **Competitive Pressure**: Major tech companies entering market
 5. **Execution Risk**: Complex infrastructure deployment
+
+### Debt Analysis Update
+**Asset-Backed Debt Capacity:**
+- **Total Assets**: $117-122B (estimated market value)
+- **Total Debt**: $14.56B
+- **Debt-to-Asset Ratio**: 12-12.5% (reasonable)
+- **Asset Coverage**: 8-8.4x (excellent)
+
+**Key Insight**: While debt/equity ratio appears high (381%), the real debt-to-asset ratio is only 12-12.5% due to significant asset appreciation. The owned infrastructure provides strong collateral for refinancing and better loan terms.
 
 ## 7. Valuation Conclusion
 
@@ -207,19 +218,21 @@ Based on the latest financial data as of October 8, 2025, CoreWeave presents a c
 - Technical advantages
 
 **Concerns:**
-- High debt levels (381% debt/equity)
+- Weak cash flow coverage for interest payments
 - Negative profitability
 - Capital intensity
 - Execution risk
 - Competitive pressure
 
 ### Recommendation
-**HOLD with CAUTION** - While CoreWeave presents significant upside potential given its growth trajectory and market position, the high debt levels and negative profitability create substantial risk. The current valuation appears reasonable for the growth stage, but investors should monitor:
+**HOLD with CAUTION** - While CoreWeave presents significant upside potential given its growth trajectory and market position, weak cash flow coverage and negative profitability create substantial risk. The current valuation appears reasonable for the growth stage, but investors should monitor:
 
-1. **Debt Management**: Ability to service $14.56B debt
+1. **Cash Flow Improvement**: Path to positive operating cash flow and interest coverage
 2. **Profitability Improvement**: Path to positive operating margins
-3. **Execution**: Successful infrastructure deployment
+3. **Execution**: Successful infrastructure deployment and Core Scientific integration
 4. **Competition**: Response to major tech company entries
+
+**Key Insight**: The $9B Core Scientific acquisition provides strong asset backing (8x coverage) and reduces lease dependency, improving the debt profile despite high debt/equity ratios.
 
 The stock offers 46-193% upside potential in base to bull cases, but carries significant downside risk if execution falters or competition intensifies.
 
