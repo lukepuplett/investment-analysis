@@ -417,6 +417,33 @@ When creating or updating financial statistics documents (e.g., yahoo_stats.md):
 4. Include relevant timestamps in document titles
 5. Cross-reference related documents when applicable
 
+### BLUF (Bottom Line Up Front) Summary Requirements
+
+Each analysis document must include a clear, concise BLUF summary that:
+- **Provides immediate understanding** of key investment thesis
+- **States clear risk/reward profile** in one sentence
+- **Includes specific metrics** and recommendations
+- **Uses bold formatting** for emphasis
+- **Enables quick decision-making** for busy readers
+
+#### BLUF Format Example
+```markdown
+## Executive Summary
+
+**BLUF: [Company] shows [key financial/operational status] with [specific metrics]. The company has [strengths] but faces [risks]. [Recommendation] - [target audience].**
+
+[Detailed executive summary follows...]
+```
+
+### README Consolidation Process
+
+After completing all analysis documents:
+1. **Extract BLUF summaries** from all 7 analysis documents
+2. **Consolidate into README** under "Executive Summary (BLUF - Bottom Line Up Front)" section
+3. **Update analysis status** from incomplete ([ ]) to complete ([x])
+4. **Maintain chronological order** of BLUF summaries by analysis type
+5. **Include key metrics** and recommendations in consolidated format
+
 ## Financial Statement Formatting Standards
 
 ### General Formatting Rules

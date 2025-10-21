@@ -1,0 +1,426 @@
+Earnings call transcript: Virgin Galactic Q2 2025 sees reduced expenses, stock dips
+
+Transcripts
+Published 07/08/2025, 08:50
+Earnings call transcript: Virgin Galactic Q2 2025 sees reduced expenses, stock dips
+
+
+0
+SPCE
+-5.56%
+
+Earnings call transcript: Virgin Galactic Q2 2025 sees reduced expenses, stock dips
+Earnings call transcript: Virgin Galactic Q2 2025 sees reduced expenses, stock dips
+
+SPCE
+-5.56%
+
+Virgin Galactic Holdings Inc. (SPCE) reported its second-quarter 2025 earnings, revealing a decrease in operating expenses and improvements in adjusted EBITDA. The stock fell by 5.26% to $3.78 in aftermarket trading, though InvestingPro analysis suggests the stock is currently undervalued. The company continues to focus on its future commercial spaceflight operations, with significant progress in spaceship production and a strategic shift in resource allocation. With a beta of 2.01, investors should note the stock’s high sensitivity to market movements.
+
+Key Takeaways
+Operating expenses decreased by 34% year-over-year.
+Adjusted EBITDA improved to negative $52 million.
+Stock price fell by 5.26% in aftermarket trading.
+First commercial spaceflight is expected in 2026.
+Cash position remains strong at $5.8 billion.
+Company Performance
+Virgin Galactic reported a revenue of $400,000 for Q2 2025, primarily from future astronaut access fees. The company has made strides in reducing its operating expenses, which fell to $70 million from $106 million the previous year. According to InvestingPro data, the company maintains a strong current ratio of 3.81, indicating solid short-term liquidity despite rapid cash burn. This reduction is part of Virgin Galactic’s broader strategy to streamline operations and focus resources on spaceship and launch vehicle programs. For deeper insights into SPCE’s financial health and 16 additional ProTips, consider exploring InvestingPro’s comprehensive analysis.
+
+Financial Highlights
+Revenue: $400,000 from future astronaut access fees.
+Operating Expenses: $70 million, a 34% decrease year-over-year.
+Adjusted EBITDA: Negative $52 million, improved from negative $79 million.
+Free Cash Flow: Negative $114 million, a 7% improvement from Q1.
+Cash Position: $5.8 billion in cash, cash equivalents, and marketable securities.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+Market Reaction
+Virgin Galactic’s stock declined by 5.26% in aftermarket trading to $3.78. This movement reflects investor concerns about the company’s ongoing negative cash flow and the long timeline before commercial operations commence. InvestingPro analysis reveals a year-to-date decline of 35.71%, though the stock has shown strong returns over the past three months. The stock trades at 58% of its book value, suggesting potential value opportunity despite being near its 52-week low of $2.18. Get access to SPCE’s complete Fair Value analysis and detailed financial metrics with an InvestingPro subscription.
+
+Outlook & Guidance
+Virgin Galactic projects a revenue of approximately $400,000 for 2025, with a free cash flow forecast of negative $100 to $110 million. The company anticipates launching its first commercial spaceflight in 2026, with private astronaut flights planned for fall 2026. Ticket sales are expected to reopen in Q1 2026, maintaining a price point around $600,000.
+
+Executive Commentary
+CEO Michael Colglaser stated, "We continue to track for launch of our commercial spaceflight business in 2026." CFO Doug Arons added, "We expect the capital on hand is sufficient to deliver the initial fleet of two new spaceships." These comments underscore Virgin Galactic’s confidence in its financial position and operational timeline.
+
+Risks and Challenges
+Continued negative cash flow could impact long-term sustainability.
+Delays in commercial spaceflight launch could affect revenue projections.
+Market competition in the suborbital spaceflight sector is intensifying.
+Economic conditions may influence consumer demand for luxury space travel.
+Potential technical challenges in spaceship production could lead to further delays.
+
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+Q&A
+During the earnings call, analysts inquired about the reopening of ticket sales and the challenges faced in manufacturing fuselage skins. Management confirmed that ticket sales would resume in 2026 and addressed the manufacturing issues, stating that they are actively working to resolve these challenges.
+
+Full transcript - Virgin Galactic Holdings Inc (SPCE) Q2 2025:
+Conference Operator, Conference Operator: Ladies and gentlemen, thank you for standing by. My name is Desiree, and I will be your conference operator today. At this time, I would like to welcome everyone to the Virgin Galactic’s Second Quarter twenty twenty five Earnings Conference Call. All lines have been placed on mute to prevent any background noise. After the speakers’ remarks, there will be a question and answer session.
+
+I would now like to turn the conference over to Eric Cerny of Investor Relations. You may begin.
+
+Eric Cerny, Investor Relations, Virgin Galactic: Thank you. Good afternoon, everyone. Welcome to Virgin Galactic’s second quarter twenty twenty five earnings conference call. On the call with me today are Michael Colglaser, Chief Executive Officer and Doug Arons, Chief Financial Officer. Following our prepared remarks, we will open the call for questions.
+
+Our press release and slide presentation that will accompany today’s remarks are available on our Investor Relations website. Please see Slide two of the presentation for our Safe Harbor disclaimer. During today’s call, we may make certain forward looking statements. These statements are based on current expectations and assumptions and as a result are subject to risks and uncertainties. Many factors could cause actual events to differ materially from the forward looking statements made on this call.
+
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+For more information about these risks and uncertainties, please refer to the risk factors in the company’s SEC filings made from time to time. You are cautioned not to put undue reliance on forward looking statements, and the company specifically disclaims any obligation to update the forward looking statements that may be discussed during this call, whether as a result of new information, future events or otherwise. Please also note that we will refer to certain non GAAP financial information on today’s call. Please refer to the earnings release for a reconciliation of these non GAAP financial metrics. Turning to our agenda for today’s call on Page three.
+
+Today’s call will include an overview of the business, an update on progress in developing our next generation spaceships, and a financial update. I’ll now turn the call over to our CEO, Michael Colglaser.
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: Thanks, Eric, and hello, everyone. It’s been a busy quarter with our entire company focused on producing our next generation human spaceflight vehicles. Our internal teams and our partners have made significant advancements across all parts of the program, and I’m exceptionally proud of the team for their diligence in delivering quality and nimble problem solving as they advance the work while handling the complexities of a large scale aerospace program. I hope you’ve all been following our We Build Spaceship series on our social channels. Each episode takes the viewer into our production process with a somewhat documentary style approach with the intention of showcasing the many layers of technical development that go into our spaceships while also introducing you to some of the amazing people who are dedicating their skills to open access to human spaceflight.
+
+
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+We’ve been dropping new episodes on two to three week intervals, and this is a great way to follow along with our progress. We continue to track for launch of our commercial spaceflight business in 02/1926, with both research and private astronaut flights expected to commence in the fall of next year. Most parts of our spaceship program are tracking as expected and are within the scheduled time contingencies we have planned for each phase. Our fuselage schedule has slipped a bit, and that’s why you are seeing us adjust planned timing of our first research spaceflight into the ’26 versus the summer. We still expect private astronaut flights to begin later that fall.
+
+As we continue to advance our spaceship program and move forward with our strategic plan, we are managing the business prudently while keeping strength in our balance sheet with over $05,000,000,000 in cash, cash equivalents and marketable securities. As expected, we continue to reduce our quarterly cash spending, and we’ve been able to reduce operating expenses and redirect resources as part of our disciplined approach. I’ll kick things off with updates from our spaceship program, and then I’ll touch on our launch vehicle program before handing the call over to Doug for a financial overview. Turning to Slide four. As I said, we continue tracking our first commercial space flights for the 2026.
+
+To accomplish this, we’re in constant forward motion with parts fabrication and assembly at our supplier facilities and within our spaceship factory in Phoenix, Arizona. I’m excited to say that our Phoenix factory now has 100% of the program’s assembly tooling on the floor. Much of this day to day progress is being documented and shared in our new series, We Build Spaceships. And we also provide highlights on a quarterly basis with our Galactic 10 videos, the latest of which was released earlier today. I encourage all of our customers, investors, and fans to watch these videos as they offer a deeper look into our spaceship production process.
+
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+Slide five is a reminder that our spaceship production process has several key components, and the next few slides will highlight progress in each of these areas. On Slide six, I’ll start with our rocket systems. Our hybrid rocket motors’ power comes from the oxidizer combining with solid fuel to create combustion. The image on the left is our completed oxidizer tank that will be going into our first spaceship. Having finished production and testing, this tank is now on the shop floor to be fit with a carbon fiber shell that will enable it to be cleanly installed between the forward and aft fuselage sections.
+
+The image on the right is of our propulsion systems relief valve. This is a small but critical component that ensures the safety of the propulsion systems oxidizer tank. This part has recently been qualified for flight, which means we’ve demonstrated through testing, documentation and regulated processes that the manufactured part meets all design, safety and regulatory requirements for its intended use in our spaceship system. This approach is replicated across hundreds of examples and reflects our diligent focus on quality and safety. On Slide seven is one of these examples, this one involving our flight controls.
+
+Our engineers have expanded our test bench and system qualification efforts, and they are now testing signals from the pilot’s side stick that are sent to the spaceship’s central computer where our software then relays the commands to an actuator that drives the horizontal stabilizer. This is an example of the end to end testing we use to prove out the sophistication of our flight control software. On Slide eight, our mechanical systems work is coming together nicely, and testing is underway at our safety and test facility in Irvine, California. Recently, the Nose landing gear was delivered to this facility to start its testing process. We are also testing our pneumatic system, including the wing leading edge bottles, which mount behind the front edge of our wings.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+These bottles hold compressed air that provides breathable air for the cabin, maneuvers the vehicle in space, and drives our landing gear and feather actuators. These and dozens of other mechanical systems will be tested thoroughly at this center in parallel with the assembly of our first spaceship, which helps us move with confidence into the ground and flight testing phases of the program. On Slides nine through 12, you’ll see examples of the many composite parts that are being built, shipped and assembled. Over the past few months, we’ve seen a great deal of progress with composite parts making their way through the fabrication process and into the factory. Slide nine shows the bulkheads fabricated for the cabin within the fuselage of the new vehicle, including the forward and aft bulkheads.
+
+The forward bulkhead was the first to arrive at our spaceship factory, and the aft bulkhead arrived this week. On this slide, you can see the full fabrication process, from the bulkhead sitting in its fabrication tool to nondestructive inspection to assembly in Phoenix. Slide 10 shows progress with our Feather Boom skins, which are the external surfaces of our spaceship’s tail. The Feather Boom is our largest subassembly, and all four boom skins are in various stages of fabrication. These are significant parts that are designed and built by our partner, Bell Aerospace, and these are big steps forward.
+
+Slide 11 shows the wing skins, which are also making great progress. The image on the left shows the lower wing skins, which are already in the spaceship factory working through subassembly. The image on the right shows our upper wing skins at our partner Carbon Aerospace’s facility. Inspections have been completed on one of the upper skins, and it will ship to Phoenix soon. And the other upper skin has been trimmed and will go into inspection shortly.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+While we’re talking about the wing, on Slide 12, you can see the leading edge shear webs, which make up the forward structure of the wing. These parts have been received and are in place in the wing up assembly tool of the factory. You will also see the aft spar has moved into the wing up tool, and this is a great step. During last quarter’s call, I mentioned we had a delay in the fabrication of this part, and we plan to manage it without impacting the critical path of the overall project. Since then, our engineers redesigned the part, we reworked the manufacturing work instructions with our partners at Carbon, and then built, inspected and shipped the new part.
+
+Now that part is delivered and in the wing assembly tool, and the
+
+Doug Arons, Chief Financial Officer, Virgin Galactic: team is able to move the
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: wing assembly forward. Another example of how we are resolving the inevitable challenges in a project of this scale involves a deficiency in the first article of our fuselage skin, which I mentioned in the opening. While each part is different, the process of resolving this fuselage part is very similar to what we just did in resolving the wing spar. We first do inspections and imaging of the part to assess the root cause of the manufacturing challenge. That root cause analysis highlights whether we need to make a design adjustment, a material adjustment, a layup or curing process adjustment, or a combination of the above.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+It’s a pretty typical process and one that our team of internal and production partner experts are used to tackling. While we continue to carry schedule contingency for the remaining phases of our spaceship program, we expect the fuselage scan will have a modest impact on the timeline for completing assembly of our first spaceship. This is why we’ve adjusted the expected timing of our first spaceflight to the ’6, with private astronaut flights still expected to commence later in the ’6. So what should you expect to see as we continue to move forward on our time line for spaceflight? On the first half of Q4, you should expect to see the completed wing assembly.
+
+The second half of Q4, you should expect to see the feather assembly complete. The fuselage will probably bring up the rear in December or January. We plan to start our glide flight test program next summer. We expect this will be the most time intensive part of the flight test program. We expect to celebrate our first spaceflight and the commencement of commercial operations in the 2026, with private astronaut journeys to space also in the 2026.
+
+We will be sharing insights into all stages of our spaceship program development progress through our We Build Spaceship series. Our next episode will drop later this month, and we expect to continue releasing new episodes on a cadence of every two to three weeks throughout this year to showcase our progress and keep our customers, investors and fans well informed. Moving to Slide 13. Before handing the call over to Doug, just a brief note on the development of our next generation launch vehicle, which is an important aspect of our long term growth strategy. We’ve made great progress on our spaceship program, and we are now able to direct more of our engineering talent towards the design of our next spaceship launch vehicle.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+Of course, the vast majority of our engineering and technical operations teams remain laser focused on delivery of our first two spaceships. As that spaceship work continues to close out, we’re able to begin to shift our design focus towards our launch vehicle program. We have given the launch vehicle program the internal project name of LVX, which stands for Launch Vehicle X, with a primary focus on developing a launch vehicle variant for use by Virgin Galactic to support our spaceships, but also with a design and planning eye towards a potential government variant that could be used in research and defense applications. In this latter category, I’m pleased to share that Virgin Galactic and Lawrence Livermore National Laboratory, one of our nation’s premier national labs, are collaborating on a feasibility study. We’ll share more details at a later date as we progress and continue to assess opportunities for our carrier ship platform to support government research, systems and missions.
+
+Okay. Over to Doug for a financial update.
+
+Doug Arons, Chief Financial Officer, Virgin Galactic: Thanks, Michael. Good afternoon, everyone. We’ll start with the financial results for the second quarter and then discuss how we are marching forward to deliver on our exceptional economic model. Turning to slide 14. Revenue in the second quarter was approximately $400,000 from future astronaut access fees.
+
+Total operating expenses for the second quarter decreased 34% to $70,000,000 compared to $106,000,000 in the prior year period. Total operating expenses were also down $19,000,000 from the $89,000,000 we reported in the first quarter. I wanted to mention that we have reached a preliminary settlement from the securities class action lawsuit, and the net financial impact on the company is expected to be approximately $2,900,000. We currently expect insurance will cover all or substantially all of the go forward costs associated with the settlement and pending derivative claims. Adjusted EBITDA improved by 34% to negative $52,000,000 in the second quarter compared to negative $79,000,000 in the prior year period.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+Adjusted EBITDA also improved 28% sequentially from the first quarter. Free cash flow was negative $114,000,000 in the second quarter, within the range of our prior guidance and representing a 7% improvement from negative $122,000,000 in the first quarter. Moving to slide 15 and balance sheet. We ended the second quarter with $5.00 $8,000,000 in cash, cash equivalents and marketable securities. During the quarter, we generated $56,000,000 in gross proceeds through our ATM equity offering program.
+
+You can see that our balance sheet remains strong, and we remain very focused on managing expenses as we progress through the build phase for our new spaceship fleet. I want to take a few minutes to share a little more color on our disciplined approach to managing expenses while strategically positioning the company to execute on our highly profitable business model. In past quarters, we previewed anticipated trends in our financial results, and those trends are playing out as expected. Second quarter operating expenses were down 34 year over year, and we forecast expenses to continue to decline in Q3 and Q4 on a year over year basis. As we progress through the spaceship build process, spending has been shifting from significant investments in r and d expense to capital investment.
+
+For the second quarter, capital expenditures were $58,000,000 up from $34,000,000 in the prior year period and also up from $46,000,000 we reported in the first quarter. We anticipate that approximately half of our spending in 2025 will be for one time capital expenditures for manufacturing capacity and the production of our first two new spaceships. On prior calls, I’ve highlighted that our growth in capital expenditures is reflected in property, plant and equipment or PP and E on our balance sheet. At the end of the second quarter, we reported three zero six million dollars in PP and E growing nearly 50% compared to $2.00 $9,000,000 at the 2024. This represents our investment in the assets that we expect to yield tremendous future economic returns.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+We also continue to directly drive reductions in our operating expenses. As we have shifted from the design phase to the build phase of our new spaceships, we are redirecting engineering resources and reducing expenses. As is typical at the conclusion of the design phase of the development program, we’ve adjusted our team structures and scaled down resources in parallel with the completion of work. Recall that we strategically leveraged expert contract engineering talent to work alongside our in house engineering team through the design phase of the spaceship program. Given that the design part of the program is practically complete, we have moved the majority of our in house engineering talent to the build program, retained a smaller footprint in the go forward spaceship design program, and importantly, reassigned others to the next generation launch vehicle program.
+
+With those changes across our engineering organization, we reduced our contract engineering workforce by nearly 150 people or 85 from a year ago. In addition, given the go forward engineering workload for both our spaceship and launch vehicle programs is reduced from our peak, we recently adjusted the size of our in house engineering team to account for this lower demand for resources, with overall company headcount reduced by approximately 7%. As you’ve heard today, we’re making excellent progress with the spaceship program and working toward delivering on the economics of the business model we have shared with you in the past as is shown on slide 16. We expect the capital on hand is sufficient to deliver the initial fleet of two new spaceships. At the same time, we’re using our ATM equity offering program to build growth capital to advance our expanded fleet scenario while supporting strength in our balance sheet.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+As Michael mentioned, we’re prudently moving forward with the engineering work on our LVX program. Having a second launch vehicle at Spaceport America along with two more spaceships will enable us to fully utilize the flight capacity of the spaceport. We continue to explore the outside interest in our launch vehicle platform from government entities. To revisit the suborbital spaceflight business model, when our initial fleet of two spaceships and existing launch vehicle reaches steady state operation is expected to support 125 flights per year, ramp to approximately $450,000,000 in revenue, and generate $100,000,000 of adjusted EBITDA. By expanding our fleet with a second launch vehicle and two more spaceships, we expect to grow our business to approximately $1,000,000,000 in revenue and yield $500,000,000 of adjusted EBITDA.
+
+Moving to our projections, revenue for the 2025 is expected to be approximately $400,000 primarily related to astronaut access fees. Forecasted free cash flow for the 2025 is expected to be in the range of negative $100,000,000 to $110,000,000 and the midpoint of that range represents a sequential decline of eight percent from Q2. We further project that cash spending will continue to decline through 2025 and be below $100,000,000 in the fourth quarter as we complete this phase of investment. With that, I’ll turn the call back over to Michael.
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: Thanks, Doug. In summary, we continue to advance our spaceship production and are on schedule for our first commercial spaceflight in 2026. With progress achieved in our spaceship program, we are moving ahead with preliminary design of our launch vehicle carrier ship platform to enable expansion of our spaceship fleet and the potential for other research and government opportunities. Our team is doing a fantastic job with the complex work of building spaceships, and we look forward to sharing their progress in the weeks and months ahead. Let’s open it to questions.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+Conference Operator, Conference Operator: Thank you. We will now begin the question and answer And our first question comes from the line of Greg Conrad with Jefferies. Your line is open.
+
+Oliver Chen, Analyst, TD Cowen: Good evening.
+
+Analyst: Maybe just to follow-up on the fuselage skin comments, appreciated the details. But you mentioned a root cause analysis and some of the things that you’re potentially looking at. Can you just clarify, has there determination or resolution at this point in time? And what adjustments need to be made?
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: Sure. I’ll get it for an earnings call, may get a little technical, but just a little depth in. So the fuselage skins, these are, I’ll call it, like the tube of the cabin of the spaceship for those who aren’t as familiar with what we’re talking about here, that fits in between the two bulkheads that are in the deck. Those skins are made of BMI carbon composite and they have what’s known as core, kind of like a honeycomb structure and that helps provide stiffening. Not exactly the same, but somewhat like you’d see corrugation in cardboard makes it a stiffer cardboard.
+
+And so as we are curing those parts, we’re working with the process to ensure that we have good fit across that core. What we had in the first part, just getting into the material science, was different weights of core, which is generally different densities to handle different level of compressive forces. And the thermal the coefficient of thermal expansion between those different weights allows for a different degree of expansion during the process in the autoclave. So we’ve assessed that, understand that’s where the issue is. We’re generally going at that through simplifying the types of core that we use in here, and we’ll finish that process out and then work for the next part.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+So hopefully, I gave you a little context into what’s going on there. And for those who are less interested in material science, sorry for the detail.
+
+Analyst: That’s helpful. And then maybe if you can just talk a little bit more about the dynamics. So the the research light shifted to fall, but it doesn’t seem like there’s any change to the the astronauts’ lease flight schedule for fall twenty twenty six? You know, what what were the dynamics that, you know, allowed you to keep the astronaut space flight while the the research first flight maybe pushes out a little bit?
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: Sure. The main thing going on, well, there’s probably a I’d call it a month and a half to two month total of this, you know, part. Yeah. This is a part, not the whole program of the ship, but of the part. But this hadn’t been on the critical path of the program.
+
+So the amount that when we kind of rework this like we just did with the SPAR, the amount of time it’s going to take before that part is back in the program, even though the whole thing is one to two months in duration, the amount on the critical path is less than that. And so what you’re fundamentally seeing is where we were probably at the tail end of these quarters before this, we’re now likely going to be more towards the earlier part of these quarters as they push over, would be my estimation. So you’re seeing the shift be less than a quarter’s worth of shift, fundamentally. And so our private astronaut flights are going to be a little later in the fall than they were before, but they’re still in the fall is our best planning and expectations. Thank you.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+You’re welcome.
+
+Conference Operator, Conference Operator: Our next question comes from the line of Myles Walton with Wolfe Research. Your line is open.
+
+Myles Walton, Analyst, Wolfe Research: Thanks. Michael, I think last quarter you spoke to opening or reopening ticket sales in 1Q twenty six. I imagine given the private astronaut flights haven’t moved much, that’s still the plan?
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: That is correct. We we still plan to do that in ’26. We haven’t settled on or haven’t, like, shared, I guess, where we’ll end up on pricing there. So our you know, I think what I said last time still holds. Our last stated price was $600,000 a ticket.
+
+I don’t expect that to go down when we reopen sales, but we haven’t been specific on a sales price yet.
+
+Myles Walton, Analyst, Wolfe Research: Okay. And then maybe just on the ATM or the user of, obviously, it’s important to maintain liquidity. But I’m curious at this level of liquidity given the milestones you have ahead and given the quantum of dilution you had to take in with $50,000,000 I think you had 37% dilution. Is it more of a wait and see and hold off on the ATM? Or is there a minimum $500,000,000 of cash liquidity you want to maintain, Doug?
+
+Doug Arons, Chief Financial Officer, Virgin Galactic: Thanks for the question, Myles. Yeah, the way we look at the ATM is it’s primarily for growth, right? So we access it to allow us to continue to invest in, for example, the launch vehicle program so that we can increase our revenue, our overall capacity by expanding the fleet. So we’ve talked in the past how we have enough capital today to get the first two spaceships done and get the commercial service and positive cash flow. So what we’re doing is building up some more capacity here on the balance sheet so that we can expand and keep that the engineering teams moving towards the next phase of growth with the launch vehicles.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+That’s the primary thing. And it also bolsters the balance sheet. But there isn’t a minimum cash balance. We want to be prudent about this. We’re it’s going as we expected, as we’ve telegraphed to you before that we had more in the past.
+
+We’re using that to invest in these vehicles that generate revenue in the future, targeting this crossover point to positive cash flow and trying to just balance those priorities and allowing us to drive growth in the process.
+
+Myles Walton, Analyst, Wolfe Research: Okay. But I mean, there has to be a consideration of the dilution of the current enterprise if you’re funding heavily dilution to the future enterprise. I mean, you have to be balancing that as well, would imagine.
+
+Doug Arons, Chief Financial Officer, Virgin Galactic: Absolutely. Yes. So it’s a balance because we see tremendous returns in investing in the future and allowing us to expand our flight capacity, get to this long term economic model that we’ve shown you. So by bringing in that cash now to allow us to get to that growth, we pull that in, right? We get to those higher returns and that higher EBITDA that we talked about much sooner than if we just waited for the positive cash flow to fund that organically, naturally.
+
+Eric Cerny, Investor Relations, Virgin Galactic: Okay.
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: And I’d just kick in, Miles, on top of Doug there. Yeah, we are trying to be very balanced and thoughtful about everything through here. So when we’re moving forward with, I’ll call it, on the LVX program, the launch vehicle program. That’s a lighter touch. I think you’re going to see us move more fully into baseline operations and actually creating cash flow before you see big, big economic pushes on LVX.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+And if we find something different along the way as we’re exploring opportunities for government uses of that platform, well, maybe then that’s a different reason to push the accelerator. But right now, we’re just being prudent to move the design along in a balanced fashion, so that we’re not overly waiting to scale when we’re ready.
+
+Myles Walton, Analyst, Wolfe Research: Okay. And the last one, you’ve mentioned the employee reduction on the, engineering side of 150. Was that backfilled by production, employees? I think the plan was this year to maintain roughly similar, employee headcount, but the mix was going to change.
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: Is that still the case? So it’s Michael here. I’m trying to remember how many people we’ve added in at our Phoenix facility. It’s really the place where we’ve had extra people coming in. So that one’s probably about 50 people have come in.
+
+And the large number you heard Doug talking about was a drop of contractor resources. So that’s taken place. And then as we, you know, continue to look for what’s needed for pushing the Delta spaceships through and into operation, As I mentioned, I’ll call it a disciplined approach to LVX. The the net engineering workload of those two programs is larger than we had at the base. And so just recently, we’ve let a group go from engineering.
+
+They’re fantastic engineers who’ve really done excellent work in kind of what the mission of Virgin Galactic in opening this up. We just don’t have the workload in these two programs for the size in certain departments, and that’s where some of our full time engineers left the company recently.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+Myles Walton, Analyst, Wolfe Research: Okay. All right. Thanks.
+
+Conference Operator, Conference Operator: Next question comes from the line of Oliver Chen with TD Cowen. Your line is open.
+
+Oliver Chen, Analyst, TD Cowen: Hi, Michael. Hi, Michael and Doug. As we think about fourth quarter, is it reasonable to expect that the free cash flow burn would be in the negative $100 to 120,000,000 region? Or anything we should know about for fourth quarter would be helpful. Also, as you think about the LVX launch vehicle program, do you have any general thoughts on the total addressable market and your interest there?
+
+And I think you commented on this, but anything that we should know about how you’re pacing or thinking about R and D related to that? And then finally, any thoughts on developments with customer experience and the luxury customer experience at scale for fall twenty twenty six? Thanks a lot.
+
+Doug Arons, Chief Financial Officer, Virgin Galactic: Thanks, Oliver. This is Doug. I’ll take the first question and hand it over to Michael. So regarding the free cash flow, we have indicated that the third quarter coming up, we expect to be between 100,000,000 and $110,000,000 And then consistent with what we’ve expected from the past is Q4 will be under $100,000,000 So we expect to exit the fourth quarter of this year at a spending level below 100. And that continues.
+
+So we would also continue to see reductions in spending going into 2026 as well. So that’s our forecast at this time.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: Oliver, I’ll take LVX and then the customer side.
+
+Doug Arons, Chief Financial Officer, Virgin Galactic: So the
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: very clear need that we will have for more launch vehicles will be for Virgin Galactic suborbital spaceflight business. So the X in the LVX program is you can have different variants of this ship. The place that we will put our primary focus at this stage is in a Virgin Galactic variant to that ship that will look very similar to our Eve mothership that’s there existing and probably have a few upgrades as you’d expect the new models to have. The way we can approach the engineering of that also can take into account what we are learning as we’re reaching out into government and research and defense areas to say, hey, is there a need in the marketplace for a high altitude heavy lift reasonably long endurance vehicle? And given what that need might be, how do we ensure that we are building into the design of the Virgin Galactic variant the capacity to adapt that to a government variant?
+
+So we’ve been pushing that through, and that part is very, very clear. Now you talked about kind of size of that market. That is a little less. What are we I’d say types of use cases. There’s clearly lots of testing of things that are needed to be at high altitude that will eventually turn into other ships or planes or equipment that goes there.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+So there’s a lot of testing capability. That’s probably a smaller demand on total vehicles.
+
+Doug Arons, Chief Financial Officer, Virgin Galactic: And then I think it
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: just depends on are there systems and needs that the government would have likely the defense side of the government to have a larger number. We’re not there yet. We’re just doing the assessments we need to understand what are the needs that the government may have for the use of a vehicle like this, who are the teams that we could partner with in that regard, and that will help us build an understanding of the business potential. So the note I put out with feasibility study with Lawrence Livermore, those people are fantastic. And that’s one of the ways, not the only way, but one of the ways we’re building our understanding of what this market could be.
+
+So nothing more on that at this time, but encouraged, I would say, by the general response we see for what a vehicle that does what our launch vehicles can do could be used for. As to the customers, this is getting fun for the customer side of the business who’s been on waiting to be flying. So a lot of the work right now, Oliver, is in the details of how do we scale and keep the true world class piece. Right? You’re talking the luxury customer.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+But obviously, this is is an intensive adventure piece, but also very high end, very high touch. And that means very one to one personal efforts. And how do we then take that and do at a higher cadence, right, as we’re going from one flight a week to two flights a week to three flights a week, and being able to move from there and adapt our facilities and scale up the, basically, customer hosting and training and all the guests of these things, these become big major events and how to handle that. So that’s a lot of logistics. Now that’s not a strange topic for us to do, but it requires detail and thought and how the facilities will be able to handle that.
+
+And we make sure that we keep the individualized attention as we have higher volumes. That’s a big thing. We’re starting to see the mock ups of our spacesuits come in because those will be changing, and that’s exciting to see. We are building an astronaut portal for our astronauts that will come as part of a website update as we go into sales. That is they’re kind of behind the rope of what they will need for their journey and how our training will play out ahead of their flight.
+
+So good preparation for this, but obviously next year is when this will really ramp up for sure.
+
+Oliver Chen, Analyst, TD Cowen: Okay. Great. Very helpful. A couple of follow ups, Michael. What are the hardest parts ahead that you’d say with respect to the assembly phase?
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+And any other thoughts on Italy and the spaceport opportunity there as well? Yes.
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: Mean the hard part I have to be choiceful with my words here. The hard part in the sense of the, I’d say, unbounded part of our spaceship development journey, you know, was pushed through in the engineering phase. It’s not that every phase doesn’t have its own challenges, but the engineering part has a little less bounding to it. Now while we’re kind of showing in these earnings presentations, there are lots of different aspects of the spaceship from the avionics and flight controls to the mechanical systems to the carbon composite parts we’re working to the rocket systems. And I’m watching all of those come together really well.
+
+I called Mike Moses just before this call, just checking in with him. And he’s excited. He just sees great movement. Teams are humming along with energy because we’re getting within striking distance of being back to flight. So that energizes everyone up.
+
+And when you see these parts coming out, it’s not just the part for the first ship. Right? Because we built these tools, the second and the third parts for the static test article and our second flying ship are also moving along as well. So when we pop up with things like this fuselage or what was last quarter like the wings bar, those are hard to a degree, but our team handles it, right? They come in.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+It’s a process. It’s very typical that the first kind of part out of the shop you know, need some process adjustments. I don’t know, Oliver, if you watched our We Build Spaceships episode three, which is about carbon part manufacturing. Our chief engineer, Gabe, you know, he used the term, you know, you have to dial in the recipe. So that that requires expertise, but it’s just, you know, kinda handling it and moving forward and getting the parts moving.
+
+So I feel really good about all of that. Now you mentioned Italy. Happenstance, the brand new director general of Enek, Alexander DeSornia is in. He’s in the building today. And so I saw he and his Director of Technical Innovation, Giovanni, downstairs with the team that we’re working on, on the study of Italy for Spaceport.
+
+They’re very pleased to be here. I think it’s a very good partnership as we’re doing that assessment. I think the assessment of the Gretelier, Southern Italy Spaceport will probably play out tail end of this calendar year, maybe teasing into the first part of next year. But that’s moving along and the partnership with the Italian government is strong.
+
+Oliver Chen, Analyst, TD Cowen: Thank you very much. Best regards.
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: Thanks, Oliver.
+
+Conference Operator, Conference Operator: Our next question comes from the line of Michael Lyschock with KeyBanc Capital Markets. Your line is open.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+Michael Lyschock, Analyst, KeyBanc Capital Markets: Hey, good afternoon, everyone. I wanted to maybe sticking with the Italian or Italy Space potential. If that feasibility study is successful, at what point would you potentially break ground there and begin constructing a second space for? And I’m not necessarily asking for exact timing, but more so the milestones that you need to accomplish with your existing space port before expanding, maybe what you’re targeting in terms of the size of the Delta fleet at that time and mother ships, something that you would like there before building the new facility. So any way to frame that would be great.
+
+Michael Colglaser, Chief Executive Officer, Virgin Galactic: Yep. Everybody’s very excited about Italy, and it fits right behind me very excited about Spaceport America and New Mexico, which is first order of business, of course. So the effort we have going on now brings, as you know, two spaceships with our existing launch vehicle, EVE, and that gets us to a good business. We’re cash positive. We’re making good money.
+
+We’re kind of self sustaining on that. But we really now have the fixed cost in so that growth incrementally drives a lot of flow through, and that’s our focus. The first step on that is this LVX program. We need additional launch vehicles. So we’re moving the design prudently while we’re still in this kind of pre really pre revenue, pre earnings phase so that we can get to this expansion.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+And I would expect that LVX program, because we’re going to get be a little prudent in the timing until we’re further along with spaceships, ’29 probably is when we bring those in and we’d see the first of those moving into Spaceport America. We would expect the LVX program probably not to have the degree of tooling that we built with Spaceships. We don’t need as many carrier ships. But the tooling will still be developed with those where we can bring multiple copies out once the engineering and the tools have been built on a pretty frequent basis. So that, to me, means we would have capacity in the plant to bring the next carrier ship, the next launch vehicle, as well as a couple spaceships to get started in Italy in 02/1930.
+
+And we can do fast expansion from there.
+
+Michael Lyschock, Analyst, KeyBanc Capital Markets: And then maybe looking into 2026, as we look at the quarterly spending, do you expect that quarterly burn rate to gradually improve in these kind of, you know, $10,000,000 or $20,000,000 increments or so, sequentially? Or do you expect, you know, maybe a couple quarters from now, we might see a larger $50,000,000 improvement, as you move through some of the biggest quarters in terms of the investments that you have going on right now?
+
+Doug Arons, Chief Financial Officer, Virgin Galactic: Mike, I would expect to see a continued declining trend in spending. It will get down to we’ll go below 100 by the fourth quarter. We’ll see it continue to decline in the 2026. It’s not going be big steps down. It will be a continuation of the trend.
+
+3rd party Ad. Not an offer or recommendation by Investing.com. See disclosure here or remove ads.
+And then what you see happen when commercial service starts is now we start bringing money in, right, and then you get a flip over to positive cash flow around the time of commercial service starting. So we got a downward trend. No big steps until we start commercial service, and that goes the other way.
+
+Michael Lyschock, Analyst, KeyBanc Capital Markets: Appreciate it. Thank you.
+
+Oliver Chen, Analyst, TD Cowen: Thanks,
+
+This article was generated with the support of AI and reviewed by an editor. For more information see our T&C.
+
+Should you invest $1,000 in SPCE right now?
+Ask WarrenAI, our powerful AI financial research assistant. It's just like ChatGPT for investors, but with access to 10 years of company data, a built-in screener, Wall Street analysts' reports, and earnings call transcripts for real-time, vetted insights.
+
+Get answers about SPCE and thousands of other assets within seconds.
+
+Ask WarrenAI, then decide
+
+
+0
+Latest comments
+Write your thoughts about Earnings call transcript: Virgin Galactic Q2 2025 sees reduced expenses, stock dips
+
+Post
+Comment Guidelines
+Indices
+Commodities
+Bonds
+Shares
+
+1D
+1W
+1M
+6M
+1Y
+5Y
+Max
+FTSE 100	9,426.99	+23.42	+0.25%	
+DAX	24,348.78	+89.98	+0.37%	
+Euro Stoxx 50	5,687.05	+6.12	+0.11%	
+S&P 500	6,740.83	+5.70	+0.08%	
+Nikkei 225	49,316.06	+130.56	+0.27%	
+Dow Jones	46,990.81	+284.23	+0.61%	
+FTSE 100 Futures	9,460.30	-11.2	-0.12%	
+
+Investing Challenges
+Join our investing challenges and compete for rewards while you learn!
+
+
+Take the Challenge
+Most Popular Articles
+News
+Analysis
+
+Gold may be in a bubble set to burst, economist warns
+By Investing.co...
+21 Oct 2025
+
+Playtech stock plunges 30% after Evolution names it in legal complaint
+By Investing.co...
+21 Oct 2025
+
+UK Autumn Budget: Six ways it could trigger bond yield spike
+By Investing.co...
+21 Oct 2025
+
+Up 15%+ this month, these mid-caps are the early winners of Q3 earnings season
+By Investing.co...
+21 Oct 2025
+
+Top European Retail Stocks Poised for Growth in 2025
+By Investing.co...
+21 Oct 2025
+More News
+Market Movers
+
+
+Most Active
+Gainers %
+Losers %
+Name	Last	Chg. %	Vol.
+Glencore
+344.40	-1.43%	
+42.56M
+BP
+413.80	+0.82%	
+34.31M
+Rolls-Royce Holdings
+1,132.06	+0.45%	
+27.69M
+HSBC
+985.00	+1.57%	
+20.78M
+Reckitt Benckiser
+5,876.0	-0.24%	
+2.78M
+Unilever
+4,636.0	-0.49%	
+2.55M
+AstraZeneca
+12,474.0	-0.72%	
+1.36M
+
+Webinars
+From Beginner to Pro: Navigating Your InvestingPro Subscription
+From Beginner to Pro: Navigating Your InvestingPro Subscription
+Wednesday, October 22, 2025
+10:00 EDT
+Trending Stocks
+
+
+Name	Last	Chg. %	Vol.
+B&M European Value Retail SA
+172.00	+2.56%	
+18.20M
+Rolls-Royce Holdings
+1,132.06	+0.45%	
+27.69M
+Fresnillo
+2,114.00	-12.21%	
+2.66M
+Metals One
+3.91	+34.83%	
+54.10M
+Eurasia Mining
+4.13	-11.40%	
+29.10M
+Show more
+
+
+Markets
+
+Ask WarrenAI
+New
+
+Stocks Picked by AI
+
+Watchlist
+
+Alerts
+
+Top Brokers
+New
+
+Breaking News
+
+Tools
+Install Our App
+Scan QR code to install app
