@@ -1,0 +1,525 @@
+DroneShield Limited R (DRH.F) Q3 FY2025 earnings call transcript
+Powered by Quartr
+Oct 21, 2025, 11:00 PM GMT+2
+
+Earnings call
+
+DroneShield reported $93M in Q3 revenue—more than full-year 2022—marking an 11x YoY increase. Operating cash flow turned positive at $20M vs. negative $19M YoY. Management outlined a $2.5B pipeline and expects up to $130M in additional Q4 revenue under ideal conditions.
+
+Powered by Yahoo Finance AI
+Oleg Vornik
+CEO
+0:00:00
+
+Welcome, everyone. I'm Oleg Vornik, the Chief Executive Officer of DroneShield Ltd. With me today is our Chief Financial Officer, Carla Balanco, and our Chief Product Officer, Angus Bean.
+
+Oleg Vornik
+CEO
+0:00:11
+
+Thank you.
+
+Oleg Vornik
+CEO
+0:00:11
+
+Thank you.
+
+Oleg Vornik
+CEO
+0:00:16
+
+Greetings, everybody. My name is Oleg Vornik. I'm the Chief Executive Officer of DroneShield Ltd. With me today is Carla Balanco, our Chief Financial Officer, and Angus Bean, our Chief Product Officer. Today, we'll be presenting to you our September quarterly results. Please feel free to submit your questions up front, and then we'll aim to take about 20, 30 minutes to go through the presentation itself and then answer your questions. We'll probably aim to go for about 60 to 90 minutes, depending on the amount of questions. Let's begin. DroneShield Ltd continues to be a well-positioned leader in the rapidly growing counter-drone industry. We're seeing continued deterioration in the geopolitical situation, and around every single conflict, we're seeing there are drones.
+
+Oleg Vornik
+CEO
+0:01:11
+
+We're seeing that not only in Ukraine but in the Asia-Pacific, with Chinese drones all around the region, in Europe, with all of you seeing the shutdown of European airports, such as what we're seeing on the cover of the presentation I was showing just earlier with our DroneSentry-X deployed in Denmark, throughout the U.S., and the rest of the world. Ukraine has irreversibly brought the drones as the centerpiece of every future warfare. Often, we get asked the question, what happens to those people tomorrow in Ukraine? I think we're all hoping for it. Bottom line is military planners around the world are looking to ensure they're ready for the next conflict, which means lots of drones and lots of counter-drone solutions because drones have clearly shown to be both the multiplier and the disruptor on the battlefield.
+
+Oleg Vornik
+CEO
+0:02:11
+
+You can have a $500 drone blowing up a $5 million tank. You can send the drone to front lines to disrupt the enemy. You can do surveillance instead of sending your own soldiers. It's clear that any future conflict, we have lots of drones, and with it, the need of lots of counter-drone solutions. If you're a military planner, your number one goal is deterrence, so ensuring you have enough equipment of every kind, including the latest technology, so you're deterring the enemy from starting the war. Secondly, if the war does begin, be able to have an adequate amount of equipment on hand as opposed to do your resupply during the war itself, which is the worst possible time. Importantly, this is not just the military market.
+
+
+Oleg Vornik
+CEO
+0:02:59
+
+We have recently done an updated total addressable market study showing that counter-drone is a roughly $60 billion opportunity, so roughly $30 billion for the civilian market and $30 billion for the military market. The civilian market has been a little slower to adapt to this new threat, but it is a very significant opportunity nonetheless. We're looking at airports, like drones disrupting flights, cyber threats, so data centers, drones landing on the roofs of data centers and conducting cyber breaches, drones delivering contraband to prisons, drugs, weapons, cigarettes, cell phones, escape kits, drones disrupting energy infrastructure, stadiums conducting corporate espionage. Because of that, we recently launched our Sentry Civ, our dedicated subscription-based civilian counter-drone solution for the civilian applications with lesser budget points. There will be high-end civilian customers, like airports and data centers, which will continue to use our main counter-drone solution.
+
+Oleg Vornik
+CEO
+0:04:05
+
+We believe DroneShield is really well positioned with a number of unique differentiators. Traditional defense programs are not well positioned to play in this area, which requires cost-effective and rapidly changing solutions. Today, we do quarterly software updates and hardware refreshes every three to four years. I'm excited about the fleet of next-generation technologies that we'll be releasing towards the second half of next year. Last but not least, we are the only publicly listed counter-drone company in the world. We provide that exposure to investors looking to participate in the counter-drone sector. On the results themselves, results largely speak for what they are. By far, the record quarter, accelerating what was already a record set of results in the last quarter. Why? Because now we're seeing customers saying, "Hey, I need a lot of counter-drone equipment.
+
+Oleg Vornik
+CEO
+0:05:07
+
+I only started looking at this recently." Most of our customers have not looked at the counter-drone problem until the Ukraine war started three years ago. They have very little to speak of. The market situation is tiny. We say that in the military space, it's a 5% market situation. A lot of our customers that may have one system really need 100. A lot of our customers have absolutely nothing. Over the last three years, our customers have conducted reviews, certifications, compliance checks, smaller purchases, and now they're moving to mass acquisitions. DroneShield is well positioned globally as those mass acquisitions are commanding. Our revenues are speaking for themselves and continue to accelerate. Revenue, $93 million just for the third quarter. That is more than our entire last year combined, which was already a record year of its own, 11 times an uptick on the quarter-on-quarter of last year.
+
+Oleg Vornik
+CEO
+0:06:04
+
+Cash receipts, $77 million, again, all-time record, 7 to 8x increase on quarter-on-quarter last year. SaaS revenues, only four times increase quarter-on-quarter last year. On SaaS, we have a strategy to move from the current roughly 5% of revenues to as close to 30% to 40% of the revenues over the next five years. We'll talk about that later in the presentation. Operating cash flow, importantly, turning significantly positive at $20 million from a negative $19 million quarter-on-quarter last year. Our aim as a company is to be consistently profitable and operating cash flow positive going forward while continuing to rapidly grow. Next, you're seeing something that I just mentioned in charts. Remarkable continued acceleration.
+
+Oleg Vornik
+CEO
+0:06:56
+
+We believe that this will continue going forward as our customers seek to procure counter-drone systems to meet their requirements in an urgent fashion with everything that's going on around the world in Europe, but also the U.S., South America, Asia-Pacific. Counter-drone is a truly global problem. We are a global leader in our place. For the key highlights to recap, we're seeing incredible record financial performance across every single metric you can think of: the revenue, the profit before tax. We do update our profit every half year. If you look at our last update a quarter ago, we had a profitable half year. Our aim is to continue remaining profitable moving forward. $193 million in secured revenues. Now, a logical question to ask is, how much can we improve it by the end of this year? It is difficult to say.
+
+Oleg Vornik
+CEO
+0:07:56
+
+However, we are expecting up to another $130 million of profitable revenues this quarter in a perfect scenario. What does perfect scenario mean? We have about $27 million of finished inventory that corresponds to about $80 million of inventory by sale value and additionally a number of batches in progress, depending on the nature of custom orders. What is the composition of the orders in terms of the products, the timing? There is another potentially up to, in a perfect scenario, $130 million of further revenues that we could secure. Material pipeline. We are increasing the size of the pipeline. It's $2.5 billion now. Historically, the conversion rate has been approximately 1 in 5, improving from about 1 in 10 maybe five to seven years ago. I'll talk about the pipeline separately when it comes to it. It's across about 300 projects.
+
+
+Oleg Vornik
+CEO
+0:08:59
+
+There are several very large projects in the pipeline, about five projects of about $100 million each and the largest opportunity of about $800 million in Europe with a 10 customer who previously put a $62 million order with us. We believe we continue to be really well positioned. Approximately 330 engineers out of the team of 400 people. This is very much a cat-and-mouse game. We're well resourced and continue to receive an incredible amount of intelligence from around the world on the latest drone techniques. Our customers share intelligence and data from our sensors to continue assisting us to develop best technologies. We want drone manufacturers to continue innovating because ultimately, that's what's providing a challenge for our engineers and continues to make our products highly differentiated.
+
+Oleg Vornik
+CEO
+0:09:53
+
+With it, we're spending over $50 million plus in terms of the annual R&D spend, which continues to build our moat with a very high cash balance of over $230 million. On the pipeline, Europe continues to be our largest driver with about 66 projects. This is a global business. We're active in about 70 countries around the world. There will be a number of additional drivers. For example, in Europe, we are doing an Amsterdam office that we are starting shortly. We have manufacturing in Europe that's coming online in the first quarter of 2026. We have manufacturing in the U.S. that's coming online around mid 2026, as well as continuing to build up teams around the world to take advantage of the rapidly growing counter-drone demand. We already talked about the total addressable market, it's very large and continuing to grow. Roughly $35 billion U.S.
+
+Oleg Vornik
+CEO
+0:10:54
+
+in the military space, about $28 billion in the civilian market, and importantly, very little by way of customer situation. We're at the very, very early stages of this opportunity and DroneShield is well positioned. On the products themselves, I believe most of you on this call would be well aware of the products we offer. It's a combination of hardware and software. The smarts are in both. A lot of the technology, when you think about AI on edge as opposed to large language models, is about how you build your hardware that can run your software AI engine right on the edge, in the palm of your hand. With it, we have broadly two families of products, being the dismounted or handheld solutions. The RfPatrol, the body-worn drone detector, and the DroneGun devices provide the defeat.
+
+Oleg Vornik
+CEO
+0:11:42
+
+They listen for the radio frequency connection between the drone and the controller to sense detection and provide the defeat. That is actually very difficult because drones today are continuously making themselves more and more difficult to be detected and also disrupted, often against a very complex environment, which is why approximately five years ago, we moved to artificial intelligence and a library-less-based approach to be able to detect never-seen-before drones. Like with any artificial intelligence, you need to have very large drone signal data sets. We started going around the world. This is, again, a benefit of us being present in about 70 countries and collecting drone data in places like Japan, Europe, Ukraine, U.S., South America, and so on. We continue to have a large number of devices.
+
+Oleg Vornik
+CEO
+0:12:31
+
+We have about 4,000 devices deployed globally, and over 1,500 of them are software-enabled that, with customers' consent, then relay the data back to us. Our data engineering teams are continuing to grow those data sets and making our drone detection and drone defeat now better. The second family of products is our on-the-move and fixed-site solution, what we call DroneSentry. DroneSentry combines multiple modalities. Our own DroneSentry-X, which is what you're seeing in the middle of the slide, next to the FAA team, is a multi-kilometer bubble of detection and defeat around the facility, combined with third-party systems like radars, cameras, and acoustics to be able to detect a drone in multiple ways. Last but not least is our Sentry Civ. That's our civilian, more budget-friendly option for low-budget customers like prisons and stadiums. It's a box you put on the wall of your facility.
+
+Oleg Vornik
+CEO
+0:13:32
+
+You get a tablet, and you can see a drone being tracked around on the map on the tablet, which gives you an option to send security and arrest the pilots or know where the drone is in real time and give you a bunch of statistics around it. This is all of our hardware. Now, on the software, this is an important part of our strategy to move from 5% of revenues in software to up to 30% to 40%. How are we going to do this? Today, only RfPatrol and DroneSentry app receive detection-based software updates. In the future, every device that DroneShield makes, we have one or multiple families of software updates that we charge staff on. For example, this month, we released our RF/AI attack.
+
+
+Oleg Vornik
+CEO
+0:14:18
+
+This is AI-enabled defeat engine, which for the next two quarters we're running as included in the bundle with customers who have our DroneSentry app. After that, this will be an additional subscription product. If you're buying DroneSentry-X, you now have two SaaS products bundled into your purchase, being SaaS-enabled detection and SaaS-enabled defeat. Future generations of DroneGun will have RF/AI attack on it as well. When you look at DroneSentry, the fixed and on-the-move solution, DroneSentry-C2 is at the core of it. It's our SensorFusion AI engine, our mapping engine. It gives you a map on the screen with dots floating around where drones are, flags where the pilots are, if we're able to identify the location of the pilot, and also it buys you analytics. For example, are you getting two flights a week or 20 flights a week if you're a prison?
+
+Oleg Vornik
+CEO
+0:15:15
+
+With it, other add-on SaaS families. DroneOptID, our SaaS-enabled camera-based AI software, the radar-based SaaS software. We have a number of future SaaS modules under configuration. Again, to treat DroneSentry-C2 as an ecosystem of SaaS when somebody buys a fixed-site solution. For example, we have a number of these deployed in Poland on the eastern NATO flank. Sentry Civ, we largely talked about. With electronic warfare and signal intelligence, we're currently having our, I believe, fourth $11.7 million contract. It's a two-year contract, very adjacent in the skill set to our counter-drone solution. All about detection of never-seen-before signals. We're learning a lot from that to take back to our main counter-drone work. By the way, with our counter-drone work, all of the IP is 100% ours. We're not relying on any third-party IP. The government doesn't own any of our IP.
+
+Oleg Vornik
+CEO
+0:16:18
+
+I will actually take the next couple of slides as read. I get a lot of these questions in terms of what's going to happen to DroneShield with the fiber optic drones, AI-enabled drones. I take it you guys have read through it. I'm happy to answer additional questions on that. In terms of our differentiators, we say that we have a number of technical and commercial differentiators. On the technical front, we have always been an incredibly engineering-focused company, while some of our competitors have really been marketing businesses with a bit of technology on the side. When our competitors had five engineers, we had 15. When our competitors had 15, we had 15.
+
+Oleg Vornik
+CEO
+0:16:57
+
+We have an incredibly highly agile organization, meaning as a result of the last 10 years, our products can detect further, defeat further, have more accuracy, be smaller, lighter, better perform to customer expectations, all of these various technical differentiators. On the commercial differentiators, it's the relationships with customers. Selling to governments, to militaries, to critical infrastructure is very different to selling to the consumer market, where over time, you form very close bonds with your customers. For example, in the military space, U.S. Air Force would just deal with Lockheed Martins and maybe Boeing when it comes to airplanes. They wouldn't talk to 20 other suppliers because there's a lot of sensitive data that's being exchanged, and especially when it comes to vulnerabilities. Militaries are usually a lot more forward about speaking about their strength as opposed to vulnerabilities, which tend to be very sensitive.
+
+Oleg Vornik
+CEO
+0:17:48
+
+DroneShield, over the last 10 years, the pioneer in this space, managed to establish itself as the trusted supplier of that technology to a number of governments around the world. We continue receiving their feedback. The result continues to be well positioned for those procurements. There's a common myth that all government work needs to be tendered. That is not true when it comes to defense, homeland security because often when you tender, you have to reveal your requirements, which is a problem. Because of that, our customers often get an exemption and are able to do direct award as opposed to a tender for our product. Most of our business comes not from tenders, but from direct purchases based on evaluations by our customers. Speaking of competitors, we state that across each product category, we normally have one or two competitors.
+
+Oleg Vornik
+CEO
+0:18:48
+
+We usually own the category in which we compete. For example, in handheld detection, there is a product by MyDefence, an old Wingman. We are at a higher price point, but significantly higher capability as well. A similar thing for design. Same thing for handheld defeat. Again, we are at a higher price point than many of our competitors, but we're also at a higher capability. What we're finding with our customers, you need to be cost-effective, but at the same time, you need to provide best value for money and most effective, especially if your customer lives depend on it. The names are all listed there. The point is that across the world, across the product segments, we are the most widely deployed company that we're aware of. I already talked about the traditional defense and security primes. They are more of our customers than competitors.
+
+
+Oleg Vornik
+CEO
+0:19:40
+
+They're not well positioned as an organization to deal with the rapidly changing technology product. They are also our complementary providers in a sense of they do ground-based air defense systems, which are against larger shiny objects like your missiles, your aircraft, helicopters. We then deal with smaller drones. Two systems can work together. Our systems do APIs or common communication protocols that can communicate with GBAD systems. We're not competing with Chinese or Russian systems. They're not considered possible for the Western customers. There's been a lot of consolidation in the counter-drone space. If anything, we're seeing that drones are continuing to proliferate. I would not want to be a drone manufacturer today competing against Ukrainian or Russian drone makers. That is definitely more commoditized in terms of becoming almost Lego-like in terms of putting your bits like your bodies, comms modules, engines, and so on together.
+
+Oleg Vornik
+CEO
+0:20:56
+
+There's a lot of rapid innovation going on inside of that in Ukraine. For counter-drone systems, it's really much more akin to electronic warfare where you need almost like farmer development, like large teams of engineers marshaling the development forward over a period of years. It's a much more complex game. Because of that, we're seeing the number of counter-drone makers continuing to consolidate. We're seeing less and less of our competitors around the world. On the manufacturing front, we're expanding from about $500 million a year to about $2.4 billion by the end of 2026. This is done a number of ways. Today, we are substantially relying firstly on our supply chain of component makers. We have approximately 50 of those parties, mostly Australian. For everything we can buy in Australia, we get it here.
+
+Oleg Vornik
+CEO
+0:21:52
+
+The only time we go outside of Australia for things is industries that don't exist in Australia, so chips, batteries, some other things. For that, it's mostly the U.S. that we turn to. We're moving from our current 400 square meter facility that we used to assemble and do final quality testing from that supply chain to about 3,000, so about eight times increase in Sydney. We're relying on two contract manufacturers, one in Sydney, one in Adelaide, to do the final assembly as well. This is reducing our CapEx requirements. What we have stated before is that all of that expansion in Australia equates to less than $15 million in cost, including three years to complete the buildout quarter because, again, we have this supply chain underneath us. We don't do things like buying expensive CNC machines or metal fabrication equipment. That is all done by our supply chain.
+
+Oleg Vornik
+CEO
+0:22:52
+
+Instead, we focus on rapid R&D and then final assembly and testing when it comes to the products. We are fundamentally not a manufacturer. It should not be seen as one. We're a technology company. In the U.S. and in Europe, we are finalizing arrangements with contract manufacturers there. The European contract manufacturer will be online in the first quarter of 2026. The U.S. contract manufacturing will be by about mid-2026. I've already briefly talked about inventory. We maintain about $82 million of inventory, and that is by book value. That is a bit under $300 million by sale value in terms of our finished inventory and in progress or our inventory.
+
+Oleg Vornik
+CEO
+0:23:45
+
+For the current quarter, in a perfect scenario in terms of the customers placing orders, just matching our inventory in the right way at the time and so on, we can potentially deliver up to another $130 million of orders before the end of the year. Our strategic priorities remain the same. We're looking to grow our pipeline to about $5 billion. My personal goal is to have our revenues cracking over $1 billion over the next five years. This is not guidance. This would be achieved through both our current products, the next generation of hardware that we're releasing over the next 12 to 18 months, and importantly, increasing the role of SaaS and software inside of our products as our customers are seeking to rapidly close their gap in terms of how little they have versus how much they need to have.
+
+Oleg Vornik
+CEO
+0:24:39
+
+For our customers, both military and civilian, over the next five years, the priority will be how do you go from very little to an adequate amount of counter-drone solutions. From about the 5 or even 10-year mark, it will be about saying, how do you do a replacement cycle? Because whatever you buy three or four years ago is not adequate anymore, given how quickly the drone technology is developing itself. With it, I conclude the presentation. We'll turn to questions. Give me one second. I'll just read through what we have in the Q&A. The first question is, have the U.S. Department of Defense or European military given us feedback that we have a competitive advantage that your competitors can't provide? Yes. We get this all the time. If we did not, then we would not be seeing those sales.
+
+
+Oleg Vornik
+CEO
+0:25:40
+
+Generally, a competitive advantage comes to the range, range of detection, range of defeat, effectiveness. When our customers send a bunch of drones against our equipment during the demos, how many can we detect? How many can we defeat? And other similar parameters. The next question is, what is our ability to meet the $800 million order with current manufacturing footprint? Do we need to further scale up? Assuming we get the $800 million order around the middle of next year, my hope is that we can do a good chunk of it, maybe half or two-thirds even, depending on the exact composition of the order and timing, within FY 2026. The remainder will fulfill over 2027. The customer will expect rapid fulfillment. This is part of our expansion from $500 million a year to $2.4 billion by the end of next year.
+
+Oleg Vornik
+CEO
+0:26:42
+
+The next part of the same question was background on the LEND156 opportunity and feedback from the government. For those who are relatively new to the story, LEND156 is the Australian Department of Defence rollout across domestic and overseas bases. Minister Pat Conroy, Minister for Defence Industry, previously said that this is going to be approximately a $1.3 billion opportunity over the next 10 years. LIDARS Australia, a subsidiary of a U.S. defense prime called LIDARS, was appointed as, call it, the administrator of the program in the last month or two. Our understanding is that the reason why LIDARS was appointed, LIDARS Australia doesn't play in a counter-drone game. They're not a counter-drone provider. They are more of a specialist of administering complex government programs. They wanted somebody who is not biased.
+
+Oleg Vornik
+CEO
+0:27:34
+
+They wanted to avoid, the government wanted to avoid a situation where, say, if DroneShield Ltd is the administrator, then it's difficult for DroneShield Ltd to recommend DroneShield systems being deployed because there will be conflict of interest. Because of that, LIDARS was appointed. We believe we'll be well positioned for the actual deployment of the counter-drone systems as the rollout will commence from 2026 onwards. The next question is, what are the challenges in scaling up our operations to meet the demand that we've experienced so far? That's likely that, as in the demand, that's likely to accelerate going forward. I would say it's the general challenges of scaling, right? I think of the business as sales, operations, and technology. As you scale, all three need to scale up.
+
+Oleg Vornik
+CEO
+0:28:25
+
+On the sales, how do you have an efficient structure of the best owned sales guys in the key centers around the world, managing distributed network, having the right certifications, access points to governments, and also importantly, actually, integration with larger platforms? If you're saying you want to be integrated with every armored platform, you want to be inside of every sensitive government facility, the aim is to have very close integration with those platform providers, right? Tank makers, people that make the access control systems. The final decision makers will be the end customers. You need to influence them. You also need pincer movement of actually talking to platform providers, including defense security primes, for them to lead with your offering as part of their overall systems, which also helps for them to sell their kit because they're now saying, hey, we're selling a tank.
+
+Oleg Vornik
+CEO
+0:29:24
+
+The tank also has a counter-drone system from the best in the field. When it comes to operations, the challenge is how do you sell a lot more pieces and with it maintain a lot more software updates? Nothing that hasn't been done before in other sectors, but it's just growing pains. When it comes to tech, it's about keeping up with essentially the Chinese government, the maker drones. The good thing is our customers don't expect us to be perfect. We don't say we are. The analogy that Angus Bean, our Chief Product Officer, often gives is it's a bit like a fence. People cut holes through fences. People climb over fences. Fences still serve a purpose. Similarly, you are not expected to be perfect, but you expect to be the best and continue to rapidly improve.
+
+Oleg Vornik
+CEO
+0:30:13
+
+We want the Chinese and the Russian drone makers to continue to improve because that's how we keep our competitive differentiation. If the drone manufacturers stop improving, stop seeking to avoid you, the whole counter-drone industry would just commoditize, and our margins would collapse. The next question is, what is the timeline of orders being made by Europeans for their DroneWall initiative? Many of you have seen a conversation about DroneWall in the news. We see DroneWall as two parts. There are actual border deployment systems, and we're already getting some of those and receiving some of those orders in smaller amounts, for example, more of our kit for the border in Holland, but also protection of facilities deep inside Europe. When you look at Copenhagen Airport being disrupted, that's not Russian drones flying from Russia. They don't have such a range.
+
+
+Oleg Vornik
+CEO
+0:31:16
+
+Instead, it's drones being launched domestically by Russian agents, gangs, and so on, disrupting those assets. You need a whole lot of facilities being protected by counter-drone systems. The $800 million project that we believe will land roughly around the middle of 2026 at this stage is part of this initiative, the DroneWall initiative. Impact of government shutdown in the U.S. on orders in fourth quarter of 2025. Yes, there has been some delay on the U.S. actually issuing purchase orders while the government is in a shutdown. We don't expect it to have any impact on our fourth quarter results. It just shifts the orders by a couple of weeks while the government is in a shutdown. Then there's rapid catch-up in the U.S. This has happened a number of times recently. Government agents, unfortunately, are well versed in this situation. Gross margin profile across product range.
+
+Oleg Vornik
+CEO
+0:32:20
+
+I might actually turn this one to Carla, our Chief Financial Officer.
+
+Carla Balanco
+CFO
+0:32:26
+
+Thank you, Oleg. The gross profit margins across our DroneShield products range from 65% to 75%, with an average of 70%. With the third-party products that we integrate, so that's cameras and radars, the gross profit margins sit around 15% to 20%. That will bring down our products on the systems that we sell, where our internal DSX or our fixed sites are generating that on average 70% margin. When you include the cameras and radars, it brings it down slightly. Thank you.
+
+Oleg Vornik
+CEO
+0:33:02
+
+Thanks, Carla. Next question is, I'll try to summarize it best I can. I think the person is seeking to understand whether robots are going to be involved in war in the future over the next 5 to 10 years and how are we thinking about it. We are actively in the process of integrating our kit with other, we don't call them robots. We call them autonomous systems, but same thing. Whether it's on robotic dogs, whether it's on tracked vehicles, whether it's on unmanned boats, all of that will have counter-drone kits sitting on top. That's part of the same thing as I was talking earlier about, for example, counter-drone on tanks.
+
+Oleg Vornik
+CEO
+0:33:55
+
+You have this pincer movement where you first talk to, at the same time, talk to the end customer and say, hey, if you're buying these unmanned platforms, they really need to have counter-drone protection on top of them. Then you're talking to counter-drone system providers saying, hey, you need, so you're talking to the robot makers, basically saying, hey, you need a counter-drone on top of them. The next person is asking, can we talk about the current legislation in the civilian markets across U.S., Europe, Australia, and how is it likely to progress in the next five years in our line? How do we envisage competitive intensity in tendering for civilian contracts? U.S. has probably the best first indicator. There is a lot of focus on the U.S. legislation now to enable states, first state and local law enforcement to be able to take drones down.
+
+Oleg Vornik
+CEO
+0:34:55
+
+Today, only federal agencies can. There's a very significant body like you think of Boston Police Department and all the other state and local police departments. Today, they can detect, but they cannot jam. When that legislation changes, and we think this could be in as little as the next 12 months, legislation can move pretty quickly under the current U.S. administration, this will create a long wave of demand. I think this will start putting pressure on the next field down, which is what do you do if you're a stadium? Today, the U.S. approaches this by planting federal agents for important events like the Super Bowl. Your stadium would not normally have the Department of Homeland Security agents inside a stadium. For the Super Bowl or Miley Cyrus concert, they would. Then they would operate systems like ours.
+
+
+Oleg Vornik
+CEO
+0:35:46
+
+I think over time, there's going to be a lot of focus on the ability for either remote operation by federal agents or, in fact, facilities themselves being able to operate systems. Here in Australia today, Australian Federal Police is able to use our jammers. For example, today, there is a drone disruption around Sydney Airport. While Sydney Airport themselves can do detection, police is the one who will be doing the jamming. It's a little awkward as a solution. I think over time, as we see more and more pressure to streamline this, and our approach has been to talk to regulators to then apply pressure to the airports to get on with it, this is all going to get streamlined. This is all barring, we'll call it like a drone 9/11.
+
+Oleg Vornik
+CEO
+0:36:31
+
+I can assure you that if tomorrow anywhere around the world there is a civilian-sector incident with mass loss of life involving a drone, which is a miracle it hasn't happened, I hope it doesn't, but statistically speaking, I'd say it's a matter of time, there's going to be very, very rapid change in legislation. Just like a fire alarm system would be compulsory in every such public facility, a counter-drone system would be as well. Now, if you're supplying to the military space, you're already operating at a higher level than what the civilian sector would require. You just have to adjust to the budgets. Airports and data centers are generally having similar budgets to the military's. For others, Sentry Civ, our more affordable solution, would be the right fit, which is why we introduced it.
+
+Oleg Vornik
+CEO
+0:37:15
+
+We think we're going to see the same crew of Juniper as we're seeing in the defense space because they are ultimately technology companies. Compete in the civilian sector, some of them will be outpriced. For example, I don't really see AeroVironment competing much in the civilian space. I think this is a significant opportunity for us as that sector opens up. The next question is, out of the $2.5 billion pipeline, how do we think about timing? How long would we expect to work through the pipeline, assuming we close all deals in the pipeline? We think of P-GO and P-WIN when we talk about the pipeline. P-GO is the probability of a particular project going ahead or getting delayed, changed, budgeted in, canceled. That's the biggest threat.
+
+Oleg Vornik
+CEO
+0:38:09
+
+P-GO will continue to remarkably improve because as the sector matures, our customers are getting smarter about how not to have a failed acquisition process. In the past, very often, the very first time a customer would buy a counter-drone system, they wouldn't know whom to turn to for budget. They wouldn't know how to approach this. Now, they are a lot smarter about this. We believe that P-GO will continue to remarkably improve. When it comes to P-WIN, this is us versus competitors. For most situations, because it's a sole source procurement, we don't really see much of a threat. Yes, there'll be situations where customers want a bit of diversity in terms of buying from several suppliers and whatnot. In our experience, in our product categories, we do dominate.
+
+Oleg Vornik
+CEO
+0:39:08
+
+Out of the $2.5 billion pipeline, which, by the way, projects out to about the end of 2026, which is as far as we can see, I'd say on base case, and this is not guidance, that we'll get maybe a fifth of that, which is consistent with the pipeline conversion over the next 12 months. The next question is, EOS, the competition for DroneShield, and what's our roadmap to develop a laser-based system? I think I might turn that one to Angus, our Chief Product Officer.
+
+Angus Bean
+Chief Product Officer
+0:39:41
+
+Thanks, Oleg. EOS does make a laser-based solution for CAN EOS. It's a very different price point, very different technology stack. Generally, we wouldn't be competing against EOS. Generally, if the customer is looking for that, it's very different to our products. However, our products are very complementary to that platform. Laser-based or even high-power microwave systems require technology to slew to, and then they can engage. That's really where our technology is. DroneShield, we've positioned our product and our technology stack to be at the front end of the engagement. Therefore, they're generally the first things that the customer adopts.
+
+
+Oleg Vornik
+CEO
+0:40:24
+
+Excellent. Thanks, Angus. The next one is, can we expand on the five opportunities of $100 million each, including sectors or regions they're related to, their likelihood, and expected time frame for conversion? They are all across the regions: U.S., Europe, South America, Asia-Pacific, so pretty diversified. They're all defense or homeland security type customers. They're all repeat customers, and timing is roughly sometime next year. Timing is very difficult for us to say, especially for larger projects, but roughly all next year. The next one is, if a peace deal were to be implemented quickly between Ukraine and Russia, how would it impact our pipeline of projects? We believe it would have very close to zero impact. This is because, like I was saying before, military planners prefer to buy during peacetime as opposed to having a knee-jerk reaction to Russian drones flying around Copenhagen Airport.
+
+Oleg Vornik
+CEO
+0:41:27
+
+We might get one $2 million urgent acquisition contract off the back of a crisis, but all of the larger opportunities we have are things that we've been working on over months and years in some cases. This will continue regardless of the current geopolitics. Militaries want to be ready and have robust long-term planning processes regardless of what's showing in the news. The next one, I think I'll turn the one to Angus again. What do we think is our advantage over our competitors?
+
+Angus Bean
+Chief Product Officer
+0:42:13
+
+Thanks, Oleg. DroneShield has a number of solutions. As Oleg mentioned, we've been doing this almost longer than anyone else in the game. Ten years of research and development to lead up to this point, we have a substantial advantage technically in our product performance, the ruggedization. As you've seen by the results this year, the ability for us to scale and support mass rollouts of these solutions does take time. Thankfully, we've had a good run-up to this moment. That's a real competitive advantage. The other advantage I would mention is that we are a true technology company. If you walk inside DroneShield and you're part of the team here, it feels much more like a Google than it does a traditional defense company.
+
+Angus Bean
+Chief Product Officer
+0:42:58
+
+That gives us a lot of advantage via the culture, but also the ability to remain agile and nimble and respond to these evolving drone threats. Really critical we maintain that. Thanks, Oleg.
+
+Oleg Vornik
+CEO
+0:43:10
+
+Thank you, Angus. I think the next one, I might turn back to you again. The person is asking, what is our position on future collaboration with specialized drone hard-kill market participants?
+
+Angus Bean
+Chief Product Officer
+0:43:26
+
+Thanks, Oleg. Sure. As I mentioned previously, we've really positioned our products at the very engagement end of the solution. Our DroneSentry-C2 platform and our RF-based solutions are generally that first two layers that a customer is looking to roll out as they develop their counter-UAS solution. We strategically have partnered with absolutely tier one, best-in-breed radar and optical manufacturers around the world to provide that additional layer. The question here is more around hard-kill, which we see as a sort of fourth or even fifth layer to the counter-UAS problem. We are looking at and partnering with hard-kill solution providers around the world. We're going through a number of evaluations at the moment. We'll determine which ones are appropriate for our customers and our markets, with hopefully some exciting announcements starting early next year.
+
+
+Oleg Vornik
+CEO
+0:44:25
+
+Thanks, Angus. Maybe just to keep rolling with you still. The next person is asking, people and their knowledge are an important part of our current and ongoing success. What is our human acquisition and development strategy? The reason why I wanted to pass it to Angus is sort of his capacity as the Chief Technology Officer as well, which he just started sharing or relinquished to another senior executive, Angus Harris. He had largely built the majority of our or all of our technology team, the majority of our team overall. We wanted to pass it to him for the answer.
+
+Angus Bean
+Chief Product Officer
+0:45:04
+
+Thanks, Oleg. That's right. Look, Oleg, Carla, and myself are really proud about a lot of the things that we've built here. I don't think we're more proud of anything other than the team that we've developed. As Oleg mentioned, it's over 400 people in DroneShield now and a truly world-class engineering team and organization. The big advantage we've had is actually to build this organization in Australia. If you want to do high-tech defense security, RF engineering, complex system integration, DroneShield is one of the best, if not the best, option in all of Australia to come and work. We back that up with a really positive culture. We have an extremely high retention rate over many years. A lot of the people who've been part of the organization throughout the last decade are still here today. There's a lot of retained knowledge and information.
+
+Angus Bean
+Chief Product Officer
+0:45:57
+
+We have a very high retention rate. All of our human resource metrics are looking really positive. It's all about building the culture, maintaining the culture even as we scale. I'm quite proud about how well we've maintained our core values and mission through the large scaling effort we've done over the last 24 months.
+
+Oleg Vornik
+CEO
+0:46:17
+
+The next question is, what kind of margin profile should DroneShield have at $1 billion of revenue? We anticipate that our 65% margin that Carla mentioned before will remain intact, which will be about $650 million worth of gross profit. The current cost base is about $100 million a year. The operational leverage would be that this will increase, but it will certainly not be a 5X increase in line with the 5X increase in $1 billion of revenue. If I would grossly speculate, this is not guidance, I would say on the $650 million of gross profit, we might do maybe $300 million of profit before tax. Next question is, last week, the White House unveiled a half-billion-dollar anti-drone plan for the 2026 World Cup in LA. How are we positioned for those contracts? We are actively engaging with multiple agencies which are involved in this project.
+
+Oleg Vornik
+CEO
+0:47:25
+
+Obviously, there is also some element in Canada as well as Mexico. We're engaging in those as well. The next one is, given we're the only public counter-drone company, would we consider listing in the U.S.? In time, yes. You need to be probably 3X of our current size. Otherwise, we just become another lost microcap in the U.S. market. We're finding that the large U.S. investors have no issue investing in ASX-listed shares anyway. The next question is, are we certain that the civilian airports across Europe have an understanding of anti-drone technology available to them? Are we certain? No. I think, look, there is a lot of general, let's say, malaise when it comes to airports, which is also why we are approaching via regulators to ensure there is enough pressure for airports to adopt counter-drone systems.
+
+Oleg Vornik
+CEO
+0:48:35
+
+Today, not a single airport around the world to our knowledge has a fully deployed counter-drone system. We think this is an enormous opportunity for DroneShield. Yes, if there's a Drone 9/11 tomorrow, every airport will have a huge amount of pressure to deploy a counter-drone system. Interestingly, in the U.S., unlike in Australia, every airport is government-owned, which means once FAA issues guidance to deploy one of several, we think it's going to be several for diversity reasons, counter-drone systems, it is going to be a massive wave of procurement. Meanwhile, we are both engaging directly with airports to promote what they need. For example, no, you don't have a machine gun in an airport for obvious reasons. You probably don't want to have high-powered radar because you'll interfere with other things that airports use.
+
+
+Oleg Vornik
+CEO
+0:49:23
+
+An educational campaign, our passive RF sensor is actually perfect for airport deployment in terms of the long range and not interfering with anything else at the airport. We think airports will start adoption over the next 12 to 18 months. I think the pressure just continues to build. How do we think about competitive positioning in the civilian space versus Dedrone and the differences in system architecture? I might actually throw this one to Angus. One somewhat flippant comment I make is earlier in one of my presentations, I mentioned that we've chosen to be an engineering company with marketing in addition to that, while Dedrone largely really evolved as a marketing business with an afterthought when it comes to engineering, which is why they don't really have any hardware to lead with.
+
+Oleg Vornik
+CEO
+0:50:14
+
+We're pretty much forced to go into command and control system as the path as opposed to having both, which is what we offer. I'll let Angus answer more comprehensively.
+
+Angus Bean
+Chief Product Officer
+0:50:28
+
+Thanks, Oleg. Yes, so Dedrone, we have been competing against for a number of years over a number of different markets. Really, the key here is solutions that work and engineering solutions that are proven in the battlefield and in real-world environments. If we are evaluated correctly under those terms, we're really comfortable with the competition against Dedrone. Overall, we have a few more product lines than they do, and generally, we are priced a little bit higher than Dedrone, but the performance is generally just far greater. That's about it on that one.
+
+Oleg Vornik
+CEO
+0:51:09
+
+Thanks, Angus. All right. I'll turn the next one to Carla. Regarding upsales pipeline, is it safe to assume that these are active opportunities? If we lose a contract or a customer decides to revisit the opportunity at a later stage, does the opportunity get removed from the pipeline?
+
+Carla Balanco
+CFO
+0:51:24
+
+Thanks, Oleg. Yes, that's correct. All of these are active opportunities. If there is a delay to a future period where we don't know when that is going to materialize, we move that from the pipeline. If it's lost, it's removed from the pipeline. All of those are current active opportunities that we're working on. Thank you.
+
+Oleg Vornik
+CEO
+0:51:44
+
+The next one is the channel mix trend towards distributed versus direct sales. What's the driver behind it? In Australia and in the U.S., which are, I guess, two of our long-established home markets, the customer expectation is to deal directly with the manufacturer, being us. This is also our home. We engage directly, and we sell directly in Australia. In the U.S., for bureaucratic reasons, there is sometimes an intermediary. These companies are called DLA. There are some others, which are basically, when you buy it, you also need an acquisition vehicle, so you would sell by one of those. You're driving the requirement and owning the relationship yourself. When it comes to Europe, it's a bit of a hybrid model. We seek to build relationships with our customers directly, be in front of them as much as we can, create the requirements.
+
+
+Oleg Vornik
+CEO
+0:52:40
+
+We often can't be everywhere, and we don't speak the language in lots of places. We don't have the often required performance history on contracts, which is why you'd be looking to appoint distributors. Appointing distributors is not trivial. You need to find the right kind of a distributor. You need to train them. They would often have 10 or 20 different brands. You might often be the only counter-drone brand, but they might also have sales of radars, tactical comms systems, night vision goggles. You need to have your salesperson on top of the distributor, which is usually a small company, 10, 20 people, but highly experienced, well planned. Stay on top of them saying, hey, what have you done this week to position DroneShield products? If you haven't done much, maybe you'll find another distributor.
+
+Oleg Vornik
+CEO
+0:53:28
+
+Most of our distributors are now very long-position relationships, a number of years, who understand our products. We work with them to either have very large programs or, in certain countries which are lesser customers of counter-drone, almost be on standby when the customer does eventually come to acquisition of counter-drone systems. Do we have a plan to enter unmanned traffic management market? I think this one is for Angus. Like culture, Angel, delivered in the past.
+
+Angus Bean
+Chief Product Officer
+0:54:02
+
+Thanks, Oleg. The unmanned traffic management or UTM sector is growing. At this point, it's very much a government sponsorship required. There's not a huge amount of commercial use cases for the platform. It is evolving, and it is increasing in its viability alongside other markets such as the drone as a first responder, the idea where a drone can be deployed to a site of a grievance before the police or ambulance arrive on site. We are seeing this being rolled out across areas like North America and Europe at the moment. DroneShield, we are actually really well positioned to support these two industries. We do not have plans today to lead the charge into these sort of unproven markets.
+
+Angus Bean
+Chief Product Officer
+0:55:00
+
+We are speaking with a number of partners where we can provide our counter-drone solution, which in this case is branded as airspace awareness solutions, to those UTM or DFR operators. We have a huge part to play in these evolving markets. It's very, very early days, but we are well positioned.
+
+Oleg Vornik
+CEO
+0:55:20
+
+Thanks, Angus. The next question is, with the 20% of 5 to 1 pipeline conversion, what is the reason why 80% isn't closing now? The biggest one is the P-GO, meaning customers getting their projects delayed, budgets just taking longer than expected. This is expected to improve. Just like it used to be maybe 1 in 10 and now 1 in 5 and substantially reduced or improved over the last several years, we've got customers that are becoming more competent in their approach to procurement. We believe that this can well be down to maybe even 1 in 3 or 1 in 2 in the next several years as the customers become better at getting their procurement in time and just becoming more confident. There is also this huge amount of pressure to deploy a counter-drone system.
+
+Oleg Vornik
+CEO
+0:56:11
+
+A customer five years ago deploying a counter-drone system, this was kind of like an early-stage innovator, nice to have, no big deal if you're running a couple of years late from your procurement. Now it's a must-have. There's a huge amount of pressure given everything going on around the world. I think the next one will be for Angus. I'll read out the question. Can we comment on the ideal drone detection and defeat kill chain of drones? How should radio frequency detect and defeat be partnered with kinetics such as bullets, lasers, microwave defeat system based on the feedback? How often can we provide the radius of defeat for radio frequency, lasers, bullets, and microwaves?
+
+
+Angus Bean
+Chief Product Officer
+0:56:52
+
+Thanks, Oleg. Quite a lot to unpack there. Just leave the question if that's all right. In terms of what we call the ConOp or the general sequence of use, the first thing that happens when a drone flies to a secure area is we get a radio frequency detection. The second thing that happens is the radar will pick up the drone. Our C2 system will fuse that data together. You'll no longer get a radar track and an RF line of bearing. You'll get a nice drone object that is displayed clearly to the operator with confidence and also a threat level in C2. The third step is that generally, there's an optical slew. The camera will then slew onto the target, whether that be an optical feed or a thermal feed. It will lock onto the target and start tracking the drone across the sky.
+
+Angus Bean
+Chief Product Officer
+0:57:45
+
+The question then moves to what can you do about that in terms of a response? We have built out already a layered response. Obviously, manufacture and build ourselves. We're putting a lot of time and energy into our RF attack solution. The second layer is a cyber approach that we have also integrated into the C2 solution to attempt to actually take over the control of that UAV platform. The last, generally, the third step is potentially a hard-kill solution. As I mentioned, we are currently evaluating a number of different hard-kill solutions for their performance, their precision, and also their appropriateness to our customers. We will provide the solutions that our customers require. That will determine the types of solutions that we move forward with more than anything else. In terms of the effectiveness and ranges, a lot of that is quite confidential in nature.
+
+Angus Bean
+Chief Product Officer
+0:58:51
+
+Generally, we would say that traditional bullets and that type of capability is not a great solution for counter-drone. These drones are increasingly very small. They can move at 120 kilometers an hour. Firing many, many bullets into the night sky to take down a drone is just not a good idea. People are looking at laser systems, high-powered microwave solutions. All of these solutions have positives and negatives. What we are doing is evaluating those. We'll be layering in solutions that are complementary to our existing platform throughout the end of this year and then moving into 2026.
+
+Oleg Vornik
+CEO
+0:59:30
+
+Just to emphasize, with the asymmetric nature of this warfare, you can't have a $10 million or $100 million laser against $200 drones. The cost of the counter-drone solution needs to be proportional to the cost of the drone. Otherwise, you just can't have widely deployed counter-drone solutions. Our kit costs from tens or hundreds of thousands of dollars, and a kit can be widely deployed. For example, we work with a great high-powered microwave solution in the U.S. from a company called Aperis. I don't know how the Aperis technology would be and when it would be allowed to be in the U.S. because it's so highly restricted, let alone the cost. The next question is about the Sentry Civ system. Do we have it in active use with different customers? What's the market for it at the moment?
+
+Oleg Vornik
+CEO
+1:00:19
+
+Yes, we have it now deployed in trials with different customers, and I think the market is significant. When you think about all of the relatively lower-end budget type customers—prisons, stadiums, corporates—like, say, in Tasmania, you now have activists killing salmon farms and logging facilities. All of that is a very ripe market for Sentry Civ. Timeline to dividends. Today, we're focused on growth, but the board regularly reviews its capital allocation policy. When and if there are updates, we'll advise the market. How do we think about the R&D spend moving forward as a percentage of revenue or growing per annum? We don't really think about it as a percentage of revenue. We think about it more as what do we need to achieve the objective. We have grown over the last year from about 250 to about 400 staff. Out of that, about 330 are engineers.
+
+Oleg Vornik
+CEO
+1:01:26
+
+There is an age limit, meaning you completely restructure your engineering teams once you get to a certain point in terms of significantly more middle managers and so on. Because of that, there's operational leverage, and you really want to go for the quality, not the quantity. As Angus often says, there is your capability hire and capacity hire. Then across both, you're really reaching this up to a certain amount. I would expect the R&D to probably increase by maybe up to 30% next year, even if it's a double or triple the revenue. You hit an age limit both in terms of your hiring and just how much makes sense in terms of the return on your R&D effort after that point. I'll leave the next question to Angus.
+
+
+Oleg Vornik
+CEO
+1:02:16
+
+Given our increasing reliance on artificial intelligence-driven detection and cloud-connected systems, how is the company strengthening its cybersecurity posture to protect its IP and sensitive client data, especially for defense customers?
+
+Angus Bean
+Chief Product Officer
+1:02:30
+
+Thanks, Oleg. Great question. At the middle part of last year, we actually brought on a new Chief Information Security Officer. It was the first time we appointed that role in the business. Sasha leads our security team. He himself comes from a very esteemed background working in Silicon Valley as well as parts of North America from companies like Microsoft and Fitbit. He's leading the team now. We've had more than 400% increase over the security team over the last 12 months. Very, very strong. We believe one of the strongest security teams in Australia. Additionally, we are a DISP certified organization. That's the Defense Industry Security Program. We have a high level of security across the organization as part of that program. We're audited by the Australian Commonwealth on our security posturing on a regular basis as being part of that program.
+
+Angus Bean
+Chief Product Officer
+1:03:31
+
+There's always an ongoing battle, similar to operations. You're constantly improving as you're extending the business. There's always more work to do. We're actively addressing it.
+
+Oleg Vornik
+CEO
+1:03:42
+
+Next one with Angus as well. Is DroneShield implementing zero trust solutions to its cloud services, such as some others?
+
+Angus Bean
+Chief Product Officer
+1:03:51
+
+I'm not going to talk in too much detail around our actual security execution. Certainly, there is a really Strong mix of both on-premise security as well as cloud. A lot of our customers do operate in a fully air-gapped environment, and that has different challenges as well. Also, the physical security of the servers themselves. That often means the server is forward deployed in quite challenging conditions, and we need to manage that as well. There's a lot of security being built from all the way through hardware through to our cloud infrastructure.
+
+Oleg Vornik
+CEO
+1:04:30
+
+Thank you, Anders. There are no further open questions at this time, so we'll conclude the webinar. Thank you, everybody, for joining. If anybody has any further questions, please feel free to email us at investors@droneshield.com or, alternatively, to me, Oleg Vornik, at droneshield.com. Thank you for your time.
