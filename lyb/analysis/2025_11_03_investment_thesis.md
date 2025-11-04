@@ -108,7 +108,8 @@ LyondellBasell is a cyclical recovery play with strong structural advantages tha
 - **Cash Improvement Plan:** $600M incremental cash flow target
 
 **Capital Allocation:**
-- **Dividends:** $443M returned in Q3, maintaining dividend
+- **Dividends:** $443M returned in Q3, maintaining $1.37 quarterly dividend ($5.48 annualized)
+- **⚠️ Dividend Risk:** Dividend payout ratio of 280% (dividend exceeds TTM EPS of $1.96) - current 11.84% yield reflects dividend cut risk, not opportunity
 - **Share Buybacks:** Minimal in 2025-2026, preserving cash
 - **CAPEX:** Reduced to $1.2B in 2026 from $1.7B in 2025
 - **Discipline:** Balanced approach preserving flexibility
@@ -261,6 +262,7 @@ LyondellBasell is a cyclical recovery play with strong structural advantages tha
 - Cyclical recovery timing uncertain
 - Strong balance sheet providing downside protection
 - Structural advantages supporting long-term value creation
+- **Dividend Yield Trap Warning:** Current 11.84% dividend yield is NOT a reason to invest - dividend exceeds earnings (280% payout ratio), yield is high due to stock price collapse (down 48% from highs), and dividend cut risk is elevated if downturn persists. Do NOT invest for dividend income - invest for cyclical recovery value play.
 
 ---
 

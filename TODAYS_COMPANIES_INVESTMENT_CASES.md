@@ -115,6 +115,14 @@ This document consolidates the investment cases for all 8 companies added today,
 ### Investment Case Summary
 **Hold to Buy** - Quality specialty chemicals company trading at attractive valuations with unique technology differentiation in battery materials. Strong financial metrics and operational excellence provide resilience despite near-term cyclical headwinds. Suitable for patient investors seeking specialty chemicals exposure with technology moat. Catalyst: Battery materials growth acceleration and cyclical recovery.
 
+### Important Notes
+- **⚠️ Weak AI Connection**: Despite being identified as an "AI beneficiary," Cabot's AI exposure is weak and indirect:
+  - **Only ~12-18% of revenue** has any AI/data center connection (wire & cable ~10-13%, data center backup batteries ~2-5%)
+  - **Connection is third-order**: AI spend → Data centers → Power infrastructure → Cables → Cabot materials
+  - **Primary business (63% of revenue)** is tire reinforcement, unrelated to AI
+  - **Investment case should focus on EV battery growth and infrastructure**, not AI data center spending
+  - Better positioned for: EV battery adoption (direct driver), grid infrastructure, renewable energy
+
 ---
 
 ## 6. DUK - Duke Energy Corporation ⭐⭐⭐ (Score: 78/100)
@@ -160,6 +168,15 @@ This document consolidates the investment cases for all 8 companies added today,
 
 ### Investment Case Summary
 **Buy for patient value investors** - Deep cyclical trough valuation with strong structural advantages in cost-advantaged regions and proprietary technology leadership. Accelerating capacity rationalization improving market outlook. Strategic portfolio repositioning creating long-term competitive moat. Requires tolerance for near-term volatility but offers significant recovery potential as markets normalize. Key catalysts: Capacity rationalization completion, margin expansion, multiple expansion as cycle normalizes.
+
+### Critical Warning: Dividend Yield Trap
+- **⚠️ DO NOT INVEST FOR DIVIDEND**: Current 11.84% yield is a warning sign, not an opportunity
+- **Dividend exceeds earnings**: Annual dividend $5.48 is **2.8x** TTM EPS $1.96 (280% payout ratio - unsustainable)
+- **Why yield is high**: Stock price collapsed 48% from highs ($88.20 → $45.67), not because dividend is great
+- **Dividend cut risk**: High if downturn persists beyond 2026 or Cash Improvement Plan doesn't execute
+- **Cash flow coverage**: TTM free cash flow (~$1.85B) barely covers annual dividend cost ($1.764B)
+- **Investment approach**: Treat as cyclical recovery value play, NOT dividend income investment
+- **Assume dividend may be cut** - don't rely on current yield in investment thesis
 
 ---
 

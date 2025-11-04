@@ -130,9 +130,12 @@ LyondellBasell operates in a highly cyclical industry experiencing its longest d
 
 **Impact:**
 - Dividend coverage: Dividend coverage challenging during downturn
+- **Critical Issue:** Dividend payout ratio of 280% (dividend $5.48 vs TTM EPS $1.96)
+- **Dividend Yield Trap:** 11.84% yield reflects stock price collapse (down 48% from highs) and dividend cut risk, not attractive opportunity
+- **Unsustainable:** Paying more in dividends ($1.764B annually) than earned ($642M TTM net income excluding items)
 - Capital allocation: Reduced flexibility for growth investments
-- Liquidity: Pressure on liquidity position
-- Shareholder returns: Reduced ability to return capital
+- Liquidity: Pressure on liquidity position if dividend maintained
+- Shareholder returns: Reduced ability to return capital sustainably
 
 **Mitigation:**
 - Strong cash conversion (99% TTM, 135% in Q3)

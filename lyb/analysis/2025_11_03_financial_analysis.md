@@ -126,9 +126,84 @@ LyondellBasell reported challenging Q3 2025 results amid the longest downturn in
 
 ### Capital Allocation
 - **Capital Expenditures:** $406M in Q3 2025, guided to $1.2B for 2026 (down from $1.7B in 2025)
-- **Dividends:** $443M returned to shareholders in Q3 2025
+- **Dividends:** $443M returned to shareholders in Q3 2025 ($1.37 per share quarterly, $5.48 annualized)
 - **Share Buybacks:** Minimal in 2025-2026; focus on preserving cash
 - **Debt Management:** Net debt issuance of $498M TTM; manageable debt maturity profile
+
+### Dividend Sustainability Analysis
+
+**Current Dividend Metrics (as of November 2025):**
+- **Quarterly Dividend:** $1.37 per share
+- **Annual Dividend:** $5.48 per share ($1.37 × 4)
+- **Current Yield:** ~11.84% (at $45.67 per share)
+- **Shares Outstanding:** ~322M
+- **Annual Dividend Cost:** ~$1.764B ($5.48 × 322M shares)
+
+**Dividend Coverage Analysis:**
+
+| Metric | Value | Period |
+|--------|-------|--------|
+| **TTM EPS (Ex. Items)** | $1.96 | TTM |
+| **Annual Dividend** | $5.48 | Annualized |
+| **Payout Ratio (Earnings)** | **280%** | Unsustainable |
+| **TTM Operating Cash Flow** | $2,357M | TTM |
+| **TTM Free Cash Flow** | ~$1.85B | Estimated |
+| **Annual Dividend Cost** | $1.764B | Annualized |
+| **FCF Coverage Ratio** | ~1.05x | Tight |
+
+**Critical Issue: Dividend Yield Trap**
+
+LYB is experiencing a **dividend yield trap** situation:
+
+1. **Dividend Exceeds Earnings:**
+   - Annual dividend ($5.48) is **2.8x** TTM EPS ($1.96)
+   - This is fundamentally unsustainable - paying more in dividends than earned
+   - Payout ratio of 280% indicates dividend is being paid from cash reserves or debt
+
+2. **Why Yield is So High (11.84%):**
+   - **Stock price collapse:** Down 48% from 52-week high ($88.20 → $45.67)
+   - **Earnings collapse:** High P/E ratio (60.19) indicates depressed earnings
+   - **Dividend maintained:** Company still paying $1.37 per share despite losses
+   - **Market pricing risk:** High yield reflects market expectation of potential dividend cut
+
+3. **Cash Flow Coverage:**
+   - Q3 2025 free cash flow: ~$577M (after $406M capex)
+   - Q3 2025 dividend cost: ~$441M
+   - Coverage ratio: ~1.3x in Q3 (adequate but tight)
+   - TTM free cash flow barely covers annual dividend cost
+   - **Risk:** If downturn persists or cash flow deteriorates, dividend coverage becomes problematic
+
+4. **Management Position:**
+   - Committed to maintaining $1.37 quarterly dividend
+   - Stopped share buybacks (2025-2026) to preserve cash
+   - Cash Improvement Plan targeting $1.1B incremental cash flow by end of 2026
+   - Strong liquidity ($6.5B) providing buffer
+   - **But:** If Cash Improvement Plan doesn't execute or downturn worsens, dividend cut risk increases
+
+**Investment Implications:**
+
+**NOT a Reliable Dividend Play:**
+- The 11.84% yield is a **warning sign**, not an attractive opportunity
+- High yield reflects high risk - market expects potential dividend cut
+- Dividend exceeds earnings by significant margin (280% payout ratio)
+- **Treat dividend as at-risk, not guaranteed**
+
+**Value Investment Case:**
+- Deep cyclical trough valuation (0.41x Price/Sales)
+- Recovery potential: 30-50% upside if cycle recovers
+- Investment case should focus on cyclical recovery, not dividend income
+- **If investing, assume dividend may be cut** - don't rely on current yield
+
+**Risk Assessment:**
+- **High Risk:** Dividend cut likely if downturn persists beyond 2026
+- **Moderate Risk:** Dividend maintained if Cash Improvement Plan succeeds and cycle recovers
+- **Mitigation:** Strong liquidity ($6.5B) provides buffer, but not infinite
+
+**Recommendation:**
+- **Do NOT invest for dividend yield** - current yield is unsustainable and at risk
+- **Invest for cyclical recovery** - value play with 30-50% upside potential
+- **Monitor closely:** Cash Improvement Plan execution and market recovery timing
+- **Dividend cut risk:** High if conditions don't improve by late 2026
 
 ### Cash Improvement Plan Progress
 - **2025 Target:** $600M incremental cash flow
