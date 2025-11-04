@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-**BLUF: Corning presents an exceptional investment opportunity with strong execution on its Springboard growth plan, achieving 20% operating margin target a year ahead of schedule. The company benefits from multiple secular tailwinds: GenAI infrastructure demand creating $2B+ incremental opportunity, solar ramp toward $2.5B revenue target, and Apple partnership expansion. Strong financial position, technology leadership, and market positions provide competitive moats. Valuation remains attractive despite recent share price appreciation (85% YTD). RECOMMENDATION: STRONG BUY - Exceptional execution, multiple growth drivers, and strong competitive position justify premium valuation.**
+**BLUF: Corning presents an exceptional investment opportunity with strong execution on its Springboard growth plan, achieving 20% operating margin target a year ahead of schedule. The company benefits from multiple secular tailwinds: GenAI infrastructure demand creating $2B+ incremental opportunity, solar ramp toward $2.5B revenue target, and Apple partnership expansion. Strong financial position, technology leadership, and market positions provide competitive moats. Current pullback to $85.19 (-2.64% today, normal consolidation after +85% YTD) improves risk-reward profile with 12-29% upside to fair value of $95-110. RECOMMENDATION: STRONG BUY - BUY THE DIP - Exceptional execution, multiple growth drivers, and strong competitive position justify premium valuation.**
 
 Corning represents a compelling investment opportunity driven by exceptional execution, multiple secular growth trends, and strong competitive advantages. The company's Springboard plan has exceeded expectations, achieving profitability targets ahead of schedule while maintaining strong balance sheet health. Key investment drivers include GenAI infrastructure demand, solar energy expansion, Apple partnership growth, and technology leadership across multiple markets. The company's financial strength, market positions, and innovation capabilities provide a strong foundation for continued outperformance.
 
@@ -16,7 +16,7 @@ Corning represents a compelling investment opportunity driven by exceptional exe
 
 ## Investment Recommendation: **STRONG BUY**
 
-### Target Price: $95-110 (Current: $87.50)
+### Target Price: $95-110 (Current: $85.19, down -2.64% today)
 
 **Investment Rationale:**
 - Exceptional execution on Springboard plan
@@ -281,11 +281,16 @@ Corning represents a compelling investment opportunity driven by exceptional exe
 
 Corning represents an exceptional investment opportunity with strong execution, multiple growth drivers, and competitive advantages. The company's Springboard plan has exceeded expectations, achieving profitability targets ahead of schedule. Key investment drivers include GenAI infrastructure demand, solar energy expansion, Apple partnership growth, and technology leadership. The company's financial strength, market positions, and innovation capabilities provide a strong foundation for continued outperformance. While risks exist, they are manageable given the company's strengths. Valuation remains attractive relative to growth prospects and execution quality.
 
-**Investment Recommendation: STRONG BUY**
+**Investment Recommendation: STRONG BUY - BUY THE DIP**
 
 **Target Price: $95-110**
-**Current Price: $87.50**
-**Upside Potential: 9-26%**
+**Current Price: $85.19** (down -2.64% today, normal pullback after +85% YTD)
+**Upside Potential: 12-29%** (improved from 9-26% at $87.50)
+
+**Entry Strategy:**
+- **Immediate:** Consider buying at current levels ($85.19)
+- **Add-on:** If pullback extends to $82-84 range
+- **Stop:** Consider below $78-80 if fundamentals deteriorate
 
 **Key Investment Themes:**
 - Exceptional execution on growth plan

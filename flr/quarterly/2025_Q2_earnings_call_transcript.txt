@@ -1,0 +1,742 @@
+Fluor Corporation (FLR) Q2 FY2025 earnings call transcript
+Powered by Quartr
+Aug 1, 2025, 8:30 AM EDT
+
+Earnings call
+
+Fluor's Q2 2025 revenue was $4.0B with adjusted EPS of $0.43, down from $0.85 YoY. Adjusted EBITDA declined to $96M from $165M. Management cut full-year guidance due to infrastructure cost issues, Mexico JV slowdown, and client hesitancy amid trade uncertainty. However, long-term prospects remain intact, with $28B backlog (80% reimbursable) and strategic wins in LNG and mining.
+
+Powered by Yahoo Finance AI
+Operator
+0:00:00
+
+Good morning, and welcome to Fluor's Second Quarter twenty twenty five Earnings Conference Call. Today's call is being recorded. At this time, all participants are in a listen only mode. A question and answer session will follow management's presentation. A replay of today's conference call will be available at approximately 10:30 a.
+
+Operator
+0:00:22
+
+M. Eastern Time today, accessible on website at investor.fluor.com. The web replay will be available for thirty days. A telephone replay will also be available for seven days through a registration link, also accessible on Fluor's website at investor.fluor.com. At this time, for opening remarks, I would like to turn the call over to Jason Lankemer, Vice President, Investor Relations. Please go ahead, Mr. Lankemer.
+
+Jason Landkamer
+VP - IR
+0:00:58
+
+Thank you, Tiffany. Welcome to Fluor's twenty twenty five second quarter earnings call. Jim Brewer, Fluor's Chief Executive Officer and John Regan, Fluor's Chief Financial Officer, are with us today. Fluor issued its second quarter earnings release earlier this morning, and a slide presentation is posted on our website that we will reference when making prepared remarks. Before getting started, I would like to refer to our safe harbor note regarding forward looking statements, which are summarized on Slide two.
+
+Jason Landkamer
+VP - IR
+0:01:23
+
+During today's presentation, we will be making forward looking statements, which reflect our current analysis of existing trends and information. There is inherent risk that actual results and experience could differ materially. You can find a discussion of our risk factors, which could potentially contribute to such differences, in our 2024 Form 10 ks and our Form 10 Q, which was filed earlier today. During this call, we will discuss certain non GAAP financial measures. Reconciliations of these amounts to the comparable GAAP measures are reflected in our earnings release and posted in the Investor Relations section of our website at investor.floor.com.
+
+Jason Landkamer
+VP - IR
+0:01:59
+
+With that, I'll now turn the call over to Jim Brewer, Floor's Chief Executive Officer. Jim?
+
+Jim Breuer
+CEO
+0:02:03
+
+Thank you, Jason, and good morning, everyone. Thank you for joining today. Please turn to Slide three. To start, I wanted to provide an update on our ownership of NuScale Class B shares. In the next few weeks, NuScale will convert 15,000,000 shares into Class A securities.
+
+
+Jim Breuer
+CEO
+0:02:24
+
+We see this as a positive step in returning value to our shareholders. As NuScale's largest shareholder and the only firm with NuScale EPC expertise, we continue to be excited about our investments and the opportunities to deploy new scale technology in the power market. John will provide additional details in his remarks. Now let's turn to our operating review beginning on Slide four. Revenue for the second quarter was $4,000,000,000 Consolidated new awards for the second quarter were $1,800,000,000 and 72% reimbursable.
+
+Jim Breuer
+CEO
+0:03:06
+
+In addition to these awards, we recognized $1,700,000,000 in positive backlog adjustments for scope changes on existing reimbursable work. For the 2025, new awards were $7,600,000,000 with a book to burn PGM above one. Total backlog remains around $28,000,000,000 of which 80% is reimbursable. Moving to our business segments, please turn to Slide six. Urban Solutions reported profit of $29,000,000 in the second quarter.
+
+Jim Breuer
+CEO
+0:03:49
+
+Results in this segment reflect a $54,000,000 net impact of cost growth and expected recoveries on three infrastructure projects. I'll provide details on these charges in a moment. We also had lower take up in the quarter on a couple of mining and metals projects as timelines were extended, and we saw a slower than expected ramp up in revenue on a large life sciences project. New awards for the quarter were $856,000,000 compared to $2,400,000,000 a year ago. This includes the full release for the Rico Dick copper and gold mining project in Pakistan and an incremental award for a life sciences project in The U.
+
+Jim Breuer
+CEO
+0:04:38
+
+S. As a note, the Rico Dick award is a services only contract and therefore it excludes the typical CFM associated with similar large mining projects. Ending backlog in urban now at $20,600,000,000 represents 73% of Fluor's total backlog. Now please turn to Slide seven. During the quarter, we substantially completed the HCM scope on two innovative colocation data centers in India for an important but confidential client.
+
+Jim Breuer
+CEO
+0:05:23
+
+Prospects for the ATLS business in the second half of twenty twenty five include a pharmaceutical facility and additional data center work under our MSA with a major technology provider. We remain excited about the opportunities in the semiconductor and data center markets over the longer term. Near term, in semiconductors, our clients' investment intentions have not yet translated into meaningful new awards. In the data center market, clients are refining their capital spending plans to solve for short term demand in addition to addressing power and water needs for the ever increasing scale of projects. Having said that, we continue to deepen our relationships with data center clients as they express a need for our capabilities, large scale project acumen and modularization expertise.
+
+Jim Breuer
+CEO
+0:06:23
+
+In Mining and Metals, while the fundamentals for capital spending by our clients remain very strong, the immediate enthusiasm for major capital deployment is currently tempered by the potential impact of global trade uncertainty. During the quarter, we built upon our relationships with our traditional clients, including Anglo American, Barrick, BHP, Freeport McMuran, Madden and Rio Tinto. We also maintain our strong focus on execution and are leveraging our global capabilities from our traditional energy solutions offices to deliver high quality results on ongoing projects. For the next few quarters, our opportunities include additional scope on the Rico Dick project, copper work in Canada, green steel production in Europe and aluminum recycling in The Middle East. We're also very excited about opportunities in The United States, where we're already providing support and working on early engineering.
+
+
+Jim Breuer
+CEO
+0:07:34
+
+These include several significant copper developments and a rare earth project in Wyoming. During the quarter, there were a number of announcements about the investment and development of mining projects in The U. S, including rare earth and critical minerals, such as an opportunity for NP Materials. We're also seeing interest in steel production. We have strong relationships with many of these companies and believe that this market will be a source of opportunity in the next few quarters.
+
+Jim Breuer
+CEO
+0:08:10
+
+Moving to Slide eight. As I mentioned, infrastructure experienced cost growth on three projects during the quarter. On Gordie Howe, cost increased in the second quarter as we experienced rework and additional efforts required to hand over both ports of entry. This project is now 97% complete, and we expect substantial completion this fall. The 635 LBJ project experienced cost increases in construction materials as well as labor productivity impacts.
+
+Jim Breuer
+CEO
+0:08:49
+
+This project is 78% complete with an expected substantial completion date in 2026. Finally, on I-thirty five Phase two, the project experienced increased costs due to a subcontractor default, third party utility delays and mitigation costs related to these delays. This project is 58% complete and targeting substantial completion in 2026. To address the issues across these projects, we have increased operations oversight and strengthened the execution teams. We're also taking action against certain subcontractors, including designers, for recovery of costs caused by their poor performance.
+
+Jim Breuer
+CEO
+0:09:42
+
+Other projects in the infrastructure portfolio continue to perform expectations. For example, we are pleased to report that the Chicago Transit Authority Red Purple Line project opened up four stations and celebrated its first rider on July 19. And the Oak Hill Parkway project in Austin successfully completed a traffic switch to newly constructed roadways and bridges. Moving to Energy Solutions, please turn to Slide nine. Segment profit was $15,000,000 compared to $75,000,000 a year ago.
+
+Jim Breuer
+CEO
+0:10:25
+
+Results reflect reduced contributions due to projects nearing completion and the recognition of an unexpected 31,000,000 arbitration ruling for a fabrication project completed by our Mexico joint venture in 2021. This impact is not reflected in our adjusted results. New awards for the quarter totaled $549,000,000 Prospects for the next few quarters are expected to be modest as the reload we discussed for 2025 is taking longer than expected. This is due to a number of factors, including reduced CapEx budgets, trade uncertainty and soft battery and chemicals markets. We continue to engage in multiple power opportunities for the medium term that are aligned with our proven pursuit principles of fair and balanced risk allocation.
+
+Jim Breuer
+CEO
+0:11:24
+
+This includes the improved market and policy environment surrounding nuclear power investments as well as selective opportunities in the gas fired power generation market. Turning to Slide 10. We are extremely proud of the multiple accomplishments on LNG Canada in recent months. We achieved RFSU on Train one in the quarter and the client shipped the first cargo of LNG meeting their announced timeline. This milestone marks a significant achievement for the LNG Canada organization and for our joint venture responsible for EPC execution.
+
+Jim Breuer
+CEO
+0:12:09
+
+I congratulate the project team and the thousands of workers who helped build this facility. Most importantly, this is a watershed moment for Canada, who is now becoming a significant player in the increasingly important LNG market. Our team is now focused on achieving RFSU on Train two. And in line with our previous comments regarding timing of resolution, I am pleased to report that our joint venture has recently reached a settlement agreement covering our COVID claims and other matters. And finally, this morning we announced an award to our joint venture to update the FEED package for a proposed Phase II expansion.
+
+Jim Breuer
+CEO
+0:13:00
+
+If built, this expansion would potentially double the size of the facility. We look forward to supporting LNG Canada as they work towards a final investment decision. Moving on to Slide 11. Mission Solutions reported a segment profit of $35,000,000 for the second quarter compared to $41,000,000 a year ago. Profits slightly declined due to a temporary stop work order for an existing project on Tinian Island.
+
+Jim Breuer
+CEO
+0:13:38
+
+We look forward to the restart of the work in the near future. New awards of $363,000,000 included short term extensions at two DOE sites and additional funding for hurricane relief efforts. Ending backlog for the quarter was 2,000,000,000 As a reminder, this excludes work reported under the equity method. For the balance of the year, we have the Portsmouth recompete and key prospects for projects that are supporting HALEU nuclear fuel efforts. We now expect the full release of work at the Savannah River Plutonium project in the 2026, while we continue to work at full speed to progress engineering, long lead procurement and early site work.
+
+Jim Breuer
+CEO
+0:14:33
+
+Before I turn the call over to John, I want to provide an update on our view of the overall business environment. Please turn to Slide 12. In our last call, I mentioned that some clients were forging ahead with their time to market prospects, while others caution as their businesses are more sensitive to economic factors. Over the past couple of months, we've seen more clients continue to take a wait and see approach due to a variety of reasons, including ongoing trade policy discussions and developments, cost escalation and interest rates. In a few cases, we've seen project cancellations or extended deferrals.
+
+Jim Breuer
+CEO
+0:15:23
+
+So what does that mean for Fluor? It means that we are at a point in the cycle of short term hesitation on our way to longer term opportunity. We believe that the hesitation to release full EPC investments will subside once there is certainty in trade agreements and on their impact on client end markets, project costs and importantly, the rebalancing of the supply chain. Furthermore, and specifically in The U. S, once the effects of the recently enacted pro growth policies materialize, we expect clients to accelerate domestic investments in many of our end markets such as manufacturing, semiconductors, data centers, power, mining, metals and national security.
+
+Jim Breuer
+CEO
+0:16:21
+
+With that, let me turn the call over to John for the financial update. John?
+
+
+John Regan
+EVP & CFO
+0:16:27
+
+Thanks, Jim, and good morning, everyone. Today, I'll cover our results for the second quarter and go over the revised guidance for the balance of the year. Please turn to Slide 14 and the financial highlights.
+
+John Regan
+EVP & CFO
+0:16:42
+
+Jim already referenced revenue and new awards in the quarter. But as you can see, our consolidated segment profit for Q2 was $78,000,000 Our GAAP results notably reflect a $3,200,000,000 pretax mark to market gain for NuScale with a related tax impact of $757,000,000 It also includes a $31,000,000 unfavorable arbitration ruling related to our JV in Mexico for a job completed long ago. It includes a $13,000,000 deferral of PGM associated with the $1,700,000,000 in backlog adjustments that Jim described. And from a cash flow perspective, the cash payment for settlement of the NTTA matter that we accrued in Q4, which amounted to $33,000,000 With respect to the $13,000,000 deferral of PGM, I'd remind you in Q1, we saw an acceleration of PGM associated with some descopes. The $13,000,000 this quarter represents the inverse of that, but is unrelated to the same projects impacting Q1.
+
+John Regan
+EVP & CFO
+0:17:58
+
+Adjusted EBITDA for Q2 was $96,000,000 compared to $165,000,000 a year ago. Our adjusted EPS was $0.43 compared to $0.85 and $0.02 4 The reconciliation to GAAP figures can be found in our earnings release, but adjusted EBITDA includes the infrastructure charges, but not the Energy Solutions arbitration matter. G and A for the quarter was 52,000,000 similar to the $50,000,000 reported a year ago. However, results for this quarter reflect lower performance based compensation, offset by the recognition of some severance costs and a slight increase in our reserve for legacy legal claims. The restructuring activities principally relate to reductions in headcount in several non U.
+
+John Regan
+EVP & CFO
+0:18:52
+
+S. Energy Solutions offices. Although we accrued the expected costs in Q2, the funding of the underlying obligations will occur across the back half of twenty twenty five. We continue to actively review our overhead footprint in light of our needs and scale of operations. This year, for example, we've rightsized our efforts in global sustainability compliance and reporting as a result of the CSRD deferral.
+
+John Regan
+EVP & CFO
+0:19:22
+
+On another note, weakness in the dollar contributed to an FX impact of $41,000,000 in the quarter. This was uncharacteristically large, but irrespective of its size, was also excluded from our adjusted results. Net interest income in Q2 is unchanged from last quarter at $17,000,000 but compares to $38,000,000 a year ago. This reduction results from lower cash balances for projects nearing completion, particularly at LNGC. Our share repurchases also impact the year over year decrease as did the slowdown at our JV in Mexico.
+
+John Regan
+EVP & CFO
+0:20:03
+
+As a reminder, at the JV in Mexico, we have some unique credit protection features, including an ability to ramp down execution activities and to novate subcontractor obligations in the event of nonpayment. With delays in payment, we unfortunately had to invoke some of those rights this quarter, which impacted the quarter from both PGM and interest income and does trickle into the additional effects in the back half of 2025 that are embedded within the revised guidance. Moving to Slide 15. At June 30, we had $2,300,000,000 of cash and marketable securities compared to $2,500,000,000 at March 31. Operating cash flow for the quarter fell short of our expectations with an outflow of $21,000,000 compared to cash generation of $282,000,000 a year ago.
+
+
+John Regan
+EVP & CFO
+0:21:05
+
+This shortfall versus expectation was a result of a number of factors: one, increases in working capital on several large projects for a variety of factors funding some of the cost growth in the infrastructure space and the timing of AR collections in Mission Solutions and at our JV in Mexico. As a reminder, the 24 cash flow number reflected the resumption of dividends from LNGC and significant mobilization receipts for two then early stage projects. As an update on our legacy projects, in Q2, we provided $44,000,000 of funding. Our original expectation of funding about $200,000,000 on legacy projects for all of 'twenty five holds true, although we now anticipate some more funding in 'twenty six based on the revised project estimates. Also, some of the claims associated with the recovery for these jobs will likely extend into '26, which has a bearing on our OCF for this year.
+
+John Regan
+EVP & CFO
+0:22:19
+
+On the capital allocation front, we bought 4,000,000 shares in the second quarter, spending $153,000,000 In light of our revised operating cash flow guidance, we are expecting to slow the repurchase cadence in the 2025. Based on current projections, we expect total repurchases to be between $450,000,000 to $500,000,000 versus the $600,000,000 for all of '25 communicated after quarter one. At our Investor Day, we implied roughly $1,000,000,000 of stock repurchases across the planning cycle. Even at this reduced tempo, we still outpaced the straight line effect of that target, and we are not revising that figure. As a reminder, all of these repurchase expectations come on the back of our base operations, not through any SMR monetization.
+
+John Regan
+EVP & CFO
+0:23:15
+
+More on that in the outlook. That said, there are a number of important milestones in the next ninety days, which will address the contingency wedge of my cash forecast wheel from Investor Day, which itself subsumes several items such as litigation, tax disputes and other matters. The final outcome of these matters over the next quarter will influence where we land within that repurchase range. Coming back to LNGC, the JV remains focused on the completion of Train two and the remaining open punch list items, with future releases of dividends to the JV partners tied to the completion of Train two and the normal progression of the warranty period. The COVID settlement agreement largely mirrors the expectations we had embedded in earlier forecasts, but it does provide more insight into when the JV will be able to collect for such items and make future dividends to its partners.
+
+John Regan
+EVP & CFO
+0:24:20
+
+For several quarters, we've described our efforts to monetize our ownership of NuScale. Within the strategic sale pursuit, most of the discussions centered around how to convey the fee shares without converting them into the registered securities. With NuScale's stock performance in the last few months, we see it as increasingly difficult for the strategic buying community to consummate a transaction at fair value. Accordingly, we are more embracing of a stock market facing solution, which can be better accomplished with the conversion into A shares. As Jim mentioned, we expect to complete a 15,000,000 share conversion of NuScale shares this month.
+
+John Regan
+EVP & CFO
+0:25:03
+
+We further expect to unveil our monetization plan over the next quarter, but I don't want to be too specific on how or when at this juncture. In the meantime, the conversion will go a long way to utilizing the tax credits that I've mentioned before. In any event, we still expect to use NuScale to contribute to our capital return objectives across the planning cycle. Moving to the outlook on Slide 16. We are revising our 25 adjusted EBITDA guidance to $475,000,000 to $525,000,000 and our adjusted EPS guidance to $1.95 to $2.15 As you think about this revised guidance, the big factors causing the decrease are the hesitancy prevailing in the market and the related impact to book and burn plus the decrease associated with infra and the slowdown in Mexico, roughly with similarly equivalent weighting.
+
+John Regan
+EVP & CFO
+0:26:09
+
+Our expectations for operating cash flow now range from 200 to $250,000,000 for the full year or 500,000,000 to $550,000,000 for the second half of the year. This reflects the lower guidance range for EBITDA and the timing of expected claims recovery for the infrastructure projects, but excludes the effects, if any, on legal settlements. Key assumptions and expectations for 2025 include a new awards outlook of 13,000,000,000 to $15,000,000,000 as we now expect the release for SRPPF, our largest prospect for 2025, will extend into the 2026. New awards are also expected to be impacted by the economic observations that Jim made earlier. We see revenue growth of approximately 5% to 10% compared against 24%, alongside the other guidance listed on the slide.
+
+John Regan
+EVP & CFO
+0:27:09
+
+Our expectations for CAL twenty five segment margins are unchanged, except for urban, where we now expect a range of approximately 2.5% to 3.5%, largely reflective of Q2 results. And with that, Tiffany, we're now ready for our first question.
+
+Operator
+0:27:42
+
+Your first question comes from the line of Andy Kaplowitz with Citi. Please go ahead.
+
+Andrew Kaplowitz
+Managing Director
+0:27:49
+
+Hey, good morning everyone.
+
+Jim Breuer
+CEO
+0:27:51
+
+Hey, Good morning.
+
+Andrew Kaplowitz
+Managing Director
+0:27:54
+
+Jim, so I know you talked about delays in project decisions. Maybe just talk about if I look at the bookings environment these days, you've seen a little bit of stabilization in the tariff environment. Have you seen any sort of stabilization in customer conversations? I know John just talked about the 13,000,000 to $15,000,000 in new awards for this year. So should we be thinking that you really don't turn back to backlog growth in the 2026?
+
+Andrew Kaplowitz
+Managing Director
+0:28:22
+
+Is that the sort of goal at this point? And where is that going to come from besides the plutonium project?
+
+Jim Breuer
+CEO
+0:28:28
+
+Yes. Thank you, Andy, for the question. So yes, we you've hit several points, so let me try to hit them in order. As far as the trade policy topic, it is having a significant impact on client sentiment and their willingness to make long term decisions, investment decisions. We have seen some clarity, as you say.
+
+Jim Breuer
+CEO
+0:28:55
+
+There were some announcements around Japan, EU. I personally would like to see more progress in the conversations with China, with Canada, with Mexico. Those just those three countries are very relevant to our world. And I think we're still seeing a developing story around tariffs and the all you need do is read the headlines for the last few days. So I think what our clients are looking for is a little more stability and certainty around where that's going to go in terms of several things.
+
+Jim Breuer
+CEO
+0:29:31
+
+One, cost project costs. But almost equally important, how is that supply chain going to rebalance? We're having these conversations with our active clients and our bids right now as the tariff matrix, if you will, countries on one axis countries, on a different axis the commodities, as that matrix continues to evolve, how do we shift and pivot and mitigate those risks on projects? And that is an ongoing story. So that has not fully sorted itself out.
+
+Jim Breuer
+CEO
+0:30:10
+
+We hope that it does in the near future. Our clients need that stability. These are big decisions, big investments. Now as far as the opportunities for the near term, we feel very strong that we're pursuing work in the right markets. If you look at what we presented in April in our Investor Day, we said we would be focusing on mining, and there's a big push for mining work both in The U.
+
+Jim Breuer
+CEO
+0:30:38
+
+S. And internationally. We said we would focus on advanced manufacturing, data centers and life sciences. And there's a lot of activity there. We talked about power.
+
+Jim Breuer
+CEO
+0:30:49
+
+We talked about selective LNG. You saw the announcement on Phase two. So Phase two, the fee that we announced, that's going to take some time, but it can be a really, really good opportunity for next year. In mission, national security, DOE work, of course, SRPPF is the largest opportunity, but it's not the only opportunity we're pursuing there. And even though there's softness in some of the ES markets, namely, say, chemicals, which is we're very strong in chemicals, we're still pursuing a couple of interesting chemicals opportunities.
+
+
+Jim Breuer
+CEO
+0:31:25
+
+So think, Andy, the portfolio is similar. I think we're seeing things slowing down a little bit. There's some hesitation today. But the opportunities will come from those markets that I just mentioned to you.
+
+Andrew Kaplowitz
+Managing Director
+0:31:43
+
+Helpful. And then, John, I know you don't want to talk too much about the new scale conversion, but obviously it's a topic du jour these days. So maybe just the mechanics of the 15,000,000 Do you take a task game when that Class B converts to A? And can you offset that? And then if you just step back, I think you talked about sort of resolving it over the next quarter or so.
+
+Andrew Kaplowitz
+Managing Director
+0:32:10
+
+Obviously, we've talked about this for a very long time. Do we think that you get more of a resolution here over the next quarter or so as you said, and we get more of an update than we got today?
+
+John Regan
+EVP & CFO
+0:32:23
+
+Yes. Without question, Andy. Several things in there. On the tax and then the credit utilization, absolutely, as I said in the prepared remarks, we do have a tax gain associated with the step up. And so you can it'll all come to fruition when we make the conversion.
+
+John Regan
+EVP & CFO
+0:32:46
+
+So you should generally think about the tax gain being roughly equivalent to whatever their screen price is on that day, multiplied by the 15 shares 15,000,000 shares. But we will be able to shield substantially all of that through tax credit profile that we have. So not much in the way of of cash leakage associated with the conversion. And then the monetization itself becomes one of not trying to top the market, but trying to do it in a way that captures a lot of the value without taking a steep discount associated with it. And again, we've got a long time to get that done, and I know there's a lot of anxiousness in the market for that to happen yesterday, but we're going to continue to be measured about it.
+
+Andrew Kaplowitz
+Managing Director
+0:33:39
+
+Appreciate the color, guys.
+
+Operator
+0:33:42
+
+Thank Your next question comes from the line of Jamie Cook with Truist Securities. Please go ahead.
+
+Jamie Cook
+MD - Equity Research
+0:33:49
+
+Hi, good morning. Sorry, another follow-up question on NuScale just to make sure I understand. Beyond this 15,000,000 shares, I mean, I think that was it's a good start, but people probably expected more shares just given where new scale stock is. Is this the path going forward? And is the, has the conversations with the strategic buyer, is that dead?
+
+Jamie Cook
+MD - Equity Research
+0:34:14
+
+I'm just trying to think through, is this the way forward or are there other alternatives besides this to continue to reduce your percentage of ownership in NuScale? And then my second question, Jim, obviously, want to be sensitive on LNGC, and it's, I guess, a positive you've made agreement on the COVID claims. But any more color you can add there on how positive, what it implies for cash flow? And then sorry, last, what's the $1,700,000,000 in positive backlog adjustments?
+
+Jim Breuer
+CEO
+0:34:48
+
+Maybe I'll start, Jamie, then I'll pass it on to John. So on LNGC, yes, we're very pleased with the settlement of the COVID claim. As I think, John, you mentioned, there's no significant change to management expectations as a result of that change order.
+
+John Regan
+EVP & CFO
+0:35:07
+
+Correct.
+
+Jim Breuer
+CEO
+0:35:11
+
+And so anyways, you go ahead on the NuScale question.
+
+John Regan
+EVP & CFO
+0:35:15
+
+Yes. So on the NuScale front. So Jamie, I think the $15,000,000 has a lot of applicability. One, it does go a long way to consuming the tax credits as we just talked about. Two, it does demonstrate the path to the B to A conversion.
+
+John Regan
+EVP & CFO
+0:35:36
+
+And importantly, we're expecting a monetization of those figures to more than cover our initial investment in NuScale. And so it suggests that the remaining 111 ish million shares or so are all upside opportunity from that initial investment. Now admittedly, it doesn't cover cost of capital over that period of time that we've invested in them, but we do recoup that initial investment through this transaction. And then I think as I said in my prepared remarks, we do see it increasingly difficult for the strategic buying community to transact at this relative screen price for the 100 I'll say the 111,000,000 shares. So it's a big number for someone to swallow.
+
+John Regan
+EVP & CFO
+0:36:28
+
+So if we can get this monetized through the normal stock market mechanisms, then that might be might harbinger the way we're going to do this moving forward.
+
+Jamie Cook
+MD - Equity Research
+0:36:40
+
+Okay. That's helpful. Sorry. On the $1,700,000,000 backlog adjustment, any color Yes. You can add
+
+Jim Breuer
+CEO
+0:36:45
+
+I missed that, Jamie. So yes, those were adjustments to ongoing work on reimbursable work. A lot of it is CFM. If you recall last quarter, we had the reverse effect on different projects and not the same projects. But it's an unusually high CFM and backlog adjustment number.
+
+Jim Breuer
+CEO
+0:37:09
+
+That's why we felt it was important to disclose it. And I think, John, it resulted in a deferral of PGM to the tune of about $13,000,000 in the quarter.
+
+John Regan
+EVP & CFO
+0:37:19
+
+Yes, that's correct. And so that's just going through the normal POC calculation. So it's not abandoned profit.
+
+John Regan
+EVP & CFO
+0:37:25
+
+It's just profit that we'll scoop up later in the year or across the execution profile of those projects. It was it's all reimbursable work. It was mostly urban. I think it was a little bit of yes. It it all urban. All urban. Yeah.
+
+Jamie Cook
+MD - Equity Research
+0:37:41
+
+Okay. Thank you.
+
+Operator
+0:37:53
+
+Your next question comes from the line of Andy Wittmann with Baird. Please go ahead.
+
+Andrew Wittmann
+Senior Research Analyst
+0:38:00
+
+Okay, great. Thanks. I just want to build on the last one because I think for many people, these accounting things about delayed profit and CFM customer furnished materials and gross profit margins, these are complicated topics. So last quarter, and I think you said it was a chemical project, you descoped it that allowed you to recognize profit. This quarter, different projects.
+
+Andrew Wittmann
+Senior Research Analyst
+0:38:25
+
+It sounds like you didn't have the CFM, and now you do have the CFM, So that increases your backlog, and then the profit recognition is the opposite of that. You're you're delaying it now, you'll get it in the future. I just wanted to kinda say it another way for everyone's benefit because these are complicated topics. John, do I have that pretty close to right or not?
+
+John Regan
+EVP & CFO
+0:38:44
+
+Good morning, Andy.
+
+John Regan
+EVP & CFO
+0:38:45
+
+Yeah. I think I think it was you that was probing on this in q one, and, yeah, you've you've you've got it nailed. Okay. Alright. So then, I guess, my other question, where do I wanna go next here?
+
+John Regan
+EVP & CFO
+0:39:01
+
+Andy, while while you're thinking about it. So in its simplest terms, the project has equivalent profitability before and after the additional scope. Similar. A little bit more, but generally speaking, similar. But it's just saying that as those furnished materials haven't yet landed, when they land, that's when I'll take up the profit.
+
+John Regan
+EVP & CFO
+0:39:26
+
+So what we saw was the percent of complete from an accounting perspective goes slightly backwards as a consequence of the additional scope. So I don't I don't know if that's helpful or not.
+
+Andrew Wittmann
+Senior Research Analyst
+0:39:36
+
+But Yep. No. Makes sense.
+
+Andrew Wittmann
+Senior Research Analyst
+0:39:38
+
+And because it's large, the urban revenue burn, because now you're recognizing the the the customer furnished materials through that segment, your revenue burn, all else equal, would go up. Now there's other moving pieces, but that's what people, otherwise should expect. Right?
+
+John Regan
+EVP & CFO
+0:39:52
+
+Yeah. Fair.
+
+Andrew Wittmann
+Senior Research Analyst
+0:39:53
+
+Okay. So I guess my next question is kind of related to this. But in mining, you said that, the copper mine here is services only. It's a little bit unusual. I guess, historically, you've booked EPCM on that, which would have come with customer furnished materials here.
+
+Andrew Wittmann
+Senior Research Analyst
+0:40:07
+
+You're just getting services here. So the implication there is that this should be higher margin work. I don't know if you could get some subjective commentary on how, we as the investment community should think about what these margins are. I think, historically, when you've had the EPCM, it's been like, you know, kind of three, maybe 4% margin stuff because there's a lot of pass through. But here, you don't have that.
+
+Andrew Wittmann
+Senior Research Analyst
+0:40:27
+
+So so what's the what's the profit profile that we should think of on a project like this one?
+
+John Regan
+EVP & CFO
+0:40:35
+
+Andy, I think your assessment is correct. In this particular case, given the nature of the scope of work, we did not take CFM. The magnitude of effort from us is similar to a traditional project. So you can assume that the magnitude of services and therefore the magnitude of margin is very similar to a project that would otherwise have attracted CFM.
+
+John Regan
+EVP & CFO
+0:41:08
+
+And I think your estimation of the margin percentages is correct if this had been a fully CFM project.
+
+Jim Breuer
+CEO
+0:41:20
+
+Maybe put differently, the services margin is akin to what it would be on the services margin on a different mining project.
+
+Andrew Wittmann
+Senior Research Analyst
+0:41:32
+
+Okay. And then just final question for me on LNGC Phase two. Obviously, the feed here puts you in a good position.
+
+Andrew Wittmann
+Senior Research Analyst
+0:41:41
+
+The execution on Phase one, frankly, puts you in a pretty good position here for Phase two. Obviously, going back many years now, that that phase one was done on a largely fixed price basis. And through COVID and through all this, you guys have negotiated yourself to a pretty good position through all these things. So congratulations on that. But now I think investors are going to turn their attention to what the risk profile could be and should be or might be for phase two.
+
+Andrew Wittmann
+Senior Research Analyst
+0:42:07
+
+And I understand that that contract has not been inked. And I know that just given that that is a negotiation that has to evolve here still. But what can you tell investors about how you're thinking about that as you sit here today? What you're willing to do recognizing the general success you had on Phase one and how that might be applicable to how investors should be thinking about Phase two? Thanks.
+
+John Regan
+EVP & CFO
+0:42:30
+
+Thank you, Andy. That's a very relevant question. I appreciate that. So absolutely, we are well positioned with our partner for Phase II. I think our performance on Phase I has proven that we can deliver on a large complex project with the right execution, contractual and commercial model.
+
+John Regan
+EVP & CFO
+0:42:55
+
+I will tell you that Phase II will be will have largely lump sum elements to it, but you're right. We're having those discussions with the client right now, so I don't want to get too far ahead of myself. Part of the FEED update is a negotiation of the contract. But the advantage here, though, Andy, is there are so many positive learnings from Phase one. If you look at what has transpired on Phase one, We have a proven project delivery model, the self reform part, the part that we relied on third party contractors and vendors.
+
+John Regan
+EVP & CFO
+0:43:35
+
+We have established working relationships with the local unions, the First Nations, extremely important in this case, the local government community. We're going to use, to a large extent, the same subcontractors and vendors that were used in Phase I. By the way, on Phase II, for those who are interested in engineering, 80 eight-zero 80% of the design is replicated. So we have that design. We're tweaking it in the feed output, but 80% is replicated.
+
+John Regan
+EVP & CFO
+0:44:12
+
+And we have extensive experience in self perform construction in Canada. So all these ingredients and let me add another ingredient, we have a very collaborative, good relationship with a client. We put all these ingredients, we are confident that at the end of the planning period, if the project gets funded and moves forward, that we're going to come up with a contract that reflects those learnings, has the proper allocation of responsibilities between the JV and the clients, and we're going to end up with a better contract and a better execution plan than Phase one in a way that we're going to be confident that Phase II is going be a very successful project.
+
+Andrew Wittmann
+Senior Research Analyst
+0:44:59
+
+Thank you.
+
+Operator
+0:45:02
+
+Your next question comes from Michael Dudas with Vertical Research. Please go ahead.
+
+Michael Dudas
+Analyst
+0:45:09
+
+Good morning, gentlemen.
+
+Jim Breuer
+CEO
+0:45:11
+
+Good morning, Mike.
+
+Michael Dudas
+Analyst
+0:45:15
+
+Jim, maybe you could share some further thoughts on the infrastructure projects. You know, obviously, you you they keep continuing to creep into the process here. Where do we stand? I I know you talked about it at the rule of completion, but some of the issues behind that and other projects that maybe we haven't seen at Gallie X, I guess, that wasn't mentioned. Is this how wind fenced business as we kind of move through the planning period over the next six to twelve months?
+
+Jim Breuer
+CEO
+0:45:47
+
+Michael, yes, we're I would say that we're disappointed with the results in the quarter on these three projects. As I said in my remarks, the impacts were caused for a variety of reasons, specifically limited to the three projects, whether it's design errors by third parties or material escalation or labor challenges. We are addressing very aggressively these issues and have taken actions both on the execution front and on the recovery from third parties. And yes, it is true that unfortunately we are still experiencing some pain from projects that we did many years ago with different pursuit principles and cover targets. But having said that, we are committed to finishing them as safely and as expeditiously as possible.
+
+Jim Breuer
+CEO
+0:46:40
+
+Michael, we've learned valuable lessons that have shaped and will continue to shape our strategies going forward. And specifically for these three projects, as I quoted in my remarks, one of them is essentially almost done. One of them is well advanced. The other one is about 58%. So you got 97%, 7858%.
+
+Jim Breuer
+CEO
+0:47:02
+
+And we're going to be tracking them very closely to make sure we keep them within the current forecast.
+
+John Regan
+EVP & CFO
+0:47:08
+
+Mike, I just might add too that the current results reflect the probable recoveries and the possible recoveries are substantially larger than we've embedded into the project forecast. And so just as we did earlier this decade across Gordie and across LAX, but where things haven't been our fault, we're going to fight real hard to reach an equitable outcome on those things as well. So the story here is not done from an upside perspective. And just as we've done before, we'll continue to ply away at that.
+
+Michael Dudas
+Analyst
+0:47:47
+
+I appreciate that. Jim, as you assess the second half of the year, maybe into 2026, can you share like how relative to a normalized level on project performance and executing against the margin, how that's been, you can state to these three projects in the Mexican project? And that maybe success relative to the deferrals from some clients, do you expect that could bleed a bit more into 2026 as some of these issues have to sort through?
+
+
+Jim Breuer
+CEO
+0:48:20
+
+Michael, so the project performance outside of the three infrastructure projects and the slowdown in Mexico is going very well. As I think we alluded to earlier, there's some reimbursable work that is just burning a little bit slower than initially anticipated, but that's just a pace issue. It's not a performance issue. And we have the sawtooth due to the additional backlog adjustments. But I would say that by and large, the rest of the portfolio is doing very well, in some cases exceeding initial expectations.
+
+Jim Breuer
+CEO
+0:48:59
+
+And as far as the outlook for this rest of the year and next year, just Michael, I think it just depends on whether the economic environment settles down. I think some of the prospects we're pursuing have a high certainty of going forward regardless. But in other cases, clients really need that certainty. And I think if you look at some of the commodities that may be affected by tariffs, whether it's steel or copper, even rebar that's tied to the steel market, piping, electrical equipment that comes from overseas. These are pretty significant inputs to projects and clients are looking for certainty on cost and on origin of supply.
+
+Jim Breuer
+CEO
+0:49:56
+
+And so I think we do need to see the market settle down a little bit and have some further clarity to be able to properly predict when exactly those projects are going to start taking off.
+
+Michael Dudas
+Analyst
+0:50:10
+
+Thank you, Jim. Thank you, John.
+
+Jim Breuer
+CEO
+0:50:12
+
+Thanks, Mike.
+
+Operator
+0:50:15
+
+Your next question comes from the line of Judah Aronovitz with UBS. Please go ahead.
+
+
+Judah Aronovitz
+Associate Director - Equity Research
+0:50:23
+
+Good morning. Thank you for taking my question. Just wanted to ask about the long term target, the 10%, 15% EBITDA CAGR. With the reduction in guidance for 25%, I guess, are thinking about that target now implies a pretty big acceleration. So is it fair to say that we're trending towards the lower end? And if not, what gives you confidence in reacceleration?
+
+Jim Breuer
+CEO
+0:50:48
+
+Thanks, Judah, for the question. So we feel pretty good about our strategy, Judah. If you go back to what we presented in April at Investor Day, those same markets are poised to do a lot of growth to experience a lot of growth in the coming years in the planning cycle. Yes, we're seeing a greater extent of hesitation today than we would have predicted two or three months ago. We're hopeful that that hesitation is short term and that the clarity will take place and therefore the decisions for investments will accelerate as as the economy here is doing well.
+
+Jim Breuer
+CEO
+0:51:33
+
+In general, the world economy is progressing in a positive manner. You see the bill recently enacted here that has some very targeted and strong policy endorsements around certain industries where we feel strongly we can play a big role. Europe, it's starting to show some level of increased economic activity. In Mexico, Judah, Mexico had elections late last year. It's very normal that in the initial cycle of the Mexican presidential six year term, the initial cycle is a little slow and then the country starts picking up.
+
+Jim Breuer
+CEO
+0:52:18
+
+And we as you know, we have a presence in Mexico. We've been very successful there in the past. So if you add up all these ingredients, I think we feel pretty good about the strategy and the long term objectives of a four year planning cycle. We just need some short term clarity so that this distraction and this uncertainty at least gets reduced. I don't know if it's going be eliminated completely, but at least significantly reduced so that we can see some decisions going forward.
+
+John Regan
+EVP & CFO
+0:52:47
+
+Yeah. I definitely think that the One Big Beautiful bill should create some tailwinds domestically, and it's in all the markets that we're playing playing it. And Jim covered them in his prepared remarks. You just basically go down the line where we operate. So I think from a strategy perspective and across the planning cycle, I don't see a need to pivot at this point.
+
+John Regan
+EVP & CFO
+0:53:12
+
+And I think as the trade policy settles, as our customers are better able to assess their end markets, I think we're going have a lot more clarity in the quarters to come.
+
+
+Judah Aronovitz
+Associate Director - Equity Research
+0:53:25
+
+Okay. And are you already having conversations kind of around the bill? And, yeah, I mean, how are customers thinking about prospects, maybe for us, copper, domestic mining, manufacturing, pharma, life sciences? Are are you hearing that from customers already?
+
+Jim Breuer
+CEO
+0:53:45
+
+Judah, it's we are hearing it's a little early. I mean, the bill was just passed a few weeks ago. These things take time. But even before the bill, we were already talking to these customers. So I don't wanna give you the impression that just after the bill, we started to talk to new customers.
+
+Jim Breuer
+CEO
+0:54:02
+
+I mean if you look at rare earth in The U. S, we have relationships with two clients that are working in that space. If you look at copper in The U. S, we have a long standing relationship and have a lot of project work under our belts, very successful project work domestically and internationally. We're the largest copper producer in The U.
+
+Jim Breuer
+CEO
+0:54:24
+
+S. We obviously, we're doing a very large life sciences project, so we have a strong resume there. And so, yes, our existing clients will benefit from the bill and those incentives in favorable conditions. I just think it's not about flipping the switch and it happens overnight. I think it takes a little bit of time.
+
+John Regan
+EVP & CFO
+0:54:50
+
+Yes. And it's helpful to the industries that specifically get called out in the bill. But more generally, things like more ability to deduct interest, R and D expenditure deductions and bonus depreciation are kind of agnostic as to industries, but they all feed into feeding machine from a capital investment perspective. And so we think that's going to be a net positive in the quarters to come.
+
+Judah Aronovitz
+Associate Director - Equity Research
+0:55:20
+
+Okay. Fair enough. And then just a clarification question on the LNG, the change order. It sounds like maybe it won't impact margin, but what about the cash flow? I don't know if I if I heard that right. Thank you.
+
+
+Jim Breuer
+CEO
+0:55:34
+
+Yeah. That's exactly what I was, intimating in the, in the prepared remarks. So, the the JV structure there creates a little additional nuance. So the JV itself needs to collect the money attendant to the amendment and then subsequently make dividends. So as pertains to Fluor, the operating cash flow will come to us when the dividends are made.
+
+Jim Breuer
+CEO
+0:56:00
+
+So the JV collecting it is an important first step, and they should have additional clarity by virtue of the amendments.

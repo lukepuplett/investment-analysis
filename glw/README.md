@@ -2,7 +2,7 @@
 
 ## 📈 MARKET BULLETIN: Springboard Plan Execution Ahead of Schedule with Strong Growth Drivers
 
-**Current Status:** GLW trading at $87.50 (+85% YTD) as exceptional execution on Springboard plan drives strong performance. Q3 2025 shows core sales of $4.27B (+14% YoY), operating margin expansion to 19.6% (+130 bps YoY), and EPS growth of 24% to $0.67. Company achieved 20% operating margin target a full year ahead of schedule, driven by GenAI optical demand (+58% YoY Enterprise Network), solar ramp (+46% YoY), and Apple partnership expansion ($2.5B U.S. manufacturing commitment). Multiple secular tailwinds support continued growth.
+**Current Status:** GLW trading at $85.19 (-2.64% today, +85% YTD) as exceptional execution on Springboard plan drives strong performance. Current pullback appears to be normal consolidation after strong YTD run. Q3 2025 shows core sales of $4.27B (+14% YoY), operating margin expansion to 19.6% (+130 bps YoY), and EPS growth of 24% to $0.67. Company achieved 20% operating margin target a full year ahead of schedule, driven by GenAI optical demand (+58% YoY Enterprise Network), solar ramp (+46% YoY), and Apple partnership expansion ($2.5B U.S. manufacturing commitment). Multiple secular tailwinds support continued growth. **BUY THE DIP** - Fair value $95-110 represents 12-29% upside from current price.
 
 **Key Themes:** GenAI infrastructure (scale-out and scale-up opportunities), solar energy expansion ($2.5B target by 2028), Apple partnership deepening, technology leadership, margin expansion execution.
 

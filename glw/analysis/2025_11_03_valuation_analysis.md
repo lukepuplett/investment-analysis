@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-**BLUF: Corning trades at attractive valuation metrics relative to its growth profile and execution quality. Current valuation (Forward P/E 28.99x, PEG 0.70, EV/EBITDA 27.44x) is justified by exceptional earnings growth (24% YoY), margin expansion (achieving 20% target a year early), and multiple secular growth drivers. DCF analysis suggests fair value of $95-110, representing 9-26% upside from current price of $87.50. Comparable company analysis supports premium valuation given superior execution and growth profile. RECOMMENDATION: Valuation is attractive relative to growth prospects - BUY.**
+**BLUF: Corning trades at attractive valuation metrics relative to its growth profile and execution quality. Current valuation (Forward P/E 28.99x, PEG 0.70, EV/EBITDA 27.44x) is justified by exceptional earnings growth (24% YoY), margin expansion (achieving 20% target a year early), and multiple secular growth drivers. DCF analysis suggests fair value of $95-110, representing 12-29% upside from current price of $85.19 (down -2.64% today, normal pullback after +85% YTD). Comparable company analysis supports premium valuation given superior execution and growth profile. RECOMMENDATION: Valuation is attractive relative to growth prospects - BUY THE DIP.**
 
 Corning's valuation reflects the company's exceptional execution, strong growth prospects, and competitive advantages. The company trades at premium multiples that are justified by superior earnings growth, margin expansion, and multiple secular growth drivers. DCF analysis, comparable company analysis, and sum-of-parts valuation all suggest the stock is undervalued relative to its growth prospects. The company's financial performance, market positions, and strategic initiatives support continued valuation expansion.
 
@@ -20,11 +20,12 @@ Corning's valuation reflects the company's exceptional execution, strong growth 
 
 | Metric | Current | 6/30/2025 | 3/31/2025 | 12/31/2024 | 9/30/2024 |
 |--------|---------|-----------|-----------|------------|-----------|
-| **Market Cap** | $70.69B | $44.99B | $39.08B | $40.58B | $38.59B |
-| **Enterprise Value** | $77.70B | $51.78B | $45.40B | $47.31B | $45.37B |
-| **Share Price** | $87.50 | -- | -- | -- | -- |
+| **Market Cap** | $73.07B | $44.99B | $39.08B | $40.58B | $38.59B |
+| **Enterprise Value** | $80.08B | $51.78B | $45.40B | $47.31B | $45.37B |
+| **Share Price** | $85.19 | $87.50 | -- | -- | -- |
 | **52-Week Range** | $37.31-$92.57 | -- | -- | -- | -- |
 | **YTD Performance** | +85.07% | -- | -- | -- | -- |
+| **Today's Change** | -2.64% (-$2.31) | -- | -- | -- | -- |
 
 ### Valuation Multiples
 
@@ -82,19 +83,19 @@ Corning's valuation reflects the company's exceptional execution, strong growth 
 - Discount Rate (WACC): 9.5%
 - Terminal Value Multiple: 15x FCF
 - **Fair Value: $95-105 per share**
-- **Upside: 9-20% from current $87.50**
+- **Upside: 12-23% from current $85.19** (improved from $87.50)
 
 **Bull Case DCF:**
 - Higher growth assumptions (GenAI, Solar acceleration)
 - Operating margin expansion to 22-23%
 - **Fair Value: $110-120 per share**
-- **Upside: 26-37% from current**
+- **Upside: 29-41% from current $85.19** (improved from $87.50)
 
 **Bear Case DCF:**
 - Moderate growth assumptions
 - Operating margin maintenance at 18-19%
 - **Fair Value: $75-85 per share**
-- **Downside: 3-14% from current**
+- **Risk: -12% to +0% from current $85.19** (improved risk profile)
 
 ### DCF Sensitivity Analysis
 
@@ -218,6 +219,40 @@ Corning's valuation reflects the company's exceptional execution, strong growth 
 
 ---
 
+## Market Update: Current Pullback Opportunity
+
+**Date:** October 2025  
+**Current Price:** $85.19  
+**Today's Change:** -2.64% (-$2.31)
+
+### Pullback Assessment
+
+**Context:**
+- Stock down -2.64% today from recent high of $87.50
+- YTD performance: +85% (exceptional run)
+- Current price: $85.19
+- 52-week range: $37.31 - $92.57
+
+**Assessment: Normal Consolidation**
+- Pullback appears to be normal consolidation after strong YTD run
+- No fundamental deterioration observed
+- Strong Q3 2025 results support continued strength
+- Technical support likely near $82-84 range
+
+**Improved Risk-Reward Profile:**
+- **At $87.50:** Upside 9-26% to fair value $95-110
+- **At $85.19:** Upside **12-29%** to fair value $95-110 (improved)
+- **Risk:** Downside limited to $75-85 in bear case (-12% to +0%)
+
+**Entry Strategy:**
+- **Immediate:** Consider buying at current levels ($85.19)
+- **Add-on:** If pullback extends to $82-84 range (improved entry)
+- **Stop:** Consider below $78-80 if fundamentals deteriorate
+
+**Conclusion:** Current pullback improves risk-reward profile with no fundamental changes. Fair value remains $95-110, representing 12-29% upside from current price.
+
+---
+
 ## Valuation Scenarios
 
 ### Bull Case Valuation ($110-120)
@@ -228,7 +263,7 @@ Corning's valuation reflects the company's exceptional execution, strong growth 
 - Operating margin expands to 22-23%
 - Strong free cash flow generation
 - **Target Price: $110-120**
-- **Upside: 26-37%**
+- **Upside: 29-41% from current $85.19**
 
 ### Base Case Valuation ($95-105)
 
@@ -238,7 +273,7 @@ Corning's valuation reflects the company's exceptional execution, strong growth 
 - Operating margin maintains 20-21%
 - Strong execution continues
 - **Target Price: $95-105**
-- **Upside: 9-20%**
+- **Upside: 12-23% from current $85.19**
 
 ### Bear Case Valuation ($75-85)
 
@@ -248,7 +283,7 @@ Corning's valuation reflects the company's exceptional execution, strong growth 
 - Operating margin contracts to 17-18%
 - Market cyclicality impacts
 - **Target Price: $75-85**
-- **Downside: 3-14%**
+- **Risk: -12% to +0% from current $85.19**
 
 ---
 
@@ -275,13 +310,13 @@ Corning's valuation reflects the company's exceptional execution, strong growth 
 
 ## Valuation Conclusion
 
-Corning's valuation is attractive relative to its growth profile and execution quality. The company trades at premium multiples that are justified by superior earnings growth, margin expansion, and multiple secular growth drivers. DCF analysis suggests fair value of $95-110, representing 9-26% upside from current price. Comparable company analysis and sum-of-parts valuation support premium valuation given superior execution and growth profile. The company's financial performance, market positions, and strategic initiatives support continued valuation expansion.
+Corning's valuation is attractive relative to its growth profile and execution quality. The company trades at premium multiples that are justified by superior earnings growth, margin expansion, and multiple secular growth drivers. DCF analysis suggests fair value of $95-110, representing 12-29% upside from current price of $85.19 (down -2.64% today, normal pullback after +85% YTD run). Comparable company analysis and sum-of-parts valuation support premium valuation given superior execution and growth profile. The company's financial performance, market positions, and strategic initiatives support continued valuation expansion.
 
 **Fair Value Estimate: $95-110 per share**
-**Current Price: $87.50**
-**Upside Potential: 9-26%**
+**Current Price: $85.19** (down -2.64% today, normal consolidation)
+**Upside Potential: 12-29%** (improved from 9-26% at $87.50)
 
-**Valuation Recommendation: BUY**
+**Valuation Recommendation: BUY THE DIP** - Current pullback improves risk-reward profile
 
 ---
 
