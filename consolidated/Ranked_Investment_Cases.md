@@ -1,6 +1,6 @@
-# Investment Cases: Companies Added Today (November 4, 2025)
+# Ranked Investment Cases - November 4, 2025
 
-This document consolidates the investment cases for all 8 companies added today, focusing on **Growth & Opportunity** versus **Valuation & Financials**.
+This document consolidates and ranks the investment cases for all 8 companies added on November 4, 2025, focusing on **Growth & Opportunity** versus **Valuation & Financials**.
 
 **Companies are ranked by investment quality score** (highest to lowest).
 
