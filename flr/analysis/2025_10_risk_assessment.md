@@ -7,6 +7,48 @@
 
 **BLUF: Fluor faces moderate to high risk levels driven by execution challenges on infrastructure projects, cyclical market headwinds from trade uncertainty, and cash flow volatility. However, the company's strong balance sheet ($2.3B cash), low debt ($1.07B), and 80% reimbursable backlog provide significant risk mitigation. Key risks include infrastructure project execution, client hesitancy from trade uncertainty, and legacy project funding. Risk-reward profile is balanced with strong downside protection but execution risks requiring monitoring. Hold recommendation - risk-tolerant investors seeking infrastructure exposure with strong balance sheet protection.**
 
+## Fundamental Business Model Risk
+
+### The Inherent Riskiness of EPC Contracting
+
+**EPC (Engineering, Procurement, Construction) contracting is fundamentally a high-risk business model.** This is not unique to Fluor - it's the nature of the industry:
+
+**Why EPC Projects Almost Always Overrun:**
+1. **Complexity:** Multi-billion dollar projects spanning 3-5+ years with thousands of variables
+2. **Uncertainty:** Conditions change over long timelines (material costs, labor, regulations, design changes)
+3. **Subcontractor Risk:** Even with best selection, subcontractor defaults and performance issues occur
+4. **Third-Party Dependencies:** Utility delays, permitting, weather, supply chain disruptions
+5. **Design Evolution:** Design errors discovered during construction, changes requested by clients
+6. **Market Dynamics:** Cost escalation, labor shortages, supply chain disruptions
+
+**This is why EPC contractors:**
+- Trade at discounted valuations (P/S ratios typically 0.3-0.8x vs. 2-5x for other industries)
+- Maintain strong balance sheets (need cash cushions for overruns)
+- Focus on reimbursable contracts (to reduce risk)
+- Have volatile earnings (execution issues create large swings)
+
+**Reimbursable Contracts Are Not Fully Protective:**
+Even with 80% reimbursable backlog, Fluor still faces cost overrun risks because:
+
+1. **Guaranteed Maximum Price (GMP) Contracts:** Many reimbursable contracts have cost caps - overruns above GMP are contractor risk
+2. **Cash Flow Timing:** Contractor funds costs upfront, recovers later through claims/disputes - creates working capital drag
+3. **Disputes:** Clients dispute whether costs are reimbursable, requiring negotiation/litigation
+4. **Non-Reimbursable Costs:** Costs due to contractor errors (execution issues, rework) may not be reimbursable
+5. **Probable vs. Possible Recoveries:** Only probable recoveries recognized in current results - possible recoveries are uncertain
+6. **Mixed Structures:** Even "reimbursable" contracts often have fixed-price elements
+
+**Impact on Fluor:**
+- Infrastructure projects experiencing cost overruns despite reimbursable structures
+- Cash flow volatility: Funding costs now, recovering later through claims
+- Legacy project funding: $200M+ annually from old fixed-price deals
+- Earnings volatility: Execution issues create large quarterly swings
+
+**This is why the investment requires:**
+- **Risk tolerance:** Accept volatility and execution surprises
+- **Balance sheet protection:** Strong cash position ($2.3B) provides cushion
+- **Long-term perspective:** Value created over multiple project cycles, not single quarters
+- **Execution monitoring:** Track project completion and execution improvement
+
 ## Risk Categories
 
 ### 1. Execution Risk

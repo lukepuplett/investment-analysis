@@ -21,9 +21,12 @@ Fluor operates through three main segments:
 
 ### Contract Types
 
-- **Reimbursable Contracts (80% of backlog):** Client pays Fluor's costs plus a fee - lower risk for Fluor
+- **Reimbursable Contracts (80% of backlog):** Client pays Fluor's costs plus a fee - lower risk for Fluor, but not fully protective (see risks below)
 - **Fixed-Price Contracts (20%):** Fluor takes on cost risk - higher risk but potentially higher margins
 - **Services-Only Contracts:** Engineering and project management without material procurement
+
+**Important Note on Contract Risk:**
+Even reimbursable contracts don't fully protect against cost overruns. EPC projects inherently face execution risks due to complexity, long timelines, subcontractor issues, and third-party dependencies. Many reimbursable contracts have Guaranteed Maximum Price (GMP) caps, and contractors must fund costs upfront while recovering through claims/disputes later - creating cash flow timing risk. This is why EPC contractors trade at discounted valuations and require strong balance sheets.
 
 ---
 
