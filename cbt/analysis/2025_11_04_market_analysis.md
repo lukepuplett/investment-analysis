@@ -309,6 +309,75 @@ Cabot Corporation operates in two primary segments serving distinct end markets:
 
 ---
 
+## AI/Data Center Second-Order Impact Analysis
+
+### Connection to AI Infrastructure Spending
+
+Cabot has been identified as a potential beneficiary of AI infrastructure spending, but this connection is **weak and indirect**:
+
+#### Actual AI-Related Revenue Exposure
+
+**Wire & Cable for Data Center Power Infrastructure:**
+- **Product:** Conductive carbons used in power distribution cables
+- **Connection:** AI spend → Data centers → Massive power needs → Power cables → Cabot's conductive materials
+- **Growth:** +15% YTD vs prior year
+- **Revenue Impact:** ~10-13% of total revenue (30-40% of Performance Chemicals segment, which is 34% of total)
+
+**Battery Materials for Data Center Backup Power:**
+- **Product:** Energy storage systems (backup batteries) for data centers
+- **Product Launch:** LITX® 95F launched specifically for energy storage systems
+- **Connection:** AI spend → Data centers → Backup power needs → Batteries → Cabot's battery materials
+- **Revenue Impact:** Small portion of battery materials (~13-17% of total revenue), so ~2-5% of total revenue specifically for data center backup
+
+**Total AI-Related Revenue: ~12-18% of total revenue**
+
+### Why This Is a Weak AI Play
+
+#### 1. Indirect Connection (Third-Order Effect)
+- **Chain:** AI spend → Data centers → Power infrastructure → Cables → Cabot materials
+- **Multiple Steps:** Requires multiple links in the value chain, diluting direct impact
+- **Time Lag:** Infrastructure build-out creates delayed and indirect benefits
+
+#### 2. Small Revenue Exposure
+- **Limited Impact:** Even if AI drives 100% growth in data center infrastructure, it only affects ~12-18% of Cabot's revenue
+- **Offset by Declining Segment:** The 63% tire reinforcement business is declining and offsets any AI benefit
+- **Diluted Benefit:** AI tailwind is diluted by the much larger cyclical headwinds
+
+#### 3. Business Model Reality
+- **Primary Business:** Cabot is primarily a tire reinforcement company (63% of revenue)
+- **AI Connection:** The AI connection is a small, indirect tailwind, not a core driver
+- **Investment Thesis:** The real investment case is around battery materials growth (EV adoption) and infrastructure (grid renewal), not AI data center spending
+
+### Comparison to Better AI Second-Order Plays
+
+**Companies with Stronger AI Exposure:**
+- **Power/Utilities (NEE, DUK):** Direct beneficiaries of data center power demand (data centers are massive power consumers)
+- **Cooling/HVAC (JCI):** Direct data center infrastructure (cooling systems critical for data centers)
+- **Industrial Automation (EMR):** AI-driven industrial transformation (GenAI advisors, automation trends)
+
+**Cabot's Position:**
+- **Weak AI Beneficiary:** AI connection exists but is indirect and small
+- **Better Positioned For:** EV battery growth, grid infrastructure, renewable energy
+- **Investment Case:** Should be framed around battery materials and infrastructure, not AI
+
+### Investment Implications
+
+**Misconception:**
+- Cabot may be incorrectly positioned as an "AI beneficiary" in some investment narratives
+- The AI connection is real but overstated relative to the business fundamentals
+
+**Reality:**
+- **Primary Investment Case:** Battery materials growth (EV adoption) and infrastructure investment (grid renewal, renewable energy)
+- **AI Connection:** A small, indirect tailwind that shouldn't drive the investment thesis
+- **Core Business:** 63% of revenue from tire reinforcement (declining, unrelated to AI)
+
+**Recommendation:** 
+- Evaluate Cabot based on battery materials growth, infrastructure trends, and cyclical tire market recovery
+- Treat AI/data center connection as a minor positive factor, not a primary investment driver
+- Focus on EV battery adoption (direct driver) rather than AI infrastructure (indirect, small impact)
+
+---
+
 ## Market Opportunities
 
 ### Growth Applications
@@ -317,11 +386,13 @@ Cabot Corporation operates in two primary segments serving distinct end markets:
    - Energy storage systems (new LITX® 95F product)
    - Next-generation EV batteries
    - Geographic expansion in Western markets
+   - **Note:** Primary driver is EV adoption, not AI/data center backup (small portion)
 
 2. **Infrastructure**
    - Wire & cable (grid renewal, data centers)
    - Wind turbine blades (renewable energy growth)
    - Alternative energy applications
+   - **Note:** Data center wire & cable is ~10-13% of total revenue, indirect AI benefit
 
 3. **Strategic M&A**
    - Capability and capacity investments in high-growth areas
