@@ -2,53 +2,11 @@
 
 This document consolidates the investment cases for all 8 companies added today, focusing on **Growth & Opportunity** versus **Valuation & Financials**.
 
----
-
-## 1. JCI - Johnson Controls International
-
-### Growth & Opportunity
-- **Record $14.6B backlog** providing strong visibility into future revenue
-- **Data center vertical** (~10% of sales, growing double-digits) represents key growth catalyst
-- **$200B+ global building automation market** with secular tailwinds from energy efficiency mandates, data center growth, and building modernization
-- **Market leadership**: #1/#2 positions in HVAC controls and building automation
-- **New CEO transformation**: Lean business system implementation targeting operational improvements
-- **40,000-person field force** and 140-year heritage provide competitive moat
-
-### Valuation & Financials
-- **Strong cash generation**: $2.87B TTM free cash flow (>100% conversion)
-- **Margin expansion**: 17.6% segment EBITA margin (up 20 bps), but **lags peers** (20%+ for leaders)
-- **Premium valuation**: 36.2x trailing P/E, 25.2x forward P/E
-- **Financial concerns**: Negative working capital (-$776M), high leverage (68% debt/equity), China exposure risk
-- **Fair value**: $110-$130 per share (current ~$113)
-
-### Investment Case Summary
-**Hold/Buy for patient investors** - Strong execution track record with record backlog and transformation potential, but requires 12-24 months to assess execution success. Premium valuation justified by transformation potential but requires margin expansion to close gap with peers. Key catalysts: Portfolio optimization, lean transformation scaling, data center growth acceleration.
+**Companies are ranked by investment quality score** (highest to lowest).
 
 ---
 
-## 2. CBT - Cabot Corporation
-
-### Growth & Opportunity
-- **Unique technology differentiation**: Only global player producing both conductive carbons and carbon nanotubes for battery materials
-- **Strategic positioning**: 40% of battery production growth expected in North America/Europe through 2030
-- **Strong secular trends**: Battery materials, infrastructure, and alternative energy driving Performance Chemicals growth
-- **Market recovery potential**: Accelerating capacity rationalization in petrochemicals improving long-term outlook
-- **Technology moat**: Sustainable competitive advantages in specialty applications
-
-### Valuation & Financials
-- **Attractive valuation**: 9.90x trailing P/E, 6.16x EV/EBITDA (deep value)
-- **Strong margins**: 21.7% Adjusted EBITDA margin (+220 bps YoY)
-- **Excellent balance sheet**: Net debt/EBITDA of 1.2x, $1.5B liquidity
-- **Revenue headwinds**: -7% YoY to $3.71B due to Asian tire imports and weak European construction
-- **Dividend yield**: 2.73% providing income component
-- **Fair value**: $75-$85 per share (15-30% upside from current $65.90)
-
-### Investment Case Summary
-**Hold to Buy** - Quality specialty chemicals company trading at attractive valuations with unique technology differentiation in battery materials. Strong financial metrics and operational excellence provide resilience despite near-term cyclical headwinds. Suitable for patient investors seeking specialty chemicals exposure with technology moat. Catalyst: Battery materials growth acceleration and cyclical recovery.
-
----
-
-## 3. GLW - Corning Incorporated
+## 1. GLW - Corning Incorporated ⭐⭐⭐⭐⭐ (Score: 95/100)
 
 ### Growth & Opportunity
 - **Exceptional execution**: Achieved 20% operating margin target **a full year ahead of schedule**
@@ -70,7 +28,7 @@ This document consolidates the investment cases for all 8 companies added today,
 
 ---
 
-## 4. EMR - Emerson Electric Co.
+## 2. EMR - Emerson Electric Co. ⭐⭐⭐⭐⭐ (Score: 90/100)
 
 ### Growth & Opportunity
 - **Industrial automation tailwinds**: Energy security, power generation, and digital transformation trends
@@ -92,7 +50,7 @@ This document consolidates the investment cases for all 8 companies added today,
 
 ---
 
-## 5. PH - Parker-Hannifin Corp
+## 3. PH - Parker-Hannifin Corp ⭐⭐⭐⭐ (Score: 88/100)
 
 ### Growth & Opportunity
 - **Portfolio transformation**: 2/3 longer-cycle/secular revenue mix reducing cyclicality
@@ -114,7 +72,7 @@ This document consolidates the investment cases for all 8 companies added today,
 
 ---
 
-## 6. NEE - NextEra Energy, Inc.
+## 4. NEE - NextEra Energy, Inc. ⭐⭐⭐⭐ (Score: 85/100)
 
 ### Growth & Opportunity
 - **"Golden age of power demand"**: Unprecedented data center demand, decarbonization goals, federal tax credits
@@ -137,7 +95,29 @@ This document consolidates the investment cases for all 8 companies added today,
 
 ---
 
-## 7. DUK - Duke Energy Corporation
+## 5. CBT - Cabot Corporation ⭐⭐⭐⭐ (Score: 82/100)
+
+### Growth & Opportunity
+- **Unique technology differentiation**: Only global player producing both conductive carbons and carbon nanotubes for battery materials
+- **Strategic positioning**: 40% of battery production growth expected in North America/Europe through 2030
+- **Strong secular trends**: Battery materials, infrastructure, and alternative energy driving Performance Chemicals growth
+- **Market recovery potential**: Accelerating capacity rationalization in petrochemicals improving long-term outlook
+- **Technology moat**: Sustainable competitive advantages in specialty applications
+
+### Valuation & Financials
+- **Attractive valuation**: 9.90x trailing P/E, 6.16x EV/EBITDA (deep value)
+- **Strong margins**: 21.7% Adjusted EBITDA margin (+220 bps YoY)
+- **Excellent balance sheet**: Net debt/EBITDA of 1.2x, $1.5B liquidity
+- **Revenue headwinds**: -7% YoY to $3.71B due to Asian tire imports and weak European construction
+- **Dividend yield**: 2.73% providing income component
+- **Fair value**: $75-$85 per share (15-30% upside from current $65.90)
+
+### Investment Case Summary
+**Hold to Buy** - Quality specialty chemicals company trading at attractive valuations with unique technology differentiation in battery materials. Strong financial metrics and operational excellence provide resilience despite near-term cyclical headwinds. Suitable for patient investors seeking specialty chemicals exposure with technology moat. Catalyst: Battery materials growth acceleration and cyclical recovery.
+
+---
+
+## 6. DUK - Duke Energy Corporation ⭐⭐⭐ (Score: 78/100)
 
 ### Growth & Opportunity
 - **$87B five-year capital plan** (2025-2029) positioning for unprecedented load growth
@@ -160,7 +140,7 @@ This document consolidates the investment cases for all 8 companies added today,
 
 ---
 
-## 8. LYB - LyondellBasell Industries N.V.
+## 7. LYB - LyondellBasell Industries N.V. ⭐⭐⭐ (Score: 75/100)
 
 ### Growth & Opportunity
 - **Strategic repositioning**: 70%+ capacity share in cost-advantaged regions (North America, Middle East) expected by next decade
@@ -183,18 +163,40 @@ This document consolidates the investment cases for all 8 companies added today,
 
 ---
 
+## 8. JCI - Johnson Controls International ⭐⭐⭐ (Score: 72/100)
+
+### Growth & Opportunity
+- **Record $14.6B backlog** providing strong visibility into future revenue
+- **Data center vertical** (~10% of sales, growing double-digits) represents key growth catalyst
+- **$200B+ global building automation market** with secular tailwinds from energy efficiency mandates, data center growth, and building modernization
+- **Market leadership**: #1/#2 positions in HVAC controls and building automation
+- **New CEO transformation**: Lean business system implementation targeting operational improvements
+- **40,000-person field force** and 140-year heritage provide competitive moat
+
+### Valuation & Financials
+- **Strong cash generation**: $2.87B TTM free cash flow (>100% conversion)
+- **Margin expansion**: 17.6% segment EBITA margin (up 20 bps), but **lags peers** (20%+ for leaders)
+- **Premium valuation**: 36.2x trailing P/E, 25.2x forward P/E
+- **Financial concerns**: Negative working capital (-$776M), high leverage (68% debt/equity), China exposure risk
+- **Fair value**: $110-$130 per share (current ~$113)
+
+### Investment Case Summary
+**Hold/Buy for patient investors** - Strong execution track record with record backlog and transformation potential, but requires 12-24 months to assess execution success. Premium valuation justified by transformation potential but requires margin expansion to close gap with peers. Key catalysts: Portfolio optimization, lean transformation scaling, data center growth acceleration.
+
+---
+
 ## Summary Comparison
 
-| Company | Growth Rating | Valuation Rating | Investment Case | Key Catalyst |
-|---------|--------------|-----------------|-----------------|--------------|
-| **JCI** | Moderate | Premium | Hold/Buy (Patient) | Transformation execution, margin expansion |
-| **CBT** | Moderate | Attractive | Hold/Buy | Battery materials growth, cyclical recovery |
-| **GLW** | Strong | Reasonable | STRONG BUY | GenAI demand, solar ramp, margin expansion |
-| **EMR** | Strong | Reasonable | BUY | Power cycle, discrete recovery, software growth |
-| **PH** | Strong | Premium | BUY | Aerospace growth, industrial recovery, margin expansion |
-| **NEE** | Strong | Premium | BUY | Renewable development, data center demand |
-| **DUK** | Moderate | Reasonable | BUY (Income) | Capital plan execution, load growth capture |
-| **LYB** | Recovery | Deep Value | Buy (Value) | Capacity rationalization, cycle recovery |
+| Rank | Company | Growth Rating | Valuation Rating | Investment Case | Investment Score | Key Catalyst |
+|------|---------|--------------|-----------------|-----------------|-----------------|--------------|
+| **1** | **GLW** | Strong | Reasonable | STRONG BUY | 95/100 | GenAI demand, solar ramp, margin expansion |
+| **2** | **EMR** | Strong | Reasonable | BUY | 90/100 | Power cycle, discrete recovery, software growth |
+| **3** | **PH** | Strong | Premium | BUY | 88/100 | Aerospace growth, industrial recovery, margin expansion |
+| **4** | **NEE** | Strong | Premium | BUY | 85/100 | Renewable development, data center demand |
+| **5** | **CBT** | Moderate | Attractive | Hold/Buy | 82/100 | Battery materials growth, cyclical recovery |
+| **6** | **DUK** | Moderate | Reasonable | BUY (Income) | 78/100 | Capital plan execution, load growth capture |
+| **7** | **LYB** | Recovery | Deep Value | Buy (Value) | 75/100 | Capacity rationalization, cycle recovery |
+| **8** | **JCI** | Moderate | Premium | Hold/Buy (Patient) | 72/100 | Transformation execution, margin expansion |
 
 ### Key Themes Across Portfolio
 
@@ -208,4 +210,5 @@ This document consolidates the investment cases for all 8 companies added today,
 
 *Document created: November 4, 2025*  
 *Companies analyzed: 8*  
+*Ranked by investment quality score (highest to lowest)*  
 *Focus: Growth & Opportunity vs Valuation & Financials*
