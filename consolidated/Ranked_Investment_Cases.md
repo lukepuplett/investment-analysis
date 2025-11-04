@@ -6,7 +6,19 @@ This document consolidates and ranks the investment cases for all 8 companies ad
 
 ---
 
-## 1. GLW - Corning Incorporated ⭐⭐⭐⭐⭐ (Score: 95/100)
+## 🎯 Final Selections
+
+After analysis, the following three companies have been selected as the final investment focus:
+
+1. **GLW (Corning)** - Score: 95/100 - STRONG BUY
+2. **EMR (Emerson Electric)** - Score: 90/100 - BUY  
+3. **PH (Parker-Hannifin)** - Score: 88/100 - BUY
+
+**Rationale:** All three represent the highest quality opportunities with exceptional execution, strong fundamentals, and clear growth catalysts. Each offers a unique angle: GLW (GenAI/solar secular trends), EMR (industrial automation leadership), PH (aerospace/excellence).
+
+---
+
+## 1. GLW - Corning Incorporated ⭐⭐⭐⭐⭐ (Score: 95/100) ✅ **FINAL SELECTION**
 
 ### Growth & Opportunity
 - **Exceptional execution**: Achieved 20% operating margin target **a full year ahead of schedule**
@@ -28,7 +40,7 @@ This document consolidates and ranks the investment cases for all 8 companies ad
 
 ---
 
-## 2. EMR - Emerson Electric Co. ⭐⭐⭐⭐⭐ (Score: 90/100)
+## 2. EMR - Emerson Electric Co. ⭐⭐⭐⭐⭐ (Score: 90/100) ✅ **FINAL SELECTION**
 
 ### Growth & Opportunity
 - **Industrial automation tailwinds**: Energy security, power generation, and digital transformation trends
@@ -50,7 +62,7 @@ This document consolidates and ranks the investment cases for all 8 companies ad
 
 ---
 
-## 3. PH - Parker-Hannifin Corp ⭐⭐⭐⭐ (Score: 88/100)
+## 3. PH - Parker-Hannifin Corp ⭐⭐⭐⭐ (Score: 88/100) ✅ **FINAL SELECTION**
 
 ### Growth & Opportunity
 - **Portfolio transformation**: 2/3 longer-cycle/secular revenue mix reducing cyclicality
@@ -72,7 +84,7 @@ This document consolidates and ranks the investment cases for all 8 companies ad
 
 ---
 
-## 4. NEE - NextEra Energy, Inc. ⭐⭐⭐⭐ (Score: 85/100)
+## 4. NEE - NextEra Energy, Inc. ⭐⭐⭐⭐ (Score: 85/100) ❌ Not Selected
 
 ### Growth & Opportunity
 - **"Golden age of power demand"**: Unprecedented data center demand, decarbonization goals, federal tax credits
@@ -95,7 +107,7 @@ This document consolidates and ranks the investment cases for all 8 companies ad
 
 ---
 
-## 5. CBT - Cabot Corporation ⭐⭐⭐⭐ (Score: 82/100)
+## 5. CBT - Cabot Corporation ⭐⭐⭐⭐ (Score: 82/100) ❌ Not Selected
 
 ### Growth & Opportunity
 - **Unique technology differentiation**: Only global player producing both conductive carbons and carbon nanotubes for battery materials
@@ -125,7 +137,7 @@ This document consolidates and ranks the investment cases for all 8 companies ad
 
 ---
 
-## 6. DUK - Duke Energy Corporation ⭐⭐⭐ (Score: 78/100)
+## 6. DUK - Duke Energy Corporation ⭐⭐⭐ (Score: 78/100) ❌ Not Selected
 
 ### Growth & Opportunity
 - **$87B five-year capital plan** (2025-2029) positioning for unprecedented load growth
@@ -148,7 +160,7 @@ This document consolidates and ranks the investment cases for all 8 companies ad
 
 ---
 
-## 7. LYB - LyondellBasell Industries N.V. ⭐⭐⭐ (Score: 75/100)
+## 7. LYB - LyondellBasell Industries N.V. ⭐⭐⭐ (Score: 75/100) ❌ Not Selected
 
 ### Growth & Opportunity
 - **Strategic repositioning**: 70%+ capacity share in cost-advantaged regions (North America, Middle East) expected by next decade
@@ -180,7 +192,7 @@ This document consolidates and ranks the investment cases for all 8 companies ad
 
 ---
 
-## 8. JCI - Johnson Controls International ⭐⭐⭐ (Score: 72/100)
+## 8. JCI - Johnson Controls International ⭐⭐⭐ (Score: 72/100) ❌ Not Selected
 
 ### Growth & Opportunity
 - **Record $14.6B backlog** providing strong visibility into future revenue
@@ -204,24 +216,31 @@ This document consolidates and ranks the investment cases for all 8 companies ad
 
 ## Summary Comparison
 
-| Rank | Company | Growth Rating | Valuation Rating | Investment Case | Investment Score | Key Catalyst |
-|------|---------|--------------|-----------------|-----------------|-----------------|--------------|
-| **1** | **GLW** | Strong | Reasonable | STRONG BUY | 95/100 | GenAI demand, solar ramp, margin expansion |
-| **2** | **EMR** | Strong | Reasonable | BUY | 90/100 | Power cycle, discrete recovery, software growth |
-| **3** | **PH** | Strong | Premium | BUY | 88/100 | Aerospace growth, industrial recovery, margin expansion |
-| **4** | **NEE** | Strong | Premium | BUY | 85/100 | Renewable development, data center demand |
-| **5** | **CBT** | Moderate | Attractive | Hold/Buy | 82/100 | Battery materials growth, cyclical recovery |
-| **6** | **DUK** | Moderate | Reasonable | BUY (Income) | 78/100 | Capital plan execution, load growth capture |
-| **7** | **LYB** | Recovery | Deep Value | Buy (Value) | 75/100 | Capacity rationalization, cycle recovery |
-| **8** | **JCI** | Moderate | Premium | Hold/Buy (Patient) | 72/100 | Transformation execution, margin expansion |
+| Rank | Company | Growth Rating | Valuation Rating | Investment Case | Investment Score | Status |
+|------|---------|--------------|-----------------|-----------------|-----------------|--------|
+| **1** | **GLW** | Strong | Reasonable | STRONG BUY | 95/100 | ✅ **FINAL SELECTION** |
+| **2** | **EMR** | Strong | Reasonable | BUY | 90/100 | ✅ **FINAL SELECTION** |
+| **3** | **PH** | Strong | Premium | BUY | 88/100 | ✅ **FINAL SELECTION** |
+| **4** | **NEE** | Strong | Premium | BUY | 85/100 | ❌ Not Selected |
+| **5** | **CBT** | Moderate | Attractive | Hold/Buy | 82/100 | ❌ Not Selected |
+| **6** | **DUK** | Moderate | Reasonable | BUY (Income) | 78/100 | ❌ Not Selected |
+| **7** | **LYB** | Recovery | Deep Value | Buy (Value) | 75/100 | ❌ Not Selected |
+| **8** | **JCI** | Moderate | Premium | Hold/Buy (Patient) | 72/100 | ❌ Not Selected |
 
-### Key Themes Across Portfolio
+### Key Themes Across Final Selections
 
-1. **Industrial Automation & Technology**: EMR, PH, JCI benefiting from automation trends
-2. **Energy Transition**: NEE, DUK positioned for power demand growth
-3. **Materials & Chemicals**: GLW, CBT, LYB with technology differentiation
-4. **Cyclical Recovery**: LYB, CBT positioned for recovery
-5. **Execution Excellence**: GLW, PH showing exceptional operational execution
+**Selected Companies (GLW, EMR, PH):**
+1. **Industrial Automation & Technology**: EMR leading with GenAI industrial advisors, PH with aerospace excellence
+2. **Secular Growth Drivers**: GLW (GenAI infrastructure, solar), EMR (power generation, automation), PH (aerospace, electrification)
+3. **Execution Excellence**: All three showing exceptional operational execution and margin expansion
+4. **Technology Leadership**: GLW (materials science), EMR (industrial software), PH (motion & control)
+5. **Quality Fundamentals**: Premium margins, strong cash generation, reasonable valuations
+
+**Not Selected Companies:**
+- **NEE, DUK**: Utility plays with different risk/reward profile
+- **CBT**: Cyclical headwinds, weak AI connection
+- **LYB**: Dividend yield trap, cyclical recovery timing uncertain
+- **JCI**: Transformation execution risk, premium valuation
 
 ---
 
