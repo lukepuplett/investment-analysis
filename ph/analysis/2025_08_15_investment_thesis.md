@@ -137,6 +137,7 @@ Parker-Hannifin represents a compelling investment opportunity driven by:
 3. **Acquisition Integration:** Curtis and Meggitt integration execution
 4. **Economic Downturn:** Broad economic slowdown impact
 5. **Technology Disruption:** Competitive technology changes
+6. **⚠️ Sustainability Risk - Margin Expansion Limits:** Margin expansion has limits without top-line growth. EPS growth is already slowing (36% → 24% → 4-8% FY26E) as margin expansion slows (+440 bps → +120 bps → +20-60 bps). Once margins plateau, EPS growth = revenue growth. Without revenue growth, returns will be limited. Margins are already at industry-leading levels (26.1%), leaving limited room for further expansion.
 
 ### Risk Mitigation
 
@@ -145,6 +146,7 @@ Parker-Hannifin represents a compelling investment opportunity driven by:
 - **Cash Generation:** Strong cash flow supports investments
 - **Operational Excellence:** Win Strategy™ provides flexibility
 - **Market Position:** Competitive advantages provide defense
+- **Revenue Growth Need:** Industrial recovery acceleration and aerospace growth continuation required to sustain returns
 
 ---
 
@@ -242,7 +244,11 @@ Parker-Hannifin represents a compelling investment opportunity driven by:
 
 ## Conclusion
 
-Parker-Hannifin represents a compelling investment opportunity driven by exceptional operational execution, strong cash generation, portfolio transformation, and attractive market positioning. The company's industry-leading margins, consistent execution track record, and competitive advantages justify the premium valuation. Key catalysts include industrial recovery acceleration, aerospace growth continuation, margin expansion, and disciplined capital allocation. The investment thesis is supported by strong fundamentals, strategic positioning, and operational excellence. **BUY recommendation with $850-900 target price (10-15% upside) over 2-3 year horizon.**
+Parker-Hannifin represents a compelling investment opportunity driven by exceptional operational execution, strong cash generation, portfolio transformation, and attractive market positioning. The company's industry-leading margins, consistent execution track record, and competitive advantages justify the premium valuation. Key catalysts include industrial recovery acceleration, aerospace growth continuation, margin expansion, and disciplined capital allocation. The investment thesis is supported by strong fundamentals, strategic positioning, and operational excellence.
+
+**⚠️ Critical Sustainability Concern:** FY26 guidance shows EPS growth slowing to 4-8% (from 24%) and margin expansion slowing to +20-60 bps (from +120 bps). This demonstrates that margin expansion alone is not sustainable without top-line growth. Once margins plateau, EPS growth = revenue growth. For long-term sustainability, PH requires revenue growth acceleration. Past returns (35% CAGR June 2022 → November 2025) were driven by one-time factors (margin expansion + multiple expansion) that are showing signs of exhaustion.
+
+**BUY recommendation with $850-900 target price (10-15% upside) over 2-3 year horizon, but sustainability requires revenue growth acceleration.**
 
 ---
 

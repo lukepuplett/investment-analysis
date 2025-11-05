@@ -254,6 +254,7 @@ Premium to industrial peers justified by superior margins and execution. In-line
 2. **Execution Miss:** Failure to meet guidance or expectations
 3. **Economic Downturn:** Broad economic slowdown impact
 4. **Competitive Pressure:** Market share loss or margin compression
+5. **⚠️ Sustainability Risk - Margin Expansion Limits:** FY26 guidance shows EPS growth slowing to 4-8% (from 24%) and margin expansion slowing to +20-60 bps (from +120 bps). Once margins plateau, EPS growth = revenue growth. Without revenue growth, multiple compression risk increases. Margins are already at industry-leading levels (26.1%), leaving limited room for further expansion.
 
 ### Upside Risks
 
@@ -266,7 +267,11 @@ Premium to industrial peers justified by superior margins and execution. In-line
 
 ## Conclusion
 
-Parker-Hannifin trades at premium valuation (27.96x P/E, 19.32x EV/EBITDA) justified by industry-leading margins (26.1% adjusted segment operating margin), consistent execution, and strong cash generation. DCF analysis suggests fair value $820-880, comparable company analysis supports $800-850 range, and sum-of-parts valuation indicates $850-900. Premium to peers is warranted by superior margins, execution track record, and portfolio quality. **Target price: $850-900 (10-15% upside). BUY recommendation - Premium valuation justified by exceptional fundamentals and execution.**
+Parker-Hannifin trades at premium valuation (27.96x P/E, 19.32x EV/EBITDA) justified by industry-leading margins (26.1% adjusted segment operating margin), consistent execution, and strong cash generation. DCF analysis suggests fair value $820-880, comparable company analysis supports $800-850 range, and sum-of-parts valuation indicates $850-900. Premium to peers is warranted by superior margins, execution track record, and portfolio quality.
+
+**⚠️ Critical Sustainability Concern:** FY26 guidance shows EPS growth slowing to 4-8% (from 24%) and margin expansion slowing to +20-60 bps (from +120 bps). This demonstrates that margin expansion alone is not sustainable without top-line growth. Once margins plateau, EPS growth = revenue growth. Without revenue growth, the premium multiple (27.96x P/E) becomes harder to justify. Past returns (35% CAGR June 2022 → November 2025) were driven by one-time factors (margin expansion + multiple expansion) that are showing signs of exhaustion.
+
+**Target price: $850-900 (10-15% upside). BUY recommendation - Premium valuation justified by exceptional fundamentals and execution, but sustainability requires revenue growth acceleration.**
 
 ---
 

@@ -501,6 +501,7 @@
 | Working Capital Investment | Low-Medium | Moderate | Low-Medium | High |
 | Interest Rate Risk | Low-Medium | Moderate | Low-Medium | High |
 | Market Share Loss | Low-Medium | Low | Moderate | High |
+| **⚠️ Sustainability - Margin Expansion Limits** | **High** | **High** | **High** | **Low-Medium** |
 
 ---
 
@@ -508,19 +509,21 @@
 
 ### Risk Profile
 
-**Overall Risk Level:** Medium
+**Overall Risk Level:** Medium-High (increased due to sustainability concerns)
 
 **Risk Factors:**
 - Cyclical industrial markets
 - Premium valuation
 - Integration challenges
 - External factors
+- **⚠️ Sustainability - Margin expansion has limits without revenue growth**
 
 **Mitigating Factors:**
 - Strong balance sheet
 - Operational excellence
 - Portfolio transformation
 - Financial strength
+- **Revenue growth acceleration needed to sustain returns**
 
 ### Risk-Reward Profile
 
@@ -529,15 +532,20 @@
 - Well-mitigated by strategic positioning
 - Strong execution track record
 - Financial strength supports risk management
+- **⚠️ Critical sustainability concern: Margin expansion alone is not sustainable without top-line growth**
 
 **Conclusion:**
-Risk-reward profile is favorable given strong execution track record, defensive portfolio mix, and financial strength. Key risks are mitigated through portfolio transformation, operational excellence, and financial flexibility.
+Risk-reward profile is favorable given strong execution track record, defensive portfolio mix, and financial strength. However, **sustainability is a key concern**: FY26 guidance shows EPS growth slowing to 4-8% (from 24%) and margin expansion slowing to +20-60 bps (from +120 bps). Once margins plateau, EPS growth = revenue growth. Without revenue growth, returns will be limited. Key risks are mitigated through portfolio transformation, operational excellence, and financial flexibility, but **revenue growth acceleration is required for long-term sustainability**.
 
 ---
 
 ## Conclusion
 
-Parker-Hannifin faces manageable risks across cyclical industrial markets, premium valuation, integration challenges, and external factors. However, portfolio transformation (2/3 longer-cycle), strong balance sheet (1.69x net debt/EBITDA), record cash generation ($3.8B), and operational excellence mitigate risks effectively. Key risks include industrial recovery timing, valuation premium, working capital investment, and acquisition integration. Risk-reward profile is favorable given strong execution track record, defensive portfolio mix, and financial strength. The company's strategic positioning and operational excellence provide strong risk mitigation.
+Parker-Hannifin faces manageable risks across cyclical industrial markets, premium valuation, integration challenges, and external factors. However, portfolio transformation (2/3 longer-cycle), strong balance sheet (1.69x net debt/EBITDA), record cash generation ($3.8B), and operational excellence mitigate risks effectively. Key risks include industrial recovery timing, valuation premium, working capital investment, and acquisition integration.
+
+**⚠️ Critical Sustainability Risk:** FY26 guidance shows EPS growth slowing to 4-8% (from 24%) and margin expansion slowing to +20-60 bps (from +120 bps). This demonstrates that margin expansion alone is not sustainable without top-line growth. Once margins plateau, EPS growth = revenue growth. Without revenue growth, returns will be limited. Margins are already at industry-leading levels (26.1%), leaving limited room for further expansion. **This is a high-probability, high-impact risk that requires revenue growth acceleration to mitigate.**
+
+Risk-reward profile is favorable given strong execution track record, defensive portfolio mix, and financial strength. However, **sustainability requires revenue growth acceleration**. The company's strategic positioning and operational excellence provide strong risk mitigation, but the margin expansion thesis has limits.
 
 ---
 
