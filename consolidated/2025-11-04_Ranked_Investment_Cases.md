@@ -8,13 +8,15 @@ This document consolidates and ranks the investment cases for all 8 companies ad
 
 ## 🎯 Final Selections
 
-After analysis, the following three companies have been selected as the final investment focus:
+After analysis and Q4 2025 earnings updates, the following companies have been selected as the final investment focus:
 
-1. **GLW (Corning)** - Score: 95/100 - STRONG BUY
-2. **EMR (Emerson Electric)** - Score: 90/100 - BUY  
-3. **PH (Parker-Hannifin)** - Score: 88/100 - BUY
+1. **GLW (Corning)** - Score: 95/100 - STRONG BUY ✅ **FINAL SELECTION**
+2. **PH (Parker-Hannifin)** - Score: 88/100 - BUY ✅ **FINAL SELECTION**
 
-**Rationale:** All three represent the highest quality opportunities with exceptional execution, strong fundamentals, and clear growth catalysts. Each offers a unique angle: GLW (GenAI/solar secular trends), EMR (industrial automation leadership), PH (aerospace/excellence).
+**Rationale:** Both companies represent the highest quality opportunities with exceptional execution, strong fundamentals, and clear growth catalysts. GLW offers GenAI/solar secular trends with exceptional execution. PH offers aerospace excellence and operational excellence.
+
+**Disqualified:**
+- **EMR (Emerson Electric)** - Score: 90/100 - ❌ **DISQUALIFIED** due to Q4 2025 earnings miss (-13% EPS miss) and significant guidance reduction (2026 underlying sales growth ~+2% vs. +5.18% expected). Revenue beat but margin pressure evident. Growth outlook reset required.
 
 ---
 
@@ -40,7 +42,7 @@ After analysis, the following three companies have been selected as the final in
 
 ---
 
-## 2. EMR - Emerson Electric Co. ⭐⭐⭐⭐⭐ (Score: 90/100) ✅ **FINAL SELECTION**
+## 2. EMR - Emerson Electric Co. ⭐⭐⭐⭐⭐ (Score: 90/100) ❌ **DISQUALIFIED - Q4 Earnings Miss**
 
 ### Growth & Opportunity
 - **Industrial automation tailwinds**: Energy security, power generation, and digital transformation trends
@@ -60,9 +62,18 @@ After analysis, the following three companies have been selected as the final in
 ### Investment Case Summary
 **BUY** - Compelling industrial automation opportunity with strong fundamentals and technology leadership. Premium margins (27%+), strong cash generation, and exposure to structural industrial automation trends. Growth catalysts: Power cycle acceleration, discrete recovery, software growth. Quality at reasonable valuation with clear growth visibility. Bull case: $180-190 (29-36% upside).
 
+### ⚠️ Q4 2025 Earnings Update - DISQUALIFIED
+**Status:** ❌ **DISQUALIFIED** - Q4 2025 earnings results show significant deterioration:
+- **EPS Miss:** Q4 Adj EPS $1.40 missed by -13% ($1.61 est)
+- **Guidance Disappointment:** 2026 underlying sales growth ~+2% vs. +5.18% expected (-318 bps)
+- **Margin Pressure:** EPS miss despite revenue beat indicates margin challenges
+- **Growth Reset:** Discrete recovery slower than expected, power cycle moderating
+
+**Rationale for Disqualification:** Significant guidance reduction and EPS miss indicate growth outlook reset required. Recovery timing uncertain. Investment thesis intact long-term but execution delayed. Requires reassessment after management provides clarity on margin pressure and recovery timeline.
+
 ---
 
-## 3. PH - Parker-Hannifin Corp ⭐⭐⭐⭐ (Score: 88/100) ✅ **FINAL SELECTION**
+## 3. PH - Parker-Hannifin Corp ⭐⭐⭐⭐ (Score: 88/100) ✅ **FINAL SELECTION** (Promoted from #3)
 
 ### Growth & Opportunity
 - **Portfolio transformation**: 2/3 longer-cycle/secular revenue mix reducing cyclicality
@@ -219,7 +230,7 @@ After analysis, the following three companies have been selected as the final in
 | Rank | Company | Growth Rating | Valuation Rating | Investment Case | Investment Score | Status |
 |------|---------|--------------|-----------------|-----------------|-----------------|--------|
 | **1** | **GLW** | Strong | Reasonable | STRONG BUY | 95/100 | ✅ **FINAL SELECTION** |
-| **2** | **EMR** | Strong | Reasonable | BUY | 90/100 | ✅ **FINAL SELECTION** |
+| **2** | **EMR** | Strong | Reasonable | BUY | 90/100 | ❌ **DISQUALIFIED** (Q4 Earnings Miss) |
 | **3** | **PH** | Strong | Premium | BUY | 88/100 | ✅ **FINAL SELECTION** |
 | **4** | **NEE** | Strong | Premium | BUY | 85/100 | ❌ Not Selected |
 | **5** | **CBT** | Moderate | Attractive | Hold/Buy | 82/100 | ❌ Not Selected |
@@ -229,12 +240,15 @@ After analysis, the following three companies have been selected as the final in
 
 ### Key Themes Across Final Selections
 
-**Selected Companies (GLW, EMR, PH):**
-1. **Industrial Automation & Technology**: EMR leading with GenAI industrial advisors, PH with aerospace excellence
-2. **Secular Growth Drivers**: GLW (GenAI infrastructure, solar), EMR (power generation, automation), PH (aerospace, electrification)
-3. **Execution Excellence**: All three showing exceptional operational execution and margin expansion
-4. **Technology Leadership**: GLW (materials science), EMR (industrial software), PH (motion & control)
-5. **Quality Fundamentals**: Premium margins, strong cash generation, reasonable valuations
+**Selected Companies (GLW, PH):**
+1. **Execution Excellence**: Both showing exceptional operational execution and margin expansion
+2. **Secular Growth Drivers**: GLW (GenAI infrastructure, solar), PH (aerospace, electrification)
+3. **Technology Leadership**: GLW (materials science), PH (motion & control)
+4. **Quality Fundamentals**: Premium margins, strong cash generation, reasonable valuations
+5. **Proven Track Record**: Consistent execution without material earnings surprises
+
+**Disqualified Companies:**
+- **EMR**: Q4 2025 earnings miss (-13% EPS), significant guidance reduction (2026 +2% vs. +5.18% expected), margin pressure, growth outlook reset required
 
 **Not Selected Companies:**
 - **NEE, DUK**: Utility plays with different risk/reward profile
