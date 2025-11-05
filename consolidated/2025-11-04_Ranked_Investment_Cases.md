@@ -108,6 +108,8 @@ After analysis and Q4 2025 earnings updates, the following companies have been s
 
 **Rationale for Disqualification:** PH is a high-quality company with exceptional execution, but the investment thesis is fundamentally about margin expansion and operational excellence rather than revenue growth. For investors focused on growth-oriented investments, PH's 1% organic revenue growth profile doesn't align with growth investment criteria. Better suited for investors seeking operational improvement stories rather than top-line growth stories.
 
+**📊 Performance Note:** PH has generated **exceptional returns** - share price increased from ~$253 (June 2022) to ~$800 (November 2025), representing ~216% gain (~35% CAGR). This demonstrates that margin expansion + multiple expansion can generate superior returns even without revenue growth. The disqualification was based on **investment thesis alignment** (growth-focused approach) rather than **returns potential** - PH has clearly been an exceptional investment despite not fitting a "growth-focused" thesis.
+
 ---
 
 ## 4. NEE - NextEra Energy, Inc. ⭐⭐⭐⭐ (Score: 85/100) ❌ Not Selected
