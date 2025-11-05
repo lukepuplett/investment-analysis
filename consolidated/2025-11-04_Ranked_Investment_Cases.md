@@ -1,6 +1,10 @@
-# Ranked Investment Cases - November 4, 2025
+# Ranked Investment Cases - November 4, 2025 (Updated: November 6, 2025)
 
 This document consolidates and ranks the investment cases for all 8 companies added on November 4, 2025, focusing on **Growth & Opportunity** versus **Valuation & Financials**.
+
+**Updates:** 
+- EMR disqualified due to Q4 earnings miss and guidance reduction
+- JCI Q4 results validate transformation thesis (beat, guidance raised +21%)
 
 **Companies are ranked by investment quality score** (highest to lowest).
 
@@ -203,25 +207,35 @@ After analysis and Q4 2025 earnings updates, the following companies have been s
 
 ---
 
-## 8. JCI - Johnson Controls International ⭐⭐⭐ (Score: 72/100) ❌ Not Selected
+## 8. JCI - Johnson Controls International ⭐⭐⭐ (Score: 72/100) ⚠️ **UPDATED - Q4 Results Validate Thesis**
 
 ### Growth & Opportunity
-- **Record $14.6B backlog** providing strong visibility into future revenue
+- **Record $15B backlog** (+13% YoY) providing strong visibility into future revenue
 - **Data center vertical** (~10% of sales, growing double-digits) represents key growth catalyst
 - **$200B+ global building automation market** with secular tailwinds from energy efficiency mandates, data center growth, and building modernization
 - **Market leadership**: #1/#2 positions in HVAC controls and building automation
-- **New CEO transformation**: Lean business system implementation targeting operational improvements
+- **New CEO transformation**: Lean business system implementation showing results (100 bps margin expansion achieved)
 - **40,000-person field force** and 140-year heritage provide competitive moat
 
 ### Valuation & Financials
-- **Strong cash generation**: $2.87B TTM free cash flow (>100% conversion)
-- **Margin expansion**: 17.6% segment EBITA margin (up 20 bps), but **lags peers** (20%+ for leaders)
+- **Strong cash generation**: $2.50B FY2025 adjusted free cash flow (102% conversion)
+- **Margin expansion**: 17.1% adjusted segment EBITA margin (+100 bps YoY) - **VALIDATED**
 - **Premium valuation**: 36.2x trailing P/E, 25.2x forward P/E
-- **Financial concerns**: Negative working capital (-$776M), high leverage (68% debt/equity), China exposure risk
-- **Fair value**: $110-$130 per share (current ~$113)
+- **Financial concerns**: Negative working capital (-$779M), leverage manageable (2.4x Net Debt/EBITDA)
+- **Fair value**: $115-$135 per share (current ~$113)
 
 ### Investment Case Summary
-**Hold/Buy for patient investors** - Strong execution track record with record backlog and transformation potential, but requires 12-24 months to assess execution success. Premium valuation justified by transformation potential but requires margin expansion to close gap with peers. Key catalysts: Portfolio optimization, lean transformation scaling, data center growth acceleration.
+**BUY** (Upgraded from Hold/Buy) - Q4 FY2025 results validate transformation thesis with strong execution (beat on revenue and EPS, guidance raise). Full-year results exceeded expectations: $23.6B revenue (+6% organic), $3.76 adjusted EPS (+17% YoY), 17.1% adjusted segment EBITA margin (+100 bps expansion), and 102% free cash flow conversion. FY2026 guidance of ~$4.55 adjusted EPS (+21% YoY) confirms continued momentum. Lean transformation initiatives showing tangible results (700+ colleagues involved, margin expansion, productivity gains). Execution risk reduced based on Q4 validation. Suitable for investors seeking transformation execution validation with continued margin expansion potential.
+
+### ⚠️ Q4 FY2025 Earnings Update - VALIDATION
+**Status:** ✅ **POSITIVE** - Q4 FY2025 earnings results validate transformation thesis:
+- **Q4 Adj EPS:** $1.26 (beat est $1.20 by +5%)
+- **Q4 Revenue:** $6.44B (beat est $6.33B by +1.7%)
+- **FY2025 Results:** $3.76 adjusted EPS (+17% YoY), 17.1% margin (+100 bps), 102% FCF conversion
+- **FY2026 Guidance:** ~$4.55 adjusted EPS (+21% YoY, beat est $4.43 by +2.7%)
+- **Execution Validation:** 100 bps margin expansion validates lean transformation initiatives
+
+**Rationale for Positive Assessment:** Q4 results demonstrate strong execution with margin expansion, cash generation, and guidance raise validating transformation thesis. Lean transformation showing tangible results. Recommendation upgraded to BUY from Hold/Buy. Target price updated to $115-$135 based on $4.55 EPS guidance.
 
 ---
 
@@ -236,7 +250,7 @@ After analysis and Q4 2025 earnings updates, the following companies have been s
 | **5** | **CBT** | Moderate | Attractive | Hold/Buy | 82/100 | ❌ Not Selected |
 | **6** | **DUK** | Moderate | Reasonable | BUY (Income) | 78/100 | ❌ Not Selected |
 | **7** | **LYB** | Recovery | Deep Value | Buy (Value) | 75/100 | ❌ Not Selected |
-| **8** | **JCI** | Moderate | Premium | Hold/Buy (Patient) | 72/100 | ❌ Not Selected |
+| **8** | **JCI** | Moderate | Premium | BUY | 72/100 | ✅ **Q4 VALIDATION** (Monitor) |
 
 ### Key Themes Across Final Selections
 
@@ -250,7 +264,8 @@ After analysis and Q4 2025 earnings updates, the following companies have been s
 **Disqualified Companies:**
 - **EMR**: Q4 2025 earnings miss (-13% EPS), significant guidance reduction (2026 +2% vs. +5.18% expected), margin pressure, growth outlook reset required
 
-**Not Selected Companies:**
+**Updated Assessment (Q4 Earnings):**
+- **JCI**: Q4 beat (+5% EPS, +1.7% revenue), guidance raised (+21% EPS growth to $4.55), transformation validated (100 bps margin expansion). Status upgraded from "Not Selected" to "Monitor" - execution validation warrants reassessment.
 - **NEE, DUK**: Utility plays with different risk/reward profile
 - **CBT**: Cyclical headwinds, weak AI connection
 - **LYB**: Dividend yield trap, cyclical recovery timing uncertain
