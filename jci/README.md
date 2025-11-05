@@ -79,24 +79,3 @@ Johnson Controls is a global leader in smart, healthy, and sustainable buildings
 *MRQ = Most Recent Quarter, TTM = Trailing Twelve Months*
 
 ## Key Areas of Focus
-
-## Key Metrics
-*As of 9/30/2025 (Q4 FY2025) and TTM*
-
-- **Q4 2025 Revenue:** $6.44B (beat est $6.33B by +1.7%)
-- **Q4 2025 Adj EPS:** $1.26 (beat est $1.20 by +5.0%)
-- **Q4 2025 GAAP EPS:** $0.42 (missed est $1.21 by -65.3%)
-- **2026 Guidance:** Adj EPS ~$4.55 (beat est $4.43 by +2.7%)
-- **Q1 2026 Guidance:** Adj EPS ~$0.83 (beat est $0.82 by +1.2%)
-- Revenue (TTM): ~$24.5B
-- Segment EBITA Margin: 17.6% (up 20 bps YoY)
-- Free Cash Flow (TTM): $2.87B (>100% conversion)
-- Total Cash: $3.2B
-- Total Debt: $11.8B
-- Market Cap: ~$50B
-- Forward P/E: 25.2x
-- Dividend Yield: 1.51%
-
-**✅ Q4 2025 Earnings Update:** Adjusted EPS beat (+5%) and guidance raised for 2026 (+2.7%). Operational improvement validating transformation thesis. GAAP EPS miss due to one-time charges requires clarification.
-
-*MRQ = Most Recent Quarter, TTM = Trailing Twelve Months*
