@@ -6,6 +6,7 @@ This document consolidates and ranks the investment cases for all 8 companies ad
 - EMR disqualified due to Q4 earnings miss and guidance reduction
 - JCI Q4 results validate transformation thesis (beat, guidance raised +21%)
 - Growth analysis insights added for CBT and JCI (November 2025)
+- PH disqualified - investment thesis focuses on margin expansion rather than revenue growth, not aligned with growth-focused investment approach
 
 **Companies are ranked by investment quality score** (highest to lowest).
 
@@ -16,12 +17,12 @@ This document consolidates and ranks the investment cases for all 8 companies ad
 After analysis and Q4 2025 earnings updates, the following companies have been selected as the final investment focus:
 
 1. **GLW (Corning)** - Score: 95/100 - STRONG BUY ✅ **FINAL SELECTION**
-2. **PH (Parker-Hannifin)** - Score: 88/100 - BUY ✅ **FINAL SELECTION**
 
-**Rationale:** Both companies represent the highest quality opportunities with exceptional execution, strong fundamentals, and clear growth catalysts. GLW offers GenAI/solar secular trends with exceptional execution. PH offers aerospace excellence and operational excellence.
+**Rationale:** GLW represents the highest quality opportunity with exceptional execution, strong fundamentals, and clear growth catalysts. GLW offers GenAI/solar secular trends with exceptional execution, strong revenue growth (+14% YoY), and multiple secular tailwinds.
 
 **Disqualified:**
 - **EMR (Emerson Electric)** - Score: 90/100 - ❌ **DISQUALIFIED** due to Q4 2025 earnings miss (-13% EPS miss) and significant guidance reduction (2026 underlying sales growth ~+2% vs. +5.18% expected). Revenue beat but margin pressure evident. Growth outlook reset required.
+- **PH (Parker-Hannifin)** - Score: 88/100 - ❌ **DISQUALIFIED** - Investment thesis focuses on margin expansion rather than revenue growth (1% organic revenue growth vs 24% EPS growth). Not aligned with growth-focused investment approach. Quality company but margin expansion story rather than growth story.
 
 ---
 
@@ -78,7 +79,7 @@ After analysis and Q4 2025 earnings updates, the following companies have been s
 
 ---
 
-## 3. PH - Parker-Hannifin Corp ⭐⭐⭐⭐ (Score: 88/100) ✅ **FINAL SELECTION** (Promoted from #3)
+## 3. PH - Parker-Hannifin Corp ⭐⭐⭐⭐ (Score: 88/100) ❌ **DISQUALIFIED - Not Growth-Focused Investment**
 
 ### Growth & Opportunity
 - **Portfolio transformation**: 2/3 longer-cycle/secular revenue mix reducing cyclicality
@@ -97,6 +98,15 @@ After analysis and Q4 2025 earnings updates, the following companies have been s
 
 ### Investment Case Summary
 **BUY** - Exceptional operational execution with record margins and strong cash generation. Portfolio transformation toward longer-cycle markets reduces cyclicality while capturing aerospace and electrification growth. Premium valuation justified by industry-leading margins and consistent execution. Key catalysts: Industrial recovery acceleration, aerospace growth continuation, margin expansion, disciplined capital allocation.
+
+### ⚠️ Disqualification - Investment Thesis Mismatch
+**Status:** ❌ **DISQUALIFIED** - Investment thesis focuses on margin expansion rather than revenue growth:
+- **Revenue Growth**: Only 1% organic growth (essentially flat)
+- **EPS Growth**: 24% EPS growth driven by margin expansion, not revenue growth
+- **Investment Approach**: Margin expansion story, not growth story
+- **Rationale**: While exceptional execution and quality company, investment thesis is about operational improvement and margin expansion rather than revenue growth. Not aligned with growth-focused investment approach.
+
+**Rationale for Disqualification:** PH is a high-quality company with exceptional execution, but the investment thesis is fundamentally about margin expansion and operational excellence rather than revenue growth. For investors focused on growth-oriented investments, PH's 1% organic revenue growth profile doesn't align with growth investment criteria. Better suited for investors seeking operational improvement stories rather than top-line growth stories.
 
 ---
 
@@ -280,7 +290,7 @@ After analysis and Q4 2025 earnings updates, the following companies have been s
 |------|---------|--------------|-----------------|-----------------|-----------------|--------|
 | **1** | **GLW** | Strong | Reasonable | STRONG BUY | 95/100 | ✅ **FINAL SELECTION** |
 | **2** | **EMR** | Strong | Reasonable | BUY | 90/100 | ❌ **DISQUALIFIED** (Q4 Earnings Miss) |
-| **3** | **PH** | Strong | Premium | BUY | 88/100 | ✅ **FINAL SELECTION** |
+| **3** | **PH** | Strong | Premium | BUY | 88/100 | ❌ **DISQUALIFIED** (Not Growth-Focused) |
 | **4** | **NEE** | Strong | Premium | BUY | 85/100 | ❌ Not Selected |
 | **5** | **CBT** | Moderate | Attractive | Hold/Buy | 82/100 | ❌ Not Selected |
 | **6** | **DUK** | Moderate | Reasonable | BUY (Income) | 78/100 | ❌ Not Selected |
@@ -289,22 +299,24 @@ After analysis and Q4 2025 earnings updates, the following companies have been s
 
 ### Key Themes Across Final Selections
 
-**Selected Companies (GLW, PH):**
-1. **Execution Excellence**: Both showing exceptional operational execution and margin expansion
-2. **Secular Growth Drivers**: GLW (GenAI infrastructure, solar), PH (aerospace, electrification)
-3. **Technology Leadership**: GLW (materials science), PH (motion & control)
+**Selected Companies (GLW):**
+1. **Execution Excellence**: Exceptional operational execution and margin expansion
+2. **Secular Growth Drivers**: GLW (GenAI infrastructure, solar) - strong revenue growth (+14% YoY)
+3. **Technology Leadership**: GLW (materials science)
 4. **Quality Fundamentals**: Premium margins, strong cash generation, reasonable valuations
 5. **Proven Track Record**: Consistent execution without material earnings surprises
+6. **Revenue Growth Focus**: Strong top-line growth (+14% YoY) aligned with growth investment thesis
 
 **Disqualified Companies:**
 - **EMR**: Q4 2025 earnings miss (-13% EPS), significant guidance reduction (2026 +2% vs. +5.18% expected), margin pressure, growth outlook reset required
+- **PH**: Investment thesis focuses on margin expansion (1% organic revenue growth vs 24% EPS growth) rather than revenue growth. Not aligned with growth-focused investment approach - quality company but margin expansion story rather than growth story.
 
-**Updated Assessment (Q4 Earnings):**
+**Updated Assessment (Q4 Earnings & Investment Thesis):**
+- **PH**: Disqualified - Investment thesis focuses on margin expansion rather than revenue growth (1% organic revenue growth vs 24% EPS growth). Not aligned with growth-focused investment approach. Quality company but margin expansion story rather than growth story.
 - **JCI**: Q4 beat (+5% EPS, +1.7% revenue), guidance raised (+21% EPS growth to $4.55), transformation validated (100 bps margin expansion). Status upgraded from "Not Selected" to "Monitor" - execution validation warrants reassessment.
 - **NEE, DUK**: Utility plays with different risk/reward profile
 - **CBT**: Cyclical headwinds, weak AI connection
 - **LYB**: Dividend yield trap, cyclical recovery timing uncertain
-- **JCI**: Transformation execution risk, premium valuation
 
 ---
 
