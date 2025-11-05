@@ -1,11 +1,12 @@
 # Johnson Controls International (JCI) – Valuation Analysis
 
-**Date:** November 5, 2025  
-**Analyst:** Investment Analysis Repository
+**Date:** November 5, 2025 (Updated: November 6, 2025 with Q4 FY2025 Results)  
+**Analyst:** Investment Analysis Repository  
+**Most Recent Quarter:** Q4 FY2025 (Ended September 30, 2025)
 
 ## Executive Summary
 
-**BLUF: Johnson Controls trades at 36.2x trailing P/E and 25.2x forward P/E, reflecting premium valuation despite margin gap to peers. DCF analysis suggests fair value of $110-$130 per share, while comparable company analysis supports 18-20x forward P/E multiple ($110-$130 range). Sum-of-parts valuation indicates potential upside if portfolio optimization succeeds. Current price of ~$113 appears fairly valued with upside potential dependent on margin expansion and transformation execution. **Recommendation: Fairly valued** - Premium multiple justified by transformation potential, but requires execution success to realize upside. Target price: $110-$130.**
+**BLUF: Johnson Controls trades at 25.2x forward P/E based on FY2026 guidance of ~$4.55 adjusted EPS (+21% YoY), reflecting premium valuation justified by execution validation and transformation progress. Q4 FY2025 results validate transformation thesis with 100 bps margin expansion and strong cash generation. DCF analysis suggests fair value of $115-$135 per share, while comparable company analysis supports 19-21x forward P/E multiple ($115-$135 range). Current price of ~$113 appears fairly valued to slightly undervalued with upside potential from continued execution success. **Recommendation: BUY** - Premium multiple justified by execution validation and guidance raise. Target price: $115-$135 (updated from $110-$130 based on $4.55 EPS guidance).**
 
 ---
 
@@ -14,23 +15,23 @@
 ### Market Valuation (as of November 2025)
 | Metric                    | Value      | Period     |
 |---------------------------|------------|------------|
-| Market Cap                | $71.11B    | Current    |
-| Enterprise Value          | $80.67B    | Current    |
+| Market Cap                | ~$50B      | Current    |
+| Enterprise Value          | ~$60B      | Current    |
 | Share Price               | ~$113      | Current    |
-| Trailing P/E              | 36.22x     | TTM        |
-| Forward P/E               | 25.19x     | FY2026E    |
-| PEG Ratio                 | 1.44x      | 5-year     |
-| Price/Sales               | 3.08x      | TTM        |
-| Price/Book                 | 4.49x      | MRQ        |
-| EV/Revenue                | 3.45x      | TTM        |
-| EV/EBITDA                 | 24.21x     | TTM        |
+| Trailing P/E              | 30.0x      | FY2025 Adj EPS $3.76 |
+| Forward P/E               | 24.8x      | FY2026E Adj EPS $4.55 |
+| PEG Ratio                 | 1.18x      | Based on +21% growth |
+| Price/Sales               | 2.12x      | FY2025 Revenue $23.6B |
+| Price/Book                 | 3.87x      | MRQ        |
+| EV/Revenue                | 2.54x      | FY2025 Revenue |
+| EV/EBITDA                 | 15.1x      | FY2025 Adj EBITDA $3.99B |
 
 ### Valuation Assessment
-- **Trailing P/E:** 36.2x appears elevated relative to earnings growth
-- **Forward P/E:** 25.2x more reasonable, reflecting growth expectations
-- **EV/EBITDA:** 24.2x premium multiple, reflecting transformation potential
-- **Price/Sales:** 3.1x reasonable for building solutions business
-- **Overall:** Premium valuation reflects transformation potential and market position
+- **Trailing P/E:** 30.0x based on $3.76 adjusted EPS (FY2025 actual)
+- **Forward P/E:** 24.8x based on $4.55 guidance (FY2026) - reasonable for growth + execution validation
+- **EV/EBITDA:** 15.1x reasonable given margin expansion and execution validation
+- **Price/Sales:** 2.1x reasonable for building solutions business
+- **Overall:** Premium valuation reflects execution validation, transformation progress, and growth trajectory
 
 ## Comparable Company Analysis
 
@@ -47,22 +48,22 @@
 #### Enterprise Value Multiples
 | Company | EV/Revenue | EV/EBITDA | P/E Forward | Margin |
 |---------|------------|-----------|-------------|--------|
-| JCI     | 3.45x      | 24.21x    | 25.19x      | 17.6%  |
+| JCI     | 2.54x      | 15.1x     | 24.8x       | 17.1%  |
 | Honeywell | ~3.5x    | ~18-20x   | ~22-24x     | 20%+   |
 | Carrier  | ~2.5x     | ~12-14x   | ~18-20x     | 15-17% |
 | Trane    | ~2.8x     | ~15-17x   | ~20-22x     | 16-18% |
 | Lennox   | ~1.8x     | ~12-14x   | ~18-20x     | 12-14% |
 
 **Observations:**
-- JCI trades at premium EV/EBITDA multiple (24.2x) vs. peers (12-20x)
-- Forward P/E (25.2x) in line with premium peers (Honeywell)
-- Margin gap to peers (17.6% vs. 20%+) supports multiple premium if margin expansion occurs
-- Premium multiple reflects transformation potential and competitive position
+- JCI trades at premium EV/EBITDA multiple (15.1x) vs. some peers (12-17x) but reasonable given execution validation
+- Forward P/E (24.8x) in line with premium peers (Honeywell 22-24x)
+- Margin gap narrowing (17.1% vs. 20%+ peers) - 100 bps expansion validates trajectory
+- Premium multiple reflects execution validation, transformation progress, and growth trajectory
 
 #### Valuation Implication
-- **If JCI achieves 20%+ margins:** Multiple could expand to 20-22x forward P/E
-- **If margin expansion stalls:** Multiple compression risk to 18-20x forward P/E
-- **Base case:** 18-20x forward P/E on $3.65-$3.68 EPS = $110-$130 per share
+- **With continued execution:** Multiple could expand to 21-23x forward P/E (bull case)
+- **If execution continues:** Multiple maintains at 19-21x forward P/E (base case)
+- **Base case:** 19-21x forward P/E on $4.55 EPS = $115-$135 per share
 
 ## Discounted Cash Flow (DCF) Analysis
 
@@ -71,11 +72,11 @@
 #### Revenue Projections
 | Year | Revenue Growth | Revenue ($B) | Assumptions |
 |------|----------------|--------------|-------------|
-| FY2025 | 3% | $23.4 | Mid-single-digit growth |
-| FY2026 | 5% | $24.6 | Continued growth, portfolio optimization |
-| FY2027 | 5% | $25.8 | Steady growth |
-| FY2028 | 4% | $26.8 | Mature growth |
-| FY2029 | 4% | $27.9 | Terminal growth |
+| FY2025 | 6% | $23.6 | ✅ Actual - exceeded guidance |
+| FY2026 | 4-5% | $24.6-$24.8 | Mid-single-digit growth, guidance supports |
+| FY2027 | 4-5% | $25.6-$26.0 | Steady growth |
+| FY2028 | 3-4% | $26.4-$27.0 | Mature growth |
+| FY2029 | 3% | $27.2-$27.8 | Terminal growth |
 
 **Key Assumptions:**
 - Mid-single-digit organic growth (4-5%)
@@ -86,11 +87,11 @@
 #### Margin Projections
 | Year | Segment EBITA Margin | EBITDA Margin | Assumptions |
 |------|---------------------|---------------|-------------|
-| FY2025 | 17.6% | ~17% | Current performance |
-| FY2026 | 19.0% | ~18.5% | Margin expansion from lean |
-| FY2027 | 20.0% | ~19.5% | Continued expansion |
-| FY2028 | 20.5% | ~20% | Approaching peer levels |
-| FY2029 | 21.0% | ~20.5% | Terminal margin |
+| FY2025 | 17.1% | ~17% | ✅ Actual - +100 bps expansion |
+| FY2026 | 18.5-19.0% | ~18-18.5% | Continued expansion from lean |
+| FY2027 | 19.5-20.0% | ~19-19.5% | Approaching peer levels |
+| FY2028 | 20.0-20.5% | ~19.5-20% | Peer-level margins |
+| FY2029 | 20.5-21.0% | ~20-20.5% | Terminal margin |
 
 **Key Assumptions:**
 - Lean transformation driving margin expansion
