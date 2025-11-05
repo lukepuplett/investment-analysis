@@ -1,14 +1,15 @@
 # DoorDash Inc. (DASH) – Valuation Analysis
 
-**Analysis Date:** November 5, 2025  
-**Data Period:** Q3 2025 Results and Valuation Metrics  
+**Analysis Date:** November 5, 2025 (Updated Post-Earnings Reaction)  
+**Data Period:** Q3 2025 Results, Q4 2025 Guidance, and Valuation Metrics  
+**Stock Price:** $213.24 (down -10.4% after earnings release)  
 **Analyst:** Investment Analysis Framework
 
 ---
 
 ## Executive Summary
 
-**BLUF: DoorDash trades at premium valuation multiples (10.10x Price/Sales, 148.40x Trailing P/E, 62.89x Forward P/E) reflecting growth expectations and profitability achievement. DCF analysis suggests fair value range of $200-$280 per share based on growth assumptions (20-25% revenue CAGR, 8-12% terminal operating margin). Comparable company analysis shows premium to peers justified by superior growth and profitability. PEG ratio of 0.68x indicates attractive valuation for growth. Valuation supported by accelerating growth (27% YoY), profitability achievement (4.6% operating margin TTM), and strong cash generation ($1.71B free cash flow TTM). RECOMMENDATION: BUY - Premium valuation justified by growth, profitability, and market leadership position.**
+**BLUF: DoorDash stock declined -10.4% after Q3 earnings ($238 → $213.24) due to disappointing Q4 guidance showing flat sequential Adjusted EBITDA growth ($754M Q3 → $760M midpoint Q4) and increased 2026 investment plans suggesting margin compression. At current price of $213.24, DASH trades at 9.0x Price/Sales (down from 10.10x) and 56.3x Forward P/E (down from 62.89x). DCF analysis suggests fair value range of $200-$280 per share, with current price at lower end reflecting near-term margin compression concerns. Q4 guidance conservative but 2026 investment plans create margin headwinds. RECOMMENDATION: BUY - Stock decline creates buying opportunity; valuation more attractive after decline, but near-term margin compression expected from increased investment.**
 
 DoorDash trades at premium valuation multiples reflecting growth expectations and profitability achievement. DCF analysis suggests fair value range based on growth assumptions and terminal margin expectations. Comparable company analysis shows premium to peers justified by superior growth and profitability metrics. PEG ratio indicates attractive valuation for growth. Valuation supported by accelerating growth, profitability achievement, and strong cash generation, though premium multiples require continued execution to justify.
 
@@ -16,27 +17,30 @@ DoorDash trades at premium valuation multiples reflecting growth expectations an
 
 ## Current Valuation Metrics
 
-### Market Valuation
+### Market Valuation (Post-Earnings Reaction)
 
-| Metric | Current Value | Period |
-|--------|---------------|--------|
-| **Market Cap** | $115.38B | Current |
-| **Enterprise Value** | $113.63B | Current |
-| **Stock Price** | $238.00 | Current (down -0.80% today, -14.45% after hours) |
+| Metric | Current Value | Previous Close | Change |
+|--------|---------------|----------------|--------|
+| **Stock Price** | $213.24 | $238.00 | -$24.76 (-10.4%) |
+| **Market Cap** | $103.3B | $115.38B | -$12.08B (-10.5%) |
+| **Enterprise Value** | $101.6B | $113.63B | -$12.03B (-10.6%) |
 | **52-Week Range** | $155.40 - $285.50 | 52-Week |
-| **52-Week Change** | +41.43% | 52-Week |
+| **52-Week Change** | +37.3% | 52-Week (updated) |
+| **Earnings Reaction** | -10.4% | After Q3 earnings release |
 
-### Valuation Multiples
+### Valuation Multiples (Post-Earnings Reaction)
 
-| Metric | Current Value | Period | Peer Comparison |
-|--------|---------------|--------|-----------------|
-| **Trailing P/E** | 148.40x | TTM | High |
-| **Forward P/E** | 62.89x | Forward | Premium |
-| **PEG Ratio (5yr)** | 0.68x | 5-Year | Attractive |
-| **Price/Sales** | 10.10x | TTM | Premium |
-| **Price/Book** | 12.93x | MRQ | Premium |
-| **EV/Revenue** | 9.55x | TTM | Premium |
-| **EV/EBITDA** | 100.29x | TTM | High |
+| Metric | Current Value | Previous Close | Change | Peer Comparison |
+|--------|---------------|----------------|--------|-----------------|
+| **Trailing P/E** | 132.2x | 148.40x | -16.2x | High (but improved) |
+| **Forward P/E** | 56.3x | 62.89x | -6.6x | Premium (but more reasonable) |
+| **PEG Ratio (5yr)** | 0.61x | 0.68x | -0.07x | Attractive |
+| **Price/Sales** | 9.0x | 10.10x | -1.1x | Premium (but improved) |
+| **Price/Book** | 11.5x | 12.93x | -1.4x | Premium (but improved) |
+| **EV/Revenue** | 8.5x | 9.55x | -1.0x | Premium (but improved) |
+| **EV/EBITDA** | 89.4x | 100.29x | -10.9x | High (but improved) |
+
+**Note:** Valuation multiples improved after stock decline, making valuation more attractive relative to growth prospects.
 
 ### Valuation Trends
 
@@ -162,14 +166,20 @@ DoorDash trades at premium valuation multiples reflecting growth expectations an
 
 *Assumptions: 12.0% WACC, 3.0% terminal growth, 402.36M shares outstanding*
 
-### DCF Valuation Summary
+### DCF Valuation Summary (Updated Post-Earnings Reaction)
 
-| Scenario | Fair Value Per Share | Current Price | Upside/Downside |
-|----------|---------------------|---------------|-----------------|
-| **Base Case** | $213 | $238 | -10.5% |
-| **Bull Case** | $365 | $238 | +53.4% |
-| **Bear Case** | $140 | $238 | -41.2% |
-| **Average** | $239 | $238 | +0.4% |
+| Scenario | Fair Value Per Share | Current Price ($213.24) | Upside/Downside |
+|----------|---------------------|-------------------------|-----------------|
+| **Base Case** | $213 | $213.24 | -0.1% |
+| **Bull Case** | $365 | $213.24 | +71.1% |
+| **Bear Case** | $140 | $213.24 | -34.3% |
+| **Average** | $239 | $213.24 | +12.1% |
+
+**Key Changes:**
+- Current price now aligns with Base Case fair value
+- Bull Case upside increased to +71.1% from +53.4%
+- Stock decline creates buying opportunity at current levels
+- Valuation more attractive after earnings reaction
 
 ---
 
@@ -301,59 +311,85 @@ DoorDash trades at premium valuation multiples reflecting growth expectations an
 
 ---
 
-## Valuation Conclusion
+## Valuation Conclusion (Updated Post-Earnings Reaction)
 
 ### Fair Value Assessment
 
 **DCF Analysis:**
-- **Base Case:** $213 per share (-10.5% vs. current)
-- **Bull Case:** $365 per share (+53.4% vs. current)
-- **Bear Case:** $140 per share (-41.2% vs. current)
-- **Average:** $239 per share (+0.4% vs. current)
+- **Base Case:** $213 per share (aligned with current price)
+- **Bull Case:** $365 per share (+71.1% vs. current price of $213.24)
+- **Bear Case:** $140 per share (-34.3% vs. current price)
+- **Average:** $239 per share (+12.1% vs. current price)
 
 **Sum of the Parts:**
-- **Low Value:** $241 per share (+1.3% vs. current)
-- **High Value:** $310 per share (+30.3% vs. current)
-- **Mid Value:** $276 per share (+16.0% vs. current)
+- **Low Value:** $241 per share (+13.0% vs. current price)
+- **High Value:** $310 per share (+45.4% vs. current price)
+- **Mid Value:** $276 per share (+29.4% vs. current price)
 
 **Comparable Analysis:**
-- **Premium Valuation:** Premium to peers justified by growth and profitability
-- **PEG Ratio:** 0.68x indicates attractive valuation for growth
-- **Valuation Support:** Valuation supported by accelerating growth and profitability
+- **Premium Valuation:** Premium to peers but more reasonable after decline
+- **PEG Ratio:** 0.61x (improved from 0.68x) indicates attractive valuation for growth
+- **Valuation Support:** Valuation supported by growth and profitability, but near-term margin compression concerns
+
+### Earnings Reaction Impact
+
+**Q4 2025 Guidance Disappointment:**
+- Q4 Adjusted EBITDA guidance: $710M - $810M (midpoint: $760M)
+- Q3 Adjusted EBITDA: $754M
+- Sequential growth: +0.8% (essentially flat)
+- **Market Reaction:** -10.4% stock decline reflects disappointment
+
+**2026 Investment Plans:**
+- "Several hundred million dollars more" investment in 2026
+- Suggests margin compression and slower profitability growth
+- Investors concerned about profitability trajectory
+
+**Valuation Impact:**
+- Stock decline makes valuation more attractive
+- Current price aligns with Base Case DCF fair value
+- Premium multiples reduced but still reflect growth expectations
+- Near-term margin compression concerns priced in
 
 ### Valuation Recommendation
 
-**Current Valuation:** **Fairly Valued to Slightly Overvalued**
-- **Current Price:** $238 per share
+**Current Valuation:** **Fairly Valued to Attractive**
+- **Current Price:** $213.24 per share (after -10.4% decline)
 - **Fair Value Range:** $213-$276 per share
-- **Valuation Assessment:** Premium valuation reflects growth expectations
-- **Investment Case:** Premium justified by growth, profitability, and market leadership
+- **Valuation Assessment:** Stock decline creates buying opportunity; valuation more attractive after earnings reaction
+- **Investment Case:** Current price aligns with Base Case fair value; Bull Case upside of +71.1% if growth investment yields returns
 
 **Key Valuation Factors:**
-- **Growth:** Accelerating growth (27% YoY) supports premium
-- **Profitability:** Profitability achievement (4.6% margin) supports premium
-- **Market Leadership:** #1 market position supports premium
-- **Cash Generation:** Strong cash generation ($1.71B FCF) supports premium
+- **Growth:** Accelerating growth (27% YoY) supports valuation
+- **Profitability:** Profitability achievement (4.6% margin) supports valuation
+- **Market Leadership:** #1 market position supports valuation
+- **Cash Generation:** Strong cash generation ($1.71B FCF) supports valuation
+- **Near-Term Concerns:** Q4 flat sequential growth and 2026 investment plans create margin headwinds
 
 **Valuation Risk:**
-- **Growth Slowdown:** Growth slowdown could compress multiples
-- **Margin Compression:** Margin compression could impact valuation
-- **Competition:** Increased competition could impact growth and margins
-- **Execution:** Execution risks could impact growth and profitability
+- **Margin Compression:** Q4 guidance and 2026 investment plans suggest margin compression
+- **Growth Slowdown:** Sequential growth slowdown despite GOV growth
+- **Investment Returns:** 2026 investment spending may not yield immediate returns
+- **Execution:** Execution risks on Deliveroo integration and growth investments
 
 ---
 
-## Conclusion
+## Conclusion (Updated Post-Earnings Reaction)
 
-DoorDash trades at premium valuation multiples reflecting growth expectations and profitability achievement. DCF analysis suggests fair value range of $213-$276 per share based on growth assumptions and terminal margin expectations. Comparable company analysis shows premium to peers justified by superior growth and profitability metrics. PEG ratio of 0.68x indicates attractive valuation for growth.
+DoorDash stock declined -10.4% after Q3 earnings ($238 → $213.24) due to disappointing Q4 guidance showing flat sequential Adjusted EBITDA growth and increased 2026 investment plans suggesting margin compression. At current price of $213.24, valuation multiples improved (9.0x Price/Sales, 56.3x Forward P/E) making valuation more attractive. DCF analysis suggests fair value range of $213-$276 per share, with current price aligning with Base Case fair value.
 
 **Key Valuation Strengths:**
-- Premium valuation justified by growth (27% YoY)
-- Premium justified by profitability achievement (4.6% margin TTM)
-- Premium justified by market leadership position
-- Premium justified by strong cash generation ($1.71B FCF TTM)
+- Stock decline creates buying opportunity
+- Valuation multiples improved (9.0x Price/Sales vs 10.10x previously)
+- Current price aligns with Base Case DCF fair value ($213)
+- Bull Case upside of +71.1% if growth investment yields returns
+- Premium valuation justified by growth (27% YoY) and profitability (4.6% margin TTM)
 
-**Valuation Investment Case:** Premium valuation justified by growth, profitability, and market leadership position, though requires continued execution to maintain premium multiples.
+**Valuation Concerns:**
+- Q4 guidance shows flat sequential EBITDA growth
+- 2026 investment plans suggest margin compression
+- Near-term margin headwinds from increased investment spending
+
+**Valuation Investment Case:** Stock decline creates buying opportunity; valuation more attractive after earnings reaction, but near-term margin compression expected from increased investment. Current price aligns with Base Case fair value, providing attractive entry point for long-term investors if growth investment yields returns.
 
 ---
 
@@ -362,7 +398,8 @@ DoorDash trades at premium valuation multiples reflecting growth expectations an
 - [Market Analysis](2025_11_05_market_analysis.md)
 - [Competitive Analysis](2025_11_05_competitive_analysis.md)
 - [Investment Thesis](2025_11_05_investment_thesis.md)
+- [Earnings Reaction Analysis](2025_11_05_earnings_reaction.md)
 - [Risk Assessment](2025_11_05_risk_assessment.md)
 - [Technical Analysis](2025_11_05_technical_analysis.md)
 
-*Analysis based on Q3 2025 earnings data and valuation metrics.*
+*Analysis based on Q3 2025 earnings data, Q4 2025 guidance, and market reaction.*

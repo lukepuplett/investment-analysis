@@ -296,7 +296,7 @@ DoorDash demonstrates strong financial performance with accelerating revenue gro
 - Strong cash generation ($2.19B operating cash flow TTM)
 - Healthy balance sheet ($5.0B cash, low leverage)
 
-**Investment Case:** Strong execution on path to profitability with improving unit economics and robust cash generation supports continued investment in growth opportunities.
+**Investment Case:** Strong execution achieving profitability with improving unit economics and robust cash generation supports continued investment in growth opportunities.
 
 ---
 

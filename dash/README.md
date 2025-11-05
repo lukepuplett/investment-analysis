@@ -12,7 +12,7 @@ Investment analysis for DoorDash Inc. (DASH), a leading on-demand delivery platf
 ## Executive Summary (BLUF - Bottom Line Up Front)
 
 ### Financial Analysis
-**BLUF: DoorDash demonstrates strong financial performance with Q3 2025 revenue of $3.4B (+27% YoY), operating margin of 7.5% (up from 4.0% in Q3 2024), and Adjusted EBITDA of $754M (+41% YoY). The company has achieved profitability milestone with TTM operating income of $543M (4.6% margin), representing a dramatic improvement from -15.7% operating margin in 2022. Strong balance sheet with $5.0B cash, low leverage (36.4% debt/equity), and robust free cash flow generation ($1.7B TTM). RECOMMENDATION: BUY - Strong execution on path to profitability with accelerating growth and improving unit economics.**
+**BLUF: DoorDash demonstrates strong financial performance with Q3 2025 revenue of $3.4B (+27% YoY), operating margin of 7.5% (up from 4.0% in Q3 2024), and Adjusted EBITDA of $754M (+41% YoY). The company has achieved profitability with TTM operating income of $543M (4.6% margin), representing a dramatic improvement from -15.7% operating margin in 2022. Strong balance sheet with $5.0B cash, low leverage (36.4% debt/equity), and robust free cash flow generation ($1.7B TTM). RECOMMENDATION: BUY - Strong execution achieving profitability with accelerating growth and improving unit economics.**
 
 ### Market Analysis
 **BLUF: DoorDash operates in a large and growing on-demand delivery market with $100B+ annualized Marketplace GOV globally (post-Deliveroo acquisition) across 40+ countries. The company has achieved #1 U.S. market share position in restaurant delivery and is expanding into adjacent verticals (grocery, convenience, retail). Market growth drivers include consumer convenience demand, merchant digitization needs, and expanding category penetration. RECOMMENDATION: BUY - Leading market position in growing category with strong execution and expanding TAM through vertical expansion.**
@@ -27,10 +27,10 @@ Investment analysis for DoorDash Inc. (DASH), a leading on-demand delivery platf
 **BLUF: DoorDash faces material risks including labor regulation changes impacting Dasher classification and costs, intense competition from Uber Eats and Grubhub, international execution and integration challenges from Deliveroo acquisition, negative unit economics in new verticals, and regulatory scrutiny across 40+ countries. While the company has achieved profitability (4.6% operating margin TTM), risks remain elevated from regulatory changes, competitive pressure, and execution challenges. Mitigating factors include strong cash position ($5.0B), market leadership position, and improving unit economics. RECOMMENDATION: BUY - Risks are manageable given strong financial position and competitive advantages, but require monitoring.**
 
 ### Investment Thesis
-**BLUF: DoorDash represents a compelling investment opportunity as the #1 U.S. restaurant delivery platform with accelerating growth (27% YoY revenue growth), achieving profitability milestone (4.6% operating margin TTM), and generating strong cash flow ($1.71B free cash flow TTM). The company has sustainable competitive advantages including scale, network effects, brand strength, and technology leadership. Strategic acquisitions (Deliveroo) strengthen international position across 40+ countries with $100B+ annualized Marketplace GOV. Investment thesis supported by large TAM, category expansion, international growth, and improving unit economics. RECOMMENDATION: BUY - Strong execution on path to profitability with accelerating growth and sustainable competitive advantages.**
+**BLUF: DoorDash stock declined -10.4% after Q3 earnings ($238 → $213.24) due to disappointing Q4 guidance showing flat sequential Adjusted EBITDA growth ($754M Q3 → $760M midpoint Q4) and increased 2026 investment plans suggesting margin compression. Strong Q3 results (27% YoY revenue growth, 7.5% operating margin) demonstrate execution and profitability, but Q4 guidance conservative and 2026 investment plans create margin headwinds. At current price of $213.24, stock trades at fair value (aligned with Base Case DCF) creating buying opportunity. Investment thesis remains intact with sustainable competitive advantages, market leadership, and long-term growth opportunities, but near-term margin compression expected. RECOMMENDATION: BUY - Stock decline creates buying opportunity; strong execution achieving profitability with accelerating growth, but near-term margin compression expected from increased investment.**
 
 ### Valuation Analysis
-**BLUF: DoorDash trades at premium valuation multiples (10.10x Price/Sales, 148.40x Trailing P/E, 62.89x Forward P/E) reflecting growth expectations and profitability achievement. DCF analysis suggests fair value range of $200-$280 per share based on growth assumptions (20-25% revenue CAGR, 8-12% terminal operating margin). Comparable company analysis shows premium to peers justified by superior growth and profitability. PEG ratio of 0.68x indicates attractive valuation for growth. Valuation supported by accelerating growth (27% YoY), profitability achievement (4.6% operating margin TTM), and strong cash generation ($1.71B free cash flow TTM). RECOMMENDATION: BUY - Premium valuation justified by growth, profitability, and market leadership position.**
+**BLUF: DoorDash stock declined -10.4% after Q3 earnings ($238 → $213.24) due to disappointing Q4 guidance showing flat sequential Adjusted EBITDA growth ($754M Q3 → $760M midpoint Q4) and increased 2026 investment plans suggesting margin compression. At current price of $213.24, DASH trades at 9.0x Price/Sales (down from 10.10x) and 56.3x Forward P/E (down from 62.89x). DCF analysis suggests fair value range of $200-$280 per share, with current price at lower end reflecting near-term margin compression concerns. Q4 guidance conservative but 2026 investment plans create margin headwinds. RECOMMENDATION: BUY - Stock decline creates buying opportunity; valuation more attractive after decline, but near-term margin compression expected from increased investment.**
 
 ## Analysis Files
 
@@ -42,6 +42,7 @@ Investment analysis for DoorDash Inc. (DASH), a leading on-demand delivery platf
 - [x] `2025_11_05_risk_assessment.md` - Comprehensive risk analysis
 - [x] `2025_11_05_investment_thesis.md` - Overall investment thesis and recommendations
 - [x] `2025_11_05_valuation_analysis.md` - Valuation methodology and price targets
+- [x] `2025_11_05_earnings_reaction.md` - Q3 2025 earnings market reaction analysis
 
 ## Financial Data
 
@@ -116,7 +117,7 @@ DoorDash represents a compelling investment opportunity as the market leader in 
 - Negative unit economics in new verticals
 - Regulatory scrutiny across 40+ countries
 
-**Investment Case:** Strong execution on path to profitability with accelerating growth and sustainable competitive advantages supports continued strong performance and investment recommendation.
+**Investment Case:** Strong execution achieving profitability with accelerating growth and sustainable competitive advantages supports continued strong performance and investment recommendation.
 
 ## Repository Organization
 
@@ -196,7 +197,7 @@ The analysis will follow the framework defined in `AGENTS.md`, covering:
 DoorDash demonstrates strong financial performance with accelerating growth, achieving profitability milestone, and generating strong cash flow. The company has sustainable competitive advantages including scale, network effects, brand strength, and technology leadership that support continued market leadership and profitability. Strategic acquisitions strengthen international position and create a stronger global platform.
 
 **Investment Recommendation: BUY**
-- Strong execution on path to profitability with accelerating growth
+- Strong execution achieving profitability with accelerating growth
 - Sustainable competitive advantages supporting market leadership
 - Strong financial position with significant cash generation
 - Manageable risks given financial position and competitive advantages
