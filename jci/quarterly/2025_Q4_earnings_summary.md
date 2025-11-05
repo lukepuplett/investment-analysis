@@ -114,25 +114,59 @@
 ## Key Questions for Management
 
 1. **GAAP vs. Adjusted Gap:** What drove the large GAAP EPS miss ($0.42 vs. $1.26)?
+   - **Answer from Presentation:** $0.84 of special items including:
+     - Impairment costs: $0.56
+     - ERP Asset accelerated depreciation: $0.16
+     - Transformation costs: $0.09
+     - Restructuring: $0.07
+     - Other items: $0.04 net positive
+
 2. **One-Time Charges:** What restructuring or portfolio actions impacted GAAP results?
+   - **Answer:** Transformation costs ($56M), ERP asset accelerated depreciation ($102M), impairment costs ($358M), restructuring ($42M)
+
 3. **Guidance Confidence:** What drives confidence in 2026 guidance above expectations?
+   - **Answer:** Record backlog ($15B), business system transformation progress, operational improvements, strong order trends
+
 4. **Lean Transformation:** How much of the guidance raise is from lean initiatives?
+   - **Answer:** Transformation initiatives showing progress with 700+ colleagues involved, early productivity improvements
+
 5. **Portfolio Actions:** Are portfolio optimization benefits included in guidance?
+   - **Answer:** R&LC divestiture completed, portfolio optimization ongoing, focusing on growth technologies
 
 ---
 
 ## Comparison to EMR (Also Reported Q4)
 
 **JCI vs. EMR Q4 Results:**
-- **JCI:** Adj EPS beat (+5%), guidance raised (+2.7%)
+- **JCI:** Adj EPS beat (+5%), guidance raised (+2.7% to $4.55)
 - **EMR:** Adj EPS miss (-13%), guidance cut significantly (-318 bps)
-- **JCI:** Operational improvement validating transformation
+- **JCI:** Operational improvement validating transformation (+21% FY2026 EPS growth)
 - **EMR:** Operational deterioration requiring reset
 
 **Investment Implications:**
 - JCI showing execution success vs. EMR execution challenges
-- JCI guidance raise vs. EMR guidance cut
+- JCI guidance raise (+21% EPS growth) vs. EMR guidance cut (2026 +2% sales growth)
 - JCI validating transformation thesis vs. EMR requiring reassessment
+- JCI margin expansion (100 bps) vs. EMR margin pressure
+
+## Detailed Q4 Results from Presentation
+
+### Full Year FY2025 Highlights
+- **Sales:** $23.6B (+6% organic growth)
+- **Adjusted EPS:** $3.76 (+17% YoY from $3.21)
+- **Adjusted Segment EBITA Margin:** 17.1% (+100 bps YoY)
+- **Adjusted Free Cash Flow:** $2.50B (102% conversion)
+- **Backlog:** $15B (+13% YoY, record levels)
+- **Orders:** +7% for full year
+
+### Segment Performance
+- **Americas:** 19.9% margin (up 50 bps), strong growth
+- **EMEA:** 15.6% margin (up 30 bps), Applied HVAC +30%
+- **APAC:** 17.8% margin (down 190 bps), China weakness continuing
+
+### Special Items Breakdown
+- **Total Special Items:** $531M ($0.84 per share)
+- **Major Components:** Impairment ($358M), ERP depreciation ($102M), transformation ($56M)
 
 ---
 

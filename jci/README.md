@@ -53,7 +53,8 @@ Johnson Controls is a global leader in smart, healthy, and sustainable buildings
 - [Yahoo Finance Statistics](financials/2024_10/yahoo_stats.md) - Current valuation and key metrics
 
 ## Quarterly Reports
-- [Q4 2025 Earnings Summary](quarterly/2025_Q4_earnings_summary.md) ✅ **LATEST - Adj EPS Beat, Guidance Raised**
+- [Q4 FY2025 Earnings Presentation](quarterly/2025_Q4_earnings_presentation.md) ✅ **LATEST - Full Presentation**
+- [Q4 FY2025 Earnings Summary](quarterly/2025_Q4_earnings_summary.md) ✅ **LATEST - Adj EPS Beat, Guidance Raised**
 - [Q3 FY2025 Earnings Call Transcript](quarterly/2025_Q3_earnings_call_transcript.md) - July 29, 2025
 - [Q3 FY2025 Earnings Presentation](quarterly/2025_Q3_earnings_presentation.md) - July 29, 2025
 
