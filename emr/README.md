@@ -51,23 +51,28 @@ Emerson Electric Co. is a global industrial technology leader providing advanced
 - [Yahoo Finance Statistics](financials/2025_06/yahoo_stats.md)
 
 ## Quarterly Reports
+- [Q4 2025 Earnings Summary](quarterly/2025_Q4_earnings_summary.md) ⚠️ **LATEST - EPS Miss, Guidance Disappointment**
 - [Q3 2025 Press Release](quarterly/2025_Q3_press_release.md)
 - [Q3 2025 Earnings Presentation](quarterly/2025_Q3_presentation.md)
 - [Q3 2025 Earnings Call Transcript](quarterly/2025_Q3_earnings_call_transcript.md)
 
 ## Key Metrics
-*As of 6/30/2025 (MRQ) and TTM*
+*As of 9/30/2025 (Q4 FY2025) and TTM*
 
-- Revenue (TTM): $17.78B
-- Operating Margin (TTM): 20.25%
-- Net Income (TTM): $2.65B
-- Operating Cash Flow (TTM): $3.17B
-- Free Cash Flow (TTM): $2.74B
+- **Q4 2025 Revenue:** $6.44B (+4% underlying sales growth)
+- **Q4 2025 Adj EPS:** $1.40 (missed est $1.61 by -13%)
+- **2026 Guidance:** ~+2% underlying sales growth (significantly below est +5.18%)
+- Revenue (TTM): ~$17.78B (estimated)
+- Operating Margin (TTM): ~20.25% (estimated)
+- Operating Cash Flow (TTM): ~$3.17B (estimated)
+- Free Cash Flow (TTM): ~$2.74B (estimated)
 - Total Cash (MRQ): $2.22B
 - Total Debt (MRQ): $14.87B
 - Market Cap: $74.88B
 - Forward P/E: 20.33
 - Dividend Yield: 1.51%
+
+**⚠️ Q4 2025 Earnings Update:** EPS miss (-13%) and significant guidance reduction for 2026 (+2% vs. +5.18% expected). Revenue beat but margin pressure evident. Growth outlook reset required.
 
 *MRQ = Most Recent Quarter, TTM = Trailing Twelve Months*
 
@@ -95,21 +100,27 @@ Emerson Electric Co. is a global industrial technology leader providing advanced
 - Strong fundamentals: $17.78B revenue, 27%+ margins, $2.74B free cash flow
 - Technology leadership: First GenAI advisors, industrial data fabric
 - Market positions: Power generation dominance, process automation strength
-- Growth catalysts: Power cycle (high teens growth), discrete recovery, software growth (double-digit ACV)
+- Growth catalysts: Power cycle, discrete recovery, software growth
 - Risk management: Portfolio diversification, MRO stability (62% of sales), strong balance sheet
 
 **Key Investment Highlights:**
-- Power generation orders up 40% in Q3 2025, expected to end year up 20%+
-- Test & Measurement orders up 16% in Q3, recovery accelerating
-- Industrial software ACV at $1.5B, up 10% YoY
 - Strong backlog: $7.6B (excluding AspenTech) supporting growth visibility
-- Consistent shareholder returns: ~$2.3B expected in 2025 ($1.1B repurchases, ~$1.2B dividends)
+- Power generation orders up 40% in Q3 2025
+- Industrial software ACV at $1.5B, up 10% YoY
+- Consistent shareholder returns: Strong cash generation supporting returns
+
+**⚠️ Q4 2025 Earnings Update - Key Concerns:**
+- **EPS Miss:** Q4 Adj EPS $1.40 missed by -13% ($1.61 est)
+- **Guidance Disappointment:** 2026 underlying sales growth ~+2% vs. +5.18% expected
+- **Margin Pressure:** EPS miss despite revenue beat indicates margin challenges
+- **Growth Reset:** Discrete recovery slower than expected, power cycle moderating
 
 **Key Risks:**
-- Europe exposure: -7% sales in Q3 (economic headwinds)
-- Discrete cyclicality: Recovery ongoing but markets remain cyclical
+- **Growth Guidance:** 2026 guidance significantly below expectations
+- Europe exposure: Economic headwinds continuing
+- Discrete cyclicality: Recovery slower than expected
+- Margin pressure: EPS miss despite revenue growth
 - Tariff environment: Dynamic situation despite mitigation
-- Integration challenges: AspenTech, NI integration complexity
 
 ---
 
