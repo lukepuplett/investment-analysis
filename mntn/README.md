@@ -62,7 +62,8 @@ MNTN surfaces its value proposition through:
 │   ├── 2025_08_15_technical_analysis.md
 │   ├── 2025_08_15_risk_assessment.md
 │   ├── 2025_08_15_investment_thesis.md
-│   └── 2025_08_15_valuation_analysis.md
+│   ├── 2025_08_15_valuation_analysis.md
+│   └── 2025_08_19_verification_report.md
 ├── financials/        # Financial analysis documents
 │   └── 2025_08/      # Monthly financial analysis
 │       ├── balance_sheet.md    # Balance sheet analysis and trends
