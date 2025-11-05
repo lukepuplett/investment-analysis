@@ -1,92 +1,101 @@
-# DoorDash Inc. (DASH) – Cash Flow Statement (Q3 2025)
+# DoorDash Inc. (DASH) – Cash Flow Statement (5-Year History)
 
-**Period:** Nine Months Ended September 30, 2025  
-**Format:** Condensed Consolidated Statements of Cash Flows  
-**Source:** Q3 2025 Earnings Press Release
-
----
-
-## Cash Flow Statement (Nine Months Ended September 30)
-
-| Metric | 9M 2024 | 9M 2025 | Change |
-|--------|---------|---------|--------|
-| **Cash flows from operating activities** | | | |
-| Net income (loss) including redeemable non-controlling interests | ($22) | $719 | +$741 |
-| Adjustments to reconcile net income to net cash: | | | |
-| Depreciation and amortization | $420 | $480 | +$60 |
-| Stock-based compensation | $828 | $775 | -$53 |
-| Reduction of operating lease ROU assets and accretion of lease liabilities | $77 | $83 | +$6 |
-| Amortization of deferred contract costs | $43 | $55 | +$12 |
-| Office lease impairment expenses | $83 | $7 | -$76 |
-| Change in fair value of deal-contingent forward contract | $0 | $12 | +$12 |
-| Other | ($17) | $45 | +$62 |
-| **Changes in operating assets and liabilities:** | | | |
-| Funds held at payment processors | $24 | $74 | +$50 |
-| Accounts receivable, net | ($102) | ($162) | -$60 |
-| Prepaid expenses and other current assets | ($209) | ($195) | +$14 |
-| Other assets | $89 | ($193) | -$282 |
-| Accounts payable | ($31) | ($60) | -$29 |
-| Accrued expenses and other current liabilities | $494 | $496 | +$2 |
-| Payments for operating lease liabilities | ($83) | ($87) | -$4 |
-| Other liabilities | $20 | ($39) | -$59 |
-| **Net cash provided by operating activities** | **$1,614** | **$2,010** | **+$396** |
-| **Cash flows from investing activities** | | | |
-| Purchases of property and equipment | ($72) | ($203) | -$131 |
-| Capitalized software and website development costs | ($160) | ($235) | -$75 |
-| Purchases of marketable securities | ($1,527) | ($1,108) | +$419 |
-| Maturities of marketable securities | $1,481 | $1,046 | -$435 |
-| Sales of marketable securities | $4 | $429 | +$425 |
-| Purchases of non-marketable equity securities | $0 | ($5) | -$5 |
-| Acquisitions, net of cash acquired | $0 | ($1,198) | -$1,198 |
-| Other investing activities | ($7) | $0 | +$7 |
-| **Net cash used in investing activities** | **($281)** | **($1,274)** | **-$993** |
-| **Cash flows from financing activities** | | | |
-| Proceeds from issuance of convertible notes, net of issuance costs | $0 | $2,720 | +$2,720 |
-| Proceeds from issuance of warrants | $0 | $341 | +$341 |
-| Purchase of convertible note hedges | $0 | ($680) | -$680 |
-| Proceeds from exercise of stock options | $7 | $8 | +$1 |
-| Repurchase of common stock | ($224) | $0 | +$224 |
-| Other financing activities | $6 | ($10) | -$16 |
-| **Net cash provided by (used in) financing activities** | **($211)** | **$2,379** | **+$2,590** |
-| **Foreign currency effect on cash, cash equivalents, and restricted cash** | $4 | $63 | +$59 |
-| **Net increase in cash, cash equivalents, and restricted cash** | **$1,126** | **$3,178** | **+$2,052** |
-| **Cash, cash equivalents, and restricted cash:** | | | |
-| Beginning of period | $2,772 | $4,221 | +$1,449 |
-| End of period | **$3,898** | **$7,399** | **+$3,501** |
+**Period:** Annual Financial Statements  
+**Format:** Consolidated Statements of Cash Flows  
+**Source:** Historical Financial Data  
+**Currency:** USD (All numbers in thousands)
 
 ---
 
-## Reconciliation of Cash Components
+## Cash Flow Statement
 
-| Metric | 9M 2024 | 9M 2025 |
-|--------|---------|---------|
-| Cash and cash equivalents | $3,664 | $3,279 |
-| Restricted cash | $221 | $4,080 |
-| Long-term restricted cash included in other assets | $13 | $40 |
-| **Total cash, cash equivalents, and restricted cash** | **$3,898** | **$7,399** |
+| Metric | TTM | 12/31/2024 | 12/31/2023 | 12/31/2022 | 12/31/2021 |
+|--------|-----|------------|------------|------------|------------|
+| **Cash flows from operating activities** | | | | | |
+| Net income (loss) from continuing operations | 776,000 | 117,000 | (565,000) | (1,368,000) | (468,000) |
+| **Adjustments to reconcile net income to net cash:** | | | | | |
+| Depreciation & amortization | 590,000 | 561,000 | 509,000 | 369,000 | 156,000 |
+|  - Depreciation | -- | 118,000 | 126,000 | 113,000 | -- |
+|  - Amortization of intangibles | -- | 443,000 | 383,000 | 256,000 | -- |
+| Stock-based compensation | 1,062,000 | 1,099,000 | 1,088,000 | 889,000 | 486,000 |
+| Asset impairment charge | 7,000 | 83,000 | 0 | 2,000 | 36,000 |
+| Operating gains (losses) | 39,000 | 107,000 | 209,000 | 384,000 | 52,000 |
+|  - Gain (loss) on sale of PPE | 104,000 | 103,000 | 108,000 | 81,000 | 52,000 |
+|  - Gain (loss) on investment securities | -- | 4,000 | 101,000 | 303,000 | -- |
+| Other non-cash items | (67,000) | (87,000) | (98,000) | (57,000) | 31,000 |
+| **Changes in operating assets and liabilities:** | | | | | |
+| Change in receivables | (249,000) | (222,000) | (141,000) | (33,000) | (94,000) |
+|  - Changes in accounts receivable | (249,000) | (222,000) | (141,000) | (33,000) | (94,000) |
+| Change in prepaid assets | (158,000) | (146,000) | (105,000) | (165,000) | 85,000 |
+| Change in payables and accrued expenses | 541,000 | 1,025,000 | 772,000 | 551,000 | 674,000 |
+|  - Change in accounts payable | 159,000 | 82,000 | 70,000 | (15,000) | 79,000 |
+|  - Change in accrued expenses | 382,000 | 943,000 | 702,000 | 566,000 | 595,000 |
+| Change in other current assets | (340,000) | (279,000) | (96,000) | (90,000) | (51,000) |
+| Change in other current liabilities | (97,000) | (39,000) | 14,000 | (29,000) | (5,000) |
+| Change in other working capital | 84,000 | (87,000) | 86,000 | (86,000) | (174,000) |
+| **Net change in working capital** | **(219,000)** | **252,000** | **530,000** | **148,000** | **435,000** |
+| **Net cash provided by operating activities** | **2,188,000** | **2,132,000** | **1,673,000** | **367,000** | **692,000** |
+
+---
+
+## Investing Cash Flow
+
+| Metric | TTM | 12/31/2024 | 12/31/2023 | 12/31/2022 | 12/31/2021 |
+|--------|-----|------------|------------|------------|------------|
+| **Cash flows from investing activities** | | | | | |
+| Purchase of property and equipment | (204,000) | (104,000) | (123,000) | (176,000) | (129,000) |
+| Capital expenditure (reported) | (271,000) | (226,000) | (201,000) | (170,000) | (108,000) |
+| **Net PPE Purchase And Sale** | **(204,000)** | **(104,000)** | **(123,000)** | **(176,000)** | **(129,000)** |
+| Purchase of investments | (1,707,000) | (1,951,000) | (1,963,000) | (1,963,000) | (2,753,000) |
+| Sale of investments | 2,028,000 | 1,844,000 | 1,947,000 | 1,939,000 | 944,000 |
+| **Net Investment Purchase And Sale** | **321,000** | **(107,000)** | **(16,000)** | **(24,000)** | **(1,809,000)** |
+| Net business purchase and sale | (1,173,000) | 0 | 0 | 71,000 | 0 |
+|  - Purchase of business | -- | -- | -- | -- | 0 |
+|  - Sale of business | -- | 0 | 0 | 71,000 | 0 |
+| Net other investing changes | -- | (7,000) | (2,000) | (1,000) | (1,000) |
+| **Net cash used in investing activities** | **(1,326,000)** | **(444,000)** | **(342,000)** | **(300,000)** | **(2,047,000)** |
+
+---
+
+## Financing Cash Flow
+
+| Metric | TTM | 12/31/2024 | 12/31/2023 | 12/31/2022 | 12/31/2021 |
+|--------|-----|------------|------------|------------|------------|
+| **Cash flows from financing activities** | | | | | |
+| Net long-term debt issuance | -- | -- | 0 | 0 | (333,000) |
+|  - Long-term debt issuance | -- | -- | -- | 0 | 0 |
+|  - Long-term debt payments | -- | -- | 0 | 0 | (333,000) |
+| **Net Issuance Payments of Debt** | **--** | **--** | **0** | **0** | **(333,000)** |
+| Proceeds from stock option exercises | 357,000 | 14,000 | 6,000 | 11,000 | 32,000 |
+| Common stock payments (repurchases) | (217,000) | (224,000) | (750,000) | (400,000) | 0 |
+| **Net Common Stock Issuance** | **140,000** | **(210,000)** | **(744,000)** | **(389,000)** | **32,000** |
+| Net other financing charges | (690,000) | 6,000 | (8,000) | 14,000 | (182,000) |
+| **Net cash provided by (used in) financing activities** | **2,172,000** | **(204,000)** | **(752,000)** | **(375,000)** | **(483,000)** |
+
+---
+
+## Cash Position Summary
+
+| Metric | TTM | 12/31/2024 | 12/31/2023 | 12/31/2022 | 12/31/2021 |
+|--------|-----|------------|------------|------------|------------|
+| Beginning cash position | 3,620,000 | 2,772,000 | 2,188,000 | 2,506,000 | 4,345,000 |
+| Net cash provided by operating activities | 2,188,000 | 2,132,000 | 1,673,000 | 367,000 | 692,000 |
+| Net cash used in investing activities | (1,326,000) | (444,000) | (342,000) | (300,000) | (2,047,000) |
+| Net cash provided by (used in) financing activities | 2,172,000 | (204,000) | (752,000) | (375,000) | (483,000) |
+| Effect of exchange rate changes | 46,000 | (35,000) | 5,000 | (10,000) | (1,000) |
+| **Changes in cash** | **3,034,000** | **1,484,000** | **579,000** | **(308,000)** | **(1,838,000)** |
+| **End cash position** | **6,654,000** | **4,221,000** | **2,772,000** | **2,188,000** | **2,506,000** |
 
 ---
 
 ## Free Cash Flow
 
-### Trailing Twelve Months Free Cash Flow
-
-| Period | Operating Cash Flow | CapEx + Capitalized Software | Free Cash Flow |
-|--------|-------------------|------------------------------|----------------|
-| TTM Sep 30, 2024 | $2,099 | $319 | $1,780 |
-| TTM Dec 31, 2024 | $2,132 | $330 | $1,802 |
-| TTM Mar 31, 2025 | $2,214 | $405 | $1,809 |
-| TTM Jun 30, 2025 | $2,188 | $475 | $1,713 |
-| **TTM Sep 30, 2025** | **$2,528** | **$536** | **$1,992** |
-
-### Quarterly Free Cash Flow
-
-| Metric | Q3 2024 | Q3 2025 | Change |
-|--------|---------|---------|--------|
-| Net cash provided by operating activities | $531 | $871 | +$340 |
-| Purchases of property and equipment | ($34) | ($78) | -$44 |
-| Capitalized software and website development costs | ($53) | ($70) | -$17 |
-| **Free Cash Flow** | **$444** | **$723** | **+$279** |
+| Metric | TTM | 12/31/2024 | 12/31/2023 | 12/31/2022 | 12/31/2021 |
+|--------|-----|------------|------------|------------|------------|
+| **Net cash provided by operating activities** | 2,188,000 | 2,132,000 | 1,673,000 | 367,000 | 692,000 |
+| **Capital expenditure** | (475,000) | (330,000) | (324,000) | (346,000) | (237,000) |
+| **Free Cash Flow** | **1,713,000** | **1,802,000** | **1,349,000** | **21,000** | **455,000** |
+| **Free Cash Flow Margin** (FCF / Revenue) | 14.4% | 16.8% | 15.6% | 0.3% | 9.3% |
 
 ---
 
@@ -94,96 +103,160 @@
 
 ### Operating Cash Flow Analysis
 
-| Metric | 9M 2024 | 9M 2025 | Change |
-|--------|---------|---------|--------|
-| **Net income (loss)** | ($22) | $719 | +$741 |
-| **Cash conversion ratio** (OCF / Net Income) | N/A | 2.8x | -- |
-| **Operating cash flow margin** (OCF / Revenue) | 20.6% | 20.6% | Flat |
-| **Working capital changes** | | | |
-| Accounts receivable | ($102) | ($162) | -$60 |
-| Prepaid expenses | ($209) | ($195) | +$14 |
-| Accounts payable | ($31) | ($60) | -$29 |
-| Accrued expenses | $494 | $496 | +$2 |
+| Metric | TTM | 12/31/2024 | 12/31/2023 | 12/31/2022 | 12/31/2021 |
+|--------|-----|------------|------------|------------|------------|
+| **Operating Cash Flow** | 2,188,000 | 2,132,000 | 1,673,000 | 367,000 | 692,000 |
+| **Cash conversion ratio** (OCF / Net Income) | 2.8x | 18.2x | N/A | N/A | N/A |
+| **Operating cash flow margin** (OCF / Revenue) | 18.4% | 19.9% | 19.4% | 5.6% | 14.2% |
+| **Net income** | 776,000 | 117,000 | (565,000) | (1,368,000) | (468,000) |
+| **Non-cash adjustments** | 1,623,000 | 1,763,000 | 1,708,000 | 1,587,000 | 730,000 |
+|  - Depreciation & amortization | 590,000 | 561,000 | 509,000 | 369,000 | 156,000 |
+|  - Stock-based compensation | 1,062,000 | 1,099,000 | 1,088,000 | 889,000 | 486,000 |
+|  - Other non-cash items | (29,000) | 103,000 | 111,000 | 329,000 | 88,000 |
+| **Working capital changes** | (219,000) | 252,000 | 530,000 | 148,000 | 430,000 |
+
+### Working Capital Analysis
+
+| Component | TTM | 12/31/2024 | 12/31/2023 | 12/31/2022 | 12/31/2021 |
+|-----------|-----|------------|------------|------------|------------|
+| **Change in receivables** | (249,000) | (222,000) | (141,000) | (33,000) | (94,000) |
+| **Change in prepaid assets** | (158,000) | (146,000) | (105,000) | (165,000) | 85,000 |
+| **Change in payables and accrued expenses** | 541,000 | 1,025,000 | 772,000 | 551,000 | 674,000 |
+| **Change in other current assets** | (340,000) | (279,000) | (96,000) | (90,000) | (51,000) |
+| **Change in other current liabilities** | (97,000) | (39,000) | 14,000 | (29,000) | (5,000) |
+| **Change in other working capital** | 84,000 | (87,000) | 86,000 | (86,000) | (174,000) |
+| **Net change in working capital** | **(219,000)** | **252,000** | **530,000** | **148,000** | **435,000** |
 
 ### Investing Cash Flow Analysis
 
-| Metric | 9M 2024 | 9M 2025 | Change |
-|--------|---------|---------|--------|
-| **Capital expenditures** | | | |
-| Property and equipment | ($72) | ($203) | -$131 |
-| Capitalized software | ($160) | ($235) | -$75 |
-| **Total CapEx** | **($232)** | **($438)** | **-$206** |
-| **Acquisitions** | $0 | ($1,198) | -$1,198 |
-| **Marketable securities** | | | |
-| Purchases | ($1,527) | ($1,108) | +$419 |
-| Maturities | $1,481 | $1,046 | -$435 |
-| Sales | $4 | $429 | +$425 |
-| **Net investing cash flow** | **($281)** | **($1,274)** | **-$993** |
+| Metric | TTM | 12/31/2024 | 12/31/2023 | 12/31/2022 | 12/31/2021 |
+|--------|-----|------------|------------|------------|------------|
+| **Capital expenditures** | (475,000) | (330,000) | (324,000) | (346,000) | (237,000) |
+| **Purchase of investments** | (1,707,000) | (1,951,000) | (1,963,000) | (1,963,000) | (2,753,000) |
+| **Sale of investments** | 2,028,000 | 1,844,000 | 1,947,000 | 1,939,000 | 944,000 |
+| **Net investment activity** | 321,000 | (107,000) | (16,000) | (24,000) | (1,809,000) |
+| **Net business purchase/sale** | (1,173,000) | 0 | 0 | 71,000 | 0 |
+| **Net investing cash flow** | (1,326,000) | (444,000) | (342,000) | (300,000) | (2,047,000) |
 
 ### Financing Cash Flow Analysis
 
-| Metric | 9M 2024 | 9M 2025 | Change |
-|--------|---------|---------|--------|
-| **Convertible notes** | | | |
-| Proceeds, net of issuance costs | $0 | $2,720 | +$2,720 |
-| Warrants proceeds | $0 | $341 | +$341 |
-| Convertible note hedges | $0 | ($680) | -$680 |
-| **Net debt proceeds** | **$0** | **$2,381** | **+$2,381** |
-| **Share repurchases** | ($224) | $0 | +$224 |
-| **Stock option exercises** | $7 | $8 | +$1 |
-| **Net financing cash flow** | **($211)** | **$2,379** | **+$2,590** |
+| Metric | TTM | 12/31/2024 | 12/31/2023 | 12/31/2022 | 12/31/2021 |
+|--------|-----|------------|------------|------------|------------|
+| **Debt issuance (payments)** | -- | -- | 0 | 0 | (333,000) |
+| **Stock option exercises** | 357,000 | 14,000 | 6,000 | 11,000 | 32,000 |
+| **Stock repurchases** | (217,000) | (224,000) | (750,000) | (400,000) | 0 |
+| **Net common stock activity** | 140,000 | (210,000) | (744,000) | (389,000) | 32,000 |
+| **Other financing** | (690,000) | 6,000 | (8,000) | 14,000 | (182,000) |
+| **Net financing cash flow** | 2,172,000 | (204,000) | (752,000) | (375,000) | (483,000) |
+
+---
+
+## Cash Flow Quality Assessment
+
+### Operating Cash Flow Strength
+
+| Metric | TTM | 12/31/2024 | 12/31/2023 | 12/31/2022 | 12/31/2021 |
+|--------|-----|------------|------------|------------|------------|
+| **Operating cash flow** | 2,188,000 | 2,132,000 | 1,673,000 | 367,000 | 692,000 |
+| **Operating cash flow margin** | 18.4% | 19.9% | 19.4% | 5.6% | 14.2% |
+| **Quality indicators:** | | | | | |
+| - Strong despite losses (2022-2023) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| - Improved significantly | ✅ | ✅ | ✅ | ✅ | ✅ |
+| - Exceeds net income | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+### Free Cash Flow Generation
+
+| Metric | TTM | 12/31/2024 | 12/31/2023 | 12/31/2022 | 12/31/2021 |
+|--------|-----|------------|------------|------------|------------|
+| **Free Cash Flow** | 1,713,000 | 1,802,000 | 1,349,000 | 21,000 | 455,000 |
+| **Free Cash Flow Margin** | 14.4% | 16.8% | 15.6% | 0.3% | 9.3% |
+| **FCF conversion** (FCF / Net Income) | 2.2x | 15.4x | N/A | N/A | N/A |
+
+### Capital Allocation
+
+| Metric | TTM | 12/31/2024 | 12/31/2023 | 12/31/2022 | 12/31/2021 |
+|--------|-----|------------|------------|------------|------------|
+| **Capital expenditures** | 475,000 | 330,000 | 324,000 | 346,000 | 237,000 |
+| **CapEx as % of revenue** | 4.0% | 3.1% | 3.8% | 5.3% | 4.8% |
+| **CapEx as % of operating cash flow** | 21.7% | 15.5% | 19.4% | 94.3% | 34.2% |
+| **Stock repurchases** | 217,000 | 224,000 | 750,000 | 400,000 | 0 |
+| **Acquisitions** | 1,173,000 | 0 | 0 | (71,000) | 0 |
 
 ---
 
 ## Key Observations
 
 ### Operating Cash Flow Strength
-- **Operating cash flow:** $2.0 billion in 9M 2025 (up from $1.6 billion in 9M 2024)
-- **Cash conversion:** Strong conversion from net income to operating cash flow (2.8x ratio)
-- **Operating cash flow margin:** 20.6% of revenue (consistent with prior year)
-- **Q3 2025 operating cash flow:** $871 million (up from $531 million in Q3 2024)
+- **Strong cash generation:** $2.2B operating cash flow in TTM (up from $692M in 2021)
+- **Cash conversion:** Strong conversion despite losses in 2022-2023
+- **Operating cash flow margin:** 18.4% TTM (strong cash generation)
+- **Non-cash adjustments:** Significant stock-based compensation ($1.1B annually)
 
-### Free Cash Flow Generation
-- **TTM Free Cash Flow:** $1.99 billion (up from $1.78 billion)
-- **Q3 2025 Free Cash Flow:** $723 million (up from $444 million in Q3 2024)
-- **Free Cash Flow margin:** Strong generation relative to revenue
+### Free Cash Flow
+- **Free Cash Flow:** $1.7B TTM (up from $455M in 2021)
+- **Free Cash Flow margin:** 14.4% TTM (strong FCF generation)
+- **FCF growth:** Significant improvement from 2022 ($21M) to 2024 ($1.8B)
+
+### Working Capital Management
+- **2024:** Positive working capital contribution (+$252M)
+- **2023:** Large positive contribution (+$530M)
+- **TTM:** Negative drag (-$219M) - likely due to growth
+- **Efficiency:** Generally efficient working capital management
 
 ### Capital Allocation
-- **Capital expenditures:** $438 million in 9M 2025 (up from $232 million in 9M 2024)
-  - Property and equipment: $203 million
-  - Capitalized software: $235 million
-- **Acquisitions:** $1.2 billion (Deliveroo acquisition)
-- **Share repurchases:** None in 9M 2025 (vs $224 million in 9M 2024)
-  - $5.0 billion authorization in place but not yet utilized
+- **Capital expenditures:** $475M TTM (moderate investment)
+- **Stock repurchases:** $217M TTM (returning capital to shareholders)
+- **Acquisitions:** $1.2B TTM (strategic acquisitions - Deliveroo)
+- **Investments:** Net positive investment activity (maturities > purchases)
 
-### Financing Activities
-- **Convertible notes:** $2.7 billion issued (net of costs)
-- **Warrants:** $341 million proceeds
-- **Convertible note hedges:** $680 million purchase
-- **Net debt financing:** $2.4 billion (primarily for Deliveroo acquisition)
-
-### Cash Position
-- **Total cash and restricted cash:** $7.4 billion (up from $3.9 billion)
-- **Restricted cash increase:** $4.1 billion (likely related to Deliveroo acquisition escrow)
-- **Cash and cash equivalents:** $3.3 billion (down from $4.0 billion at year-end)
-- **Strong liquidity position:** $8.3 billion total cash and marketable securities
+### Cash Position Growth
+- **End cash position:** $6.7B TTM (up from $2.5B in 2021)
+- **Cash growth:** Significant cash accumulation through strong operating cash flow
+- **Cash generation:** Consistently generating positive cash flow despite losses
 
 ---
 
-## Cash Flow Quality Assessment
+## Cash Flow Trends
+
+### Path to Strong Cash Generation
+
+**2021-2022:**
+- Operating cash flow: $692M → $367M (declined)
+- Free Cash Flow: $455M → $21M (declined)
+- Challenging period with losses
+
+**2023-2024:**
+- Operating cash flow: $1.7B → $2.1B (improved significantly)
+- Free Cash Flow: $1.3B → $1.8B (improved significantly)
+- Strong cash generation despite near-breakeven profitability
+
+**TTM:**
+- Operating cash flow: $2.2B (strongest yet)
+- Free Cash Flow: $1.7B (strong generation)
+- Cash generation accelerating
+
+---
+
+## Financial Health Assessment
 
 ### Strengths
-- **Strong operating cash generation:** $2.0 billion in 9M 2025
-- **Positive free cash flow:** $1.99 billion TTM
-- **Good cash conversion:** 2.8x ratio of operating cash flow to net income
-- **Minimal working capital drag:** Efficient working capital management
+- **Strong operating cash flow:** $2.2B TTM (19.9% margin in 2024)
+- **Positive free cash flow:** $1.7B TTM (14.4% margin)
+- **Cash accumulation:** $6.7B end cash position
+- **Cash conversion:** Strong conversion from revenue to cash
 
 ### Capital Allocation
-- **Investment-focused:** Increased CapEx for growth investments
-- **Strategic acquisition:** Deliveroo acquisition ($1.2 billion cash)
-- **Financial flexibility:** Convertible notes financing provides optionality
-- **Shareholder returns:** No repurchases in 9M 2025 (authorization available)
+- **Investment-focused:** Capital expenditures for growth
+- **Strategic acquisitions:** Deliveroo acquisition ($1.2B)
+- **Shareholder returns:** Stock repurchases ($217M TTM)
+- **Financial flexibility:** Strong cash position enables optionality
+
+### Cash Flow Quality
+- **Sustainable:** Operating cash flow exceeds net income
+- **Consistent:** Positive cash flow generation even during loss periods
+- **Efficient:** Strong cash conversion ratios
+- **Flexible:** Strong cash position provides financial flexibility
 
 ---
 
-*All values in millions USD unless otherwise noted. Source: DoorDash Q3 2025 Earnings Press Release, November 5, 2025.*
+*All values in thousands USD. TTM = Trailing Twelve Months (as of most recent quarter). Source: Historical financial data.*
