@@ -45,6 +45,8 @@ Cabot Corporation operates through multiple business segments:
 ### Financial Analysis
 **BLUF: Cabot Corporation demonstrates strong financial health with Adjusted EPS of $7.25 (up 3% YoY) despite challenging macro conditions, generating $665M in operating cash flow with robust margins (22% Adjusted EBITDA margin). However, revenue declined 7% to $3.71B due to volume headwinds from Asian tire imports and weak European construction demand. The company maintains excellent balance sheet metrics (net debt/EBITDA of 1.2x) and strong capital allocation discipline, but FY2026 guidance suggests continued challenges ($6.00-$7.00 Adjusted EPS range). HOLD - Quality company navigating difficult macro environment with disciplined execution.**
 
+**Growth Outlook:** Historical growth shows cyclical patterns with negative 5-year revenue CAGR of -1.7% reflecting macro headwinds, but strong margin expansion (+220bps EBITDA margin) demonstrates operational excellence. **Near-term (2025-2026):** 0-2% revenue growth expected with continued headwinds in Reinforcement Materials offset by battery materials growth (contribution margin +20% YoY, 20%+ CAGR expected) and infrastructure investment (wire & cable +15% YTD, wind turbines +8% YTD). **Medium-term (2026-2028):** 3-5% revenue growth as battery materials accelerate with 40% CAGR in North America/Europe battery production through 2030. **Long-term (2028-2030):** 4-6% revenue growth with secular tailwinds from EV battery production ramp, energy storage expansion, and infrastructure investment. Growth is quality-focused with margin expansion despite volume declines, driven by unique technology differentiation in battery materials (only global player with both conductive carbons and CNTs) and strategic positioning in high-growth applications.
+
 ### Market Analysis
 **BLUF: Cabot operates in challenging end markets with Reinforcement Materials facing structural headwinds from Asian tire imports and weak auto production, while Performance Chemicals benefits from strong secular trends in battery materials, infrastructure, and alternative energy. The company serves global markets with 40% of battery production growth expected in North America/Europe through 2030, but near-term volume headwinds from tariffs and macro weakness persist. Overall market position is strong with leading technology and global footprint, but cyclical pressures require patience. NEUTRAL - Market dynamics show mixed signals with strong long-term growth drivers offset by near-term cyclical challenges.**
 
@@ -65,6 +67,7 @@ Cabot Corporation operates through multiple business segments:
 
 ## Analysis Files
 - [Financial Analysis](analysis/2025_11_04_financial_analysis.md)
+- [Growth Analysis](analysis/2025_11_04_growth_analysis.md)
 - [Market Analysis](analysis/2025_11_04_market_analysis.md)
 - [Competitive Analysis](analysis/2025_11_04_competitive_analysis.md)
 - [Technical Analysis](analysis/2025_11_04_technical_analysis.md)
