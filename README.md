@@ -28,6 +28,12 @@ This is an investment analysis repository for tracking and analyzing public comp
 
 ## Valuation Metrics Summary
 
+**⚠️ IMPORTANT: Update these tables whenever:**
+- New quarterly earnings are released
+- Stock prices change significantly (>5%)
+- Valuation multiples are updated in company analysis documents
+- After major market events affecting valuations
+
 ### Price-to-Earnings (P/E) Ratios
 
 | Ticker | Company | Trailing P/E | Forward P/E | Notes |
@@ -59,6 +65,12 @@ This is an investment analysis repository for tracking and analyzing public comp
 
 ### Price-to-Sales (P/S) Ratios
 
+**⚠️ IMPORTANT: Update these tables whenever:**
+- New quarterly earnings are released
+- Stock prices change significantly (>5%)
+- Valuation multiples are updated in company analysis documents
+- After major market events affecting valuations
+
 | Ticker | Company | Price/Sales | Notes |
 |--------|---------|-------------|-------|
 | **DASH** | DoorDash | 9.0x* | Updated post-earnings ($213.24), premium growth stock |
@@ -87,6 +99,28 @@ This is an investment analysis repository for tracking and analyzing public comp
 - **Most Reasonable (profitable):** CAT (3.43x), DUK (3.01x), JCI (3.08x), EMR (4.26x)
 
 ## Value Perception Framework
+
+**⚠️ HIGH VALUATION RISK WARNING:**
+
+**Avoid stocks with premium valuations vulnerable to missteps:**
+- **High P/E (>50x) or High P/S (>8x)** without exceptional growth or quality
+- **Recent earnings disappointments** showing market sensitivity (e.g., DASH -10.4% on Q4 guidance)
+- **Premium multiples** that require perfect execution to justify
+- **Growth stocks** where any guidance miss triggers significant selloff
+- **Margin compression concerns** despite premium valuations
+
+**Example: DASH (DoorDash)**
+- Traded at 148.40x trailing P/E, 10.10x P/S before earnings
+- Q4 guidance showing flat sequential EBITDA growth triggered -10.4% decline
+- Premium valuation left no margin for error
+- **Lesson:** High valuations amplify downside risk on any disappointment
+
+**Risk Management for High Valuation Stocks:**
+1. **Avoid or reduce position size** in stocks with premium multiples (>50x P/E, >8x P/S)
+2. **Require exceptional growth** (>30% YoY) to justify premium valuations
+3. **Monitor guidance closely** - any miss triggers significant downside
+4. **Prefer value plays** (P/E <20x, P/S <3x) with margin of safety
+5. **Wait for pullbacks** on premium stocks before entry
 
 ### Understanding Valuation Multiples
 
@@ -175,6 +209,7 @@ This is an investment analysis repository for tracking and analyzing public comp
 - P/S > 5x without high margins or clear path to profitability
 - Multiple significantly above peers
 - Fundamentals don't justify premium
+- **⚠️ HIGH RISK:** Vulnerable to missteps and guidance misses
 
 **Examples from Portfolio:**
 
@@ -193,10 +228,10 @@ This is an investment analysis repository for tracking and analyzing public comp
 - **PH** (Parker-Hannifin): 27.96x P/E, 4.97x P/S - Premium justified by exceptional margins
 - **NEE** (NextEra Energy): 27.24x P/E, 6.22x P/S - Premium utility (renewable growth)
 
-**Premium/Expensive:**
-- **DASH** (DoorDash): 148.40x P/E, 9.0x P/S - High growth stock, premium justified by growth
-- **GLW** (Corning): 87.79x P/E (distorted), 5.05x P/S - Earnings recovery story
-- **RKLB/CRWV/SPCE**: Not profitable, high P/S ratios - Growth stage investments
+**Premium/Expensive (High Risk - Vulnerable to Missteps):**
+- **DASH** (DoorDash): 148.40x P/E, 9.0x P/S - **⚠️ HIGH RISK:** Punished -10.4% on Q4 guidance miss
+- **GLW** (Corning): 87.79x P/E (distorted), 5.05x P/S - Earnings recovery story, monitor closely
+- **RKLB/CRWV/SPCE**: Not profitable, high P/S ratios - Growth stage investments, high risk
 
 ## Repository Structure
 
