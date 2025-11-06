@@ -36,25 +36,25 @@ This is an investment analysis repository for tracking and analyzing public comp
 
 ### Combined Valuation Metrics (P/E and P/S Ratios)
 
-| Ticker | Company | Trailing P/E | Forward P/E | Price/Sales | Notes |
-|--------|---------|--------------|-------------|-------------|-------|
-| **[DASH](dash/README.md)** | DoorDash | 148.40x | 56.3x* | 9.0x* | Updated post-earnings ($213.24), premium growth stock |
-| **[PH](ph/README.md)** | Parker-Hannifin | 27.96x | 26.18x | 4.97x | Premium valuation, exceptional margins |
-| **[JCI](jci/README.md)** | Johnson Controls | 36.22x | 25.19x | 3.08x | Premium valuation, transformation story |
-| **[EMR](emr/README.md)** | Emerson Electric | 34.20x | 20.33x | 4.26x | Reasonable for quality industrial |
-| **[GLW](glw/README.md)** | Corning | 87.79x | 28.99x | 5.05x | Trailing P/E distorted by earnings recovery |
-| **[FLR](flr/README.md)** | Fluor | 1.80x | 17.64x | 0.46x | Trailing P/E distorted (recovery), forward reasonable |
-| **[ADBE](adbe/README.md)** | Adobe | 21.91x | 15.06x | 6.57x | Reasonable software valuation |
-| **[CAT](cat/README.md)** | Caterpillar | 22.95x | 21.32x | 3.43x | Reasonable cyclical industrial |
-| **[NEE](nee/README.md)** | NextEra Energy | 27.24x | 20.04x | 6.22x | Premium utility (renewable growth) |
-| **[CBT](cbt/README.md)** | Cabot | 9.90x | 9.94x | 1.08x | Deep value play |
-| **[DUK](duk/README.md)** | Duke Energy | 19.90x | 18.21x | 3.01x | Reasonable utility valuation |
-| **[LYB](lyb/README.md)** | LyondellBasell | 104.96x | 12.99x | 0.41x | Trailing P/E distorted (cyclical downturn) |
-| **[MNTN](mntn/README.md)** | MNTN | N/A | N/A | 6.38x | Not profitable yet |
-| **[RKLB](rklb/README.md)** | Rocket Lab | N/A | N/A | 27.43x | Not profitable yet, growth stage |
-| **[SPCE](spce/README.md)** | Virgin Galactic | N/A | N/A | 82.95x | Not profitable yet, minimal revenue |
-| **[CRWV](crwv/README.md)** | CoreWeave | N/A | N/A | 19.10x | Not profitable yet, growth stage |
-| **[DRO](dro/README.md)** | DroneShield | 701.23x | N/A | 40.18x | Very high (small company, early stage) |
+| Ticker | Company | Trailing P/E | Forward P/E | Price/Sales | Growth | Notes |
+|--------|---------|--------------|-------------|-------------|--------|-------|
+| **[DASH](dash/README.md)** | DoorDash | 148.40x | 56.3x* | 9.0x* | 27% YoY | Updated post-earnings ($213.24), premium growth stock |
+| **[PH](ph/README.md)** | Parker-Hannifin | 27.96x | 26.18x | 4.97x | 1% organic | Premium valuation, exceptional margins |
+| **[JCI](jci/README.md)** | Johnson Controls | 36.22x | 25.19x | 3.08x | 6% organic | Premium valuation, transformation story |
+| **[EMR](emr/README.md)** | Emerson Electric | 34.20x | 20.33x | 4.26x | ~2% (2026) | Reasonable for quality industrial |
+| **[GLW](glw/README.md)** | Corning | 87.79x | 28.99x | 5.05x | 14% YoY | Trailing P/E distorted by earnings recovery |
+| **[FLR](flr/README.md)** | Fluor | 1.80x | 17.64x | 0.46x | Stable | Trailing P/E distorted (recovery), forward reasonable |
+| **[ADBE](adbe/README.md)** | Adobe | 21.91x | 15.06x | 6.57x | 10-12% | Reasonable software valuation |
+| **[CAT](cat/README.md)** | Caterpillar | 22.95x | 21.32x | 3.43x | -1% (recovery) | Reasonable cyclical industrial |
+| **[NEE](nee/README.md)** | NextEra Energy | 27.24x | 20.04x | 6.22x | 6-8% EPS | Premium utility (renewable growth) |
+| **[CBT](cbt/README.md)** | Cabot | 9.90x | 9.94x | 1.08x | 0-2% near-term | Deep value play |
+| **[DUK](duk/README.md)** | Duke Energy | 19.90x | 18.21x | 3.01x | 5-7% EPS | Reasonable utility valuation |
+| **[LYB](lyb/README.md)** | LyondellBasell | 104.96x | 12.99x | 0.41x | Cyclical trough | Trailing P/E distorted (cyclical downturn) |
+| **[MNTN](mntn/README.md)** | MNTN | N/A | N/A | 6.38x | 25% YoY | Not profitable yet |
+| **[RKLB](rklb/README.md)** | Rocket Lab | N/A | N/A | 27.43x | Growth stage | Not profitable yet, growth stage |
+| **[SPCE](spce/README.md)** | Virgin Galactic | N/A | N/A | 82.95x | Pre-revenue | Not profitable yet, minimal revenue |
+| **[CRWV](crwv/README.md)** | CoreWeave | N/A | N/A | 19.10x | 420% YoY | Not profitable yet, growth stage |
+| **[DRO](dro/README.md)** | DroneShield | 701.23x | N/A | 40.18x | 1,091% YoY | Very high (small company, early stage) |
 
 *Note: DASH Forward P/E updated to 56.3x and Price/Sales to 9.0x after earnings reaction (from 62.89x P/E and 10.10x P/S at $238 price)*
 
