@@ -167,10 +167,11 @@ Financial data tables must follow consistent formatting:
 ### 2. Financial Metrics to Track
 - Revenue Growth
   * Segment breakdown
-  * Quarterly and annual trends
+  * Quarterly and annual trends (analyze historical growth patterns)
   * Backlog analysis
   * Capacity constraints
   * Market penetration
+  * Future growth drivers from sentiment and economic themes
 - Profitability Metrics
   * Gross margins by segment
   * Operating margins
@@ -336,8 +337,9 @@ When requesting AI analysis, structure the prompt to cover:
 1. Financial Analysis
    - Latest quarterly results comparison
    - Balance sheet health assessment
-   - Revenue growth and profitability metrics
+   - Revenue growth and profitability metrics (analyze historical growth trends in data)
    - Cash flow sustainability analysis
+   - Future growth assessment from sentiment and economic themes
    - Capacity constraints
 
 2. Business Model Assessment
