@@ -28,75 +28,49 @@ This is an investment analysis repository for tracking and analyzing public comp
 
 ## Valuation Metrics Summary
 
-**⚠️ IMPORTANT: Update these tables whenever:**
+**⚠️ IMPORTANT: Update this table whenever:**
 - New quarterly earnings are released
 - Stock prices change significantly (>5%)
 - Valuation multiples are updated in company analysis documents
 - After major market events affecting valuations
 
-### Price-to-Earnings (P/E) Ratios
+### Combined Valuation Metrics (P/E and P/S Ratios)
 
-| Ticker | Company | Trailing P/E | Forward P/E | Notes |
-|--------|---------|--------------|-------------|-------|
-| **DASH** | DoorDash | 148.40x | 56.3x* | Updated post-earnings ($213.24), premium growth stock |
-| **PH** | Parker-Hannifin | 27.96x | 26.18x | Premium valuation, exceptional margins |
-| **JCI** | Johnson Controls | 36.22x | 25.19x | Premium valuation, transformation story |
-| **EMR** | Emerson Electric | 34.20x | 20.33x | Reasonable for quality industrial |
-| **GLW** | Corning | 87.79x | 28.99x | Trailing P/E distorted by earnings recovery |
-| **FLR** | Fluor | 1.80x | 17.64x | Trailing P/E distorted (recovery), forward reasonable |
-| **ADBE** | Adobe | 21.91x | 15.06x | Reasonable software valuation |
-| **CAT** | Caterpillar | 22.95x | 21.32x | Reasonable cyclical industrial |
-| **NEE** | NextEra Energy | 27.24x | 20.04x | Premium utility (renewable growth) |
-| **CBT** | Cabot | 9.90x | 9.94x | Deep value play |
-| **DUK** | Duke Energy | 19.90x | 18.21x | Reasonable utility valuation |
-| **LYB** | LyondellBasell | 104.96x | 12.99x | Trailing P/E distorted (cyclical downturn) |
-| **MNTN** | MNTN | N/A | N/A | Not profitable yet |
-| **RKLB** | Rocket Lab | N/A | N/A | Not profitable yet |
-| **SPCE** | Virgin Galactic | N/A | N/A | Not profitable yet |
-| **CRWV** | CoreWeave | N/A | N/A | Not profitable yet |
-| **DRO** | DroneShield | 701.23x | N/A | Very high (small company, early stage) |
+| Ticker | Company | Trailing P/E | Forward P/E | Price/Sales | Notes |
+|--------|---------|--------------|-------------|-------------|-------|
+| **DASH** | DoorDash | 148.40x | 56.3x* | 9.0x* | Updated post-earnings ($213.24), premium growth stock |
+| **PH** | Parker-Hannifin | 27.96x | 26.18x | 4.97x | Premium valuation, exceptional margins |
+| **JCI** | Johnson Controls | 36.22x | 25.19x | 3.08x | Premium valuation, transformation story |
+| **EMR** | Emerson Electric | 34.20x | 20.33x | 4.26x | Reasonable for quality industrial |
+| **GLW** | Corning | 87.79x | 28.99x | 5.05x | Trailing P/E distorted by earnings recovery |
+| **FLR** | Fluor | 1.80x | 17.64x | 0.46x | Trailing P/E distorted (recovery), forward reasonable |
+| **ADBE** | Adobe | 21.91x | 15.06x | 6.57x | Reasonable software valuation |
+| **CAT** | Caterpillar | 22.95x | 21.32x | 3.43x | Reasonable cyclical industrial |
+| **NEE** | NextEra Energy | 27.24x | 20.04x | 6.22x | Premium utility (renewable growth) |
+| **CBT** | Cabot | 9.90x | 9.94x | 1.08x | Deep value play |
+| **DUK** | Duke Energy | 19.90x | 18.21x | 3.01x | Reasonable utility valuation |
+| **LYB** | LyondellBasell | 104.96x | 12.99x | 0.41x | Trailing P/E distorted (cyclical downturn) |
+| **MNTN** | MNTN | N/A | N/A | 6.38x | Not profitable yet |
+| **RKLB** | Rocket Lab | N/A | N/A | 27.43x | Not profitable yet, growth stage |
+| **SPCE** | Virgin Galactic | N/A | N/A | 82.95x | Not profitable yet, minimal revenue |
+| **CRWV** | CoreWeave | N/A | N/A | 19.10x | Not profitable yet, growth stage |
+| **DRO** | DroneShield | 701.23x | N/A | 40.18x | Very high (small company, early stage) |
 
-*Note: DASH Forward P/E updated to 56.3x after earnings reaction (from 62.89x at $238 price)*
+*Note: DASH Forward P/E updated to 56.3x and Price/Sales to 9.0x after earnings reaction (from 62.89x P/E and 10.10x P/S at $238 price)*
 
-**P/E Ratio Observations:**
-- **Lowest P/E (profitable):** CBT (9.90x), DUK (19.90x), ADBE (21.91x)
-- **Highest P/E (profitable):** DASH (148.40x trailing), GLW (87.79x trailing), LYB (104.96x trailing - distorted)
-- **Most Reasonable:** ADBE (21.91x/15.06x), CAT (22.95x/21.32x), EMR (34.20x/20.33x)
+**Valuation Observations:**
 
-### Price-to-Sales (P/S) Ratios
+**Lowest Multiples (Value Plays):**
+- **P/E:** CBT (9.90x), DUK (19.90x), ADBE (21.91x)
+- **P/S:** LYB (0.41x), FLR (0.46x), CBT (1.08x)
 
-**⚠️ IMPORTANT: Update these tables whenever:**
-- New quarterly earnings are released
-- Stock prices change significantly (>5%)
-- Valuation multiples are updated in company analysis documents
-- After major market events affecting valuations
+**Highest Multiples (Premium/Growth):**
+- **P/E:** DASH (148.40x trailing), GLW (87.79x trailing - distorted), LYB (104.96x trailing - distorted)
+- **P/S:** SPCE (82.95x), DRO (40.18x), RKLB (27.43x), CRWV (19.10x)
 
-| Ticker | Company | Price/Sales | Notes |
-|--------|---------|-------------|-------|
-| **DASH** | DoorDash | 9.0x* | Updated post-earnings ($213.24), premium growth stock |
-| **SPCE** | Virgin Galactic | 82.95x | Very high (not profitable, minimal revenue) |
-| **DRO** | DroneShield | 40.18x | Very high (small company, early stage) |
-| **RKLB** | Rocket Lab | 27.43x | High (not profitable, growth stage) |
-| **CRWV** | CoreWeave | 19.10x | High (not profitable, growth stage) |
-| **ADBE** | Adobe | 6.57x | Premium software valuation |
-| **MNTN** | MNTN | 6.38x | Premium (not profitable yet) |
-| **NEE** | NextEra Energy | 6.22x | Premium utility (renewable energy growth) |
-| **GLW** | Corning | 5.05x | Reasonable for margin expansion story |
-| **PH** | Parker-Hannifin | 4.97x | Premium industrial (exceptional margins) |
-| **EMR** | Emerson Electric | 4.26x | Reasonable for quality industrial |
-| **JCI** | Johnson Controls | 3.08x | Reasonable for building solutions |
-| **DUK** | Duke Energy | 3.01x | Reasonable utility valuation |
-| **CAT** | Caterpillar | 3.43x | Reasonable for cyclical industrial |
-| **CBT** | Cabot | 1.08x | Value play |
-| **FLR** | Fluor | 0.46x | Deep value (EPC contractor discount) |
-| **LYB** | LyondellBasell | 0.41x | Deep cyclical trough valuation |
-
-*Note: DASH Price/Sales updated to 9.0x after earnings reaction (from 10.10x at $238 price)*
-
-**P/S Ratio Observations:**
-- **Lowest P/S (value plays):** LYB (0.41x), FLR (0.46x), CBT (1.08x)
-- **Highest P/S (growth/premium):** SPCE (82.95x), DRO (40.18x), RKLB (27.43x), CRWV (19.10x)
-- **Most Reasonable (profitable):** CAT (3.43x), DUK (3.01x), JCI (3.08x), EMR (4.26x)
+**Most Reasonable (Profitable Companies):**
+- **P/E:** ADBE (21.91x/15.06x), CAT (22.95x/21.32x), EMR (34.20x/20.33x)
+- **P/S:** CAT (3.43x), DUK (3.01x), JCI (3.08x), EMR (4.26x)
 
 ## Value Perception Framework
 
