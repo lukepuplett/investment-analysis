@@ -3,7 +3,7 @@
 
 ## Executive Summary
 
-**BLUF: CRWV’s valuation multiples compressed sharply (EV/Revenue 18.41x vs 33.30x in June, EV/EBITDA 41.93x vs 98.86x) as the stock settled near $105; backlog strength and 61% adj. EBITDA margin support the long-term story, but leverage and capex execution risks justify a disciplined upside view—base case equity value ≈$95–$125 per share, bull case $180+, bear case $50.**
+**BLUF: CRWV’s valuation multiples compressed sharply (EV/Revenue 18.41x vs 33.30x in June, EV/EBITDA 41.93x vs 98.86x) as the stock settled near $105; backlog strength and 61% adj. EBITDA margin support the long-term story, but leverage and capex execution risks justify a disciplined upside view—base case equity value now ≈$100–$115 per share (down from $95–$125), bull case $180+, bear case $50, supporting a HOLD / REDUCE stance.**
 
 ## Market Snapshot
 | Metric | Current (11/11/2025) | 10/08/2025 | 6/30/2025 | Notes |
@@ -37,7 +37,7 @@
 | Scenario | Key Assumptions | EV/Revenue | EV | Equity Value | Per Share (495M diluted) |
 |----------|-----------------|------------|----|--------------|--------------------------|
 | Bull | Revenue growth 140% FY26, EV/Rev 24x, margins stable | 24x | ~$85B | ~$71B | ~$180 |
-| Base | Revenue growth 100% FY26, EV/Rev 18x, steady margins | 18x | ~$63B | ~$47B | ~$120 |
+| Base | Revenue growth 100% FY26, EV/Rev 17x, mild margin compression | 17x | ~$66B | ~$54B | ~$110 |
 | Bear | Revenue growth 60% FY26, EV/Rev 10x, margin compression | 10x | ~$35B | ~$25B | ~$50 |
 
 - Scenario EV derived from applying multiples to FY26 revenue targets (~$3.53B TTM × growth assumptions) minus net debt (~$13.4B).
@@ -59,10 +59,22 @@
 5. **Equity market sentiment:** Pre-market drop to $95.50 demonstrates sensitivity to delivery headlines; watch for volatility spikes when project milestones shift.
 6. **Guidance credibility:** Delivery on revised $12–14B 2025 capex timeline and clarity on Q4 margin compression will influence whether the market treats CoreWeave as disciplined infrastructure or risky growth.
 
-## Recommendation Framing
-- **Target Range:** $95–$125 near-term until powered-shell remediation and financing clarity improve.
-- **Upside Triggers:** Visible catch-up deliveries, capex plan de-risking, or strategic equity infusion reducing leverage.
-- **Downside Watch:** Prolonged construction delays, weaker GPU allocation, or capital market tightening resulting in forced equity raise.
+## Updated Recommendation (Post-Earnings)
+
+**Price Target:** $100–$115 (down from $95–$125; midpoint $107 vs. prior $110)  
+**Rating:** HOLD / REDUCE (downgrade from Outperform)  
+**Conviction:** 6.5/10 (down from 7.5/10)
+
+### Rationale for Target Reduction
+1. Capex guidance cut signals execution constraints that cap near-term backlog conversion.
+2. Powered-shell delays extend visibility uncertainty and shift revenue into FY26.
+3. FY26 leverage and refinancing risk now a primary valuation overhang.
+4. Hyperscaler competition timeline compressed (H1 2026 vs prior H2 2026 expectation), pressuring margin assumptions.
+
+### Risk-Reward Skew
+- Upside to $130–$150: Requires flawless Q4 execution, detailed FY26 financing plan, and limited hyperscaler pricing pressure (25% probability).
+- Downside to $75–$85: Powered-shell delays persist, FY26 capex underfunded, or hyperscaler pricing accelerates (30% probability).
+- Most likely range $100–$110 as investors await proof-points on delivery and funding (45% probability).
 
 ## Cross References
 - Financial detail: `2025_11_11_financial_analysis.md`

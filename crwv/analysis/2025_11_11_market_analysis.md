@@ -44,6 +44,14 @@
 - Capex guidance cut to $12–14B for 2025 signaled execution constraints tied to third-party shell delays; even when framed as a Q1 2026 timing shift, investors treated it as a limit on near-term backlog conversion.
 - Large AI infrastructure announcements by hyperscalers and peers reinforce demand but also highlight competitive intensity—CoreWeave must continue to differentiate on customization and software to avoid commoditization as supply normalizes.
 
+## Near-Term Demand Risk (H1 2026)
+
+1. **Customer Order Timing:** Hyperscaler and frontier customers may defer portions of 2026 capacity until powered-shell remediation is confirmed; assume 10–15% of expected Q1–Q2 revenue could shift right.
+2. **Funding Backdrop:** Tighter venture funding and higher rates can slow enterprise AI adoption, adding volatility to the ~40% of backlog tied to non-investment-grade counterparties.
+3. **Competitive Share Shift:** Early hyperscaler AI cloud launches could redirect incremental workloads if CoreWeave cannot demonstrate timely delivery, pressuring the modeled $2.0–2.3B quarterly revenue ramp for FY26.
+
+**Implication:** Maintain the $10–11B FY26 base-case outlook but apply a 10% haircut (risk-adjusted $9–10B) until powered-shell remediation and competitive pricing clarity are visible.
+
 ## Cross References
 - Financial implications: `2025_11_11_financial_analysis.md`
 - Differentiation narrative: `2025_11_11_competitive_analysis.md`

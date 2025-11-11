@@ -36,6 +36,22 @@
 - Capital intensity requires ongoing funding; balance sheet leverage (381% debt/equity) could constrain responsiveness versus deep-pocketed rivals.
 - Recent mega-deal announcements across the ecosystem confirm robust demand but also signal that CoreWeave must share wallet with hyperscalers and specialty players; investors may view the capex guidance cut as evidence that execution cadence could cede share to competitors with deeper infrastructure benches.
 
+## Hyperscaler AI Cloud Launch Threat (2026–2027)
+
+### Expected Timeline
+- **AWS:** Q2–Q3 2026 launch of dedicated AI compute tier (likely NVIDIA GPU focus).
+- **Azure:** Q2 2026 launch alongside Microsoft AI partnership expansion.
+- **Google Cloud:** Q2–Q3 2026 launch following TPU/GPU enhancements.
+
+### Pricing Pressure Scenarios
+- **Optimistic (for CoreWeave):** Hyperscalers price 10–15% below CoreWeave; CoreWeave retains ~60% market share.
+- **Base:** Hyperscalers price 15–20% below CoreWeave; CoreWeave forfeits 30–40% share to hyperscalers.
+- **Pessimistic:** Hyperscalers price at cost; CoreWeave becomes a specialty provider with 10–20% share.
+
+### Impact on CoreWeave Valuation
+- 15% pricing compression drives 5–7 percentage points of adjusted margin erosion, translating to ~$0.08/share quarterly EPS drag and lower EV/EBITDA tolerance from investors.
+- Earlier-than-expected launches from hyperscalers compress the window for CoreWeave to monetize its backlog at premium pricing, reinforcing the need for accelerated delivery and cost discipline.
+
 ## Strategic Responses
 - Shift toward self-build infrastructure reduces dependency on delayed partners and protects delivery timelines.
 - Expanded collaboration with NVIDIA ($6.3B strategic initiative) strengthens access to next-gen GPUs and networking.

@@ -39,6 +39,19 @@
 - Capex guidance reset to $12–14B for 2025 (roughly 40% below prior outlook) pushes spend into 2026 but raised investor skepticism about execution cadence and backlog conversion.
 - Management cautioned about near-term adjusted operating margin compression in Q4 due to timing of cost recognition relative to revenue ramps—watch coverage metrics closely.
 
+## Capex Execution Risk (NEW)
+
+| Risk Dimension | Status | Impact | Mitigant |
+|----------------|--------|--------|----------|
+| Timeline Risk | Elevated | Powered-shell delays already causing Q4 revenue deferrals; $6–8B of capex shifted into FY26 | Self-build initiatives intended to de-risk delivery, but track record unproven |
+| Financing Risk | Elevated | $24B FY26 capex requires ongoing debt/equity market access amid higher rates | DDTL availability confirmed; structured equity remains optional but would dilute |
+| ROI Risk | Moderate | If backlog conversion slips, deployed capacity could sit idle and pressure returns | Infrastructure fungibility and NVIDIA interruptible capacity agreement support redeployment |
+
+**Monitoring**
+- [ ] Q4 2025: Actual capex vs revised guidance; progress on third-party shell remediation.
+- [ ] Q1 2026: Management disclosure of FY26 capex staging and funding mix (debt vs equity vs OEM).
+- [ ] Q2 2026: Hyperscaler AI cloud launch impact on demand; any customer order deferrals or cancellations.
+
 ## Contract & Regulatory Risks
 - Multi-year backlog includes performance obligations contingent on capacity availability; further delays could trigger penalties or renegotiations.
 - Expansion into UK and government-linked projects introduces regulatory oversight (data sovereignty, security clearances) that requires ongoing compliance investment.

@@ -75,6 +75,22 @@
 - Management flagged near-term adjusted operating margin pressure in Q4 due to timing mismatches between capex deployment and revenue recognition—investors should watch for sequential margin compression despite strong Q3 prints.
 - Rapid diversification also means a larger portion of backlog now sits with smaller customers whose ramp profiles may be less predictable, a nuance that surfaced in investor follow-up commentary.
 
+### Stressed FY26 Financial Projections
+
+| Metric | Bull | Base | Bear |
+|--------|------|------|------|
+| FY26 Revenue | $13.0B | $10.5B | $8.0B |
+| Adj. EBITDA Margin | 60% | 57% | 50% |
+| Adj. EBITDA | $7.8B | $6.0B | $4.0B |
+| Capex | $24.0B | $24.0B | $24.0B |
+| Free Cash Flow | ($16.2B) | ($18.0B) | ($20.0B) |
+| Incremental Debt Growth | $24.0B | $24.0B | $24.0B |
+| Pro-forma Total Debt | $38.0B | $38.0B | $38.0B |
+| Pro-forma Debt/Equity | 380% | 450% | 500%+ |
+| Annualized Interest Expense | $1.8B | $1.9B | $1.9B |
+
+**Key Insight:** Even with strong backlog support, FY26 is set to be materially free-cash-flow negative across scenarios unless CoreWeave stages financing and aligns deployment pace with revenue conversion.
+
 ## Cross References
 - Business context: `2025_11_11_market_analysis.md`
 - Competitive considerations: `2025_11_11_competitive_analysis.md`
