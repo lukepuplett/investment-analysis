@@ -83,6 +83,38 @@ Financial data tables must follow consistent formatting:
 - Dates in MM/DD/YYYY format
 - Include abbreviations legend: MRQ = Most Recent Quarter, TTM = Trailing Twelve Months
 
+### Standard Analysis Table Framework
+Use the following five tables in every full update (earnings, major thesis review). Keep layouts consistent to enable fast comparisons across companies.
+
+1. **Three-Scenario Revenue Model**  
+   - *Purpose:* Frame bull/base/bear revenue outcomes over the next 2–3 fiscal periods.  
+   - *Structure:* `Scenario | Q4 [CY] | FY [CY] | FY [CY+1]E | FY [CY+2]E | Key Driver/Assumption`.  
+   - *Usage:* Populate after each earnings call; highlight 2–3 core drivers that shift between scenarios. Optional probability weights support valuation work.
+
+2. **Red Flag Audit with Mitigant Assessment**  
+   - *Purpose:* Catalogue major risks, management responses, and monitoring KPIs.  
+   - *Structure:* `Risk | Severity (1–10) | Mitigant | Mitigant Strength (1–10) | Monitoring KPI`.  
+   - *Usage:* Refresh quarterly; severity ≥8 with mitigant ≤5 remains an open red flag that must be called out in the thesis.
+
+3. **Competitive Moat Scorecard**  
+   - *Purpose:* Score durability of each competitive lever.  
+   - *Structure:* `Moat Factor | Rating (1–5) | Notes | Durability Horizon | Replicability`.  
+   - *Usage:* Update semi-annually or when competitive dynamics change; average the ratings (optionally weighted) to derive the overall moat score.
+
+4. **Investment Thesis Coherence Check**  
+   - *Purpose:* Ensure thesis pillars, confidence levels, and evidence stay aligned.  
+   - *Structure:* `Thesis Pillar | Status (✅/⚠️/❌) | Confidence (1–10) | Evidence | Risk if Wrong`.  
+   - *Usage:* Maintain alongside the investment thesis document; revisit whenever new data shifts conviction.
+
+5. **Valuation Sensitivity Table**  
+   - *Purpose:* Show how ±10% moves in key assumptions affect valuation.  
+   - *Structure:* `Driver | Base Assumption | +10% Impact | -10% Impact | Valuation Delta`.  
+   - *Usage:* Recalculate with every material model change; rank drivers by absolute valuation impact to focus monitoring.
+
+**Quick Workflow (≈30 minutes):**  
+1) Build the revenue scenarios, 2) score the moat, 3) run the red flag audit, 4) check thesis coherence, 5) map valuation sensitivity. Summaries from these tables must feed into the BLUF and recommendation sections.  
+**Prompting Tip:** When requesting LLM support for a new company, explicitly ask for outputs in the five-table format above, followed by conviction, recommendation, and probability-weighted price target.
+
 ## Analysis Workflow
 
 ### Document Creation Process
