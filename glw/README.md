@@ -52,6 +52,7 @@ Corning Incorporated is a materials science company that specializes in glass, c
 - [x] [Risk Assessment](analysis/2025_11_03_risk_assessment.md)
 - [x] [Investment Thesis](analysis/2025_11_03_investment_thesis.md)
 - [x] [Valuation Analysis](analysis/2025_11_03_valuation_analysis.md)
+- [x] [Structured Analysis Tables](analysis/2025_11_11_structured_tables.md)
 
 ## Financial Data
 - [Balance Sheet](financials/2025_11/balance_sheet.md)
