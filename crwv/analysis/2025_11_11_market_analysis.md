@@ -52,6 +52,13 @@
 
 **Implication:** Maintain the $10–11B FY26 base-case outlook but apply a 10% haircut (risk-adjusted $9–10B) until powered-shell remediation and competitive pricing clarity are visible.
 
+## Contract Structure & Cash Collection Dynamics
+
+- **Take-or-pay commitments dominate:** ~96% of revenue stems from 2–6 year contracts that obligate minimum spend regardless of actual GPU usage, contrasting with the optional reservation frameworks used by hyperscalers.
+- **Mandatory prepayments (15–25% TCV):** Customers typically advance 15–25% of total contract value before service delivery (per S-1), supporting upfront GPU purchases and cushioning credit risk. Deferred revenue stood at ~$4.85B in Q2 2025 (≈12% of RPO).
+- **Cash flow implications:** Weighted-average prepayments convert a slice of backlog into near-term cash, but the majority of the $55.6B RPO remains unbilled. Schedule slips adjust revenue timing yet preserve economic value under take-or-pay clauses.
+- **Comparative positioning:** AWS/Azure/GCP rely on elective upfront payments with flexible pay-as-you-go options; CoreWeave’s stricter terms trade customer flexibility for liquidity to fund capex-heavy expansion.
+
 ## Cross References
 - Financial implications: `2025_11_11_financial_analysis.md`
 - Differentiation narrative: `2025_11_11_competitive_analysis.md`
