@@ -1,0 +1,397 @@
+Income Statement
+Balance Sheet
+Cash Flow
+All numbers in thousands
+Annual
+Quarterly
+
+Expand All
+BreakdownTTM12/31/202412/31/202312/31/202212/31/2021
+
+Operating Cash Flow
+-103,377
+-48,890
+-98,867
+-106,538
+-71,791
+
+Cash Flow from Continuing Operating Activities
+-103,377
+-48,890
+-98,867
+-106,538
+-71,791
+Net Income from Continuing Operations
+-197,632
+-190,175
+-182,571
+-135,944
+-117,320
+
+Operating Gains Losses
+1,884
+-1,498
+1,621
+-12,559
+15,946
+Gain Loss On Investment Securities
+--
+--
+--
+-13,482
+15,294
+
+Depreciation Amortization Depletion
+38,330
+33,655
+29,744
+29,947
+10,851
+Depreciation & amortization
+38,330
+33,655
+29,744
+29,947
+10,851
+
+Deferred Tax
+-34,760
+599
+708
+-576
+-9,979
+Deferred Income Tax
+-34,760
+599
+708
+-576
+-9,979
+Amortization of Securities
+-2,228
+-2,901
+-4,571
+-1,395
+0
+Stock based compensation
+69,766
+56,816
+53,461
+55,649
+32,557
+Other non-cash items
+10,859
+8,824
+10,034
+6,026
+3,556
+
+Change in working capital
+10,404
+45,790
+-7,293
+-47,686
+-7,402
+
+Change in Receivables
+-34,841
+-51,589
+-2,049
+-16,975
+-5,973
+Changes in Account Receivables
+-33,798
+-1,428
+1,452
+-9,430
+-7,789
+Change in Inventory
+-30,847
+-12,398
+-15,562
+-25,964
+-12,072
+Change in Prepaid Assets
+-11,815
+7,591
+-14,586
+-15,059
+-10,504
+
+Change in Payables And Accrued Expense
+18,090
+33,886
+12,310
+-5,647
+-1,443
+
+Change in Payable
+9,313
+24,800
+15,585
+-2,129
+-4,517
+Change in Account Payable
+9,313
+24,800
+15,585
+-2,129
+-4,517
+Change in Accrued Expense
+8,777
+9,086
+-3,275
+-3,518
+3,074
+Change in Other Current Assets
+-3,334
+-12,922
+-11,470
+-7,072
+-4,548
+Change in Other Current Liabilities
+-11,932
+-947
+-12,412
+-1,738
+-593
+Change in Other Working Capital
+85,083
+82,169
+36,476
+24,769
+27,731
+
+Investing Cash Flow
+-261,176
+-98,327
+12,018
+-346,079
+-92,134
+
+Cash Flow from Continuing Investing Activities
+-261,176
+-98,327
+12,018
+-346,079
+-92,134
+
+Net PPE Purchase And Sale
+-128,185
+-67,093
+-54,707
+-42,412
+-25,699
+Purchase of PPE
+-128,185
+-67,093
+-54,707
+-42,412
+-25,699
+
+Net Business Purchase And Sale
+-132,441
+0
+-18,966
+-65,824
+-66,435
+Purchase of Business
+-132,441
+0
+-18,966
+-65,824
+-66,435
+
+Net Investment Purchase And Sale
+-1,733
+-43,776
+82,031
+-237,843
+0
+Purchase of Investment
+-200,393
+-162,161
+-207,266
+-259,567
+0
+Sale of Investment
+198,660
+118,385
+289,297
+21,724
+0
+Net Other Investing Changes
+1,183
+12,542
+3,660
+--
+--
+
+Financing Cash Flow
+881,917
+256,682
+7,369
+2,041
+799,939
+
+Cash Flow from Continuing Financing Activities
+881,917
+256,682
+7,369
+2,041
+799,939
+
+Net Issuance Payments of Debt
+8,485
+302,947
+2,091
+-271
+98,895
+
+Net Long Term Debt Issuance
+8,485
+302,947
+2,091
+-271
+98,895
+Long Term Debt Issuance
+26,716
+355,000
+110,000
+0
+113,895
+Long Term Debt Payments
+-18,231
+-52,053
+-107,909
+-271
+-15,000
+
+Net Short Term Debt Issuance
+--
+--
+--
+--
+0
+Short Term Debt Issuance
+--
+--
+--
+--
+15,000
+Short Term Debt Payments
+--
+--
+--
+--
+-15,000
+
+Net Common Stock Issuance
+--
+--
+0
+0
+-30,358
+Common Stock Payments
+--
+--
+0
+0
+-30,358
+
+Net Preferred Stock Issuance
+--
+--
+--
+0
+0
+Preferred Stock Issuance
+--
+--
+--
+0
+0
+Proceeds from Stock Option Exercised
+114,230
+44,444
+23,427
+39,420
+3,147
+Net Other Financing Charges
+-106,251
+-90,709
+-18,149
+-37,108
+728,255
+
+End Cash Position
+814,156
+275,302
+166,434
+245,871
+692,075
+Changes in Cash
+517,364
+109,465
+-79,480
+-450,576
+636,014
+Effect of Exchange Rate Changes
+-1,446
+-597
+43
+4,372
+2,128
+Beginning Cash Position
+296,792
+166,434
+245,871
+692,075
+53,933
+Income Tax Paid Supplemental Data
+362
+269
+769
+2,666
+1,842
+Interest Paid Supplemental Data
+23,941
+16,287
+15,553
+10,749
+3,991
+Capital Expenditure
+-128,185
+-67,093
+-54,707
+-42,412
+-25,699
+Issuance of Capital Stock
+--
+--
+--
+0
+0
+Issuance of Debt
+26,716
+355,000
+110,000
+0
+113,895
+Repayment of Debt
+-18,231
+-52,053
+-107,909
+-271
+-15,000
+Repurchase of Capital Stock
+--
+--
+0
+0
+-30,358
+Free Cash Flow
+-231,562
+-115,983
+-153,574
+-148,950
+-97,490

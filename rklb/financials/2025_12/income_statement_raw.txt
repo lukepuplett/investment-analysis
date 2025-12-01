@@ -1,0 +1,263 @@
+Income Statement
+Balance Sheet
+Cash Flow
+Currency in USD
+All numbers in thousands
+Annual
+Quarterly
+
+Expand All
+BreakdownTTM12/31/202412/31/202312/31/202212/31/2021
+
+Total Revenue
+554,535
+436,214
+244,592
+210,996
+62,237
+Operating Revenue
+554,535
+436,214
+244,592
+210,996
+62,237
+Cost of Revenue
+378,769
+320,065
+193,183
+192,006
+64,130
+Gross Profit
+175,766
+116,149
+51,409
+18,990
+-1,893
+
+Operating Expense
+405,111
+305,950
+229,327
+154,194
+100,160
+Selling General and Administrative
+164,919
+131,556
+110,273
+89,026
+58,395
+Research & Development
+240,192
+174,394
+119,054
+65,168
+41,765
+Operating Income
+-229,345
+-189,801
+-177,918
+-135,204
+-102,053
+
+Net Non Operating Interest Income Expense
+-7,325
+-3,954
+-4,248
+-7,799
+-6,128
+Interest Expense Non Operating
+7,325
+3,954
+4,248
+7,799
+--
+Total Other Finance Cost
+--
+--
+4,248
+7,799
+6,128
+
+Other Income Expense
+747
+4,344
+3,245
+10,057
+-16,659
+Gain on Sale of Security
+143
+-87
+-470
+9,047
+-15,861
+Other Non Operating Income Expenses
+604
+4,431
+3,715
+1,010
+-798
+Pretax Income
+-235,923
+-189,411
+-178,921
+-132,946
+-124,840
+Tax Provision
+-38,291
+764
+3,650
+2,998
+-7,520
+
+Net Income Common Stockholders
+-197,632
+-190,175
+-182,571
+-135,944
+-117,320
+
+Net Income
+-197,632
+-190,175
+-182,571
+-135,944
+-117,320
+
+Net Income Including Non-Controlling Interests
+-197,632
+-190,175
+-182,571
+-135,944
+-117,320
+Net Income Continuous Operations
+-197,632
+-190,175
+-182,571
+-135,944
+-117,320
+Diluted NI Available to Com Stockholders
+-197,632
+-190,175
+-182,571
+-135,944
+-117,320
+Basic EPS
+-0.38
+-0.38
+-0.38
+-0.29
+-0.56
+Diluted EPS
+-0.38
+-0.38
+-0.38
+-0.29
+-0.56
+Basic Average Shares
+512,868.04
+495,929.86
+481,768.06
+466,214.10
+209,895.14
+Diluted Average Shares
+512,868.04
+495,929.86
+481,768.06
+466,214.10
+209,895.14
+Total Operating Income as Reported
+-229,345
+-189,801
+-177,918
+-135,204
+-102,053
+Total Expenses
+783,880
+626,015
+422,510
+346,200
+164,290
+Net Income from Continuing & Discontinued Operation
+-197,632
+-190,175
+-182,571
+-135,944
+-117,320
+Normalized Income
+-197,751.79
+-190,106.27
+-182,199.70
+-143,091.13
+-102,410.66
+Interest Expense
+7,325
+3,954
+4,248
+7,799
+--
+Net Interest Income
+-7,325
+-3,954
+-4,248
+-7,799
+-6,128
+EBIT
+-228,598
+-185,457
+-174,673
+-125,147
+-102,053
+EBITDA
+-190,268
+-151,802
+-144,929
+-95,200
+-91,202
+Reconciled Cost of Revenue
+378,769
+320,065
+193,183
+192,006
+64,130
+Reconciled Depreciation
+38,330
+33,655
+29,744
+29,947
+10,851
+Net Income from Continuing Operation Net Minority Interest
+-197,632
+-190,175
+-182,571
+-135,944
+-117,320
+Total Unusual Items Excluding Goodwill
+143
+-87
+-470
+9,047
+-15,861
+Total Unusual Items
+143
+-87
+-470
+9,047
+-15,861
+Normalized EBITDA
+-190,411
+-151,715
+-144,459
+-104,247
+-75,341
+Tax Rate for Calcs
+0
+0
+0
+0
+0
+Tax Effect of Unusual Items
+23.21
+-18.27
+-98.70
+1,899.87
+-951.66

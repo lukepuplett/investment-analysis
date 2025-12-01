@@ -1,0 +1,425 @@
+Income Statement
+Balance Sheet
+Cash Flow
+All numbers in thousands
+Annual
+Quarterly
+
+Expand All
+Breakdown12/31/202412/31/202312/31/202212/31/2021
+
+Total Assets
+1,184,342
+941,211
+989,123
+980,847
+
+Current Assets
+692,621
+476,722
+662,294
+774,764
+
+Cash, Cash Equivalents & Short Term Investments
+418,990
+244,773
+471,791
+690,959
+Cash And Cash Equivalents
+271,042
+162,518
+242,515
+690,959
+Other Short Term Investments
+147,948
+82,255
+229,276
+0
+
+Receivables
+111,531
+61,800
+47,466
+19,010
+Accounts receivable
+36,440
+35,176
+36,572
+13,957
+Other Receivables
+75,091
+26,624
+10,894
+5,053
+
+Inventory
+119,074
+107,857
+92,279
+47,904
+Raw Materials
+50,650
+45,062
+33,376
+21,517
+Work in Process
+60,462
+53,628
+50,661
+24,166
+Finished Goods
+7,962
+9,167
+8,242
+2,221
+Prepaid Assets
+38,041
+48,031
+43,126
+14,787
+Current Deferred Assets
+--
+--
+--
+2,490
+Assets Held for Sale Current
+0
+9,016
+0
+--
+Other Current Assets
+4,985
+5,245
+7,632
+2,104
+
+Total non-current assets
+491,721
+464,489
+326,829
+206,083
+
+Net PPE
+262,898
+219,797
+152,367
+93,763
+
+Gross PPE
+328,483
+268,907
+188,756
+115,954
+Properties
+0
+0
+0
+0
+Buildings And Improvements
+68,631
+59,730
+36,493
+25,075
+Machinery Furniture Equipment
+143,781
+94,597
+61,817
+30,465
+Other Properties
+88,786
+88,581
+63,675
+38,035
+Construction in Progress
+27,285
+25,999
+26,771
+22,379
+Accumulated Depreciation
+-65,585
+-49,110
+-36,389
+-22,191
+
+Goodwill And Other Intangible Assets
+129,657
+139,114
+150,712
+100,795
+Goodwill
+71,020
+71,020
+71,020
+43,308
+Other Intangible Assets
+58,637
+68,094
+79,692
+57,487
+
+Investments And Advances
+60,686
+79,247
+9,193
+0
+
+Investment in Financial Assets
+60,686
+79,247
+9,193
+0
+Available for Sale Securities
+60,686
+79,247
+9,193
+--
+
+Non Current Deferred Assets
+3,010
+3,501
+3,898
+5,859
+Non Current Deferred Taxes Assets
+3,010
+3,501
+3,898
+5,859
+Other Non Current Assets
+35,470
+22,830
+10,659
+5,666
+
+Total Liabilities Net Minority Interest
+801,889
+386,667
+315,917
+282,399
+
+Current Liabilities
+339,525
+223,373
+162,940
+96,307
+
+Payables And Accrued Expenses
+93,366
+51,235
+29,441
+22,732
+
+Payables
+73,906
+45,645
+20,718
+11,755
+Accounts Payable
+53,059
+29,303
+12,084
+3,489
+Other Payable
+20,847
+16,342
+8,634
+8,266
+Current Accrued Expenses
+19,460
+5,590
+8,723
+10,977
+Pension & Other Post Retirement Benefit Plans Current
+--
+--
+--
+8,266
+
+Current Debt And Capital Lease Obligation
+12,045
+17,764
+2,906
+2,827
+
+Current Debt
+12,045
+17,764
+2,906
+2,827
+Other Current Borrowings
+12,045
+17,764
+2,906
+2,827
+
+Current Deferred Liabilities
+216,160
+139,338
+108,344
+59,749
+Current Deferred Revenue
+216,160
+139,338
+108,344
+59,749
+Other Current Liabilities
+17,954
+15,036
+22,249
+10,999
+
+Total Non Current Liabilities Net Minority Interest
+462,364
+163,294
+152,977
+186,092
+
+Long Term Debt And Capital Lease Obligation
+456,376
+158,924
+149,877
+125,599
+Long Term Debt
+389,441
+87,587
+100,043
+97,297
+Long Term Capital Lease Obligation
+66,935
+71,337
+49,834
+28,302
+
+Non Current Deferred Liabilities
+891
+426
+95
+466
+Non Current Deferred Taxes Liabilities
+891
+426
+95
+466
+Derivative Product Liabilities
+--
+--
+0
+58,227
+Preferred Securities Outside Stock Equity
+--
+--
+--
+0
+Other Non Current Liabilities
+5,097
+3,944
+3,005
+1,800
+
+Total Equity Gross Minority Interest
+382,453
+554,544
+673,206
+698,448
+
+Stockholders' Equity
+382,453
+554,544
+673,206
+698,448
+
+Capital Stock
+50
+49
+48
+45
+Preferred Stock
+0
+0
+--
+--
+Common Stock
+50
+49
+48
+45
+Additional Paid in Capital
+1,198,909
+1,176,484
+1,112,977
+1,002,106
+Retained Earnings
+-813,701
+-623,526
+-440,955
+-305,011
+
+Gains Losses Not Affecting Retained Earnings
+-2,805
+1,537
+1,136
+1,308
+Other Equity Adjustments
+-2,805
+1,537
+1,136
+1,308
+Total Capitalization
+771,894
+642,131
+773,249
+795,745
+Common Stock Equity
+382,453
+554,544
+673,206
+698,448
+Capital Lease Obligations
+66,935
+71,337
+49,834
+28,302
+Net Tangible Assets
+252,796
+415,430
+522,494
+597,653
+Working Capital
+353,096
+253,349
+499,354
+678,457
+Invested Capital
+783,939
+659,895
+776,155
+798,572
+Tangible Book Value
+252,796
+415,430
+522,494
+597,653
+Total Debt
+468,421
+176,688
+152,783
+128,426
+Net Debt
+130,444
+--
+--
+--
+Share Issued
+504,453.79
+488,923.06
+475,356.52
+450,180.48
+Ordinary Shares Number
+504,453.79
+488,923.06
+475,356.52
+450,180.48
+Treasury Shares Number
+--
+0
+--
+--
