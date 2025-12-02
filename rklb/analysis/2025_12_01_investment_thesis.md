@@ -8,7 +8,7 @@
 
 ## Executive Summary (BLUF)
 
-**RKLB is a capital-intensive aerospace company at an inflection point: strong Electron launch execution (68 missions, record Q3 revenue of $155M, 48% YoY growth) is generating cash and backlog momentum, while Neutron development remains the critical bet for 5–10x revenue upside. The company is operationally disciplined, backed by $1B+ liquidity, and expanding vertically into payloads (GEOST) and laser comms (Mynaric pending). However, Neutron delays beyond Q1 2026 first flight, government shutdown impact on defense revenue, and execution risk on margin expansion represent material downside. At a ~40x P/S multiple (current market cap $22.5B vs TTM revenue $554.5M) against a $600M implied 2025 guidance midpoint, valuation assumes near-perfect Neutron execution and 30%+ gross margin expansion. Note: P/S multiple has compressed from ~48x (Nov 2025) to ~40x (Dec 2025), reflecting market re-rating. Conviction: 6/10 (Base Case). Recommendation: Hold/Accumulate selectively on weakness; set strict stop-loss if Neutron slips to H2 2026 or gross margins compress below 34%. Target: $65–75 in Bull Case (2027E), $25–30 in Bear Case (2026E risk scenario).**
+**RKLB is a capital-intensive aerospace company at an inflection point: Space Systems (>50% of revenue) provides near-term cash generation while Neutron development remains a binary, existential bet for 5–10x revenue upside. Strong Electron launch execution (68 missions) demonstrates operational excellence but faces structural economic pressure from SpaceX rideshare pricing ($275-300k/kg). The company is backed by $1B+ liquidity and expanding vertically into payloads (GEOST) and laser comms (Mynaric pending). However, Neutron is not merely a schedule risk—it's an architecture risk (Hungry Hippo fairing, composite structures at scale, reusability) where failure would reduce RKLB to a defense components supplier worth $4-8B, not $22B+. At ~40x P/S (current market cap $22.5B vs TTM revenue $554.5M), current price $40.37 offers no margin of safety and assumes >50% Neutron success probability. Conviction: 5/10 (Base Case, down from 6/10). Recommendation: Hold/Wait for $35-38 entry; set strict stop-loss if Neutron slips to H2 2026 or gross margins compress below 34%. Target: $65–75 in Bull Case (2027E, 15% probability), $35-45 Base Case (2026E, 45% probability), $15–20 in Bear Case (2026E, 40% probability).**
 
 ---
 
@@ -18,19 +18,20 @@
 
 | Thesis Pillar | Status | Confidence (1–10) | Evidence | Risk if Wrong |
 |---|---|---|---|---|
-| **Electron is a durable, profitable platform** | ✅ | 8 | 68 successful missions, 14 launches YTD 2025, 49 contracts on backlog, revenue per launch $8.2M 9M'25, gross margin 37% GAAP Q3 | Backlog growth stalls, competitive ASP pressure, launch manifest gaps |
+| **Space Systems is the near-term revenue engine (>50% of revenue)** | ✅ | 7 | GEOS closed ($325M); Mynaric pending; $586M backlog; 40%+ margin products; likely >60% of 2026E revenue; defense market access | Integration execution fails; GEOST growth plateaus; SDA cadence slows; margin compression |
+| **Electron demonstrates operational excellence but faces economic pressure** | ⚠️ | 6 | 68 successful missions, 14 launches YTD 2025, 49 contracts on backlog; BUT SpaceX rideshare at $275-300k/kg destroys economics; strategically useful, not financially accretive long-term | Backlog growth stalls; competitive ASP pressure intensifies; Electron becomes cash-flow negative |
 | **HASTE creates defensible second revenue pillar** | ✅ | 7 | 2 back-to-back Q3 launches, over-time revenue recognition (higher margins), defense program linkage (Golden Dome), $40.9M Q3 launch revenue (4 launches vs 3 prior year) | Program cancellation, lower ASPs, schedule delays on hypersonic test ops |
-| **Neutron first flight Q1 2026 is achievable and capital-efficient** | ⚠️ | 5 | $360M cumulative spend through EOY 2025 vs original $250–300M guide (15–44% overrun); qualification testing on track; team credibility from Electron; Launch Complex 3 opened August | Further 6–12 month delays into H2 2026; engine qualification setbacks; structural test failures; integration challenges at pad |
-| **Space Systems vertical integration (GEOS + Mynaric) expands TAM & margin** | ⚠️ | 6 | GEOS closed ($325M consideration); Mynaric financial restructure complete; $1B+ dry powder; strategic fit for Golden Dome, SDA constellation work; payloads as full-stack offering | Integration execution fails; revenue synergies delayed; customer concentration risk; GEOS/Mynaric underperform |
-| **Gross margin expansion to 40–45% is achievable long-term** | ✅ | 7 | Q3 37% GAAP, 41.9% non-GAAP (excludes $5.1M transaction costs, stock comp); cadence absorption improving; Electron ASP rising; space systems margins mix improving | Structural cost issues; manufacturing inefficiency; competitive price pressure; Neutron ramp-up drag on consolidated margins |
+| **Neutron success is binary (works or doesn't), not a delay problem** | ⚠️ | 4 | $360M cumulative spend (15-44% overrun); architecture risks: Hungry Hippo fairing (first-ever), composite structures at medium-lift scale, reusability (SpaceX took years); failure = RKLB becomes $4-8B defense supplier, not $22B+ | Neutron fails structurally, economically, or operationally; cash burn forces dilution; company re-rates to 1-2x sales |
+| **Gross margin expansion to 40–45% is achievable (Space Systems-driven, not launch)** | ✅ | 7 | Q3 37% GAAP, 41.9% non-GAAP; GEOS brings 40%+ margin products; margin expansion is Space Systems mix shift, NOT Electron/Neutron economics | Structural cost issues; Space Systems margin ceiling (35-42%) limits profitability; Neutron ramp-up drag |
 | **Government funding environment remains stable despite shutdown** | ⚠️ | 5 | 29% of 9M'25 revenue from government customer; SDA awards delayed but program scope growing; Golden Dome eligibility; Defense primes pursuing partnerships | Prolonged shutdown or funding cuts; loss of key government customer; export control tightening; tariff impact on COGS |
+| **Founder concentration risk (Peter Beck) is manageable but real** | ⚠️ | 5 | Beck is elite technically; company has scaled beyond one-person (Launch Complex 3, GEOS, Neutron team); BUT concentration risk exists if he burns out, is removed, or shifts focus | Beck departure or distraction materially increases Neutron execution risk; engineering culture weakens |
 | **Capital structure supports organic + M&A growth without excessive dilution** | ✅ | 8 | $1B cash, $468.8M ATM proceeds in Q3, $355M convertible notes (post-conversion 37M shares in Q4), manageable debt; net leverage < 0.5x; positive FCF possible by late 2026 | Neutron cost overruns exceed $100M; major acquisition at premium; debt covenant violations if revenue < $500M 2025 |
 
 ---
 
 ## Bull Case (Upside Scenario)
 
-**Probability: 25% | Price Target: $65–75 (2027E)**
+**Probability: 15% | Price Target: $65–75 (2027E)**
 
 ### Assumptions
 - **Neutron First Flight:** Q1 2026 on schedule; rapid turnaround to Flight 2 (12–15 months); 3 launches in 2026E, 7+ in 2027E
@@ -56,7 +57,7 @@
 
 ## Base Case (Most Likely Scenario)
 
-**Probability: 50% | Price Target: $40–50 (2026E)**
+**Probability: 45% | Price Target: $35–45 (2026E)**
 
 ### Assumptions
 - **Neutron First Flight:** Q1 2026 achieved; Flight 2 delayed to Q4 2026 / Q1 2027 (integration/test findings)
@@ -82,7 +83,7 @@
 
 ## Bear Case (Downside Scenario)
 
-**Probability: 25% | Price Target: $25–30 (2026E)**
+**Probability: 40% | Price Target: $15–20 (2026E)**
 
 ### Assumptions
 - **Neutron Slippage:** First flight pushed to H2 2026 or later (structural test failure, engine qualification setback, integration delays)
@@ -110,7 +111,8 @@
 
 | Risk | Severity (1–10) | Mitigant | Mitigant Strength (1–10) | Monitoring KPI |
 |---|---|---|---|---|
-| **Neutron schedule slip to H2 2026+** | 9 | Proven Electron track record; dedicated test infrastructure (Launch Complex 3); experienced propulsion team; hardware build ahead of schedule | 6 | Quarterly Neutron qual test progress updates; first flight date confirmation in Q4 2025 earnings |
+| **Neutron failure (existential binary risk: works or doesn't, not delay)** | 10 | Proven Electron track record; dedicated test infrastructure (Launch Complex 3); experienced propulsion team; BUT architecture risks (Hungry Hippo fairing, composite structures at scale, reusability) are first-time execution; failure = RKLB becomes $4-8B defense supplier | 5 | Quarterly Neutron qual test progress; structural test results; first flight success; Flight 2-3 reusability demonstration |
+| **Electron economics unviable long-term (SpaceX rideshare pressure)** | 7 | Electron is strategically useful for dedicated missions, government customers, rapid cadence; BUT SpaceX rideshare at $275-300k/kg structurally undercuts economics; Electron not financially accretive long-term | 5 | Electron ASP trends; launch manifest fill rate; competitive win/loss vs SpaceX rideshare; gross margin by segment |
 | **Government funding uncertainty / SDA Tranche 3 delay** | 8 | 29% government revenue diversification; SDA program scope growing not shrinking; Golden Dome eligibility; strategic importance to DoD | 6 | SDA contract award date; Golden Dome program funding; government backlog $ value by quarter |
 | **Gross margin compression below 34%** | 7 | Electron ASP rising ($8.2M 9M'25 vs $7.0M 9M'24); cadence increases (fixed cost absorption); space systems mix improvement | 7 | Quarterly gross margin trend; segment margin breakdown; launch ASP monitoring |
 | **Space Systems integration execution (GEOS/Mynaric)** | 7 | GEOS closed; Mynaric financial restructure complete; proven M&A playbook (Sinclair, SolAero, Planetary Systems); dedicated integration team | 6 | GEOS revenue ramp; Mynaric closing date; revenue synergy quarterly tracking |
@@ -118,6 +120,7 @@
 | **Competitive pricing pressure on Electron** | 6 | Only reliable small launch provider at scale (SpaceX focus on Falcon 9/Heavy); international demand strong; 49 launch backlog | 7 | Launch ASP by customer type; competitive win/loss analysis; backlog replenishment rate |
 | **Supply chain / tariff impact on COGS** | 6 | 90%+ US-based manufacturing; many suppliers domestic; mitigation strategies in place (negotiations, cost reductions) | 5 | COGS as % of revenue; tariff headwind quantification; supply chain diversification updates |
 | **Mynaric integration / revenue realization** | 5 | Strategic fit (end-to-end comms); $75M consideration + $75M earnout (milestones); pending German regulatory approval | 5 | Mynaric closing timeline; revenue targets; regulatory approval status |
+| **Founder concentration risk (Peter Beck)** | 5 | Beck is elite technically; company has scaled beyond one-person (Launch Complex 3, GEOS, Neutron team); management depth improving | 6 | Beck health/engagement; management team stability; succession planning disclosures |
 
 ---
 
@@ -222,7 +225,7 @@
 
 ## Investment Recommendation
 
-### Conviction: 6/10 (Base Case) | Stance: **Hold/Accumulate Selectively**
+### Conviction: 5/10 (Base Case) | Stance: **Hold/Wait for $35-38 Entry**
 
 #### Rationale
 1. **Near-Term (12M): Neutral-to-Positive**
@@ -230,7 +233,7 @@
    - Q4 2025 should print $600M+ full-year revenue, validating growth trajectory
    - Government backlog resilient despite shutdown; SDA Tranche 2 half-billion contract ongoing
    - Gross margins improving to 37% GAAP Q3, path to 38–40% visible by 2026
-   - **Action: Hold existing position; add selectively on pullback to $35–40**
+   - **Action: Hold existing position; wait for pullback to $35–38 before adding (current $40.37 offers no margin of safety)**
 
 2. **Medium-Term (12–24M): Key Inflection**
    - Neutron first flight Q1 2026 is the make-or-break catalyst
@@ -262,7 +265,7 @@
 | **6–12 Months** | $60–70 (50–75%) | $25–30 (-35–40%) | 1.4:1 |
 | **12–24 Months** | $65–85 (60–110%) | $20–25 (-45–50%) | 1.5:1 |
 
-**Conclusion:** Risk/reward improves if Neutron executes and SDA Tranche 3 awarded by mid-2026. Current ~40x P/S valuation (down from ~48x in Nov 2025) reflects market re-rating but remains stretched for a company with unproven medium-lift vehicle and 36–37% near-term gross margins. TTM revenue of $554.5M is below $600M guidance midpoint; Q4 2025 results needed to confirm full-year guidance achievement. Selective accumulation on weakness; strict discipline on exit triggers; 6/10 conviction reflects execution risk and valuation dependency on Neutron. Monitor quarterly for catalyst confirmation.
+**Conclusion:** Risk/reward improves if Neutron executes and SDA Tranche 3 awarded by mid-2026, but Neutron is a binary existential risk (works or doesn't), not merely a schedule risk. Current ~40x P/S valuation (down from ~48x in Nov 2025) reflects market re-rating but current price $40.37 offers no margin of safety—market is pricing in >50% Neutron success probability. Probability-weighted fair value is $35.70 (Bull 15% × $70 + Base 45% × $40 + Bear 40% × $18). Space Systems (>50% revenue) is the near-term engine; Electron demonstrates operational excellence but faces structural economic pressure from SpaceX rideshare. Wait for $35-38 entry; strict discipline on exit triggers; 5/10 conviction (down from 6/10) reflects binary Neutron risk, Electron economics pressure, and founder concentration. Monitor quarterly for catalyst confirmation.
 
 ---
 

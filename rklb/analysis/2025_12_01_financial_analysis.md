@@ -6,7 +6,7 @@
 
 ## Executive Summary (BLUF)
 
-**BLUF: Rocket Lab delivered record Q3 2025 revenue of $155M (+48% YoY) at 37% GAAP gross margin with strong launch demand (49 launches on contract), but faces elevated cash burn of $101M over 9 months and Neutron development delays pushing first launch to Q1 2026. The company has secured $1B+ liquidity through ATM offerings and completed strategic acquisitions (GEOST, pending Mynaric) to strengthen its end-to-end space capabilities. Strong revenue trajectory and improving margins suggest path to profitability, but execution on Neutron and cash flow management remain critical - HOLD for existing investors, WAIT for new entry points given valuation premium.**
+**BLUF: Rocket Lab delivered record Q3 2025 revenue of $155M (+48% YoY) at 37% GAAP gross margin, driven by Space Systems (>50% of revenue, the real near-term engine) with $586M backlog and 40%+ margin products from GEOS acquisition. Electron demonstrates operational excellence (49 launches on contract) but faces structural economic pressure from SpaceX rideshare ($275-300k/kg)—strategically useful but not financially accretive long-term. Cash burn of $101M over 9 months offset by $1B+ liquidity; Neutron development is binary existential risk (works or doesn't), not merely schedule risk. Margin expansion is Space Systems-driven, not launch-driven. Strong revenue trajectory suggests path to profitability IF Neutron succeeds, but failure reduces RKLB to $4-8B defense supplier. Current price $40.37 offers no margin of safety—WAIT for $35-38 entry.**
 
 ---
 

@@ -6,7 +6,7 @@
 
 ## Executive Summary (BLUF - Bottom Line Up Front)
 
-**Rocket Lab is a capital-intensive aerospace company at an inflection point: strong Electron launch execution (68 missions, record Q3 revenue $155M, 48% YoY growth) generates cash and backlog momentum, while Neutron development remains the critical bet for 5–10x revenue upside. The company trades at ~40x P/S (down from ~48x in Nov 2025) with $1B+ liquidity and vertical integration into payloads (GEOST) and laser comms (Mynaric pending). However, Neutron delays beyond Q1 2026, government shutdown impact, and margin expansion execution risk represent material downside. Current valuation is defensible if Neutron executes and SDA Tranche 3 awarded by mid-2026, but stretched if delays materialize. Recommendation: Hold/Accumulate selectively at $35–40; strict stop-loss if Neutron slips to H2 2026 or gross margins compress below 34%. Target: $65–75 Bull Case (2027E), $40–50 Base Case (2026E), $25–30 Bear Case.**
+**Rocket Lab is a capital-intensive aerospace company at an inflection point: Space Systems (>50% of revenue) provides near-term cash generation while Neutron development remains a binary, existential bet for 5–10x revenue upside. Electron demonstrates operational excellence (68 missions) but faces structural economic pressure from SpaceX rideshare ($275-300k/kg)—strategically useful but not financially accretive long-term. The company trades at ~40x P/S with $1B+ liquidity and vertical integration into payloads (GEOST) and laser comms (Mynaric pending). However, Neutron is not merely schedule risk—it's architecture risk (Hungry Hippo fairing, composite structures at scale, reusability) where failure would reduce RKLB to $4-8B defense supplier, not $22B+. Current price $40.37 offers no margin of safety (probability-weighted fair value $35.70). Recommendation: Hold/Wait for $35-38 entry; strict stop-loss if Neutron slips to H2 2026. Target: $65–75 Bull Case (15% probability), $35-45 Base Case (45%), $15–20 Bear Case (40%). Portfolio weighting: 4-5% initial, scale to 6-7% on milestones.**
 
 ---
 
@@ -45,7 +45,7 @@ Rocket Lab is a vertically integrated space company providing end-to-end space s
 ## Key Analysis Summaries (December 2025)
 
 ### 1. Financial Analysis
-**BLUF:** Rocket Lab delivered record Q3 2025 revenue of $155M (+48% YoY) at 37% GAAP gross margin with strong launch demand (49 launches on contract), but faces elevated cash burn of $101M over 9 months and Neutron development delays pushing first launch to Q1 2026. The company has secured $1B+ liquidity through ATM offerings and completed strategic acquisitions (GEOST, pending Mynaric) to strengthen its end-to-end space capabilities. Strong revenue trajectory and improving margins suggest path to profitability, but execution on Neutron and cash flow management remain critical.
+**BLUF:** Rocket Lab delivered record Q3 2025 revenue of $155M (+48% YoY) at 37% GAAP gross margin, driven by Space Systems (>50% of revenue, the real near-term engine) with $586M backlog and 40%+ margin products from GEOS acquisition. Electron demonstrates operational excellence (49 launches on contract) but faces structural economic pressure from SpaceX rideshare ($275-300k/kg)—strategically useful but not financially accretive long-term. Cash burn of $101M over 9 months offset by $1B+ liquidity; Neutron development is binary existential risk (works or doesn't), not merely schedule risk. Margin expansion is Space Systems-driven, not launch-driven. Current price $40.37 offers no margin of safety—WAIT for $35-38 entry.
 
 **Key Metrics:**
 - Revenue growth: 48% YoY (Q3), TTM $554.5M
@@ -80,37 +80,39 @@ Rocket Lab is a vertically integrated space company providing end-to-end space s
 - Proprietary tech: 3D-printed Rutherford engines, carbon composite structures
 
 ### 5. Risk Assessment
-**BLUF:** Rocket Lab faces material execution risk on Neutron's Q1 2026 launch target and substantial schedule extension costs (~$360M cumulative through 2025 vs. original $250–$300M budget), offset partially by strong Electron momentum, record $1.1B backlog, and $1B+ liquidity. Government shutdown and tariff exposure create near-term operational friction, while Neutron's commercial viability and SDA Tranche 3 award timing remain critical confidence drivers. Key mitigants include proven launch execution (68 Electron missions), vertical integration insulating from supply chain, and strategic M&A (GEOS, Mynaric) strengthening defense market access—but Neutron delay beyond Q2 2026 or major Electron reliability issue would require thesis reassessment.
+**BLUF:** Rocket Lab faces existential binary risk on Neutron (works or doesn't, not merely schedule risk) with architecture challenges (Hungry Hippo fairing, composite structures at scale, reusability) and substantial cost overruns (~$360M cumulative vs. $250-300M budget). Neutron failure would reduce RKLB to $4-8B defense components supplier, not $22B+ launch leader. Electron demonstrates operational excellence (68 missions) but faces structural economic pressure from SpaceX rideshare ($275-300k/kg)—strategically useful but not financially accretive long-term. Space Systems (>50% revenue) is the real near-term engine with $1.1B backlog and $1B+ liquidity providing survivability. Neutron delay beyond Q2 2026 or failure requires immediate thesis reassessment and position reduction.
 
 **Top Risks:**
-1. Neutron delays beyond Q1 2026 (Severity: 9/10)
-2. Government funding uncertainty / SDA Tranche 3 delay (Severity: 8/10)
-3. Gross margin compression below 34% (Severity: 7/10)
-4. Cash runway / dilution risk (Severity: 6/10)
+1. Neutron binary failure (existential) (Severity: 10/10)
+2. Electron economics unviable long-term (Severity: 7/10)
+3. Government funding uncertainty / SDA Tranche 3 delay (Severity: 8/10)
+4. Founder concentration risk (Peter Beck) (Severity: 5/10)
+5. Gross margin compression below 34% (Severity: 7/10)
 
 ### 6. Investment Thesis
-**BLUF:** RKLB is a capital-intensive aerospace company at an inflection point: strong Electron launch execution (68 missions, record Q3 revenue of $155M, 48% YoY growth) is generating cash and backlog momentum, while Neutron development remains the critical bet for 5–10x revenue upside. The company is operationally disciplined, backed by $1B+ liquidity, and expanding vertically into payloads (GEOST) and laser comms (Mynaric pending). However, Neutron delays beyond Q1 2026 first flight, government shutdown impact on defense revenue, and execution risk on margin expansion represent material downside. At a ~40x P/S multiple (current market cap $22.5B vs TTM revenue $554.5M) against a $600M implied 2025 guidance midpoint, valuation assumes near-perfect Neutron execution and 30%+ gross margin expansion. Note: P/S multiple has compressed from ~48x (Nov 2025) to ~40x (Dec 2025), reflecting market re-rating.
+**BLUF:** RKLB is a capital-intensive aerospace company at an inflection point: Space Systems (>50% of revenue) provides near-term cash generation while Neutron development remains a binary, existential bet for 5–10x revenue upside. Electron demonstrates operational excellence (68 missions) but faces structural economic pressure from SpaceX rideshare ($275-300k/kg)—strategically useful but not financially accretive long-term. Neutron is not merely schedule risk—it's architecture risk (Hungry Hippo fairing, composite structures at scale, reusability) where failure would reduce RKLB to $4-8B defense supplier, not $22B+. At ~40x P/S, current price $40.37 offers no margin of safety (probability-weighted fair value $35.70). Market is pricing in >50% Neutron success probability when realistic probability is 35-45%.
 
 **Investment Stance:**
-- Conviction: 6/10 (Base Case)
-- Recommendation: Hold/Accumulate selectively on weakness
-- Entry zone: $35–40
-- Stop-loss: <$30 (bear case floor)
+- Conviction: 5/10 (Base Case, down from 6/10)
+- Recommendation: Hold/Wait for $35-38 entry
+- Entry zone: $35–38 (current $40.37 offers no margin of safety)
+- Stop-loss: <$25 (bear case threshold)
+- Portfolio weighting: 4-5% initial, scale to 6-7% on Neutron milestones
 
 **Price Targets:**
-- Bull Case (2027E): $65–75 (Neutron success + SDA Tranche 3)
-- Base Case (2026E): $40–50 (Neutron Q1 2026, SDA delayed)
-- Bear Case (2026E): $25–30 (Neutron H2 2026+ slip, execution issues)
+- Bull Case (2027E): $65–75 (15% probability - Neutron success + SDA Tranche 3)
+- Base Case (2026E): $35–45 (45% probability - Neutron Q1 2026, slow ramp)
+- Bear Case (2026E): $15–20 (40% probability - Neutron fails/severe delay)
 
 ### 7. Valuation Analysis
-**BLUF:** RKLB trades at ~40x P/S ($22.5B market cap / $554.5M TTM revenue) following 17% multiple compression from ~48x in Nov 2025. DCF valuation yields $45–50 base case (2026E), $65–75 bull case (2027E), $25–30 bear case. Comparable analysis shows RKLB trading at 2–3x premium to aerospace peers but justified by 48% YoY growth vs peer average 8–12%. Sum-of-parts suggests $42–48 fair value (Electron $1.1B, Space Systems $0.7B, Neutron optionality $1.5B). Current price $40.37 implies market is pricing in base-to-bear case; upside requires Neutron Q1 2026 success + SDA Tranche 3 award. Valuation stretched but defensible if execution delivers; 15% downside / 60% upside asymmetry favors selective accumulation at $35–40.
+**BLUF:** RKLB trades at ~40x P/S ($22.5B market cap / $554.5M TTM revenue) with current price $40.37 offering no margin of safety—market is pricing in >50% Neutron success probability when realistic probability is 35-45%. Revised probability-weighted fair value is $35.70 (Bull 15% × $70 + Base 45% × $40 + Bear 40% × $18). Sum-of-parts revised: Electron $0.5B (economics constrained by SpaceX rideshare), Space Systems $1.2B (the real near-term engine, >50% revenue), Neutron optionality $0.8B (lower success probability). DCF is misleading for binary outcomes; scenario analysis is primary valuation method. Neutron failure reduces RKLB to $4-8B defense supplier. Wait for $35-38 entry; 40% downside / 75% upside asymmetry at current price unfavorable.
 
 **Valuation Summary:**
 - Current P/S: 40.6x (down from 48x Nov 2025)
-- DCF fair value: $27/share (base case, 9% WACC)
-- Probability-weighted fair value: $47.50/share
-- Peer-adjusted fair value: $25/share
-- Risk/reward: 1.4:1 (6–12 month horizon)
+- Probability-weighted fair value: $35.70/share (down from $47.50)
+- Sum-of-parts fair value: $5.60/share (conservative)
+- Current price offers no margin of safety
+- Risk/reward: 1.3:1 unfavorable at $40.37; improves to 2.0:1 at $35-38
 
 ---
 
@@ -175,28 +177,29 @@ rklb/
 ## Investment Decision Framework
 
 ### Entry Points (Add/Initiate)
-1. **Weakness to $35–40:** Accumulate on 6–12 month horizon if Electron solid & Neutron on track
-2. **Neutron Q1 2026 Confirmation:** Up to $50–55 range reasonable post-success
+1. **Weakness to $35–38:** Accumulate on 6–12 month horizon; current $40.37 offers no margin of safety
+2. **Neutron Q1 2026 Confirmation:** Scale position to 6-7% on successful first flight
 3. **SDA Tranche 3 Award:** Potential 20–30% upside on announcement
-4. **GEOS Revenue Ramp Confirmation:** Validates space systems thesis; 10–15% re-rate
+4. **GEOS Revenue Ramp Confirmation:** Validates Space Systems thesis (the real engine)
 
 ### Exit Triggers (Sell/Reduce)
-1. **Neutron First Flight Pushed to H2 2026:** Reduce 50%; reset target to $25–30
-2. **Quarterly Gross Margin < 34%:** Sell 25%; indicates structural cost issues
-3. **SDA Tranche 3 Not Awarded by Q2 2026:** Reduce 50%; removes largest growth catalyst
-4. **Quarterly Revenue < $120M with No Backlog Growth:** Exit entirely
-5. **Additional Capital Raise < $35/share:** Sell position; dilution signal
-6. **Price Target Achieved at $65+:** Take profits; risk/reward inverted
+1. **Neutron First Flight Pushed to H2 2026:** Reduce 50% immediately; reset target to $18–25
+2. **Neutron Failure or Severe Structural Issues:** Exit entirely; thesis broken
+3. **Quarterly Gross Margin < 34%:** Sell 25%; indicates structural cost issues
+4. **SDA Tranche 3 Not Awarded by Q2 2026:** Reduce 50%; removes largest growth catalyst
+5. **Quarterly Revenue < $120M with No Backlog Growth:** Exit entirely
+6. **Additional Capital Raise < $30/share:** Sell position; severe dilution signal
+7. **Price Target Achieved at $65+:** Take profits; risk/reward inverted
 
 ---
 
 ## Three-Scenario Revenue Model (2025E – 2027E)
 
-| Scenario | Q4 2025E | FY 2025E | FY 2026E | FY 2027E | Key Driver / Assumption |
-|----------|----------|----------|----------|----------|-------------------------|
-| **Bull Case** | $160–170M | $600M | $950–1,050M | $1.2–1.4B | Neutron Q1 2026 on schedule; 7+ launches by 2027; SDA Tranche 3 awarded ($500M+); GEOS/Mynaric synergies; Electron ASP $10M+; Space Systems $600M+ |
-| **Base Case** | $145–155M | $575–600M | $700–800M | $900–1,050M | Neutron Q1 2026 flight, Flight 2 delayed to Q4 2026/Q1 2027; Electron 16–17 launches/year; SDA Tranche 3 awarded but delayed; GEOS ramps to $50M+; space systems $350–380M |
-| **Bear Case** | $120–135M | $520–550M | $550–600M | $700–800M | Neutron slipped to H2 2026; Electron backlog growth slows (12–15 launches 2026); SDA Tranche 3 delayed/reduced; GEOS underperforms; government funding uncertainty; space systems $280–300M; tariff headwinds |
+| Scenario | Probability | Q4 2025E | FY 2025E | FY 2026E | FY 2027E | Key Driver / Assumption |
+|----------|-------------|----------|----------|----------|----------|-------------------------|
+| **Bull Case** | 15% | $160–170M | $600M | $950–1,050M | $1.2–1.4B | Neutron Q1 2026 success; 7+ launches by 2027; SDA Tranche 3 awarded ($500M+); GEOS/Mynaric synergies; Space Systems $600M+ |
+| **Base Case** | 45% | $145–155M | $575–600M | $700–800M | $900–1,050M | Neutron Q1 2026 flight, Flight 2 delayed; Electron 16–17 launches/year; SDA Tranche 3 delayed; GEOS ramps to $50M+; Space Systems $350–380M (the real engine) |
+| **Bear Case** | 40% | $120–135M | $520–550M | $550–600M | $700–800M | Neutron fails or slips to 2027+; Electron economics pressure intensifies; SDA Tranche 3 delayed/reduced; RKLB becomes defense components supplier; Space Systems $280–300M |
 
 ---
 

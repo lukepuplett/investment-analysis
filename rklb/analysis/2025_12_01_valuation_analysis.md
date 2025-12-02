@@ -8,7 +8,7 @@
 
 ## Executive Summary (BLUF)
 
-**RKLB trades at ~40x P/S ($22.5B market cap / $554.5M TTM revenue) following 17% multiple compression from ~48x in Nov 2025. DCF valuation yields $45–50 base case (2026E), $65–75 bull case (2027E), $25–30 bear case. Comparable analysis shows RKLB trading at 2–3x premium to aerospace peers but justified by 48% YoY growth vs peer average 8–12%. Sum-of-parts suggests $42–48 fair value (Electron $18B, Space Systems $3–4B, Neutron optionality $1–2B). Current price $40.37 implies market is pricing in base-to-bear case; upside requires Neutron Q1 2026 success + SDA Tranche 3 award. Valuation stretched but defensible if execution delivers; 15% downside / 60% upside asymmetry favors selective accumulation at $35–40.**
+**RKLB trades at ~40x P/S ($22.5B market cap / $554.5M TTM revenue) following 17% multiple compression from ~48x in Nov 2025. Current price $40.37 offers no margin of safety—market is pricing in >50% Neutron success probability when realistic probability is 35-45%. Revised probability-weighted fair value is $35.70 (Bull 15% × $70 + Base 45% × $40 + Bear 40% × $18). Sum-of-parts revised: Electron $0.5B (economics constrained by SpaceX rideshare), Space Systems $1.2B (the real near-term engine, >50% revenue), Neutron optionality $0.8B (lower success probability). DCF is misleading for binary outcomes; scenario analysis is primary valuation method. Current valuation defensible only if Neutron succeeds—failure reduces RKLB to $4-8B defense supplier. Wait for $35-38 entry; 40% downside / 75% upside asymmetry at current price unfavorable.**
 
 ---
 
@@ -122,37 +122,41 @@
 **Metrics:**
 - 2025E revenue: $280M (14 launches × $20M avg)
 - 2026E revenue: $320M (16 launches)
-- Gross margin: 40%+
+- Gross margin: 40%+ (but economically constrained)
 - Backlog: $510M (49 launches)
+- **Economic reality:** SpaceX rideshare at $275-300k/kg structurally undercuts Electron economics; strategically useful but not financially accretive long-term
 
 **Valuation:**
 - Comparable: Small launch providers trade at 15–25x revenue (pre-profit)
-- RKLB profitable: apply 3.5x revenue (mature aerospace)
-- Electron value: $320M × 3.5 = **$1.1B**
+- RKLB profitable but economics constrained: apply 1.5x revenue (strategic value, not profit value)
+- Electron value: $320M × 1.5 = **$0.5B** (down from $1.1B)
 
 ### Space Systems (GEOS + Components)
 
 **Metrics:**
 - 2025E revenue: $250M
-- 2026E revenue: $350M
+- 2026E revenue: $350M (likely >60% of total revenue)
 - Backlog: $586M
-- Gross margin: 35%
+- Gross margin: 40%+ (GEOS brings high-margin products)
+- **This is the real near-term engine, not Electron**
 
 **Valuation:**
 - Comparable: Aerospace component suppliers trade at 1.5–2.5x revenue
-- Apply 2.0x revenue (growth + integration risk)
-- Space Systems value: $350M × 2.0 = **$0.7B**
+- Apply 3.5x revenue (growth + high margins + defense market access)
+- Space Systems value: $350M × 3.5 = **$1.2B** (up from $0.7B)
 
 ### Neutron (Optionality)
 
 **Metrics:**
 - First flight: Q1 2026 target
-- Cumulative spend: $360M through EOY 2025
+- Cumulative spend: $360M through EOY 2025 (15-44% overrun)
 - Potential revenue: $200M+ (2027E), $500M+ (2028E)
+- **Binary risk:** Architecture risks (Hungry Hippo fairing, composite structures at scale, reusability); failure = RKLB becomes $4-8B defense supplier
 
 **Valuation:**
-- Pre-flight: 50% probability of success × $3B potential value = **$1.5B**
+- Pre-flight: 35% probability of success × $2.5B potential value = **$0.8B** (down from $1.5B)
 - Post-flight success: Re-rate to $5–8B (medium-lift reusable)
+- Post-flight failure: Re-rate to $0 (existential)
 
 ### Other Assets
 
@@ -164,20 +168,20 @@
 
 | Segment | Value |
 |---------|-------|
-| Electron | $1.1B |
-| Space Systems | $0.7B |
-| Neutron (optionality) | $1.5B |
+| Electron | $0.5B (economics constrained) |
+| Space Systems | $1.2B (the real engine) |
+| Neutron (optionality) | $0.8B (35% success probability) |
 | Net cash | $0.5B |
-| **Total Enterprise Value** | **$3.8B** |
-| **Per Share (534M shares)** | **$7/share** |
+| **Total Enterprise Value** | **$3.0B** |
+| **Per Share (534M shares)** | **$5.60/share** |
 
-**Note:** This conservative SoP suggests significant market premium for growth + execution optionality. Current $40.37 implies market is pricing in Neutron success + Space Systems scale.
+**Note:** This conservative SoP suggests massive market premium for Neutron success. Current $40.37 implies market is pricing in >50% Neutron success probability + aggressive Space Systems scaling. If Neutron fails, RKLB becomes $4-8B defense supplier ($7-15/share).
 
 ---
 
 ## 4. Scenario Analysis
 
-### Bull Case (Probability: 25%)
+### Bull Case (Probability: 15%)
 
 **Assumptions:**
 - Neutron Q1 2026 success, 7+ launches by 2027
@@ -188,10 +192,10 @@
 - EBITDA positive 2027
 
 **Valuation:**
-- 3.0x 2027E revenue ($1.3B) = $3.9B / 531M shares = **$73/share**
-- Upside from current: +81%
+- 3.0x 2027E revenue ($1.3B) = $3.9B / 531M shares = **$70/share**
+- Upside from current: +73%
 
-### Base Case (Probability: 50%)
+### Base Case (Probability: 45%)
 
 **Assumptions:**
 - Neutron Q1 2026 flight, Flight 2 delayed to Q4 2026
@@ -201,31 +205,32 @@
 - EBITDA negative through 2026
 
 **Valuation:**
-- 2.5x 2026E revenue ($750M) = $1.875B / 531M shares = **$45/share**
-- Upside from current: +11%
+- 2.5x 2026E revenue ($750M) = $1.875B / 531M shares = **$40/share**
+- Upside from current: -1%
 
-### Bear Case (Probability: 25%)
+### Bear Case (Probability: 40%)
 
 **Assumptions:**
-- Neutron slips to H2 2026+
+- Neutron fails or slips to 2027+
 - SDA Tranche 3 delayed/reduced
 - 2026E revenue: $550–600M
 - Gross margin: 32–34%
 - Cash burn requires dilutive raise
+- RKLB becomes defense components supplier, not launch leader
 
 **Valuation:**
-- 2.0x 2026E revenue ($575M) = $1.15B / 531M shares = **$27/share**
-- Downside from current: -33%
+- 1.5x 2026E revenue ($575M) = $0.86B / 531M shares = **$18/share**
+- Downside from current: -55%
 
 ### Probability-Weighted Fair Value
 
 **Calculation:**
-- Bull (25%): $73 × 0.25 = $18.25
-- Base (50%): $45 × 0.50 = $22.50
-- Bear (25%): $27 × 0.25 = $6.75
-- **Weighted Fair Value: $47.50/share**
+- Bull (15%): $70 × 0.15 = $10.50
+- Base (45%): $40 × 0.45 = $18.00
+- Bear (40%): $18 × 0.40 = $7.20
+- **Weighted Fair Value: $35.70/share**
 
-**Conclusion:** Current price $40.37 is 15% below probability-weighted fair value, suggesting modest upside if base case holds.
+**Conclusion:** Current price $40.37 is 13% above probability-weighted fair value, suggesting market is overpricing Neutron success probability. Current price offers no margin of safety.
 
 ---
 
@@ -400,20 +405,20 @@
 
 | Scenario | Probability | Valuation | Price Target |
 |----------|-------------|-----------|--------------|
-| Bull Case | 25% | 3.0x 2027E revenue | $65–75 |
-| Base Case | 50% | 2.5x 2026E revenue | $40–50 |
-| Bear Case | 25% | 2.0x 2026E revenue | $25–30 |
-| **Weighted Average** | **100%** | **Blended** | **$47.50** |
+| Bull Case | 15% | 3.0x 2027E revenue | $65–75 |
+| Base Case | 45% | 2.5x 2026E revenue | $35–45 |
+| Bear Case | 40% | 1.5x 2026E revenue | $15–20 |
+| **Weighted Average** | **100%** | **Blended** | **$35.70** |
 
 ### Current Assessment
 
 **Current Price:** $40.37  
-**Fair Value:** $47.50 (probability-weighted)  
-**Upside:** +18%  
-**Downside:** -33% (bear case)  
-**Risk/Reward:** 1.4:1 (6–12 month horizon)
+**Fair Value:** $35.70 (probability-weighted)  
+**Upside:** +73% (bull case)  
+**Downside:** -55% (bear case)  
+**Risk/Reward:** 1.3:1 (unfavorable at current price)
 
-**Valuation Conclusion:** RKLB trades at ~40x P/S, representing a 31% premium to weighted fair value ($30.75) but 15% discount to probability-weighted target ($47.50). Current valuation is defensible if Neutron executes and SDA Tranche 3 awarded by mid-2026, but stretched if delays materialize. Valuation compression from 48x (Nov 2025) to 40x (Dec 2025) suggests market is pricing in higher execution risk. Selective accumulation at $35–40 offers favorable risk/reward; strict stop-loss at $30 (bear case floor).
+**Valuation Conclusion:** RKLB trades at ~40x P/S with current price $40.37 offering no margin of safety—market is pricing in >50% Neutron success probability when realistic probability is 35-45%. Probability-weighted fair value is $35.70, implying current price is 13% overvalued. Neutron is a binary existential risk (works or doesn't), not merely schedule risk. If Neutron fails, RKLB becomes $4-8B defense supplier ($7-15/share). Space Systems (>50% revenue) is the real near-term engine; Electron demonstrates operational excellence but faces structural economic pressure from SpaceX rideshare ($275-300k/kg). Wait for $35-38 entry; strict stop-loss at $25 (bear case threshold). Portfolio weighting: 4-5% initial at $35-38, scale to 6-7% on Neutron milestones.
 
 ---
 
