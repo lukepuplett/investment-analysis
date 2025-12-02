@@ -1,4 +1,3 @@
-<<<<<<<< HEAD:AGENTS.md
 # AGENTS.md
 
 This file provides comprehensive guidance for AI agents when working with this investment analysis repository.
@@ -872,5 +871,3 @@ When performing investment analysis:
 6. Store raw data in appropriate directories before analysis
 7. Never skip the documentation step - analysis without proper documentation is incomplete
 ========
-
->>>>>>>> 0ca2ccd09a2932b8a9ca475226e6984397dc2aee:llms.txt
