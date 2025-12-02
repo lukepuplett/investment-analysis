@@ -8,7 +8,7 @@
 
 ## Executive Summary (BLUF)
 
-**RKLB is a capital-intensive aerospace company at an inflection point: strong Electron launch execution (68 missions, record Q3 revenue of $155M, 48% YoY growth) is generating cash and backlog momentum, while Neutron development remains the critical bet for 5–10x revenue upside. The company is operationally disciplined, backed by $1B+ liquidity, and expanding vertically into payloads (GEOST) and laser comms (Mynaric pending). However, Neutron delays beyond Q1 2026 first flight, government shutdown impact on defense revenue, and execution risk on margin expansion represent material downside. At a 48x P/S multiple against a $600M implied 2025 guidance midpoint, valuation assumes near-perfect Neutron execution and 30%+ gross margin expansion. Conviction: 6/10 (Base Case). Recommendation: Hold/Accumulate selectively on weakness; set strict stop-loss if Neutron slips to H2 2026 or gross margins compress below 34%. Target: $65–75 in Bull Case (2027E), $25–30 in Bear Case (2026E risk scenario).**
+**RKLB is a capital-intensive aerospace company at an inflection point: strong Electron launch execution (68 missions, record Q3 revenue of $155M, 48% YoY growth) is generating cash and backlog momentum, while Neutron development remains the critical bet for 5–10x revenue upside. The company is operationally disciplined, backed by $1B+ liquidity, and expanding vertically into payloads (GEOST) and laser comms (Mynaric pending). However, Neutron delays beyond Q1 2026 first flight, government shutdown impact on defense revenue, and execution risk on margin expansion represent material downside. At a ~40x P/S multiple (current market cap $22.5B vs TTM revenue $554.5M) against a $600M implied 2025 guidance midpoint, valuation assumes near-perfect Neutron execution and 30%+ gross margin expansion. Note: P/S multiple has compressed from ~48x (Nov 2025) to ~40x (Dec 2025), reflecting market re-rating. Conviction: 6/10 (Base Case). Recommendation: Hold/Accumulate selectively on weakness; set strict stop-loss if Neutron slips to H2 2026 or gross margins compress below 34%. Target: $65–75 in Bull Case (2027E), $25–30 in Bear Case (2026E risk scenario).**
 
 ---
 
@@ -156,7 +156,7 @@
 - **Cash Position & Runway:** Target $800M+ EOY 2025; monitor burn rate (currently -$100M for 9M, improving trajectory)
 - **Gross Margin Trend:** Target 37–38% GAAP by Q4 2025, 40%+ by 2026; segment breakdown critical
 - **Backlog Conversion Rate:** Launch backlog $509.7M, Space Systems $586.3M; target 57% conversion in 12M (per Q3 guidance)
-- **Revenue Run Rate:** Target $600M+ full year 2025 (on track); 2026E $700–800M base case
+- **Revenue Run Rate:** Target $600M+ full year 2025; TTM revenue $554.5M (Dec 2025) - Q4 2025 results needed to confirm full-year guidance; 2026E $700–800M base case
 
 ### Operational Execution (Quarterly)
 - **Electron Launch Cadence:** Target 20+ launches full year 2025; Q4 2025 plan (5+ launches likely)
@@ -262,7 +262,7 @@
 | **6–12 Months** | $60–70 (50–75%) | $25–30 (-35–40%) | 1.4:1 |
 | **12–24 Months** | $65–85 (60–110%) | $20–25 (-45–50%) | 1.5:1 |
 
-**Conclusion:** Risk/reward improves if Neutron executes and SDA Tranche 3 awarded by mid-2026. Current 48x P/S valuation is stretched for a company with unproven medium-lift vehicle and 36–37% near-term gross margins. Selective accumulation on weakness; strict discipline on exit triggers; 6/10 conviction reflects execution risk and valuation dependency on Neutron. Monitor quarterly for catalyst confirmation.
+**Conclusion:** Risk/reward improves if Neutron executes and SDA Tranche 3 awarded by mid-2026. Current ~40x P/S valuation (down from ~48x in Nov 2025) reflects market re-rating but remains stretched for a company with unproven medium-lift vehicle and 36–37% near-term gross margins. TTM revenue of $554.5M is below $600M guidance midpoint; Q4 2025 results needed to confirm full-year guidance achievement. Selective accumulation on weakness; strict discipline on exit triggers; 6/10 conviction reflects execution risk and valuation dependency on Neutron. Monitor quarterly for catalyst confirmation.
 
 ---
 
