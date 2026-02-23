@@ -20,6 +20,7 @@ This is an investment analysis repository for tracking and analyzing public comp
 - **GLW**: Corning Incorporated - Specialty glass and ceramics
 - **JCI**: Johnson Controls International - Building solutions and technologies
 - **LYB**: LyondellBasell Industries - Chemical manufacturing
+- **MSFT**: Microsoft Corporation - Software, cloud (Azure), productivity, and devices
 - **MNTN**: MNTN, Inc. - Performance TV advertising (CTV)
 - **NEE**: NextEra Energy, Inc. - Renewable energy and utility
 - **PH**: Parker-Hannifin Corp - Motion and control technologies

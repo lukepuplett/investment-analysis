@@ -1,0 +1,25 @@
+Microsoft Corporation (MSFT) – Fiscal Year 2025 Second Quarter Earnings
+Reported: January 29, 2025 | Quarter ended: December 31, 2024
+
+SUMMARY
+Microsoft announced fiscal year 2025 second quarter results. Revenue was $69.6 billion (up 12% year-over-year). Operating income was $31.7 billion (up 17%, 16% in constant currency). Net income was $24.1 billion (up 10%). Diluted earnings per share was $3.23 (up 10%).
+
+SEGMENT RESULTS
+- Productivity and Business Processes: $29.4 billion (up 14%)
+  - Microsoft 365 Commercial revenue grew 16%
+  - Dynamics 365 revenue grew 19%
+- Intelligent Cloud: $25.5 billion (up 19%)
+  - Azure and other cloud services grew 31%
+- More Personal Computing: $14.7 billion (relatively unchanged)
+  - Search and news advertising revenue excluding traffic acquisition costs increased 21%
+
+MICROSOFT CLOUD
+Microsoft Cloud revenue exceeded $40 billion in the quarter for the first time, up 21% year-over-year.
+
+AI
+AI-driven revenue exceeded an annual run rate of $13 billion, up 175% year-over-year.
+
+CAPITAL RETURNS
+Microsoft returned $9.7 billion to shareholders in the quarter through dividends and share repurchases.
+
+Source: Microsoft Investor Relations (FY-2025-Q2), news.microsoft.com (January 29, 2025).
