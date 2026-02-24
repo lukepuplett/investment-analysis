@@ -3,7 +3,15 @@
  * General-Purpose HTML Acquisition Tool
  *
  * Usage:
- *   node acquire-html.js --output <dir> --urls <url1,url2,...> [--initial <url>] [--modal <strategy>] [--timeout <ms>] [--delay <ms>]
+ *   node acquire-html.js --output <dir> --urls <url1,url2,...> [OPTIONS]
+ *
+ * Options:
+ *   --initial <url>       Initial page to load (for cookie/session setup)
+ *   --modal <strategy>    Modal handling: wait-for-accept, auto-click, detect, none (default: auto)
+ *   --timeout <ms>        Navigation timeout (default: 15000)
+ *   --delay <ms>          Delay between URLs (default: 2000)
+ *   --tabs <mode>         Tab mode: new-tab (one tab per URL), single (same tab) (default: new-tab)
+ *   --throttle <ms>       Min delay between any navigation (default: 3000)
  *
  * Modal Strategies:
  *   wait-for-accept  - Wait for user to click Accept (default for yahoo.com, finance.yahoo.com)
@@ -12,10 +20,9 @@
  *   none             - Skip modal handling
  *
  * Examples:
- *   node acquire-html.js --output ./html --urls "https://example.com" --modal detect
- *   node acquire-html.js --output ./html --initial "https://yahoo.com" --modal wait-for-accept
- *   node acquire-html.js --output ./html --urls "https://example.com" --timeout 60000
- *   node acquire-html.js --output ./html --urls "https://seekingalpha.com/..." --delay 5000  # 5s between requests
+ *   node acquire-html.js --output ./html --urls "https://example.com" --tabs new-tab
+ *   node acquire-html.js --output ./html --initial "https://yahoo.com" --tabs new-tab --throttle 5000
+ *   node acquire-html.js --output ./html --urls "https://example.com" --tabs single --delay 10000
  */
 
 const UniversalScraper = require('./lib-universal-scraper');
@@ -88,10 +95,12 @@ class HTMLAcquisition {
     this.modalStrategy = options.modal || 'auto';  // Default: auto-detect per URL
     this.navigationTimeout = options.timeout || 15000;  // Default: 15 seconds
     this.delayBetweenUrls = options.delay || 2000;  // Default: 2 seconds between URLs
-    this.minDelayBetweenNavs = 3000;  // Minimum 3 seconds between ANY navigation
+    this.minDelayBetweenNavs = options.throttle || 3000;  // Minimum delay between ANY navigation (configurable)
+    this.tabMode = options.tabs || 'new-tab';  // new-tab: one tab per URL, single: reuse same tab
     this.lastNavigationTime = 0;  // Track when we last navigated
     this.logFile = path.join(this.outputDir, 'download.log');
     this.logger = null;
+    this.pages = [];  // Track all pages for new-tab mode
   }
 
   /**
@@ -235,8 +244,10 @@ class HTMLAcquisition {
     this.logger.log('=== HTML ACQUISITION START ===');
     this.logger.log(`Output directory: ${this.outputDir}`);
     this.logger.log(`Total URLs: ${this.urls.length}`);
+    this.logger.log(`Tab mode: ${this.tabMode} (new-tab = one tab per URL, single = reuse same tab)`);
     this.logger.log(`Navigation timeout: ${this.navigationTimeout}ms`);
-    this.logger.log(`Delay between URLs: ${this.delayBetweenUrls}ms\n`);
+    this.logger.log(`Delay between URLs: ${this.delayBetweenUrls}ms`);
+    this.logger.log(`Min delay between navs: ${this.minDelayBetweenNavs}ms\n`);
 
     const scraper = new UniversalScraper({
       headless: false,
@@ -265,8 +276,8 @@ class HTMLAcquisition {
       }
 
       // Step 2: Download HTML for URL list
-      console.log(`📥 Downloading ${this.urls.length} URLs\n`);
-      this.logger.log(`\n📥 Downloading ${this.urls.length} URLs`);
+      console.log(`📥 Downloading ${this.urls.length} URLs (tab mode: ${this.tabMode})\n`);
+      this.logger.log(`\n📥 Downloading ${this.urls.length} URLs (tab mode: ${this.tabMode})`);
 
       const results = [];
       const downloadStartTime = Date.now();
@@ -279,7 +290,28 @@ class HTMLAcquisition {
         console.log(`[${i + 1}/${this.urls.length}] 📄 ${url}`);
 
         try {
-          const result = await this.downloadURL(scraper.page, url);
+          let pageToUse = scraper.page;
+
+          // Create new tab for each URL if in new-tab mode
+          if (this.tabMode === 'new-tab') {
+            pageToUse = await scraper.browser.newPage();
+            this.pages.push(pageToUse);
+            console.log(`  🆕 Opened new tab (${this.pages.length} tabs open)`);
+            if (this.logger) {
+              this.logger.log(`  🆕 Created new tab (inherits cookies from initial page)`);
+            }
+          }
+
+          const result = await this.downloadURL(pageToUse, url);
+
+          // Close tab if in new-tab mode (save memory)
+          if (this.tabMode === 'new-tab') {
+            await pageToUse.close();
+            this.pages = this.pages.filter(p => p !== pageToUse);
+            if (this.logger) {
+              this.logger.log(`  ❌ Closed tab (${this.pages.length} tabs remaining)`);
+            }
+          }
           const requestTime = Date.now() - requestStartTime;
 
           results.push(result);
@@ -351,11 +383,30 @@ class HTMLAcquisition {
       console.log('=== COMPLETE ===\n');
       console.log(`✅ Done! ${successful}/${this.urls.length} HTML files saved\n`);
 
+      // Close any remaining pages
+      for (const page of this.pages) {
+        try {
+          await page.close();
+        } catch (e) {
+          // Page already closed, ignore
+        }
+      }
+
       await scraper.close();
       process.exit(0);
 
     } catch (err) {
       console.error('❌ Error:', err.message);
+
+      // Close any remaining pages on error
+      for (const page of this.pages) {
+        try {
+          await page.close();
+        } catch (e) {
+          // Ignore
+        }
+      }
+
       await scraper.close();
       process.exit(1);
     }
@@ -732,6 +783,12 @@ function parseArgs() {
       i++;
     } else if (args[i] === '--delay' && args[i + 1]) {
       options.delay = parseInt(args[i + 1], 10);
+      i++;
+    } else if (args[i] === '--tabs' && args[i + 1]) {
+      options.tabs = args[i + 1];
+      i++;
+    } else if (args[i] === '--throttle' && args[i + 1]) {
+      options.throttle = parseInt(args[i + 1], 10);
       i++;
     }
   }
