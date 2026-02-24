@@ -486,6 +486,7 @@ class HTMLAcquisition {
 
     while (Date.now() - startTime < maxWaitSeconds * 1000) {
       sniffCount++;
+      const elapsedSeconds = Math.round((Date.now() - startTime) / 1000);
 
       // Get page stats (with error handling for context destruction)
       let pageStats = null;
@@ -526,6 +527,8 @@ class HTMLAcquisition {
       // Log detailed page stats on each sniff
       if (this.logger && pageStats) {
         this.logger.log(`  [SNIFF #${sniffCount}] Size: ${Math.round(pageStats.htmlSize/1024)}KB | Text: ${pageStats.textLength} chars | Title: "${pageStats.title}" | Modal: ${pageStats.hasVisibleModal} | Blocking: ${blockStatus.isBlocking} | HasContent: ${hasContent}`);
+      } else if (this.logger && !pageStats) {
+        this.logger.log(`  [SNIFF #${sniffCount}] ERROR: pageStats null`);
       }
 
       // Success: has real content (modal status doesn't matter)

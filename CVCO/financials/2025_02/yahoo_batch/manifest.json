@@ -1,0 +1,48 @@
+{
+  "output": "./CVCO/financials/2025_02/yahoo_batch",
+  "initial": "https://finance.yahoo.com/quote/CVCO",
+  "urls": [
+    "https://finance.yahoo.com/quote/CVCO/news",
+    "https://finance.yahoo.com/quote/CVCO/analysis",
+    "https://finance.yahoo.com/quote/CVCO",
+    "https://finance.yahoo.com/quote/CVCO/insider-transactions"
+  ],
+  "timestamp": "2026-02-24T11:53:28.697Z",
+  "results": [
+    {
+      "url": "https://finance.yahoo.com/quote/CVCO/news",
+      "filename": "2026-02-24_115233_quote__cvco__news.html",
+      "success": true,
+      "size": 2555,
+      "timestamp": "2026-02-24T11:52:33.653Z"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CVCO/analysis",
+      "filename": "2026-02-24_115301_quote__cvco__analysis.html",
+      "success": true,
+      "size": 1364,
+      "timestamp": "2026-02-24T11:53:01.590Z"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CVCO",
+      "filename": "2026-02-24_115315_quote__cvco.html",
+      "success": true,
+      "size": 1471,
+      "timestamp": "2026-02-24T11:53:15.587Z"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CVCO/insider-transactions",
+      "filename": "2026-02-24_115328_quote__cvco__insider-transactions.html",
+      "success": true,
+      "size": 1336,
+      "timestamp": "2026-02-24T11:53:28.539Z"
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "successful": 4,
+    "failed": 0,
+    "duration_ms": 57221,
+    "log_file": "CVCO/financials/2025_02/yahoo_batch/download.log"
+  }
+}
