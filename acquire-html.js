@@ -88,8 +88,30 @@ class HTMLAcquisition {
     this.modalStrategy = options.modal || 'auto';  // Default: auto-detect per URL
     this.navigationTimeout = options.timeout || 15000;  // Default: 15 seconds
     this.delayBetweenUrls = options.delay || 2000;  // Default: 2 seconds between URLs
+    this.minDelayBetweenNavs = 3000;  // Minimum 3 seconds between ANY navigation
+    this.lastNavigationTime = 0;  // Track when we last navigated
     this.logFile = path.join(this.outputDir, 'download.log');
     this.logger = null;
+  }
+
+  /**
+   * Navigate to URL with enforced minimum delay between navigations
+   */
+  async navigateWithThrottle(page, url, options = {}) {
+    const timeSinceLastNav = Date.now() - this.lastNavigationTime;
+    const remainingDelay = this.minDelayBetweenNavs - timeSinceLastNav;
+
+    if (remainingDelay > 0) {
+      const seconds = (remainingDelay / 1000).toFixed(1);
+      console.log(`  ⏳ Throttling: waiting ${seconds}s since last navigation...`);
+      if (this.logger) {
+        this.logger.log(`  ⏳ Throttling: ${Math.round(remainingDelay)}ms delay to enforce 3s minimum between navs`);
+      }
+      await new Promise(resolve => setTimeout(resolve, remainingDelay));
+    }
+
+    this.lastNavigationTime = Date.now();
+    return page.goto(url, options);
   }
 
   /**
@@ -148,18 +170,26 @@ class HTMLAcquisition {
   async hasRealContent(page, url) {
     try {
       const pageText = await page.evaluate(() => document.body.innerText);
+      const pageTitle = await page.evaluate(() => document.title);
       const strategy = this.getContentDetectionStrategy(url);
 
       // Minimum text length check (all strategies)
       const minTextLength = 500;  // At least 500 characters of text
 
       if (strategy === 'yahoo-finance') {
-        // Yahoo Finance: look for financial data keywords and reasonable text
+        // Yahoo Finance: check for proper title (not generic blocker title) + financial data
+        const hasProperTitle = pageTitle &&
+                              pageTitle.length > 5 &&
+                              !pageTitle.includes('Yahoo') &&
+                              !pageTitle.includes('Error');
+
         const hasFinancialData = pageText.toLowerCase().includes('earnings') ||
                                  pageText.toLowerCase().includes('revenue') ||
                                  pageText.toLowerCase().includes('eps') ||
-                                 pageText.toLowerCase().includes('price');
-        return pageText.length > minTextLength && hasFinancialData;
+                                 pageText.toLowerCase().includes('price') ||
+                                 pageText.toLowerCase().includes('news');
+
+        return pageText.length > minTextLength && hasFinancialData && hasProperTitle;
       }
 
       if (strategy === 'seekingalpha') {
@@ -222,7 +252,7 @@ class HTMLAcquisition {
         console.log('📖 Opening initial page\n');
         console.log(`🌐 ${this.initialUrl}\n`);
 
-        await scraper.page.goto(this.initialUrl, {
+        await this.navigateWithThrottle(scraper.page, this.initialUrl, {
           waitUntil: 'load',
           timeout: 20000
         });
@@ -339,6 +369,7 @@ class HTMLAcquisition {
     try {
       const pageText = await page.evaluate(() => document.body.innerText);
       const html = await page.evaluate(() => document.documentElement.outerHTML);
+      const pageSize = html.length;
 
       // Check if there's a visible modal/dialog element
       const hasVisibleModal = await page.evaluate(() => {
@@ -354,26 +385,30 @@ class HTMLAcquisition {
         return false;
       });
 
-      // Detect common blocking indicators
-      const blockers = [
-        { name: 'CAPTCHA', patterns: ['captcha', 'verify you', 'not a robot', 'recaptcha', 'human'], requiresModal: false },
-        { name: 'Bot Detection', patterns: ['bot', 'automated', 'suspicious activity', 'temporarily unavailable'], requiresModal: false },
-        { name: 'Access Denied', patterns: ['access denied', 'access to this page', 'not allowed', '403', '401'], requiresModal: false },
-        { name: 'Press & Hold', patterns: ['press & hold', 'confirm you are', 'reference id'], requiresModal: false },
-        { name: 'Rate Limited', patterns: ['rate limit', 'too many requests', '429', 'try again later'], requiresModal: false },
-        { name: 'Privacy Modal', patterns: ['privacy', 'cookie', 'consent', 'accept all', 'reject all'], requiresModal: true }
+      // If there's a visible modal, it's blocking
+      if (hasVisibleModal) {
+        return { isBlocking: true, type: 'Modal Dialog', text: pageText.substring(0, 200) };
+      }
+
+      // Check for specific full-page blockers (very high confidence patterns)
+      const fullPageBlockers = [
+        { name: 'Press & Hold', patterns: ['press & hold', 'confirm you are human', 'reference id'] },
+        { name: 'CAPTCHA', patterns: ['recaptcha', 'i\'m not a robot', 'verify you\'re human'] },
+        { name: 'Rate Limited', patterns: ['too many requests', 'rate limit exceeded', 'try again later'] },
+        { name: 'Access Denied', patterns: ['access denied', 'forbidden', '403 error', '401 unauthorized'] }
       ];
 
-      for (const blocker of blockers) {
-        // For Privacy Modal, only flag if there's an actual modal element visible
-        if (blocker.requiresModal && !hasVisibleModal) {
-          continue;
-        }
-
+      for (const blocker of fullPageBlockers) {
+        // Only flag if multiple blockers patterns match AND page is small (likely a blocker page)
+        let matchCount = 0;
         for (const pattern of blocker.patterns) {
-          if (pageText.toLowerCase().includes(pattern) || html.toLowerCase().includes(pattern)) {
-            return { isBlocking: true, type: blocker.name, text: pageText.substring(0, 200) };
+          if (pageText.toLowerCase().includes(pattern)) {
+            matchCount++;
           }
+        }
+        // Require 2+ pattern matches AND small page size
+        if (matchCount >= 2 && pageSize < 50000) {
+          return { isBlocking: true, type: blocker.name, text: pageText.substring(0, 200) };
         }
       }
 
@@ -390,10 +425,41 @@ class HTMLAcquisition {
     const startTime = Date.now();
     let lastBlockType = null;
     let lastContentStatus = false;
+    let sniffCount = 0;
 
     while (Date.now() - startTime < maxWaitSeconds * 1000) {
+      sniffCount++;
+
+      // Get page stats
+      const pageStats = await page.evaluate(() => {
+        const html = document.documentElement.outerHTML;
+        const text = document.body.innerText;
+        const title = document.title;
+        const hasVisibleModal = (() => {
+          const modals = document.querySelectorAll('[role="dialog"], .modal, .consent-modal, [data-testid*="modal"], [aria-modal="true"]');
+          for (const modal of modals) {
+            const style = window.getComputedStyle(modal);
+            if (style.display !== 'none' && style.visibility !== 'hidden') return true;
+          }
+          return false;
+        })();
+
+        return {
+          htmlSize: html.length,
+          textLength: text.length,
+          title: title,
+          hasVisibleModal: hasVisibleModal,
+          firstLine: text.split('\n')[0]
+        };
+      });
+
       const blockStatus = await this.isBlockingPage(page);
       const hasContent = await this.hasRealContent(page, url);
+
+      // Log detailed page stats on each sniff
+      if (this.logger) {
+        this.logger.log(`  [SNIFF #${sniffCount}] Size: ${Math.round(pageStats.htmlSize/1024)}KB | Text: ${pageStats.textLength} chars | Title: "${pageStats.title}" | Modal: ${pageStats.hasVisibleModal} | Blocking: ${blockStatus.isBlocking} | HasContent: ${hasContent}`);
+      }
 
       // Success: no blocker AND has real content
       if (!blockStatus.isBlocking && hasContent) {
@@ -437,6 +503,10 @@ class HTMLAcquisition {
           if (this.logger) {
             this.logger.log(`  ⏳ Blocker resolved, waiting for page content to render`);
           }
+        } else if (!blockStatus.isBlocking && hasContent) {
+          if (this.logger) {
+            this.logger.log(`  ✅ Real content confirmed`);
+          }
         }
         lastContentStatus = hasContent;
       }
@@ -447,7 +517,7 @@ class HTMLAcquisition {
 
     console.log(`⚠️  Timeout waiting for content (${lastBlockType} still present or no content detected)\n`);
     if (this.logger) {
-      this.logger.log(`  ⚠️  Timeout: blocker=${lastBlockType}, hasContent=${lastContentStatus}`);
+      this.logger.log(`  ⚠️  Timeout after ${sniffCount} sniffs: blocker=${lastBlockType}, hasContent=${lastContentStatus}`);
     }
     return false;
   }
@@ -580,7 +650,7 @@ class HTMLAcquisition {
       console.log(`  ⏳ Navigating...`);
       const startTime = Date.now();
 
-      await page.goto(url, { waitUntil: 'load', timeout: this.navigationTimeout });
+      await this.navigateWithThrottle(page, url, { waitUntil: 'load', timeout: this.navigationTimeout });
 
       const navTime = Date.now() - startTime;
       console.log(`  ✓ Loaded in ${navTime}ms, extracting content...`);
