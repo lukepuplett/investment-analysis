@@ -722,26 +722,28 @@ class HTMLAcquisition {
       const navTime = Date.now() - startTime;
       console.log(`  ✓ Loaded in ${navTime}ms, extracting content...`);
 
-      // Check for blockers and wait for them to disappear
-      const blockStatus = await this.isBlockingPage(page);
-      if (blockStatus.isBlocking) {
-        console.log(`  🚫 Blocker detected: ${blockStatus.type}`);
+      // Check if we already have real content (quick check)
+      const hasContent = await this.hasRealContent(page, url);
+      if (hasContent) {
+        console.log(`  ✅ Real content detected immediately`);
         if (this.logger) {
-          this.logger.logBlockerDetected(blockStatus.type, blockStatus.text);
+          this.logger.log(`  ✅ Real content detected on first check`);
+        }
+      } else {
+        // If not, wait a bit for content to load/render
+        console.log(`  ⏳ Content not ready yet, waiting for page to render...`);
+        if (this.logger) {
+          this.logger.log(`  ⏳ Waiting for content (max 30s)`);
         }
 
-        // For Press & Hold, inform user and wait longer
-        if (blockStatus.type === 'Press & Hold') {
-          console.log(`  ⏳ ATTENTION: Press & Hold for ~20 seconds to verify you're human`);
-          if (this.logger) {
-            this.logger.log(`  ⚠️  Requires user interaction: Press & Hold for ~20 seconds`);
-          }
-        }
-
-        // Wait for blocker to disappear
-        const contentReady = await this.waitForRealContent(page, url, 120);
+        // Wait for real content with shorter timeout (30s instead of 120s)
+        const contentReady = await this.waitForRealContent(page, url, 30);
         if (!contentReady) {
-          throw new Error(`Blocker timeout: ${blockStatus.type} not resolved after 120s`);
+          console.log(`  ⚠️  Content detection timeout, saving what we have...`);
+          if (this.logger) {
+            this.logger.log(`  ⚠️  Timeout waiting for content, proceeding to save`);
+          }
+          // Don't throw - just save what we have
         }
       }
 
