@@ -17,6 +17,9 @@ Thumbs.db
 .classpath
 .settings/
 
+# Excel PoC output
+excel_poc/output.xlsx
+
 # Temporary files
 *.tmp
 *.temp

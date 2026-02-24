@@ -51,3 +51,8 @@ Analysis Status: [x] Complete (2025-02-23)
 ## Quarterly Reports
 - [2025_Q2_press_release](quarterly/2025_Q2_press_release.txt)
 - [2025_Q2_form_10Q_summary](quarterly/2025_Q2_form_10Q_summary.md)
+- [2025_Q2_earnings_call_transcript](quarterly/2025_Q2_earnings_call_transcript.txt)
+
+## Question & Answers
+- [2025_02_23_earnings_call_red_flags_and_answers](question_answers/2025_02_23_earnings_call_red_flags_and_answers.md) – Management Q&A vs. red-flag questions; additional concerns from call
+- [2025_02_23_ai_seats_and_consolidation_thesis](question_answers/2025_02_23_ai_seats_and_consolidation_thesis.md) – AI “eating white collar work”: agent-as-seat, consolidation optionality
