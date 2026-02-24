@@ -180,24 +180,30 @@ class HTMLAcquisition {
     try {
       const pageText = await page.evaluate(() => document.body.innerText);
       const pageTitle = await page.evaluate(() => document.title);
+      const html = await page.content();
       const strategy = this.getContentDetectionStrategy(url);
 
-      // Minimum text length check (all strategies)
-      const minTextLength = 500;  // At least 500 characters of text
+      // Universal heuristics: if page is large with good content and proper title, it's real
+      const isLargeEnough = html.length > 500000;  // > 500KB
+      const hasEnoughText = pageText.length > 5000;  // > 5000 chars
+      const hasProperTitle = pageTitle &&
+                            pageTitle.length > 10 &&
+                            !pageTitle.includes('Your privacy') &&
+                            !pageTitle.includes('Error') &&
+                            !pageTitle.toLowerCase().includes('captcha');
+
+      // If universal heuristics pass, consider it real content
+      if (isLargeEnough && hasEnoughText && hasProperTitle) {
+        return true;
+      }
+
+      // Otherwise check strategy-specific keywords
+      const minTextLength = 500;
 
       if (strategy === 'yahoo-finance') {
-        // Yahoo Finance: check for proper title (not generic blocker title) + financial data
-        const hasProperTitle = pageTitle &&
-                              pageTitle.length > 5 &&
-                              !pageTitle.includes('Yahoo') &&
-                              !pageTitle.includes('Error');
-
-        const hasFinancialData = pageText.toLowerCase().includes('earnings') ||
-                                 pageText.toLowerCase().includes('revenue') ||
-                                 pageText.toLowerCase().includes('eps') ||
-                                 pageText.toLowerCase().includes('price') ||
-                                 pageText.toLowerCase().includes('news');
-
+        const hasFinancialData = pageText.toLowerCase().includes('news') ||
+                                 pageText.toLowerCase().includes('quote') ||
+                                 pageText.toLowerCase().includes('stock');
         return pageText.length > minTextLength && hasFinancialData && hasProperTitle;
       }
 
@@ -481,34 +487,44 @@ class HTMLAcquisition {
     while (Date.now() - startTime < maxWaitSeconds * 1000) {
       sniffCount++;
 
-      // Get page stats
-      const pageStats = await page.evaluate(() => {
-        const html = document.documentElement.outerHTML;
-        const text = document.body.innerText;
-        const title = document.title;
-        const hasVisibleModal = (() => {
-          const modals = document.querySelectorAll('[role="dialog"], .modal, .consent-modal, [data-testid*="modal"], [aria-modal="true"]');
-          for (const modal of modals) {
-            const style = window.getComputedStyle(modal);
-            if (style.display !== 'none' && style.visibility !== 'hidden') return true;
-          }
-          return false;
-        })();
+      // Get page stats (with error handling for context destruction)
+      let pageStats = null;
+      try {
+        pageStats = await page.evaluate(() => {
+          const html = document.documentElement.outerHTML;
+          const text = document.body.innerText;
+          const title = document.title;
+          const hasVisibleModal = (() => {
+            const modals = document.querySelectorAll('[role="dialog"], .modal, .consent-modal, [data-testid*="modal"], [aria-modal="true"]');
+            for (const modal of modals) {
+              const style = window.getComputedStyle(modal);
+              if (style.display !== 'none' && style.visibility !== 'hidden') return true;
+            }
+            return false;
+          })();
 
-        return {
-          htmlSize: html.length,
-          textLength: text.length,
-          title: title,
-          hasVisibleModal: hasVisibleModal,
-          firstLine: text.split('\n')[0]
-        };
-      });
+          return {
+            htmlSize: html.length,
+            textLength: text.length,
+            title: title,
+            hasVisibleModal: hasVisibleModal,
+            firstLine: text.split('\n')[0]
+          };
+        });
+      } catch (evalErr) {
+        // Page context destroyed, skip this sniff and continue
+        if (this.logger) {
+          this.logger.log(`  [SNIFF #${sniffCount}] ERROR: ${evalErr.message}`);
+        }
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        continue;
+      }
 
       const blockStatus = await this.isBlockingPage(page);
       const hasContent = await this.hasRealContent(page, url);
 
       // Log detailed page stats on each sniff
-      if (this.logger) {
+      if (this.logger && pageStats) {
         this.logger.log(`  [SNIFF #${sniffCount}] Size: ${Math.round(pageStats.htmlSize/1024)}KB | Text: ${pageStats.textLength} chars | Title: "${pageStats.title}" | Modal: ${pageStats.hasVisibleModal} | Blocking: ${blockStatus.isBlocking} | HasContent: ${hasContent}`);
       }
 
@@ -756,7 +772,14 @@ class HTMLAcquisition {
       .replace(/[^a-z0-9_-]/gi, '_')
       .toLowerCase();
 
-    return pathname || 'index' + '.html';
+    // Add timestamp for unique, dated files
+    const now = new Date();
+    const dateStr = now.toISOString().split('T')[0];  // YYYY-MM-DD
+    const timeStr = now.toISOString().split('T')[1].replace(/[:.]/g, '').substring(0, 6);  // HHMMSS
+    const timestamp = `${dateStr}_${timeStr}`;
+
+    const basename = pathname || 'index';
+    return `${timestamp}_${basename}.html`;
   }
 }
 
