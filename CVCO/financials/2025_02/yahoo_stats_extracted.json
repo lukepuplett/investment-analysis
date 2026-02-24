@@ -1,0 +1,20 @@
+{
+  "metrics": {
+    "previousClose": "595.80",
+    "fiftyTwoWeekLow": "393.53",
+    "fiftyTwoWeekHigh": "713.01",
+    "volume": "316,101",
+    "avgVolume": "198,261",
+    "marketCap": "4.537B",
+    "beta": "1.31",
+    "peRatio": "25.24",
+    "eps": "23.03",
+    "targetEstimate": "587.50",
+    "revenue": "580.99M",
+    "profitMargin": "8.37%"
+  },
+  "source": "yahoo-finance",
+  "metricsCount": 12,
+  "extractedAt": "2026-02-24T10:34:16.167Z",
+  "pageTitle": "Cavco Industries, Inc. (CVCO) Stock Price, News, Quote & History - Yahoo Finance"
+}

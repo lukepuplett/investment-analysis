@@ -1,0 +1,12 @@
+{
+  "successful": [
+    "CVCO IR website",
+    "Competitor CIK data"
+  ],
+  "failed": [
+    "SEC API access",
+    "Yahoo Finance extraction (privacy wall)",
+    "Google Finance extraction (privacy wall)"
+  ],
+  "timestamp": "2026-02-24T10:00:56.008Z"
+}

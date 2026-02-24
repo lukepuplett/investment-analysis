@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "sourceFile": "./CVCO/financials/2025_02/raw_html/sec_and_earnings/cgi-bin__browse-edgar",
+    "refinedAt": "2026-02-24T10:50:01.637Z",
+    "stats": {
+      "hasMainContent": true,
+      "tableCount": 0,
+      "navUrlCount": 3,
+      "textLength": 103
+    }
+  },
+  "content": {
+    "text": "Company Information: \nHome | EDGAR Search Home |\n Latest Filings |\n Previous Page\n -->\nNo matching CIK.",
+    "tables": [],
+    "mainContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\"><html lang=\"ENG\"><head>\n<title>Company Information: </title>\n<!-- BEGIN HEADER -->\n\n\n<body style=\"margin: 0\">\n<!-- SEC Web Analytics - For information please visit: https://www.sec.gov/privacy.htm#collectedinfo -->\n<noscript></noscript>\n\n<!-- End SEC Web Analytics -->\n<table border=\"0\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"white\" summary=\"\">\n\n<tbody><tr>\n<td width=\"95\" rowspan=\"2\"><a href=\"/index.htm\">\n</td>\n<td colspan=\"2\">\n</tr>\n\n<tr>\n<td width=\"26\">\n<td width=\"100%\" valign=\"top\">\n\n<table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" summary=\"\">\n\n<tbody><tr>\n<td width=\"171\" bgcolor=\"#324395\" valign=\"top\">\n<td width=\"95%\" align=\"right\" valign=\"middle\" nowrap=\"nowrap\" bgcolor=\"#324395\" class=\"gray\">\n<a href=\"/index.htm\">Home</a> | <a href=\"/edgar/searchedgar/webusers.htm\">EDGAR Search Home</a> |\n <a href=\"/cgi-bin/browse-edgar?action=getcurrent\">Latest Filings</a> |\n <a href=\"javascript:history.back()\">Previous Page\n<td width=\"100%\" bgcolor=\"#324395\">\n</tr>\n\n<tr>\n<td bgcolor=\"white\" colspan=\"3\">\n</tr>\n\n<tr>\n<td bgcolor=\"black\" colspan=\"2\" height=\"34\" align=\"right\" valign=\"bottom\">\n\n<td bgcolor=\"black\">\n</tr>\n\n<tr>\n<td bgcolor=\"white\" colspan=\"3\">\n</tr>\n\n<tr>\n<td bgcolor=\"#324395\" height=\"15\">\n<td bgcolor=\"#324395\" align=\"right\">\n<td bgcolor=\"#324395\">\n\n\n</table>\n\n<table width=\"652\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"white\" summary=\"\">\n\n<tbody><tr>\n<td>\n<td valign=\"top\">\n\n<td>\n<!-- <font face=\"Verdana,Arial,Helvetica\" size=\"2\"> -->\n<br>\n<!-- END HEADER -->\n\n</table><br>\n<div style=\"margin-left: 10px\">\n<center><h1>No matching CIK.\n\n</html>"
+  },
+  "navigation": {
+    "urls": [
+      {
+        "url": "/index.htm",
+        "text": "Home",
+        "isExternal": false
+      },
+      {
+        "url": "/edgar/searchedgar/webusers.htm",
+        "text": "EDGAR Search Home",
+        "isExternal": false
+      },
+      {
+        "url": "/cgi-bin/browse-edgar?action=getcurrent",
+        "text": "Latest Filings",
+        "isExternal": false
+      }
+    ],
+    "internalCount": 3,
+    "externalCount": 0
+  }
+}

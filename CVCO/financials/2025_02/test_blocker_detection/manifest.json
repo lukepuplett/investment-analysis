@@ -1,0 +1,22 @@
+{
+  "output": "./CVCO/financials/2025_02/test_blocker_detection",
+  "initial": null,
+  "urls": [
+    "https://seekingalpha.com/article/4864563-cavco-industries-inc-cvco-q3-2026-earnings-call-transcript"
+  ],
+  "timestamp": "2026-02-24T11:02:51.603Z",
+  "results": [
+    {
+      "url": "https://seekingalpha.com/article/4864563-cavco-industries-inc-cvco-q3-2026-earnings-call-transcript",
+      "filename": "article__4864563-cavco-industries-inc-cvco-q3-2026-earnings-call-transcript",
+      "success": true,
+      "size": 954,
+      "timestamp": "2026-02-24T11:02:51.573Z"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "successful": 1,
+    "failed": 0
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "sourceFile": "./CVCO/financials/2025_02/sec_filings/latest_10q/cgi-bin__browse-edgar",
+    "refinedAt": "2026-02-24T10:57:49.796Z",
+    "stats": {
+      "hasMainContent": true,
+      "tableCount": 0,
+      "navUrlCount": 29,
+      "textLength": 2657
+    }
+  },
+  "content": {
+    "text": "EDGAR Search Results\n Mailing Address\n 3636 N CENTRAL AVE\n STE 1200\nPHOENIX AZ 85012 \n Business Address\n 3636 N CENTRAL AVE\n STE 1200\nPHOENIX AZ 85012 \n 602-256-6263\n CAVCO INDUSTRIES, INC. CIK#: 0000278166 (see all company filings)\n SIC: 2451 - MOBILE HOMES\nState location: AZ | State of Inc.: DE | Fiscal Year End: 0328\nformerly: CAVCO INDUSTRIES INC (filings through 2018-07-12)\nformerly: CAVCO INDUSTRIES INC. (filings through 2025-05-16)\n(CF Office: 04 Manufacturing)\nGet insider transactions for this issuer.\n Filter Results\n Search Within Files \n Filing Type:\n Prior to: (YYYYMMDD)\n Ownership?\nincludeexcludeonlyLimit Results Per Page\n 10 Entries\n 20 Entries\n 40 Entries\n 80 Entries\n 100 Entries\n Enter keywords\nSearch\n Items 1 - 10 RSS Feed\n Filings\n Format\n Description\n Filing Date\n File/Film Number\n10-K\n Documents Interactive Data\nAnnual report [Section 13 and 15(d), not S-K Item 405]\nAcc-no: 0000278166-25-000057 (34 Act) Size: 14 MB \n 2025-05-23\n 000-08822\n25982705 \n10-K\n Documents Interactive Data\nAnnual report [Section 13 and 15(d), not S-K Item 405]\nAcc-no: 0000278166-24-000059 (34 Act) Size: 20 MB \n 2024-05-24\n 000-08822\n24985223 \n10-K\n Documents Interactive Data\nAnnual report [Section 13 and 15(d), not S-K Item 405]\nAcc-no: 0000278166-23-000032 (34 Act) Size: 15 MB \n 2023-05-19\n 000-08822\n23940462 \n10-K\n Documents Interactive Data\nAnnual report [Section 13 and 15(d), not S-K Item 405]\nAcc-no: 0000278166-22-000031 (34 Act) Size: 14 MB \n 2022-05-31\n 000-08822\n22984270 \n10-K\n Documents Interactive Data\nAnnual report [Section 13 and 15(d), not S-K Item 405]\nAcc-no: 0000278166-21-000029 (34 Act) Size: 13 MB \n 2021-05-28\n 000-08822\n21975577 \n10-K\n Documents Interactive Data\nAnnual report [Section 13 and 15(d), not S-K Item 405]\nAcc-no: 0000278166-20-000028 (34 Act) Size: 16 MB \n 2020-05-27\n 000-08822\n20912435 \n10-K\n Documents Interactive Data\nAnnual report [Section 13 and 15(d), not S-K Item 405]\nAcc-no: 0000278166-19-000053 (34 Act) Size: 14 MB \n 2019-05-29\n 000-08822\n19858914 \n10-K\n Documents Interactive Data\nAnnual report [Section 13 and 15(d), not S-K Item 405]\nAcc-no: 0000278166-18-000019 (34 Act) Size: 13 MB \n 2018-05-30\n 000-08822\n18868784 \n10-K\n Documents Interactive Data\nAnnual report [Section 13 and 15(d), not S-K Item 405]\nAcc-no: 0000278166-17-000024 (34 Act) Size: 13 MB \n 2017-06-13\n 000-08822\n17909158 \n10-K\n Documents Interactive Data\nAnnual report [Section 13 and 15(d), not S-K Item 405]\nAcc-no: 0000278166-16-000106 (34 Act) Size: 14 MB \n 2016-06-21\n 000-08822\n161724030 \n https://www.sec.gov/cgi-bin/browse-edgar\n Home | Search the Next-Generation EDGAR System | Previous Page\n Modified 07/18/2014",
+    "tables": [],
+    "mainContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"><html lang=\"ENG\"><head>\n<title>EDGAR Search Results</title>\n<link href=\"/include/interactive2.css\" rel=\"stylesheet\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/edgar/search/global/css/bootstrap/bootstrap.min.css\" type=\"text/css\">\n<link href=\"/edgar/search/css/smartSearchCompanyLanding.css\" rel=\"stylesheet\" type=\"text/css\">\n\n\n<body style=\"margin: 0\">\n<!-- SEC Web Analytics - For information please visit: https://www.sec.gov/privacy.htm#collectedinfo -->\n<noscript></noscript>\n\n<!-- End SEC Web Analytics -->\n\n<!-- BEGIN BANNER -->\n\n<!-- END BANNER -->\n\n\n<!-- BEGIN BREADCRUMBS -->\n\n<!-- END BREADCRUMBS -->\n\n<div id=\"contentDiv\">\n   <!-- START FILER DIV -->\n<div class=\"filerDiv\"> \n      <div class=\"mailer\">Mailing Address\n         <span class=\"mailerAddress\">3636 N CENTRAL AVE</span>\n         <span class=\"mailerAddress\">STE 1200</span>\n         <span class=\"mailerAddress\">\nPHOENIX AZ 85012         \n      <div class=\"mailer\">Business Address\n         <span class=\"mailerAddress\">3636 N CENTRAL AVE</span>\n         <span class=\"mailerAddress\">STE 1200</span>\n         <span class=\"mailerAddress\">\nPHOENIX AZ 85012         </span>\n         <span class=\"mailerAddress\">602-256-6263\n      <div class=\"companyInfo\">\n         <span class=\"companyName\">CAVCO INDUSTRIES, INC. <acronym title=\"Central Index Key\">CIK</acronym>#: <a href=\"/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000278166&amp;owner=exclude&amp;count=10\">0000278166 (see all company filings)\n         <p class=\"identInfo\"><acronym title=\"Standard Industrial Code\">SIC</acronym>: <a href=\"/cgi-bin/browse-edgar?action=getcompany&amp;SIC=2451&amp;owner=exclude&amp;count=10\">2451</a> - MOBILE HOMES<br>State location: <a href=\"/cgi-bin/browse-edgar?action=getcompany&amp;State=AZ&amp;owner=exclude&amp;count=10\">AZ</a> | State of Inc.: <strong>DE</strong> | Fiscal Year End: 0328<br>formerly: CAVCO INDUSTRIES INC (filings through 2018-07-12)<br>formerly: CAVCO INDUSTRIES INC. (filings through 2025-05-16)<br><span>(CF Office: 04 Manufacturing)<span><br>Get <a href=\"/cgi-bin/own-disp?action=getissuer&amp;CIK=0000278166\"><b>insider transactions for this <b>issuer</b>.\n\n   </div>\n   <div style=\"width: 100%;\">\n      <form method=\"GET\" action=\"/cgi-bin/browse-edgar\">\n         <input type=\"hidden\" name=\"action\" value=\"getcompany\">\n         <input type=\"hidden\" name=\"CIK\" value=\"0000278166\">\n         <table style=\"margin: 0px; background:#FFFFFF; border: 1px solid #BCD6F8; width: 100%;\">\n            <tbody><tr>\n                <td colspan=\"5\" class=\"filter-results-title\"><strong>Filter Results\n                <td rowspan=\"2\" class=\"efts_form forms_separator\"></td>\n                <td class=\"efts_form\"><strong>Search Within Files</strong> \n            </tr>\n            <tr>\n               <td><label for=\"type\">Filing Type:</label><br>\n               <td><label for=\"prior_to\">Prior to:</label> (YYYYMMDD)<br>\n     "
+  },
+  "navigation": {
+    "urls": [
+      {
+        "url": "/cgi-bin/browse-edgar?action=getcurrent",
+        "text": "Latest Filings",
+        "isExternal": false
+      },
+      {
+        "url": "https://www.sec.gov/edgar/search-and-access",
+        "text": "Filings search tools",
+        "isExternal": true
+      },
+      {
+        "url": "/index.htm",
+        "text": "SEC Home",
+        "isExternal": false
+      },
+      {
+        "url": "/edgar/searchedgar/companysearch.html",
+        "text": "Company Search",
+        "isExternal": false
+      },
+      {
+        "url": "/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000278166&amp;owner=exclude&amp;count=10",
+        "text": "0000278166 (see all company filings)",
+        "isExternal": false
+      },
+      {
+        "url": "/cgi-bin/browse-edgar?action=getcompany&amp;SIC=2451&amp;owner=exclude&amp;count=10",
+        "text": "2451",
+        "isExternal": false
+      },
+      {
+        "url": "/cgi-bin/browse-edgar?action=getcompany&amp;State=AZ&amp;owner=exclude&amp;count=10",
+        "text": "AZ",
+        "isExternal": false
+      },
+      {
+        "url": "/Archives/edgar/data/278166/000027816625000057/0000278166-25-000057-index.htm",
+        "text": "&nbsp;Documents",
+        "isExternal": false
+      },
+      {
+        "url": "/cgi-bin/viewer?action=view&amp;amp;cik=278166&amp;amp;accession_number=0000278166-25-000057&amp;amp;xbrl_type=v",
+        "text": "&nbsp;Interactive Data",
+        "isExternal": false
+      },
+      {
+        "url": "/cgi-bin/browse-edgar?action=getcompany&amp;filenum=000-08822&amp;owner=exclude&amp;count=10",
+        "text": "000-08822",
+        "isExternal": false
+      },
+      {
+        "url": "/Archives/edgar/data/278166/000027816624000059/0000278166-24-000059-index.htm",
+        "text": "&nbsp;Documents",
+        "isExternal": false
+      },
+      {
+        "url": "/cgi-bin/viewer?action=view&amp;amp;cik=278166&amp;amp;accession_number=0000278166-24-000059&amp;amp;xbrl_type=v",
+        "text": "&nbsp;Interactive Data",
+        "isExternal": false
+      },
+      {
+        "url": "/Archives/edgar/data/278166/000027816623000032/0000278166-23-000032-index.htm",
+        "text": "&nbsp;Documents",
+        "isExternal": false
+      },
+      {
+        "url": "/cgi-bin/viewer?action=view&amp;amp;cik=278166&amp;amp;accession_number=0000278166-23-000032&amp;amp;xbrl_type=v",
+        "text": "&nbsp;Interactive Data",
+        "isExternal": false
+      },
+      {
+        "url": "/Archives/edgar/data/278166/000027816622000031/0000278166-22-000031-index.htm",
+        "text": "&nbsp;Documents",
+        "isExternal": false
+      },
+      {
+        "url": "/cgi-bin/viewer?action=view&amp;amp;cik=278166&amp;amp;accession_number=0000278166-22-000031&amp;amp;xbrl_type=v",
+        "text": "&nbsp;Interactive Data",
+        "isExternal": false
+      },
+      {
+        "url": "/Archives/edgar/data/278166/000027816621000029/0000278166-21-000029-index.htm",
+        "text": "&nbsp;Documents",
+        "isExternal": false
+      },
+      {
+        "url": "/cgi-bin/viewer?action=view&amp;amp;cik=278166&amp;amp;accession_number=0000278166-21-000029&amp;amp;xbrl_type=v",
+        "text": "&nbsp;Interactive Data",
+        "isExternal": false
+      },
+      {
+        "url": "/Archives/edgar/data/278166/000027816620000028/0000278166-20-000028-index.htm",
+        "text": "&nbsp;Documents",
+        "isExternal": false
+      },
+      {
+        "url": "/cgi-bin/viewer?action=view&amp;amp;cik=278166&amp;amp;accession_number=0000278166-20-000028&amp;amp;xbrl_type=v",
+        "text": "&nbsp;Interactive Data",
+        "isExternal": false
+      }
+    ],
+    "internalCount": 28,
+    "externalCount": 1
+  }
+}

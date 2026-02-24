@@ -1,0 +1,36 @@
+{
+  "output": "./CVCO/financials/2025_02/raw_html",
+  "initial": "https://finance.yahoo.com/quote/CVCO",
+  "urls": [
+    "https://finance.yahoo.com/quote/CVCO",
+    "https://finance.yahoo.com/quote/CVCO/analysis",
+    "https://finance.yahoo.com/quote/CVCO/financials"
+  ],
+  "timestamp": "2026-02-24T10:46:47.624Z",
+  "results": [
+    {
+      "url": "https://finance.yahoo.com/quote/CVCO",
+      "success": false,
+      "error": "Navigation failed: Navigation timeout of 15000 ms exceeded"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CVCO/analysis",
+      "filename": "quote__cvco__analysis",
+      "success": true,
+      "size": 1345,
+      "timestamp": "2026-02-24T10:46:45.202Z"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CVCO/financials",
+      "filename": "quote__cvco__financials",
+      "success": true,
+      "size": 1324,
+      "timestamp": "2026-02-24T10:46:47.624Z"
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "successful": 2,
+    "failed": 1
+  }
+}

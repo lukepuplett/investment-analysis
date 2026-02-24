@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "sourceFile": "./CVCO/financials/2025_02/raw_html/quote__cvco__financials.html",
+    "refinedAt": "2026-02-24T10:47:29.039Z",
+    "stats": {
+      "hasMainContent": true,
+      "tableCount": 0,
+      "navUrlCount": 510,
+      "textLength": 2529
+    }
+  },
+  "content": {
+    "text": "Cavco Industries, Inc. (CVCO) Income Statement - Yahoo Finance \n Oops, something went wrong\n Skip to navigation Skip to main content Skip to right column \n NasdaqGS - Delayed Quote • USD Cavco Industries, Inc. (CVCO) Follow \n Get top stock picks 581.35 -14.45 (-2.43%) At close: February 23 at 4:00:02 PM EST \n 581.35 0.00 (0.00%) Pre-Market: 4:14:17 AM EST Get top stock picks \n Currency in USD All numbers in thousands Annual Quarterly Expand All\n TTM \n3/31/2025 \n3/31/2024 \n3/31/2023 \n3/31/2022 \n Total Revenue 2,202,736 \n2,015,458 \n1,794,792 \n2,142,713 \n1,627,158 Cost of Revenue 1,686,785 \n1,549,867 \n1,367,890 \n1,587,781 \n1,218,409 Gross Profit 515,951 \n465,591 \n426,902 \n554,932 \n408,749 Operating Expense 300,225 \n275,315 \n247,920 \n258,323 \n206,253 Operating Income 215,726 \n190,276 \n178,982 \n296,609 \n202,496 Net Non Operating Interest Income Expense 17,084 \n20,572 \n19,349 \n9,769 \n2,835 Other Income Expense 262 \n222 \n849 \n385 \n6,658 Pretax Income 233,072 \n211,070 \n199,180 \n306,763 \n211,989 Tax Provision 48,652 \n40,034 \n41,275 \n65,922 \n14,247 Net Income Common Stockholders 184,420 \n171,036 \n157,817 \n240,554 \n197,699 Diluted NI Available to Com Stockholders 184,420 \n171,036 \n157,817 \n240,554 \n197,699 Basic EPS 23.33 \n20.97 \n18.55 \n27.20 \n21.54 Diluted EPS 23.01 \n20.71 \n18.37 \n26.95 \n21.34 Basic Average Shares 7,920.72 \n8,157.62 \n8,506.67 \n8,844.33 \n9,178.59 Diluted Average Shares 8,027.43 \n8,259.96 \n8,591.91 \n8,924.45 \n9,264.15 Total Operating Income as Reported 215,726 \n190,276 \n178,982 \n296,609 \n202,496 Total Expenses 1,987,010 \n1,825,182 \n1,615,810 \n1,846,104 \n1,424,662 Net Income from Continuing & Discontinued Operation 184,420 \n171,036 \n157,817 \n240,554 \n197,699 Normalized Income 184,420 \n171,036 \n157,817 \n240,554 \n197,699 Interest Income 17,638 \n21,089 \n20,998 \n10,679 \n3,537 Interest Expense 554 \n517 \n1,649 \n910 \n702 Net Interest Income 17,084 \n20,572 \n19,349 \n9,769 \n2,835 EBIT 233,626 \n211,587 \n200,829 \n307,673 \n212,691 EBITDA 255,244 \n230,846 \n219,354 \n324,576 \n223,708 Reconciled Cost of Revenue 1,686,785 \n1,549,867 \n1,367,890 \n1,587,781 \n1,218,409 Reconciled Depreciation 21,618 \n19,259 \n18,525 \n16,903 \n11,017 Net Income from Continuing Operation Net Minority Interest 184,420 \n171,036 \n157,817 \n240,554 \n197,699 Normalized EBITDA 255,244 \n230,846 \n219,354 \n324,576 \n223,708 Tax Rate for Calcs 0 \n0 \n0 \n0 \n0 Tax Effect of Unusual Items 0 \n0 \n0 \n0 \n0 \n 95.28 -2.12% 320.03 -1.66% 140.21 +0.14% 66.68 -1.81% 7,456.83 -1.63% 26.30 -2.95% 164.25 +0.08% 21.32 -2.65% 76.80 -1.32% 158.44 -2.20%",
+    "tables": [],
+    "mainContent": "<div class=\"toolbars yf-eeqr8j\"> <span class=\"currency yf-eeqr8j\">Currency in USD</span> <span class=\"subText yf-eeqr8j\">All numbers in thousands</span> <div class=\"subToolbar yf-eeqr8j\"><div data-testid=\"financials-time-tabs\" class=\"tabList l1 tw--mb-1  yf-zzox3x\" role=\"tablist\">   <button role=\"tab\" id=\"tab-annual\" aria-selected=\"true\" title=\"Annual\" data-ylk=\"elm:tab;elmt:btn;itc:1;sec:qsp-financials;slk:Annual\" data-yga=\"{&quot;yLinkElement&quot;:&quot;tab&quot;,&quot;yLinkElementType&quot;:&quot;btn&quot;,&quot;yModuleName&quot;:&quot;qsp-financials&quot;,&quot;yLinkText&quot;:&quot;Annual&quot;}\" tabindex=\"0\" class=\"tabBtn  l1 yf-zzox3x\" style=\"\"> Annual  </button>   <button role=\"tab\" id=\"tab-quarterly\" aria-selected=\"false\" title=\"Quarterly\" data-ylk=\"elm:tab;elmt:btn;itc:1;sec:qsp-financials;slk:Quarterly\" data-yga=\"{&quot;yLinkElement&quot;:&quot;tab&quot;,&quot;yLinkElementType&quot;:&quot;btn&quot;,&quot;yModuleName&quot;:&quot;qsp-financials&quot;,&quot;yLinkText&quot;:&quot;Quarterly&quot;}\" tabindex=\"-1\" class=\"tabBtn  l1 yf-zzox3x\" style=\"\"> Quarterly      <div class=\"expandContainer yf-eeqr8j\">   <button class=\"link2-btn fin-size-small     rounded   yf-r7dg9i\" data-ylk=\"elm:expand;sec:qsp-financials;slk:financials-report-all\" data-yga=\"{&quot;yLinkElement&quot;:&quot;expand&quot;,&quot;yModuleName&quot;:&quot;qsp-financials&quot;,&quot;yLinkText&quot;:&quot;financials-report-all&quot;}\"> <div aria-hidden=\"true\" class=\"icon fin-icon inherit-icn sz-large  yf-15ilbqr\"><!-- HTML_TAG_START --><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"></svg> <span class=\"expand yf-eeqr8j\">Expand All</div> <section class=\"finContainer yf-yuwun0\" data-testid=\"qsp-financials\"><div class=\"tableContainer yf-yuwun0\"><div class=\"table yf-yuwun0\"> <div class=\"column yf-1yyu1pc alt\" data-cpos=\"0\">TTM </div><div class=\"column yf-1yyu1pc\" data-cpos=\"1\">3/31/2025 </div><div class=\"column yf-1yyu1pc alt\" data-cpos=\"2\">3/31/2024 </div><div class=\"column yf-1yyu1pc\" data-cpos=\"3\">3/31/2023 </div><div class=\"column yf-1yyu1pc alt\" data-cpos=\"4\">3/31/2022 </div> <div class=\"tableBody yf-yuwun0\"> <div class=\"row lv-0 yf-t22klz\"><div class=\"column sticky yf-t22klz\">   <button class=\"icon-btn fin-size-small tw-p-0    rounded   yf-r7dg9i\" data-ylk=\"elm:expand;elmt:btn;itc:1;sec:qsp-financials;slk:TotalRevenue\" data-yga=\"{&quot;yLinkElement&quot;:&quot;expand&quot;,&quot;yLinkElementType&quot;:&quot;btn&quot;,&quot;yModuleName&quot;:&quot;qsp-financials&quot;,&quot;yLinkText&quot;:&quot;TotalRevenue&quot;}\" aria-label=\"Total Revenue\"> <div aria-hidden=\"true\" class=\"icon fin-icon primary-icn sz-medium  yf-15ilbqr\"><!-- HTML_TAG_START --><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"></svg> </button> <div class=\"rowTitle yf-t22klz\" title=\"Total Revenue\">Total Revenue <div class=\"column yf-t22klz alt\">2,202,736 </div><div class=\"column yf-t22klz\">2,015,458 </div><div class=\"column yf-t22klz alt\">1,794,792 </div><div class=\"column yf-t22klz\">2,142"
+  },
+  "navigation": {
+    "urls": [
+      {
+        "url": "#navigation-container",
+        "text": "Skip to navigation",
+        "isExternal": false
+      },
+      {
+        "url": "#nimbus-app",
+        "text": "Skip to main content",
+        "isExternal": false
+      },
+      {
+        "url": "#right-rail",
+        "text": "Skip to right column",
+        "isExternal": false
+      },
+      {
+        "url": "https://www.yahoo.com/",
+        "text": "News",
+        "isExternal": true
+      },
+      {
+        "url": "https://www.yahoo.com/news/",
+        "text": "Today's news",
+        "isExternal": true
+      },
+      {
+        "url": "https://www.yahoo.com/news/us/",
+        "text": "US",
+        "isExternal": true
+      },
+      {
+        "url": "https://www.yahoo.com/news/politics/",
+        "text": "Politics",
+        "isExternal": true
+      },
+      {
+        "url": "https://www.yahoo.com/news/world/",
+        "text": "World",
+        "isExternal": true
+      },
+      {
+        "url": "https://weather.yahoo.com/",
+        "text": "Weather",
+        "isExternal": true
+      },
+      {
+        "url": "https://www.yahoo.com/issues/climate-change/",
+        "text": "Climate change",
+        "isExternal": true
+      },
+      {
+        "url": "https://health.yahoo.com/",
+        "text": "Health",
+        "isExternal": true
+      },
+      {
+        "url": "https://health.yahoo.com/wellness/",
+        "text": "Wellness",
+        "isExternal": true
+      },
+      {
+        "url": "https://health.yahoo.com/wellness/mental-health/",
+        "text": "Mental health",
+        "isExternal": true
+      },
+      {
+        "url": "https://health.yahoo.com/wellness/sexual-health/",
+        "text": "Sexual health",
+        "isExternal": true
+      },
+      {
+        "url": "https://health.yahoo.com/wellness/dermatology/",
+        "text": "Dermatology",
+        "isExternal": true
+      },
+      {
+        "url": "https://health.yahoo.com/wellness/oral-health/",
+        "text": "Oral health",
+        "isExternal": true
+      },
+      {
+        "url": "https://health.yahoo.com/wellness/hair-loss/",
+        "text": "Hair loss",
+        "isExternal": true
+      },
+      {
+        "url": "https://health.yahoo.com/wellness/foot-health/",
+        "text": "Foot health",
+        "isExternal": true
+      },
+      {
+        "url": "https://health.yahoo.com/nutrition/",
+        "text": "Nutrition",
+        "isExternal": true
+      },
+      {
+        "url": "https://health.yahoo.com/nutrition/healthy-eating/",
+        "text": "Healthy eating",
+        "isExternal": true
+      }
+    ],
+    "internalCount": 19,
+    "externalCount": 491
+  }
+}

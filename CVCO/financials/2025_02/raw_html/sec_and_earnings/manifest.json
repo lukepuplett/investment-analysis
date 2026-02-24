@@ -1,0 +1,46 @@
+{
+  "output": "./CVCO/financials/2025_02/raw_html/sec_and_earnings",
+  "initial": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000711859&type=10-Q&dateb=&owner=exclude&count=100",
+  "urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000711859&type=10-Q&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000711859&type=10-K&dateb=&owner=exclude&count=100",
+    "https://finance.yahoo.com/quote/CVCO/earnings",
+    "https://www.cavcohomes.com"
+  ],
+  "timestamp": "2026-02-24T10:49:46.278Z",
+  "results": [
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000711859&type=10-Q&dateb=&owner=exclude&count=100",
+      "filename": "cgi-bin__browse-edgar",
+      "success": true,
+      "size": 8,
+      "timestamp": "2026-02-24T10:49:41.356Z"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000711859&type=10-K&dateb=&owner=exclude&count=100",
+      "filename": "cgi-bin__browse-edgar",
+      "success": true,
+      "size": 8,
+      "timestamp": "2026-02-24T10:49:41.724Z"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CVCO/earnings",
+      "filename": "quote__cvco__earnings",
+      "success": true,
+      "size": 93,
+      "timestamp": "2026-02-24T10:49:42.517Z"
+    },
+    {
+      "url": "https://www.cavcohomes.com",
+      "filename": "index.html",
+      "success": true,
+      "size": 210,
+      "timestamp": "2026-02-24T10:49:46.277Z"
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "successful": 4,
+    "failed": 0
+  }
+}

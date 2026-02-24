@@ -1,0 +1,30 @@
+{
+  "output": "./CVCO/financials/2025_02/sec_filings/latest_10q",
+  "initial": null,
+  "urls": [
+    "https://www.sec.gov/Archives/edgar/data/278166/000162828026004426/0001628280-26-004426-index.htm",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000278166&type=10-K&owner=exclude&count=10"
+  ],
+  "timestamp": "2026-02-24T10:57:45.292Z",
+  "results": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/278166/000162828026004426/0001628280-26-004426-index.htm",
+      "filename": "archives__edgar__data__278166__000162828026004426__0001628280-26-004426-index_htm",
+      "success": true,
+      "size": 15,
+      "timestamp": "2026-02-24T10:57:44.905Z"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000278166&type=10-K&owner=exclude&count=10",
+      "filename": "cgi-bin__browse-edgar",
+      "success": true,
+      "size": 20,
+      "timestamp": "2026-02-24T10:57:45.292Z"
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "successful": 2,
+    "failed": 0
+  }
+}

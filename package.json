@@ -1,0 +1,25 @@
+{
+  "name": "investment_analysis",
+  "version": "1.0.0",
+  "description": "This repository contains comprehensive investment analysis for multiple public companies, following a structured framework for financial analysis, market research, and investment thesis development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukepuplett/investment-analysis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukepuplett/investment-analysis/issues"
+  },
+  "homepage": "https://github.com/lukepuplett/investment-analysis#readme",
+  "dependencies": {
+    "puppeteer": "^24.37.5",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

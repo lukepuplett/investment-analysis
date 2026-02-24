@@ -1,5 +1,9 @@
 # AGENTS.md
 
+**⚠️ CRITICAL RULES:**
+1. **Do NOT use `cat`, `echo`, or shell output redirection to communicate with the user.** Write responses directly in the chat instead. Shell commands are for operations only, not communication.
+2. **Do NOT create temporary .md documentation files just to communicate.** Only create documentation files that will be long-lived and part of the repository. Communicate analysis, findings, and summaries directly in chat instead.
+
 This file provides comprehensive guidance for AI agents when working with this investment analysis repository.
 
 ## Repository Overview
@@ -860,6 +864,131 @@ For each analysis session, create the following documents in the `analysis/` dir
 - Store raw data in quarterly/ before analysis
 - Create complete documentation for each analysis session
 
+## Web Scraping & Data Acquisition Framework
+
+Production-ready three-phase scraping system for collecting financial data and research materials:
+
+### Phase 1: HTML Acquisition - `acquire-html.js`
+
+**Smart URL downloader with intelligent blocker detection**
+
+```bash
+node acquire-html.js \
+  --output ./output_dir \
+  --urls "url1,url2,url3" \
+  [--initial "url_for_initial_load"] \
+  [--modal <strategy>]
+```
+
+**Key Features:**
+- ✅ Smart blocker detection (CAPTCHA, bot detection, access denied, privacy modals)
+- ✅ Waits intelligently for blocking UI to disappear
+- ✅ Detects when real content appears and auto-continues
+- ✅ URL-based modal strategy selection (wait-for-accept, auto-click, detect, none)
+- ✅ Handles JavaScript-rendered content with real Chrome
+- ✅ Creates manifest.json with download log
+
+**Modal Strategies:**
+- `wait-for-accept` - Waits for user to manually click (Yahoo Finance, LinkedIn)
+- `auto-click` - Tries to auto-click Accept button (Facebook, generic modals)
+- `detect` - Smart detection and fallback to auto-click
+- `none` - Skip modal handling (SEC, company IR pages)
+- `auto` - Auto-detect per URL domain (default)
+
+**Example:**
+```bash
+# Auto-detect strategy per URL
+node acquire-html.js --output ./data --initial "https://finance.yahoo.com/quote/CVCO" \
+  --urls "https://finance.yahoo.com/quote/CVCO,https://www.sec.gov/cgi-bin/browse-edgar?..."
+
+# Force wait-for-accept strategy
+node acquire-html.js --output ./data --urls "https://finance.yahoo.com/..." --modal wait-for-accept
+
+# Skip modals (SEC EDGAR, company IR)
+node acquire-html.js --output ./data --urls "https://www.sec.gov/...,https://company.com" --modal none
+```
+
+### Phase 2: HTML Refinement - `lib-html-refiner.js`
+
+**Strips HTML noise and extracts clean content structure**
+
+```bash
+node lib-html-refiner.js input.html output_refined.json
+```
+
+**Outputs:**
+- Clean text content (scripts, styles, nav removed)
+- Extracted tables with row/cell structure
+- Navigation URLs (internal + external classified)
+- Main content section
+- Metadata and statistics
+
+**Results Format:**
+```json
+{
+  "metadata": { "stats": { "tableCount": 5, "navUrlCount": 45 } },
+  "content": { "text": "...", "tables": [...], "mainContent": "..." },
+  "navigation": { "urls": [...] }
+}
+```
+
+### Phase 3: Financial Data Extraction - `lib-financial-extractor.js`
+
+**Extract financial metrics from refined HTML**
+
+```javascript
+const extractor = new FinancialExtractor();
+const data = extractor.extractFromHTML(html, 'yahoo-finance');
+```
+
+**Supports:**
+- Yahoo Finance format (price, PE, EPS, beta, market cap, etc.)
+- Extensible for other financial sources
+
+### Workflow for Investment Analysis
+
+**Step 1: Acquire Raw HTML**
+```bash
+node acquire-html.js \
+  --output ./CVCO/financials/2025_02/raw_html \
+  --initial "https://finance.yahoo.com/quote/CVCO" \
+  --urls "https://finance.yahoo.com/quote/CVCO,https://finance.yahoo.com/quote/CVCO/analysis"
+```
+
+**Step 2: Refine HTML to Extract Structure**
+```bash
+node lib-html-refiner.js ./raw_html/quote__cvco.html ./refined/quote_refined.json
+```
+
+**Step 3: Extract Financial Data**
+```javascript
+const data = extractor.extractFromHTML(refinedData.content.text, 'yahoo-finance');
+```
+
+**Step 4: Acquire Additional Sources**
+```bash
+# SEC filings
+node acquire-html.js --output ./sec_docs --urls "https://www.sec.gov/..." --modal none
+
+# Earnings transcripts (handles bot detection intelligently)
+node acquire-html.js --output ./transcripts --urls "https://seekingalpha.com/..." --modal detect
+```
+
+**Step 5: Create Analysis Documents**
+- Use acquired and refined data for the 7 required analysis documents
+- Follow directory structure in AGENTS.md
+
+### Key Capabilities
+- ✅ Intelligent blocker detection (CAPTCHA, modals, rate limiting, access denied)
+- ✅ Auto-waits for blocking UI to disappear, continues when real content appears
+- ✅ Works on any website (financial sites, SEC EDGAR, company IR, news sites)
+- ✅ Handles JavaScript-rendered content with real Chrome
+- ✅ Extracts clean content + navigation + tables from ANY page
+- ✅ Specialized financial data extraction available
+- ✅ Manifest tracking (what succeeded/failed per URL)
+
+---
+
 ## Meta-Instructions for AI Agents
 
 When performing investment analysis:
@@ -870,4 +999,11 @@ When performing investment analysis:
 5. Maintain chronological order in filenames
 6. Store raw data in appropriate directories before analysis
 7. Never skip the documentation step - analysis without proper documentation is incomplete
+
+### For Data Collection
+- Use web scraping framework (see above) to automate data collection where possible
+- Respect robots.txt and rate limits
+- Use SEC APIs for reliable financial data access
+- Fall back to manual collection for privacy-protected sites
+- Document all data sources in quarterly/ directory
 ========

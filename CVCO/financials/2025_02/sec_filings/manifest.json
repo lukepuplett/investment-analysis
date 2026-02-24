@@ -1,0 +1,38 @@
+{
+  "output": "./CVCO/financials/2025_02/sec_filings",
+  "initial": null,
+  "urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?company=cavco&owner=exclude&action=getcompany",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=cavco&type=10-K&owner=exclude",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=cavco&type=10-Q&owner=exclude"
+  ],
+  "timestamp": "2026-02-24T10:57:09.514Z",
+  "results": [
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=cavco&owner=exclude&action=getcompany",
+      "filename": "cgi-bin__browse-edgar",
+      "success": true,
+      "size": 40,
+      "timestamp": "2026-02-24T10:57:08.006Z"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=cavco&type=10-K&owner=exclude",
+      "filename": "cgi-bin__browse-edgar",
+      "success": true,
+      "size": 30,
+      "timestamp": "2026-02-24T10:57:08.708Z"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=cavco&type=10-Q&owner=exclude",
+      "filename": "cgi-bin__browse-edgar",
+      "success": true,
+      "size": 44,
+      "timestamp": "2026-02-24T10:57:09.513Z"
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "successful": 3,
+    "failed": 0
+  }
+}

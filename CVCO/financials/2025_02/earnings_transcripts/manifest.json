@@ -1,0 +1,36 @@
+{
+  "output": "./CVCO/financials/2025_02/earnings_transcripts",
+  "initial": "https://finance.yahoo.com/quote/CVCO/earnings",
+  "urls": [
+    "https://finance.yahoo.com/quote/CVCO/earnings",
+    "https://seekingalpha.com/symbol/CVCO/earnings/transcripts",
+    "https://www.motleyfool.com/quote/nasdaq/cvco/"
+  ],
+  "timestamp": "2026-02-24T10:59:41.223Z",
+  "results": [
+    {
+      "url": "https://finance.yahoo.com/quote/CVCO/earnings",
+      "success": false,
+      "error": "Navigation failed: Navigation timeout of 15000 ms exceeded"
+    },
+    {
+      "url": "https://seekingalpha.com/symbol/CVCO/earnings/transcripts",
+      "filename": "symbol__cvco__earnings__transcripts",
+      "success": true,
+      "size": 980,
+      "timestamp": "2026-02-24T10:59:40.754Z"
+    },
+    {
+      "url": "https://www.motleyfool.com/quote/nasdaq/cvco/",
+      "filename": "quote__nasdaq__cvco",
+      "success": true,
+      "size": 7,
+      "timestamp": "2026-02-24T10:59:41.223Z"
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "successful": 2,
+    "failed": 1
+  }
+}

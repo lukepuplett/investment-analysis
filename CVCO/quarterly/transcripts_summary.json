@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-02-24T10:12:21.711Z",
+  "count": 1,
+  "transcripts": [
+    {
+      "source": "GuruFocus Q2 2025",
+      "period": "2025_Q2",
+      "size": 9232,
+      "saved": "CVCO/quarterly/2025_Q2_transcript_raw.html"
+    }
+  ],
+  "sources": [
+    "https://finance.yahoo.com",
+    "https://www.gurufocus.com",
+    "https://investor.cavco.com",
+    "https://seekingalpha.com"
+  ]
+}

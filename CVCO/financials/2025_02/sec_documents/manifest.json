@@ -1,0 +1,22 @@
+{
+  "output": "./CVCO/financials/2025_02/sec_documents",
+  "initial": null,
+  "urls": [
+    "https://www.sec.gov/Archives/edgar/data/278166/000027816625000057/cvco-20250329.htm"
+  ],
+  "timestamp": "2026-02-24T10:58:29.209Z",
+  "results": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/278166/000027816625000057/cvco-20250329.htm",
+      "filename": "archives__edgar__data__278166__000027816625000057__cvco-20250329_htm",
+      "success": true,
+      "size": 2130,
+      "timestamp": "2026-02-24T10:58:29.207Z"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "successful": 1,
+    "failed": 0
+  }
+}
