@@ -1,0 +1,22 @@
+{
+  "output": "./CVCO/financials/2025_02/earnings_calls_listing",
+  "initial": "https://finance.yahoo.com/quote/CVCO",
+  "urls": [
+    "https://finance.yahoo.com/quote/CVCO/earnings-calls"
+  ],
+  "timestamp": "2026-02-24T11:13:09.144Z",
+  "results": [
+    {
+      "url": "https://finance.yahoo.com/quote/CVCO/earnings-calls",
+      "filename": "quote__cvco__earnings-calls",
+      "success": true,
+      "size": 1418,
+      "timestamp": "2026-02-24T11:13:09.135Z"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "successful": 1,
+    "failed": 0
+  }
+}

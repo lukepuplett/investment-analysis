@@ -3,7 +3,7 @@
  * General-Purpose HTML Acquisition Tool
  *
  * Usage:
- *   node acquire-html.js --output <dir> --urls <url1,url2,...> [--initial <url>] [--modal <strategy>]
+ *   node acquire-html.js --output <dir> --urls <url1,url2,...> [--initial <url>] [--modal <strategy>] [--timeout <ms>] [--delay <ms>]
  *
  * Modal Strategies:
  *   wait-for-accept  - Wait for user to click Accept (default for yahoo.com, finance.yahoo.com)
@@ -14,11 +14,71 @@
  * Examples:
  *   node acquire-html.js --output ./html --urls "https://example.com" --modal detect
  *   node acquire-html.js --output ./html --initial "https://yahoo.com" --modal wait-for-accept
+ *   node acquire-html.js --output ./html --urls "https://example.com" --timeout 60000
+ *   node acquire-html.js --output ./html --urls "https://seekingalpha.com/..." --delay 5000  # 5s between requests
  */
 
 const UniversalScraper = require('./lib-universal-scraper');
 const fs = require('fs');
 const path = require('path');
+
+/**
+ * Simple logger that writes to both console and file
+ */
+class Logger {
+  constructor(logFile) {
+    this.logFile = logFile;
+    this.startTime = new Date();
+    this.writeHeader();
+  }
+
+  writeHeader() {
+    const header = `\n${'='.repeat(80)}\nHTML Acquisition Log Started: ${this.startTime.toISOString()}\n${'='.repeat(80)}\n`;
+    fs.appendFileSync(this.logFile, header);
+  }
+
+  log(message) {
+    console.log(message);
+    const timestamp = new Date().toISOString();
+    fs.appendFileSync(this.logFile, `[${timestamp}] ${message}\n`);
+  }
+
+  logRequest(index, total, url) {
+    const msg = `[${index}/${total}] 📄 ${url}`;
+    this.log(msg);
+  }
+
+  logSuccess(filename, sizeKb) {
+    const msg = `  ✅ ${filename} (${sizeKb}KB)`;
+    this.log(msg);
+  }
+
+  logError(errorMsg) {
+    const msg = `  ❌ Failed: ${errorMsg}`;
+    this.log(msg);
+  }
+
+  logBlockerDetected(type, text) {
+    const msg = `  🚫 Blocker Detected: ${type}`;
+    this.log(msg);
+    this.log(`     Context: ${text.substring(0, 100).replace(/\n/g, ' ')}`);
+  }
+
+  logWaiting(reason, seconds) {
+    const msg = `  ⏳ ${reason} (${seconds}s)`;
+    this.log(msg);
+  }
+
+  logTiming(url, elapsedMs) {
+    const msg = `  ⏱️  Request took ${elapsedMs}ms`;
+    this.log(msg);
+  }
+
+  logSummary(total, successful, failed, duration) {
+    const summary = `\n${'='.repeat(80)}\nSummary: ${successful}/${total} successful (${failed} failed) in ${duration}ms\n${'='.repeat(80)}\n`;
+    this.log(summary);
+  }
+}
 
 class HTMLAcquisition {
   constructor(options) {
@@ -26,6 +86,10 @@ class HTMLAcquisition {
     this.urls = options.urls || [];
     this.initialUrl = options.initial || null;
     this.modalStrategy = options.modal || 'auto';  // Default: auto-detect per URL
+    this.navigationTimeout = options.timeout || 15000;  // Default: 15 seconds
+    this.delayBetweenUrls = options.delay || 2000;  // Default: 2 seconds between URLs
+    this.logFile = path.join(this.outputDir, 'download.log');
+    this.logger = null;
   }
 
   /**
@@ -50,9 +114,83 @@ class HTMLAcquisition {
     if (url.includes('facebook.com')) {
       return 'auto-click';
     }
+    if (url.includes('seekingalpha.com')) {
+      return 'detect';  // Seeking Alpha has "Press & Hold" bot detection
+    }
 
     // Default: try to detect and handle
     return 'detect';
+  }
+
+  /**
+   * Determine content detection strategy based on URL
+   * Different sites have different content markers for "real content"
+   */
+  getContentDetectionStrategy(url) {
+    if (url.includes('finance.yahoo.com')) {
+      return 'yahoo-finance';  // Look for financial data, metrics
+    }
+    if (url.includes('seekingalpha.com')) {
+      return 'seekingalpha';   // Look for transcript/article text
+    }
+    if (url.includes('sec.gov')) {
+      return 'sec-edgar';      // Look for filing document body
+    }
+    if (url.includes('investor.') || url.includes('/investors/')) {
+      return 'company-ir';     // Look for press release/article content
+    }
+    return 'generic';          // Default: just check for reasonable text content
+  }
+
+  /**
+   * Detect if page has real content based on URL type
+   */
+  async hasRealContent(page, url) {
+    try {
+      const pageText = await page.evaluate(() => document.body.innerText);
+      const strategy = this.getContentDetectionStrategy(url);
+
+      // Minimum text length check (all strategies)
+      const minTextLength = 500;  // At least 500 characters of text
+
+      if (strategy === 'yahoo-finance') {
+        // Yahoo Finance: look for financial data keywords and reasonable text
+        const hasFinancialData = pageText.toLowerCase().includes('earnings') ||
+                                 pageText.toLowerCase().includes('revenue') ||
+                                 pageText.toLowerCase().includes('eps') ||
+                                 pageText.toLowerCase().includes('price');
+        return pageText.length > minTextLength && hasFinancialData;
+      }
+
+      if (strategy === 'seekingalpha') {
+        // Seeking Alpha: look for transcript/article content
+        const hasTranscriptContent = pageText.toLowerCase().includes('earnings call') ||
+                                     pageText.toLowerCase().includes('operator') ||
+                                     pageText.toLowerCase().includes('question and answer');
+        return pageText.length > minTextLength && hasTranscriptContent;
+      }
+
+      if (strategy === 'sec-edgar') {
+        // SEC EDGAR: look for filing content (10-K, 10-Q, etc.)
+        const hasFilingContent = pageText.toLowerCase().includes('item') ||
+                                 pageText.toLowerCase().includes('management') ||
+                                 pageText.toLowerCase().includes('financial statements');
+        return pageText.length > minTextLength && hasFilingContent;
+      }
+
+      if (strategy === 'company-ir') {
+        // Company IR: look for press release or investor news content
+        const hasIRContent = pageText.toLowerCase().includes('announce') ||
+                             pageText.toLowerCase().includes('release') ||
+                             pageText.toLowerCase().includes('results');
+        return pageText.length > minTextLength && hasIRContent;
+      }
+
+      // Generic: just check for reasonable text content
+      return pageText.length > minTextLength;
+    } catch (err) {
+      return false;
+    }
   }
 
   async acquire() {
@@ -62,6 +200,13 @@ class HTMLAcquisition {
     if (!fs.existsSync(this.outputDir)) {
       fs.mkdirSync(this.outputDir, { recursive: true });
     }
+
+    this.logger = new Logger(this.logFile);
+    this.logger.log('=== HTML ACQUISITION START ===');
+    this.logger.log(`Output directory: ${this.outputDir}`);
+    this.logger.log(`Total URLs: ${this.urls.length}`);
+    this.logger.log(`Navigation timeout: ${this.navigationTimeout}ms`);
+    this.logger.log(`Delay between URLs: ${this.delayBetweenUrls}ms\n`);
 
     const scraper = new UniversalScraper({
       headless: false,
@@ -91,32 +236,67 @@ class HTMLAcquisition {
 
       // Step 2: Download HTML for URL list
       console.log(`📥 Downloading ${this.urls.length} URLs\n`);
+      this.logger.log(`\n📥 Downloading ${this.urls.length} URLs`);
 
       const results = [];
+      const downloadStartTime = Date.now();
 
       for (let i = 0; i < this.urls.length; i++) {
         const url = this.urls[i];
+        const requestStartTime = Date.now();
+
+        this.logger.logRequest(i + 1, this.urls.length, url);
         console.log(`[${i + 1}/${this.urls.length}] 📄 ${url}`);
 
         try {
           const result = await this.downloadURL(scraper.page, url);
+          const requestTime = Date.now() - requestStartTime;
+
           results.push(result);
+          this.logger.logSuccess(result.filename, result.size);
+          this.logger.logTiming(url, requestTime);
           console.log(`  ✅ ${result.filename} (${result.size}KB)\n`);
+
+          // Add delay between URLs to avoid rate limiting
+          if (i < this.urls.length - 1) {
+            const delaySeconds = this.delayBetweenUrls / 1000;
+            this.logger.logWaiting('Waiting before next request', Math.round(delaySeconds));
+            console.log(`⏳ Waiting ${delaySeconds}s before next request...\n`);
+            await new Promise(resolve => setTimeout(resolve, this.delayBetweenUrls));
+          }
         } catch (err) {
+          const requestTime = Date.now() - requestStartTime;
+
+          this.logger.logError(err.message);
+          this.logger.logTiming(url, requestTime);
           console.log(`  ❌ Failed: ${err.message}\n`);
           results.push({
             url,
             success: false,
             error: err.message
           });
+
+          // Still add delay even on failure
+          if (i < this.urls.length - 1) {
+            const delaySeconds = this.delayBetweenUrls / 1000;
+            this.logger.logWaiting('Waiting before retry', Math.round(delaySeconds));
+            console.log(`⏳ Waiting ${delaySeconds}s before retry...\n`);
+            await new Promise(resolve => setTimeout(resolve, this.delayBetweenUrls));
+          }
         }
       }
 
+      const totalTime = Date.now() - downloadStartTime;
+
       // Save manifest
       const successful = results.filter(r => r.success).length;
+      const failed = this.urls.length - successful;
+
       console.log(`=== RESULTS ===\n`);
       console.log(`✅ Downloaded: ${successful}/${this.urls.length}`);
       console.log(`📂 Location: ${this.outputDir}/\n`);
+
+      this.logger.logSummary(this.urls.length, successful, failed, totalTime);
 
       const manifest = {
         output: this.outputDir,
@@ -127,13 +307,16 @@ class HTMLAcquisition {
         summary: {
           total: this.urls.length,
           successful,
-          failed: this.urls.length - successful
+          failed,
+          duration_ms: totalTime,
+          log_file: this.logFile
         }
       };
 
       const manifestFile = path.join(this.outputDir, 'manifest.json');
       fs.writeFileSync(manifestFile, JSON.stringify(manifest, null, 2));
-      console.log(`📋 Manifest: manifest.json\n`);
+      console.log(`📋 Manifest: manifest.json`);
+      console.log(`📝 Log file: download.log\n`);
 
       console.log('=== COMPLETE ===\n');
       console.log(`✅ Done! ${successful}/${this.urls.length} HTML files saved\n`);
@@ -157,17 +340,36 @@ class HTMLAcquisition {
       const pageText = await page.evaluate(() => document.body.innerText);
       const html = await page.evaluate(() => document.documentElement.outerHTML);
 
+      // Check if there's a visible modal/dialog element
+      const hasVisibleModal = await page.evaluate(() => {
+        const modals = document.querySelectorAll(
+          '[role="dialog"], .modal, .consent-modal, [data-testid*="modal"], [aria-modal="true"]'
+        );
+        for (const modal of modals) {
+          const style = window.getComputedStyle(modal);
+          if (style.display !== 'none' && style.visibility !== 'hidden') {
+            return true;
+          }
+        }
+        return false;
+      });
+
       // Detect common blocking indicators
       const blockers = [
-        { name: 'CAPTCHA', patterns: ['captcha', 'verify you', 'not a robot', 'recaptcha', 'human'] },
-        { name: 'Bot Detection', patterns: ['bot', 'automated', 'suspicious activity', 'temporarily unavailable'] },
-        { name: 'Access Denied', patterns: ['access denied', 'access to this page', 'not allowed', '403', '401'] },
-        { name: 'Press & Hold', patterns: ['press & hold', 'confirm you are', 'reference id'] },
-        { name: 'Rate Limited', patterns: ['rate limit', 'too many requests', '429', 'try again later'] },
-        { name: 'Privacy Modal', patterns: ['privacy', 'cookie', 'consent', 'accept all', 'reject all'] }
+        { name: 'CAPTCHA', patterns: ['captcha', 'verify you', 'not a robot', 'recaptcha', 'human'], requiresModal: false },
+        { name: 'Bot Detection', patterns: ['bot', 'automated', 'suspicious activity', 'temporarily unavailable'], requiresModal: false },
+        { name: 'Access Denied', patterns: ['access denied', 'access to this page', 'not allowed', '403', '401'], requiresModal: false },
+        { name: 'Press & Hold', patterns: ['press & hold', 'confirm you are', 'reference id'], requiresModal: false },
+        { name: 'Rate Limited', patterns: ['rate limit', 'too many requests', '429', 'try again later'], requiresModal: false },
+        { name: 'Privacy Modal', patterns: ['privacy', 'cookie', 'consent', 'accept all', 'reject all'], requiresModal: true }
       ];
 
       for (const blocker of blockers) {
+        // For Privacy Modal, only flag if there's an actual modal element visible
+        if (blocker.requiresModal && !hasVisibleModal) {
+          continue;
+        }
+
         for (const pattern of blocker.patterns) {
           if (pageText.toLowerCase().includes(pattern) || html.toLowerCase().includes(pattern)) {
             return { isBlocking: true, type: blocker.name, text: pageText.substring(0, 200) };
@@ -187,30 +389,66 @@ class HTMLAcquisition {
   async waitForRealContent(page, url, maxWaitSeconds = 120) {
     const startTime = Date.now();
     let lastBlockType = null;
+    let lastContentStatus = false;
 
     while (Date.now() - startTime < maxWaitSeconds * 1000) {
       const blockStatus = await this.isBlockingPage(page);
+      const hasContent = await this.hasRealContent(page, url);
 
-      if (!blockStatus.isBlocking) {
+      // Success: no blocker AND has real content
+      if (!blockStatus.isBlocking && hasContent) {
         if (lastBlockType) {
           console.log(`✅ Content appeared (${lastBlockType} resolved)\n`);
         } else {
           console.log(`✅ Page content ready\n`);
         }
+        if (this.logger) {
+          this.logger.log(`  ✅ Real content detected`);
+        }
         return true;
       }
 
+      // Log blocker changes
       if (lastBlockType !== blockStatus.type) {
-        console.log(`🚫 Blocking detected: ${blockStatus.type}`);
-        console.log(`⏳ Waiting for content to appear... (max ${maxWaitSeconds}s)\n`);
+        if (blockStatus.isBlocking) {
+          console.log(`🚫 Blocking detected: ${blockStatus.type}`);
+          if (this.logger) {
+            this.logger.logBlockerDetected(blockStatus.type, blockStatus.text);
+          }
+
+          // Special handling for Press & Hold - requires user action
+          if (blockStatus.type === 'Press & Hold') {
+            console.log(`⏳ ATTENTION: Press & Hold for ~20 seconds to verify you're human`);
+            console.log(`⏳ Waiting up to ${maxWaitSeconds}s for verification...\n`);
+            if (this.logger) {
+              this.logger.log(`  ⚠️  Requires user interaction: Press & Hold for ~20 seconds`);
+            }
+          } else {
+            console.log(`⏳ Waiting for blocker to clear... (max ${maxWaitSeconds}s)\n`);
+          }
+        }
         lastBlockType = blockStatus.type;
+      }
+
+      // Log content status changes
+      if (lastContentStatus !== hasContent) {
+        if (!blockStatus.isBlocking && !hasContent) {
+          console.log(`⏳ Blocker cleared but waiting for real content to load...\n`);
+          if (this.logger) {
+            this.logger.log(`  ⏳ Blocker resolved, waiting for page content to render`);
+          }
+        }
+        lastContentStatus = hasContent;
       }
 
       // Check every 2 seconds
       await new Promise(resolve => setTimeout(resolve, 2000));
     }
 
-    console.log(`⚠️  Timeout waiting for content (${lastBlockType} still present)\n`);
+    console.log(`⚠️  Timeout waiting for content (${lastBlockType} still present or no content detected)\n`);
+    if (this.logger) {
+      this.logger.log(`  ⚠️  Timeout: blocker=${lastBlockType}, hasContent=${lastContentStatus}`);
+    }
     return false;
   }
 
@@ -342,10 +580,33 @@ class HTMLAcquisition {
       console.log(`  ⏳ Navigating...`);
       const startTime = Date.now();
 
-      await page.goto(url, { waitUntil: 'load', timeout: 15000 });
+      await page.goto(url, { waitUntil: 'load', timeout: this.navigationTimeout });
 
       const navTime = Date.now() - startTime;
       console.log(`  ✓ Loaded in ${navTime}ms, extracting content...`);
+
+      // Check for blockers and wait for them to disappear
+      const blockStatus = await this.isBlockingPage(page);
+      if (blockStatus.isBlocking) {
+        console.log(`  🚫 Blocker detected: ${blockStatus.type}`);
+        if (this.logger) {
+          this.logger.logBlockerDetected(blockStatus.type, blockStatus.text);
+        }
+
+        // For Press & Hold, inform user and wait longer
+        if (blockStatus.type === 'Press & Hold') {
+          console.log(`  ⏳ ATTENTION: Press & Hold for ~20 seconds to verify you're human`);
+          if (this.logger) {
+            this.logger.log(`  ⚠️  Requires user interaction: Press & Hold for ~20 seconds`);
+          }
+        }
+
+        // Wait for blocker to disappear
+        const contentReady = await this.waitForRealContent(page, url, 120);
+        if (!contentReady) {
+          throw new Error(`Blocker timeout: ${blockStatus.type} not resolved after 120s`);
+        }
+      }
 
       const html = await page.content();
       const filename = this.urlToFilename(url);
@@ -395,6 +656,12 @@ function parseArgs() {
       i++;
     } else if (args[i] === '--modal' && args[i + 1]) {
       options.modal = args[i + 1];
+      i++;
+    } else if (args[i] === '--timeout' && args[i + 1]) {
+      options.timeout = parseInt(args[i + 1], 10);
+      i++;
+    } else if (args[i] === '--delay' && args[i + 1]) {
+      options.delay = parseInt(args[i + 1], 10);
       i++;
     }
   }

@@ -1,0 +1,22 @@
+{
+  "output": "./CVCO/financials/2025_02/earnings_transcripts/transcripts_index",
+  "initial": null,
+  "urls": [
+    "https://seekingalpha.com/symbol/CVCO/earnings/transcripts"
+  ],
+  "timestamp": "2026-02-24T11:13:42.838Z",
+  "results": [
+    {
+      "url": "https://seekingalpha.com/symbol/CVCO/earnings/transcripts",
+      "filename": "symbol__cvco__earnings__transcripts",
+      "success": true,
+      "size": 981,
+      "timestamp": "2026-02-24T11:13:42.830Z"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "successful": 1,
+    "failed": 0
+  }
+}
