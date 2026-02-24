@@ -528,15 +528,15 @@ class HTMLAcquisition {
         this.logger.log(`  [SNIFF #${sniffCount}] Size: ${Math.round(pageStats.htmlSize/1024)}KB | Text: ${pageStats.textLength} chars | Title: "${pageStats.title}" | Modal: ${pageStats.hasVisibleModal} | Blocking: ${blockStatus.isBlocking} | HasContent: ${hasContent}`);
       }
 
-      // Success: no blocker AND has real content
-      if (!blockStatus.isBlocking && hasContent) {
+      // Success: has real content (modal status doesn't matter)
+      if (hasContent) {
         if (lastBlockType) {
-          console.log(`✅ Content appeared (${lastBlockType} resolved)\n`);
+          console.log(`✅ Content detected (${lastBlockType} may still be present)\n`);
         } else {
-          console.log(`✅ Page content ready\n`);
+          console.log(`✅ Real content detected\n`);
         }
         if (this.logger) {
-          this.logger.log(`  ✅ Real content detected`);
+          this.logger.log(`  ✅ Real content detected - saving snapshot`);
         }
         return true;
       }
