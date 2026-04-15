@@ -29,3 +29,12 @@ excel_poc/output.xlsx
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# Scraped web content (may contain sensitive data)
+**/raw_html/
+**/raw_html/**
+**/*_raw.html
+**/*/yahoo_raw.html
+**/*/earnings_transcripts_batch/
+**/*/yahoo_batch/
+**/*/yahoo_final_test/
