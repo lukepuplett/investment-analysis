@@ -1,0 +1,162 @@
+ASML Holding N.V. - New York Re (ASML) Q1 FY2026 Pre Recorded earnings call transcript
+Powered by Quartr
+Apr 15, 2026, 1:00 AM EDT
+
+Earnings call
+
+ASML delivered Q1 2026 net sales of EUR 8.8 billion, matching guidance, with gross margin at 53%—the high end of expectations—driven by strong installed base revenue and favorable mix. Management raised full-year 2026 revenue guidance to EUR 36-40 billion, citing robust AI-driven demand, capacity expansions, and increased adoption of EUV and immersion lithography. Forward guidance for Q2 2026 projects net sales between EUR 8.4-9 billion and gross margin of 51-52%.
+
+Powered by Yahoo Scout
+View more
+Speaker 2
+Analyst
+0:00:00
+
+Hello, and welcome to ASML's Q1 2026 results video. Welcome, Christophe and Roger. Roger, if I could start with you and ask you to give us a summary of our Q1 2026 results.
+
+Roger Dassen
+EVP and CFO
+0:00:13
+
+For the quarter, total net sales came in at EUR 8.8 billion. That was within guidance. Included in the EUR 8.8 billion was EUR 2.5 billion for installed base revenue. That was a little bit above the guidance. If you look at the gross margin for Q1, 53%, that was at the high end of the gross margin that we guided. If you look at the installed base business, as I just mentioned, the installed base business was higher than we anticipated. Also, if you look at the components in the installed base business, there were components in there that actually commanded quite some strong gross margins. As a result of that, pretty high gross margin at 53%. Net income for the quarter, EUR 2.8 billion.
+
+Speaker 2
+Analyst
+0:00:56
+
+Can you also provide us with a guide for Q2 2026 results, please?
+
+Roger Dassen
+EVP and CFO
+0:01:00
+
+For Q2, we expect EUR 8.4 billion-EUR 9 billion of total net sales. Included in there, again, EUR 2.5 billion of installed base business. We expect the gross margin to be between 51% and 52%.
+
+Speaker 2
+Analyst
+0:01:19
+
+Christophe, I can switch to you. Can I ask you to give us an outlook on the market and how you're seeing things at the moment?
+
+Christophe Fouquet
+President and CEO
+0:01:24
+
+Well, I think we see that the semiconductor industry growth continue to solidify. This is still very much driven by investment in AI infrastructure. This translate into a lot of demand for advanced memory, for advanced logic, and we expect, in fact, that the supply will not meet the demand for the foreseeable future. This is creating a strong constraint in the end market from AI to mobile and PC. As a result, our customer is strongly invited to create more capacity. If we look at memory, what our customer tell us is that they are sold out for 2026, and their supply constraint will last beyond 2026. For advanced logic, we see our customer building capacity for several nodes, while they also continue to ramp 2 nm in order to address the AI products.
+
+
+Speaker 2
+Analyst
+0:02:20
+
+I guess it's fair to say a lot of those capacity additions are adding positively to our own outlook.
+
+Christophe Fouquet
+President and CEO
+0:02:26
+
+Well, absolutely. We see our memory and logic customer increasing their capital expenditure and trying to accelerate basically their capacity ramp in 2026 and beyond. What's also very interesting is that a lot of this demand is supported by long-term commitment at their customer. On top of that, we see both memory customer, DRAM customer, and advanced logic customer continuing to increase their adoption of EUV, but also immersion. This translate basically into higher litho intensity and a higher litho demand for ASML. We're going to continue to work very closely with our customer to increase our capacity. We are doing that in 2026. We'll continue to do that in 2027.
+
+Speaker 2
+Analyst
+0:03:13
+
+Maybe, Roger, just adding onto that, can you provide a little bit more color or details on what we are actually going to do in terms of adding capacity to support market demand?
+
+Roger Dassen
+EVP and CFO
+0:03:21
+
+I think Christophe said it, right? We're very clearly working with our customers, fully aligned with customers to give them what they need, and that is in a combination of capacity in terms of new shipments, making sure that the performance of systems is upgraded as best as we can, and also provide installed base products. In that combination, we try to give customers what they need. Specifically when it comes to our own capacity, what we're looking at for this year, for 2026, we believe we can drive an output for this year of at least 60 systems for EUV Low NA. That's what we currently have. That's what we're currently driving.
+
+Roger Dassen
+EVP and CFO
+0:04:04
+
+Added to that, we're looking at Deep UV for 2026. As I mentioned a couple of months ago, when it comes to immersion Deep UV, we actually had a bit of a slow start because in the course of last year, we were looking at a significantly lower demand for immersion. That has now reversed itself, and I would say in spite of that slow start, we're still, for this year, expecting to get pretty close to the immersion sales that we had last year in terms of unit numbers. That's for 2026. When it comes to 2027, in terms of capability, we're increasing our move rate really quarter-on-quarter. When you look specifically at EUV Low NA, we expect that we're able to get to an output for 2027.
+
+Roger Dassen
+EVP and CFO
+0:04:55
+
+Again, if customer demand really underpins that, we think that we can get to at least 80 Low NA EUV units. We're also looking at having the non-EUV business being in line with what customers are asking for all of their nodes.
+
+
+Speaker 2
+Analyst
+0:05:16
+
+Specifically on 2026, can you give us an update then on our own business then for the full year?
+
+Roger Dassen
+EVP and CFO
+0:05:22
+
+Yeah. Clearly, 2026 is panning out very nicely. It's a very strong year. We're looking at a strong growth year. Based on all the customer dynamics that Christophe was talking about, we are actually narrowing the window and also increasing the window of our expectation to EUR 36 billion-EUR 40 billion for this year. If you look at the different moving parts, as we already expected, EUV strong this year, so EUV in combination of Low NA and High NA. Strong year there. On the non-EUV business, previously we were expecting that to be flat in comparison to last year. Right now what we're looking at is, in fact, an increase of demand there as well. Increased revenue on the non-EUV business is what we're expecting. I already mentioned what we're doing on immersion.
+
+Roger Dassen
+EVP and CFO
+0:06:14
+
+Also the dry business is doing quite nicely and also the application business. We believe, in contrast to where we were a couple of months ago, we're looking at an increase for the non-EUV business. When it comes to the installed base business, strong growth there, because obviously it is a very fast way for our customers to increase their capacity to cater to the demand that Christophe was talking about. I would say that within the guidance that we provided, the EUR 36 billion-EUR 40 billion, we believe we can accommodate potential outcomes of the export control discussions that are currently ongoing.
+
+Speaker 2
+Analyst
+0:06:48
+
+How about the gross margin then for 2026?
+
+Roger Dassen
+EVP and CFO
+0:06:50
+
+For the gross margin, we maintain our expectation of 51%-53%.
+
+Speaker 2
+Analyst
+0:06:57
+
+Switching gears a bit to technology, Christophe, can you give us some insights and latest updates on how we're progressing with the technology and our roadmap?
+
+Christophe Fouquet
+President and CEO
+0:07:06
+
+Yeah, I think we continue to execute very nicely on our technology roadmap. I think every year we use the SPIE conference to give a bit of an update to the entire world about what we have achieved. A few, I think, important news this year. The first one was our demonstration of the 1,000 W source. This is very important because it means that we can secure the extendibility of Low NA EUV for many, many years. It means, in fact, that in 2031 we'll be able to run those tools at 330 wafers per hour, which is a major step up from what we have today.
+
+Christophe Fouquet
+President and CEO
+0:07:43
+
+Now, the progress on EUV also has a good impact on the short term. We have been able to increase the throughput of our NXE:3800E from 220-230 wafers per hour, which is also helping on the short term with capacity. Our customer are very happy to be able to get more wafer out on any tool. We are also increasing the spec of our next system, the NXE:3800F, to 260 wafer per hours. It used to be 250 wafer per hours. This will help us also with capacity around 2028.
+
+Speaker 2
+Analyst
+0:08:21
+
+I think also at SPIE, there were some updates on our High NA platform progress. Can you share a little there?
+
+Christophe Fouquet
+President and CEO
+0:08:27
+
+Yeah, I think what was good about SPIE is that our customers start to talk about High NA, and they reported a few things. The first thing is, of course, the fact that High NA can allow them to reduce the number of masks significantly. DRAM logic customer, we are talking about going from three to one masks for EUV using High NA. They also mentioned that this can reduce the number of process steps from 100 to 10, which is, of course, significant. That's, of course, the reason why we have High NA. I think we have seen also great progress on the ecosystem, some good presentations with some of our resist partners, pointing to the fact that High NA can be extended when it comes to logic to 18 nm line and space pitch, and when it comes to memory, to 28 nm hole size.
+
+Christophe Fouquet
+President and CEO
+0:09:19
+
+It means basically that not only High NA is getting ready for prime time, but we already know that High NA can be extended mostly for three, four nodes, which is of course very important for our customer. Finally, maturity of the tool is important. We continue to see better availability, the data, more wafer per day, more wafer out, and this is just, of course, becoming more and more important as we see our customers starting to test High NA on real product.
+
+Speaker 2
+Analyst
+0:09:50
+
+I'd like to thank you both for joining us today, and yeah, thanks very much.
+
+
+Roger Dassen
+EVP and CFO
+0:09:55
+
+Pleasure.
