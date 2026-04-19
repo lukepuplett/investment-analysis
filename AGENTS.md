@@ -641,13 +641,20 @@ After completing all analysis documents:
 ### Analysis Documents
 1. Format: `YYYY_MM_analysis_type.md`
    - YYYY_MM: Year and month of analysis
-   - analysis_type: market, competitive, technical, etc.
+   - analysis_type: market, competitive, technical, financial, risk, investment_thesis, delta
    - .md: Markdown format
 2. Examples:
    - `2025_05_market_analysis.md`
    - `2025_05_competitive_analysis.md`
+   - `2025_05_delta_analysis.md` (changes/updates since prior analysis)
 3. Location: `analysis/` directory
 4. Content: Detailed analysis and research
+
+**Delta Analysis Naming:**
+- Created quarterly alongside full analysis or as standalone updates
+- Format: `YYYY_MM_delta_analysis.md`
+- Compares to prior quarter or full analysis
+- Captures all material shifts in financials, operations, valuation, strategy, risks, and thesis
 
 *Note: All file names should be lowercase with underscores for spaces. Use consistent extensions (.txt for press releases, .md for formatted documents).*
 
@@ -661,6 +668,19 @@ For each analysis session, create the following documents in the `analysis/` dir
 4. `YYYY_MM_financial_analysis.md`: Financial metrics and health
 5. `YYYY_MM_risk_assessment.md`: Comprehensive risk analysis
 6. `YYYY_MM_investment_thesis.md`: Overall investment thesis and recommendations
+7. `YYYY_MM_delta_analysis.md`: Changes and shifts since previous assessment (quarterly or major updates)
+
+**Delta Analysis Document:**
+The delta document captures material changes since the last analysis round. It serves as a quick reference for what has shifted and allows for focused monitoring between full analysis cycles. Include:
+- **Financial metric changes** (revenue, margins, profitability, cash flow, debt levels)
+- **Operational changes** (customer mix, market share, segment performance, efficiency metrics)
+- **Valuation shifts** (stock price movement, multiples, relative value vs peers)
+- **Strategic updates** (new products, market expansion, M&A, partnerships)
+- **Risk changes** (new risks emerged, previous risks resolved/worsened, regulatory changes)
+- **Competitive landscape shifts** (competitor moves, market dynamics)
+- **Management commentary changes** (guidance updates, tone shifts, capital allocation changes)
+- **Key ratio changes** (profitability, leverage, returns, efficiency)
+- **Investment thesis impact** (which thesis pillars are validated/challenged)
 
 ### Document Cross-References
 - Each analysis document should reference related documents
