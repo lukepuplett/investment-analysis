@@ -55,4 +55,4 @@ Analysis Status: [x] Initial pass (**2026-04-29**); refresh after next earnings 
 
 ## Question & Answers
 
-_Add thematic Q&A Markdown under `question_answers/` as needed._
+- [2026_04_29 — Top/bottom lines, YoY/QoQ/3y growth, manual P/E and P/S](question_answers/2026_04_29_top_bottom_lines_growth_multiples.md)
