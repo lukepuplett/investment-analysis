@@ -5,7 +5,7 @@
 
 ## BLUF
 
-Robinhood competes on **cost-to-trade**, **product breadth** (cash, equities, options, futures, prediction markets, crypto, banking/card), **UX**, and increasingly **technology / AI surface area** (**Cortex**). Competition spans **discount brokers** (e.g., Fidelity-scale incumbents, Charles Schwab / TD lineage), **commission-free entrants**, **crypto-first** platforms, and **international** brokers. Competitive intensity is **high** on price; differentiation shifts to **trust**, **stability**, **execution**, **regulated product breadth**, and **deposit share**.
+**What this note is:** who Robinhood is really racing—and what is (and isn’t) defensible. **Main takeaway:** **Zero commissions** is table stakes now; everyone serious matches or beats on price. Where firms fight is **breadth** (cash, investing, options, futures, prediction markets, crypto, banking/card), **how the app feels**, **trust after past crises**, **reliability of execution**, and **winning customer cash and deposits**. Big incumbents (Fidelity-, Schwab-style) and crypto-native apps are all in the mix. Robinhood is **differentiated**, not untouchable: moat is **brand + product stack + licenses**, not a monopoly—see the scorecard below for detail.
 
 ---
 

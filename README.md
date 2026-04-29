@@ -58,7 +58,7 @@ _Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVC
 | **[JCI](jci/README.md)** | Johnson Controls | 36.22x | 25.19x | 3.08x | 6% organic | Premium valuation, transformation story |
 | **[EMR](emr/README.md)** | Emerson Electric | 34.20x | 20.33x | 4.26x | ~2% (2026) | Reasonable for quality industrial |
 | **[GLW](glw/README.md)** | Corning | 87.79x | 28.99x | 5.05x | 14% YoY | Trailing P/E distorted by earnings recovery |
-| **[HOOD](hood/README.md)** | Robinhood Markets | ~39.8x* | ~36.8x* | ~16.4x* | ~15% YoY rev (Q1 file) | Retail brokerage/fintech; beta ~2.5; growth multiples (Yahoo paste Apr 2026) |
+| **[HOOD](hood/README.md)** | Robinhood Markets | ~39.8x* | ~36.8x* | ~16.4x* | ~15% YoY rev (Q1 file) | Profitable vs 2022–23 losses; multiples assume growth continues—legal/sentiment/beta swings (yahoo paste Apr 2026) |
 | **[AMAT](amat/README.md)** | Applied Materials | 40.44x | 36.23x | 13.22x | Semiconductor WFE cycle | Semiconductor equipment premium; stats Apr 2026 |
 | **[AMZN](amzn/README.md)** | Amazon | 34.93x | 34.60x | 3.69x | 13.3% YoY rev | E-commerce / AWS; stats Jan 2026 |
 | **[ASML](asml/financials/2026_04/yahoo_stats.md)** | ASML Holding | 32.4x | — | 9.8x | ~28.5% YoY rev | EUV monopoly; lithography capex; stats Apr 2026 |
@@ -226,7 +226,7 @@ _Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVC
 **Premium/Expensive (High Risk - Vulnerable to Missteps):**
 - **DASH** (DoorDash): 148.40x P/E, 9.0x P/S - **⚠️ HIGH RISK:** Punished -10.4% on Q4 guidance miss
 - **GLW** (Corning): 87.79x P/E (distorted), 5.05x P/S - Earnings recovery story, monitor closely
-- **HOOD** (Robinhood): ~40x P/E, ~16x P/S (Apr 2026 paste) - High beta; growth fintech; regulatory/tape sensitivity
+- **HOOD** (Robinhood): ~40x P/E, ~16x P/S (Apr 2026 paste) — growth-style pricing vs improved fundamentals; headline and tape risk (**high beta**)
 - **RKLB/CRWV/SPCE**: Not profitable, high P/S ratios - Growth stage investments, high risk
 
 ## Repository Structure

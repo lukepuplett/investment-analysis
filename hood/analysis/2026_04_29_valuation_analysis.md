@@ -5,9 +5,7 @@
 
 ## BLUF
 
-On pasted **Yahoo** statistics (**session reference ~$70.88**, **~$73.9B** market cap), HOOD traded at **elevated growth multiples**: **Trailing P/E ~39.8×**, **Forward P/E ~36.8×**, **Price/Sales ~16.4×**, **EV/Revenue ~16.3×**, **EV/EBITDA ~33.8×** (statistics tab; EBITDA line item sometimes blank/inconsistent — cross-check EBITDA from **financial statements**, **TTM EBITDA ~$2.18B** thousands). Valuation implies **continuation** of **high margins** plus **meaningful sustained growth** — any **cyclical setback** or **regulatory haircut** to activity can re-rate sharply given **beta ~2.5**.
-
-**Tape interaction:** **Growth / risk-off** moods (and HOOD‑specific sentiment on the corrected **April ’26 tape** framing in [market_analysis](./2026_04_29_market_analysis.md)) **can multiply** downside for **premium** multiples even when fundamentals stay **okay** quarter‑to‑quarter.
+**What this note is:** what you’re **paying** for in the share price versus what the business has **delivered** on paper (Apr 29, 2026 **Yahoo paste**: **~$70.88**, **~$73.9B** market cap). **Main takeaway:** multiples are **growth-stock territory**: **~40× trailing earnings**, **~37× forward earnings**, **~16× sales**, and **~34× EV/EBITDA** on that snapshot (see table below). That **prices in** **continued** strong margins and **ongoing** revenue growth; it does **not** leave much room if **trading** cools, **rules** tighten, or **mood** sours. Cross-check: **TTM EBITDA ~$2.18B** on the income paste lines up with **EV/EBITDA** in the stats (Yahoo sometimes leaves EBITDA blank in one place—use filings for the tie-out). **Price action** can move **faster** than fundamentals: high **beta (~2.5)** plus **premium** multiples means **bad weeks** for risk appetite or **HOOD-specific** news can **compress** the multiple even when the **last** quarter was fine—see [market_analysis](./2026_04_29_market_analysis.md) for the late-April **HOOD** chart context.
 
 ---
 

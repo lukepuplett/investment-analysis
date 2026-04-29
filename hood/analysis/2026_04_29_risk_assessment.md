@@ -5,11 +5,7 @@
 
 ## BLUF
 
-Key risk clusters: **regulatory enforcement** across brokerage and lending (**NY AG**, **FINRA/BOATS** inquiries, **FDIC EFTA**); **novel-product legal uncertainty** (**event contracts**, state gaming statutes, tribal / RICO actions); **civil litigation** (cash sweep, PFOF / best execution, IPO Section 11, 2021 trading restrictions residuals); **operational/market risk** (**high beta ~2.5**); **balance-sheet leverage** vs traditional corporates (**receivable/payable** scale).
-
-**Tape / liquidity (HOOD‑specific attribution):** Earlier text mistook pasted **technical** notes for **^IXIC** — user correction applies to **Robinhood equity** only (squeeze / inflection framing in [market_analysis](./2026_04_29_market_analysis.md)). **Separately**, **risk‑off** in **growth and FinTech narratives** (^IXIC‑correlated regimes) **can** slam **premium multiples** even when reported KPIs beat.
-
-**Aggregate contingency accruals** were **~$79M** **March 31, 2026** per Note 14 — firm states many exposures **cannot be reasonably estimated**; tail outcomes remain **material**.
+**What this note is:** what can go wrong beyond “earnings missed by a penny.” **Main takeaway:** risk comes in **three big buckets**: (1) **rules and lawsuits**—state and federal actions, broker exams, questions around **event contracts** and **cash-sweep** programs, and a long tail of **civil cases** (order flow, 2021 trading halt memories, IPO-related claims). (2) **Market behavior**—the stock is **high-beta (~2.5)**; a bad week for growth or fintech sentiment can **hurt the share price** even when operating metrics look fine. (3) **Balance-sheet shape**—this is not a normal industrial: **customer cash and payables** dwarf typical “debt vs. equity” intuition; read filings, not headlines alone. **Chart note:** risk write-ups that referred to a **Nasdaq** chart were corrected to **HOOD** in [market_analysis](./2026_04_29_market_analysis.md). Per the Q1 2026 10-Q, **legal accruals** were about **$79M** at **March 31, 2026**, with management saying many items **can’t be reliably estimated**—so **tail risk** remains real.
 
 ---
 

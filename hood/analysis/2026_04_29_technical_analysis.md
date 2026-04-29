@@ -7,7 +7,7 @@
 
 ## BLUF
 
-Robinhood presents as a **technology company** layering **financial services**: mobile-first stack, incremental **vertical integration** in venue/exchange design (prediction markets JV), expanding **international brokerage** plumbing, growing **credit/bank** integrations, and **employee-facing AI tooling** correlated with release velocity narratives. Incremental regulatory surface area (**Trump Accounts** app mandate, clearing, crypto, event contracts) raises **engineering and ops** demands as well as **cybersecurity and resilience** burdens.
+**What this note is:** product and platform **technology** (how they build and run things)—**not** “technical analysis” charting; those chart notes live in [market_analysis](./2026_04_29_market_analysis.md). **Main takeaway:** Robinhood behaves like a **software-led** finance company: mobile-first, shipping fast (management cites AI assist for engineers, product like **Cortex**, social/trust features), pushing into **venues** (e.g. prediction-market exchange partnership) and **more countries**, and wiring up **banking and credit**. New mandates such as **Trump Accounts** (Treasury-related app work) add **delivery risk** on top of the usual broker worries: **uptime, security, and regulatory change** all scale with ambition.
 
 ---
 
