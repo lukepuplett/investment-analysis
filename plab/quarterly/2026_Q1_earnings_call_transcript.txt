@@ -1,0 +1,324 @@
+Photronics, Inc. (PLAB) Q1 FY2026 earnings call transcript
+Powered by Quartr
+Feb 27, 2026, 8:30 AM EST
+
+Earnings call
+
+Photronics delivered Q1 revenue of $225M, up 6% YoY and 4% sequentially, with gross margin at 35% and non-GAAP EPS of $0.61, both above expectations. High-end IC and FPD segments drove growth, while management guided Q2 revenue of $212M–$220M, factoring in Chinese New Year seasonality.
+
+Powered by Yahoo Scout
+Operator
+0:00:00
+
+Welcome to the Photronics' first quarter and fiscal year 2026 earnings conference call. At this time, all participants are in a listen-only mode. After the speaker's presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one one on your telephone. You will then hear an automated message advising your hand is raised. To withdraw your question, please press star one one again. Please be advised that today's conference is being recorded. I would now like to hand the conference over to your speaker today, Ted Moreau, Vice President of Investor Relations. Please go ahead.
+
+Ted Moreau
+VP of Investor Relations
+0:00:44
+
+Thank you, operator. Good morning, everyone. Welcome to our review of Photronics' fiscal first quarter 2026 financial results. Joining me this morning are George Macricostas, Chairman and Chief Executive Officer, Eric Rivera, President and Chief Financial Officer, and Frank Lee, Head of Asia Operations. The press release we issued Wednesday morning, along with the presentation materials accompanying our remarks, is available on the investor relations section of our website and on the Form 8-K filed with the SEC.
+
+Ted Moreau
+VP of Investor Relations
+0:01:14
+
+This call includes forward-looking statements that involve risks and uncertainties, which could cause Photronics' results to differ materially from management's current expectations. We encourage you to review the forward-looking statements disclosure included in our earnings release and in our most recent SEC filings. In March, I will be attending the upcoming OFC Trade Show in Los Angeles and would welcome the opportunity to meet with investors. With that, I will now turn the call over to George.
+
+George Macricostas
+Chairman and CEO
+0:01:42
+
+Thank you, Ted. Good morning, everyone. Accelerating demand during fiscal Q4 continued throughout fiscal Q1, with sales increasing 4% sequentially to $225 million, exceeding expectations. We executed on the robust high-end demand in Asia ahead of Chinese New Year, propelling our high-end IC business to a second consecutive quarterly record. Revenue and gross margin strength contributed to GAAP diluted EPS of $0.74 and non-GAAP diluted EPS above expectations at $0.61 per share. Over the past nine months, since stepping into the CEO role, I have prioritized strengthening our operating efficiency. While I'm not sharing specific metrics today, we have been making pinpoint actions to drive continuous improvement. We are executing with urgency and discipline to continue to elevate quality, improve yield, accelerate cycle times, and enhance customer experience.
+
+George Macricostas
+Chairman and CEO
+0:02:41
+
+We're optimistic that our improved operational performance will drive higher revenue and continued market share gains as the industry demand expands. In our IC business, revenue of $165 million increased 7% year-over-year, with our high-end business growing 19%. We continue to recognize growth for masks that support exciting areas such as AI-driven chip packaging applications and masks for High-NA EUV development projects. We believe the high-end strength will continue as order demand remains healthy to partially mitigate the upcoming seasonal impact following Chinese New Year. As we leverage our global footprint and strengthen sales leadership, we are sharpening our focus on high-end opportunities that advance our node migration strategy while broadening our geographic diversification. Our ongoing expansion projects in the U.S. and Korea will enter volume production in 2027.
+
+George Macricostas
+Chairman and CEO
+0:03:41
+
+Customers in these regions are pursuing broader outsourcing strategies and have been sharing their technology requirements, helping to drive our technical roadmap. In the United States, we continue to see healthy customer qualification activity across both advanced logic and memory technologies. In logic, we are supporting high-volume manufacturing at 12 nm and 14 nm, while extending qualifications to 8 nm and below technologies. For advanced DRAM memory, we are engaged in qualification activity, leveraging our new IP processes using our multi-beam mask writer for patterns below 20 nm. Our Allen facility expansion remains on track as we're starting to install tools, with customer qualifications expected to be completed by the second half of this year. Our plan is to expand production capabilities in Allen to meet the increasing photomask demand for U.S. mainstream wafer fabs, including technology nodes from 90 nm-40 nm.
+
+
+George Macricostas
+Chairman and CEO
+0:04:43
+
+In China, our competitive positioning remains strong in this fast-growing market. We will continue delivering quality masks with an emphasis towards higher-end nodes, playing to our competitive advantages and where competitive intensity is lower. Turning to FPD, revenue of $60 million increased 3% year-over-year. At the high end, our technology advantages enable us to produce more complex and larger mask sizes. In Korea, we recently took delivery of and will soon be installing the most advanced mask writer for the FPD market. This new writer improves resolution and enhances accuracy while allowing us to maintain high throughput. As the first display mask supplier to have the capabilities this tool provides, we will be extending our technology leadership, delivering the highest quality AMOLED photomasks for a variety of applications, including G8.6 mask size, which improves screen quality for consumer electronics.
+
+George Macricostas
+Chairman and CEO
+0:05:46
+
+G8.6 AMOLED is a market that remains in its infancy, with adoption expected to broaden later this year. Looking ahead at fiscal Q2, we continue to see positive underlying demand. While the full seasonal effect of the Chinese New Year in mid-February will be reflected in revenue, design starts remain healthy and support our full year growth trajectory. In summary, the regionalization of global semiconductor manufacturing, combined with increased outsourcing from captives, is opening up leading-edge opportunities, driving our capability and capacity expansion plans. We remain focused on operational efficiencies and executing on the implementation of these investments to fully capitalize on these opportunities. I will now turn the call over to Eric to review our first quarter results and provide second quarter guidance.
+
+Eric Rivera
+President and CFO
+0:06:39
+
+Thank you, George. Good morning, everyone. First quarter revenue exceeded expectations at $225 million, increasing 4% sequentially and 6% year-over-year. IC revenue of $165 million increased 7% year-over-year. We achieved record high-end IC revenue of $71 million, an increase of 19%. Strength in Asia accelerated, leading up to Chinese New Year, where we have strategically emphasized high-end opportunities. Revenue in the U.S. increased slightly year-over-year. We expect the U.S. to be a contributor to revenue growth over the coming year. Mainstream IC revenue was flat year-over-year at $94 million. Turning to FPD, fiscal Q1 revenue of $60 million increased 3% year-over-year. This quarter, we experienced a mixed shift towards strong demand in the mainstream category, targeted at the China IT display market.
+
+Eric Rivera
+President and CFO
+0:07:38
+
+While these projects fall within mainstream, they feature larger sized screens that align well and play directly to our competitive strengths. We expect demand trends to continue in fiscal Q2 with a modest offset from Chinese New Year. Gross margin was at the high end of expectations at 35%, as we benefited from higher revenue levels and a greater mix of high-end IC revenue, which combined to drive up our operating leverage. Operating margin was 24%. Diluted GAAP EPS attributable to Photronics shareholders was $0.74 per share. Excluding foreign exchange impacts, non-GAAP diluted EPS was $0.61 per share. Our earnings to shareholders in the quarter reflected the strong demand in Asia leading up to Chinese New Year. We also achieved the second highest quarter of operating cash flow in the company's history at $97 million, equating to 43% of revenue.
+
+Eric Rivera
+President and CFO
+0:08:39
+
+CapEx was $48 million, which primarily consisted of equipment to further extend our technical leadership in FPD. As we have previously discussed, we have entered a period of elevated capital investments to drive future organic growth. We are reiterating our fiscal 2026 CapEx guidance of $330 million, with elevated CapEx focused on special project investments in the U.S. and Korea, along with accelerated end-of-life tool upgrades. Our initiatives in the U.S. and Korea will further strengthen our ability to capitalize on growth trends, including increased captive outsourcing, high-end known migrations, geographic diversity, and regionalization. We continuously review CapEx plans as we monitor market demand requirements relative to our manufacturing capacity and capabilities and additional projects we are considering.
+
+Eric Rivera
+President and CFO
+0:09:34
+
+Total cash and short-term investments increased by $49 million sequentially to $637 million, including $459 million held in our joint ventures, in which we hold 50.01% ownership interest. Our capital allocation strategies include three priorities: reinvesting for organic growth, pursuing strategic opportunities, and returning cash to shareholders. As a reminder, we opportunistically used $97 million to repurchase 5 million shares in fiscal 2025 for an average purchase price of $19.52 per share. For 2026, we will continue to emphasize internal investments to drive future revenue and earnings growth. Before providing guidance, I'd like to remind you that demand for our products is inherently variable. Visibility is limited, with typical backlog of only one to three weeks.
+
+
+Eric Rivera
+President and CFO
+0:10:26
+
+Additionally, high-end mass sets carry significantly higher ASPs, meaning even a small number of orders can materially influence revenue and earnings. Demand is also affected by IC and display design activity and secondarily, by wafer and panel capacity dynamics. Given current market conditions and the seasonal impacts of Chinese New Year that George referenced, we expect fiscal Q2 revenue to be in the range of $212 million-$220 million. Based on those revenue expectations and our operating model, we estimate fiscal Q2 operating margin between 22%-24% and non-GAAP diluted EPS between $0.49-$0.55 per share. I'll now turn the call over to the operator for your questions.
+
+Operator
+0:11:12
+
+Thank you. As a reminder, to ask a question, please press star one one on your telephone and wait for your name to be announced. To withdraw your question, please press star one one again. Our first question comes on the line of Christian Schwab from Craig-Hallum.
+
+Ben Taxdahl
+Equity Research Analyst
+0:11:32
+
+Hey, guys. This is, this is Ben Taxdahl in for Christian Schwab. First thing or my first question is, just with that, with that slight sequential decrease in revenue and operating margin, is there anything else we should be thinking about besides the Chinese New Year? My follow-up to that would be: What are some things that need to happen to kind of hit that higher end of that guided range?
+
+George Macricostas
+Chairman and CEO
+0:12:01
+
+Good morning, Ben.
+
+Frank Lee
+Head of Asia Operations
+0:12:02
+
+Yes, Ben, I think in this year, the Chinese New Year fall into second middle of February. Most customers, especially the fab-based design house customers, they are taking the long holidays. We do see the customer tape-out forecast will resume in the middle, in the early of March. I believe we do have a lot of active WIP from the orders before the new year. However, because of the temporary slowdown during the long holidays and the first week after the holiday, so there may be slight impact on the output, and that's why our forecast is slightly lower than Q1. Basically, no, we don't see major difference in the market environment, but the holiday did make some impact on our output.
+
+Ben Taxdahl
+Equity Research Analyst
+0:13:21
+
+Okay, thanks. Good context there. Now just with the Allen facility coming online and then just thinking about the high-end Boise facility, and also kind of the high-end IC revenue these last, you know, two quarters. Can you kind of talk about that? Also maybe a little bit of a proxy for, you know, the high-end IC going forward. Is it gonna be kind of continued at these same rates these last two quarters, or is it gonna be lower, higher, you know?
+
+
+Frank Lee
+Head of Asia Operations
+0:14:03
+
+The Allen project, actually, we kick off the project several quarters ago, in terms of planning the facility, clean room expansion, and the equipment purchasing. Right now, our clean room has been ready, and we have a tour delivered already. At this moment, we are in the process of installing the new equipment, which will be complete, and sequentially, we need to do certain customer qualification. We believe, once the qualification complete, Allen site will be able to contribute to our business, especially in the mid-range of mainstream. At the same time, Allen can support our Boise facility, take some middle or low-end mask layer away from Boise, so we can spare the Boise capacity for the real high-end business.
+
+Frank Lee
+Head of Asia Operations
+0:15:16
+
+We will see a lot of high-end opportunities and which we have to maximize our Boise capacity in terms of the product mix. Also, I think both George and Eric report, we are going to do a lot of CapEx expansion, which include Boise high-end capacity expansion to meet a strong high-end customer demand.
+
+Ben Taxdahl
+Equity Research Analyst
+0:15:50
+
+All right. Good. Just my last question here, switching over to flat panel. You know, discussing your leadership in AMOLED and kind of G8.6 size, and the material higher ASPs, with that. Can you remind me of, you know, the different applications of that technology, and then maybe just help us understand the size and scope of that opportunity over the next few years would be really helpful.
+
+Frank Lee
+Head of Asia Operations
+0:16:32
+
+For G8.6, as George reported, it's in the infant stage of business development. We do receive a very first set of G8.6 photomask from our Korean customers, and we do see a lot of Chinese customer are in the process of developing G8.6 AMOLED business. We believe with our process tech capability and also the most advanced new writer we just installed in Korea, we will be the leader in G8.6 flat panel business. Eric, you have anything to add here?
+
+Eric Rivera
+President and CFO
+0:17:31
+
+Thank you, Frank. I think you covered all areas here. I have nothing else to add.
+
+Ben Taxdahl
+Equity Research Analyst
+0:17:38
+
+All right, guys.
+
+
+Operator
+0:17:40
+
+Thank you. One moment for our next question. Our next question comes from the line of Gowshihan Sriharan from Singular Research.
+
+Gowshihan Sriharan
+Equity Research Analyst
+0:17:50
+
+Can you guys hear me?
+
+Eric Rivera
+President and CFO
+0:17:53
+
+Yes, Gowshi. How are you doing today?
+
+Gowshihan Sriharan
+Equity Research Analyst
+0:17:55
+
+Good morning, gentlemen. You know, my first question is on the margins. You've been consistently printing kind of mid-30s, even as mix improves. Do you think there's any risk that we are temporarily overearning here or because of unusually high, tight, high-end supply? Or is that we should expect some more normalization as more capacity, including your own, comes online over the next year or two?
+
+Eric Rivera
+President and CFO
+0:18:26
+
+Hi, Gowshi, this is Eric here. We don't see Q2 being much different than Q1 at the moment from a product mix perspective. Of course, you know, the market is gonna determine that, but that's what we're expecting it to be similar. In terms of our, you know, CapEx that we are projecting, as I mentioned on our prepared remarks, we're entering a stage of elevated CapEx investments as a result of the opportunities the market is affording us, and we will certainly capitalize on them. With that comes increased depreciation. Of course, when the tools are in place, but also revenue will increase for many of those projects. Those CapEx that are related to end-of-life tools, a lot of our end-of-life tools provide additional capabilities that'll enable us to improve our product mix.
+
+Eric Rivera
+President and CFO
+0:19:23
+
+In general, I would say that, although margins could surely, you know, fluctuate, you know, primarily because of product mix, we don't expect our margins to, like, fall off a cliff.
+
+
+Gowshihan Sriharan
+Equity Research Analyst
+0:19:36
+
+Awesome.
+
+Eric Rivera
+President and CFO
+0:19:37
+
+Let me also-I'm sorry. Go ahead, Gowshi.
+
+Gowshihan Sriharan
+Equity Research Analyst
+0:19:41
+
+No, no. Go ahead.
+
+Eric Rivera
+President and CFO
+0:19:43
+
+Yep. I was gonna.
+
+Frank Lee
+Head of Asia Operations
+0:19:44
+
+Sorry, something.
+
+Gowshihan Sriharan
+Equity Research Analyst
+0:19:47
+
+Who was that? It wasn't me.
+
+
+Frank Lee
+Head of Asia Operations
+0:19:48
+
+Sorry, this is Frank. Please go ahead. I can comment afterwards.
+
+Eric Rivera
+President and CFO
+0:19:54
+
+I'm passing it on to you, Frank. Go ahead.
+
+Frank Lee
+Head of Asia Operations
+0:19:57
+
+All right. Thank you. Thank you. Gowshi, actually, we do have a lot of high-end business, and as I just mentioned, we need to maximize our most advanced side of Boise output, and that's one reason we need to have a add inside to take some loading away. At the same time, to increase the capacity in Boise side, we are working with many customer to qualify a new writer called multi-beam mask writer. This writer has a much higher throughput, which can improve our overall design capacity. Right now, it's not really so-called business constraint. It's actually a little bit capacity constraint.
+
+Frank Lee
+Head of Asia Operations
+0:20:56
+
+With the CapEx and also with the multi-beam qualification in Boise side, we will try to increase our high-end capacity, and of course, the high-end capacity will contribute greatly to the gross margin.
+
+Gowshihan Sriharan
+Equity Research Analyst
+0:21:17
+
+Awesome. Thanks for the color. On the Asia side, in China, you said that, you know, that it's kind of stabilized, stuff, mainstream. Now, it's been a couple of quarters, are you seeing any, the local competitors adjust their behavior or either moving up the node themselves or becoming aggressive on pricing in the segments? Or are you, or is it still you're de-emphasizing, and could that change the economics of your stabilized soft mainstream outlet?
+
+Eric Rivera
+President and CFO
+0:21:49
+
+In.
+
+
+Frank Lee
+Head of Asia Operations
+0:21:50
+
+Yes.
+
+Eric Rivera
+President and CFO
+0:21:51
+
+Go ahead. I'm sorry. Go ahead, Frank.
+
+Frank Lee
+Head of Asia Operations
+0:21:55
+
+Sorry, we should not talk. I think you talk first. I talk later. No problem here.
+
+Eric Rivera
+President and CFO
+0:22:02
+
+No problem. With respect to Asia and China specifically, I think, we're focused on the high end, where there's less competition. That's where we have a competitive advantage from, you know, the new entrants and the increased competition there. They're more focused on the mainstream, as they learn the business, if you will. Given our strategy, we see our margins relatively, you know, flat or, you know, slightly improving. It all depends on our product mix, but we're focused on the product mix on the high end, where there's less competition. Frank, would you like to add something to that?
+
+Frank Lee
+Head of Asia Operations
+0:22:46
+
+Sure, I think in China market, even there are several, many newcomers, but because for customers, the high-end qualification require a lot of human resource, wafer resource from the wafer fab. Most of our high-end customer, they just have a one or two suppliers. They are not really interested to spend a lot of resource to qualify number four, number five. We believe the entry barrier for the newcomers to the high-end business is very high.
+
+Frank Lee
+Head of Asia Operations
+0:23:35
+
+For ourselves, for Photronics, we do have a facility locally in Xiamen, and we are focusing on the high-end business in China. We have a business from major Chinese high-end wafer fab. We will continue to improve our cycle time, the delivery, and so on, and also to maximize our high-end product mix. We believe the newcomers may have some negative impact on the mainstream, but on the high-end side, we do have a lot of advantages.
+
+
+Gowshihan Sriharan
+Equity Research Analyst
+0:24:22
+
+Got you. Thanks a lot. Since Asia was the stronger demand, the key driver to the beat, can you give us a little bit color on what that demand looks like under the hood? Does that mix look structurally different from what you were seeing a year or two ago?
+
+Frank Lee
+Head of Asia Operations
+0:24:42
+
+Okay. I think the main driving force is the diversification, because due to the geopolitical reason, the onshoring, the regionalization, the customer, the design house, they have to manufacture their product in different countries. For example, if they need to sell their chip to China, they need to make their wafers in China, Chinese foundry companies. With this, a lot of duplicate tape out happens to because this issue. At the same time, for Chinese customers, the migration to 22 nm-20 nm happened in this year. A lot of companies are doing technology migration as compared to a couple of years ago. We do see a lot of new tape-outs in 22 nm-28 nm from our China customers.
+
+Operator
+0:26:13
+
+Thank you. At this time, I would now like to turn the conference back over to Ted Moreau for closing remarks.
+
+Ted Moreau
+VP of Investor Relations
+0:26:21
+
+Thank you, Gigi, and thank you everyone for joining us today. We appreciate your interest in Photronics and look forward to catching up with everyone throughout the quarter. Have a great day!
