@@ -8,24 +8,38 @@ This is an investment analysis repository for tracking and analyzing public comp
 
 ## Companies Covered
 
-- **ADBE**: Adobe Inc. - Creative software and digital marketing solutions
-- **CAT**: Caterpillar Inc. - Heavy equipment manufacturer and power generation systems
-- **CBT**: Cabot Corporation - Specialty chemicals and performance materials
-- **CRWV**: CoreWeave - AI hyperscaler specializing in GPU-accelerated computing
-- **DASH**: DoorDash Inc. - On-demand delivery platform
-- **DRO**: DroneShield Limited - Counter-drone technology
-- **DUK**: Duke Energy Corporation - Electric utility
-- **EMR**: Emerson Electric Co. - Industrial automation and technology
-- **FLR**: Fluor Corporation - Engineering, procurement, and construction services
-- **GLW**: Corning Incorporated - Specialty glass and ceramics
-- **JCI**: Johnson Controls International - Building solutions and technologies
-- **LYB**: LyondellBasell Industries - Chemical manufacturing
-- **MSFT**: Microsoft Corporation - Software, cloud (Azure), productivity, and devices
-- **MNTN**: MNTN, Inc. - Performance TV advertising (CTV)
-- **NEE**: NextEra Energy, Inc. - Renewable energy and utility
-- **PH**: Parker-Hannifin Corp - Motion and control technologies
-- **RKLB**: Rocket Lab USA - Aerospace launch services and space systems
-- **SPCE**: Virgin Galactic Holdings - Commercial spaceflight
+_Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVCO**)._
+
+- **ADBE**: Adobe Inc. — Creative software and digital marketing solutions
+- **AMAT**: Applied Materials, Inc. — Semiconductor wafer fabrication equipment and services
+- **AMZN**: Amazon.com, Inc. — E-commerce and cloud (AWS)
+- **ASML**: ASML Holding N.V. — Semiconductor lithography (EUV, DUV) systems and services
+- **CAT**: Caterpillar Inc. — Heavy equipment and power generation
+- **CBT**: Cabot Corporation — Specialty chemicals and performance materials
+- **CRWV**: CoreWeave — GPU-focused cloud infrastructure
+- **CVCO**: Cavco Industries, Inc. — Factory-built manufactured and modular housing
+- **DASH**: DoorDash Inc. — Local commerce and delivery
+- **DRO**: DroneShield Limited — Counter-drone detection and mitigation
+- **DUK**: Duke Energy Corporation — Regulated utilities
+- **EMR**: Emerson Electric Co. — Industrial automation and software
+- **FLR**: Fluor Corporation — Engineering, procurement, and construction (EPC)
+- **GLW**: Corning Incorporated — Specialty glass and materials
+- **HOOD**: Robinhood Markets, Inc. — Retail brokerage, banking, and related financial services
+- **JCI**: Johnson Controls International — Building technology and systems
+- **LYB**: LyondellBasell Industries — Chemicals and polymers
+- **MNTN**: MNTN, Inc. — Performance TV advertising (CTV)
+- **MSFT**: Microsoft Corporation — Cloud (Azure), productivity, and devices
+- **NEE**: NextEra Energy, Inc. — Utilities and renewables
+- **PH**: Parker-Hannifin Corporation — Motion and control technologies
+- **RKLB**: Rocket Lab USA — Launch services and space systems
+- **SPCE**: Virgin Galactic Holdings — Space tourism and related
+
+### Non-ticker folders
+
+| Path | Purpose |
+|------|---------|
+| `consolidated/` | Cross-cutting analysis across names |
+| `excel_poc/` | Spreadsheet tooling and experiments |
 
 ## Valuation Metrics Summary
 
@@ -44,6 +58,12 @@ This is an investment analysis repository for tracking and analyzing public comp
 | **[JCI](jci/README.md)** | Johnson Controls | 36.22x | 25.19x | 3.08x | 6% organic | Premium valuation, transformation story |
 | **[EMR](emr/README.md)** | Emerson Electric | 34.20x | 20.33x | 4.26x | ~2% (2026) | Reasonable for quality industrial |
 | **[GLW](glw/README.md)** | Corning | 87.79x | 28.99x | 5.05x | 14% YoY | Trailing P/E distorted by earnings recovery |
+| **[HOOD](hood/README.md)** | Robinhood Markets | ~39.8x* | ~36.8x* | ~16.4x* | ~15% YoY rev (Q1 file) | Retail brokerage/fintech; beta ~2.5; growth multiples (Yahoo paste Apr 2026) |
+| **[AMAT](amat/README.md)** | Applied Materials | 40.44x | 36.23x | 13.22x | Semiconductor WFE cycle | Semiconductor equipment premium; stats Apr 2026 |
+| **[AMZN](amzn/README.md)** | Amazon | 34.93x | 34.60x | 3.69x | 13.3% YoY rev | E-commerce / AWS; stats Jan 2026 |
+| **[ASML](asml/financials/2026_04/yahoo_stats.md)** | ASML Holding | 32.4x | — | 9.8x | ~28.5% YoY rev | EUV monopoly; lithography capex; stats Apr 2026 |
+| **[CVCO](CVCO/financials/2025_02/yahoo_stats.md)** | Cavco Industries | 25.24x | — | — | Modular housing cyclical | No P/S in pasted stats Feb 2026 |
+| **[MSFT](msft/README.md)** | Microsoft | 29.2x | 27.5x | 11.1x | Cloud / AI cycle | Stats Feb 2025 snapshot; refresh in `msft/financials/` |
 | **[FLR](flr/README.md)** | Fluor | 1.80x | 17.64x | 0.46x | Stable | Trailing P/E distorted (recovery), forward reasonable |
 | **[ADBE](adbe/README.md)** | Adobe | 21.91x | 15.06x | 6.57x | 10-12% | Reasonable software valuation |
 | **[CAT](cat/README.md)** | Caterpillar | 22.95x | 21.32x | 3.43x | -1% (recovery) | Reasonable cyclical industrial |
@@ -57,21 +77,21 @@ This is an investment analysis repository for tracking and analyzing public comp
 | **[CRWV](crwv/README.md)** | CoreWeave | N/A | N/A | 19.10x | 420% YoY | Not profitable yet, growth stage |
 | **[DRO](dro/README.md)** | DroneShield | 701.23x | N/A | 40.18x | 1,091% YoY | Very high (small company, early stage) |
 
-*Note: DASH Forward P/E updated to 56.3x and Price/Sales to 9.0x after earnings reaction (from 62.89x P/E and 10.10x P/S at $238 price)*
+*Footnotes:* DASH forward P/E and P/S reflect legacy post-earnings update in readme history; verify live. HOOD multiples: `hood/financials/2026_04/yahoo_stats.md`. **AMAT, AMZN:** company folder README + `financials/*/yahoo_stats`. **ASML:** `asml/financials/2026_04/yahoo_stats.md` — no standalone `README` in folder yet. **CVCO:** uppercase folder [`CVCO/`](CVCO/) — sparse stats [`CVCO/financials/2025_02/yahoo_stats.md`](CVCO/financials/2025_02/yahoo_stats.md). **MSFT:** `msft/financials/2025_02/yahoo_stats.md` dated Feb 2025.
 
 **Valuation Observations:**
 
 **Lowest Multiples (Value Plays):**
 - **P/E:** CBT (9.90x), DUK (19.90x), ADBE (21.91x)
-- **P/S:** LYB (0.41x), FLR (0.46x), CBT (1.08x)
+- **P/S:** LYB (0.41x), FLR (0.46x), CBT (1.08x); **AMZN** (3.69x) is **low versus** revenue scale for a megacap retailer/cloud mix
 
 **Highest Multiples (Premium/Growth):**
-- **P/E:** DASH (148.40x trailing), GLW (87.79x trailing - distorted), LYB (104.96x trailing - distorted)
-- **P/S:** SPCE (82.95x), DRO (40.18x), RKLB (27.43x), CRWV (19.10x)
+- **P/E:** DASH (148.40x trailing), GLW (87.79x trailing - distorted), LYB (104.96x trailing - distorted), HOOD (~39.8×, Apr 2026 paste), AMAT (~40×, WFE/upcycle)
+- **P/S:** SPCE (82.95x), DRO (40.18x), RKLB (27.43x), HOOD (~16×), CRWV (19.10x); **AMAT** (13.22×) and **ASML** (9.8×) sit **rich for equipment** peers
 
 **Most Reasonable (Profitable Companies):**
-- **P/E:** ADBE (21.91x/15.06x), CAT (22.95x/21.32x), EMR (34.20x/20.33x)
-- **P/S:** CAT (3.43x), DUK (3.01x), JCI (3.08x), EMR (4.26x)
+- **P/E:** ADBE (21.91x/15.06x), CAT (22.95x/21.32x), **MSFT** (29.2×/27.5× dated file), EMR (34.20x/20.33x), AMZN (34.93×)
+- **P/S:** CAT (3.43x), DUK (3.01x), JCI (3.08x), EMR (4.26x); **CVCO** (no P/S in pasted stats Feb 2026)
 
 ## Value Perception Framework
 
@@ -206,6 +226,7 @@ This is an investment analysis repository for tracking and analyzing public comp
 **Premium/Expensive (High Risk - Vulnerable to Missteps):**
 - **DASH** (DoorDash): 148.40x P/E, 9.0x P/S - **⚠️ HIGH RISK:** Punished -10.4% on Q4 guidance miss
 - **GLW** (Corning): 87.79x P/E (distorted), 5.05x P/S - Earnings recovery story, monitor closely
+- **HOOD** (Robinhood): ~40x P/E, ~16x P/S (Apr 2026 paste) - High beta; growth fintech; regulatory/tape sensitivity
 - **RKLB/CRWV/SPCE**: Not profitable, high P/S ratios - Growth stage investments, high risk
 
 ## Repository Structure
@@ -252,9 +273,11 @@ All analysis follows the comprehensive framework defined in `AGENTS.md`, coverin
 
 - **AGENTS.md**: Comprehensive guide for AI agents and analysis framework
 - **consolidated/**: Cross-company analysis and comparisons
+- **excel_poc/**: Spreadsheet / extraction experiments (not issuer coverage)
 - Individual company READMEs: Company-specific overviews and investment theses
 
 ---
 
-*Last Updated: November 5, 2025*  
-*Valuation data as of most recent financial statements*
+*Last Updated: April 29, 2026 — **Companies Covered** aligned to top-level ticker folders (incl. **AMAT, AMZN, ASML, CVCO, HOOD**, **consolidated/** + **excel_poc/** documented separately).*  
+*Valuation shortcuts: pasted snapshot dates vary by ticker (see Footnotes row under combined table).*  
+*HOOD multiples: [hood/financials/2026_04/yahoo_stats.md](hood/financials/2026_04/yahoo_stats.md); refresh when prices change.*

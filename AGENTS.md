@@ -8,7 +8,7 @@ This file provides comprehensive guidance for AI agents when working with this i
 
 ## Repository Overview
 
-This is an investment analysis repository for tracking and analyzing public companies. The repository contains structured financial analysis and research materials for multiple companies including:
+This is an investment analysis repository for tracking and analyzing public companies. The repository contains structured financial analysis and research materials organized by **ticker folder** (e.g. `hood/`, `msft/`, `CVCO/`). **Canonical list of covered names:** see root **[README.md](README.md)** — *Companies Covered* (the sample bullets below are illustrative only):
 - **CRWV**: CoreWeave - AI hyperscaler specializing in GPU-accelerated computing
 - **MNTN**: MNTN, Inc. - Performance TV advertising company focusing on CTV advertising
 - **RKLB**: Rocket Lab - Aerospace company providing launch services and space systems
