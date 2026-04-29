@@ -7,7 +7,7 @@
 
 On pasted **Yahoo** statistics (**session reference ~$70.88**, **~$73.9B** market cap), HOOD traded at **elevated growth multiples**: **Trailing P/E ~39.8×**, **Forward P/E ~36.8×**, **Price/Sales ~16.4×**, **EV/Revenue ~16.3×**, **EV/EBITDA ~33.8×** (statistics tab; EBITDA line item sometimes blank/inconsistent — cross-check EBITDA from **financial statements**, **TTM EBITDA ~$2.18B** thousands). Valuation implies **continuation** of **high margins** plus **meaningful sustained growth** — any **cyclical setback** or **regulatory haircut** to activity can re-rate sharply given **beta ~2.5**.
 
-**Tape interaction:** Sector **risk-off** phases (see **Nasdaq** squeeze framing in [market_analysis](./2026_04_29_market_analysis.md)) can **multiply** downside for **premium** multiples even when fundamentals are **fine** sequentially.
+**Tape interaction:** **Growth / risk-off** moods (and HOOD‑specific sentiment on the corrected **April ’26 tape** framing in [market_analysis](./2026_04_29_market_analysis.md)) **can multiply** downside for **premium** multiples even when fundamentals stay **okay** quarter‑to‑quarter.
 
 ---
 

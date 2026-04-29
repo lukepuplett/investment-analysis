@@ -1,13 +1,13 @@
 # Robinhood Markets, Inc. (HOOD) — Market analysis
 
 **As of:** April 29, 2026  
-**Sources:** Internal financials ([yahoo_stats](../financials/2026_04/yahoo_stats.md)); [Q1 FY2026 transcript](../quarterly/2026_Q1_earnings_call_transcript.txt); [10-Q](../quarterly/2026_Q1_10q.txt); **Yahoo Finance chart read** (NASDAQ **^IXIC**, late April 2026 observation — not scraped).
+**Sources:** Internal financials ([yahoo_stats](../financials/2026_04/yahoo_stats.md)); [Q1 FY2026 transcript](../quarterly/2026_Q1_earnings_call_transcript.txt); [10-Q](../quarterly/2026_Q1_10q.txt); **Yahoo Finance chart read — HOOD**, late April 2026 (manual; not scraped).
 
 ## BLUF
 
 Robinhood operates at the intersection of **commission-free retail brokerage**, **banking and subscription (Gold)**, **crypto** (incl. acquisitions), **derivatives and prediction/event markets**, and **international expansion**. Industry drivers are **retail engagement**, **short rates / NII on sweep and margin balances**, **volatility and volumes**, and **regulatory treatment** of PFOF, crypto, and event contracts. **Headline risk** (beta **~2.5** per Yahoo paste) means the equity often prices **activity and sentiment** ahead of slow-moving book value.
 
-**Macro overlay (late April 2026):** The **Nasdaq Composite** has been in a **sharp 2026 drawdown** after a multi-year percentage gain; **chart structure** (per manual review) shows **descending resistance** vs **long-term rising support**—a **squeeze** that can resolve **bullishly** (break of the downtrend rail) or **bearishly** (loss of the bull-trend support). **HOOD is not the index:** high beta implies **amplified** swings vs **^IXIC**, while **idiosyncratic** legal and product headlines remain **independent** drivers.
+**Price / tape overlay (late April 2026):** An **earlier draft** **mis-labelled** the pasted chart **Nasdaq (^IXIC)**; **the correct symbol is HOOD**. Structure described is **Robinhood shares** trading in a **2026 pullback** after a sharp **prior advance** (percentage / rebased charts), wedged between **near-term descending resistance** and **longer rising support**—a classic **resolution pending** breakout or breakdown. Separately, HOOD remains **subject to brokerage / growth sentiment** and moves with **risk appetite** (**^IXIC**, etc.), but **this** technical framing is **not** an index call.
 
 ---
 
@@ -35,27 +35,29 @@ Robinhood operates at the intersection of **commission-free retail brokerage**, 
 
 ---
 
-## Benchmark tape: Nasdaq Composite (^IXIC) — late April 2026 (Yahoo chart observation)
+## Price tape — HOOD — late April 2026 (Yahoo chart observation, **corrected**)
 
-**Purpose:** Frame **systematic** risk for **high-beta** Nasdaq-listed names; **not** a substitute for HOOD-specific technicals.
+**Attribution correction:** An earlier revision here described these observations as **^IXIC**. **User clarification:** the plotted series was actually **Robinhood Markets (HOOD)**. The **shape** below is preserved; **index levels** (**e.g. ~14k “Nasdaq composite”**) from that mistaken read **do not** apply — only **relative** dynamics on a **percentage** or rebased HOOD chart are intended.
 
-### Structure (as described from Yahoo percentage / compare view)
+### Structure (percentage / rebased-chart narrative)
 
 | Element | Observation |
 |---------|----------------|
-| Prior leg | **Late 2023–2025**: parabolic-style advance (hundreds of percent **from** a chart **baseline**); **late 2025** peak followed by **sharp reversal** (“blow-off” style exhaustion is one read). |
-| 2026 | **Steep correction**; price **compressed** between a **descending upper trendline** (near-term **resistance**) and a **long-term ascending support** line (multi-year bull trend **floor** in **index** terms). |
-| Inflection | **Resolution** expected on **break** of **either** rail — **above** resistance → trend-reversal candidate for risk assets; **below** rising support → risk of **deeper** liquidation / **risk-off** continuation. |
-| Relative | A **secondary benchmark** line (e.g. broader index) may show **smaller** cumulative % move — **Nasdaq** typically **outperforms** in bull liquidity phases and **underperforms** in **tech-led** drawdowns — **not** predictive of HOOD alone. |
+| Prior leg | **Late 2023–2025:** strong upward leg on **rebased scale** (**>+100%**, **>>+200% vs** early baseline in source notes)—aggressive highs/lows characteristic of episodic sentiment in **brokerage/adjacent** names. |
+| Peak / turn | Late **2025**: sharp apex then **distribution-style** rollover (one interpretation: exhaustion after steep advance). |
+| 2026 | **Drawdown**; price **sandwiched** between **descending upper rail** (bearish corrective channel resistance) and **rising lower rail** (**long-cycle** uptrend floor if valid). |
+| Inflection | **Break above** descending resistance → **relief**/resumption thesis for **the stock**. **Loss of** ascending support → **risk of** revisit toward **prior cycle lows** (see **52-week** band in Yahoo stats paste; **verify** dates). |
+| Relative line | Secondary **comparison** overlay (often S&P/OEX-style index in Yahoo **Compare**) commonly shows **muted** %-move versus **single-name** hysteresis — illustrative only until **symbols** are pinned. |
 
-### Chart hygiene (verify before trading)
+### Chart hygiene — HOOD reads
 
 | Check | Why |
 |-------|-----|
-| **Primary symbol** | Confirm the window is **^IXIC** (or your intended index). A **~14,260** print is plausible for **index level**; a corner **“Close ~13.50”** with the same symbol usually indicates a **compare ticker**, **normalized series**, or **UI artifact** — **reconcile** scale (**price** vs **%** vs **indexed**). |
-| **Timeframe** | Trendlines drawn on **daily** vs **weekly** **change** the story; label which you used. |
+| **Ticker** | **Confirm “HOOD” or “Robinhood Markets, Inc.”** on the Yahoo header. **`^IXIC`** at **fourteen-thousand-type** prints is the **Nasdaq Composite index**, not a single stock; **HOOD** trades **dollar** prices (tens–hundreds, not thousands). Mislabelling the symbol swaps **everything**. |
+| **Scale** | Reconcile **`%`** from date / **indexed** replay vs **$** candles; stray **small numbers** (**~13.xx**) beside the title often mean **% change**, compare symbol, **option series**, or **UI focus**—not “Nasdaq Close.” |
+| **Timeframe** | Daily vs weekly **changes** breakout validity; annotate which you drew. |
 
-*This section is qualitative; Yahoo data were not scraped automatically.*
+*Qualitative only; Yahoo not scraped.*
 
 ---
 

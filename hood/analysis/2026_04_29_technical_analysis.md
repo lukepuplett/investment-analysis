@@ -1,7 +1,7 @@
 # Robinhood Markets, Inc. (HOOD) — Technical capabilities and platform risks
 
 **As of:** April 29, 2026  
-**Scope:** Operating / product **technology** (not securities **technical analysis / charting** unless explicitly modeled later). **Benchmark tape** (Nasdaq structure, squeeze, tape hygiene) lives in **[market_analysis](./2026_04_29_market_analysis.md)**.
+**Scope:** Operating / product **technology** (not securities **technical analysis / charting** unless explicitly modeled later). **HOOD‑share price‑tape discussion** (**corrected** from an earlier Nasdaq mis‑label lives in **[market_analysis](./2026_04_29_market_analysis.md)**).
 
 **Sources:** [Q1 FY2026 transcript](../quarterly/2026_Q1_earnings_call_transcript.txt); filing references in [10-Q](../quarterly/2026_Q1_10q.txt).
 
