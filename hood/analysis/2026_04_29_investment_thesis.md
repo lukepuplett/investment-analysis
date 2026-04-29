@@ -11,6 +11,8 @@
 
 **Investment thesis coherence:** Robinhood can remain a leading **technology-forward U.S. retail financial platform**, compounding **revenue** through **subs + banking + brokerage tickets + international/crypto optionality**, while **regulatory and headline risk** periodically **overshadows fundamentals**. Recent **financial** results show strong **YoY leverage** versus prior loss years (**FY2025** TTM **~46% operating margin**, **positive** OCF **TTM**) but **embedded valuation** (**~37×+ forward P/E**, **mid-teens+ P/S**) leaves little room for **guidance stumble** — consistent with elevated **sell-off** narratives on tape.
 
+**Tape context:** **Nasdaq (^IXIC)** — late April 2026 observation — sits in a **tightening range** between **2026 descending resistance** and **longer rising support** (see [market_analysis](./2026_04_29_market_analysis.md)). **HOOD** tends to **amplify** broad tech/growth moves (**beta ~2.5**); a **“local floor”** in **HOOD** does **not** imply the **index** has bottomed, and an **index** inflection does **not** erase **idiosyncratic** litigation or product risk.
+
 ---
 
 ## Investment Thesis Coherence Check

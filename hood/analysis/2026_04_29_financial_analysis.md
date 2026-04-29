@@ -5,7 +5,7 @@
 
 ## BLUF
 
-Scale and profitability improved materially through FY2025 on a **TTM** basis: **~$4.47B** total revenue, **~$2.09B** operating income, **~$1.88B** net income to common (thousands per Yahoo annual grid). **Q1 2026** filed net revenues **$1,067M** vs **$927M** in Q1 2025 (~15% YoY), consistent with management commentary. Cash generation is **positive** on a TTM operating basis (**~$1.64B** OCF TTM per Yahoo; **~$1.58B** free cash flow TTM line), but cash flows are heavily influenced by **working-capital and clearing-related swings** — treat headline OCF bridges as incomplete without filing context.
+Scale and profitability improved materially through FY2025 on a **TTM** basis: **~$4.47B** total revenue, **~$2.09B** operating income, **~$1.88B** net income to common (thousands per Yahoo annual grid). **Q1 2026** filed net revenues **$1,067M** vs **$927M** in Q1 2025 (~15% YoY), consistent with management commentary. Cash generation is **positive** on a TTM operating basis (**~$1.64B** OCF TTM per Yahoo; **~$1.58B** free cash flow TTM line), but cash flows are heavily influenced by **working-capital and clearing-related swings** — treat headline OCF bridges as incomplete without filing context. **Tape/macro (^IXIC squeeze)** shapes **risk appetite and comps**, not reported revenue lines — see [market_analysis](./2026_04_29_market_analysis.md).
 
 ---
 

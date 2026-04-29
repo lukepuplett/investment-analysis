@@ -7,6 +7,8 @@
 
 Key risk clusters: **regulatory enforcement** across brokerage and lending (**NY AG**, **FINRA/BOATS** inquiries, **FDIC EFTA**); **novel-product legal uncertainty** (**event contracts**, state gaming statutes, tribal / RICO actions); **civil litigation** (cash sweep, PFOF / best execution, IPO Section 11, 2021 trading restrictions residuals); **operational/market risk** (**high beta ~2.5**); **balance-sheet leverage** vs traditional corporates (**receivable/payable** scale).
 
+**Systematic / benchmark risk:** In **late April 2026**, **Nasdaq (^IXIC)** chart structure (manual Yahoo read) is **unresolved** between **near-term bearish rail** and **long-term bullish support** — see [market_analysis](./2026_04_29_market_analysis.md). A **breakdown** in **growth/tech** leadership can **compress multiples** across the sector **independent** of quarterly HOOD KPIs.
+
 **Aggregate contingency accruals** were **~$79M** **March 31, 2026** per Note 14 — firm states many exposures **cannot be reasonably estimated**; tail outcomes remain **material**.
 
 ---
@@ -21,7 +23,7 @@ Key risk clusters: **regulatory enforcement** across brokerage and lending (**NY
 | NY AG investigations (execution quality, BOATS, certain contracts) | 7 | Cooperation narrative | 6 | Civil investigative demands outcomes |
 | Early 2021 trading restrictions residuals | 6 | Many dismissals / settlements historically | 7 | Arbitration inventory |
 | IPO Section 11 (**Golubowski** — cert petition Feb 2026) | 6 | Procedural history lengthy | 4 | Supreme Court filings |
-| High equity beta | 9 | Operational diversification narrative | 4 | VIX-linked engagement |
+| High equity beta | 9 | Operational diversification narrative | 4 | **^IXIC** trend resolution; retail volume; **VIX**–linked engagement |
 | Clearing / customer-float balance-sheet complexity | 7 | Regulated subsidiaries; disclosures | 6 | Capital / liquidity disclosures |
 
 ---
