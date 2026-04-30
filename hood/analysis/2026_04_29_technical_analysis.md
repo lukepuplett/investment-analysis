@@ -1,13 +1,12 @@
 # Robinhood Markets, Inc. (HOOD) — Technical capabilities and platform risks
 
-**As of:** April 29, 2026  
-**Scope:** Operating / product **technology** (not securities **technical analysis / charting** unless explicitly modeled later). **HOOD‑share price‑tape discussion** (**corrected** from an earlier Nasdaq mis‑label lives in **[market_analysis](./2026_04_29_market_analysis.md)**).
+**As of:** April 29, 2026
 
-**Sources:** [Q1 FY2026 transcript](../quarterly/2026_Q1_earnings_call_transcript.txt); filing references in [10-Q](../quarterly/2026_Q1_10q.txt).
+**Sources:** [Q1 FY2026 transcript](../quarterly/2026_Q1_earnings_call_transcript.txt); [Form 10-Q](../quarterly/2026_Q1_10q.txt).
 
 ## BLUF
 
-**What this note is:** product and platform **technology** (how they build and run things)—**not** “technical analysis” charting; those chart notes live in [market_analysis](./2026_04_29_market_analysis.md). **Main takeaway:** Robinhood behaves like a **software-led** finance company: mobile-first, shipping fast (management cites AI assist for engineers, product like **Cortex**, social/trust features), pushing into **venues** (e.g. prediction-market exchange partnership) and **more countries**, and wiring up **banking and credit**. New mandates such as **Trump Accounts** (Treasury-related app work) add **delivery risk** on top of the usual broker worries: **uptime, security, and regulatory change** all scale with ambition.
+HOOD operates as a **software-first fintech platform**—not a traditional brick-and-mortar broker. Core strengths: mobile-first user experience, high engineering velocity (AI-assisted development), and rapid product shipping (Cortex AI research assistant, Robinhood Social for community trust). Execution risks: **Trump Accounts** (Treasury-directed app) adds unfamiliar public-sector delivery complexity; platform scaling to prediction markets and banking increases operational surface area; uptime and security under scrutiny post-2021 outages. **Bottom line:** HOOD's product velocity and tech stack are differentiators, but the organization is adding risk surface faster than it's proven resilience at scale.
 
 ---
 

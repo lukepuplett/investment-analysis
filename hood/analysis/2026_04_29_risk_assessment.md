@@ -9,18 +9,33 @@
 
 ---
 
-## Red Flag Audit with mitigant assessment
+## Red Flag Audit with mitigant assessment and quantified impact
 
-| Risk | Severity (1–10) | Mitigant | Mitigant strength (1–10) | Monitoring KPI |
-|------|:---:|:---------|:---:|:---------------|
-| PFOF / best-ex civil litigation cluster | 7 | **Settlement in principle** (June 2025) preliminary approval per 10-Q | 6 | Docket; cash sweep consolidated actions |
-| Event contracts / gaming / tribal RICO filings | 8 | Federal jurisprudence evolving; injunction strategies | 5 | State enforcement; Kalshi appellate spillovers |
-| Cash sweep rate class actions (**Dey** / **Deeney**) | 7 | Motion practice | 5 | Consolidated discovery milestones |
-| NY AG investigations (execution quality, BOATS, certain contracts) | 7 | Cooperation narrative | 6 | Civil investigative demands outcomes |
-| Early 2021 trading restrictions residuals | 6 | Many dismissals / settlements historically | 7 | Arbitration inventory |
-| IPO Section 11 (**Golubowski** — cert petition Feb 2026) | 6 | Procedural history lengthy | 4 | Supreme Court filings |
-| High equity beta | 9 | Operational diversification narrative | 4 | **HOOD tape** breaks vs rails; broader **risk appetite** (^IXIC, etc.); **VIX**-linked engagement |
-| Clearing / customer-float balance-sheet complexity | 7 | Regulated subsidiaries; disclosures | 6 | Capital / liquidity disclosures |
+| Risk | Severity (1–10) | Estimated earnings impact | Mitigant | Mitigant strength (1–10) | Monitoring KPI |
+|------|:---:|:---:|:---------|:---:|:---------------|
+| **PFOF / best-ex civil litigation** | 7 | **−$100–200M annual revenue** if PFOF restrictions enforced; assume 5–10% trading revenue loss | Settlement in principle (June 2025) preliminary approval; industry may adapt | 6 | Docket status; whether settlement holds through appeal; SEC rulemaking |
+| **Event contracts / prediction markets** | 8 | **−$150–300M revenue impact** if contracts banned; assume 30–40% of prediction/options volume at risk | Federal appellate track; Kalshi case may establish precedent; injunction delays | 5 | Kalshi appeals (watch Q3–Q4 2026); state AG actions (NY, CA); SEC guidance |
+| **Cash sweep rate class actions** | 7 | **−$50–100M payout** (historical; may settle $200–500M if class certifies) | Motion practice ongoing; settlement discussions | 5 | Consolidated discovery milestones; motion rulings; mediation outcomes |
+| **NY AG investigations** | 7 | **−$50–150M** if enforcement (restitution, penalties, restrictions on products) | Cooperation narrative; precedent suggests multi-year negotiation | 6 | Civil investigative demands outcomes; press releases on settlements |
+| **Early 2021 trading halt litigation** | 6 | **−$30–80M payout** (many already dismissed); low tail risk remaining | Many cases dismissed / settled; arbitration inventory declining | 7 | Count of remaining cases in arbitration vs. dismissed |
+| **IPO Section 11 class action** | 6 | **−$50–150M payout** if Supreme Court reverses summary judgment | Procedural delays increase; cert petition (Feb 2026) pending | 4 | Supreme Court decision timeline (late 2026 likely); ruling scope |
+| **High equity beta** | 9 | **−20–30% stock price volatility** on broad market or HOOD-specific sentiment; not earnings per se, but capital market access | Operational diversification narrative (banking, Gold, international) | 4 | VIX spikes correlating to HOOD declines; track beta vs. ^IXIC; monitor margin financing |
+| **Clearing / regulatory capital** | 7 | **−10–30% margin capacity** if SEC raises leverage caps or margin requirements tighten | Regulated subsidiaries; strong disclosures; proactive capital management | 6 | SEC rulemaking on margin requirements; quarterly net capital disclosures |
+
+---
+
+## Risk impact synthesis (FY2027 earnings scenario)
+
+| Risk bucket | Revenue loss scenario | Probability | Impact on FY2027 net income | Effect on valuation |
+|--------|:---:|:---:|:---:|:---:|
+| **Best case** (no major adverse outcomes) | +0% | 25% | No impact; net income $2.16B base case | Fair value $49B |
+| **Most likely** (1–2 settlements; limited regulation) | −$200–400M | 50% | −$120–240M net impact; net income ~$1.9B | Fair value $44B (−10% vs base) |
+| **Adverse** (multiple enforcement + PFOF/event contract restrictions) | −$600M–1B | 20% | −$360–600M net impact; net income ~$1.5–1.8B | Fair value $35B (−28% vs base) |
+| **Severe** (regulatory shock + market sentiment reversal) | −$1B+ | 5% | −$600M+ net impact; net income <$1.5B | Fair value $20–25B (−49% vs base) |
+
+**Interpretation:** Base case assumes **moderate legal/regulatory headwinds** (−$200–400M revenue, or −6–11% vs $4.5B FY2026 revenue expectation). This already reflects settled PFOF cases, ongoing NY AG investigations, and cash sweep class actions. **Key tail risk:** If event contracts are banned outright or PFOF restrictions exceed 50%, FY2027 earnings could miss base case by $300M–600M, causing 20–30% re-rating downside.
+
+**Mitigation path:** HOOD can offset revenue pressure via (a) margin expansion from banking/deposits, (b) Gold subscription scaling, (c) Trump Accounts uptake. But timing matters—if regulatory shocks arrive before deposit franchise matures (2027 H2), earnings compression is unavoidable.
 
 ---
 

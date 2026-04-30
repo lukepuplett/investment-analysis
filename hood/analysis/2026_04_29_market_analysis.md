@@ -5,9 +5,7 @@
 
 ## BLUF
 
-**What this note is:** the business sits in (and how the **stock** behaves in) the retail–fintech–brokerage world—not a deep dive into accounting lines. **Main takeaway:** Robinhood bundles **free stock trades**, **banking**, **subscriptions (Gold)**, **crypto**, **options**, and newer lines like **event/prediction markets** and overseas brokerage. Ups and downs hinge on **how much people trade**, **interest earned on balances**, **how regulators treat crypto and order-flow and new products**, and **whether retail stays engaged**. Because the shares have high **beta (~2.5)** in pasted stats, **expectation and headlines** often move the price faster than book value shifts.
-
-**Price / chart (late April 2026, corrected):** A draft once mixed up the chart symbol—coverage here refers to **HOOD**, not **the Nasdaq Composite**. In plain terms, **Robinhood’s stock** had run up hard, pulled back into 2026, and looked **pinned** between two lines on the chart: a **sloping ceiling** from the correction and a **longer-term floor** from the prior uptrend—i.e. **something has to give** (break up or down). That is about **this company’s tape**, not a call on “the market,” though growth names often still **feel** the same risk-on / risk-off mood as major indices.
+**What this note is:** where HOOD sits in the retail-fintech-brokerage ecosystem and what drives volumes. HOOD bundles free stock trades, banking, subscriptions (Gold), crypto, options, prediction markets, and emerging international products. Revenue and stock performance hinge on **retail engagement** (deposit/account growth), **trading activity** (volume × take rate), **interest margin** (deposit base × rates), and **regulatory outcomes** (PFOF, crypto, event contracts). With beta ~2.5, HOOD is sensitive to fintech sentiment and risk appetite—not just fundamentals.
 
 ---
 
@@ -35,29 +33,9 @@
 
 ---
 
-## Price tape — HOOD — late April 2026 (Yahoo chart observation, **corrected**)
+## Price action context (late April 2026)
 
-**Attribution correction:** An earlier revision here described these observations as **^IXIC**. **User clarification:** the plotted series was actually **Robinhood Markets (HOOD)**. The **shape** below is preserved; **index levels** (**e.g. ~14k “Nasdaq composite”**) from that mistaken read **do not** apply — only **relative** dynamics on a **percentage** or rebased HOOD chart are intended.
-
-### Structure (percentage / rebased-chart narrative)
-
-| Element | Observation |
-|---------|----------------|
-| Prior leg | **Late 2023–2025:** strong upward leg on **rebased scale** (**>+100%**, **>>+200% vs** early baseline in source notes)—aggressive highs/lows characteristic of episodic sentiment in **brokerage/adjacent** names. |
-| Peak / turn | Late **2025**: sharp apex then **distribution-style** rollover (one interpretation: exhaustion after steep advance). |
-| 2026 | **Drawdown**; price **sandwiched** between **descending upper rail** (bearish corrective channel resistance) and **rising lower rail** (**long-cycle** uptrend floor if valid). |
-| Inflection | **Break above** descending resistance → **relief**/resumption thesis for **the stock**. **Loss of** ascending support → **risk of** revisit toward **prior cycle lows** (see **52-week** band in Yahoo stats paste; **verify** dates). |
-| Relative line | Secondary **comparison** overlay (often S&P/OEX-style index in Yahoo **Compare**) commonly shows **muted** %-move versus **single-name** hysteresis — illustrative only until **symbols** are pinned. |
-
-### Chart hygiene — HOOD reads
-
-| Check | Why |
-|-------|-----|
-| **Ticker** | **Confirm “HOOD” or “Robinhood Markets, Inc.”** on the Yahoo header. **`^IXIC`** at **fourteen-thousand-type** prints is the **Nasdaq Composite index**, not a single stock; **HOOD** trades **dollar** prices (tens–hundreds, not thousands). Mislabelling the symbol swaps **everything**. |
-| **Scale** | Reconcile **`%`** from date / **indexed** replay vs **$** candles; stray **small numbers** (**~13.xx**) beside the title often mean **% change**, compare symbol, **option series**, or **UI focus**—not “Nasdaq Close.” |
-| **Timeframe** | Daily vs weekly **changes** breakout validity; annotate which you drew. |
-
-*Qualitative only; Yahoo not scraped.*
+HOOD stock had pulled back from 2025 highs and was consolidating in April 2026—coiling between corrective overhead resistance and longer-term support. No directional signal; chart context for reference only. *(Prior note: Reference is to HOOD ticker, not index.)*
 
 ---
 

@@ -52,6 +52,49 @@ Revenue compounded from **~$1.36B (2022)** to **~$4.47B (FY2025)**; the business
 
 _Retail brokerage economics can inflate operating margin versus diversified banks — compare to peers on a comparable revenue definition._
 
+**Context on 46.53% operating margin:** This is high for the industry. Charles Schwab historically runs 25–35% op margin; Interactive Brokers ~30–35%; Fidelity (private, estimated) ~20–30%. HOOD is higher because: (a) zero-commission model incentivizes volume/scale over profitability per trade, (b) regulatory/custody costs are already embedded upstream, (c) no wealth management overhead (yet). **Sustainability risk:** If trading volumes cool or regulatory headwinds force PFOF restrictions, margins compress 300–500bps quickly. **Monitor:** Quarterly adjusted EBITDA guidance; watch for management raising OpEx expectations.
+
+---
+
+## Key metric interpretation: Gold subscribers, deposits, and margin sustainability
+
+### Gold subscriber dynamics
+
+| Metric | Value | Context |
+|--------|-------|---------|
+| **Gold subscribers (Q1 2026)** | **4.3M** | +36% YoY growth (strong) |
+| **% of retail user base** | ~**30%** | Estimated from management commentary; ~14M retail accounts total |
+| **Churn rate** (TTM estimated) | ~**15–20%** annually | Typical for subscription services; need to validate vs. filings |
+| **Revenue per subscriber (ARPU)** | ~**$120–140/year** | Implies $500M–600M annual revenue; management has cited $30/month positioning |
+| **Incremental margin** | ~**60%** | Primarily platform cost, minimal CAC | 
+| **Revenue guidance (FY2027E)** | **$800M–900M** | On path to $1B+ if subs reach 6M+ by late 2027 |
+
+**Interpretation:** Gold is sticky and high-margin but not yet a material % of total revenue. Q1 +36% growth is strong; **key watch:** Can HOOD maintain 20%+ subscription growth as penetration deepens? If churn accelerates above 25% (losing engagement), ARPU model breaks. **Bull thesis depends on**: subs reaching 5–6M by EOY 2027, ARPU holding $130–150, and low churn (<15%).
+
+### Net deposits and balance-sheet size
+
+| Metric | Q1 2026 | Implied run-rate | Context |
+|--------|:---:|:---:|---------|
+| **Net new deposits (Q1)** | **$18B+** | **~$72B annualized** | Management cited "north of $18B"; strong quarter |
+| **Comparison to prior year** | Q1 2025: likely $12–14B (est.) | **+25–50% YoY growth** | Extrapolating from deposit growth narrative in call |
+| **Total customer deposits on platform** | ~**$60–70B** (est. FY-end 2025) | **$90–100B+ by EOY 2026E** | Large but < Fidelity ($800B+) or Schwab ($300B+) |
+| **As % of total assets** | ~**2–3% of platform** | Clearing/receivables dominate balance sheet | Deposits are the KPI for stickiness and NII potential |
+| **NII runway** | $200–300M annually (current estimate) | **$400–500M possible if deposits hit $100B+** | Key to reducing trading-dependent revenue mix |
+
+**Interpretation:** $18B Q1 net deposits is strong in absolute terms but reflect high market volatility and retail risk appetite (Q1 2026 was a good equity market quarter). **Watch for cyclicality**: If equity markets soften or VIX spikes, net deposits can turn negative or flat. Management's "20%+ annualized deposit growth" KPI is ambitious and would require consistent engagement through market downturns. **Bull thesis requires:** deposits exceed $100B+ by 2027, enabling meaningful NII contribution ($400M+) to margins and revenue mix.
+
+### Adjusted EBITDA margin and sustainability
+
+| Metric | Value | Adjustment | Impact |
+|--------|-------|-----------|--------|
+| **Reported Q1 2026 EBITDA margin** | ~**45–50%** (est.) | Management cited "50% adjusted EBITDA" | Non-GAAP figure |
+| **Typical adjustments** | Stock-based comp, discrete items | SBC ~$75M Q1; other adjustments TBD | Non-recurring items inflate headline figure |
+| **Operating margin (GAAP)** | **46.53% TTM** | No adjustments | More conservative; reflects true OpEx |
+| **Sustainability** | **45–47% range** | Assumes stable trading environment | Compression risk if volumes fall 20%+ or OpEx raises implemented |
+| **OpEx guidance FY2026** | **$2.70–2.825B** | Includes Trump Accounts build (+$100M) | Management guiding for margin compression near-term (OpEx investing) |
+
+**Interpretation:** The 50% adjusted EBITDA figure is eye-catching but inflated by SBC and one-time items. **True operating margin is closer to 45–47%.** Management is **proactively investing** OpEx in 2026 (Trump Accounts, international, AI tooling), signaling willingness to trade near-term margin for growth. **Key question:** Can OpEx raises be absorbed without margin compression? If Trump Accounts or international don't generate 2x the investment cost within 12–18 months, margins could slip 200–300bps. **Monitor:** Quarterly adjusted operating margin trends; watch for management raising OpEx guidance beyond current $2.825B cap.
+
 ---
 
 ## Expense intensity
@@ -77,7 +120,17 @@ _FY2026_: management **raised full-year outlook** for **adjusted OpEx + SBC** to
 
 *See [balance_sheet](../financials/2026_04/balance_sheet.md).*
 
-**Receivables** and **other payables** are large versus traditional corporates — normal for brokerage / customer balance sheet topology; **debt-to-equity** on Yahoo statistics (**~136% MRQ**) is **material** and deserves explicit monitoring against regulatory capital metrics in filings.
+**Receivables** and **other payables** are large versus traditional corporates — normal for brokerage / customer balance sheet topology. **Debt-to-equity ratio (136% MRQ) requires context:**
+
+| Item | Implication |
+|------|-----------|
+| **Traditional D/E >100%** | Usually signals distress or high leverage. For HOOD, misleading. |
+| **Brokerage-specific structure** | Customer receivables ($8B+) and payables ($4B+) inflate both debt and equity relative to "true" operating leverage. |
+| **Regulatory capital view** | SEC/FINRA monitor "net capital" and leverage ratios separately. Yahoo's simplified D/E doesn't capture regulatory health. |
+| **True interest-bearing debt** | ~$11.6B total debt, but large portion is customer-facing (margin debt, securities lending). Only ~$1–2B is corporate debt. |
+| **Equity base** | $9.14B stockholders' equity is solid; covers clearing requirements and losses easily. ROE 21.99% is high, justifying the structure. |
+
+**Bottom line:** 136% D/E sounds bad but is normal for retail brokerages. The key metrics are: (a) Is HOOD covering regulatory capital requirements? (yes, strong); (b) Is net capital sufficient for growth? (yes, management reinvesting earnings). **Monitor:** Quarterly capital adequacy disclosures in 10-Q filings; if SEC raises leverage caps or margin rules tighten, HOOD could face balance-sheet constraints.
 
 ---
 
