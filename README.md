@@ -43,11 +43,11 @@ _Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVC
 
 ## Data Access Strategy: SEC EDGAR via Obscura
 
-**Problem:** SEC blocks standard HTTP tools (curl, wget) and web scrapers for automated access.
+**Reality check:** EDGAR’s **`data.sec.gov` submissions JSON** and static **`Archives`** URLs often work with **`curl`** if you send a **descriptive `User-Agent`** (SEC expects identification — include contact info). Some browse/HTML flows still behave like bot traps; **Obscura** remains the fallback when plain HTTP fails.
 
-**Solution:** Use **Obscura headless browser** to bypass SEC bot detection while respecting rate limits.
+**Primary scripted path validated here:** submissions API → build Archives URL → `curl -L -o …` for the **primary iXBRL `.htm`** (see below). Use **Obscura** for browse-edgar listing pages, interactive shells, or when Archives rejects your client.
 
-### Quick Reference
+### Quick Reference (Obscura)
 
 ```bash
 # 1. Find company CIK by name
@@ -62,6 +62,42 @@ obscura fetch "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=00
 obscura fetch "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000141/0001477333-25-000141.txt" \
   --stealth --dump text --wait 8000
 ```
+
+### Downloading the primary 10-Q iXBRL `.htm` with curl
+
+Modern filings expose the financial statements as **one primary HTML/iXBRL file** named in **`primaryDocument`** (e.g. `cloud-20250930.htm` for Cloudflare NET).
+
+**1. Pull filings metadata** — CIK must appear as **10 digits** in the URL (`CIK0001477333.json`; strip leading zeros from the ticker lookup CIK when building the path).
+
+```bash
+curl -sS -A "YourOrg ResearchBot contact@example.com" \
+  -H "Accept: application/json" \
+  "https://data.sec.gov/submissions/CIK0001477333.json" \
+  -o /tmp/submissions.json
+```
+
+**2. Find the latest 10-Q row** — In `filings.recent`, the arrays `form`, `accessionNumber`, `filingDate`, and **`primaryDocument`** line up by index. Pick the entry where `form` is `10-Q` (often the first in chronological order depending on list sorting; verify `filingDate`).
+
+Example row used in-repo testing: accession **`0001477333-25-000141`**, primary doc **`cloud-20250930.htm`**, filed **2025-10-30**.
+
+**3. Build the Archives URL**
+
+```
+https://www.sec.gov/Archives/edgar/data/{CIK}/{ACCESSION_NO_DASHES}/{PRIMARY_DOCUMENT}
+```
+
+- **`CIK`**: numeric CIK **without** leading zero padding (e.g. `1477333`).
+- **`ACCESSION_NO_DASHES`**: accession with **hyphens removed** (e.g. `0001477333-25-000141` → `000147733325000141`).
+
+**4. Download the file**
+
+```bash
+curl -sS -L -A "YourOrg ResearchBot contact@example.com" \
+  "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000141/cloud-20250930.htm" \
+  -o /tmp/cloudflare_NET_10q_20250930_primary.htm
+```
+
+`-L` follows redirects; output is typically **~2 MB** for a primary iXBRL 10-Q. Save under the ticker’s `*/quarterly/` folder when committing to this repo.
 
 ### Performance & Reliability
 - **Success Rate:** 100% (tested with Cloudflare, 19+ filings)
@@ -79,11 +115,82 @@ obscura fetch "https://www.sec.gov/Archives/edgar/data/1477333/00014773332500014
 - **iXBRL format** — SEC uses Inline XBRL (structured XML markup)
 - **Multiple documents per filing** — Instance, schemas, linkbases, presentations
 - **Context complexity** — Financial values tagged with period/date contexts
-- **Parsing requirement** — Extract from iXBRL requires XML/XBRL parser
+- **Parsing requirement** — Extract tagged facts with a dedicated iXBRL/XBRL tool (see **Parsing facts from SEC iXBRL filings** below)
+
+### Parsing facts from SEC iXBRL filings
+
+Primary financial 10-Q / 10-K documents on EDGAR are often a **single `.htm` file** mixing XHTML with **Inline XBRL** (`ix:*` tags). The following **Python** tools have been exercised successfully on that shape of file (e.g. Cloudflare `cloud-YYYYMMDD.htm`).
+
+#### How to think about iXBRL (checklist)
+
+1. **Download** — Resolve **`primaryDocument`** from submissions JSON; **`curl`** the Archives URL (see above).
+2. **Extract facts** — **Use ixbrlparse CLI** (**do NOT attempt ElementTree or manual XML parsing** — XBRL namespace complexity makes it impractical). Rip tagged facts into rows (**ixbrlparse** CLI or [`scripts/export_ixbrl_readable.py`](scripts/export_ixbrl_readable.py)); avoid relying on rendered HTML tables alone.
+3. **Interpret** — Treat the file as a **flat fact store**, not three finished statements. Every value needs its **context**: instant vs duration period, axes/segments/dimensions. **Dedupe** rows that share a concept but differ by context. Cross-reference context IDs in facts to the `contexts` dict to identify period dates.
+4. **Represent** — For humans and LLMs, prefer **TSV / JSON fact lists** or curated markdown tables over dumping raw `.htm`.
+
+#### ixbrlparse (lightweight)
+
+**Install:** `pip install ixbrlparse`
+
+**Python API (typical):**
+
+```python
+from ixbrlparse import IXBRL
+
+ix = IXBRL.open("/path/to/cloud-20250930.htm")
+print(len(ix.numeric), "numeric facts")
+# ix.non_numeric, ix.contexts, etc.
+```
+
+**CLI (Validated 2026-05-01):** The correct syntax is **options first, then input file**. Do NOT pipe stdin; instead use the positional argument:
+
+```bash
+ixbrlparse --format json --outfile /tmp/facts.json /path/to/cloud-20250930.htm
+```
+
+This works with ixbrlparse 0.11.2+. Expect **warnings** for some SEC-specific `ixt-sec:*` formats (e.g., date-month-day); numeric facts and most data still extract cleanly. **Success:** parsed Datadog Q3 2025 10-Q in <1 second, extracted 933 numeric facts.
+
+**JSON output structure:**
+```json
+{
+  "schema": "...",
+  "contexts": {"c-1": {...}, "c-10": {...}},  // Maps context ID to periods
+  "numeric": [
+    {"name": "RevenueFromContractWithCustomer", "value": 885651000.0, "context": "c-10", ...},
+    ...
+  ]
+}
+```
+Cross-reference `context` ID in each fact to `contexts` dict to get period dates.
+
+**Repo helper — readable text or JSON:** [`scripts/export_ixbrl_readable.py`](scripts/export_ixbrl_readable.py) turns any primary-document **iXBRL `.htm`** into **tab-separated facts** (default) or **pretty JSON** — tuned for grep / LLM chunks / archiving beside `*/quarterly/`.
+
+```bash
+pip install -r scripts/requirements-ixbrl.txt
+python3 scripts/export_ixbrl_readable.py --format text path/to/cloud-20250930.htm
+python3 scripts/export_ixbrl_readable.py --format json -o facts.json path/to/cloud-20250930.htm
+```
+
+#### Arelle (full XBRL processor)
+
+**Install:** `pip install arelle-release`
+
+**CLI — intended pattern (`--facts`):**
+
+```bash
+python3 -m arelle.CntlrCmdLine \
+  -f /path/to/cloud-20250930.htm \
+  --facts /tmp/facts.csv
+```
+
+**Caveat (validated on repo machines, Cloudflare primary iXBRL):** **`--facts` CSV was unusable** (effectively single-column garbage). **`--facts` JSON** and **`--factTable`** did not produce a clean fact/value listing either in those runs. **Use ixbrlparse or `export_ixbrl_readable.py` first** for LLM-ready fact extraction; keep Arelle for DTS-heavy workflows or taxonomy debugging if you find a CLI combo that works on your filing.
+
+Arelle may still emit **info** messages about missing taxonomy references for brand-new concepts.
 
 ### See Also
 - **[OBSCURA_SEC_EDGAR_RESULTS.md](OBSCURA_SEC_EDGAR_RESULTS.md)** — Detailed test results and workflow
 - **[OBSCURA.md](OBSCURA.md)** — Full Obscura documentation with examples
+- **[FINANCIAL_DATA_SOURCES.md](FINANCIAL_DATA_SOURCES.md)** — APIs, scraping patterns, iXBRL parsing summary
 - **Ticker `*/quarterly/FILINGS_MANIFEST.md`** — Filed 10-Q history for each company
 
 ## Valuation Metrics Summary

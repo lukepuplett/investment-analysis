@@ -28,6 +28,68 @@ The SEC Form 10-Q contains almost everything needed for investment analysis. See
 3. **Tertiary:** Earnings call transcripts (manual, quarterly)
 4. **Optional:** Stock metrics APIs, news aggregators
 
+### Parsing SEC Inline XBRL (primary `.htm` 10-Q / 10-K)
+
+Validated approaches on repo-standard machines:
+
+| Tool | Install | Typical use |
+|------|---------|-------------|
+| **ixbrlparse** | `pip install ixbrlparse` | **Default for fact lists.** Python API `IXBRL.open(path)` or CLI with **`--format`** and **stdin** (avoid `-f` for file paths — it maps to **`--format`**). Pair with **`scripts/export_ixbrl_readable.py`** for TSV/JSON tuned for grep / LLMs. |
+| **Arelle** | `pip install arelle-release` | Full DTS processor; **`--facts` exports failed repo smoke tests on Cloudflare primary iXBRL** — see README → **Parsing facts** → **Arelle caveat**. |
+
+Full workflow (mental model + copy-paste): **[README.md](README.md)** → **Data Access Strategy: SEC EDGAR via Obscura** → **Parsing facts from SEC iXBRL filings**.
+
+### ✅ Tested iXBRL Parsing Workflow (Validated 2026-05-01)
+
+**Problem:** ElementTree and manual XML parsing cannot extract facts from iXBRL—the namespace complexity requires a specialized parser.
+
+**Solution:** Use `ixbrlparse` CLI with JSON output.
+
+**Step 1: Download 10-Q iXBRL filing**
+```bash
+# Get CIK, accession, primaryDocument from SEC EDGAR API (see below)
+curl -sS -L -A "Investment Research Bot contact@example.com" \
+  "https://www.sec.gov/Archives/edgar/data/{CIK}/{ACCESSION_NO_HYPHENS}/{PRIMARY_DOCUMENT}" \
+  -o filing.htm
+```
+
+**Step 2: Parse with ixbrlparse**
+```bash
+# Options first, then input file
+ixbrlparse --format json --outfile facts.json filing.htm
+```
+
+**Step 3: Extract facts from JSON**
+```python
+import json
+with open('facts.json') as f:
+    data = json.load(f)
+
+# Numeric facts (revenue, income, etc.)
+numeric = data['numeric']  # List of {name, value, context, unit, ...}
+
+# Find a specific fact
+revenue = [f for f in numeric if 'RevenueFromContractWithCustomer' in f['name']]
+# Output: [{'name': '...', 'value': 885651000.0, 'context': 'c-10', ...}]
+
+# Cross-reference context to get period
+contexts = data['contexts']
+period = contexts['c-10']  # {'entity': {...}, 'startdate': '2025-07-01', 'enddate': '2025-09-30', ...}
+```
+
+**Why this works:**
+- ixbrlparse handles XBRL namespace resolution automatically
+- JSON output maps facts to contexts (periods) by ID
+- Each fact has `{name, value, context, unit}` — cross-reference `context` to `contexts` dict to get period dates
+- Success: parsed Datadog Q3 2025 10-Q in <1 second, extracted 933 numeric facts
+
+**Example output (Datadog Q3 2025):**
+| Fact | Value | Period |
+|------|-------|--------|
+| RevenueFromContractWithCustomerExcludingAssessedTax | 885,651,000 | Q3 2025 (7/1-9/30) |
+| GrossProfit | 709,194,000 | Q3 2025 |
+| NetIncomeLoss | 33,885,000 | Q3 2025 |
+
 ---
 
 ## ✅ WORKING NOW: Financial Modeling Prep
@@ -55,7 +117,7 @@ curl "https://financialmodelingprep.com/stable/income-statement?symbol=INTC&apik
 | Data | Source | Method | Freshness |
 |------|--------|--------|-----------|
 | **Company info, CIK, filings list** | SEC EDGAR API | `curl https://data.sec.gov/submissions/CIK{cik}.json` | 48h after filing |
-| **Financial statements** | SEC 10-Q/10-K HTML | Obscura fetch + HTML parsing | 48h after filing |
+| **Financial statements** | SEC 10-Q/10-K iXBRL `.htm` | Submissions JSON + `curl` to Archives URL (+ ixbrlparse / export script); Obscura fallback | 48h after filing |
 | **Material events** | SEC 8-K filings | SEC EDGAR API | Real-time |
 | **Macro data** | Federal Reserve FRED | API: `https://api.stlouisfed.org/fred/series/GDP` | Monthly |
 
@@ -156,7 +218,33 @@ curl -H "User-Agent: Mozilla/5.0" \
   jq '.filings.recent | [.form, .filingDate, .accessionNumber] | transpose | map(select(.[0]=="10-Q")) | .[0:3]'
 ```
 
-**Fetch 10-Q document:**
+**Include `primaryDocument` when picking a filing** — In `filings.recent`, **`form`**, **`accessionNumber`**, **`filingDate`**, and **`primaryDocument`** are parallel arrays (same index `i`). Choose `i` where `form[i]=="10-Q"`, then read `accessionNumber[i]` and `primaryDocument[i]`.
+
+```bash
+# Peek first rows (adjust slice); identify index i for target 10-Q
+curl -sS -A "YourOrg ResearchBot contact@example.com" \
+  "https://data.sec.gov/submissions/CIK0001477333.json" | \
+  jq '.filings.recent | {form: .form[0:15], accession: .accessionNumber[0:15], doc: .primaryDocument[0:15]}'
+```
+
+**Download primary 10-Q iXBRL `.htm` from Archives (curl)** — After you have **numeric CIK** (no zero-padding), **accession**, and **`primaryDocument`** from step above:
+
+```
+https://www.sec.gov/Archives/edgar/data/{CIK}/{ACCESSION_WITHOUT_HYPHENS}/{PRIMARY_DOCUMENT}
+```
+
+Example (Cloudflare NET, tested): accession `0001477333-25-000141`, primary `cloud-20250930.htm`:
+
+```bash
+curl -sS -L -A "YourOrg ResearchBot contact@example.com" \
+  "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000141/cloud-20250930.htm" \
+  -o /tmp/cloudflare_10q.htm
+```
+
+Full narrative: **[README.md](README.md)** → **Downloading the primary 10-Q iXBRL `.htm` with curl**.
+
+**Fetch/browse filings HTML via Obscura** (when browse-edgar or curl misbehaves):
+
 ```bash
 timeout 8 ~/Git/Hub/obscura/target/release/obscura fetch \
   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q" \
