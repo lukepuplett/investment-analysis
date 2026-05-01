@@ -447,6 +447,46 @@ When creating or updating financial statistics documents (e.g., yahoo_stats.md):
 
 *Abbreviations: MRQ = Most Recent Quarter, TTM = Trailing Twelve Months, YoY = Year over Year*
 
+### Trend Indicators for Time-Series Tables
+
+Use directional arrows in a "Trend" column for historical metric tables to enable quick pattern recognition without reading every value. This reduces cognitive load and highlights direction/severity at a glance.
+
+**Standard Indicators:**
+- `↗` = Improving / Growing / Positive trend
+- `↘` = Declining / Shrinking / Negative trend  
+- `→` = Stable / Flat / No material change
+- `⚠️` = Watch / Caution / Unexpected change
+- `✅` = On Track / Positive momentum
+- `❌` = Off Track / Negative deviation
+
+**Example: Path to Profitability (Multi-Year View)**
+
+| Metric | TTM | 2024 | 2023 | 2022 | Trend |
+|--------|-----|------|------|------|-------|
+| **Revenue** | $2,167M | $1,670M | $1,297M | $975M | ↗ Growing |
+| **Gross Profit** | $1,615M | $1,291M | $990M | $743M | ↗ Growing faster |
+| **Gross Margin** | 74.5% | 77.3% | 76.4% | 76.1% | ↘ Slight compression |
+| **Operating Loss** | ($207M) | ($155M) | ($185M) | ($201M) | ↗ **Improving** |
+| **Operating Margin** | -9.6% | -9.3% | -14.3% | -20.6% | ↗ **Path clear** |
+| **EBITDA** | $105.8M | $62M | ($36M) | ($83M) | ↗ **Inflection point** |
+| **EBITDA Margin** | 4.88% | 3.7% | (2.8%) | (8.5%) | ↗ **Positive trend** |
+| **Net Loss** | ($102M) | ($79M) | ($184M) | ($193M) | ↗ **Improving** |
+| **Net Margin** | -4.7% | -4.7% | -14.2% | -19.8% | ↗ **Converging** |
+
+**Why This Works:**
+1. **Eliminates eye-scanning:** Reader doesn't need to compare 4 numbers to spot the trend
+2. **Highlights narrative:** Operating loss improving from ($201M) → ($207M) is counterintuitive at first glance; arrow + bold clarifies it's trending the right direction
+3. **EBITDA inflection is obvious:** One arrow shows the complete story: negative → positive (in just 2 years)
+4. **Margin compression is visible:** Even though gross profit growing faster, the ↘ on margin flags a potential concern worth investigating
+5. **Executive-friendly:** C-suite can scan table in 10 seconds vs. 30 seconds reading every value
+
+**When to Use:**
+- Any metric tracked over 3+ periods (years, quarters)
+- Financial analysis documents (P&L, balance sheet trends)
+- Risk assessment (risk severity trending up/down)
+- Thesis coherence checks (confidence levels, status changes)
+- Avoid: One-time snapshots or single-period metrics (no trend data)
+
 ### General Document Guidelines
 1. Use clear hierarchical headers (##, ###)
 2. Maintain consistent spacing between sections
