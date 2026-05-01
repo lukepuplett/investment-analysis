@@ -884,280 +884,63 @@ The delta document captures material changes since the last analysis round. It s
 - Store raw data in quarterly/ before analysis
 - Create complete documentation for each analysis session
 
-## Web Scraping & Data Acquisition Framework
+## Data Collection & Financial Data Access
 
-### ⭐ RECOMMENDED: Obscura + SEC EDGAR (Verified Working - 2026-04-30)
+### Quick Reference
 
-**For accessing SEC filings, use Obscura headless browser.** It bypasses SEC's bot detection and works reliably where direct HTTP fails.
+**Primary approach:** Use Obscura headless browser to fetch SEC 10-Q filings (bypasses bot detection), then parse with SEC EDGAR APIs.
 
-#### Quick Workflow
+### Detailed Guides
+
+See the following dedicated documents for complete information:
+
+1. **[OBSCURA.md](OBSCURA.md)** — Obscura headless browser setup and usage
+   - Quick start commands
+   - All CLI options and features
+   - Real-world test results (SEC EDGAR, Yahoo Finance, Seeking Alpha)
+   - Troubleshooting and when to use alternatives
+
+2. **[OBSCURA_SEC_EDGAR_RESULTS.md](OBSCURA_SEC_EDGAR_RESULTS.md)** — SEC EDGAR integration testing (verified working 2026-04-30)
+   - Filing discovery and download workflow
+   - 19+ Cloudflare 10-Q filings retrieved successfully (2-5 sec per request)
+   - XBRL-formatted output contains complete financial statements
+   - Performance benchmarks and reliability metrics
+
+3. **[DATA_COLLECTION_STRATEGY.md](DATA_COLLECTION_STRATEGY.md)** — Practical workflow for quarterly financial updates
+   - Three-phase data collection process (SEC EDGAR → APIs → manual supplements)
+   - Recommended tools ranked by reliability (free APIs, no auth required)
+   - Implementation roadmap with effort estimates
+   - Data collection by company type (large cap, growth/mid-cap)
+
+4. **[FINANCIAL_DATA_SOURCES.md](FINANCIAL_DATA_SOURCES.md)** — Reference for data sources and APIs
+   - Complete breakdown of what's in each 10-Q filing
+   - Tier 1 sources (free, no auth): SEC EDGAR JSON API, Obscura fetch
+   - Tier 2 sources (free signup): Alpha Vantage, Financial Modeling Prep, IEX Cloud
+   - Transcript collection strategy (why NOT to scrape, where to get them free)
+   - Data validation results (FMP API vs Yahoo Finance cross-checks)
+
+### Key Concepts
+
+- **10-Q is your foundation:** Contains ~90% of what you need for investment analysis (financials, MD&A, risk factors, guidance)
+- **Obscura is reliable:** Works where curl/wget fail; 100% success rate on SEC EDGAR with stealth mode
+- **APIs are cleaner:** FMP, Alpha Vantage provide parsed financial data; less manual parsing
+- **XBRL is parseable:** Use standard Python libraries (lxml/ElementTree); no specialized parsers needed
+
+### Quick Workflow Example
+
 ```bash
-# 1. Find company CIK by name
-obscura fetch "https://www.sec.gov/cgi-bin/browse-edgar?company=cloudflare&owner=exclude&action=getcompany" \
+# 1. Find company CIK
+obscura fetch "https://www.sec.gov/cgi-bin/browse-edgar?company=INTC" \
   --dump text | grep "CIK#"
 
-# 2. Get all 10-Q filings
-obscura fetch "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001477333&type=10-Q&count=100" \
+# 2. Get latest 10-Q from SEC EDGAR
+obscura fetch "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q" \
   --dump html --wait 5000
 
-# 3. Download specific 10-Q document
-obscura fetch "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000141/0001477333-25-000141.txt" \
-  --stealth --dump text --wait 8000
+# 3. Download the filing
+obscura fetch "https://www.sec.gov/Archives/edgar/data/50863/...10q.txt" \
+  --stealth --dump text --wait 8000 > filing.txt
 ```
-
-**Results:** 
-- ✅ 19+ historical Cloudflare 10-Q filings retrieved successfully
-- ✅ Performance: 2-5 seconds per request
-- ✅ Bypass SEC bot detection via `--stealth` mode
-- ✅ XBRL-formatted output contains all financial statements
-
-**See: OBSCURA_SEC_EDGAR_RESULTS.md for complete test results and workflow**
-
----
-
-### Legacy: Three-Phase Scraping System
-
-Production-ready three-phase scraping system for collecting financial data and research materials:
-
-### Phase 1: HTML Acquisition - `acquire-html.js`
-
-**Smart URL downloader with intelligent blocker detection**
-
-```bash
-node acquire-html.js \
-  --output ./output_dir \
-  --urls "url1,url2,url3" \
-  [--initial "url_for_initial_load"] \
-  [--modal <strategy>]
-```
-
-**Key Features:**
-- ✅ Smart blocker detection (CAPTCHA, bot detection, access denied, privacy modals)
-- ✅ Waits intelligently for blocking UI to disappear
-- ✅ Detects when real content appears and auto-continues
-- ✅ URL-based modal strategy selection (wait-for-accept, auto-click, detect, none)
-- ✅ Handles JavaScript-rendered content with real Chrome
-- ✅ Creates manifest.json with download log
-
-**Modal Strategies:**
-- `wait-for-accept` - Waits for user to manually click (Yahoo Finance, LinkedIn)
-- `auto-click` - Tries to auto-click Accept button (Facebook, generic modals)
-- `detect` - Smart detection and fallback to auto-click
-- `none` - Skip modal handling (SEC, company IR pages)
-- `auto` - Auto-detect per URL domain (default)
-
-**Example:**
-```bash
-# Auto-detect strategy per URL
-node acquire-html.js --output ./data --initial "https://finance.yahoo.com/quote/CVCO" \
-  --urls "https://finance.yahoo.com/quote/CVCO,https://www.sec.gov/cgi-bin/browse-edgar?..."
-
-# Force wait-for-accept strategy
-node acquire-html.js --output ./data --urls "https://finance.yahoo.com/..." --modal wait-for-accept
-
-# Skip modals (SEC EDGAR, company IR)
-node acquire-html.js --output ./data --urls "https://www.sec.gov/...,https://company.com" --modal none
-```
-
-### Phase 2: HTML Refinement - `lib-html-refiner.js`
-
-**Strips HTML noise and extracts clean content structure**
-
-```bash
-node lib-html-refiner.js input.html output_refined.json
-```
-
-**Outputs:**
-- Clean text content (scripts, styles, nav removed)
-- Extracted tables with row/cell structure
-- Navigation URLs (internal + external classified)
-- Main content section
-- Metadata and statistics
-
-**Results Format:**
-```json
-{
-  "metadata": { "stats": { "tableCount": 5, "navUrlCount": 45 } },
-  "content": { "text": "...", "tables": [...], "mainContent": "..." },
-  "navigation": { "urls": [...] }
-}
-```
-
-### Phase 3: Financial Data Extraction - `lib-financial-extractor.js`
-
-**Extract financial metrics from refined HTML**
-
-```javascript
-const extractor = new FinancialExtractor();
-const data = extractor.extractFromHTML(html, 'yahoo-finance');
-```
-
-**Supports:**
-- Yahoo Finance format (price, PE, EPS, beta, market cap, etc.)
-- Extensible for other financial sources
-
-### Workflow for Investment Analysis
-
-**Step 1: Acquire Raw HTML**
-```bash
-node acquire-html.js \
-  --output ./CVCO/financials/2025_02/raw_html \
-  --initial "https://finance.yahoo.com/quote/CVCO" \
-  --urls "https://finance.yahoo.com/quote/CVCO,https://finance.yahoo.com/quote/CVCO/analysis"
-```
-
-**Step 2: Refine HTML to Extract Structure**
-```bash
-node lib-html-refiner.js ./raw_html/quote__cvco.html ./refined/quote_refined.json
-```
-
-**Step 3: Extract Financial Data**
-```javascript
-const data = extractor.extractFromHTML(refinedData.content.text, 'yahoo-finance');
-```
-
-**Step 4: Acquire Additional Sources**
-```bash
-# SEC filings
-node acquire-html.js --output ./sec_docs --urls "https://www.sec.gov/..." --modal none
-
-# Earnings transcripts (handles bot detection intelligently)
-node acquire-html.js --output ./transcripts --urls "https://seekingalpha.com/..." --modal detect
-```
-
-**Step 5: Create Analysis Documents**
-- Use acquired and refined data for the 7 required analysis documents
-- Follow directory structure in AGENTS.md
-
-### Key Capabilities
-- ✅ Intelligent blocker detection (CAPTCHA, modals, rate limiting, access denied)
-- ✅ Auto-waits for blocking UI to disappear, continues when real content appears
-- ✅ Works on any website (financial sites, SEC EDGAR, company IR, news sites)
-- ✅ Handles JavaScript-rendered content with real Chrome
-- ✅ Extracts clean content + navigation + tables from ANY page
-- ✅ Specialized financial data extraction available
-- ✅ Manifest tracking (what succeeded/failed per URL)
-
----
-
-## Data Access Strategy - Complete Workflow (2026-04-30)
-
-### ✅ What Works: Obscura + SEC EDGAR + XBRL Parsing
-
-**Tested and Verified:**
-- ✅ **Retrieval:** 100% success rate via Obscura (19+ Cloudflare 10-Qs retrieved, 2-5 sec/request)
-- ✅ **XBRL Parsing:** Standard libraries (lxml, ElementTree) parse hidden XBRL perfectly
-- ✅ **Fact Extraction:** 1,000+ financial facts extractable per 10-Q
-- ✅ **Production-Ready:** Complete workflow documented, tested, automatable
-
-**Key Discovery:** iXBRL contains **pure XML `<ix:hidden>` section** + inline XBRL facts. Both parseable with standard Python libraries (no specialized XBRL parsers needed).
-
-### 📋 Agent Workflow: Parse 10-Q from Ticker
-
-**12-Step Process (Agent-Executable):**
-
-#### **1-3: Discovery Phase**
-1. Find CIK from ticker (Obscura search)
-2. Get filing list with dates (Obscura + parse HTML)
-3. Filter to target quarter/year
-
-#### **4: Retrieval Phase**
-4. Download iXBRL HTML document (Obscura + stealth mode, ~2 sec)
-
-#### **5-9: Extraction Phase**
-5. Extract namespace declarations from HTML root
-6. Extract `<ix:hidden>` section (regex, pure XBRL)
-7. Parse hidden XBRL metadata (lxml/ElementTree)
-8. Extract context definitions (period mappings)
-9. Extract inline XBRL facts from HTML body (1,000+ facts)
-
-#### **10-12: Aggregation & Output Phase**
-10. Aggregate facts by statement type (Balance Sheet, Income Statement, Cash Flow)
-11. Format output (JSON, markdown, or CSV)
-12. Save to repo in standard directory structure
-
-**Expected Output:**
-```
-✅ net/financials/2025_09/balance_sheet.json
-✅ net/financials/2025_09/income_statement.json
-✅ net/financials/2025_09/cash_flow.json
-✅ net/quarterly/2025_Q3_10Q_parsed.json
-```
-
-### 🔧 Technical Details for Implementation
-
-**Libraries Required:**
-- `lxml` or `xml.etree.ElementTree` (XML parsing)
-- `regex` (pattern extraction)
-- Built-in `json` (output)
-
-**Key Patterns:**
-```python
-# Extract hidden section
-hidden = re.search(r'<ix:hidden>(.*?)</ix:hidden>', html, re.DOTALL).group(1)
-
-# Parse with namespace awareness
-ns = {'ix': 'http://www.xbrl.org/2013/inlineXBRL'}
-facts = root.xpath('.//ix:nonfraction', namespaces=ns)
-
-# Map contexts to periods
-for fact in facts:
-    context_id = fact.get('contextref')
-    period = contexts[context_id]  # Maps to Q3 2025, TTM, etc.
-```
-
-**Performance:**
-- Download: ~3 seconds (Obscura)
-- Parse & Extract: ~2 seconds (Python)
-- Total: ~5 seconds per 10-Q
-
-### 📊 Three-Tier Data Strategy (Hybrid)
-
-**Tier 1: SEC EDGAR via Obscura** ✅ AUTOMATED
-- Authoritative historical financials (5+ years)
-- 1,000+ facts per quarter
-- XBRL parsing complete, no manual work
-
-**Tier 2: Market Data (Current Valuations)**
-- Stock price, P/E, market cap
-- User pastes from Yahoo or API
-- Quick update before analysis
-
-**Tier 3: Qualitative Data**
-- Earnings transcripts, competitive intel
-- Manual collection as needed
-- Feeds into thesis validation
-
-### ✅ What Was Learned
-
-**XBRL is parseable:**
-- Hidden section = pure XML, parses with lxml/ElementTree
-- Inline facts = XML tags mixed in HTML, extractable via regex
-- Context mapping = period definitions in filing, deterministic lookup
-- No specialized XBRL parsers needed for basic extraction
-
-**Parser Testing Results:**
-- ✅ lxml: Works perfectly (4 numeric + 6 non-numeric facts extracted)
-- ✅ ElementTree: Works perfectly (standard library)
-- ❌ py-xbrl: API issues (abstract class)
-- ❌ ixbrl-parse: Import issues (but available)
-- ⚠️ fast_xbrl_parser: Designed for full SEC filings, overkill
-
-**Conclusion:** Build custom parser using lxml/ElementTree (100 lines) vs. debugging specialized libraries (1-2 hours). ROI strongly favors custom approach.
-
-### 🚀 Path Forward
-
-**Immediate (Next Sprint):**
-- Build 12-step parser in Python (~200 lines, modular)
-- Integrate with Obscura workflow
-- Test on 5 companies, multiple years
-- Validate output vs. SEC EDGAR
-
-**Scaling (After Validation):**
-- Batch processing (process multiple companies)
-- Caching layer (don't re-download)
-- Rate limit management (10 req/sec SEC limit)
-- Error recovery (retry logic, validation)
 
 ---
 
