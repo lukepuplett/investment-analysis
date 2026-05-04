@@ -36,15 +36,28 @@ company_ticker/
 │       ├── cashflow.md
 │       ├── income_statement.md
 │       └── yahoo_stats.md
-├── quarterly/                   # Raw quarterly data
-│   ├── YYYY_Q#_form_10Q.txt/.md
-│   ├── YYYY_Q#_presentation.txt/.md
-│   └── YYYY_Q#_press_release.txt
+├── quarterly/                   # Primary source: all period-specific documents
+│   ├── YYYY_Q#_10q.htm                    # SEC 10-Q iXBRL primary document
+│   ├── YYYY_Q#_10q_facts.json             # Extracted XBRL numeric facts
+│   ├── YYYY_Q#_md_and_a.txt               # Management Discussion & Analysis (text)
+│   ├── YYYY_Q#_earnings_call.txt          # Earnings call transcript (if available)
+│   ├── YYYY_Q#_investor_presentation.pdf  # Earnings presentation slides
+│   ├── YYYY_Q#_press_release.txt          # Company press release
+│   └── 10Q_EXTRACTION_SUMMARY.md          # Metadata on extraction process
 └── question_answers/            # Q&A documentation
     └── YYYY_MM_DD_topic.md
 ```
 
 ### Key Components
+
+**Quarterly Data Layer (quarterly/ folder)** — Single source of truth for all period-specific documents:
+- **10-Q filings** (iXBRL format) provide the authoritative financial statements and MD&A
+- **Extracted facts JSON** enables programmatic analysis and trend aggregation across quarters
+- **Earnings call transcripts** capture management tone, guidance, and Q&A beyond the written filing
+- **Investor presentations** add visual context and highlight management's narrative
+- **Press releases** provide initial guidance and key metrics before detailed filing release
+
+This folder is intentionally flat (not year/quarter subdirectories) for easy discovery and consistency across companies. Name files `YYYY_Q#_` for chronological sorting.
 
 **Analysis Framework**: This document contains the comprehensive investment analysis framework that governs all analysis in this repository. It defines:
 - Business model analysis standards
@@ -928,7 +941,9 @@ The delta document captures material changes since the last analysis round. It s
 
 ### Quick Reference
 
-**Primary approach:** Use Obscura headless browser to fetch SEC 10-Q filings (bypasses bot detection), then parse with SEC EDGAR APIs.
+**Downloading a 10-Q:** Prefer **`data.sec.gov/submissions/CIK…json`** + **`curl`** to **`www.sec.gov/Archives/edgar/data/.../{primaryDocument}`** with a descriptive **`User-Agent`** (see **[README.md](README.md)** → **Downloading the primary 10-Q iXBRL `.htm` with curl**). Use **Obscura** when browse-edgar or Archives blocks plain HTTP.
+
+**Parsing facts:** Prefer **ixbrlparse** or **`scripts/export_ixbrl_readable.py`** — iXBRL is a **flat fact store**: join **value + period + segments (context)** and **dedupe**; export **TSV/JSON**, not raw HTML. **Arelle `--facts`** was **not usable** on tested primary filings — README → **Parsing facts** → **Arelle caveat**. Full checklist: README → **How to think about iXBRL (checklist)**.
 
 ### Detailed Guides
 
@@ -954,7 +969,7 @@ See the following dedicated documents for complete information:
 
 4. **[FINANCIAL_DATA_SOURCES.md](FINANCIAL_DATA_SOURCES.md)** — Reference for data sources and APIs
    - Complete breakdown of what's in each 10-Q filing
-   - Tier 1 sources (free, no auth): SEC EDGAR JSON API, Obscura fetch
+   - Tier 1 sources (free, no auth): SEC submissions JSON + Archives curl, Obscura fallback
    - Tier 2 sources (free signup): Alpha Vantage, Financial Modeling Prep, IEX Cloud
    - Transcript collection strategy (why NOT to scrape, where to get them free)
    - Data validation results (FMP API vs Yahoo Finance cross-checks)
@@ -962,22 +977,33 @@ See the following dedicated documents for complete information:
 ### Key Concepts
 
 - **10-Q is your foundation:** Contains ~90% of what you need for investment analysis (financials, MD&A, risk factors, guidance)
-- **Obscura is reliable:** Works where curl/wget fail; 100% success rate on SEC EDGAR with stealth mode
+- **Obscura as fallback:** Works when browse-edgar or Archives rejects plain HTTP; full-browser fetch paths documented in **[OBSCURA.md](OBSCURA.md)**.
 - **APIs are cleaner:** FMP, Alpha Vantage provide parsed financial data; less manual parsing
-- **XBRL is parseable:** Use standard Python libraries (lxml/ElementTree); no specialized parsers needed
+- **Primary 10-Q file:** Resolve **`primaryDocument`** from **`data.sec.gov/submissions/CIK….json`**, build **`Archives`** URL (hyphen-free accession segment), **`curl -L -o`** with a descriptive **`User-Agent`** — see **[README.md](README.md)** (*Downloading the primary 10-Q iXBRL `.htm` with curl*).
+- **iXBRL fact extraction:** Treat filings as **tagged fact databases**, not finished statements — always interpret with **context** (period + dimensions). Prefer **ixbrlparse** + **[README.md](README.md)** checklist; **`scripts/export_ixbrl_readable.py`** for TSV/JSON. **Arelle** remains documented for DTS-heavy cases but **`--facts` output failed smoke tests** on sample primary `.htm` — see README **Arelle caveat**. Ad hoc: **lxml/ElementTree** on `ix:hidden` / inline tags when you only need a few concepts.
 
 ### Quick Workflow Example
 
 ```bash
-# 1. Find company CIK
+# A) Curl path — primary iXBRL .htm (validated: Cloudflare NET, CIK 1477333)
+#    1) Metadata (CIK is zero-padded to 10 digits in this URL only):
+curl -sS -A "YourOrg ResearchBot contact@example.com" \
+  -H "Accept: application/json" \
+  "https://data.sec.gov/submissions/CIK0001477333.json" \
+  -o /tmp/submissions.json
+
+#    2) In filings.recent, pick index i where form[i]=="10-Q"; read accessionNumber[i], primaryDocument[i].
+#    3) Archives URL = https://www.sec.gov/Archives/edgar/data/{CIK}/{ACCESSION_NO_HYPHENS}/{PRIMARY_DOCUMENT}
+
+curl -sS -L -A "YourOrg ResearchBot contact@example.com" \
+  "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000141/cloud-20250930.htm" \
+  -o /tmp/cloudflare_NET_10q_20250930_primary.htm
+
+# B) Obscura fallback — browse-edgar listing / stubborn endpoints
 obscura fetch "https://www.sec.gov/cgi-bin/browse-edgar?company=INTC" \
   --dump text | grep "CIK#"
-
-# 2. Get latest 10-Q from SEC EDGAR
 obscura fetch "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q" \
   --dump html --wait 5000
-
-# 3. Download the filing
 obscura fetch "https://www.sec.gov/Archives/edgar/data/50863/...10q.txt" \
   --stealth --dump text --wait 8000 > filing.txt
 ```

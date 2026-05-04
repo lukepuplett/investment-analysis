@@ -1,0 +1,2 @@
+# For scripts/export_ixbrl_readable.py
+ixbrlparse>=0.11

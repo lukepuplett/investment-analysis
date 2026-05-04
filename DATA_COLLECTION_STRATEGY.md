@@ -63,8 +63,9 @@ curl -H "User-Agent: Mozilla/5.0" \
 **Rate Limits:** Reasonable, per SEC usage guidelines
 
 #### SEC EDGAR Document Download
-**What:** Raw 10-Q, 10-K documents (HTML/text)  
-**Via:** Obscura (already working)  
+**What:** Raw 10-Q, 10-K documents (HTML/text), especially the **primary iXBRL `.htm`** instance  
+**Via:** Prefer **`curl`** against **`Archives`** once you know `primaryDocument` from the submissions JSON; use **Obscura** when browse pages or Archives reject automated clients  
+
 **Provides:**
 - Complete financial statements
 - Management discussion & analysis
@@ -72,14 +73,65 @@ curl -H "User-Agent: Mozilla/5.0" \
 - Forward guidance
 - Segment breakdown
 
-**Example:**
+**Discover filing + primary filename:** `GET https://data.sec.gov/submissions/CIK{cik10}.json` with a descriptive **`User-Agent`**. In `filings.recent`, align **`form`**, **`accessionNumber`**, **`primaryDocument`**, **`filingDate`** by array index and select **`10-Q`**.
+
+**Download primary document:**
+
+```
+https://www.sec.gov/Archives/edgar/data/{CIK}/{ACCESSION_NO_DASHES}/{PRIMARY_DOCUMENT}
+```
+
+- `{CIK}` = issuer CIK **without** leading-zero padding (e.g. `1477333`).
+- `{ACCESSION_NO_DASHES}` = accession with hyphens removed (e.g. `0001477333-25-000141` → `000147733325000141`).
+
+```bash
+curl -sS -L -A "YourOrg ResearchBot contact@example.com" \
+  "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000141/cloud-20250930.htm" \
+  -o /tmp/example_10q.htm
+```
+
+Step-by-step: **[README.md](README.md)** (*Downloading the primary 10-Q iXBRL `.htm` with curl*).
+
+**Browse filing index HTML (Obscura fallback):**
+
 ```bash
 obscura fetch "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q&count=5"
 ```
 
+#### After download: extract XBRL facts from iXBRL `.htm`
+
+Primary statements are usually **Inline XBRL** (one HTML file). Use either:
+
+- **ixbrlparse** — `pip install ixbrlparse`; CLI: `python3 -m ixbrlparse --format json --fields all < filing.htm > facts.json` (prefer stdin so `-f` does not collide with `--format`). **Preferred default** for fact rows / LLM chunks.
+- **Arelle** — `pip install arelle-release`; full DTS processor. **`--facts` CSV/JSON was not usable on tested Cloudflare primary `.htm`;** see README caveat — try ixbrlparse / `scripts/export_ixbrl_readable.py` first.
+
+See **[README.md](README.md)** → **Data Access Strategy** → **Parsing facts from SEC iXBRL filings** for mental model, API snippets, and Arelle notes.
+
 **Data Quality:** ⭐⭐⭐⭐⭐ (Official financial statements)  
 **Effort:** Medium (requires parsing)  
 **Rate Limits:** None specified by SEC
+
+#### Extract MD&A and risk factors (text content) from iXBRL
+
+The same `.htm` file contains **Management Discussion & Analysis (MD&A)** — typically 20-30 pages of prose covering business strategy, results discussion, risks, and forward guidance. ixbrlparse extracts only numeric facts; text content requires separate extraction.
+
+**Quick extraction (grep-based):**
+```bash
+# Extract all text between <body> tags; remove markup
+curl -s "https://www.sec.gov/Archives/edgar/data/51143/.../ibm-20260331.htm" | \
+  sed -n '/<body/,/<\/body>/p' | \
+  sed 's/<[^>]*>//g' | \
+  sed '/^[[:space:]]*$/d' > ibm_q1_2026_md_and_a.txt
+```
+
+**Better: Save alongside facts JSON**
+- Store as `{ticker}_Q{quarter}_{year}_md_and_a.txt` in `quarterly/`
+- MD&A provides context for numeric trends (e.g., "revenue grew due to Confluent acquisition")
+- Risk factors section flags forward-looking exposures not visible in financials alone
+
+**Data Quality:** ⭐⭐⭐⭐ (Official management commentary)  
+**Effort:** Low (simple text extraction)  
+**Completeness:** ~30% of valuable 10-Q signal is non-numeric
 
 ---
 
@@ -128,16 +180,16 @@ curl "https://financialmodelingprep.com/api/v3/quote/INTC?apikey=YOUR_KEY"
 ### Phase 1: Quarterly Financial Update (Time: ~30 min per company)
 
 ```
-1. Get latest 10-Q from SEC API
-   - Query: https://data.sec.gov/submissions/CIK{cik}.json
-   - Extract: Most recent 10-Q accession number & date
+1. Get latest 10-Q metadata from SEC submissions JSON
+   - Query: https://data.sec.gov/submissions/CIK{cik_padded10}.json (descriptive User-Agent)
+   - Extract: filing row where form=="10-Q" → accessionNumber, filingDate, primaryDocument
 
-2. Download 10-Q document
-   - Use Obscura to fetch HTML from SEC EDGAR
+2. Download primary iXBRL instance
+   - Build Archives URL (numeric CIK, accession without hyphens, primaryDocument filename)
+   - curl -L -o … (same User-Agent); Obscura fallback if blocked — see README
 
-3. Parse financial statements
-   - Extract tables: Income Statement, Balance Sheet, Cash Flow
-   - Format to: financials/YYYY_MM/*.md
+3. Parse financial facts (optional structured extraction)
+   - Prefer **ixbrlparse** or **`scripts/export_ixbrl_readable.py`** on the `.htm` (flat facts → filter by period/segment); transcribe key lines into financials/YYYY_MM/*.md; Arelle optional — see README **iXBRL caveat**
 
 4. Fetch stock metrics
    - Use Alpha Vantage or FMP API
@@ -188,6 +240,38 @@ curl "https://financialmodelingprep.com/api/v3/quote/INTC?apikey=YOUR_KEY"
 
 ---
 
+## Data Validation Checklist
+
+After extracting XBRL facts from a 10-Q, validate completeness before using in analysis. Cross-check against a second source (Yahoo Finance API, FMP API, or already-collected Yahoo stats).
+
+**Extraction Completeness (per quarter):**
+- [ ] Fact count is >1,000 (IBM Q1 2026: 1,517; Q3 2025: 2,288)
+- [ ] Revenue fact exists and matches Yahoo/API within 1% (consolidated)
+- [ ] Net income fact exists and matches within 2% (non-GAAP adjustments create variance)
+- [ ] Total assets and liabilities extracted (balance sheet snapshot)
+- [ ] Operating, investing, and financing cash flow facts present
+
+**Example validation (IBM Q1 2026):**
+```
+XBRL Revenue (consolidated, Q1):     $15,917M
+Yahoo TTM Revenue / 4 quarters:       ~$17,227M (TTM ÷ 4 = estimate)
+Expected variance:                     ~10% (TTM ÷ 4 is rough; actual Q1 can differ)
+
+XBRL Net Income (Q1):                 $1,216M
+Yahoo TTM Net Income / 4:             ~$2,689M
+Expected variance:                     ~20% (seasonality, one-time items)
+```
+
+**When to halt and re-extract:**
+- Revenue missing entirely
+- Consolidated and all-segment revenues don't sum to total
+- Cash flow components negative when they should be positive (sign error in parsing)
+- Facts count <500 (likely incomplete parsing)
+
+**Action:** Validate one metric (revenue or assets) every extraction run. If mismatch >5%, check filing for format changes or rerun ixbrlparse.
+
+---
+
 ## Implementation Roadmap
 
 ### ✅ Phase 1: Core System (Can start immediately)
@@ -198,9 +282,9 @@ curl "https://financialmodelingprep.com/api/v3/quote/INTC?apikey=YOUR_KEY"
 - Obscura (already built)
 
 **Build:**
-1. SEC EDGAR company fetcher (get CIK, recent filings)
-2. 10-Q document downloader (Obscura-based)
-3. Financial statement parser (extract tables from HTML)
+1. SEC EDGAR company fetcher (get CIK, recent filings from submissions JSON)
+2. 10-Q primary-document downloader (**curl** to Archives using `primaryDocument`; Obscura fallback)
+3. Financial statement workflow (ixbrlparse / `export_ixbrl_readable.py` facts → markdown; optional Arelle per README caveat)
 4. Format to your standards (financials/YYYY_MM/*.md)
 5. Stock metrics fetcher (Alpha Vantage free tier)
 
