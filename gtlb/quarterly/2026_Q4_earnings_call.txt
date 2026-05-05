@@ -1,0 +1,579 @@
+GitLab Inc. (GTLB) Q4 FY2026 Earnings Call Transcript
+Date: March 3, 2026, 4:30 PM EST
+Powered by Quartr
+
+KEY METRICS (Q4 FY2026)
+- Q4 Revenue: $260M (+23% YoY)
+- FY2026 Revenue: $955M (+26% YoY)
+- Free Cash Flow: $220M (+83% YoY)
+- ARR: >$1 billion milestone achieved
+- Net New ARR: Highest quarter and year ever
+
+PARTICIPANTS
+- Bill Staples, CEO
+- Jessica Ross, CFO (first earnings call in role)
+- Yao Xu, Moderator
+
+---
+
+OPENING REMARKS - BILL STAPLES, CEO
+
+Fiscal 2026 Highlights:
+- ARR surpassed $1 billion
+- Generated $220 million in free cash flow (up >80%)
+- Nearly 7 percentage points of margin expansion YoY
+- FY2026 and Q4 delivered highest absolute net new ARR year and quarter ever
+
+FY2027 Growth Outlook:
+"We aren't satisfied with our revenue growth guidance."
+
+Five Growth Strategies for FY2027:
+1. Reaccelerating first orders to fuel long-term expansion
+2. Scaling sales capacity with dedicated leadership and investment
+3. Expanding product packaging to unlock new monetization vectors
+4. Engaging price-sensitive customers with greater value and coverage
+5. Continuing to execute AI strategy aligned with core platform strengths
+
+FIRST ORDERS INFLECTION
+- Reversed long period of first order deceleration in FY2026
+- Sales-led first orders re-accelerating in Q2 FY26 after Ian joined
+- Product-led growth re-invigorated by Manav
+- First order logos inflected in October, four consecutive months of improvement
+- FY27: clear path to sustained acceleration in first orders
+
+Landmark Deal - Semiconductor Player:
+- One of the semiconductor industry's most strategic AI suppliers
+- Competitive evaluation against incumbent tooling and AI-powered alternatives
+- Chose GitLab Premium and GitLab Duo Enterprise for 5,000+ users
+- Validates unified platform and AI capabilities
+
+SALES CAPACITY EXPANSION
+- Increased headcount in FY2026
+- Entering FY2027 with more capacity than ever
+- Path to stronger ramped capacity beginning Q3 FY2027
+- Overhauled territory design to serve all segments and strengthen enablement
+
+PRODUCT INNOVATION & MONETIZATION
+- 172 consecutive months of new releases
+- Multiple new monetization opportunities planned each quarter:
+  * Artifact management
+  * Software supply chain security
+  * Integrated secrets management
+  * More to come (opt-in, a la carte offerings)
+- Expected modest FY2027 contribution, meaningful FY2028+ impact
+
+PRICING STRATEGY
+- 50% GitLab Premium price increase from three years ago coincided with:
+  * Rising AI code experimentation
+  * Flattish SaaS budgets
+  * Upmarket shift reduced technical resources at lower end
+- Result: Slowed GitLab Premium growth, particularly among price-sensitive customers (~20% of ARR)
+
+PRICE-SENSITIVE CUSTOMER RESPONSE (20% of ARR)
+- Launched AI product and platform (mid-January)
+- Including compelling GitLab DAP promotional credits with Premium/Ultimate users
+- Adjusted coverage models
+- Investing in onboarding, adoption, self-service experiences
+
+GITLAB DUO AGENT PLATFORM (DAP)
+Launch: January 2026 (7 weeks into market)
+
+Three Core Pillars:
+1. Workflows: Unified place where teams and AI agents collaborate
+2. Context: Rich semantic access to full SDLC data
+3. Guardrails: Deploy anywhere with security/compliance embedded
+
+Key Capabilities:
+- Orchestration platform for AI agents across software life cycle
+- Same context, permissions, security model as existing GitLab platform
+- AI at point of execution (where code lives, merged, built, deployed)
+- Reduces friction for agents and humans managing them
+
+Usage-Based Pricing Model:
+- Customers pay for agent work where every engineer can delegate tasks to multiple agents
+- Revenue grows with value delivered
+- Complements seat-based model
+
+Customer Examples:
+
+Airline Customer (3,000-person technology org):
+- Deploying DAP to automate vulnerability remediation, dependency updates, cloud migrations
+- ~90% of component updates now run autonomously
+- Frees developers for customer-facing feature work
+
+Release Strategy:
+- Nearly 70% of revenue from self-managed customers
+- Require upgrade to release 18.8 or better
+- Typically takes two quarters for 50%+ adoption
+- FY2027: Converting pilots to production, not significant revenue contribution
+
+AI MARKET POSITIONING
+- Investor uncertainty understandable (code generation becoming commoditous)
+- GitLab positioned where AI is best leveraged: point of execution
+- Bottleneck shifting to reviews, security, pipelines, compliance, deployment
+- GitLab is precisely where this happens
+
+Competitive Moat:
+- Customers carry decades of technical debt, thousands of repositories
+- GitLab holds all context: history, ownership, risk, intent
+- In world of autonomous agents, context is difference between useful action and catastrophe
+- Every commit, scan, deployment makes graph richer and agents more accurate
+- Platform gets smarter over time = widening moat
+
+CUSTOMER METRICS & TRACTION
+- Added most $1 million+ customers in GitLab history in Q4
+- Gross retention: consistent with historical trends, above 90%
+- Churn: lowest in four years
+- Ultimate: now 56% of ARR, accounted for 9 of top 10 deals
+- >60% YoY growth in Ultimate projects with security scanning
+- Nearly 30% more security projects per seat
+
+Customer Stories:
+
+Indeed:
+- Started with GitLab in 2015 for source control
+- Expanded to Premium in 2020 for CI/CD
+- Upgraded to Ultimate in 2024 for advanced security/compliance/governance
+- Supports thousands of GitLab users
+- Saw 80% increase in pipelines with lower infrastructure costs
+- Q4: Moving to GitLab Dedicated as part of infrastructure modernization
+
+Mercedes-Benz:
+- Expansion demonstrates compounding growth potential
+- Modern vehicles contain more software than fighter jets
+- GitLab serves as central platform for software-defined vehicle transformation
+- Supports thousands of developers across regions
+- Relationship began with source code management, evolved across platform
+
+CAPITAL ALLOCATION & SHAREHOLDER RETURNS
+- Approximately $1.3 billion in cash and investments
+- Sustainably generating free cash flow
+- Board authorized GitLab's first share repurchase program: $400 million
+- Reflects confidence in fundamentals and growth plan
+
+---
+
+FINANCIAL RESULTS - JESSICA ROSS, CFO
+
+Opening Statement:
+"This is my first earnings call as GitLab CFO... I see an incredible business at the center of unprecedented industry transformation."
+
+Recent Focus:
+- Building financial discipline and operational rigor
+- Impressed by passionate customers, team members, technical depth, leadership team
+
+FY2026 FULL YEAR RESULTS
+- Revenue: $955 million (+26% YoY)
+- Non-GAAP operating margin: 17% (up ~680 basis points YoY)
+- Adjusted free cash flow: $220 million (+83% YoY)
+- FCF margin expansion: >7 percentage points
+
+Customer Metrics:
+- 10,682 customers with ARR ≥$5,000 (>95% of total ARR)
+- 100K+ ARR cohort: 1,456 customers (+18% YoY), ~75% of ARR
+- $1M+ ARR customers: 155+ (+26% YoY) - largest group in GitLab history
+
+Q4 FY2026 RESULTS
+- Revenue: $260 million (+23% YoY, 3.5 points above guidance)
+- Non-GAAP operating margin: 20.5% (5 points above guidance)
+- Revenue beat partly due to ~$3M one-time items (FX, JiHu performance)
+
+First Order Bookings:
+- Healthy with strength in Asia-Pacific
+- Enterprise win rates improved QoQ
+- Sales cycles remained consistent
+- Softer U.S. performance
+- Some large deals slipped (customer budget constraints, industry challenges)
+- Public sector: only partial recovery post-government reopening
+- Price-sensitive cohort: continued weakness
+
+Retention Metrics:
+- Dollar-based net retention (DBNR): 118%
+- Gross retention: >90%, consistent with historical trends
+- Pressure concentrated in price-sensitive cohort, mid-market, SMB
+
+Revenue Per Organization:
+- Total RPO: $1.1 billion (+20% YoY)
+- Current RPO: $719.4 million (+24%)
+
+Gross Margin:
+- Non-GAAP gross margin: 89%
+- SaaS now 32% of revenue (+38% YoY)
+  * Driven by GitLab Dedicated and GitLab Duo strength
+
+Operating Performance:
+- Q4 non-GAAP operating income: $53.4 million
+- Operating margin: 20.5% (up ~280 basis points QoQ)
+- Q4 adjusted free cash flow: $41.8 million (16% margin)
+
+Cash Position:
+- Ended quarter with $1.3 billion in cash and investments
+
+JiHu:
+- Q4 non-GAAP expenses: $3.9 million vs $3.2 million prior year
+- Goal: deconsolidate JiHu (timing uncertain)
+
+CAPITAL ALLOCATION FRAMEWORK
+
+1. Investing in Growth
+- High-return investments accelerating product roadmap and go-to-market
+- Focus: sales capacity, first order team, DAP, security innovation
+- Reallocating resources to highest return initiatives
+- Balancing growth with profitability and cash generation
+
+2. Balance Sheet Resilience
+- Maintaining strong liquidity position
+- $1.3 billion in cash, short-term investments
+- Sustainable free cash flow
+- Flexibility for investments and M&A without constraint
+
+3. Share Repurchases
+- Board authorized $400 million repurchase program
+- Reflects confidence in fundamentals
+- Disciplined capital allocation
+- Meaningful way to drive shareholder value
+- Manage dilution during share price dislocation
+
+FY2027 GUIDANCE FRAMEWORK
+
+Key Assumptions:
+
+1. Ratable Model Dynamics
+- Revenue reflects cumulative bookings over multiple prior periods
+- Not satisfied with sustaining historical growth rates
+- Executing five growth opportunities
+- Significant portion acknowledges bookings growth hasn't scaled with revenue over 3 years
+- This reality flows through mathematically
+
+2. Non-Recurring FY2026 Tailwinds
+- FY2026 benefited from ~300 bps of growth not embedding in FY2027:
+  * Premium price increase from 3 years ago
+  * Positive FX dynamics
+  * Specific clauses in certain customer contracts
+
+3. Segment Caution
+- Public sector: expect better FY2027 but not assuming bounce back
+- Price-sensitive cohort (~20% of ARR): expect to remain under pressure
+
+4. Prudent Assumptions on New Growth Drivers
+- Minimal revenue from DAP in FY2027 (launched 7 weeks ago)
+- ~70% of revenue from self-managed customers = measured adoption curve
+- Need time to convert pilots to production deployments
+
+Q1 FY2027 GUIDANCE
+- Revenue: $253-255 million (~18-19% YoY growth)
+- Non-GAAP operating income: $32-34 million
+- Non-GAAP net income per share: $0.20-0.21
+- Assumed shares: 173 million weighted average diluted
+- Note: Q4 has 3 more days than Q1 = sequential headwind
+
+FY2027 GUIDANCE
+- Revenue: $1.099-1.118 billion (~15-17% YoY growth)
+- Non-GAAP operating income: $129-137 million
+- Non-GAAP net income per share: $0.76-0.80
+- Assumed shares: 175 million weighted average diluted
+
+Modeling Points:
+- Stable YoY growth Q2-Q4
+- Gross margin: 85-87% (down from 89% FY2026)
+  * Mix shift: SaaS, Dedicated, DAP different cost structures
+- JiHu expenses: ~$15 million (vs $13M last year)
+
+FY2027 Strategy Summary:
+- Position of strength: growing TAM, best-in-class retention, largest customers expanding
+- First orders returned to growth
+- New multi-year growth drivers: DAP, hybrid pricing
+- Four priorities: scale sales capacity, stabilize NRR, address price-sensitive cohort, convert DAP pilots
+
+---
+
+Q&A HIGHLIGHTS
+
+QUESTION: Security Differentiation vs Claude Code Security (Koji Ikeda, BofA)
+
+Bill Staples Answer:
+"Really comes down to difference between suggestions and certification."
+- Claude Code Security: helps developers write better code at authoring time
+- GitLab: independent system certifying code ready for production
+- Developers can ignore Claude's recommendations
+- Can't bypass GitLab's execution policy for pipeline, merge request approval rules
+- Companies ship what is secure and meets engineering standards
+- These are complementary: Claude improves code at authoring, GitLab governs shipping
+
+QUESTION: Timing of Growth Acceleration / Path Back to 20%+ Growth (Matthew Hedberg, RBC)
+
+Bill Staples Answer:
+- Immediate impact: investment in go-to-market, increased capacity
+- Entering FY2027 with highest capacity ever
+- Step function increase in ramp capacity around Q3 FY2027
+- Long-term perspective:
+  * Just delivered highest new net ARR year and quarter ever
+  * Core business is healthy
+  * Gross retention best in 4 years
+  * Every customer cohort continues to expand
+  * Win rates stable, engagement growing
+  * Business decelerating based on bookings patterns and lapping mechanics, not relevance
+  * Relevance only gaining momentum in AI era
+- Multiple growth strategies:
+  * Increased sales capacity to go after TAM
+  * New SKUs for adjacent value
+  * DAP with hybrid pricing (charge based on work and value, not just seats)
+  * Coverage model adjustments and DAP credits for price-sensitive cohort
+- Long-term: "I believe this company has everything it needs to be a high-growth generational company"
+
+QUESTION: Net Retention Dynamics and Outlook (Rob Owens, Piper Sandler)
+
+Bill Staples Answer:
+- DBNR not a guided metric, it's an output of the business
+- DBNR mix analysis by segment:
+  * Enterprise: very healthy
+  * 100K cohort: up 18% YoY, 75% of ARR
+  * $1M cohort: up 26% YoY
+  * Largest customers: continue to expand (strong signal)
+- Pressure concentrated in price-sensitive cohort (~20% of ARR)
+  * Includes 8% SMB + parts of mid-market and Premium
+  * Addressing with DAP credits, adjusted coverage, technical services
+
+Jessica Ross Answer:
+- DBNR not a guided metric
+- FY2027 is "year of stabilization"
+- Expect DBNR to trend down slightly before stabilizing
+
+QUESTION: DAP Pricing Model (Sanjit Singh, Morgan Stanley)
+
+Bill Staples Answer:
+- Competitors have more than just seat-based pricing (they throttle or charge overages)
+- GitLab DAP pricing model:
+  * Every Premium seat gets $12 in credits included
+  * Every Ultimate seat gets $24 in credits included
+  * Want customers to win hearts/minds without new contracts
+  * If finding value, can opt into on-demand credits
+  * On-demand credits: pay-as-you-go at ~$1/credit
+  * Creates demand signal for sales (see usage, have conversation)
+  * Offer additional discounts for committed credits as monthly minimum
+  * Monthly minimums turn into subscription recognized ratably (drives flywheel)
+- Model advantages:
+  * Better value for customers vs throttled/overage model
+  * More efficient
+- Competitive observation:
+  * Existing tools "heavily subsidized by venture capitalists"
+  * Prediction: "This year you'll see many enterprise tools begin to move to API-based charges vs seat-based, which could raise bills for enterprises"
+
+QUESTION: FY27 Margin Guidance Step-Down (Karl Keirstead, UBS)
+
+Jessica Ross Answer:
+- FY27 margin guide reflects three discrete well-understood investments
+  * One committed at IPO
+  * Clear line of sight to expansion from there
+- 300 bps of step-down: gross margin mix shift
+  * SaaS mix transition (pre-disclosed at IPO)
+  * Different cost structures for Dedicated, DAP
+- Remaining compression: two deliberate investments
+  * Rebuilding go-to-market capacity (under-invested for years)
+  * Scaling sales capacity, building first order team, deepening partner coverage
+  * Accelerating DAP and deepening security/innovation
+- Capital allocation: R&D first, then S&M, then G&A
+- None are structural; each has defined timeline and clear return
+- Investment priority focused on long-term value creation
+- Demonstrated ability to grow profitably: 1,700 bps margin expansion over 2 years
+- Not managing to margin percentage; managing to gross profit dollar growth and durable returns
+
+QUESTION: DAP Production Conversion Gating Factors (Shrenik Kothari, Baird)
+
+Bill Staples Answer:
+Early Customer Feedback:
+- Customers appreciate full lifecycle approach to Agentic AI
+- Want to handle highly repetitive, mundane tasks in code/builds/deployments/security
+
+Gating Factors for Production:
+1. Technical requirement: version of GitLab supporting DAP
+   * 70% of revenue from self-managed deployments
+   * Not cloud-native SaaS
+   * Includes air-gapped environments that can't connect to cloud
+   * Typically takes 6 months for 50% of self-managed customers to adopt new release
+   * Bulk of revenue won't have access for another couple quarters
+
+2. Revenue recognition timing:
+   * Committed credits = subscription revenue recognized ratably
+   * Even if converting pilots to production in H2, revenue recognized following quarters
+   * Goes into FY28
+
+Results of Early Adoption:
+- Airline example: autonomously running 90% of component updates
+  * Work previously requiring developers now done by agents
+- Insurance example: DAP hackathon showed improvements in:
+  * Compliance violations
+  * Legacy modernization
+  * Developer onboarding time
+  * Security posture
+
+QUESTION: Customer Decision-Making Changes (Jason Ader, William Blair)
+
+Bill Staples Answer:
+- Customers navigating massive change daily
+- Excited about AI potential
+- Trying to navigate challenges: privacy, security, increased costs of AI investment
+- Tons of experimentation happening
+- Early results promising in certain workloads (code generation, software development)
+- GitLab excited to turn early promise into actual innovation with DAP
+- Don't see customers' behaviors changing:
+  * Win rates consistent
+  * Gross retention highest in 4 years
+  * Competitive rates remain strong
+- Focus: increase capacity, execute product strategy with pricing/packaging granularity
+
+QUESTION: Territory Design and Account Management (Miller Jump, Truist)
+
+Bill Staples Answer:
+- Territory design reduces customers per rep
+- Benefits: better customer intimacy, accelerated adoption, value realization
+- Also investing in technical services:
+  * Increased overlay support across all segments
+  * Special focus on price-sensitive cohort with additional technical services
+  * Forward-deployed engineers to support adoption cycle
+  * Help customers adapt workflows to AI
+  * Technical training on DAP
+
+Jessica Ross Answer:
+- Yes, built in conservatism regarding territory design changes in guidance
+
+QUESTION: Legacy Code Modernization & TAM Expansion (Kingsley Crane, Canaccord)
+
+Bill Staples Answer:
+- Some software can theoretically be rewritten
+- Exciting experiments with code generation in closed loops
+- More difficult for complex legacy applications (mainframes, enterprise software with integrations)
+  * Context often in people's heads, not documented
+  * Years of integration assumptions
+  * Hard to discover purely through code
+
+Three Modes Framework (Parallels to Cloud Migration):
+1. Mode 1 - No Agent Touch
+   * Mission-critical software for businesses
+   * Especially financial/regulated and public sector
+   * Agents not allowed (security, privacy, sensitivity)
+
+2. Mode 2 - Human-Agent Collaboration (Current - DAP Supports)
+   * Brownfield codebases
+   * Orchestration patterns emerging
+   * Will continue for some time
+
+3. Mode 3 - Increasingly Automated
+   * Better orchestration and closed-loop iteration
+   * Especially greenfield projects
+   * Less human involvement except steering/orchestrating
+   * Agents handling more autonomously
+
+QUESTION: DAP Adoption Barriers & Pricing Consolidation (Howard Ma, Guggenheim)
+
+Bill Staples Answer:
+- Some hesitance to adopt many agents from multiple vendors immediately
+- Larger enterprises debating build vs buy for agents
+- Clarification on Duo offerings:
+  * Duo Pro and Enterprise already part of DAP (not separate)
+  * DAP represents massive superset (100x capability)
+  * Pro/Enterprise packages still in market for continuity
+  * Didn't want to disrupt customers in process of purchasing
+  * Will incentivize converting contracts to DAP credits in coming year
+  * Transition period (DAP 7 weeks in market)
+  * Next couple quarters will make clear DAP is AI offering going forward
+
+QUESTION: Guidance Philosophy & CI/CD Barriers to Entry (Ryan Williams, Wells Fargo)
+
+Jessica Ross Answer (Guidance Philosophy):
+- Lot happening: new CFO, investment year, execution year
+- Transitioning to hybrid model
+- New product cycle (DAP launch)
+- Scaling go-to-market
+- Rigorous internal process
+- Spent first weeks getting into business details for conviction
+- Listening campaign revealed: investors want transparency into how numbers arrived at
+- Business is ratable: strong revenue visibility
+- Gives high confidence in achievement
+
+Revenue Guide Build-Up:
+- FY2026 and Q4: highest net new ARR year and quarter ever
+- Ratable model: large part of step-down mechanical, not health change
+- Guide reflects honest view of where business is today, not aspirations
+
+Step-Down Drivers (26% to 15-17%):
+1. Non-recurring FY2026 tailwinds (~300 bps):
+   * Premium price increase 3 years ago
+   * Favorable FX dynamics
+   * Specific contract clauses
+   * Strip out, get closer to 23% comparable
+
+2. Ratable mechanics:
+   * Revenue reflects bookings 3 years ago
+   * Bookings growth hasn't kept pace with revenue growth past 3 years
+   * Math reality flows through regardless of operations
+
+3. What's embedded:
+   * First order team coming online now, fully ramped back half
+   * Investment timing to show up in bookings/revenue
+   * Prudence on PubSec and mid-market (Q4 softness, not assuming immediate rebound)
+   * DAP early stages (7 weeks old)
+   * $1B business with ratable model: no meaningful DAP revenue contribution
+
+Bill Staples Answer (CI/CD Barriers):
+- Common investor confusion: how does core platform compete with improving agents?
+- Analogy: DevOps platform is core infrastructure
+- Many coding agents generate code, but:
+  * Needs to be stored
+  * Version controlled
+  * Tested
+  * Reviewed
+  * Secured against standards/compliance
+- That infrastructure is what GitLab built over decade
+- Businesses rely on it for software integrity
+- Not going away
+- DAP = AI alternative to human intelligence for code writing and software management
+- Competitors can offer alternative agents
+- They can't offer replacement for GitLab infrastructure
+
+QUESTION: Q4 Net New ARR Strength & Public Sector (Nick Altmann, BTIG)
+
+Jessica Ross Answer:
+- Highest net ARR quarter ever, but results mixed
+- First order bookings healthy with Asia-Pacific strength
+- Enterprise win rates improved QoQ
+- Sales cycles held steady
+- Softness in three areas:
+
+1. PubSec (~12% of ARR)
+   * Long-term thesis unchanged
+   * Remain preferred partner, mission-critical
+   * Only partial recovery after government reopening
+   * Business moved to FY2027
+   * Budget picture: increases in certain departments, uncertainty in others
+   * Embedded in guidance
+
+2. Price-sensitive cohort (~20% of ARR)
+   * Includes SMB weakness
+   * Parts of mid-market and Premium
+   * Less budget flexibility customers
+   * Sized right; not seeing in rest of business
+   * Reinforced by 100K cohort up 18% YoY, $1M cohort up 26%
+   * Enterprise ARR remains very healthy
+
+3. U.S. Deal Slippage
+   * Very customer-specific
+   * Few large deals from customers facing budget constraints
+   * Industry-specific challenges (e.g., retailer Q4 challenges, large customer layoffs)
+   * Real issues, meeting customers where they are
+   * Embedded in guidance
+
+---
+
+CLOSING
+
+Next Event:
+- Morgan Stanley TMT Conference this week
+- Management looking forward to in-person meetings
+
+Key Takeaways:
+- Strong FY2026 execution
+- Clear FY2027 growth strategy
+- Path to profitability with DAP and go-to-market investments
+- $400M share repurchase authorization shows confidence
+- Multi-year growth drivers emerging
