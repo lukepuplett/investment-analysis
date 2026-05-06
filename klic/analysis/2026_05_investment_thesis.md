@@ -29,6 +29,8 @@ To evaluate the investment thesis, readers need context on the semiconductor equ
 
 **Vertical Wire** ($5-10M, nascent) — KLIC's proprietary vertical die stacking technology for cost-effective DRAM bandwidth. Alternative to expensive HBM for non-AI applications (mobile, edge computing). 8 customers engaged with "positive feedback"; initial adoption H2 FY2026 expected with significant expansion FY2027. Technology unproven at volume but early traction strong. Revenue potential: $80-120M FY2027+ if adoption accelerates.
 
+**High-Bandwidth Flash (HBF) Assembly** (nascent, CY2027+) — Emerging opportunity to apply KLIC's TCB technology to High-Bandwidth Flash memory, which combines NAND flash capacity with HBM-class bandwidth. KLIC exploring TCB assembly approach but early-stage (no customer announcements yet). If HBF memory adoption accelerates, represents $100-200M+ TAM and potential $20-40M revenue opportunity FY2027+. Leverages existing TCB platform, low incremental development cost.
+
 **Advanced Dispense** ($10-15M, nascent) — New market entry using Echelon dispensing system for underfill, mold compounds, adhesives in advanced packaging. Launched November 2025; customer qualification phase. Competing against established players (Nordson, Musashi). Limited FY2026 contribution; significant upside if successful market entry occurs.
 
 **Aftermarket Services** ($55-65M) — Maintenance, parts, support for installed equipment base. Growing with improved utilization (+14% YoY Q1 FY26).
@@ -44,6 +46,8 @@ To evaluate the investment thesis, readers need context on the semiconductor equ
 **Chiplets:** Industry trend toward multi-die logic architectures (chiplets) combining different process nodes and functions. Chiplet interconnect requires advanced packaging (TCB preferred by KLIC). Expected to drive significant TCB demand growth FY2027+.
 
 **Vertical Die Stacking (Vertical Wire):** KLIC's alternative to HBM for cost-conscious customers. Enables lower-cost DRAM bandwidth for mobile, edge computing, non-AI applications. Early customer traction (8 customers) but adoption uncertain. If validated, represents $200M+ TAM.
+
+**High-Bandwidth Flash (HBF):** Emerging memory technology combining NAND flash capacity with HBM-class bandwidth. Still in early R&D by memory manufacturers; KLIC exploring TCB assembly approach. Not a near-term revenue driver (CY2027+ timeline), but represents optionality to expand TCB platform beyond HBM. If HBF adoption accelerates, could represent $100-200M+ TAM. Lower confidence than HBM/Vertical Wire, but strategic to evaluate.
 
 ### Investment Thesis Implications
 

@@ -35,6 +35,7 @@ Kulicke and Soffa Industries, Inc. (KLIC) is a semiconductor equipment manufactu
 | **Ball Bonding (Legacy)** | $400-450M | 45-50% | Wire bonding using gold/copper balls ultrasonically bonded to chip pads; high-performance segment for data center logic, memory | Mature, cash-generative; commoditizing but differentiated in premium segment |
 | **Thermo-Compression Bonding (TCB)** | $100-110M | 11-12% | Direct metal-to-metal bonding (copper-to-copper) using heat + pressure; **KLIC's fluxless proprietary process is first-mover advantage** | **PRIMARY GROWTH DRIVER FY26-27**; 120 systems in field; HBM assembly application; >$100M target confirmed |
 | **Vertical Wire (DRAM Stacking)** | $5-10M | <1% | Proprietary vertical die stacking technology for cost-effective DRAM bandwidth; alternative to expensive HBM | Early adoption phase; 8 customers engaged with positive feedback; **FY2027 inflection expected** |
+| **High-Bandwidth Flash (HBF) Assembly** | $0-5M | <1% | Emerging memory technology combining NAND flash capacity with HBM-class bandwidth; KLIC exploring TCB assembly approach | Nascent opportunity; CY2027+ timeline; could leverage existing TCB platform |
 | **Advanced Dispense (Echelon)** | $10-15M | 1-2% | Precision dispensing system for underfill, mold compounds, adhesives in advanced packaging | New market entry; customer qualification phase; launched Nov 2025; limited FY26 contribution |
 | **Aftermarket Services** | $55-65M | 6-7% | Maintenance, parts, support for installed equipment base | Growing with utilization improvements (+14% YoY Q1 FY26) |
 
@@ -53,7 +54,7 @@ Kulicke and Soffa Industries, Inc. (KLIC) is a semiconductor equipment manufactu
 
 ---
 
-## Six Main New Developments (FY2026)
+## Main New Developments (FY2026 & Beyond)
 
 ### 1. **HBM Volume Production Ramp** (Critical)
 - **Status:** First HBM system shipped Q1 FY26 to "large memory customer" (TSMC/Samsung implied); qualification underway
@@ -84,6 +85,13 @@ Kulicke and Soffa Industries, Inc. (KLIC) is a semiconductor equipment manufactu
 - **Status:** 90-day revision FY2026 EPS $1.50 → $2.62 (+75%); Q1 beat +33% vs. estimates
 - **Impact:** Wall Street catching up to recovery thesis; valuation support; analyst upgrades likely if Q2 validates
 - **Insight:** Market pricing 55% bull case probability; 35% bull case + 45% base case + 20% bear case implied
+
+### 7. **High-Bandwidth Flash (HBF) Assembly Exploration** (Emerging Opportunity)
+- **Status:** KLIC exploring TCB assembly for HBF; early-stage R&D, no customer wins yet
+- **What:** Emerging memory technology combining NAND flash capacity with HBM-class bandwidth; alternative use case for TCB
+- **Impact:** Potential $100-200M+ TAM if HBF adoption accelerates; leverages existing TCB platform
+- **Timeline:** CY2027+ (further out than HBM and Vertical Wire); qualification and customer traction TBD
+- **Strategic Value:** Expands TCB application portfolio beyond HBM; demonstrates platform extensibility
 
 ---
 
