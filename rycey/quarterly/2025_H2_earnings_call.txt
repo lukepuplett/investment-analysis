@@ -1,0 +1,843 @@
+Rolls Royce Holdings plc (RYCEY) H2 FY2025 earnings call transcript
+Powered by Quartr
+Feb 26, 2026, 4:00 AM EST
+
+Earnings call
+
+Rolls-Royce reported a 14% revenue increase to GBP 20 billion and a 40% rise in operating profit to GBP 3.5 billion for 2025, with all divisions contributing. Management upgraded 2028 midterm targets for profit, margin, and cash flow, and announced a GBP 7–9 billion share buyback for 2026–2028, reflecting strong confidence in sustainable growth.
+
+Powered by Yahoo Scout
+Jeremy Bragg
+Head of Investor Relations
+0:00:00
+
+Good morning, everyone, and welcome to our 2025 results presentation. I'm Jeremy Bragg, and I'm Head of Investor Relations, and I'm joined today here by Tufan, our CEO, and Helen, our CFO. Before we begin today's presentation, I'm required to show you the safe harbor statement on slide 2. The full results materials can be downloaded from the investor relations section of our website. Today, we're going to cover, firstly, our financial and strategic progress over the past three years, the 2025 results in detail, and our guidance for 2026, and our upgraded midterm targets. After the presentation, there'll be time for questions in the room and, if time, from our audience online.
+
+Jeremy Bragg
+Head of Investor Relations
+0:00:45
+
+For those of you in the room, there are microphones in the seat in front of you, and you need to press and hold the button before you speak. For those of you in the room also, very excitingly, and I hope you've seen it already, we've got the full-size model of our UltraFan 30, along with some of our engineers who'd be delighted to talk to you about it after the presentation. Please do go and have a look at that. It's amazing. Okay, before handing over to Tufan, I'd like to show you a short film that highlights some of the progress that we've made this year.
+
+Speaker 11
+Video Narrator
+0:01:21
+
+We are making good progress in transforming Rolls-Royce into a high-performing, competitive, resilient, and growing business.
+
+Tufan Erginbilgic
+CEO
+0:01:31
+
+You fix the business model, that opens up all sorts of opportunities.
+
+Speaker 10
+Company Representative
+0:01:38
+
+Everywhere we go, we meet enthusiastic colleagues whose drive for excellence has enabled us to achieve record performance.
+
+Tufan Erginbilgic
+CEO
+0:03:54
+
+If you look at our existing businesses, SMR and narrowbody, it creates enormous opportunity. Good morning, everybody. It is great to see you all here. Jeremy actually stole some my thunder. I was gonna talk about UltraFan 30. I hope you spent some time with Simon and our great engineers, frankly. If you didn't, as Jeremy suggested, you should. It is a narrowbody demonstrator model, I'm sure. They actually told me, our engineers: "You ask great questions." I don't know why they were surprised about that. You ask great questions. As Jeremy said, I think I'll touch on UltraFan 30 in my presentation very briefly. Also, as Jeremy said, today in the presentation, it is gonna take around an hour because we are gonna cover 2025 results as we normally do.
+
+
+Tufan Erginbilgic
+CEO
+0:05:20
+
+We have lots of granularity, the way we run the business. We are going to talk about midterm with lots of detail, but more importantly, beyond midterm, also with lots of granularity. Obviously, we will open up for Q&A. Our transformation of Rolls-Royce into a high-performing, competitive, resilient, and growing business continues at pace. Over the last three years, we have significantly improved our safety and operational capabilities and our customer service. 2025 marks another year of strong financial and strategic delivery, building on the substantial progress that we have made over the past two years. One year ago, we set a midterm margin target of 15%-17%. We achieved that margin last year, three years earlier than planned. We expect 2026 to be another strong year.
+
+Tufan Erginbilgic
+CEO
+0:06:42
+
+Our 2026 guidance sees us delivering our previous midterm operating profit target two years earlier than planned. Today, we are upgrading our midterm targets, which are still based on a 2028 time frame. Given our strong balance sheet and sustainably growing profit and free cash flow, we are pleased to announce a GBP 7 billion-GBP 9 billion share buyback program for the period 2026-2028. This is the first multi-year, sorry, multi-year buyback in Rolls-Royce history, and is a clear indication of our confidence in cash flow growth in the midterm and beyond. Our transformation has unlocked significant growth opportunities from both our existing and new businesses. I'm proud of what we achieved over the past three years, and we are not done yet. Our transformation has delivered a step change in performance across the group.
+
+Tufan Erginbilgic
+CEO
+0:08:09
+
+This has been achieved despite a challenging external environment, including supply chain and tariffs. Let me give you an overview of our progress over the last three years. In 2025, group operating profit was GBP 3.5 billion, 5x higher than in 2022, and operating margin has more than tripled to 17.3%. All divisions have contributed. In civil aerospace, operating profit was around 15x higher, and operating margin was more than 8x higher than in 2022. This was driven by stronger aftermarket performance, a doubling of profit in business aviation, and increased spare engine profitability. In defense, operating profit has grown by roughly 60% over the past three years, and operating margin has risen to 14.4%. This was primarily driven by higher transport aftermarket profit, stronger combat performance, and submarine growth.
+
+Tufan Erginbilgic
+CEO
+0:09:44
+
+In power systems, operating profit has tripled, with a operating margin more than double that of 2022. The largest driver is power generation, where we have restructured the business to deliver a 12x increase in operating margins since 2022, alongside governmental and battery storage, which achieved breakeven last year. The improvement in operating profit has also been supported by our efficiency and simplification program. Group free cash flow of 3.3% is 6x higher than 2022, with stronger cash generation across all divisions. The increase has primarily been driven by higher operating profit. Strong cash flow was delivered as we continue to invest in the business. With investment in 2025 doubling that of 2022. Return on capital, a key metric, has risen by almost 4x to around 19% last year.
+
+Tufan Erginbilgic
+CEO
+0:11:15
+
+This represents a significant value creation and best-in-class ratio within the industry. I will now focus on how we are driving higher margins and cash flows from our civil aerospace LTSA contracts. This is a key driver of performance improvement to the midterm and beyond. The chart on the left shows we are driving higher contract and LTSA margins over time across our in-production engines. The top line on the chart is the average margin across all signed contracts, even if the engines are not yet delivered. This is a leading indicator for the LTSA margin that will be booked in our income statement in the future. This is the second line in the chart. Our contract margin will increase by 19 percentage points between 2022 and 2028. This will drive around 28 percentage point increase in the income statement margin over the same period.
+
+Tufan Erginbilgic
+CEO
+0:12:41
+
+This improvement has been driven by our six levers that we have mentioned before. Around 10 percentage points of this increase is driven by commercial improvements. We have a new framework which has driven improved margins on contracts since 2022. This applies to new, renewing, and renegotiated contracts. The remainder is largely driven by the operational improvements that we are making, the biggest of which is time on wing. I will talk to that later. When I first shared this with you last year, I talked about how our actions can derive further improvements to both lines. This is exactly what has happened. We are managing our business very differently. Our new value stream framework allows us to make purposeful, proactive, and granular interventions to drive stronger performance.
+
+
+Tufan Erginbilgic
+CEO
+0:13:55
+
+We now expect our contract margins to be 2 percentage points higher, and our LTSA margins to be 8 percentage points higher than we set out last February. The 8 percentage points improvement in LTSA margins reflects three things. First, further operational improvements, notably time on wing on the Trent XWB-84, where we are systematically raising the cyclic life of the engine through a combination of compressor blade modification and critical parts life increase, build on improved analysis of millions of hours operating data. We have further refined and accelerated this program and now expect it to have higher impact. Second, new and renewing contracts coming in better commercial terms than we previously targeted, including further progress, renegotiating onerous and low-margin contracts. Third, strong execution to date, which has allowed us to release contingencies. Our actions to drive higher LTSA margins have created billions of GBP of value.
+
+Tufan Erginbilgic
+CEO
+0:15:37
+
+Let me talk to you about a new chart on the right-hand side of the slide, which shows that the majority of the LTSA cash benefits are still to come. The cash value of our LTSA contracts has more than quadrupled since 2022. More than two-thirds of this increase is driven by our actions, which have resulted in GBP billions of additional cash generation over the life of these contracts, and less than a third relates to volume growth. Put another way, if our LTSA aftermarket contracts had remained at 2022 margin levels, the cash value of these contracts would be less than a third of the size they are today.
+
+Tufan Erginbilgic
+CEO
+0:16:40
+
+Even by the end of 2028, only 25% of the incremental cash associated with these contracts will have been achieved, which means that majority of the cash value of these improvements will come beyond the midterm. As these contracts are extended, which is usually the case, this value will go up further. This chart focuses on the cash value that we created with our aftermarket contracts. It is worth remembering that we have also renegotiated our OE contracts, which have created GBP billions in additional value, as I shared with you before. Only around 30% of the cash value of our OE renegotiations will be realized by the end of 2028. Let me give you a perspective on our LTSA margins and cash improvements. The commercial and operational improvements that we are making will drive higher LTSA margins and continued LTSA balance growth for many years.
+
+Tufan Erginbilgic
+CEO
+0:18:10
+
+A higher EFH rate and a lower density of shop visits due to time on wing improvements, are both drivers of higher LTSA margin and LTSA balance growth. Our higher LTSA margin brings a higher profit realization per shop visit in the income statement, while those shop visits happen less frequently due to our time on wing initiatives. As a result of all these, our operating profit and cash flows grow with LTSA margins increasing. The LTSA balance also continues to grow, despite increasing profit realizations for as long as the installed fleet is growing. This is what we mean when we talk about driving sustainable and high quality growing cash flows. We continue to deliver strong, disciplined progress across our four strategic pillars. I already talked about how we are driving higher LTSA margins. I will now selectively cover some of the other achievements last year.
+
+Tufan Erginbilgic
+CEO
+0:19:46
+
+First, portfolio choices and partnerships. In civil aerospace, we are continuing to expand our MRO capacity, which has supported more than a 50% increase in shop visits since 2022. Last year, we added new capacity in Derby, Dahlewitz, and Singapore, and took steps which will grow our MRO network capacity by a further 20% by the midterm to support future fleet growth. This includes BAESL in China, our new MRO center with Turkish Technic in Istanbul, and with Emirates and Air France-KLM. In power systems, we added capacity in Germany and our two sites in the U.S., Aiken and Mankato, to support continued power generation and governmental growth. We are also continuing to invest in upgrading our engines to enable growth.
+
+Tufan Erginbilgic
+CEO
+0:21:01
+
+This includes both our next generation Series 4000 engine, to be released in 2028, which targets the data center market with a significantly improved power density, alongside the development of an upgraded military engine. In defense, the ramp up of new programs is supported by significant investments we have made in Indianapolis, totaling around GBP 1 billion over the past decade. We continue to invest in this site. Second, strategic initiatives. We are making strong progress with our time on wing initiatives. We now target more than 100% increase in durability across our in-production engines, with more than half of this improvement target already delivered. This increase, compared to our previous target of more than 80%, reflects critical part life extensions for the Trent XWB-84. We have extended and accelerated this program. We have refined the fleet-wide benefits.
+
+
+Tufan Erginbilgic
+CEO
+0:22:31
+
+Improvements associated with XWB-84 EP, which will offer more than a 1% fuel burn benefit and improved time on wing. Other key time on wing milestones included the certification of the first phase of improvements for the Trent 1000 XE in June. The second phase of HPT blade improvements for both Trent 1000 and 7000 were certified in December. Our planned improvements for XWB-97 remain on track to be completed by the end of 2027. We are continuously seeking to improve time on wing of all our engines, not only those under this program. For example, we have implemented enhancements with the Trent 900 that will improve time on wing by up to 30%. This all means that we expect shop visits to approach peak in 2026, before falling to 1,300-1,400 in the midterm.
+
+Tufan Erginbilgic
+CEO
+0:23:56
+
+Beyond the midterm, shop visits will grow at a proportionately lower rate due to our time on wing improvements. We are driving down shop visit costs across our in-production engines. By the midterm, XWB-84 shop visit cost will halve versus 2029, with 44% reduction already achieved by the end of last year. We are also examining further ways to drive down shop visit costs using new digital and AI tools. In defense, we are seeing growing demand for our mature products, driven by rising defense spending. In the U.K. and the U.S., we secured key aftermarket contracts worth over GBP 1.5 billion, covering EJ200 and AE 2100 engines. Turkey and the U.K. also signed an agreement to export 20 Eurofighter aircraft, with an option for more in the future.
+
+Tufan Erginbilgic
+CEO
+0:25:21
+
+This, combined with new aircraft orders from Italy, Germany and Spain, now provide visibility of EJ200 production into the 2030s. In addition, we saw strong order intake for new programs, including GCAP and MV-75. Third, efficiency and simplification. As you can see from the slide, we have delivered efficiency and simplification benefits of GBP 600 million, and gross third-party procurement savings of GBP 1.2 billion since 2022, which are both above our CMD targets, and support a further improvement in our total cash cost to gross margin ratio. Fourth, lower carbon and digitally enabled businesses. Rolls-Royce SMR is making progress in the U.K. and the Czech Republic, where the activity is ramping up. In digital, last year we launched our AI platform, AIR, AI in Rolls-Royce, which has capabilities in generative and agentic AI.
+
+Tufan Erginbilgic
+CEO
+0:26:48
+
+This platform is at the core of our efforts to develop and deploy high-value AI capabilities across engineering, MRO, and the supply chain. AIR will drive improved intelligent engine monitoring and planning, reducing turnaround times and the product and shop visit costs. We are creating a digital thread across our engineering and manufacturing operations to enhance product quality and shorten the time frames of new product introductions. Turning now to our guidance for 2026. We expect underlying operating profit of GBP 4 billion-GBP 4.2 billion, with a performance improvement across all core divisions. We expect free cash flow of GBP 3.6 billion-GBP 3.8 billion, driven primarily by operating profit and continued LTSA balance growth in civil aerospace. This guidance includes a continued supply chain headwind, which will be gone by the midterm.
+
+Tufan Erginbilgic
+CEO
+0:28:10
+
+Helen will talk you through our cash flow guidance in detail later. We are upgrading our midterm targets, which remain based on 2028 timeframe. This reflects the strong performance delivered through our transformation over the past three years, and the increased potential we now see in the business. We now target operating profit of GBP 4.9 billion-GBP 5.2 billion, and operating margin target is 18%-20%. Our midterm target for free cash flow is GBP 5 billion-GBP 5.3 billion. Stronger free cash flow will be driven by higher operating profit and continued LTSA balance growth. Finally, we expect to deliver a return on capital of 23%-26%, highlighting the value creation potential of the business. We expect this to be among the highest returns on capital in the industry.
+
+Tufan Erginbilgic
+CEO
+0:29:31
+
+The key drivers behind our midterm operating profit and margin targets. The increase compared to previous targets is primarily driven by three things: higher aftermarket profit across LTSA and time and materials in civil aerospace, stronger profit in power generation and governmental empowered systems, supported by further efficiency and simplification benefits across the group. The detail by division. The largest step-up will come from civil aerospace, where we now target midterm margin of 21%-23%. Operating profit growth will be driven by five factors. First, stronger aftermarket profit performance. We are driving higher LTSA margins in the midterm and beyond through new and renegotiated contracts and operational improvements, as I covered before. Second, improved widebody OE profitability. We expect rising widebody deliveries, and Trent XWB installed engine deliveries will be breakeven or positive.
+
+
+Tufan Erginbilgic
+CEO
+0:31:08
+
+Over the last three years, we captured more than 50% of widebody deliveries. This has driven up our share of the installed fleet from 34% to 38%. We expect 6%-7% per year growth in our installed fleet to the midterm. This is ahead of the market. Third, a further increase in business aviation performance, driven by commercial optimization, efficiencies, and growth. We expect continued strong growth in Rolls-Royce powered business aviation aircraft deliveries to the midterm, where we remain a clear market leader. These OE deliveries will come with improved profitability, alongside continued aftermarket profit growth. Fourth, higher profitability on spare engines, reflecting commercial optimization and mix. Fifth, these benefits will be partly offset by a reduced contribution from contractual improvements.
+
+Tufan Erginbilgic
+CEO
+0:32:36
+
+By 2028, we will have worked through our onerous contracts. As we are continuing to improve the business, we therefore expect some benefit from contract catch-ups in 2028. The next largest step-up will come from Power Systems, where we now target a midterm margin of 18%-20%. We now see an improved growth outlook in governmental and in power generation, with significantly improved profitability. Operating profit growth in Power Systems will be driven by four factors. First, power generation, where we still expect OE revenue growth of around 20% per year, driven by data centers. Power generation revenues are coming at improving margins as we continue to enhance the business model. Data center demand remains very strong. A significant portion of our growth to the midterm is already underpinned by firm orders.
+
+Tufan Erginbilgic
+CEO
+0:33:58
+
+Second, governmental, where we now expect OE revenue growth of around 20% per year to the midterm, above our previous guidance of 12%-14% growth. Third, marine, where we still expect OE revenue growth of 5%-7% per year. Fourth, battery storage, where we expect double-digit OE revenue growth. Across Power Systems, a significant portion of our operating profit comes from services, which makes our business more robust. We expect continued strong growth in services revenues, which supports margin improvements. In Defense, we continue to target a margin of 14%-16%. Operating profit will be mainly driven by self-help. We expect higher operating profit across all sub-segments, with increased aftermarket profit and higher OE volumes, alongside productivity improvements due to capacity expansion.
+
+Tufan Erginbilgic
+CEO
+0:35:30
+
+We see significant growth beyond the midterm as new programs ramp up. Across the group, we are already underway with the next phase of efficiencies, ensuring that we tightly manage costs and deliver disciplined growth as the group scales up. This will be supported by an increase in investment in digital, alongside GBS, where we are expanding our activities and capabilities in India and Poland, and zero-based budgeting. With that, I will now pass on to Helen.
+
+Helen McCabe
+CFO
+0:36:22
+
+Thank you, Tufan. Good morning, everyone. Before I get into the detail, let me start by saying how pleased I am with our progress. 2025 has been another year of strong delivery. We are embedding distinctive performance management. We have real momentum as we continue on our transformation. The results, they are strong. Double-digit growth across revenue, profit, and free cash flow. Every division is delivering. Balance sheet resilience has been rebuilt, and we are rewarding our shareholders with growing distributions. Group highlights. Group revenues grew by 14% to GBP 20 billion, with good end market growth, especially across civil and power systems. Group operating profit grew by around 40% to GBP 3.5 billion, driven by our strategic initiatives, including commercial optimization.
+
+Helen McCabe
+CFO
+0:37:31
+
+Operating margin grew by 3.2 percentage points to 17.3%, and free cash flow, it grew by over GBP 800 million to GBP 3.3 billion. Strong cash flow in the period meant that we closed the year with a net cash position of GBP 1.9 billion. That's almost GBP 1.5 billion higher than a year ago. Return on capital, it rose to 18.9% for the year, representing significant value creation. These results, along with our actions to further expand earnings and cash potential, have enabled us to declare a final dividend of 5 pence per share for 2025 and our first multi-year buyback program as we follow through on our capital frame commitments. As I said, a strong set of results. Now, the detail by division, starting with Civil Aerospace.
+
+
+Helen McCabe
+CFO
+0:38:38
+
+Civil delivered the largest year-on-year improvement in profit and cash. Our strategic initiatives are delivering. Operating profit grew to GBP 2.1 billion, a 41% increase. Operating margin grew to 20.5%, an increase of 3.9 percentage points. Revenues grew to GBP 10.4 billion, an increase of 15%, with strong service revenue growth of 21%. Large engine revenue growth was 30%, driven by higher LTSA shop visits and commercial optimization. OE deliveries of 483 were 9% lower than in 2024 as we aligned deliveries to airframe production schedules. These schedules reflected the impact of industry-wide supply chain issues, while end-market demand remained strong. Deliveries comprised 259 large engines, which included a slightly lower number of spare engines compared to 2024.
+
+Helen McCabe
+CFO
+0:39:53
+
+Business aviation deliveries of 224 were almost all Pearl engines, an increase of 26% year-on-year in Pearl, which was offset by the legacy BR engines, which are approaching end of production. Total shop visits. They grew to 1,440, an increase of 10%. Of these, 517 were large engine refurbs. That compares to 430 last year. Higher shop visits were supported by our actions to drive stronger MRO performance as we expanded capacity, strengthened processes, and leveraged AI tools across the network. For example, we are now rolling out AI tools which more accurately predict maintenance needs for our engines using on-wing data and going well beyond what was previously possible.
+
+Helen McCabe
+CFO
+0:40:57
+
+Higher visits were also supported by improvements in the availability of parts across the supply chain. I'll come back to the supply chain in a moment. Operating profit in more detail. Three factors drove that 41% increase. First, stronger performance of large engine aftermarket, driven by a higher number of shop visits alongside higher time and material profits. Second, higher spare engine profitability. Slightly lower year-on-year volumes were delivered with improved margins and mix. Third, net contractual margin improvements. They were GBP 392 million. That compares to GBP 235 million in 2024. The GBP 392 million comprised a net benefit of GBP 166 million in onerous contracts and GBP 226 million from catch-ups.
+
+Helen McCabe
+CFO
+0:42:02
+
+We made further significant progress renegotiating onerous aftermarket contracts, continuing to find win-win solutions with our customers, allowing us to release onerous contract provisions in the year. We also achieved key time on wing milestones, notably on the Trent XWB-84, which resulted in a contract catch-up benefit. These two factors contributed to a gross benefit of GBP 553 million in the period. This was partially offset by an additional charge of GBP 161 million, which was taken mostly in the first half across both onerous and catch-ups due to ongoing product cost inflation in the supply chain. A few moments on the aerospace supply chain. When we spoke to you in July, we shared that we expected the supply chain to remain challenging through 2026. That is still our view. The industry continues to see product cost inflation.
+
+Helen McCabe
+CFO
+0:43:18
+
+Availability for some parts remains constrained, but overall, it is improving. Our procurement savings and targeted supply chain programs are helping to mitigate these impacts. For example, our actions supported an increase of over 20% in finished parts delivered and an improvement of around 10% in average MRO turnaround times in the year. Despite continuing challenges, we are managing it very tightly, and our actions are working. Turning to cash. Civil delivered a trading cash flow of GBP 2.5 billion, compared to GBP 2 billion in the prior year. The increase in cash delivery was driven by higher operating profit, alongside a slightly lower LTSA balance growth. In summary, a very strong delivery from Civil on profit, margin, and cash. Defense, where we continue to make good strategic progress across key programs.
+
+Helen McCabe
+CFO
+0:44:32
+
+We captured growing demand from both mature and new programs, ranging from the EJ200 for Eurofighter to GCAP, the next generation combat aircraft, to the MV-75, the future long-range assault aircraft. Order intake for the year stood at GBP 5.5 billion, with a book-to-bill ratio of 1.1x, and order backlog was GBP 17.4 billion, equivalent to over three years of revenue, with order cover for 2026 standing at around 90%. Turning to the financials, you may recall that 2024 included a one-off benefit in submarines, so masking the underlying growth we are delivering. Revenues, they stood at GBP 4.8 billion, an increase of 8% year-on-year. Excluding the one-off, growth was 14%, which was driven by all segments.
+
+
+Helen McCabe
+CFO
+0:45:41
+
+Operating profit stood at GBP 689 million, an increase of 9%, operating margins of 14.4% were broadly flat year-over-year. Growth in operating profit reflected improved transport OE performance with higher volumes and a more favorable mix, which included higher margins from international sales and improved combat OE profits. These were partially offset by the absence of the one-off benefit in submarines. Cash flow stood at GBP 745 million, compared to GBP 591 million in the prior year. Higher cash was driven by operating profit growth alongside a stronger working capital delivery. A good delivery from defense which positions us well for future growth. Power Systems, an excellent performance as we captured profitable growth in Powergen and Governmental.
+
+Helen McCabe
+CFO
+0:46:56
+
+Operating profit grew to GBP 852 million, a 60% increase year-on-year, operating margins grew to 17.4%, a 4.5 percentage point increase. Order intake was GBP 6.1 billion, a 21% increase, with a book-to-bill ratio of 1.2x. OE order cover for the whole of Power Systems is now close to 80% for 2026, with a growing order cover for both 2027 and 2028. Demand remains particularly strong in Powergen, which saw an order intake growth of 31%, with strong growth in data centers, and also in Governmental, where orders grew 15%. Revenues grew to GBP 4.9 billion, an increase of 19%. Powergen and Governmental revenue growth was 30% and 14%, respectively. Data center revenue growth was 35%.
+
+Helen McCabe
+CFO
+0:48:14
+
+That operating profit growth of 60% was driven by three factors. First, a standout performance in power generation, notably data centers, where we continued to capture strong volume growth and benefit from improved mix in the high power density sector. All this we did with strong product cost management, allowing our commercial optimization actions to flow through to the bottom line. The second factor, a strong performance in governmental, especially services, where we are well-positioned to capture growing defense spending across land and naval. Third, battery energy storage systems, which achieved break-even in the period, an important milestone for this young and fast-growing business. Cash flow, it increased to GBP 658 million, almost 50% higher than the prior year, driven by higher operating profit, partially offset by higher investments and working capital as we supported disciplined growth. In summary, great work from Power Systems.
+
+Helen McCabe
+CFO
+0:49:34
+
+Now the funds flow. We delivered GBP 3.3 billion of free cash flow, more than GBP 800 million higher than in 2024. The principal driver of increased free cash flow was operating profit, which grew by almost GBP 1 billion. Other factors included net investments. At over GBP 250 million, they were similar to last year and included a higher level of capital expenditure across what is now a more focused portfolio. We continued to invest for growth across all businesses. Our investment approach remained disciplined, strategic, and agile as we captured growth opportunities. Investments in the period included those for improving time on wing, developing UltraFan technology, and growing MRO capacity in Civil, boosting data center capacity across Germany and the U.S. in Power Systems, and for developing future programs in our U.S. Indianapolis site in Defense.
+
+Helen McCabe
+CFO
+0:50:46
+
+The net LTSE balance, it grew by GBP 600 million, around GBP 100 million lower than in 2024. Growth was driven by higher engine flying hours and an improved normalized EFH rate. This was partially offset by a higher number of shop visits, including a record number of Trent 1000 refurbs, as well as managing supply chain headwinds. Working capital. We released over GBP 400 million of working capital in the year. That's on top of the release of GBP 280 million in 2024. An excellent performance, given industry-wide supply chain challenges and as we supported revenue growth. Working capital culture and discipline across the group is now much stronger. Next, provisions.
+
+Helen McCabe
+CFO
+0:51:45
+
+They were an outflow of just under GBP 300 million, around GBP 120 million higher than in 2024, as we continued to successfully renegotiate and trade through onerous contracts. Over hedge costs, as guided, they were around GBP 150 million, broadly similar to 2024 levels. Finally, cash tax. It increased to GBP 555 million, around GBP 170 million higher than in 2024, reflecting increased profits. A strong cash delivery in the year. Tufan spoke to 2026 cash flow guidance. Let me give you some additional color. We expect the net LTSE balance growth to be broadly similar to the 2025 level.
+
+
+Helen McCabe
+CFO
+0:52:39
+
+This reflects continued growth in large engine flying hours to 115%-120% of 2019 levels, a higher normalized EFH rate, a higher number of shop visits to between 1,480-1,550, and a similar cash impact of GBP 150 million-GBP 200 million from the supply chain. We expect a higher level of net investments and outflow in provisions as we continue to progress commercial renegotiations, and cash tax costs to be around GBP 200 million higher. Moving to midterm free cash flow. We are driving for sustainable, high-quality cash flow growth. We are targeting between GBP 5 billion and GBP 5.3 billion of free cash flow in the midterm, growth of up to GBP 2 billion compared to 2025. The main elements that underpin this growth are operating profit.
+
+Helen McCabe
+CFO
+0:53:51
+
+Growth of between GBP 1.4 billion-GBP 1.7 billion over the period is key. Every division contributes with significant profit growth, especially in Civil and Power Systems, which Tufan has already spoken to. LTSE. By the midterm, we expect the net LTSE balance to grow in the GBP 0.8 billion-GBP 1.2 billion range, with large engine flying hours growing to between 130%-140% of 2019 levels, business aviation hours continuing to grow, our actions driving a higher normalized EFH rate, and improved time on wing, which will see shop visits approaching peak in 2026, then fall to between 1,300-1,400 in 2028. In addition, we expect the cash drag from the supply chain to be gone by the midterm.
+
+Helen McCabe
+CFO
+0:54:57
+
+For currency, the consumption of our legacy hedge book means our midterm guidance assumes a blended Forex rate of $1.33 to the pound, compared to $1.44 in 2025, which will drive a higher sterling equivalent for our dollar-based inflows. Next, investments. Our new midterm plan includes a higher level of investments compared to the previous one. We will continue to prioritize safety and strategic growth. Looking across the period, we expect investments to average above depreciation and amortization. Working capital. We will continue with a focused approach while supporting business growth. By the end of this year, we expect to have almost delivered our original 2027 GBP 2 billion growth saving target, and we have plans to go further. Across the period, we expect to release working capital, with 2028 being broadly neutral.
+
+Helen McCabe
+CFO
+0:56:12
+
+The cash costs of closing out over hedge positions will be gone by the end of 2026, and as our profits grow, cash tax payments will naturally increase. As I said, we are driving a higher cash delivery underpinned by quality earnings and net LTSE balance growth, with a disciplined working capital mindset alongside continued investments to support future growth. Capital frame. It's worth taking a few moments to reflect on the progress we've made over the last three years. It's significant. Rolls-Royce today is in a fundamentally different position. We are resilient and have financial flexibility to invest and to reward our shareholders. Since the start of our transformation, we have materially improved operating leverage, taking our total cash cost to gross margin ratio to 0.36x, a best-in-class ratio.
+
+Helen McCabe
+CFO
+0:57:29
+
+We have rebuilt the balance sheet, reducing gross debt by around one and a half billion GBP and improving net debt by over GBP 5 billion to end 2025 in a net cash position. We have taken the company from sub-investment grade to strong investment grade with all three of our rating agencies. This increased resilience allowed us last year to pay our first dividend in over five years and complete our first share buyback in 10 years, returning GBP 1.9 billion to our shareholders. All this we did as we continued to increase investments to support growth for years to come.
+
+Helen McCabe
+CFO
+0:58:21
+
+To close 2025, we are happy to share that the board is recommending a final dividend of GBP 0.05 per share, representing a full year dividend of GBP 0.095 per share, a 60% increase year-on-year, and a payout ratio of 32%. Competitive and evidence of our commitment to growing shareholder returns. Looking forward, we will continue to strike the right balance between preserving a strong balance sheet, delivering competitive returns to shareholders, and retaining flexibility for further investment opportunities, both organic and inorganic. Tufan will touch on some of the long-term growth opportunities that we see and where we have built and earned the right to win.
+
+
+Helen McCabe
+CFO
+0:59:16
+
+With a strong balance sheet, significant investments to support long-term growth, and confidence in our future, we are pleased to announce our first multi-year buyback program, a three-year program to 2028, which will total between GBP 7 billion and GBP 9 billion. Taken together with our commitment to regular and growing dividends, this represents a return to shareholders of over 75% of free cash flow between 2026 and 2028, based on our midterm targets. We will update you annually on the amount we intend to return each year. For 2026, the buyback will total GBP 2.5 billion, which includes the GBP 200 million interim tranche already completed. As I pass to Tufan, let me say thank you to our teams. I know many of you are watching today. It is your hard work that has made all we have achieved possible.
+
+Helen McCabe
+CFO
+1:00:27
+
+Thank you, and well done. As we turn to 2026, it will be busy. There is lots we want to do, and we are very excited by what lies ahead. Thank you.
+
+Tufan Erginbilgic
+CEO
+1:00:52
+
+Okay, now, thanks, Helen. I want to talk about beyond midterm, because we believe we can talk about beyond midterm with lots of granularity that not many people will be able to do. Our transformation is taking the company to a place which has opened up growth opportunities which were not there before. We have positioned Rolls-Royce to benefit from several positive long-term trends, including world GDP growth with a rising middle class, higher defense spending, digitalization and AI, and the energy transition, including nuclear renaissance. In addition, the actions we have taken, and continue to take, will drive profitable growth. We have unlocked significant opportunities within our existing businesses. In civil aerospace, we hold leading positions in widebody and business aviation. In widebody, we expect growing deliveries beyond the midterm with improved OE profitability.
+
+Tufan Erginbilgic
+CEO
+1:02:18
+
+We are also continuing to improve our LTSA margins beyond the midterm, as you have heard. By 28, only half of our LTSA contracts will be on new terms, which means there will be a sustained benefit beyond the midterm as more contracts come in with higher margins. Our time on wing initiatives conclude at the end of 2027, leaving us with a highly competitive engine portfolio, and the full cash benefits will not be realized until beyond the midterm. Our fleet is relatively young, and our initiatives to keep engines earning has been highly successful. Take, for example, the Trent 700, our largest mature engine fleet. This engine has been in service more than 30 years, but around, actually a little bit more than 40% of program's total flying hours are still to come.
+
+Tufan Erginbilgic
+CEO
+1:03:37
+
+Over the last three years, only 6% of Trent 700 have been retired. Almost 43% of the fleet have been extended or transitioned to new passenger operators, and a further 4% transitioned to freighter contracts. The A330 is a popular aircraft for freighter conversions, with Rolls-Royce capturing almost 90% of all A330ceo conversions over the life of the program. Growing new engine deliveries, coupled with efforts to keep engines earning, will drive continued installed fleet growth significantly beyond the midterm. Looking further out, UltraFan will secure our position on the next generation of widebody aircraft. In business aviation, we are cementing our position in the growing and resilient long-range and ultra-long range segment. We have strong positions on the latest large cabin jets, including G700, G800, and Falcon 10X.
+
+Tufan Erginbilgic
+CEO
+1:05:10
+
+Deliveries of these platforms are just starting to ramp up and will remain in production for many years. Thanks to our actions, we generate positive OE margins on all new business aviation deliveries. All this means that our widebody and business aviation fleet will continue to generate substantial OE and aftermarket revenues for many years, with growing operating margins and cash flow. In defense, we hold leading positions in transport and combat. We expect sustained demand for our mature, profitable products, such as the EJ200 for Eurofighter, where we now have visibility of deliveries into the twenty-thirties. The lift system for the F-35B and our AE family of engines. We are investing to enhance and extend our leading position in transport engines. Beyond the midterm, growth accelerates as several major programs ramp up. GCAP will be a leading combat aircraft program with a significant export potential.
+
+
+Tufan Erginbilgic
+CEO
+1:06:43
+
+Rolls-Royce will hold a significant share in this program, which will potentially be larger than Eurofighter. GCAP production ramps up in the mid-2030s. In submarines, we expect long-term growth, driven by the AUKUS partnership, alongside the renewal of the U.K. fleet. MV-75, previously known as FLRAA, will also ramp up from 28, from a life of 30-40 years, including OE and aftermarket. This will be a very large program, leading to production of thousands of engines and expanding to additional opportunities over and above the initial U.S. Army contract. On the B-52, we expect to deliver around 600 engine, with production starting by 2030. We are also actively pursuing combat growth opportunities in international markets. We see a growing trend toward autonomous in defense. Given our capabilities, we are well-placed to capitalize on this multi-billion pound opportunity.
+
+Tufan Erginbilgic
+CEO
+1:08:19
+
+Rolls-Royce will power the U.S. Navy's MQ-25, the first autonomous aerial refueler in aviation history. We already power the Global Hawk unmanned aerial surveillance aircraft. We are investing further to position Rolls-Royce for future autonomous opportunities. For example, in two years, we developed and tested our Orpheus engine demonstrator. In power systems, we anticipate sustained power generation growth, driven by data centers. Rolls-Royce is uniquely positioned to help the hyperscalers with their future data center power demands, including backup power, prime power, and with SMRs. Our next generation Series 4000 engines, which will be released in 2028, targets the ever-increasing power demands of AI data centers with a 20% higher power density. This differentiated product will create commercial opportunities and a new market access.
+
+Tufan Erginbilgic
+CEO
+1:09:46
+
+In governmental, rising defense spending supports both land and naval applications, where we are the incumbent supplier on the main European NATO platforms. In the U.S., where we have had notable success with the Coast Guard and Navy, We are also finding new opportunities to support on land and naval. In addition, we see attractive opportunities with battery storage, marine, and in industrial applications like mining and rail. To summarize, our existing businesses are well-positioned to deliver significant growth, with rising operating margins and growing cash flows well beyond the midterm. This growth will be delivered by combination of market growth and self-help actions. Now, I will focus on two additional and significant growth opportunities that our transformation has unlocked. The first is nuclear. Rolls-Royce has unique nuclear capabilities that positions us extremely well in this fast-growing market.
+
+Tufan Erginbilgic
+CEO
+1:11:19
+
+We are already the leading SMR player in Europe, following success in the U.K. and Czech Republic, have started the regulatory process in the U.S. We see a total addressable market of more than 400 SMRs by 2050. We expect to be a leading player in this market. Our first projects have already started to generate revenues and profits. Cash flows will be positive on a project basis throughout. The SMR business will be profitable and cash generative by 2030, with strong profit and cash flow growth thereafter. Our aim is to commission two SMRs per year by the mid-2030s, rising to eight per year at maturity. Our business model is highly differentiated as the largest SMR available on the market, where we offer the whole power plant with truly modular construction. This business will be cash generative, with a high return on capital employed.
+
+Tufan Erginbilgic
+CEO
+1:12:49
+
+We see an adjacent opportunity in advanced modular reactors, which further leverages our deep nuclear capability and power conversion experience. AMRs are smaller, more flexible power plants with potential commercial and defense applications. The second opportunity is narrow body. Our UltraFan technology positions us strongly for the next generation of narrow body aircraft. The narrow body market is large and would offer meaningful synergies with our wide body and business aviation activities. We are building a narrow body size demonstrator with up to 30,000 pounds of thrust, which will be ground tested by 2028. We expect UltraFan to deliver a significant improvement in fuel burn versus today's narrow body engines, as well as meeting the time on wing expectations for customers in this market. We have already invested significantly into UltraFan, and will continue to do so as we look to re-enter the narrow body market in partnership.
+
+Tufan Erginbilgic
+CEO
+1:14:20
+
+To summarize, the growth outlook for our existing businesses is very strong. In addition, these new opportunities, which we have unlocked through our transformation, further enhance that trajectory, uniquely positioning Rolls-Royce for a profitable growth. To close, we are delivering on our proposition to transform Rolls-Royce into a high-performing, competitive, resilient and growing business. We have achieved a step change in financial performance over the past three years. We expect further strong progress this year, and we have set new, upgraded mid-term targets for 2028. These targets are already significantly underpinned by our actions, by the actions that we have taken and the investments that we have made. Our strong balance sheet and sustainably growing free cash flow gives us the confidence to announce a multi-year buyback program from 2026 to 2028. This is in addition to our regular and growing dividends.
+
+
+Tufan Erginbilgic
+CEO
+1:15:50
+
+We remain committed to increasing shareholder distributions in line with our profitable growth. We are also excited about Rolls-Royce's growth prospects beyond the midterm. I would like to finish today's presentation by giving you a perspective on the resulting business that we have been building from the first day, actually. We are transforming Rolls-Royce into a highly competitive and sustainably distinctive business. A business with advantage products and technologies, with significantly improved safety and operational capabilities, and excellence in customer service, with a differentiated mindset and a distinctive performance culture, with a strong balance sheet and best-in-class efficiency, and with high quality of earnings. This, in turn, opens up more opportunities for profitable growth. We believe our growth potential is now unmatched, as we have more optionality for further growth than many other companies.
+
+Tufan Erginbilgic
+CEO
+1:17:16
+
+We expect significant continued profitable growth from our existing businesses through a combination of market growth and self-help actions, are unlocking new opportunities such as nuclear and narrow body. Because of this, we expect continued expansion in operating profit margins and cash flows well beyond the midterm. This will benefit all the Rolls-Royce stakeholders. I'm very proud of the Rolls-Royce team and what we delivered so far, I am even more excited about what we will deliver in the future. Thank you for listening. We are going to open it up for questions. I already see some. Can I start there, I'll come? I think you have the microphone there.
+
+Sam Burgess
+Head of European Aerospace and Defence Equity Research
+1:18:22
+
+Good morning, Sam Burgess, Goldman Sachs, thank you very much to Tufan and Helen for the presentation. Two questions, starting with one for you, Tufan. Any color on your latest thinking on the program share Rolls-Royce might like on any future narrow body partnership? How might this discussion look, given most of the narrow body program partners probably don't want to lose share? Would be helpful. Then for Helen, are the benefits of AI engine diagnostic tools built into your new midterm LTSA margin improvement forecasts, or is the technology today too nascent to build this in at the moment? Thank you.
+
+Tufan Erginbilgic
+CEO
+1:19:08
+
+Thanks for the Narrow Body. I think here's the way to think about that, frankly. We have a good capability, engineering capability. On top of that, I think given the developments we made with UltraFan, we already spent, by the way, more than GBP 1 billion on UltraFan, and the new technologies we are incorporating and continue to incorporate in UltraFan, that positions us really well for Narrow Body. Therefore, yes, we prefer partnership. We are talking to multiple parties. I said it in the past, I'm gonna say it because it is correct. More importantly, they want to talk to us. Two airframers, obviously, we work with them, Airbus and Boeing, and they are actually keen that we participate in Narrow Body.
+
+Tufan Erginbilgic
+CEO
+1:20:19
+
+I think I'm afraid I cannot comment on. At the right time, we can talk about it, but I cannot comment on which partnerships, et cetera, but that's our preference. At the same time, we continue to develop our demonstrator, et cetera. We are not actually waiting for partnership. You've seen the demonstrator model outside, but that actually continues. Over to you, Helen.
+
+Helen McCabe
+CFO
+1:20:50
+
+Fantastic. Thank you. In relation to AI, it's probably worth standing back. I mean, there's lots happening in this space, but what we've spoken to you about is where we have very deliberate, concrete plans. Yeah, there is substance behind it, and those we have built into our midterm projections going forward. Maybe just a couple of examples, 'cause there is a lot happening in this area. I shared with you the example about on-wing maintenance and how we actually can better predict, while the engine's still flying, if we actually can do the repairs on wing, or it needs to be brought into an MRO shop. Combined with that, we're actually developing, and it's been rolled out, I think it's actually beginning of March.
+
+
+Helen McCabe
+CFO
+1:21:37
+
+We're rolling out another AI agent, which allows us, along with the on-wing data analysis, to actually plan more effectively how we take the flow of work through the MRO. You imagine a scenario where you understand the scope of work that needs to be done, and then you combine that with how you actually plan MRO scheduling. I think Simon's with us today. I see Alan. Simon? Simon's up there. Simon and Alan, we've got our chief engineers with us today. There's one AI agent, and we were the first to actually get this certified from EASA. If you want to know more about it, Simon is your man, and it's to do with technical variations. Yeah, technical variants. This is, you know, where you need to make a particular change.
+
+Helen McCabe
+CFO
+1:22:26
+
+As you can imagine, very, very labor-intensive. We've actually put AI across that, and we've reduced the effort by 75%. It's the first AI agent that has EASA approval. We have got very specific use cases, which we have developed. Simon and the team, particularly from an engineering perspective, are all over those. Where they are that detailed, and they have the KPIs to support them, and there's governance around them, those we have built into the plan. Something that we continue to track and monitor very carefully, but also lots happening in the back office as well. Tufan spoke about GBS. As an example, we have rolled out across some of our back office work, a new tool which automates balance sheet reconciliations. Not the most exciting, but a very important thing.
+
+Helen McCabe
+CFO
+1:23:23
+
+It is now highly automated, more than 90% of those. I mean, can you imagine the efficiency that things like that drives? Those are just some of the very practical, real things that we're doing in a purposeful way.
+
+Sam Burgess
+Head of European Aerospace and Defence Equity Research
+1:23:34
+
+Really helpful. Thank you.
+
+Tufan Erginbilgic
+CEO
+1:23:36
+
+I believe NVIDIA talked about strategic partnership.
+
+Helen McCabe
+CFO
+1:23:40
+
+Yeah.
+
+
+Tufan Erginbilgic
+CEO
+1:23:40
+
+In the back office with us yesterday. I think digital is gonna play a bigger role. I promise you. I'm coming, there are some hands there.
+
+Nick Cunningham
+Managing Partner
+1:23:54
+
+Thank you. Nick Cunningham from Agency Partners. I wanted to carry on pursuing the Narrow Body strategy question if possible. I realize you're limited what you can say about partners, all the other engine makers seem to offer various problems and obstacles in terms of partnering with them. Should we think about you going perhaps outside of the engine makers, particularly because I think the big issue is going to be having the capacity in this very high volume segment? The second question on that is, there's been a lot of discussion in the press about you looking for potential launch aid, you know, risk and revenue sharing, government loans. Do you actually need that?
+
+Nick Cunningham
+Managing Partner
+1:24:32
+
+I mean, 'cause that, typically in the past, that's been very produced a very good return to the government, so it's been expensive for the borrower. You have very strong cash flows, and you have a lot of technical confidence. Do you need to share that risk at that expense? Very final question: The expensive bit of developing an engine's at the back end of it, when you're prototyping and certificating. Do we need to think about this as being somewhere out in the 2030s in terms of where the actual cost is incurred. Thank you.
+
+Tufan Erginbilgic
+CEO
+1:25:02
+
+Okay, lots of questions there. I think, your government question, let me be very clear. We are not asking for any loan from anybody, not to mention government. Okay? We are not that Rolls-Royce. We just announced sort of our midterm targets to you. Here is actually, it's a lot simpler than that, okay? Industrial strategy of U.K. said, "Narrow body, entering narrow body, is once in a generation opportunity for U.K. because it will create up to 40,000 jobs. Significant, sort of gross value add, initially will be GBP 100 billion, if you think generations, a lot more than that contribution to the economy, big economic growth, the single biggest economy." This is actually, if you read the industrial strategy, that's what you will read.
+
+Tufan Erginbilgic
+CEO
+1:26:08
+
+It is not actually uncommon that governments support R&T and R&D, and our competitors get 2x, 3x what we do. They are not actually loans, as you know, like ATI type of stuff. We are talking about that kind of support rather than loan this, loan that, et cetera. We don't need any loan. We are in a competitive world. If my competitors are getting 2x, 3x I do, I think that support we will appreciate. In terms of partners, beyond engine makers, we are talking to more people, but as you accepted yourself, I cannot comment on it. In terms of spend, obviously, this has multiple spends in it, like R&T spend, we have been obviously investing already. R&D spend. We are now building demonstrator by 2028.
+
+Tufan Erginbilgic
+CEO
+1:27:22
+
+Obviously, it is in our all the budgets that you see, by the way, it's not in addition to that, it will be there. If you actually think about, it will depend on core engine commonality, and how many variants, airframers choose to have. Cost will vary, but let's say with partnership, it may vary for us, GBP 3 billion-GBP 5 billion to GBP 5 billion, GBP 6 billion. That's and in the next 12 years. That's how you may want to think about. Then there is some investment with industrialization, but that is absolutely the far end of it, because why would I invest right now for that? Hopefully that answers that question, Ian.
+
+
+Ian Douglas-Pennant
+European Aerospace and Defence Sell Side Equity Research Analyst
+1:28:28
+
+Thank you very much. Yes, Ian Douglas-Pennant with UBS. Thinking about the long term on civil, is there a possibility now that you can exceed peer margins, given enough time, or is the ambition to get in line with them? If you, if so, what gives you confidence that you do have the potential to exceed? The second question is on power systems. To what extent are you limited by your own industrial capacity in terms of growth from here? Can you give us any insight on where your industrial capacity is and where it's going to? Thank you.
+
+Tufan Erginbilgic
+CEO
+1:29:03
+
+Okay, great. Nobody called me, actually, so far, thanks, Ian, that I want to be in line. That was never the aspiration, in my life. Get in line is not a great aspiration, for me, frankly. That hopefully answers a part of your question, but I'm gonna answer more. I would say this: I think we made strong progress. Everybody was worrying about our wide-body margins should be lower. "No, you don't have scale." Do you remember those days? Nobody asked me anymore. There, we proved all that wrong, effectively. Here is how I will answer. Our midterm targets are strong targets.
+
+Tufan Erginbilgic
+CEO
+1:30:09
+
+Definitely, if you look at competitively, our operating profit and cash growth targets, actually strong targets. On civil aerospace, if I can answer the question, do I see potential to grow the margins beyond the midterm target? My answer would be yes. Okay? I think that is, that's how I would answer it. On industrial capacity, for power, Ian, you specific, we are not limiting, frankly, because we don't want to speculatively get ahead of it. Actually, we are putting some slack in the system. Therefore, if you go to Mankato, because I was actually there last year, and Aiken, you will see we are effectively power gen. Effectively, we are doubling power gen capacity on- We have some we call them system plants, like Mankato will be, is in that category, then the engine plants, Aiken in that category. We are actually doubling the capacity of both, because our, one of our differentiation, we actually, we don't sell single engine, we sell gen sets with control systems around that. I think we are not limited. You ask how much, last time you, sort of, you wrote saying, "I'm not sure, market share." I think our market share, to be specific in deliveries, because you can go to market share in installed, and that will be different because our market share in installed lower, but in deliveries is around 25%. What's our capacity, deliveries per year? Around 99 gigawatt. We believe total delivery is around 36 gigawatt.
+
+Tufan Erginbilgic
+CEO
+1:32:33
+
+That's where 25% comes, obviously. That's right now. Next year I may tell you different capacity because we are investing to grow, right, on this.
+
+Ian Douglas-Pennant
+European Aerospace and Defence Sell Side Equity Research Analyst
+1:32:51
+
+Thank you. It's nice to hear that somebody reads my research. I really appreciate that.
+
+Tufan Erginbilgic
+CEO
+1:32:56
+
+Thanks, Ian.
+
+
+Chloé Lemarié
+Equity Research Analyst, Aerospace & Defence
+1:33:05
+
+Thank you. Chloé Lemarié from Jefferies. I'd have a first follow-up and then two questions, please. The first very quick one on narrow body. Should we understand that you're ruling out going like re-entering the market on your own and just strictly looking for partnership? My first question is on pricing power. We've seen great pricing power in power gen over the recent years. On governmental, we keep hearing about risks that government seek pricing reduction as volumes grow, and some OEMs are seeing margin expense. On those two segments, how are you seeing pricing evolve to your midterm targets? Last question, can we talk about shop visit costs?
+
+Chloé Lemarié
+Equity Research Analyst, Aerospace & Defence
+1:33:50
+
+You've been talking in the past about XWB average cost reduction, but the mix might actually skew that to the upside. Net, net, how should we think about average cost per visit?
+
+Tufan Erginbilgic
+CEO
+1:34:05
+
+Well, that was one question, was it? I think narrow body, I'm not ruling out anything, but our strong preference is partnership, and there are opportunities for partnership, and it's not one. On power gen, here's how you may want to think. In my presentation, I deliberately talk about power gen will come with improving margins because of three things. I think pricing power, in a way, we would like to be competitive on pricing. Therefore, there is, given the competitive intensity, there is a limit, but I think our product is really good, and frankly, with new product that will come in 2028, because it is gonna be so differentiated that you can price accordingly. That's one thing you should think about.
+
+Tufan Erginbilgic
+CEO
+1:35:19
+
+Second thing is, I think Helen mentioned in her presentation, she said two things. For aerospace, she said, "We still see product cost increase," which is true because supply chain environment is challenging. She also said, "We manage well in power systems," because supply chain is not equally challenging in power systems, and we built a new, totally new team in supply chain, in power systems, and they've done a spectacular job that actually we hardly get any product cost inflation there. Therefore, whatever pricing you do, that flows through. Then the mix, we have been increasing higher power sales, power density sales to data centers. Obviously, higher power has higher margins. That's power gen. I think governmental, you are always in some within your guardrails, even the deal starts, frankly.
+
+Tufan Erginbilgic
+CEO
+1:36:37
+
+I think we will continue to be in those guardrails. The strong contribution... Governmental contracts are actually good in power systems. The real sort of value creation even more, aftermarket, because in governmental services tends to be strong, whether it is spare parts, whether it is overhaul, sort of, or all that actually is there. In terms of shop visit costs, we talk about XWB-84, definitely, and that's important, right? Because that's an engine scaling up, right? Why did I focus on OE XWB deliveries? Since the beginning. In fact, some of you asked two meetings ago, I think, we're here, "Well, why only XWB? You pick and choose these things." No, we don't pick and choose and present to you.
+
+Tufan Erginbilgic
+CEO
+1:37:54
+
+We run the business by making choices rather than pick and choose the good news to you. We focus a deliberate effort with priority to make XWB OE deliveries break even and positive, because we knew that's where the scale-up was coming. Why waste your effort, right? Same thing applies here. We are actually also thinking about, especially digital, that Helen talked about, will help reduce our shop visit costs, definitely.
+
+
+Chloé Lemarié
+Equity Research Analyst, Aerospace & Defence
+1:38:33
+
+Across all engines?
+
+Tufan Erginbilgic
+CEO
+1:38:34
+
+Yeah, across all engines. Sorry.
+
+Rory Smith
+Equity Research, Aerospace & Defence, Machinery
+1:38:43
+
+Hi, it's Rory Smith from Oxcap. Thank you for taking my questions. I just want to come back to this point on civil area margins. You've upgraded the medium-term target. It's now closer to my number than it was before, so that's sort of personally reassuring.
+
+Tufan Erginbilgic
+CEO
+1:38:58
+
+You are ahead of the curve, clearly.
+
+Rory Smith
+Equity Research, Aerospace & Defence, Machinery
+1:39:01
+
+I just wanted to come back to some of the moving pieces. The LTSA slide in particular is very helpful, so thank you for that. I did want to ask about time and materials. I note the sort of V2500 service revenues are down year-over-year. Is there a risk that there is some moderation in 2027 before we get to a sort of sunny uplands in 2028? That's my first question. Thanks.
+
+Tufan Erginbilgic
+CEO
+1:39:25
+
+I think, I mean, in terms of margins, I didn't know you were ahead of the curve, but it is good to get there. I think, those LTSA slides, we obviously do it on purpose. It should give you lots of granularity, more than any other company will provide to you, sort of where this business is going. David and I had a good chat on that in our romantic trip to Paris, I say.
+
+
+Tufan Erginbilgic
+CEO
+1:40:10
+
+Romantic trip, I say, because David, as you know, he was on sale at that time. I'm going to Paris Air Show. I sit in Eurostar. I'm doing whatever I'm doing, waiting for the train to depart, somebody shows up and says... I don't know you remember, David. Somebody says, "Oh, probably you are the last person you would like to see, but this is my seat." He actually sits just across me, at that time, I don't know what happened, Eurostar, probably, on purpose, the normal trip takes 2 hours and a bit. It took this time, 3 hours and a bit. That's the trip. He was questioning me, how bad our LTSA contracts are, so on and so forth.
+
+Tufan Erginbilgic
+CEO
+1:41:14
+
+Therefore, whenever I hear LTSA margins, David, I remember you in the best possible way. Anyway, I think we have been actually improving these margins. Obviously, that has a lot to do with operating margin improvement, especially if you add to that OE profitability improving, and if you add to that business aviation profitability improving, which I told you, sort of. I think it all adds up to effectively. Therefore, we are talking about even beyond midterm, with lots of granularity. One thing you guys probably appreciate by now, we keep talking about performance culture. Power comes from so embedded in the organization. Everything we present to you, it is bottom-up, embedded, owned, and performance managed. I'm not sure every.
+
+Tufan Erginbilgic
+CEO
+1:42:33
+
+This is my fourth company. I'm not sure every company can say that, I think. Those margins, TNM, we continue to improve TNM, frankly. We told you in midterm, we expect sort of aftermarket to grow, and TNM is obviously part of that, but I'm not gonna say more than that.
+
+Rory Smith
+Equity Research, Aerospace & Defence, Machinery
+1:43:03
+
+I mean, that was more of an answer than I could have hoped for, thank you. Just finally.
+
+Tufan Erginbilgic
+CEO
+1:43:07
+
+You didn't expect David's story, did you?
+
+Rory Smith
+Equity Research, Aerospace & Defence, Machinery
+1:43:09
+
+You, you'll always have Paris. Are you talking to Boeing about 777X, given the delays on that program and the latest durability concerns on GE9X?
+
+
+Tufan Erginbilgic
+CEO
+1:43:21
+
+I think individual conversations, I'm sure you appreciate, I'm not in the liberty to comment here. We work with Boeing on multiple things very closely. Absolutely. Jeremy has a question, but Jeremy, I'll go there first, then I'm gonna come to you. Sorry, Dave. Jeremy, I'll come to you just there, and then David.
+
+Ross Law
+Executive Director, Equity Research
+1:43:50
+
+Okay. Morning, everyone. Ross Law from Morgan Stanley. I had two questions, please. First, on Power Systems' margin target. If you look at one of your peers, they're now quite consistently generating margins in excess of 20% in their equivalent business.
+
+Tufan Erginbilgic
+CEO
+1:44:04
+
+Sure.
+
+Ross Law
+Executive Director, Equity Research
+1:44:05
+
+Should we think about that for Power Systems? Or given your earlier comment about not wanting to be in line, is it potentially higher than that? Just secondly, on SMR, any update on the timing of the U.K. contract? Thanks.
+
+Tufan Erginbilgic
+CEO
+1:44:18
+
+I think I really encourage you guys, because we do look at it, even for us, with all due respect to you, we know our numbers probably better. It is hard to take our portfolio to make the comparison with our peers, because actually, both if you look at two main competitors, Caterpillar and Cummins, they have some same portfolio, but they have very different portfolios, and they break them apart. What about we call Power Systems shows up Power Systems and distributions in them, and a part of Power Systems and distributions. Therefore, when you are comparing, because some part of, like, industrial turbines, is a very, very profitable place right now, which we don't have, right? Some comparison, I'd really encourage you to be careful about.
+
+Tufan Erginbilgic
+CEO
+1:45:29
+
+If you look at our margins, 18%-20%, we gave you midterm. Do we see a improvement on that? Yes, my answer would be we do. Okay? When the scale goes up, some of the dynamics I explained before that I'm not gonna explain again, but also scale obviously helps in these things. David.
+
+Speaker 9
+Analyst
+1:46:03
+
+Is that working? Yeah. Tufan, all I can say is we'll always have Paris. Just two questions. On civil aero, you've given us very clear positives driving the margin, the LTSA, where I was wrong, and lower losses on OE. What about headwinds? Are there headwinds in there, like rising R&D in the next few years or less spare engines that we should think about?
+
+Tufan Erginbilgic
+CEO
+1:46:30
+
+I mean, yes, I think in terms of investments, obviously, what Helen said in midterm, and she was describing cash of midterm, she said, "Investments in midterm higher than last year's midterm targets." Yes, we continue to invest in the business, and that's the right thing to do. They are already there. I wouldn't call them headwinds, frankly. They are part of doing business, I would say. Actually, in terms of the only, if you are thinking profit, which I gave you already, David, only thing which won't be in midterm is the. By that time, we will have been done by onerous contracts.
+
+Helen McCabe
+CFO
+1:47:27
+
+Mm-hmm.
+
+Tufan Erginbilgic
+CEO
+1:47:27
+
+They, you are not gonna have that benefit. I don't call it headwind, because cash benefits will continue to come. Because when you renegotiate a contract, you know how our accounting works, you book the profit, but actually cash benefit comes up, and quite a few contracts we renegotiated. Actually, there is a step up in cash, right? EFH rate, for example, steps up because obviously, the other party wants lower impact early years than future years, and that dynamic causes that. So it's not a, it's not a headwind for cash, but it is a headwind, definitely for, when you look at our 2028 targets, you need to take that into account. I would like to think they are very strong targets, like 50% increase, in spite of onerous benefit not being there, right? You need to think.
+
+Tufan Erginbilgic
+CEO
+1:48:39
+
+In terms of, actually, cash has more going for it because also supply chain hit will not be there because that's actually, strictly speaking, but it is right now cash hit, although it was also profit hit at some point.
+
+Helen McCabe
+CFO
+1:49:02
+
+Just on your onerous, as you said, you won't have that benefit by the midterm, but we'll still have a level of catch up because of what we're doing from an operational and commercial perspective.
+
+Speaker 9
+Analyst
+1:49:12
+
+Yeah, the other one I was just wondering about was spare engines. I don't know if you commented on it, but current in the mix, and where you expect it to be in the next few years?
+
+Tufan Erginbilgic
+CEO
+1:49:20
+
+I mean, spare engines are very similar in terms of quantity.
+
+Speaker 9
+Analyst
+1:49:24
+
+Yeah.
+
+Tufan Erginbilgic
+CEO
+1:49:27
+
+We said our profitability went up. That's what we said, and that's true. Some of it with mix, because, for example, 97 has better margins on it, so that's the mix element. Some of it sort of, our framework helping.
+
+Speaker 9
+Analyst
+1:49:49
+
+Okay. Can I just throw one in on defense? If the U.S. does do a large increase in its defense budget, which Trump has proposed, what sort of opportunities do you see for Rolls?
+
+Tufan Erginbilgic
+CEO
+1:50:00
+
+I think, I mean, we have great programs in the U.S. that, like MV-75, that's a very, very large program. We cannot talk about the number because we are not allowed to talk about the number, therefore, I'll say it. 30, 40 years, it is a very, very big program. B-52, and we are working on autonomous. My answer to you, I think apart from combat and transport, because some of that spend, David, will be what Golden Dome, and frankly, we are not a weapon company. The Golden Dome, we will not necessarily participate.
+
+Tufan Erginbilgic
+CEO
+1:50:57
+
+I think we are in great programs in both in the U.K. and in the U.S., and quite a few of those programs have enormous export potential, that they are very, very big programs. Our focus right now, I said it, MV7528. By 2030, B-52 will come. We are actually on track fully on that. GCAP will scale up mid-thirties, obviously, Orpheus and the U.K. fleet. If you look at. Autonomous will come on top, because autonomous, right now, I see as a new opportunity that frankly, we haven't made money. We had enormous capability. We are actually ahead of competition, therefore, we are doing MQ-25, right? Contribution to us was almost zero.
+
+Tufan Erginbilgic
+CEO
+1:52:04
+
+Therefore, that is one opportunity which will not be only in the U.S., but also in the U.K., maybe beyond midterm, it will actually come. Jeremy?
+
+Jeremy Bragg
+Head of Investor Relations
+1:52:22
+
+Thanks. Three questions, the first of which is from Benjamin Heelan at Bank of America, that pertains to the LTSA balance growth, which is a little bit lower than expected in 2025 and 2026. Can you help us understand why, the outlook for the longer term, and how that plays into what you're doing with LTSA margins? That's question one. Question two, I'm consolidating a few here, is around SMRs, which is at what point do you reach maturity when you're doing 8 a year, do you plan to remain the majority owner of that business? Question three is around Trent 1000, the great work we've been doing on time on wing, will that translate to market share improvements? Thank you.
+
+Tufan Erginbilgic
+CEO
+1:53:11
+
+I'm gonna ask Helen to answer LTSA balance growth. On SMRs, yes, I said in my presentation, Ben, that we are gonna get to 8, probably you are talking about 2040 maturity time on the SMRs. Trent 1000, Ben, that is definitely the sort of ambition we have. That's why we improved the engine. First of all, I will say, hopefully, you guys follow this, that when we say something, we actually deliver.
+
+Tufan Erginbilgic
+CEO
+1:54:02
+
+When I first talked to leasing companies on Trent 1000, some of the very prominent leasing company CEOs told me, "Okay, two more CEOs before you told us about Trent 1000, and now you are talking about it." He sent me all sorts of texts saying, "Actually, I don't believe what you are talking about." Did we actually deliver? Yes. We delivered what we call Bombi. 25% of our fleet is already on Bombi. Okay? We not only delivered, we are executing at pace. Did we actually deliver Ben's Bombi? Yes, it was certified last year. We are starting to apply. Between Bombi and Bombi, that's more than 130% improvement on time on wing. That takes Trent 1000 to 4-6 years, right?
+
+Tufan Erginbilgic
+CEO
+1:55:11
+
+If you think about cycle times, before they come to the shop visit, as opposed to nine months to 12 months. I mean, our, some of our supply chain issues, because none of you asked, but I'm gonna say it. Why do you think it is gonna disappear by midterm, this supply chain issues? There is the generic supply chain issues that Helen talked about. I'm not gonna repeat. Every company has slightly specific supply chain issue, like Airbus talks about something, and I'm not gonna speculate on what they talk about, but you know. For us, Trent 1000 was the biggest issue, because when the supply chain is limited, your shop visit capability is limited, which we are improving. Every 9 months, 12 months, engines come back, that's a problem for us.
+
+
+Tufan Erginbilgic
+CEO
+1:56:24
+
+Therefore, when we say it is gonna disappear by midterm, we say it with some confidence because of Bombardier and Bombardier applications. Therefore, that's where it comes from. Four to six years, this is a very competitive engine right now. Yes, our ambition, Ben, is to sell that more. Over to you.
+
+Helen McCabe
+CFO
+1:56:54
+
+SMR?
+
+Tufan Erginbilgic
+CEO
+1:56:56
+
+I think I covered SMR.
+
+Helen McCabe
+CFO
+1:56:57
+
+Yeah, you're good with that.
+
+Tufan Erginbilgic
+CEO
+1:56:58
+
+Yeah.
+
+Helen McCabe
+CFO
+1:56:59
+
+LTSE, thank you for the question, Ben. I mean, 2025, it came in at 0.6, I mean, not too far away from the range. As you know, there are lots of things, yeah, which contribute to LTSE, particularly shop visit next. Particularly in the second half, I referenced record number of Trent 1000. Tufan, when he spoke, actually, also spoke about. It gets back to this romantic weekend that we keep coming back to. It gets back to the quality of LTSE that we're actually driving as well. We've got what we call higher realizations 'cause we're driving better margins, so you actually pull down more of your LTSE as well. That's good because you're keeping more of that profit. That's really 2025.
+
+
+Helen McCabe
+CFO
+1:57:47
+
+In relation to 2026, we expect it to be around the same level as 2025. That's because, particularly because of Bombardier, we've got higher number of shop visits. We see approaching peak, yeah, as we get more of that fleet through, complete Bombardier. It was 25%, as Tufan said, at the end of the year. It's actually now more than 25% at the end of February. We've still got that drag from supply chain. As you think about how we drive LTSE growth going forward, those five key factors which we've spoken about before: engine flying hours continue to grow, both across wide body and business aviation. Engine flying hour rate, as Tufan spoke to, around how we're driving better margins. Time on wing, we get the full benefit of that beyond the midterm.
+
+Helen McCabe
+CFO
+1:58:38
+
+Supply chain drag is gone. That feeds into LTSE. Of course, currency also helps that. One thing I would say on currency, I know there, I know a couple of you are very eagle-eyed, and you'll probably look at the supplemental. These midterm targets that we've delivered have actually got a slightly worse currency in them than our previous ones. I was expecting a question on that. It's about 2 cents worse by 2028, yeah, just because of the way that the blended rate falls out. We still get a benefit from that. Where I go with that is actually our midterm cash flow targets, yeah, are still incredibly compelling with that slight drag from the currency. That's how you should think about LTSE.
+
+Tufan Erginbilgic
+CEO
+1:59:27
+
+Helen, Jeremy, do you want to know more? Okay, great. I think we are done, I'm gonna close. First of all, thanks for listening. I know it was long presentation, we wanted to give you more insight into not only midterm, also beyond midterm. Thanks for your great questions as well. I think I will say this: We made great progress, that progress, you can look at financials, you made this much money, this much cash. Yes, that's one way of looking at it, I really encourage you to also look at what growth potential that created, profitable growth potential, which I really said in my presentation because I meant it. It is actually unmatched, that kind of growth profile.
+
+Tufan Erginbilgic
+CEO
+2:00:33
+
+All the slides I showed you, we obviously took the numbers off, but they are not mock-ups. I will tell you that. Beyond midterm, they are not mock-ups. I think that is now our task, is to go and execute on that, as well as we have done last three years. In fact, actually, our aspiration in the end, is to do even better. With that, thanks for coming. Have a great day.
