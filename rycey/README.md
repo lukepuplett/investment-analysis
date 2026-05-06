@@ -42,6 +42,75 @@ Rolls-Royce is a compelling deep-value operational turnaround story in the aeros
 
 ---
 
+## Jargon Buster: Aerospace & Defense Terminology
+
+### Industry Acronyms & Terminology
+
+| Term | Full Name | Definition | RYCEY Context |
+|------|-----------|-----------|---|
+| **LTSA** | Long-Term Service Agreement | 30–50 year maintenance contract where airline commits to pay per flying hour or utilization for engine maintenance, repairs, and parts. Recurring revenue stream with high switching costs. | Primary growth driver; 40–50% of civil aerospace revenue; margin expansion 19pp (2022–2028) |
+| **OE** | Original Equipment | New engine deliveries to aircraft manufacturers (Airbus, Boeing). One-time sales revenue. | Commercial optimization focus; improved OE profitability target 2028 |
+| **MRO** | Maintenance, Repair & Overhaul | Services facility where engines are serviced, repaired, and overhauled. Shop visits happen here. | RYCEY expanding MRO network capacity +50% (2022–2025); targeting 1,300–1,400 shop visits by 2028 |
+| **EFH** | Engine Flying Hours | Total hours an engine flies (cumulative across the fleet). Metric for engine utilization and demand. | Large engine EFH expected 115–120% of 2019 levels by 2026; normalized EFH rate improving |
+| **LTSE** | Long-Term Service Equipment (Balance) | Cumulative revenue deferred from LTSA contracts (paid upfront, earnings recognized over time). Balance sheet liability. | Growing by £0.6B annually; £0.8–1.2B growth expected by 2028; "quality" of cash |
+| **Shop Visit** | Maintenance visit to MRO | When an engine is brought into a maintenance facility for overhaul/repair. Increases LTSA revenue per visit. | Peak expected 2026 (1,480–1,550); decline to 1,300–1,400 by 2028 due to "time on wing" improvements |
+| **Time on Wing** | Engine durability improvement | Extending the interval between shop visits through engineering (blade modifications, life extensions). Reduces maintenance frequency. | >100% durability increase target (was 80%); major driver of margin expansion; certification milestones 2025–2027 |
+| **SMR** | Small Modular Reactor | 300–500 MW equivalent nuclear reactor; scalable, factory-built power plant for decarbonization and industrial heat. | Pre-commercial; TAM £50B+; first revenue 2030+; £400B+ TAM by 2050 |
+| **AI / AIR** | Artificial Intelligence / AI in Rolls-Royce | Machine learning tools for engine diagnostics, maintenance planning, MRO scheduling, technical design optimization. | On-wing prediction tools live; EASA-certified technical variant AI (75% effort reduction); included in midterm guidance |
+| **XWB** | Extended-Range Wide-body (Trent XWB) | RYCEY's flagship widebody engine family for long-range aircraft (A350, A380). Industry-leading efficiency. | 100% share A350; 600+ aircraft delivered; margin expansion through time on wing (XWB-84 centerpiece) |
+| **UltraFan** | Next-generation narrowbody engine | 30,000 lbs thrust demonstrator; open rotor + geared fan design; -25% fuel burn vs. CFM56 baseline; certification target 2027. | Core growth opportunity; £2–3B revenue potential by 2030; >£1B already invested; first flight 2026 |
+| **Narrowbody / Widebody** | Single-aisle vs. Twin-aisle aircraft | Narrowbody: regional (A320, 737); widebody: long-haul premium (A350, B777, B787). Narrowbody=80%+ of fleet. | RYCEY 100% widebody dominance (A350), entering narrowbody via UltraFan partnership |
+| **Business Aviation** | Corporate jets (non-commercial) | Luxury/premium segment; smaller engines (Pearl engine). Less cyclical, higher margins. | RYCEY market leader; 26% YoY growth in Pearl deliveries (2025); positive OE margins |
+| **Aftermarket** | Services, spare parts, support post-sale | Non-OE revenue (maintenance, repairs, spare parts). Recurring, high-margin, recurring revenue. | ~40–50% of civil aero revenue; LTSA is subset of aftermarket; growing 20%+ annually |
+| **Book-to-Bill Ratio** | Orders backlog / Annual revenue | Ratio >1.0 means orders exceed annual revenue (demand exceeds supply). Indicator of future revenue visibility. | Defense 1.1x (£5.5B orders / £4.8B revenue); Power Systems 1.2x; strong order visibility |
+| **GCAP** | Global Combat Air Program | Next-generation combat aircraft (successor to Eurofighter); multinational consortium (UK, Japan, Italy). RYCEY holds significant share. | Ramps mid-2030s; potentially larger than Eurofighter program; significant long-term growth driver |
+| **EJ200** | Eurofighter engine (RYCEY 30% share) | Combat engine for Eurofighter Typhoon; mature platform with 500+ aircraft in service. | Sustained demand visibility into 2030s; aftermarket growth from aging fleet; 40+ year lifespan |
+| **F-35** | Stealth fighter jet | 5th-generation fighter; powered by Pratt & Whitney (F135 engine). RYCEY powers lift system on F-35B variant. | Strategic defense contracts; geopolitical tailwind |
+| **Eurofighter Typhoon** | European combat aircraft | 4th-generation multi-role fighter; in-service 500+ aircraft (UK, Germany, Italy, Spain). | RYCEY EJ200 engine 30% share; sustainment contracts 30+ years; defense visibility strong |
+| **MV-75** | Future rotorcraft program | Assault helicopter (formerly FLRAA); will ramp 2030s; thousands of engines over 30–40 year lifespan. | RYCEY growth opportunity; major program beyond midterm |
+| **B-52 Bomber** | Long-range strategic bomber | U.S. Air Force aircraft; modernization includes new engines. RYCEY to deliver ~600 engines; production 2030+. | Long-term defense visibility; sustained revenue through 2040s+ |
+| **Trent 700 / 900 / 1000** | RYCEY widebody engine families | Trent 700 (A330, legacy); Trent 900 (A380); Trent 1000 (B787). All in mature production with 30–40 year fleet lifespans. | Strong aftermarket installed base; 40%+ of Trent 700 flying hours still to come; freighter conversion opportunity |
+| **GBS** | Global Business Services | Centralized back-office and support services (finance, HR, IT, etc.); expanding in India and Poland. | Efficiency driver; cost reduction benefits; zero-based budgeting discipline |
+| **Covenant** | Debt agreement requirement | Financial ratio thresholds lenders require (e.g., max leverage <2.5x). Breach = default risk. | RYCEY headroom 3.0x+ (very strong); net cash position eliminates near-term refinance risk |
+| **Onerous Contracts** | Loss-making customer agreements | Contracts where cost to complete exceeds future revenue. Provision/charge taken. | RYCEY renegotiating successfully (win-win with customers); £392M benefit in 2025 |
+| **Contract Catch-up** | Accounting benefit from operational improvements | When margin improves on existing signed contracts (e.g., time on wing delivers), excess provision is released to profit. | £226M benefit 2025; one-time in nature; transitioning to new contract terms |
+| **Demonstrator** | Full-scale prototype for testing | Engine mockup/test unit for validation, certification, marketing. Not revenue-generating. | UltraFan 30 demonstrator (30,000 lbs thrust) on display; ground testing by 2028 |
+| **Freighter Conversion** | Converting passenger aircraft to cargo | Airlines convert retired widebody passenger aircraft (A330, B777) to cargo for higher utility. Engines stay in service. | RYCEY captures 90% of A330ceo freighter conversions; extends engine life 15–20+ years |
+| **Installed Fleet** | Total engines in operation globally | Cumulative engines delivered and still flying. Base for LTSA aftermarket revenue. | RYCEY widebody installed fleet growing 6–7%/year; >2,000 engines in service |
+| **Power Density** | Power output per unit volume/weight | Key metric for data center power systems (compact, efficient generators). Higher = more power in smaller footprint. | Series 4000 engine 20% higher power density (2028 launch); targets AI data center growth |
+| **Data Center** | Computing facility with high power demands | Hyperscaler infrastructure for cloud computing, AI, blockchain. Explosive growth (30%+/year). | RYCEY Power Systems key end-market; backup + prime power opportunity; government + battery storage synergy |
+| **Buyback** | Share repurchase program | Company buys back its own shares from market, reducing share count. Returns cash to shareholders. | First multi-year buyback in RYCEY history; £7–9B over 2026–2028; signals confidence in FCF |
+| **Dividend Payout Ratio** | Dividends / Net earnings | Percentage of profits returned to shareholders as dividends. Higher = more shareholder return, less reinvestment. | 2025: 32% payout ratio; modest; room for dividend growth; 75% total return target (dividend + buyback) by 2028 |
+| **Return on Capital / ROIC** | Operating profit / Invested capital | Metric of how efficiently company deploys capital. Higher = better capital allocation. | RYCEY ~19% (2025), targeting 23–26% by 2028; "best-in-class" for industrial |
+| **Turnaround / Transformation** | Operational & financial recovery | Strategic efforts to restore profitability and growth after distress. Often includes restructuring, efficiency, mix shift. | RYCEY 3-year transformation: £6B negative equity → £2.7B positive; operating margin 5.8% → 20.8% |
+
+### Key Product Platform Names
+
+| Engine Family | Aircraft | Thrust | Status | Notes |
+|---------------|----------|--------|--------|-------|
+| **Trent XWB-84** | Airbus A350 | 70–84k lbs | In-production, mature | 100% market share A350; highest efficiency widebody |
+| **Trent 1000** | Boeing 787 | 66–74k lbs | In-production, mature | Co-supplier (50/50 with GE) |
+| **Trent 7000** | Airbus A330neo | 71k lbs | In-production, niche | Limited widebody market |
+| **Trent 900** | Airbus A380 | 70–84k lbs | In-production, declining | Premium widebody; fleet aging |
+| **Trent 700** | Airbus A330 (legacy) | 64–71k lbs | Mature, large installed base | 30+ year-old platform; still major revenue driver from aftermarket |
+| **Pearl** | Bombardier & Airbus Business Jets | 16–19k lbs | In-production, growing | Business aviation market leader; 26% YoY growth |
+| **UltraFan 30** | Boeing 737 & Airbus A320 (future) | 30k lbs | Demonstrator (certification 2027) | Next-gen narrowbody; -25% fuel burn target |
+
+### Financial & Accounting Terms
+
+| Term | Definition | RYCEY Context |
+|------|-----------|---|
+| **Revenue Recognition** | Recording of revenue when earned (not necessarily received). LTSA revenue recognized over contract life. | LTSE balance represents deferred revenue; growing benefit from "release" as service delivered |
+| **Operating Profit / EBIT** | Profit from core business operations (revenue - operating expenses). Excludes interest, taxes, one-offs. | Primary margin focus; grew 40% YoY (2025); 20.8% margin vs. peer 15–18% avg |
+| **Free Cash Flow (FCF)** | Operating cash flow - capital expenditure. True cash available to debt repayment, dividends, buybacks. | £3.6B in 2025 (16.9% margin); growing to £5.0–5.3B by 2028; key value driver |
+| **Net Debt / Cash** | Total debt - cash & equivalents. Positive = leveraged; negative = net cash position. | RYCEY net cash £1.8B (2025); deleveraging runway; fortress balance sheet |
+| **Leverage Ratio** | Net debt / EBITDA. Standard metric for financial risk. <1.0x = very strong. | RYCEY -0.22x net cash / EBITDA; best-in-class; covenant headroom 3.0x+ |
+| **Interest Coverage** | Operating profit / Interest expense. How many times profit covers interest payments. >5x = strong. | RYCEY 24x (2025); very strong; minimal financial risk |
+| **Efficiency Ratio** | Total operating costs / Gross margin. Lower = more efficient. | RYCEY total cash cost/gross margin 0.36x; best-in-class |
+| **Working Capital** | Current assets - current liabilities. Capital tied up in operations. Reduction = cash release. | RYCEY released >£400M working capital (2025); strong management discipline |
+
+---
+
 ## Financial Overview
 
 ### Income Statement Highlights (5-Year Trend)
