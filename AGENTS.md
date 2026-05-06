@@ -131,6 +131,145 @@ Use the following five tables in every full update (earnings, major thesis revie
 1) Build the revenue scenarios, 2) score the moat, 3) run the red flag audit, 4) check thesis coherence, 5) map valuation sensitivity. Summaries from these tables must feed into the BLUF and recommendation sections.  
 **Prompting Tip:** When requesting LLM support for a new company, explicitly ask for outputs in the five-table format above, followed by conviction, recommendation, and probability-weighted price target.
 
+### Revenue Breakdown & Growth Drivers Analysis
+
+**Mandatory section for all company README.md documents.** This analysis translates abstract business jargon into concrete revenue mechanics and growth mechanisms. It serves as the bridge between market narrative and financial reality, making complex product ecosystems and business drivers visible to investors.
+
+#### Purpose & Structure
+
+This section appears in each company's `README.md` alongside key financial metrics and serves as a reference for understanding:
+- Which revenue streams drive the business (and by how much)
+- How jargon from earnings calls, MD&A, and investor presentations maps to actual revenue
+- Quantified growth drivers and their specific £/$ financial impact
+- Current state vs. medium-term (2028E) targets with driver attribution
+- Long-term opportunities (3–5 years out) with TAM and impact potential
+
+#### Step-by-Step Methodology
+
+**1. Jargon Extraction (Data Collection Phase)**
+- Review primary sources: earnings call transcripts, investor presentations, MD&A sections, product fact sheets
+- Identify domain-specific terms: product platform names, financial metrics, operational KPIs, market segments
+- Categorize jargon into three buckets:
+  - **Industry Acronyms** (standards, regulations, market segments): OEM, MRO, LTSA, EJ200, Data Center, SMR, etc.
+  - **Product Platforms & Offerings**: Pearl Business Jet, Series 4000 Engine, UltraFan, narrowbody, widebody, etc.
+  - **Financial & Operational Terms**: Time on Wing, Shop Visits, Book-to-Bill, Aftermarket, Power Density, etc.
+- Compile into a **Jargon Glossary** section in README (optional but recommended for complex businesses)
+
+**2. Revenue Breakdown by Segment (Current State)**
+- Use latest annual or TTM financial data
+- Segment revenue by business unit or product line (e.g., Civil Aerospace, Defense, Power Systems)
+- For each segment, show:
+  - **Absolute revenue** (£B or $M) and **% of total**
+  - **Key jargon terms** that describe that segment's revenue streams
+  - Examples:
+    - Civil Aerospace (60% of revenue): driven by Original Equipment (OE), Long-Term Service Agreements (LTSA), MRO shop visits, and business aviation platforms
+    - Defense (10% of revenue): sustained by military engine programs (EJ200), Eurofighter sustainment, submarine contracts
+    - Power Systems (15% of revenue): growing from data center demand, power density innovations, Series 4000 designs
+
+**3. Growth Drivers with Financial Quantification (What Changes Revenue)**
+- Identify 5–8 key levers that will drive revenue growth from current state to 2028E
+- For each driver, quantify the specific impact:
+  - **LTSA Margin Expansion**: +£800M–1.2B (higher aftermarket mix + service efficiency)
+  - **Aftermarket Volume Growth**: +£1.0–1.5B (Time on Wing increasing, installed base aging)
+  - **OE Profitability**: +£400–600M (production scale, unit cost reduction)
+  - **Data Center Demand**: +£700M–1.0B (Power Systems segment expansion, power density adoption)
+  - **Defense Sustainment**: +£300–500M (multi-decade contract extensions, higher utilization)
+  - etc.
+- Show the **mechanism**: how does the driver translate to revenue? (e.g., Time on Wing ↑ = more flight hours ↑ = more engine deterioration ↑ = more MRO shop visits ↑ = higher Aftermarket revenue)
+
+**4. Visual & Tabular Representation**
+
+**A. Revenue Waterfall / Tree Structure** (ASCII or markdown table)
+- Show current-year revenue by segment
+- Build out to 2028E targets with driver attribution
+- Example ASCII tree:
+
+```
+FY2025 Revenue: £21.2B
+├── Civil Aerospace (£12.7B, 60%)
+│   ├── OE (Original Equipment): £6.5B
+│   ├── LTSA (Long-Term Service Agreements): £4.2B
+│   ├── MRO (Maintenance, Repair, Overhaul): £1.5B
+│   └── Business Aviation (Pearl): £0.5B
+├── Defense (£2.1B, 10%)
+│   ├── EJ200 Engine Programs: £1.2B
+│   ├── Eurofighter Sustainment: £0.6B
+│   └── Submarine & Other: £0.3B
+└── Power Systems (£4.9B, 15%)
+    ├── Data Centers (power modules): £2.1B
+    ├── Series 4000 & SMR: £2.8B
+    └── Other Power: £0.0B
+
+2028E Targets (with drivers):
+├── Civil Aerospace: £17.5B (+£4.8B from OE scale, LTSA mix, Time on Wing, MRO volume)
+├── Defense: £2.8B (+£0.7B from sustainment contracts, higher utilization)
+└── Power Systems: £6.2B (+£1.3B from data center expansion, SMR progress)
+```
+
+**B. Growth Driver Impact Table** (markdown)
+
+| Driver | Segment | FY2025 | FY2028E | Impact | Mechanism |
+|--------|---------|--------|--------|--------|-----------|
+| LTSA Margin Expansion | Civil Aero | £4.2B | £5.2B | +£1.0B | Aftermarket mix shift, service efficiency gains |
+| Time on Wing | Civil Aero | Existing | Enhanced | +£800M | Installed base aging, more MRO visits/year |
+| OE Profitability | Civil Aero | £6.5B | £7.8B | +£1.3B | Production scale, unit cost down, mix to widebody |
+| Data Center Demand | Power Sys | £2.1B | £3.4B | +£1.3B | Hyperscaler capex acceleration, power density adoption |
+| Defense Sustainment | Defense | £1.5B | £2.0B | +£0.5B | Multi-decade contract wins, fleet utilization ↑ |
+| UltraFan (narrowbody) | Civil Aero | Prelaunch | Scale | +£2.0–3.0B | Launch 2027, narrow-body retrofit ramp, 15% fuel savings |
+| SMR (Small Modular Reactors) | Power Sys | Minimal | Scale | +£1.0–2.0B | 2030–2035 timeline, UK/US grid decarbonization |
+
+**5. Translation Examples (Jargon → Financial Outcome)**
+
+For each major business segment, include 2–3 worked examples showing how abstract jargon becomes concrete revenue:
+
+**Example 1: LTSA & Time on Wing (Civil Aerospace)**
+- **Jargon**: "Time on Wing expanding due to aging fleet; LTSA margin accretion from power-by-the-hour utilization"
+- **Translation**: 
+  - Current: 8,000 widebody aircraft in global service, averaging 18 years old
+  - Mechanics: Aircraft flying more hours (post-COVID recovery) → engines degrading faster → more shop visits needed
+  - Financial: Each shop visit = £50k–150k revenue at 70% gross margin. 2% increase in annual shop visits = +£200M–300M Aftermarket revenue
+  - Plus: LTSA customers pay premium for guaranteed uptime → reduces price risk, locks in 15%+ margins vs. 12% transactional MRO
+
+**Example 2: Data Center Power Demand (Power Systems)**
+- **Jargon**: "Power density" refers to how much computing workload you can run per megawatt, driving hyperscaler capex efficiency
+- **Translation**:
+  - Current: Hyperscalers need 5–8 MW per data center rack pod; total global AI/ML data center builds = 150 GW by 2030
+  - Mechanics: Higher density → fewer MW needed to serve same compute → lower power delivery costs → hyperscalers willing to pay premium for compact, efficient power modules
+  - Financial: Rolls-Royce Series 4000 power modules cost £5–10M each; each data center pod = 2–3 modules = £10–30M contract value. 50 new pods/year in 2028E = £500M–1.5B incremental Power Systems revenue
+
+**Example 3: UltraFan (Civil Aerospace)**
+- **Jargon**: "UltraFan narrowbody certification" signals entry into $500B+ narrow-body aftermarket; "15% fuel savings" is the customer value driver
+- **Translation**:
+  - Current: Rolls-Royce absent from largest segment (narrow-body engines = 60% of commercial fleet)
+  - Mechanics: Certification in 2027, retrofit eligibility for existing fleet in 2028–2030. 4,000 narrow-body retrofits over 10 years = £100–200M OE revenue + recurring LTSA revenue
+  - Financial: Retrofit value = £5–8M per aircraft; at 2% annual retrofit rate, adds £400M–800M OE + £100M–150M LTSA by 2030
+
+#### README Implementation Checklist
+
+When creating or updating a company's README, include:
+
+- [ ] **Jargon Glossary** (optional, but required for complex businesses with >4 segments or heavy technical terminology)
+- [ ] **FY[Latest] Revenue Breakdown** (current state by segment with jargon mapping)
+- [ ] **5–8 Quantified Growth Drivers** (impact range, mechanism, timeline to realization)
+- [ ] **Visual Tree or ASCII Diagram** (shows current revenue composition and 2028E targets)
+- [ ] **Growth Driver Impact Table** (segment, current, FY2028E, impact £/%, mechanism)
+- [ ] **2–3 Translation Examples** (jargon → mechanics → financial outcome, worked example format)
+- [ ] **Long-Term Opportunities** (3–5 year horizon, TAM, potential upside, key milestones)
+
+#### Tips for Execution
+
+1. **Extract jargon from primary sources**: Spend 20–30 minutes reviewing the latest earnings call transcript, investor presentation, and MD&A. Highlight every acronym, product name, and operational metric management mentions.
+
+2. **Map jargon to financial levers**: Ask: "How does this jargon translate to revenue growth or margin improvement?" Link abstract terms to concrete financial mechanics (volume, price, margin, mix).
+
+3. **Quantify impact with ranges**: Avoid false precision. Use ranges (e.g., "+£800M–1.2B") and explain assumptions. Ranges account for execution risk and allow for scenario flexibility.
+
+4. **Use the translation examples to stress-test your thesis**: If you cannot explain how a major jargon term becomes revenue, your analysis is incomplete. The translation forces you to think through the financial mechanics.
+
+5. **Align with market commentary**: Investors and analysts use the same jargon. By translating it into financial outcomes, you make your analysis coherent with the market narrative while adding quantified specificity.
+
+6. **Update quarterly or semi-annually**: Review after each earnings release. Recalibrate growth drivers and impact ranges based on actual results vs. guidance.
+
 ## Analysis Workflow
 
 ### Document Creation Process
