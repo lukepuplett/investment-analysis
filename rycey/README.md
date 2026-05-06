@@ -257,6 +257,117 @@ Rolls-Royce is a compelling deep-value operational turnaround story in the aeros
 
 ---
 
+## Revenue Breakdown & Growth Drivers: Jargon in Action
+
+### FY2025 Revenue by Segment & Key Jargon Terms
+
+```
+RYCEY Total Revenue: £21.2B (2025A)
+│
+├─ Civil Aerospace (~60%): £12.7B
+│  ├─ OE (Original Equipment): £3–4B → New engine sales (declining 9% YoY due to supply chain alignment)
+│  │  └─ Large engines: 259 delivered (A350, B787, A330neo)
+│  │  └─ Business Aviation (Pearl): 224 engines (+26% YoY), market leader
+│  │
+│  ├─ Aftermarket / LTSA (~40–50% of segment): £5.1B → Recurring, sticky, high-margin
+│  │  ├─ Shop Visits: 1,440 in 2025 (+10% YoY)
+│  │  │  └─ 517 large engine refurbs (Trent 1000, XWB-84, etc.)
+│  │  │  └─ Peak expected 2026 (1,480–1,550 visits); decline to 1,300–1,400 by 2028
+│  │  ├─ LTSA Revenue Growth: +21% YoY (21% service revenue growth)
+│  │  ├─ Time on Wing improvements → Lower shop visit frequency (more cash per visit)
+│  │  └─ Installed Fleet: 2,000+ engines; growing 6–7%/year
+│  │
+│  └─ Spare Engines & Components: Higher profitability, improved mix
+│
+├─ Defense & Security (~10%): £2.1B
+│  ├─ EJ200 (Eurofighter engine, 30% RYCEY share): Mature platform, 500+ aircraft
+│  │  └─ Aftermarket: Growing as fleet ages; visibility into 2030s
+│  ├─ Submarine Programs: UK Astute (7 planned), French Barracuda
+│  │  └─ Multi-decade contracts; high-value, strategic importance
+│  ├─ Transport/Combat Support: RAF, NATO platforms
+│  └─ Order Backlog: £17.4B (3+ years of revenue); Book-to-Bill 1.1x (demand > supply)
+│
+└─ Power Systems (~15%): £4.9B (fastest-growing segment, +19% YoY)
+   ├─ Power Generation / Data Centers: Powergen revenue +30% YoY
+   │  ├─ OE (original equipment): Growing at 20%/year
+   │  │  └─ Driven by AI data center boom (backup + prime power)
+   │  └─ Series 4000 engines (2028 launch): +20% power density for data centers
+   ├─ Governmental / Defense Applications: +14% YoY
+   │  └─ Land & naval platforms (NATO incumbent)
+   ├─ Battery Storage (BESS): Achieved breakeven (2025), double-digit growth potential
+   └─ SMR (Small Modular Reactors): Pre-commercial
+      └─ TAM £50B+; first revenue 2030+; cash generative by 2030
+```
+
+### Growth Drivers (2025–2028): From Jargon to £ Impact
+
+| Growth Driver | Jargon Link | Revenue Impact | Margin Impact | Timeline |
+|---------------|------------|--------|--------|----------|
+| **LTSA Margin Expansion** | LTSA, Time on Wing, Shop Visits, EFH | +£800M–1.2B (volume + margin) | +8 pp (LTSA margin uplift guided 19 pp contract → 28 pp income statement) | 2025–2028 |
+| **Aftermarket Volume Growth** | Shop Visits, MRO capacity, Installed Fleet, Trent 700–900 | +£1.0–1.5B (new shop visits from fleet growth) | Stable (40%+ margin maintained) | 2025–2028 |
+| **OE Profitability** | Trent XWB, Trent 1000, Pearl Business Aviation, Spare Engines | +£400–600M (widebody margin improvements, spare engine mix) | Widebody moving toward breakeven; business aviation positive | 2025–2028 |
+| **Data Center Demand** | Power Generation, Power Density, Series 4000 | +£700M–1.0B (20%/year OE growth) | Strong margin improvement (17.4% → 18–20% target) | 2025–2028 |
+| **Defense Sustainment** | EJ200, Eurofighter, Submarine, GCAP, MV-75 | +£300–500M (aftermarket from aging fleet + new programs ramping mid-2030s) | 14–16% margin (stable, self-help driven) | 2025–2030s |
+| **Time on Wing Completion** | Time on Wing, Durability, Trent XWB-84, Engine Flying Hours (EFH) | +£500M–800M (lower cost per shop visit; fewer visits needed; margin release) | Margin uplift from operational efficiency | 2027–2028 |
+| **UltraFan Narrowbody Entry** | UltraFan, Narrowbody, OEM Partnership, Demonstrator | +£2.0–3.0B (15–20% narrowbody market share by 2030) | 20%+ margin (premium pricing for fuel burn advantage) | 2027–2030 |
+| **SMR Commercialization** | SMR, Nuclear, Power Density, Modular | +£1.0–2.0B cumulative by 2035 (if successful) | High margin (asset-light model) | 2030–2035 |
+
+---
+
+### Revenue Future State (2028E): Where the Jargon Terms Lead
+
+**Total Revenue Target: £26–27B** (vs. £21.2B in 2025; +6% CAGR)
+
+**Segment Breakdown (2028E):**
+
+| Segment | 2025A | 2028E | Driver | Jargon Key Terms |
+|---------|-------|-------|--------|---|
+| **Civil Aerospace** | £12.7B | £16–17B | LTSA margin expansion, OE profitability, aftermarket volume | LTSA, Time on Wing, OE, Shop Visits, EFH, Trent XWB, Pearl |
+| **Defense** | £2.1B | £2.4B | Sustainment demand, new program visibility | EJ200, Eurofighter, GCAP, Submarine, Book-to-Bill |
+| **Power Systems** | £4.9B | £6.5–7.0B | Data center demand, Governmental growth, SMR entry | Data Center, Power Density, Series 4000, SMR, Governmental |
+
+---
+
+### Long-Term Growth Opportunities (Beyond 2028)
+
+| Opportunity | Jargon Terms | TAM | Timeline | Revenue Potential |
+|------------|------------|-----|----------|---|
+| **Narrowbody Ramp (UltraFan)** | UltraFan, Narrowbody, OEM, Partnership, Demonstrator | £30B+/year market | 2028–2035 | £2–3B annual (15–20% share) |
+| **SMR Commercialization** | SMR, Nuclear, Modular, Power Plant, TAM | £50B+ (400+ SMRs by 2050) | 2030–2035+ | £1–2B/year by 2035 (if successful) |
+| **Defense Program Ramps** | GCAP, MV-75, B-52, Submarine, Autonomous | £20B+/program | 2030–2040s | £2–3B/year (large programs) |
+| **Business Aviation Growth** | Pearl, Business Aviation, Widebody, OE | £5–10B/year market | 2025–2035+ | £500M–1B revenue opportunity |
+| **Freighter Conversions** | Freighter, A330, Installed Fleet, Trent 700 | Extended engine life | Ongoing | £200–400M incremental (high-margin) |
+
+---
+
+### How to Read This: From Jargon to Investment Thesis
+
+**Example: LTSA Margin Expansion (Most Critical Driver)**
+
+1. **Jargon terms involved:** LTSA, Time on Wing, Shop Visits, EFH, Trent XWB-84
+2. **Revenue impact:** No change in volume (same number of planes); margins per visit improve
+3. **Mechanism:** 
+   - **Time on Wing** improvements (engineering) → engines last longer between overhauls
+   - **Shop visits** decline from peak (1,480 in 2026 → 1,300 in 2028)
+   - **EFH** (flying hours) still grow due to fleet growth, but fewer **shop visits** needed per hour
+   - **LTSA** contracts structured so margin increases as airlines use engines more efficiently
+4. **Financial outcome:** Operating margin 20.8% (2025) → 23% (2028); +200+ bps from LTSA alone
+5. **Why it matters:** This is **not demand-driven growth** (risky); it's **structural margin expansion** (sustainable, low-risk)
+
+**Example: UltraFan Growth (Highest Upside, Highest Risk)**
+
+1. **Jargon terms involved:** UltraFan, Narrowbody, OEM partnership, Demonstrator, -25% fuel burn
+2. **Revenue impact:** New market entry; currently 15–20% narrowbody share; target 25% by 2030
+3. **Mechanism:**
+   - 2026: **Demonstrator** first flight validates technology
+   - 2027: **OEM** certification; Airbus/Boeing formally select UltraFan
+   - 2028–2030: Production ramp (starting from zero to 400+/year)
+   - 2030+: Full run rate (1,000+ engines/year at 20%+ share)
+4. **Financial outcome:** +£2–3B annual revenue by 2030; 20%+ margin (premium for fuel efficiency)
+5. **Why it matters:** **Transformational** if successful (doubles narrowbody business); **execution risk** real (certification delays, adoption failure)
+
+---
+
 ## Risks & Monitoring
 
 ### Top Risks (Priority Ranking)
