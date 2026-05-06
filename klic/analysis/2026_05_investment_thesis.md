@@ -17,6 +17,49 @@
 
 ---
 
+## KLIC Product Portfolio & Key Technologies Glossary
+
+To evaluate the investment thesis, readers need context on the semiconductor equipment market and KLIC's specific technologies. This section explains the key jargon and business drivers referenced throughout.
+
+### Core Products & Revenue Model
+
+**Ball Bonding** ($400-450M, 45-50% of revenue) — Mature legacy product using gold/copper wire balls ultrasonically bonded to chip pads. High-volume, proven technology deployed for 30+ years. KLIC holds 20-25% market share in high-performance segment, differentiated by material handling flexibility optimized for data center applications. Growth: flat to declining long-term; benefiting near-term from data center AI capex tailwind.
+
+**Thermo-Compression Bonding (TCB)** ($100-110M, 11-12% of revenue) — **THE PRIMARY GROWTH DRIVER.** Direct metal-to-metal bonding (copper-to-copper) using controlled heat and pressure. KLIC's proprietary "fluxless" process (no chemical flux needed) is the key differentiator—reduces defects, improves yield, represents first-mover advantage. Applications: HBM (high-bandwidth memory) assembly for AI accelerators, chiplet interconnect for advanced logic packaging. 120 systems in field (growing installed base); management explicitly claims TCB is "strong alternative to hybrid bonding" for next-generation HBM. Growth: 20-30% annually, 2-3x market growth rate.
+
+**Vertical Wire** ($5-10M, nascent) — KLIC's proprietary vertical die stacking technology for cost-effective DRAM bandwidth. Alternative to expensive HBM for non-AI applications (mobile, edge computing). 8 customers engaged with "positive feedback"; initial adoption H2 FY2026 expected with significant expansion FY2027. Technology unproven at volume but early traction strong. Revenue potential: $80-120M FY2027+ if adoption accelerates.
+
+**Advanced Dispense** ($10-15M, nascent) — New market entry using Echelon dispensing system for underfill, mold compounds, adhesives in advanced packaging. Launched November 2025; customer qualification phase. Competing against established players (Nordson, Musashi). Limited FY2026 contribution; significant upside if successful market entry occurs.
+
+**Aftermarket Services** ($55-65M) — Maintenance, parts, support for installed equipment base. Growing with improved utilization (+14% YoY Q1 FY26).
+
+### Critical Market Context & Demand Drivers
+
+**HBM (High-Bandwidth Memory):** Ultra-high throughput memory required for AI accelerators and data center processors. Requires advanced assembly technology (TCB or hybrid bonding). KLIC's first HBM system shipped Q1 FY2026 to major customer (implied TSMC/Samsung endorsement). Volume production ramp expected FY2027. This is the **$500M+ TAM** opening for KLIC.
+
+**Data Center AI Capex Inflection:** Hyperscalers (Google, Meta, Amazon, Microsoft, Apple) spending heavily on AI infrastructure. This drives semiconductor demand broadly (+90% YoY general semiconductor in Q1 FY2026) and pulls forward advanced packaging adoption timelines. Expected through 2027; potential normalization 2028+.
+
+**Hybrid Bonding Alternative:** Copper-to-copper direct bonding developed by major foundries (TSMC, Samsung) as alternative to TCB. TSMC publicly endorsing hybrid bonding for advanced nodes. This is the **key competitive risk** to KLIC's growth thesis. However, KLIC management has explicitly positioned fluxless TCB as "strong alternative" with comparable performance. Management's conviction, first HBM customer win, and capital investment in Singapore facility expansion 3x all suggest competitive positioning is defensible for 5-7 years before hybrid bonding becomes dominant alternative.
+
+**Chiplets:** Industry trend toward multi-die logic architectures (chiplets) combining different process nodes and functions. Chiplet interconnect requires advanced packaging (TCB preferred by KLIC). Expected to drive significant TCB demand growth FY2027+.
+
+**Vertical Die Stacking (Vertical Wire):** KLIC's alternative to HBM for cost-conscious customers. Enables lower-cost DRAM bandwidth for mobile, edge computing, non-AI applications. Early customer traction (8 customers) but adoption uncertain. If validated, represents $200M+ TAM.
+
+### Investment Thesis Implications
+
+These products and markets create the **advanced packaging inflection thesis**: KLIC's revenue growth from $687.6M (TTM) toward $800-1,000M+ depends entirely on:
+
+1. **TCB Volume Ramp:** HBM adoption by TSMC/Samsung/SK Hynix; first system shipped Q1 validates market, but volume production FY2027 is key inflection
+2. **Vertical Wire Adoption:** Early 8-customer engagement validates concept, but broad adoption FY2027 remains uncertain
+3. **Data Center Capex Sustainability:** AI infrastructure spending expected through 2027, but normalization/pullback risks exist
+4. **Margin Sustainability:** Advanced packaging products typically higher-margin than legacy ball bonding; product mix shift can expand gross margins toward 49-50%
+
+If all three materialize, KLIC could reach $1.0-1.3B revenue by FY2028 with 12-15% EBITDA margins (supporting $140-165/share valuation). If any materially fail, revenue stalls at $700-800M and stock reprices to $70-75 range.
+
+**For comprehensive jargon reference and full acronym explosion (50+ terms including HBM, NAND, DRAM, TCB, Hybrid Bonding, Chiplet, TSMC, OSAT, etc.), see [question_answers/2026_05_glossary_and_products.md](../../question_answers/2026_05_glossary_and_products.md).**
+
+---
+
 ## Investment Thesis Coherence Check
 
 ### Pillar 1: Demand Inflection is Real

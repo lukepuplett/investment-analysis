@@ -24,6 +24,69 @@
 
 Kulicke and Soffa Industries, Inc. (KLIC) is a semiconductor equipment manufacturer specializing in advanced packaging and interconnect technologies. Core products: wire bonding (ball/wedge), flip-chip interconnect, advanced packaging (thermo-compression bonding), and dispense systems.
 
+---
+
+## Product Portfolio & Core Technologies
+
+### Main Product Lines (FY2026E Revenue: $570-650M)
+
+| Product | FY2026E Revenue | % of Total | Description | Strategic Status |
+|---------|---------|---------|---------|---------|
+| **Ball Bonding (Legacy)** | $400-450M | 45-50% | Wire bonding using gold/copper balls ultrasonically bonded to chip pads; high-performance segment for data center logic, memory | Mature, cash-generative; commoditizing but differentiated in premium segment |
+| **Thermo-Compression Bonding (TCB)** | $100-110M | 11-12% | Direct metal-to-metal bonding (copper-to-copper) using heat + pressure; **KLIC's fluxless proprietary process is first-mover advantage** | **PRIMARY GROWTH DRIVER FY26-27**; 120 systems in field; HBM assembly application; >$100M target confirmed |
+| **Vertical Wire (DRAM Stacking)** | $5-10M | <1% | Proprietary vertical die stacking technology for cost-effective DRAM bandwidth; alternative to expensive HBM | Early adoption phase; 8 customers engaged with positive feedback; **FY2027 inflection expected** |
+| **Advanced Dispense (Echelon)** | $10-15M | 1-2% | Precision dispensing system for underfill, mold compounds, adhesives in advanced packaging | New market entry; customer qualification phase; launched Nov 2025; limited FY26 contribution |
+| **Aftermarket Services** | $55-65M | 6-7% | Maintenance, parts, support for installed equipment base | Growing with utilization improvements (+14% YoY Q1 FY26) |
+
+### Key Technologies & Market Context
+
+**Demand Drivers:**
+- **HBM (High-Bandwidth Memory):** Ultra-high throughput memory for AI accelerators; primary near-term growth driver requiring KLIC's TCB assembly equipment
+- **Data Center AI Capex:** Hyperscaler infrastructure spending driving general semiconductor +90% YoY growth in Q1 FY26
+- **Chiplets:** Multi-die logic architecture requiring advanced packaging (TCB) for interconnect; chiplet adoption accelerating
+- **Hybrid Bonding Alternative:** TSMC-endorsed competing technology; KLIC positioned TCB as "strong alternative to hybrid bonding" for HBM
+
+**Competitive Position:**
+- KLIC estimated 20-25% market share in advanced packaging niche
+- First-mover advantage in fluxless TCB; limited direct competition (Palomar, F&K in ball bonding; hybrid bonding as alternative technology)
+- Singapore facility expanding 3x for TCB capacity (capital backing management conviction)
+
+---
+
+## Six Main New Developments (FY2026)
+
+### 1. **HBM Volume Production Ramp** (Critical)
+- **Status:** First HBM system shipped Q1 FY26 to "large memory customer" (TSMC/Samsung implied); qualification underway
+- **Impact:** Opens $500M+ TAM for HBM assembly equipment; 2-3 year competitive lead before hybrid bonding dominates
+- **Timeline:** Volume production FY2027 target; additional system shipments expected FY26
+
+### 2. **Vertical Wire Adoption Acceleration** (Emerging Inflection)
+- **Status:** 8 customers engaged (Korea, China, US) with "positive feedback"; initial adoption H2 FY26 expected
+- **Impact:** $200M+ TAM opportunity; creates differentiation vs. competitors; $80-120M revenue potential FY2027+
+- **Risk:** Customers develop proprietary in-house versions; adoption slower than expected
+
+### 3. **Singapore Facility Expansion 3x** (Capital Commitment)
+- **Status:** In progress; expected completion 2026-2027
+- **Impact:** Removes TCB production constraint; enables 300+ systems/year vs. current ~100; signals management confidence
+- **Investment:** Likely $50-100M capex; demonstrates conviction in HBM/Vertical Wire adoption
+
+### 4. **Advanced Dispense Market Entry** (Strategic Expansion)
+- **Status:** Echelon system launched Nov 2025; customer reception "positive, multiple customers engaged"
+- **Impact:** Expands KLIC footprint in advanced packaging value chain; $1-2B TAM
+- **Timeline:** Revenue contribution FY2027-2028 (not FY26); customer qualification phase
+
+### 5. **Data Center AI Capex Inflection** (Market Tailwind)
+- **Status:** Validated in Q1; general semiconductor +90% YoY, utilization 80%+ globally, China 90%+
+- **Impact:** Ball bonding demand accelerating (highest near-term driver); TCB pulled forward; broad utilization improvement
+- **Risk:** Capex normalizes earlier than expected 2028; customer inventory buildup
+
+### 6. **Analyst Consensus Revisions** (External Validation)
+- **Status:** 90-day revision FY2026 EPS $1.50 → $2.62 (+75%); Q1 beat +33% vs. estimates
+- **Impact:** Wall Street catching up to recovery thesis; valuation support; analyst upgrades likely if Q2 validates
+- **Insight:** Market pricing 55% bull case probability; 35% bull case + 45% base case + 20% bear case implied
+
+---
+
 ## Key Metrics (as of May 6, 2026)
 
 | Metric | Value | Period | YoY Change |
@@ -170,7 +233,7 @@ Kulicke and Soffa Industries, Inc. (KLIC) is a semiconductor equipment manufactu
 - **Financial Statements**: `financials/2026_05/` — income_statement.md, balance_sheet.md, cashflow.md, yahoo_stats.md
 - **Quarterly Data**: `quarterly/` — Q1 FY2026 earnings call transcript, press releases, 10-Q filings
 - **Analysis Documents**: `analysis/` — comprehensive analysis across financial, risk, valuation, and thesis
-- **Q&A Research**: `question_answers/` — Q1 earnings call summary and detailed research
+- **Q&A Research**: `question_answers/` — Q1 earnings call summary, detailed research, and **[2026_05_glossary_and_products.md](question_answers/2026_05_glossary_and_products.md)** (comprehensive 50+ acronym jargon buster)
 
 ---
 
