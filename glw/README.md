@@ -8,6 +8,27 @@
 
 ---
 
+## News Update - 05/06/2026 (Reuters): Nvidia Partnership and Target Step-Up
+
+- Corning and Nvidia announced a partnership to expand U.S. production of optical connectivity products used in AI data centers.
+- Corning plans to increase U.S.-based optical connectivity manufacturing capacity by 10x and domestic fiber production capacity by more than 50%, including three new facilities in North Carolina and Texas (3,000+ jobs expected).
+- Management raised long-term annualized sales run-rate targets to:
+  - $20B by end-2026
+  - $30B by end-2028
+  - $40B by end-2030
+- Financial read-through versus current base (FY2025):
+  - Revenue base: $16.4B
+  - Operating income base: $3.0B
+  - Net income base: $2.8B
+  - Operating margin base: 18.59%
+  - Net margin base: 17.20%
+- Thesis impact:
+  - The step-up supports a higher medium-term top-line CAGR and reinforces Optical Communications as the core growth engine.
+  - If mix shifts further toward AI optical connectivity while utilization improves, operating leverage should support margin durability around 20%+ over time.
+  - Equity implication: higher expected earnings power can support a re-rating, but upside still depends on execution (capacity ramp timing, customer concentration, and FCF conversion through expansion cycle).
+
+---
+
 ## Executive Summary (BLUF - Bottom Line Up Front)
 
 ### Financial Analysis
