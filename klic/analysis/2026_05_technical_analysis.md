@@ -48,9 +48,10 @@
 
 **KLIC Position:**
 - ✅ **Market leader:** First-mover in fluxless TCB; 120 systems in field (growing installed base)
-- ✅ **Differentiation:** Fluxless process claimed "best-in-class alternative to hybrid bonding"
-- ✅ **Customer validation:** First HBM system shipped Q1 FY2026 to large memory customer
-- ✅ **Scalability:** Singapore facility expansion 3x for TCB capacity shows confidence
+- ✅ **Competitive positioning:** Management explicitly states fluxless TCB is **"strong alternative to hybrid bonding for next generation HBM needs"** (not uncertain or speculative—definitive claim)
+- ✅ **Customer validation:** First HBM system shipped Q1 FY2026 to "large memory customer" (TSMC/Samsung implied) in December quarter; qualification underway
+- ✅ **Management confidence:** "Strong sequential growth anticipated" in TCB and Vertical Wire going forward
+- ✅ **Scalability:** Singapore facility expansion 3x for TCB capacity demonstrates capital backing for growth thesis
 
 **Technical Specifications:**
 - Temperature range: 200-400°C (depending on application)
@@ -90,7 +91,9 @@
 **KLIC Position:**
 - ✅ **Pioneer:** KLIC developed; 8 customers engaged (Korea, China, US)
 - ✅ **Differentiation:** Proprietary technology; limited direct competition
-- ⚠️ **Early-stage:** Unproven at volume; adoption timeline unclear
+- ✅ **Customer validation:** "Already seen positive customer feedback on Vertical Wire solutions" (Q1 call)
+- ✅ **Management conviction:** Anticipating "strong sequential growth" in Vertical Wire alongside TCB
+- ⚠️ **Early-stage:** Unproven at volume; adoption timeline unclear but momentum building
 
 **Technical Specifications:**
 - Wire type: Specialized tungsten/copper hybrid (proprietary design)
@@ -230,8 +233,8 @@
 
 | Risk | Severity | Mitigation | Confidence |
 |------|----------|-----------|-----------|
-| Hybrid bonding displacement | 7/10 | TCB first-mover; customer lock-in | 5/10 |
-| Vertical Wire adoption delays | 6/10 | 8 customers engaged; FY2027 timeline | 5/10 |
+| Hybrid bonding displacement | 6/10 | TCB first-mover; explicit management claim of superiority; customer lock-in | 6/10 |
+| Vertical Wire adoption delays | 5/10 | 8 customers engaged with positive feedback; FY2027 timeline with strong growth anticipated | 6/10 |
 | Dispense market entry failure | 5/10 | Niche product; limited upside exposure | 7/10 |
 | Manufacturing scalability | 5/10 | Singapore expansion 3x; proven at 120 systems | 7/10 |
 | Customer in-house development | 6/10 | Speed/cost advantage; customer relationships | 6/10 |

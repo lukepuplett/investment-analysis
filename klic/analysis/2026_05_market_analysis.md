@@ -88,11 +88,12 @@
 - ✅ **Pricing power:** New technologies command premium pricing
 
 **KLIC Position:**
-- Pioneer in fluxless TCB technology (claimed "best-in-class")
+- **Pioneer in fluxless TCB technology:** Management explicitly positions as **"strong alternative to hybrid bonding for next generation HBM needs"** (Q1 call)
 - 120 systems in field; 50% fluxless TCB (installed base growing 20-30% annually)
 - FY2026 revenue target: >$100M TCB (growing from ~$50-60M baseline implied)
-- First HBM system shipped Q1; customers: large memory maker (TSMC/Samsung/SK Hynix implied)
-- Vertical Wire 8 customers engaged (Korea, China, US)
+- **First HBM system shipped Q1 to "large memory customer"** (Dec quarter delivery; TSMC/Samsung/SK Hynix implied) — major validation of market demand
+- **Vertical Wire:** 8 customers engaged (Korea, China, US) with "positive customer feedback" received; strong sequential growth anticipated
+- **Management conviction high:** References to "strong sequential growth anticipated" in TCB/Vertical Wire suggest confidence in adoption trajectory
 
 **Growth Outlook:**
 - 2026E: TCB revenue $100-110M (modest growth from $60-70M baseline)

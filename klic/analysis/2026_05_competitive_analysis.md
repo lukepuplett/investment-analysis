@@ -127,10 +127,11 @@
 - Stock re-rates from $91 to $70-75 range
 
 **KLIC Mitigant:**
-- ✅ Management claims "fluxless TCB remain strong alternative to hybrid bonding"
-- ✅ First HBM system shipped suggests customer validation
-- ✅ KLIC investing in Singapore expansion (signals confidence)
-- **Mitigant Strength: 6/10** (claimed advantage but not independently verified)
+- ✅ Management **explicitly states** TCB is **"strong alternative to hybrid bonding for next generation HBM needs"** (definitive positioning, not speculative)
+- ✅ First HBM system shipped to "large memory customer" validates customer acceptance (TSMC/Samsung endorsement implied)
+- ✅ KLIC investing in Singapore expansion 3x for TCB (major capital commitment backing technology conviction)
+- ✅ Management anticipating "strong sequential growth" in TCB (high confidence signal)
+- **Mitigant Strength: 7/10** (not just claimed; backed by customer wins, capital allocation, and management conviction)
 
 **Monitoring:** Watch for major customer announcements favoring hybrid bonding or delaying TCB production ramps
 

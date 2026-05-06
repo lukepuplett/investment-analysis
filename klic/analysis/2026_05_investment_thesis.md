@@ -35,13 +35,13 @@
 
 | Status | Confidence | Evidence | Counter-Risk |
 |--------|-----------|----------|-------------|
-| ⚠️ | 6/10 | ✓ TCB >$100M FY2026 revenue quantified<br>✓ 120 systems in field (growing installed base)<br>✓ First HBM system shipped Q1<br>✓ Vertical Wire gaining traction (8 customers)<br>✓ Singapore facility expansion 3x (capital commitment) | ❌ HBM volume delayed to FY2027<br>❌ HBF is CY2027+ play (not near-term)<br>❌ Vertical Wire broader adoption FY2027<br>❌ Hybrid bonding competition (alternative technology)<br>⚠️ Only ~$100M revenue in massive market (scale risk) |
+| ✅ | 7/10 | ✓ TCB >$100M FY2026 revenue quantified<br>✓ 120 systems in field (growing installed base)<br>✓ **First HBM system shipped Q1 to "large memory customer"** (major endorsement)<br>✓ **Management claims TCB is "strong alternative to hybrid bonding" for HBM** (definitive positioning)<br>✓ Vertical Wire gaining traction (8 customers, "positive feedback" received)<br>✓ **"Strong sequential growth anticipated" in TCB and Vertical Wire** (high conviction)<br>✓ Singapore facility expansion 3x (capital commitment backing claims) | ❌ HBM volume delayed to FY2027<br>❌ HBF is CY2027+ play (not near-term)<br>❌ Vertical Wire broader adoption FY2027<br>❌ Hybrid bonding competition (alternative technology)<br>⚠️ Only ~$100M revenue in massive market (scale risk) |
 | **Risk if Wrong:** TCB underperforms ($80-90M instead of $100M+). HBM delays into FY2027. Vertical Wire fails to gain traction. Advanced packaging growth deferred 2+ years. Stock trades at 2024 valuation multiples ($50-65 range). | | | |
 
 **Validation Path:**
-- ✅ Q2-Q4 FY26: Continued TCB system shipments (120 → 140+ systems)
-- ✅ FY2027 guidance: HBM revenue >$50M, Vertical Wire >$30M
-- ✅ Major customer announcements (TSMC, Samsung) confirming HBM production ramp
+- ✅ Q2-Q4 FY26: Continued TCB system shipments (120 → 140+ systems); HBM customer ramp signals
+- ✅ FY2027 guidance: HBM revenue >$50M (first full year of volume), Vertical Wire >$30M
+- ✅ Major customer announcements (TSMC, Samsung) confirming HBM production ramp with KLIC equipment
 
 ### Pillar 3: Gross Margins Will Stabilize at 49-50%
 
