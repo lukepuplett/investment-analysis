@@ -6,6 +6,31 @@
 
 This file provides comprehensive guidance for AI agents when working with this investment analysis repository.
 
+---
+
+## Table of Contents
+
+- [Repository Overview](#repository-overview)
+- [Architecture & Structure](#architecture--structure)
+- [File Organization Standards](#file-organization-standards)
+- [Analysis Workflow](#analysis-workflow) — **CANONICAL**
+- [Key Metrics to Track](#key-metrics-to-track)
+- [Investment Analysis Framework](#investment-analysis-framework)
+- [Repository Organization](#repository-organization)
+- [Key Areas of Analysis](#key-areas-of-analysis)
+- [Analysis Approach](#analysis-approach)
+- [AI Analysis Guidelines](#ai-analysis-guidelines)
+- [Document Formatting Standards](#document-formatting-standards)
+- [Financial Statement Formatting Standards](#financial-statement-formatting-standards)
+- [File Naming Conventions](#file-naming-conventions) — **CANONICAL**
+- [Documentation Requirements](#documentation-requirements)
+- [Valuation Analysis Framework](#valuation-analysis-framework)
+- [Repository Usage Notes](#repository-usage-notes)
+- [Data Collection & Financial Data Access](#data-collection--financial-data-access)
+- [Meta-Instructions for AI Agents](#meta-instructions-for-ai-agents)
+
+---
+
 ## Repository Overview
 
 This is an investment analysis repository for tracking and analyzing public companies. The repository contains structured financial analysis and research materials organized by **ticker folder** (e.g. `hood/`, `msft/`, `CVCO/`). **Canonical list of covered names:** see root **[README.md](README.md)** — *Companies Covered* (the sample bullets below are illustrative only):
@@ -74,22 +99,27 @@ This folder is intentionally flat (not year/quarter subdirectories) for easy dis
 ## File Organization Standards
 
 ### Required Analysis Documents
-For comprehensive analysis, create all of these documents in the `analysis/` directory:
-1. `YYYY_MM_DD_financial_analysis.md` - Financial metrics and health assessment
-2. `YYYY_MM_DD_market_analysis.md` - Market position and industry trends  
-3. `YYYY_MM_DD_competitive_analysis.md` - Competitive position and advantages
-4. `YYYY_MM_DD_technical_analysis.md` - Technical capabilities and risks
-5. `YYYY_MM_DD_risk_assessment.md` - Comprehensive risk analysis
-6. `YYYY_MM_DD_investment_thesis.md` - Overall investment thesis and recommendations
-7. `YYYY_MM_DD_valuation_analysis.md` - Valuation methodology and price targets
+For comprehensive analysis, create all of these documents in the `analysis/` directory using format: `YYYY_MM_[analysis_type].md` (e.g., `2025_05_financial_analysis.md`):
 
-### File Naming Conventions
-- **Analysis documents**: `YYYY_MM_DD_[analysis_type].md`
-- **Financial statements**: `YYYY_MM/[statement_type].md` 
-- **Quarterly filings**: `YYYY_Q#_[document_type].txt` or `.md`
-- **Q&A documents**: `YYYY_MM_DD_[topic].md`
-- All filenames use lowercase with underscores for spaces
-- Maintain chronological order in all directories
+1. `YYYY_MM_financial_analysis.md` - Financial metrics and health assessment
+2. `YYYY_MM_market_analysis.md` - Market position and industry trends  
+3. `YYYY_MM_competitive_analysis.md` - Competitive position and advantages
+4. `YYYY_MM_technical_analysis.md` - Technical capabilities and risks
+5. `YYYY_MM_risk_assessment.md` - Comprehensive risk analysis
+6. `YYYY_MM_investment_thesis.md` - Overall investment thesis and recommendations
+7. `YYYY_MM_valuation_analysis.md` - Valuation methodology and price targets
+8. `YYYY_MM_delta_analysis.md` - Changes and shifts since previous assessment (quarterly or major updates)
+
+**Delta Analysis Document:** The delta document captures material changes since the last analysis round and serves as a quick reference for what has shifted. It allows for focused monitoring between full analysis cycles. Include:
+- Financial metric changes (revenue, margins, profitability, cash flow, debt levels)
+- Operational changes (customer mix, market share, segment performance, efficiency metrics)
+- Valuation shifts (stock price movement, multiples, relative value vs peers)
+- Strategic updates (new products, market expansion, M&A, partnerships)
+- Risk changes (new risks emerged, previous risks resolved/worsened, regulatory changes)
+- Competitive landscape shifts (competitor moves, market dynamics)
+- Management commentary changes (guidance updates, tone shifts, capital allocation changes)
+- Key ratio changes (profitability, leverage, returns, efficiency)
+- Investment thesis impact (which thesis pillars are validated/challenged)
 
 ### Table Formatting Standards
 Financial data tables must follow consistent formatting:
@@ -272,17 +302,40 @@ When creating or updating a company's README, include:
 
 ## Analysis Workflow
 
-### Document Creation Process
-1. **Data Collection**: Gather quarterly financial statements, market data, company announcements
-2. **Analysis Process**: Create ALL required analysis documents before providing summary analysis
-3. **Documentation**: Store raw data in appropriate directories, ensure cross-referencing between documents
-4. **Review and Update**: Quarterly performance review, monthly position checks
+**Canonical workflow for investment analysis. Other similar sections refer to this.**
 
-### Cross-Referencing Requirements
-- Each analysis document should reference related documents
+### 1. Data Collection
+- Gather quarterly financial statements
+- Collect market data and company announcements
+- Track company news and industry developments
+- Monitor capacity metrics and operational indicators
+
+### 2. Analysis Process
+- Create **ALL required analysis documents** before providing summary analysis
+- Update financial models and key metrics
+- Review competitive position and market dynamics
+- Assess growth catalysts and operational changes
+- Evaluate risks and risk mitigants
+- Update valuation models and sensitivity analyses
+- Verify assumptions against latest data
+
+### 3. Documentation
+- Store raw data in appropriate quarterly/ directories
+- Create all required analysis documents in analysis/ directory
+- Update key metrics and financial tables
+- Maintain investment thesis with supporting evidence
+- Track scenario outcomes and thesis validation
+- Ensure cross-referencing between related documents
 - Use consistent section headers across documents
-- Maintain chronological order in filenames
+- Maintain chronological order in all filenames
 - Include links to source materials in quarterly/ directory
+
+### 4. Review and Update Schedule
+- **Daily**: Price tracking and news monitoring
+- **Weekly**: News and competitive landscape monitoring
+- **Monthly**: Market position and key metrics check
+- **Quarterly**: Full performance review, earnings analysis, model updates
+- **Semi-Annual**: Thesis review, moat assessment, valuation refresh
 
 ## Key Metrics to Track
 
@@ -483,38 +536,6 @@ When creating or updating a company's README, include:
    - Position sizing
    - Risk management
    - Scenario planning
-
-## Analysis Workflow
-1. Data Collection
-   - Gather quarterly financial statements
-   - Collect market data
-   - Track company announcements
-   - Monitor industry news
-   - Track capacity metrics
-
-2. Analysis Process
-   - Create all required analysis documents
-   - Update financial models
-   - Review competitive position
-   - Assess growth catalysts
-   - Evaluate risks
-   - Update valuation
-   - Check assumptions
-
-3. Documentation
-   - Store raw data in appropriate directories
-   - Create all required analysis documents
-   - Update key metrics
-   - Maintain investment thesis
-   - Track scenario outcomes
-   - Ensure cross-referencing between documents
-
-4. Review and Update
-   - Quarterly performance review
-   - Monthly market position check
-   - Weekly news monitoring
-   - Daily price tracking
-   - Capacity utilization updates
 
 ## AI Analysis Guidelines
 
@@ -852,65 +873,13 @@ After completing all analysis documents:
 
 ## Documentation Requirements
 
-### Required Analysis Documents
-For each analysis session, create the following documents in the `analysis/` directory:
-1. `YYYY_MM_market_analysis.md`: Market position and industry trends
-2. `YYYY_MM_competitive_analysis.md`: Competitive position and advantages
-3. `YYYY_MM_technical_analysis.md`: Technical capabilities and risks
-4. `YYYY_MM_financial_analysis.md`: Financial metrics and health
-5. `YYYY_MM_risk_assessment.md`: Comprehensive risk analysis
-6. `YYYY_MM_investment_thesis.md`: Overall investment thesis and recommendations
-7. `YYYY_MM_delta_analysis.md`: Changes and shifts since previous assessment (quarterly or major updates)
-
-**Delta Analysis Document:**
-The delta document captures material changes since the last analysis round. It serves as a quick reference for what has shifted and allows for focused monitoring between full analysis cycles. Include:
-- **Financial metric changes** (revenue, margins, profitability, cash flow, debt levels)
-- **Operational changes** (customer mix, market share, segment performance, efficiency metrics)
-- **Valuation shifts** (stock price movement, multiples, relative value vs peers)
-- **Strategic updates** (new products, market expansion, M&A, partnerships)
-- **Risk changes** (new risks emerged, previous risks resolved/worsened, regulatory changes)
-- **Competitive landscape shifts** (competitor moves, market dynamics)
-- **Management commentary changes** (guidance updates, tone shifts, capital allocation changes)
-- **Key ratio changes** (profitability, leverage, returns, efficiency)
-- **Investment thesis impact** (which thesis pillars are validated/challenged)
-
 ### Document Cross-References
 - Each analysis document should reference related documents
 - Use consistent section headers across documents
 - Maintain chronological order in filenames
 - Include links to source materials
 
-### Analysis Workflow
-1. Data Collection
-   - Gather quarterly financial statements
-   - Collect market data
-   - Track company announcements
-   - Monitor industry news
-   - Track capacity metrics
-
-2. Analysis Process
-   - Create all required analysis documents
-   - Update financial models
-   - Review competitive position
-   - Assess growth catalysts
-   - Evaluate risks
-   - Update valuation
-   - Check assumptions
-
-3. Documentation
-   - Store raw data in appropriate directories
-   - Create all required analysis documents
-   - Update key metrics
-   - Maintain investment thesis
-   - Track scenario outcomes
-   - Ensure cross-referencing between documents
-
-4. Review and Update
-   - Quarterly performance review
-   - Monthly market position check
-   - Weekly news monitoring
-   - Daily price tracking
-   - Capacity utilization updates
+> **See [Required Analysis Documents](#required-analysis-documents) (File Organization Standards section) for complete list of required documents and delta analysis guidance.**
 
 ## Valuation Analysis Framework
 
