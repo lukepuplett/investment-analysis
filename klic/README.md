@@ -180,11 +180,11 @@ They're NOT "running out of cash" tomorrow (they have ~$300M in liquidity). But 
 
 **Three Possible Explanations:**
 
-1. **Optimistic inventory bet:** Stocking up because they believe demand will be strong all year, but if demand softens, they're stuck with $70-100M in inventory they can't move.
+1. **🟡 Aggressive Optimism:** Management is genuinely bullish on sustained demand inflection and is doubling down—building inventory early, extending customer credit to lock in market share, betting the balance sheet on capturing this cycle. High-conviction bet: if demand sustains, this positions them for 3-5 year market share gains; if demand falters, catastrophic write-downs on excess inventory.
 
-2. **Customer credit wars:** Extending aggressive payment terms to lock in customers (common in semiconductor equipment), but this starves cash.
+2. **🔴 Customer Credit Wars:** Extending aggressive payment terms to lock in customers (common in semiconductor equipment), but this is an unsustainable cash drain. Competitors are doing the same, forcing everyone into a race-to-the-bottom on payment terms—burning cash to win business that might not be profitable long-term.
 
-3. **Accounting conservatism on receivables:** The $70.5M allowance may be overly conservative with recovery potential, but they're building inventory as a hedge anyway.
+3. **🟢 Accounting Conservatism on Receivables:** The $70.5M allowance may be overly conservative with actual recovery potential higher. Building inventory now is prudent hedge; suggests management learned from prior burn and is balancing optimism with caution. Positive signal of measured confidence.
 
 **What Q3 Earnings Will Tell Us:**
 - If operating cash flow is still weak (<$20M YTD), the working capital problem is **structural, not timing**
