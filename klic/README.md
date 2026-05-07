@@ -84,7 +84,7 @@ Kulicke and Soffa Industries, Inc. (KLIC) is a semiconductor equipment manufactu
 
 ### 6. **Analyst Consensus Revisions** (External Validation)
 - **Status:** 90-day revision FY2026 EPS $1.50 → $2.62 (+75%); Q1 beat +33% vs. estimates
-- **Impact:** Wall Street catching up to recovery thesis; valuation support; analyst upgrades likely if Q2 validates
+- **Impact:** Wall Street catching up to recovery thesis; valuation support; analyst upgrades likely now that Q2 validates
 - **Insight:** Market pricing 55% bull case probability; 35% bull case + 45% base case + 20% bear case implied
 
 ### 7. **High-Bandwidth Flash (HBF) Assembly Exploration** (Emerging Opportunity)
@@ -223,7 +223,7 @@ They're NOT "running out of cash" tomorrow (they have ~$300M in liquidity). But 
 - 🔴 **Inventory allowances tripled:** $70.5M (30.5% of gross inventory) — obsolescence risk
 - 🔴 **Capital returns unsustainable:** -$44.5M annual burn after dividends/buybacks; dividend cut likely in 3-5 years if trajectory doesn't improve
 
-**Financial Recovery Confidence: 5/10 (Pre-Q2 Call)**
+**Financial Recovery Confidence: 6.5/10 (Post-Q2 Call)**
 
 ---
 
@@ -282,7 +282,7 @@ They're NOT "running out of cash" tomorrow (they have ~$300M in liquidity). But 
 | **Capital Returns Unsustainable** | ✅ | 9/10 | 3-5 year runway before crisis; recovery could flip to positive FCF |
 | **Balance Sheet Strong** | ✅ | 8/10 | Inventory risk; 6+ year runway before cash crisis |
 
-**Overall Thesis Conviction: Neutral to Slightly Bullish (requires Q2 validation)**
+**Overall Thesis Conviction: Cautious Bullish (Q2 validated, cash flow critical watch)**
 
 ---
 
