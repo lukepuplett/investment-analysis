@@ -1,0 +1,148 @@
+Datadog, Inc. (DDOG) Q1 FY2026 earnings call transcript
+May 7, 2026, 8:00 AM EDT
+
+EXECUTIVE SUMMARY
+
+Q1 revenue grew 32% year-over-year to $1.1 billion, accelerating from prior quarters with broad-based growth across AI and non-AI cohorts. Operating income reached $223 million at 22% margin. Free cash flow was $289 million at 29% margin. ARR exceeded $4 billion. Over 6,500 customers (20% of customer base) use AI integrations, representing 80% of ARR.
+
+---
+
+Yuka Broderick (Senior Vice President, Investor Relations)
+
+We announced Datadog's Q1 2026 results. Joining are Olivier Pomel, Co-founder and CEO, and David Obstler, CFO. We will make forward-looking statements subject to risks and uncertainties. Refer to our SEC filings for details. We will discuss non-GAAP measures reconciled in the earnings release.
+
+---
+
+Olivier Pomel (Co-founder and CEO)
+
+Q1 revenue grew 32% year-over-year to $1.1 billion, accelerating from prior quarters with broad-based growth across AI and non-AI cohorts. Non-AI revenue growth accelerated to mid-20s%. Churn remains low with gross retention in the mid-to-high 90s.
+
+We ended with 33,200 customers and 4,550 customers over $100k ARR, representing 90% of ARR. Free cash flow was $289 million at 29% margin. Platform adoption increased: 56% of customers use 4+ products (up from 55% in Q4), 35% use 6+ products (up from 33%), 20% use 8+ products (up from 18%). Total ARR exceeds $4 billion.
+
+We have five products exceeding $100 million ARR, three more products in the $50-100 million range, with 18 others having clear potential to reach $100 million in ARR.
+
+We launched MCP Server general availability for live production data in AI coding agents. This allows Claude, ChatGPT, and other AI agents to directly access real-time Datadog data for troubleshooting and investigation.
+
+Bits AI Security Analyst triages SIEM signals and reduces investigations to 30 seconds. Bits Assistant is in preview for natural language actions on Datadog.
+
+GPU Monitoring helps optimize GPU utilization, efficiency, and reliability — critical for AI infrastructure at scale.
+
+Over 6,500 customers use AI integrations (20% of customers, 80% of ARR). AI usage metrics grew sharply: Bits AI SRE investigations doubled, LLM Observability spans tripled, MCP tool calls quadrupled, Bits Assistant messages increased 12x.
+
+We launched Experiments general availability for feature flagging with statistical methods and observability guardrails.
+
+APM Recommendations identifies and explains fixes for performance issues.
+
+We plan a new UK data center and received FedRAMP High certification.
+
+Key wins include 7- and 8-figure deals with two major AI research teams for training workflow optimization using GPU Monitoring. Signed 7-figure expansions with:
+- An online recruiting platform (replacing standalone LLM tool, now using 16 Datadog products)
+- A Fortune 500 bank (full log migration to Flex Logs, 10 products)
+- A global hedge fund (replacing on-prem stack with Infrastructure and Network Monitoring, 11 products)
+- A Fortune 500 insurance company (consolidating 3 APM tools, starting with 10 products)
+- A major APAC travel group (consolidating 6 tools)
+- A Latin American fintech (adopting Digital Experience Monitoring, starting with 5 products)
+
+Digital transformation, cloud migration, and AI adoption remain long-term growth drivers. We are positioned to serve all customers and users, including AI agents.
+
+---
+
+David Obstler (Chief Financial Officer)
+
+Q1 revenue was $1.01 billion, up 32% YoY. Sequential growth was the strongest Q1 since 2022. ARR added set a record.
+
+New logo bookings and average land size set records. Non-AI revenue grew mid-20s%. AI-native cohort continues to grow faster with 22 customers over $1M ARR and 5 over $10M.
+
+Net revenue retention low 120s%, gross retention mid-to-high 90s.
+
+Billings $1.03 billion (+37% YoY), RPO $3.48 billion (+51% YoY).
+
+Gross margin 80.2%. OpEx grew 31%. Operating income $223 million at 22% margin. Cash and equivalents $4.8 billion.
+
+Operating cash flow $335 million, free cash flow $289 million (29% margin).
+
+Q2 guidance: Revenue $1.07-1.08 billion (29-31% YoY). Non-GAAP operating income $225-235 million (21-22% margin, includes ~$15M Dash conference cost). EPS $0.57-0.59 (369M shares).
+
+FY2026 guidance: Revenue $4.3-4.34 billion (25-27% YoY). Operating income $940-980 million (22-23% margin). EPS $2.36-2.44 (372M shares). Net interest income ~$170M, cash taxes $30-40M, CapEx 4-5% of revenue.
+
+---
+
+ANALYST Q&A
+
+Mark Murphy (JPMorgan):
+How much new code from generators like Claude/Cursor is reaching production and driving Datadog activity? Does heterogeneous silicon (Trainium, TPUs, Maia) create tailwinds since traditional tools struggle?
+
+Olivier Pomel:
+More applications are reaching production, increasing complexity. This shows in rising AI product data volumes and consumption. Training is democratizing beyond a few companies. Heterogeneous environments favor unified platforms like ours that tie everything together. We are now landing hyperscalers for training workloads and GPU monitoring, validating the market.
+
+---
+
+Sanjit Singh (Morgan Stanley):
+Any macro impact on SMB/e-commerce/retail? Vision for agents vs human engineers in observability, including UI and pricing changes?
+
+Olivier Pomel:
+Strong performance across industries and geographies with no visible consumer weakness. Guidance discounts trends conservatively. We see both agent and human usage rising sharply (MCP Server, etc.). Usage-based model works regardless of human or agent consumption. Both interfaces are advancing together.
+
+---
+
+Raimo Lenschow (Barclays):
+Observability consolidation trends vs open source noise? Drivers of non-AI acceleration?
+
+Olivier Pomel / David Obstler:
+Customers consolidate fragmented open source and point tools onto our platform for unified visibility, automation, and cost savings. Even hyperscalers are replacing internal stacks for speed and efficiency. Platform adoption and product expansion drive consolidation and share gains. Go-to-market investments are paying off alongside AI tailwinds.
+
+---
+
+Gabriela Borges (Goldman Sachs):
+Why is training opportunity inflecting now? Observability attach rates for training vs inference?
+
+Olivier Pomel / David Obstler:
+Training has shifted from artisanal/research one-offs to reliable production workloads at massive scale where failures are costly. More companies are training regularly. Early but growing attach; inference still dominates current metrics, training is additive.
+
+---
+
+Karl Keirstead (UBS):
+Drivers of strong Q2 guidance and large sequential add?
+
+David Obstler / Olivier Pomel:
+Record Q1 ARR add was broad-based, not concentrated. Strong Q4 lands also contributed. Trends support confident guidance after applying conservatism.
+
+---
+
+Fatima Boolani (Citi):
+CapEx efficiency amid rising telemetry? Data residency/sovereignty efforts?
+
+Olivier Pomel:
+Most workloads run in cloud (OpEx). No material CapEx change expected. Investing in more data centers, FedRAMP, and Bring Your Own Cloud for sovereignty needs.
+
+---
+
+Kirk Materne (Evercore):
+Security for agents opportunity? FedRAMP partner readiness?
+
+Olivier Pomel / David Obstler:
+Building guardrails, permissions, and integration for our own agents. Security requires full-platform visibility. FedRAMP investments in sales and partners are already underway.
+
+---
+
+Patrick Colville (Scotiabank):
+Clarify conservatism on largest customer. Hyperscaler usage?
+
+David Obstler / Olivier Pomel:
+Higher conservatism applied to largest customer vs others and consistent with prior methodology. Hyperscalers use broad observability plus new GPU Monitoring for training.
+
+---
+
+Peter Weed (Bernstein):
+Why hyperscalers choose Datadog for AI workloads?
+
+Olivier Pomel:
+High stakes, complexity, and speed needs make observability non-core. AI urgency shifts priorities even for companies that typically build in-house.
+
+---
+
+Gregg Moskowitz (Mizuho):
+Early feedback on CloudPrem / Bring Your Own Cloud?
+
+Olivier Pomel:
+Strong potential for data residency, large-scale workloads, and new market segments. Heavy investment with early traction.
