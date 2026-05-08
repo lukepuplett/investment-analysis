@@ -23,7 +23,7 @@
 
 **Critical Caveat:** Fair value of $77.50-93.50 assumes "Neutral Provider" thesis is >60% probable and market will price it in by late 2026-2027. If "Neutral Provider" is speculative/misguided, revert to old $45-55 range and $100 is 50-100% overvalued.
 
-**Key Change from Q4 2025 Analysis:** Backlog validation ($2.2B, +$350M Q1) and Neutron demand proof (largest contract ever) significantly reduce execution risk and justify higher fair value. However, negative FCF, margin compression (Q2 guidance), and Neutron binary event keep risk/reward unfavorable.
+**Key Change from Q4 2025 Analysis:** Backlog validation ($2.2B, +$350M Q1) and Neutron demand proof (largest contract ever) provide evidence of strong near-term revenue foundation; analyst assessment is these factors may reduce execution risk by providing revenue cushion if Neutron delays. Fair value elevated accordingly. However, negative FCF, margin compression (Q2 guidance), and Neutron binary event remain substantive risks.
 
 ### Why RKLB Still Trades at 30-40% Premium (Improved from 63% in Q4)
 
@@ -32,12 +32,12 @@
 Q1 Validations:
 - ✅ Backlog jumped to $2.2B (+$350M in one quarter); 36% converts to revenue in 12 months
 - ✅ Neutron demand real: Largest contract ever announced (5 Neutron through end of decade)
-- ✅ Pricing holding: No discounting on Neutron (commercial rates maintained)
+- ⚠️ Pricing confidence: Management tone suggests strong pricing discipline; no explicit price concessions mentioned
 - ✅ Space Systems growth accelerating: +57% YoY, margins holding 38%+
 
 BUT: Neutron first flight (Q4 2026) remains binary:
 - Execution risk still 35-45% (composite structures, reusability, Hungry Hippo fairing)
-- Q2 margin guidance shows compression (33-35% GAAP due to SDA mix)
+- Q2 margin guidance shows compression (33-35% GAAP); likely driven by SDA segment mix entering at lower margins than mature Electron/Space Systems ³
 - FCF still negative (-$77M Q1), profitability 2-3 years away
 - One flight failure = thesis broken, stock drops to $15-25
 
@@ -58,7 +58,7 @@ BUT: Neutron first flight (Q4 2026) remains binary:
 
 ## PARADIGM SHIFT: The "Neutral Provider" Thesis (May 8, 2026)
 
-**Critical Development:** SpaceX's January 30, 2026 FCC filing for 1M compute-capable satellites integrated with xAI creates a **competitive conflict** that fundamentally changes RKLB's value proposition.
+**Critical Development:** SpaceX's January 30, 2026 FCC filing for 1M compute-capable satellites integrated with xAI creates a **competitive conflict** that fundamentally changes RKLB's value proposition. ¹
 
 ### Why This Matters
 
@@ -72,7 +72,7 @@ BUT: Neutron first flight (Q4 2026) remains binary:
 | Factor | Why RKLB Wins |
 |--------|--------------|
 | **Competitive Neutrality** | RKLB launches rockets, doesn't own/compete in AI compute software |
-| **Pricing Premium** | Big tech pays 20-30% above SpaceX rates for independence + data sovereignty |
+| **Pricing Premium** | Big tech expected to pay 20-30% premium for neutral provider status (historical precedent: TSMC commands 15-25% premium vs. alternative foundries) ² |
 | **Hungry Hippo Advantage** | 7-meter fairing + thermal management suited for compute hardware (vs. Falcon 9's aging design) |
 | **Historical Precedent** | TSMC trades 20-30% premium vs. foundries because it's the neutral vendor all chipmakers trust |
 
@@ -94,11 +94,23 @@ BUT: Neutron first flight (Q4 2026) remains binary:
 **Assessment:** NO. Current analyst consensus focuses on "Neutron reusability vs. Starship," not "SpaceX competitive conflict."
 
 **Evidence:**
-- Price targets ($80-95) ignore the $2-3B "orbital AI compute transport" TAM
+- Price targets ($80-95) ignore the $2-3B "orbital AI compute transport" TAM ⁴
 - No analyst coverage of xAI/Starlink conflict-of-interest implications
 - Models treat RKLB as "pure launch provider," not "trusted neutral launcher"
 
 **Implication:** If "Neutral Provider" thesis is >60% probable (our view: YES), stock is **undervalued by 15-25%** at $100.
+
+---
+
+### Footnotes
+
+¹ **Neutral Provider Thesis Attribution:** The "Neutral Provider" thesis is developed from SpaceX's January 30, 2026 FCC filing (publicly available, not from RKLB Q1 earnings call). This represents external market analysis of structural competitive dynamics, not management commentary. The earnings call validates demand (largest contract ever, $2.2B backlog) but does not explicitly discuss SpaceX/xAI conflict-of-interest. This framework is an analyst interpretation overlaid on Q1 earnings facts. **High conviction in the framework (based on SpaceX's disclosed satellite specifications + xAI's public AI initiatives), but investors should independently verify the competitive conflict thesis.**
+
+² **Pricing Premium Caveat:** The 20-30% pricing premium claim is a hypothesis based on historical precedent (TSMC's premium vs. alternative foundries), not from disclosed customer quotes. RKLB has not publicly confirmed pricing premiums in Q1 2026 earnings call. This figure is used as a reasonable estimate of structural differentiation value, but actual customer willingness-to-pay remains to be validated as Neutral Provider thesis plays out in 2026-2027. Current high backlog ($2.2B) suggests strong demand, but premium rate is NOT confirmed in announced contract values.
+
+³ **SDA Margin Compression Attribution:** Q2 margin guidance shows lower margins (33-35% GAAP vs. Q1's 38.2% GAAP). The attribution to "SDA mix" is analyst inference based on SDA being a new, lower-margin segment entry. Call does not explicitly state SDA will compress margins; this is a reasonable inference from management guidance structure but should be monitored in Q2 results.
+
+⁴ **Orbital AI Compute TAM Estimate:** The "$2-3B orbital AI compute transport" TAM is an analyst estimate NOT from RKLB Q1 2026 earnings call. This figure is based on projected 2027-2030 hyperscaler AI infrastructure capex and assumed 15-20% allocation to orbital compute. Management has not quantified this TAM in public guidance. High uncertainty; treated as upside framework rather than base case assumption.
 
 ---
 
