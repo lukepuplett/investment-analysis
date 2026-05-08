@@ -144,19 +144,30 @@
 4. **Acquisition De-risking:** Motiv + Mynaric complete vertical integration faster than expected; reduces near-term integration risk
 5. **Government Tailwinds:** HASTE $190M block buy, Space-Based Interceptor selection, Anduril partnership expand government TAM
 
-**Revised Scenarios:**
+**Revised Scenarios (Updated May 8, 2026):**
 
 | Scenario | Probability | FY2028E Revenue | FY2028E EBITDA Margin | Price Target 2027E | Weighted Value |
 |----------|------------|-----------------|----------------------|------------------|-----------------|
-| **Bull** | 20% (↑ from 15%) | $1.2–1.4B | 10–12% | $75–85 | $15–17 |
-| **Base** | 50% (↑ from 45%) | $900M–1.05B | 3–6% | $50–60 | $25–30 |
-| **Bear** | 30% (↓ from 40%) | $600–700M | -2% to +1% | $20–28 | $6–8.40 |
-| **Probability-Weighted Fair Value** | 100% | — | — | — | **$46–55.40** |
+| **Bull** | 20% (↑ from 15%) | $1.2–1.4B | 10–12% | $85–100 | $17–20 |
+| **Base** | 50% (↑ from 45%) | $900M–1.05B | 3–6% | $55–70 | $27.50–35 |
+| **Industrial Down-Rating** | 30% (↓ from 40%) | $800M–900M | 5–8% | $35–45 | $10.50–13.50 |
+| **Probability-Weighted Fair Value** | 100% | — | — | — | **$55–68.50** |
 
-**Rationale for Probability Shift:**
-- **Bull +5%:** Largest contract ever proves Neutron demand; backlog validation increases success probability from 60-65% to 70-75%
-- **Base +5%:** Strong execution on SDA, HASTE, acquisitions increases base-case likelihood; margin compression risk lower
-- **Bear -10%:** Neutron design validation (Stage 1 tank, separation tests) reduces probability of complete program failure; Bear case now reflects partial success (slower ramp) vs. total failure
+**Rationale for Updated Scenarios:**
+
+**Bear Case Reframed as "Industrial Down-Rating" (Not Failure):**
+- **Old framing (too binary):** Neutron fails completely; RKLB becomes $4-8B defense supplier
+- **New framing (more realistic):** Neutron succeeds but reuse mastery takes 3–5 years (SpaceX trajectory). Company survives as profitable aerospace prime, but valuation multiple contracts from **60x P/S → 5-8x P/S** (tech disruptor → defense contractor)
+  - Launch revenue grows from $350M to $500M+, but at lower margin (reusability delays)
+  - Space Systems core business (satellites, subsystems) remains intact at 40%+ margins
+  - EBITDA positive, but no "disruptor premium" in multiple
+  - This is a valuation reset, not a business bankruptcy
+  - Still a viable, profitable, growing aerospace company; just not a 60x P/S company
+
+**Probability shifts:**
+- **Bull +5%:** Largest contract ever + design validation + backlog proof increases success prob 60–65% → 70–75%
+- **Base +5%:** Strong execution on SDA, HASTE, acquisitions; Space Systems core business de-risks to 50% confidence
+- **Industrial Down-Rating -10%:** Neutron execution validation reduces probability of "complete failure" (SpaceX Falcon 1 trajectory); more likely outcome is "slower reuse ramp" which is still a successful business
 
 ---
 
@@ -169,8 +180,31 @@
 | **P/S (TTM)** | 75.8x | 45–55x | Expensive on growth; cheap on base TAM |
 | **EV/2027E Revenue (Base)** | 38x | 25–30x | Fair to slight premium |
 
-**Revised Fair Value Range: $46–55/share**  
-**Current Overvaluation: 30-40% (improved from 55-65%)**
+**Fair Value Range (May 7, 2026): $55–68/share**  
+
+### Implied Probability at Current $100 Price (May 8, 2026)
+
+**What the Market is Pricing In:**
+
+At $100/share, working backward from the probability-weighted fair value model:
+
+| Scenario | Fair Value | Probability Implied by $100 Price | Market vs. Base Assumption |
+|----------|------------|----------------------------------|--------------------------|
+| **Bull Case** | $85–100 | ~60% ↑↑ | 3x higher than our 20% |
+| **Base Case** | $55–70 | ~35% → | Neutral vs. our 50% |
+| **Industrial Down-Rating** | $35–45 | ~5% ↓↓ | 6x lower than our 30% |
+
+**Interpretation:**
+- Current market is pricing **~60% Bull Case probability** (vs. our 20% base case)
+- This implies **~90% Neutron success rate** (vs. our 70–75% realistic probability)
+- **The margin of safety is ZERO:** Even if Neutron is a 70–75% success (very high for aerospace), the stock is still technically overvalued because there's no room for the remaining 25–30% downside risk
+- At $100, a "standard" Bull Case outcome (Neutron success, normal reuse ramp 3–5 years) would likely produce a price correction to $75–85 as the market reprices the multiple downward
+
+**Risk/Reward Asymmetry at $100:**
+- Upside to "Super-Bull" (Neutron success + immediate reuse): +20–25% to $120–125
+- Downside to Base Case (Neutron success, slower reuse): -25–35% to $65–75
+- Downside to Industrial Down-Rating (Neutron success, 3–5 year reuse): -40–50% to $50–60
+- **Asymmetry is decidedly negative** (large downside, limited upside buffer)
 
 ---
 
@@ -188,17 +222,45 @@
 
 ---
 
-## INVESTMENT THESIS COHERENCE CHECK — UPDATED
+---
+
+## PRIMARY THESIS: SPACE SYSTEMS AS THE CORE ENGINE
+
+**Critical Reframe:** The investment is NOT primarily about Neutron launch reusability. It's about RKLB becoming a **"one-stop-shop" for space infrastructure**, capturing wallet share from legacy primes and SpaceX's vertically integrated model.
+
+### Space Systems Capture Ratio (The Real Moat)
+
+**Current State (Q1 2026):**
+- Space Systems revenue: $136.7M, 58.5% of $2.2B backlog = **$1.29B forward revenue**
+- Segment growth: +57.2% YoY (outpacing Launch Services at +78.9%)
+- Margin: 38%+ (2-3x higher than Launch Services)
+- Key customers: SDA (Tranche 3), GPS, CBOE, DoD, commercial constellations
+- Vertical integration: Spacecraft (Photon) + Payloads (Mynaric, SolAero) + Subsystems (Motiv solar array drives, OURS propulsion, optical comms)
+
+**Capture Ratio Definition:** % of total satellite constellation & subsystem TAM that RKLB can win by being the only vendor offering launch + spacecraft + payloads + subsystems without customer having to cobble together 6–8 vendors.
+
+**Current Capture Ratio Estimate:**
+- Legacy primes (Northrop, Lockheed, Raytheon): 1–3 satellites per program (OEM platforms)
+- SpaceX: 100% of Starlink constellation (proprietary), 0% of customer constellations (makes its own Starships but doesn't build customer sats)
+- RKLB: 0.5–2% of addressable constellation TAM (~$5–10B/year), but growing
+- **Upside:** If RKLB captures 5–8% of constellation TAM (vs. current 0.5–2%), that's +$2–3B TAM expansion without Neutron succeeding
+
+**Why This Matters:**
+- Launch margins: 20–30% (commoditizing under SpaceX pressure)
+- Satellite + subsystems margins: 35–45% (sticky, high repeat purchase, switching cost high)
+- **Strategic moat:** Satellite programs run 5–10 years; once you're embedded as spacecraft builder + subsystem supplier, competitor can't easily displace you even if SpaceX launches cheaper
+
+### Investment Thesis Coherence Check — Updated
 
 | Pillar | Q4 Status | Q1 Evidence | Q1 Status | Q1 Confidence | Risk if Wrong |
 |--------|-----------|------------|-----------|---------------|---------------|
-| **Space Systems Growth** | ✅ | $136.7M revenue, +57.2% YoY, Motiv closes out value chain | ✅✅ | **9/10** | Motiv integration; margin compression |
-| **Electron Moat** | ✅ | 31 launches booked (record Q), 70+ backlog, premium pricing intact | ✅✅ | **8/10** | SpaceX Falcon 9 pricing squeeze (lower risk) |
-| **Neutron 5–10x Upside** | ⚠️ | Largest contract ever, stage separation cleared, AFP production ramping | ⚠️→✅ | **6/10** | Q4 2026 first flight delay; cost overruns |
-| **Government Contracting** | ✅ | HASTE $190M, Space-Based Interceptor, Anduril partnership | ✅✅ | **8/10** | Congressional budget cuts (lower risk in space defense) |
-| **Vertical Integration** | ✅ (implicit) | Motiv + Mynaric + OURS complete end-to-end ecosystem | ✅✅ | **8/10** | Execution on complex multi-acquisition integration |
-| **Capital Allocation & Execution** | ✅ | Record backlog growth, margins beat, cash raised at higher prices | ✅✅ | **8/10** | Dilution from ATM @ $70+; capital deployment error |
-| **Composite Assessment** | ⚠️ 5/10 | Base Case validation across 5 of 6 pillars | ✅ **6/10** | Neutron binary; but de-risking evident |
+| **Space Systems Capture Ratio** | ✅ | $1.29B forward backlog; SDA Tranche 3 validates customer preference for vertical integration; Motiv completes value chain | ✅✅ | **9/10** | Acquisition integration delays; legacy primes respond with bundled offerings |
+| **Electron Ballast** | ✅ | 31 launches booked; 70+ backlog; premium pricing; $63.7M Q1 revenue | ✅✅ | **8/10** | SpaceX rideshare commoditization; limited TAM growth |
+| **Neutron as Optionality** | ⚠️ | Largest contract ever; design validation; but still 6 months from first flight | ⚠️→✅ | **6/10** | Q4 2026 slip; cost overruns; reuse takes 3–5 years not 1–2 |
+| **Government Contracting TAM** | ✅ | HASTE $190M; Space-Based Interceptor; Anduril; DoD/SDA tailwinds | ✅✅ | **8/10** | Budget cuts; program reprioritization |
+| **Vertical Integration Moat** | ✅ (implicit) | Motiv + Mynaric + OURS complete spacecraft value chain; only non-legacy-prime doing this at scale | ✅✅ | **8/10** | Execution on 3 simultaneous acquisitions; margin dilution |
+| **Capital Allocation & Execution** | ✅ | Record backlog growth, margins beat, cash raised at higher prices; smart M&A timing | ✅✅ | **8/10** | Over-leveraged acquisition pipeline; capital dilution |
+| **Composite Assessment** | ⚠️ 5/10 | **Space Systems + Electron ballast is the real business; Neutron is upside** | ✅ **7/10** | Space Systems execution is now primary thesis, not Neutron |
 
 ---
 
@@ -210,30 +272,37 @@
 
 ---
 
-### Updated Recommendation (Q1 2026)
+### Updated Recommendation (May 8, 2026 - At $100 Price)
 
 **Scenario-Based Action Plan:**
 
 | Price Level | Action | Rationale | Timeline |
 |-------------|--------|-----------|----------|
-| **$73.60 (Current)** | HOLD if <3% portfolio; TRIM if >5% | Still 30-40% overvalued; limited entry | Wait for weakness |
-| **$60–70** | HOLD; Prepare entry | Improved entry zone; closer to fair value | Evaluate Neutron Q2 milestones |
-| **$50–60** | ACCUMULATE (3–5% allocation) | Fair value zone; asymmetric upside | Prime entry zone |
-| **$40–50** | SCALE in (5–7% allocation) | Deep value; Neutron success = 50%+ upside | High conviction entry |
-| **Below $40** | Full allocation (7–8%) | Binary value; extreme risk/reward | Only if Neutron track is clear |
-| **Neutron Q4 First Flight Success** | SCALE to 6–8% (confirm thesis) | Medium-lift TAM opening; 3–5 year runway | Long-term hold |
-| **Neutron First Flight Failure** | EXIT entirely (limit loss) | Thesis broken; de-rate to $15–20 | Immediate |
+| **$100 (Current, May 8)** | HOLD if <2% portfolio; TRIM if >2% | Pricing in 90% Bull success; zero margin of safety; downside to $65–75 likely even on "standard" success | Await Neutron Q3–Q4 milestones |
+| **$85–95** | Small HOLD; No entry | Still elevated; only entry if Neutron Q3 milestones beat (barge sea trials, flight integration on schedule) | Conditional accumulation trigger |
+| **$75–85** | ACCUMULATE (2–4% allocation) | Fair value zone; reasonable entry with Space Systems ballast; margin of safety appears | Sweet entry zone |
+| **$65–75** | ACCUMULATE (4–6% allocation) | **ELEVATED FROM $50–55 DUE TO BACKLOG VALIDATION** — Premium to historical fair value justified by $2.2B backlog proof and Space Systems capture ratio upside | Prime entry zone |
+| **$55–65** | SCALE in (5–7% allocation) | Deep value zone; high conviction on Space Systems core business; Neutron binary unwinds | Aggressive entry |
+| **Below $55** | Full allocation (7–8%) if Neutron track is clear | Extreme discount; only if Neutron Q4 flight is within 2–3 months and validation is tight | Only on inflection |
+| **Neutron Q4 First Flight Success** | HOLD position; assess multple repricing | Base Case validates; likely rerates to $70–80 on realization Neutron margin won't be immediate (reuse 3–5 years) | Long-term hold |
+| **Neutron First Flight Failure or Major Slip to 2027+** | REDUCE 50–75% immediately | Thesis pivots to Space Systems core business only (~$35–45 fair value); binary event | Immediate |
 
-### Conviction & Position Sizing
+### Conviction & Position Sizing (Updated May 8, 2026)
 
-**Updated Conviction: 6/10 (Base Case)**  
-**Change from Q4:** +1/10 (improving, but still binary outcome)
+**Updated Conviction: 7/10 (Base Case + Space Systems Ballast)**  
+**Change from Q4:** +2/10 (Space Systems as primary driver elevates case even if Neutron delays)
 
-| Scenario | Conviction | Sizing |
-|----------|------------|--------|
-| **Bull (20% prob)** | 7/10 | 6–8% of portfolio if thesis inflects |
-| **Base (50% prob)** | 6/10 | 3–5% of portfolio (current sweet spot) |
-| **Bear (30% prob)** | 5/10 | 0–2% of portfolio (hedging only) |
+| Scenario | Conviction | Sizing at $100 | Sizing at $65–75 Entry |
+|----------|------------|-----------------|------------------------|
+| **Bull (20% prob)** | 7/10 | NO position; overpriced | 4–5% of portfolio |
+| **Base (50% prob)** | 7/10 | Trim to 1–2% (safety); wait for $65–75 | 5–7% of portfolio (core holding) |
+| **Industrial Down-Rating (30% prob)** | 6/10 | Hedge position only (0–1%) | 2–3% of portfolio (defensive) |
+
+**Why Conviction Improved from 6/10 to 7/10:**
+- Space Systems backlog ($1.29B forward) de-risks thesis from being purely Neutron-dependent
+- Even if Neutron reuse takes 3–5 years (slower than hoped), Space Systems core business supports $55–65 fair value
+- Capture ratio upside (5–8% constellation TAM) is a new growth lever independent of Neutron success
+- Vertical integration moat is now proven (SDA Tranche 3 win validates customer preference for bundled approach)
 
 ---
 
@@ -260,23 +329,53 @@
 
 ---
 
-## CONCLUSION
+## CONCLUSION: THESIS EVOLUTION FROM NEUTRON BINARY TO SPACE SYSTEMS CORE
 
-Q1 2026 earnings validate the **Base Case thesis** outlined in Q4 2025 analysis. Revenue acceleration, backlog explosion ($2.2B), record margins, largest contract ever, and Neutron design de-risking all confirm that RKLB's strategic thesis is executing as planned. However, market valuation has moved from "$73.60 = 55% overvalued" to "$73.60 = 30-40% overvalued"—meaningful improvement in risk/reward, but still no margin of safety.
+Q1 2026 earnings validate the **Base Case thesis** but reveal a more nuanced investment case than the "Neutron binary" framing suggested. RKLB is NOT a company betting everything on reusable medium-lift rocket development. It's a vertically integrated space infrastructure company where:
 
-**Key Shifts:**
-- **Conviction:** 5/10 → 6/10 (Base Case more likely; Bull Case probability up; Bear Case compressed)
-- **Fair Value:** $36-45 → $45-55/share (20% appreciation driven by improved visibility)
-- **Overvaluation:** 55-65% → 30-40% (narrowing margin of safety)
-- **Entry Recommendation:** Unchanged—wait for $50-55 zone, but ACCUMULATE if offered <$60
+1. **Space Systems is the ballast** ($1.29B forward backlog, 38%+ margins, 57% YoY growth)
+2. **Electron is the cash machine** ($63.7M Q1, 70+ mission backlog, premium positioning)
+3. **Neutron is the optionality** (largest contract ever signed; upside if reuse succeeds cleanly; downside contained if reuse takes 3–5 years like SpaceX)
 
-Neutron remains the binary pivot point. Q2-Q3 static fire tests and booster recovery validation will provide inflection points for position sizing. First flight success in Q4 2026 would confirm thesis and justify scaling to 6-8% portfolio allocation; failure would require immediate exit.
+**Key Thesis Shifts from Q4 → Q1:**
+
+| Dimension | Q4 2025 | Q1 2026 + May 8 Update | Change |
+|-----------|---------|----------------------|--------|
+| **Primary Driver** | Neutron binary bet | Space Systems capture ratio | ↗ Elevated |
+| **Fair Value** | $36–45 | $55–68 | +$19–23 (+52–64%) |
+| **Conviction** | 5/10 binary | 7/10 multi-lever | +2/10 (more resilient) |
+| **Bear Case** | Business failure | Industrial down-rating | Reframed (less catastrophic) |
+| **Market Pricing** | 55–65% Neutron success | 90% Neutron success | Excessive premium |
+| **Accumulate Zone** | $50–55 | $65–75 | +$15–20 (backlog proven) |
+| **Current Price** | $73.60 (30% overvalued) | $100 (zero margin of safety) | $26.40 run-up in weeks |
+
+**At $100 Price (May 8, 2026):**
+- ❌ **NO margin of safety.** Market is pricing 90% Neutron success; realistic is 70–75%
+- ❌ **Limited upside.** Bull Case gets you to $85–100; already priced in
+- ✅ **Space Systems ballast limits downside.** Even if Neutron slips, Space Systems core supports $55–65 (down 45–55% from $100)
+- ⚠️ **Asymmetric risk.** "Standard" success (Neutron works, reuse takes 3–5 years) reprices to $70–80 (down 20–30%) as market realizes multiple compression inevitable
+
+**Key Milestones (H2 2026):**
+1. **Q2 earnings (May–June):** Confirm Space Systems momentum continues; watch for margin compression on SDA mix
+2. **Neutron Q3 milestones:** Barge sea trials, flight integration readiness; any slip = trigger sell signal
+3. **Neutron Q4 first flight:** Binary event; success validates thesis but reprices lower due to reuse timeline; failure = exit
+
+---
+
+**Investment Decision Framework at Different Price Levels:**
+
+| Price | Decision | Why |
+|-------|----------|-----|
+| **$100+** | AVOID / TRIM | Pricing perfection; no room for 25–30% tail risk |
+| **$85–99** | WAIT / SMALL POSITION | Enter only if Q3 milestones beat expectations |
+| **$75–85** | SMALL ACCUMULATE | Fair value zone; reasonable risk/reward emerging |
+| **$65–75** | ACCUMULATE (Core Position) | **ELEVATED ENTRY ZONE** — Space Systems ballast + Neutron optionality = attractive |
+| **<$65** | SCALE / CONVICTION BUY | Deep value; if Neutron track is clear, 5–7 year runway to profitability visible |
 
 ---
 
 **References:**
 - Q1 2026 Earnings Call Transcript (May 7, 2026)
 - Q4 2025 Investment Thesis Analysis (February 26, 2026)
-- Q4 2025 Financial Analysis, Competitive Analysis, Risk Assessment
 
-**Next Review:** Q2 2026 Earnings (Late May / Early June 2026)
+**Next Review:** Q2 2026 Earnings (late May/early June) + Neutron Q3 milestones (July–September)
