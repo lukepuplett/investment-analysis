@@ -50,39 +50,9 @@ BUT: Neutron first flight (Q4 2026) remains binary:
 | Bear Case (Neutron fails) | $16 | $18-22 | Still defense supplier but with higher margins |
 | **Probability-Weighted** | $40.90 | ~$48 | **Backlog validation +$7-8/share** |
 
-Current $73.60 implies 50-55% Neutron success probability (realistic: 55-65%), so fair value range is approximately right.
+---
 
-**3. Remaining Overvaluation: Why $73.60 > Fair Value**
-
-| Factor | Impact | Magnitude |
-|--------|--------|-----------|
-| Market pricing 60%+ Neutron success (realistic 55-65%) | Slightly optimistic | +$2-3/share |
-| Margin compression risk on SDA contracts | Q2 guidance shows it | +$3-5/share |
-| Acquisition integration drag (Mynaric, Motiv, SolAero) | Near-term headwind | +$2-4/share |
-| FCF remains deeply negative (2-3 years to breakeven) | Execution dependent | +$2-3/share |
-| **Total Premium to Fair Value** | — | **$9-15/share (12-20%)** |
-
-**4. Risk/Reward: Still Unfavorable But Improving**
-
-Current Price $73.60:
-- **Upside to Bull Case:** +15-30% (if Neutron succeeds, SDA ramps)
-- **Downside to Base Case:** -25-35% (if margins compress, Neutron executes slowly)
-- **Downside to Bear Case:** -70-80% (if Neutron fails)
-- **Asymmetry:** 40%+ probability of -25% to -80% vs. 15% probability of +15% = unfavorable
-
-Fair Value Entry ($50-55):
-- **Upside potential:** +40-50% (Neutron success to bull case)
-- **Downside risk:** -35-45% (to bear case if Neutron fails)
-- **Asymmetry:** Becomes neutral-to-favorable
-
-### Probability-Weighted Fair Value Calculation
-
-| Scenario | Probability | Price Target | Weighted Value |
-|----------|------------|--------------|-----------------|
-| **Bull Case** | 15% | $75–85 | $11.25–12.75 |
-| **Base Case** | 45% | $45–55 | $20.25–24.75 |
-| **Bear Case** | 40% | $12–20 | $4.80–8.00 |
-| **Fair Value (Probability-Weighted)** | 100% | — | **$36.30–45.50** |
+*Note: The original overvaluation analysis based on $73.60 has been superseded by the "Neutral Provider" thesis. For historical context, see the Delta Analysis document: [2026_05_delta_analysis.md](analysis/2026_05_delta_analysis.md)*
 
 ---
 
@@ -162,35 +132,11 @@ All three must occur simultaneously—highly unlikely
 - SDA Tranche 3 execution must be flawless; any delays or cost overruns hit margins
 - **Mitigation strength:** Medium (RKLB track record on integrations is good, but recent)
 
-**D. Market Is Pricing in Bull Case Implicitly**
-- Current price of $73.60 requires 70%+ Neutron success
-- Bull case is only 15% probability in our analysis
-- **Implication:** Market has reversed the probability distribution; treating low-probability outcome as base case
+---
 
-### Clear Entry/Exit Signals
-
-| Price Level | Action | Rationale |
-|-------------|--------|-----------|
-| **$73.60 (Current)** | HOLD / REDUCE | No margin of safety; risk/reward unfavorable |
-| **$55-65** | HOLD if current | Monitor Neutron progress; Q1 2026 static fire tests critical |
-| **$50-55** | BUY (Accumulate 3-5%) | Fair value zone; acceptable entry with margin of safety |
-| **$40-50** | BUY (Scale to 5-7%) | Deep value; Neutron thesis remains intact but repriced |
-| **<$40** | BUY (Full allocation if thesis holds) | Extreme value; market panic; opportunity if fundamentals intact |
-| **Neutron slips to Q1 2027** | REDUCE 50% immediately | Binary event failed; reset fair value to $25-30 |
-| **Neutron first flight success** | SCALE to 6-7%** | Thesis confirmed; market re-rates to 35-40x P/S |
-| **Neutron first flight failure** | EXIT entirely | Thesis broken; fair value $12-20 (defense supplier only) |
-
-### Why This Matters: Risk/Reward at $73.60
-
-**At current price, the math doesn't work:**
-- **To justify $73.60:** Need 70%+ Neutron success, 25%+ revenue CAGR, 8%+ EBITDA margins
-- **Reality check:** These are optimistic on ALL three dimensions simultaneously
-- **One slippage:** Even if Neutron succeeds but cadence ramps slower than expected, downside is 20-30%
-- **One failure:** If Neutron slips to Q1 2027, downside is 50-60%; if fails completely, downside is 73-84%
-
-**Bottom Line:** At $73.60, RKLB is a binary bet masquerading as a growth stock. The odds favor the bear case (40% probability of -35% to -76% outcomes) over the bull case (15% probability of +2% to +15% upside, already priced in).
-
-**For detailed analysis, see:** [Valuation Analysis Document](analysis/2026_02_valuation_analysis.md)
+**For detailed entry/exit signals, risk/reward analysis at different price levels, and a complete breakdown of the Neutral Provider thesis, see:**
+- [Delta Analysis (2026_05)](analysis/2026_05_delta_analysis.md) — Comprehensive Q1 2026 comparison with Neutral Provider thesis
+- [Valuation Analysis (2026_02)](analysis/2026_02_valuation_analysis.md) — Original probability-weighted DCF framework (superseded by Neutral Provider model)
 
 ---
 
@@ -301,30 +247,7 @@ Rocket Lab is a vertically integrated, multi-segment space company providing end
 4. Government budget cuts / SDA program delays - Severity: 8/10
 5. Acquisition integration failure - Severity: 7/10
 
-### 6. Investment Thesis (Updated)
-**BLUF:** RKLB is binary bet on Neutron success: Space Systems (50%+ revenue) provides near-term cash generation while Neutron is existential 5-10x revenue upside bet. Electron demonstrates operational excellence but faces structural economic pressure from SpaceX Falcon 9 rideshare pricing. Neutron success by Q4 2026 validates $20B+ market cap; failure reduces RKLB to $4-8B defense supplier (70-90% downside). At $73.60/share ($41.3B market cap, 68x P/S TTM), current price offers NO margin of safety. Fair value is $36-45/share (probability-weighted: 15% Bull + 45% Base + 40% Bear). Market is pricing in >60% Neutron success probability when realistic is 55-65%. Conviction: 5/10 (Base Case). Recommendation: HOLD for Neutron milestones; WAIT for $50-55 entry; REDUCE/EXIT if first flight slips to Q1 2027+.
-
-**Investment Stance:**
-- Conviction: 5/10 (Base Case, binary outcome)
-- Recommendation: HOLD at current; WAIT for $50-55 entry; EXIT if Neutron slips >Q1 2027
-- Entry zone: $50-55 (fair value with margin of safety)
-- Stop-loss: <$30 (if Neutron severely delayed or technical failure evident)
-- Portfolio weighting: 2-3% current (max 7-8% on Neutron success confirmation)
-
-**Price Targets (2027E):**
-- Bull Case: $75–85/share (15% probability - Neutron success + SDA ramp)
-- Base Case: $45–55/share (45% probability - Neutron partial success, slow cadence)
-- Bear Case: $12–20/share (40% probability - Neutron fails/severe delay)
-
-### 7. Valuation Analysis (Updated)
-**BLUF:** RKLB trades at $73.60 (68x P/S TTM, $41.3B market cap) offering NO margin of safety; probability-weighted fair value is $36-45/share. Market is pricing in >60% Neutron success probability and 25%+ revenue CAGR (both optimistic). Current valuation assumes Neutron success is nearly guaranteed and medium-lift TAM capture is certain—both uncertain outcomes. DCF undervalues binary risk; scenario analysis shows: Bull $75-85 (15%), Base $45-55 (45%), Bear $12-20 (40%). Neutron failure reduces RKLB to $4-8B defense supplier (70-90% downside from current). Fair value entry zones: $50-60 (25-30% discount), $40-50 (30-45% discount), <$40 (>45% discount). Recommendation: WAIT for $50-55 entry; current price offers negative asymmetry.
-
-**Valuation Summary:**
-- Current P/S: 68x (extremely expensive vs. 3-4x for legacy primes, 8-10x for growth peers)
-- Probability-weighted fair value: $36-45/share (63-104% premium to current price)
-- Current downside risk: 37-47% to fair value
-- Neutron success probability: Market pricing 60%+; realistic 55-65%
-- Risk/reward: Unfavorable at $73.60; neutral at $50-55
+*For detailed Investment Thesis, Valuation Analysis, and supporting documentation, see Analysis Documents below.*
 
 ---
 
