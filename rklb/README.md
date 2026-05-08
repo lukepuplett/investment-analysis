@@ -1,54 +1,77 @@
 # Rocket Lab (RKLB) Investment Analysis
 
-**Current Price:** $73.60 | **Market Cap:** $41.3B | **Analysis Date:** February 26, 2026 (Q4 2025 Earnings)
+**Current Price:** $73.60 | **Market Cap:** $41.3B | **Latest Analysis Date:** May 7, 2026 (Q1 2026 Earnings) | **Prior Analysis:** February 26, 2026 (Q4 2025)
 
 ---
 
 ## Executive Summary (BLUF - Bottom Line Up Front)
 
-**Rocket Lab trades at $73.60 ($41.3B market cap, 68x P/S TTM) offering NO margin of safety. Probability-weighted fair value is $36-45/share (Base Case 45% + Bear Case 40%). Market is pricing in >60% Neutron success probability and 25%+ revenue CAGR, both optimistic. Near-term fundamentals are strong (Space Systems growth, government contracts, $1.85B backlog +73% YoY), but Neutron's Q4 2026 first flight is binary make-or-break event. Success unlocks 5-10x medium-lift TAM upside; failure reduces RKLB to $4-8B defense supplier (70-90% downside). Vertical integration strategy (GEOST, OSI, PCL acquisitions) is structurally sound and validates government contract wins (SDA Tranche 3), but acquisition integration risk is material. Recommendation: HOLD at current weight; WAIT for $50-55 entry; REDUCE/EXIT if Neutron slips beyond Q1 2027. Conviction: 5/10 (Base Case).**
+**Q1 2026 Update: Rocket Lab demonstrates exceptional execution with record revenue ($200.3M, +63.5% YoY), record backlog ($2.2B, +108% YoY), and record margins (38.2% GAAP). Neutron demand validated by largest contract ever (5 Neutron + 3 Electron flights through end of decade); pricing holding at commercial rates (no discounting). Vertical integration strategy proving winner (SDA awards, margin expansion). However, near-term profitability remains 2-3 years out, FCF still negative (-$77M Q1), and Neutron first flight (Q4 2026) remains binary make-or-break event. Fair value reassessed to $45-55/share (up from $36-45 prior), implying 30-40% downside from current $73.60 (vs. prior 63% overvaluation). At current price, risk/reward remains unfavorable; downside risk outweighs upside potential. Recommendation: HOLD at current weight; WAIT for $50-55 entry; Neutron success would support current valuation but execution risk remains high. Conviction: 6/10 (up from 5/10, Base Case validated but not yet de-risked).**
 
 ---
 
-## Overvaluation Analysis: Why RKLB Offers NO Margin of Safety
+## Overvaluation Analysis: Q1 2026 Update – Still Overvalued But Less Severe
 
-### The Core Case: 63-104% Overvalued
+### The Updated Case: 30-40% Overvalued (Down from 63-104%)
 
 | Metric | Current | Fair Value | Overvaluation |
 |--------|---------|-----------|----------------|
-| **Stock Price** | $73.60 | $36-45 | -45% downside |
-| **Market Cap** | $41.3B | $20-25B | -51% downside |
-| **P/S Multiple** | 68x | 25-35x | **2-3x too expensive** |
-| **Probability-Weighted Fair Value** | — | $40.90/share | **63-104% premium** |
+| **Stock Price** | $73.60 | $45-55 | -30-40% downside |
+| **Market Cap** | $41.3B | $25-30B | -27-39% downside |
+| **P/S Multiple** | 68x | 35-45x | Still premium but justified by growth |
+| **Probability-Weighted Fair Value** | — | ~$48/share | **30-40% premium** |
 
-### Why the Overvaluation: Four Critical Mispricing
+**Key Change from Q4 2025 Analysis:** Backlog validation ($2.2B, +$350M Q1) and Neutron demand proof (largest contract ever) significantly reduce execution risk and justify higher fair value. However, negative FCF, margin compression (Q2 guidance), and Neutron binary event keep risk/reward unfavorable.
 
-**1. Valuation Multiple Is Unjustifiable (68x P/S)**
-- RKLB trades 17-25x premium vs. Northrop Grumman (3-4x P/S) despite similar 35-36% margins
-- RKLB trades 6-8x premium vs. growth aerospace peers (8-10x P/S) despite binary execution risk
-- Space Systems growth (20-30% CAGR) doesn't justify 68x P/S when company is 50% mature small-lift business
-- **Verdict:** Multiple should be 25-35x maximum; currently 2-3x too high
+### Why RKLB Still Trades at 30-40% Premium (Improved from 63% in Q4)
 
-**2. Market Overestimates Neutron Success Probability**
-- **Market pricing:** 70%+ probability of Neutron first flight success Q4 2026
-- **Realistic probability:** 55-65% (technical risks unmitigated)
-  - Composite structures at scale: No RKLB flight heritage (Electron uses aluminum)
-  - Reusability booster recovery: New to RKLB; SpaceX took 4+ years to perfect; first-flight success unlikely
-  - Hungry Hippo fairing: Novel design; deployment mechanism unproven
-  - January 2026 composite tank rupture: Validates structural risk
-- **Impact:** Each 5% probability point = $5-10/share valuation change
+**1. Q1 2026 Validates Base Case, But Doesn't De-Risk Binary Event**
 
-**3. Market Overestimates Revenue Growth & Margins**
-- **Market pricing:** 25%+ revenue CAGR 2025-2028; 8%+ terminal EBITDA margins
-- **Realistic:** 15-20% revenue CAGR; 2-5% EBITDA margins (still cash-burning into 2028)
-- **Margin fragility:** Space Systems 38% margins depend on acquisition integration success (GEOST, OSI, PCL); any margin compression below 37% kills thesis
-- **Electron constraint:** TAM limited to $2-3B annually; pricing capped by SpaceX Falcon 9 rideshare ($275-300k/kg)
+Q1 Validations:
+- ✅ Backlog jumped to $2.2B (+$350M in one quarter); 36% converts to revenue in 12 months
+- ✅ Neutron demand real: Largest contract ever announced (5 Neutron through end of decade)
+- ✅ Pricing holding: No discounting on Neutron (commercial rates maintained)
+- ✅ Space Systems growth accelerating: +57% YoY, margins holding 38%+
 
-**4. Binary Risk Inverts Risk/Reward**
-- **Bull Case upside:** +2% to +15% (already priced in at $73.60)
-- **Base Case downside:** -35% to -45% (fair value $45-55)
-- **Bear Case downside:** -73% to -76% (if Neutron fails, defense supplier valuation $12-20)
-- **Expected value:** NEGATIVE (40%+ probability of -35% to -76% outcomes vs. minimal upside)
+BUT: Neutron first flight (Q4 2026) remains binary:
+- Execution risk still 35-45% (composite structures, reusability, Hungry Hippo fairing)
+- Q2 margin guidance shows compression (33-35% GAAP due to SDA mix)
+- FCF still negative (-$77M Q1), profitability 2-3 years away
+- One flight failure = thesis broken, stock drops to $15-25
+
+**2. Fair Value Moved Up, But So Did Market Price (Both Justified)**
+
+| Scenario | Q4 2025 Fair Value | Q1 2026 Fair Value | Reason for Change |
+|----------|------------------|------------------|-------------------|
+| Bull Case (Neutron succeeds) | $80 | $85-95 | Higher revenue ramp expected |
+| Base Case (Neutron partial) | $50 | $55-65 | Backlog de-risks revenue growth |
+| Bear Case (Neutron fails) | $16 | $18-22 | Still defense supplier but with higher margins |
+| **Probability-Weighted** | $40.90 | ~$48 | **Backlog validation +$7-8/share** |
+
+Current $73.60 implies 50-55% Neutron success probability (realistic: 55-65%), so fair value range is approximately right.
+
+**3. Remaining Overvaluation: Why $73.60 > Fair Value**
+
+| Factor | Impact | Magnitude |
+|--------|--------|-----------|
+| Market pricing 60%+ Neutron success (realistic 55-65%) | Slightly optimistic | +$2-3/share |
+| Margin compression risk on SDA contracts | Q2 guidance shows it | +$3-5/share |
+| Acquisition integration drag (Mynaric, Motiv, SolAero) | Near-term headwind | +$2-4/share |
+| FCF remains deeply negative (2-3 years to breakeven) | Execution dependent | +$2-3/share |
+| **Total Premium to Fair Value** | — | **$9-15/share (12-20%)** |
+
+**4. Risk/Reward: Still Unfavorable But Improving**
+
+Current Price $73.60:
+- **Upside to Bull Case:** +15-30% (if Neutron succeeds, SDA ramps)
+- **Downside to Base Case:** -25-35% (if margins compress, Neutron executes slowly)
+- **Downside to Bear Case:** -70-80% (if Neutron fails)
+- **Asymmetry:** 40%+ probability of -25% to -80% vs. 15% probability of +15% = unfavorable
+
+Fair Value Entry ($50-55):
+- **Upside potential:** +40-50% (Neutron success to bull case)
+- **Downside risk:** -35-45% (to bear case if Neutron fails)
+- **Asymmetry:** Becomes neutral-to-favorable
 
 ### Probability-Weighted Fair Value Calculation
 
@@ -128,29 +151,35 @@ Rocket Lab is a vertically integrated, multi-segment space company providing end
 - **Subsystems/Components:** Payloads, solar, attitude control; $50-80M revenue, 40-50% margin; merchant supplier model
 - **Neutron (Development):** Medium-lift reusable vehicle; Q4 2026 first flight target; $2-3B TAM opportunity
 
-**Key Metrics (Q4 2025):**
-- Revenue: $602M full-year (+38% YoY); Q4 $180M (+36% YoY)
-- Gross Margin: 38% GAAP, 44% non-GAAP (record)
-- Backlog: $1.85B (+73% YoY) | Visibility: 3+ years of revenue
-- Cash: $1.01B | Operating Cash Flow: -$275.73M (TTM, Neutron development)
-- Q1 2026 Guidance: $185-200M revenue
+**Key Metrics (Q1 2026 - Most Recent):**
+- Revenue: $200.3M Q1 2026 (+63.5% YoY), beat guidance; FY2025 $602M (+38% YoY)
+- Gross Margin: 38.2% GAAP, 43% non-GAAP (record, beating expectations)
+- Backlog: $2.2B (+108% YoY, +$350M from Q4) | Visibility: 36% converts in next 12 months = $792M
+- Cash: $1.48B (up from $1.01B Q4) | Free Cash Flow: -$77.4M Q1 (improving from -$114.2M Q4)
+- Q2 2026 Guidance: $225-240M revenue (+16% QoQ); GM 33-35% GAAP, 38-40% non-GAAP
+- Launch Backlog: 70+ missions (record) | Space Systems Revenue: $136.7M (+57.2% YoY)
 
 ---
 
-## Analysis Status (February 2026 - Q4 2025 Earnings)
+## Analysis Status (May 2026 - Q1 2026 Earnings)
 
-### Completed Analysis Documents
+### Latest Analysis Documents
 
-**Latest Analysis (2026_02 - Based on Q4 2025 Earnings Call & Yahoo Finance Data)**
+**Q1 2026 Update (2026_05 - Based on May 7, 2026 Q1 Earnings Call)**
 
-- [x] **Business Model Analysis** (2026_02) - NEW: Vertical integration strategy, acquisition synergies, revenue stream economics
-- [x] **Financial Analysis** (2026_02) - Updated: $602M revenue (+38% YoY), 38% margins, $1.85B backlog
-- [x] **Market Analysis** (2026_02) - Updated: $2-3B TAM expansion, government mandates, competitive threats
-- [x] **Competitive Analysis** (2026_02) - Updated: SDA Tranche 3 validation, Neutron first-mover window
-- [x] **Technical Analysis** (2026_02) - Updated: Neutron composite structure risk, Q4 2026 target (deferred from Q1 2026)
-- [x] **Risk Assessment** (2026_02) - Updated: Neutron technical/cost overrun risks, acquisition integration
-- [x] **Investment Thesis** (2026_02) - Updated: Fair value $36-45/share; WAIT for $50-55 entry
-- [x] **Valuation Analysis** (2026_02) - Updated: 68x P/S overvalued; 63-104% premium to fair value
+- [x] **Delta Analysis** (2026_05) - NEW: Q4 2025 vs Q1 2026 comparison; validates Base Case; updates fair value to $45-55
+- [ ] Full analysis suite (not needed; prior 2026_02 documents still relevant with caveats noted)
+
+**Prior Analysis (2026_02 - Based on Q4 2025 Earnings Call, February 26, 2026)**
+
+- [x] **Business Model Analysis** (2026_02) - Vertical integration strategy, acquisition synergies, revenue streams
+- [x] **Financial Analysis** (2026_02) - $602M revenue (+38% YoY), 38% margins, $1.85B backlog
+- [x] **Market Analysis** (2026_02) - $2-3B TAM expansion, government mandates, competitive threats
+- [x] **Competitive Analysis** (2026_02) - SDA Tranche 3 validation, Neutron first-mover window
+- [x] **Technical Analysis** (2026_02) - Neutron composite structures, reusability architecture
+- [x] **Risk Assessment** (2026_02) - Neutron technical/cost risks, acquisition integration
+- [x] **Investment Thesis** (2026_02) - Fair value $36-45/share (updated to $45-55 post-Q1)
+- [x] **Valuation Analysis** (2026_02) - 68x P/S analysis; methodology still valid, conclusions updated
 
 **Prior Analysis (2025_12 - December 2025 Baseline)**
 - [x] Financial Analysis (2025_12_01)
