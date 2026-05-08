@@ -210,6 +210,17 @@ CloudFlare provides **unified edge and application platform** for enterprises bu
 4. **Global footprint:** 120+ countries, 350+ cities enables data sovereignty compliance
 5. **Developer focus:** 5.5M developers using platform; expanding TAM
 
+### The NRR Flywheel: Expansion-Driven Growth at Scale
+
+CloudFlare's business model is powered by a **durable expansion flywheel**: land new customers at accelerating rates while expanding existing accounts faster than the company grows overall. Q1 2026 metrics show this in action:
+
+- **New customer bookings:** Highest rate since 2023 (validates continued land momentum)
+- **Large customer expansion:** +38% YoY (faster than total company +34%)
+- **$5M+ cohort:** +50% YoY, adding full-year-2025 volume in single quarter
+- **NRR: 118%** = 18% of growth comes from expanding existing customers, 16% from new logos
+
+This math means CloudFlare only needs to "buy" 16% of its growth via expensive sales & marketing; the other 18% is essentially "free growth" from happy customers expanding their footprint. As the company scales, maintaining both strong land and strong expansion becomes harder—but CloudFlare is doing both, which is why 34% growth at $2.8B scale is the outlier, not the norm.
+
 ### Competitive Advantages (Structural Moats)
 
 #### 1. Traffic Quality & Agentic Economics Positioning
@@ -269,6 +280,18 @@ CloudFlare provides **unified edge and application platform** for enterprises bu
 ### Core Thesis (Updated Q1 2026)
 
 **Cloudflare is the foundational infrastructure platform for the emerging agentic internet.** The company is architected for a world where autonomous agents perform complex tasks at scale—routing agentic traffic (Act 1), deploying agents efficiently (Act 3), controlling agent access to data (Act 2), and monetizing agentic interactions (Act 4). Acts compound in agentic era, creating non-linear revenue expansion path. Structural cost advantages (GPU utilization, global footprint, unified platform design) are defensible through 2027+. Data sovereignty regulatory tailwinds unlock new verticals (government, healthcare, regulated finance). Reorganization for agentic operations is competitive advantage (not distraction).
+
+### The SaaS Scale Paradox: Why 34% Growth at $2.8B Revenue is Exceptional
+
+Most investors focus on the headline 34% growth rate without accounting for scale. At $2.8B annual revenue, maintaining 34% growth is materially different—and harder—than a $200M company growing 34%.
+
+**The Math:** With 118% NRR, CloudFlare is generating ~18% of its growth "for free" from existing customer expansion. The remaining ~16% comes from new customer acquisition. While new customer bookings are at "highest rate since 2023," they represent roughly 15% of total revenue contribution—which might sound small until you consider that:
+
+- A $2.8B company adding $400M+ in new revenue annually (15% of $2.8B + growth) requires exceptional sales execution
+- Most companies at this scale plateau at 15-20% total growth; CloudFlare is still accelerating
+- The large customer cohort growing faster than total revenue (+38% vs 34%) means expansion velocity is outpacing acquisition velocity—the cohort compounding effect is *working*
+
+**Why This Matters:** The 34% growth is powered by *both* strong land (new customer bookings at 5-year highs) *and* strong expansion (large customers +38%, $5M+ cohort +50%). Most $2.8B companies excel at one or the other, not both. CloudFlare's flywheel—landing new customers at scale while expanding existing accounts faster than the total company grows—is the rare exception.
 
 ### Thesis Validation Signals (Q1 2026)
 
