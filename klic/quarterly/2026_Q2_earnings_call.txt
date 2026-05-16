@@ -1,0 +1,280 @@
+Kulicke and Soffa Industries, I (KLIC) Q2 FY2026 earnings call transcript
+Powered by Quartr
+May 7, 2026, 8:00 AM EDT
+
+Earnings call
+
+Kulicke and Soffa delivered a 21.5% sequential revenue increase in Q2 2026, surpassing guidance, with gross margin at 49.3% and non-GAAP EPS at $0.79. Management guided for a further 28% sequential revenue increase to $310 million in Q3, citing robust demand across semiconductor, memory, and automotive markets, and announced significant capacity expansion in Advanced Solutions to support $400 million annual revenue.
+
+Powered by Yahoo Scout
+Operator
+0:00:00
+
+Greetings, and welcome to the Kulicke and Soffa Q2 2026 conference call and webcast. At this time, all participants are in listen-only mode. A question and answer session will follow the formal presentation. You can be placed in the question queue at any time by pressing star one on your telephone keypad. As a reminder, this conference is being recorded. If anyone should require operator assistance, please press star zero. It's now my pleasure to turn the call over to Joseph Elgindy, Senior Director, Investor Relations. Joe, please go ahead.
+
+Joe Elgindy
+Senior Director of Investor Relations
+0:00:34
+
+Thank you. Welcome, everyone, to Kulicke and Soffa fiscal second quarter 2026 conference call. Lester Wong, Interim Chief Executive Officer and Chief Financial Officer, also joins me on today's call. non-GAAP financial measures references should be considered in addition to, not as a substitute for or in isolation from our GAAP financial information. GAAP to non-GAAP reconciliation tables are included within our latest earnings release and earnings presentation. Both are available at investor.kns.com, along with prepared remarks for today's call. In addition to historical information, today's discussion contains forward-looking statements regarding our future performance and outlook. These statements are made under the safe harbor provisions of the Private Securities Litigation Reform Act of 1995 and involve risks and uncertainties that may cause actual results to differ materially.
+
+Joe Elgindy
+Senior Director of Investor Relations
+0:01:24
+
+For a complete discussion of the risks associated with Kulicke and Soffa that could affect our future results and financial condition, please refer to our latest Form 10-K and upcoming SEC filings for additional information. With that said, I would now like to turn the call over to Lester Wong for the business, market, and financial overview. Please go ahead, Lester.
+
+Lester Wong
+Interim CEO and CFO
+0:01:45
+
+Thank you, Joe. Good morning, everyone. We are again pleased to report demand is improving at a faster and stronger pace than previously expected. Customer sentiment remains strong and utilization levels across our larger served market remain above average. This strength continued to be led by general semiconductor and memory demand, which directly support data center capacity expansion globally. We also see improving condition in traditional markets such as premium smartphones. Over the past year, utilization rates have continued to increase and the need for incremental capacity continues to grow. As explained last quarter, data center growth required new forms of advanced packaging, which support the most advanced logic and memory applications. Data center growth also requires new capacity for high volume traditional packaging solutions, which support networking, communication, power management, and storage requirements. Additionally, we have seen positive momentum within automotive and industrial end markets.
+
+Lester Wong
+Interim CEO and CFO
+0:02:48
+
+During the March quarter, revenue increased by 21.5% sequentially. We have improved visibility within fiscal 2026 and anticipate a slight sequential improvement into fourth fiscal quarter. Our financial performance was above prior expectations, and we remain focused to aggressively ramp production in our core and advanced markets. Additionally, we continue to deliver new TCB, power semiconductor, and memory solutions to support our customers' evolving production needs. Revenue recognized for our leading Fluxless thermal compression solutions have increased sequentially, supported by OSAT, foundries, and IDMs. Our fiscal year 2026 outlook remains strong for thermal compression and supports aggressive sequential growth. In addition to thermal compression, we recently announced several new and innovative offerings, which address additional packaging transformations within power semiconductor and memory. Our new ASTERION TW system, announced in late March, is well-positioned to support increasingly complex, high current, and high reliability power applications.
+
+Lester Wong
+Interim CEO and CFO
+0:04:00
+
+This new system complements our recently released clip attach and pin welding solutions. We also announced the ProMEM suite of memory features and highlighted our growing portfolio of DRAM solutions, supporting both cost-sensitive and high-bandwidth memory applications. Additionally, we have a growing base of customer engagements in advanced packaging as we accelerate next-generation programs. Two specific areas of focus are around panel-level base system architecture and long-term industry development of true production-capable hybrid solutions. Despite challenging market conditions over the past 3 years, we continue to invest in research and development in several exciting new growth areas. As we enter a period of high capacity additions across our served markets, we are pleased with the progress our team has made across these multifaceted opportunities. In addition to the industry's need for incremental near-term capacity in advanced packaging, we are also significantly ramping our own production capacity.
+
+
+Lester Wong
+Interim CEO and CFO
+0:05:05
+
+Over the coming year, we anticipate to significantly expand our Advanced Solutions segment production capacity to support approximately $400 million of revenue. I will provide some additional details in the financial section. Turning to end market review. General semiconductor revenues increased by 19.4% sequentially to $148.9 million, driven by higher capacity and technology requirements for both ball bonding and Advanced Solutions segments. Memory shipments increased by 93% sequentially to $31.3 million. Our memory business is currently focused on supporting NAND technology and capacity requirements. As advanced packaging trends continue to evolve throughout the memory market, we expect to gain market share in DRAM with our new solutions.
+
+Lester Wong
+Interim CEO and CFO
+0:05:57
+
+Automotive and industrial shipments increased by 63% sequentially, driven primarily by high IO and high volume power and mixed signal packaging. We are also well positioned to benefit from the gradual long-term share growth in battery and plug-in hybrids, which require new power semiconductor technology and capacity requirements. Aftermarket products and services, or APS, end market demand decreased sequentially due to lower refurbished system sales during the March quarter. The broader consumables portion of APS has remained consistent sequentially. As we typically do during rapid changes in demand, we will continue to work aggressively to support our customers' capacity and technology needs. Our global R&D teams remain aggressively engaged on many new technology fronts, supporting advanced packaging and power semiconductor trends, while also extending our platform of advanced dispense solutions.
+
+Lester Wong
+Interim CEO and CFO
+0:06:56
+
+Within advanced packaging, transitions of both Vertical Wire and thermal compression remain on track, and we continue to be positioned well. We are increasingly focused on hybrid bonding technology and are confident we can provide a very competitive solution within this emerging process. We continue to anticipate hybrid will be commercially viable solution eventually, so it is now time to invest and accelerate market engagements. While hybrid may be still a few years away from gaining broad market adoption, we are accelerating our research and development efforts to provide a solution that exceeds current capabilities available in the market today. In the interim, TCB is the production solution for today's most complex heterogeneous applications. Our TCB business is expected to grow at least 70% sequentially this fiscal year, generating over $100 million of revenue.
+
+Lester Wong
+Interim CEO and CFO
+0:07:50
+
+We anticipate the majority of our sequential TCB growth will continue to stem from large applications and heterogeneous packaging trends. We will allocate additional resources towards emerging HBM opportunities as well. Our other unique memory opportunity continues to be addressed with vertical wire, which provides a highly capable alternative for cost-effective bandwidth through die stacking. We anticipate strong sequential growth in both TCB and vertical wire over the coming years. We introduced our latest Echelon dispense system in November at Productronica, which is now deployed with several customers for evaluation and progressing well. In addition to Echelon, during the March quarter, we recognized revenue associated with a new dedicated panel-level dispense solution. With that said, I will now provide a brief financial update. My remarks today will refer to GAAP results, unless noted.
+
+Lester Wong
+Interim CEO and CFO
+0:08:47
+
+We again delivered revenue above guidance and continue to execute on our production ramp in our core markets and Fluxless thermal compression, while also maintaining a focus on operational efficiency. Gross margins came in at 49.3%, we delivered $0.66 of GAAP earnings and $0.79 on non-GAAP earnings. Gross margin remains strong sequentially due to customer and product mix. Total operating expenses came in at $81.1 million on a GAAP basis and $73.8 million on a non-GAAP basis. We continue to remain focused on controlling costs. Although considering our growing base of opportunities, we also need to ensure resource availability. Tax expense came in at $7.4 million and anticipate our effective tax rate will remain slightly over 20% near term.
+
+Lester Wong
+Interim CEO and CFO
+0:09:41
+
+For the June quarter, revenue is expected to increase by 28% sequentially to $310 million, with gross margins of 48%. non-GAAP operating expenses are expected to be $85 million, representing an increase in variable compensation as well as an increase in critical headcount to support our growing market opportunities. GAAP earnings per share is targeted to be $0.87 and non-GAAP earnings per share to be $1.00. As discussed earlier, we're expanding the Advanced Solutions segment production footprint by investing in capital expenditures. These investments have started in April and are planned to significantly expand our thermal compression capacity by the first half of fiscal 2027. Total capital expenditures in connection with this expansion are expected to be $20 million. $12 million of the total investment is set to be deployed in fiscal 2026.
+
+
+Lester Wong
+Interim CEO and CFO
+0:10:37
+
+In closing, we are capitalizing on near-term opportunities while continuing to execute long-term strategic priorities. We are confident in our future and remain competitively positioned in core and advanced packaging markets. We look forward to delivering strong results as we continue to grow the business. This concludes our prepared comments. Operator, please open the call for questions.
+
+Operator
+0:11:28
+
+Our first question is coming from Krish Sankar from TD Cowen. Your line is now live.
+
+Krish Sankar
+Analyst
+0:11:33
+
+Yeah, hi. Thanks for taking my question. Lester, congrats on the very solid results and nice to see a $300 million plus quarter again. I just have two questions, Lester. One is, you know, in the past, you gave some color on how to think about utilization rate across geographies. I'm wondering how is that now, given the demand is improving? Can you just give some color on, like, where China, Southeast Asia, rest of geographies are in terms of utilization rate? Then I have a follow-up.
+
+Lester Wong
+Interim CEO and CFO
+0:12:00
+
+Sure. Krish, I think China has been very high utilization rate for the last couple quarters now. For this quarter, they are over 90%, around 92%. We're also seeing, you know, strong utilization in Korea, Japan, and Taiwan, what we call other Asia. I think Southeast Asia is still a bit soft, but they have improved a little bit. I think North America and Europe also has improved. I think it's still being led by China as well as Japan, Korea and Taiwan.
+
+Krish Sankar
+Analyst
+0:12:32
+
+Got it. That's very helpful, Lester. As a quick follow-up, you know, it's nice to also see your TCB revenues growing, and you said, well over $100 million this year. I'm just wondering, I understand it's the logic vertical that's driving it. Is it actually the IDMs or the foundries, or is it OSAT being the incremental buyer this year on TCB?
+
+Lester Wong
+Interim CEO and CFO
+0:12:54
+
+I think it's all three, Krish. I mean, we've always had a very strong position in IDM, right? Over the last year and a half, we've moved into foundry. Now we see a lot of the OSATs interested, and also we're also talking to some of the fabless customers. I think it's the growth is across OSAT, IDM, as well as the foundry.
+
+
+Krish Sankar
+Analyst
+0:13:16
+
+Thanks a lot, Lester. Congrats.
+
+Lester Wong
+Interim CEO and CFO
+0:13:18
+
+Thank you, Krish.
+
+Operator
+0:13:20
+
+Thank you. Next question today is coming from Denis Pyatchanin from Needham & Company. Your line is now live.
+
+Denis Pyatchanin
+Analyst
+0:13:28
+
+Great. Thank you very much. It's nice to see there's a growing demand and, maybe given the improving visibility across the industry, will you be able to provide some outlook on revenue in future quarters? Do you think we can sustain these new levels that we'll be experiencing in June?
+
+Lester Wong
+Interim CEO and CFO
+0:13:44
+
+Yeah. Well, I think we did say that I think for the fiscal fourth quarter, we expect sequentially incremental, maybe 5%-10%. I think we're getting much better visibility now through FY 2026. I think actually, you know, there should be strength throughout the business, the core business, as well as our Advanced Solutions business through the rest of the calendar 2026.
+
+Denis Pyatchanin
+Analyst
+0:14:13
+
+Great. For my follow-up about fluxless thermal compression, can you maybe give us an update on which are your end markets are kind of seeing the strongest adoption of your fluxless thermal compression technology?
+
+
+Lester Wong
+Interim CEO and CFO
+0:14:26
+
+Well, basically it's general semi, right? It's again, at foundries, at the IDMs. We're obviously focused on logic, even though we did deliver our first HBM system in December and it's undergoing qualification. Again, it's general semi that's driving it for end markets.
+
+Denis Pyatchanin
+Analyst
+0:14:46
+
+I got it. That's it for me. Thank you very much.
+
+Operator
+0:14:51
+
+Thank you. Our next question today is coming from David Duley from Steelhead Securities. Your line is now live.
+
+David Duley
+Analyst
+0:15:00
+
+Good morning, good evening. Congratulations on nice results. You know, in the press release and in your prepared comments, you talked about increasing your thermal compression bonding capacity, I think, to $400 million annually. You know, that's probably a 2 or a 3X of total capacity. I'm wondering what has triggered that investment all of a sudden. Do you have line of sight to much higher growth in fiscal or calendar 2027? However you'd like to Fiscal or calendar 2027. You know, 'cause I think you were planning on doing around $100 million of TCB revenue for the year at this point. Why the incremental investment now?
+
+Lester Wong
+Interim CEO and CFO
+0:15:43
+
+Well, that's a great question, David. I think we're investing now because we definitely see, you know, a very bright future for us in fluxless thermo-compression, right? We believe we have the best system in the market, right? We have, you know, a very flexible system. We have both formic acid as well as plasma. We're the only people who have that. We also have, you know, our material handling allows for a lot of different applications. There's also a lot of flexibility. I think, you know, our Turret System has already been proven very robust and is a proven platform, both at the IDMs as well as the foundries and now into the OSAT. I think we feel very comfortable with the solution.
+
+Lester Wong
+Interim CEO and CFO
+0:16:24
+
+We have also, you know, gotten a lot of inbound interest, as I said earlier, now from not just the foundry and IDMs, but also the OSATs and also talking to, you know, our fabless customers, or customer's customers. I think we believe that this is the time to be prepared for a significant ramp in our fluxless TCB business over the coming years.
+
+
+David Duley
+Analyst
+0:16:47
+
+Do you think you'll be taking share from somebody, or will your solutions be finding new market niches or, you know, 'cause you have some established players in this sector that, you know, have, I think, bigger businesses. How do you plan to, you know, fill up this capacity, so to speak? Where will the big orders come from first?
+
+Lester Wong
+Interim CEO and CFO
+0:17:10
+
+Well, David, I think It's both. I think, you know, we see the market expanding, right? For example, we're not in memory right now. We're not HBM. If that market opens up for us, that's a significant, a very big market. I think within logic itself, I mean, you know, we're our solution is proving to be, you know, very robust as well as, you know, it's holding up against most of the competition. We think we will also take market share, right? Also, we think additional customers, you know, will use the, you know, start qualifying more applications on the FTC, both at the foundry and also at the OSAT.
+
+Lester Wong
+Interim CEO and CFO
+0:17:48
+
+I think we'll both take market share, and the market will grow, and we'll enter markets that we're currently not in.
+
+David Duley
+Analyst
+0:17:55
+
+Okay. I think in your both in your pre-prepared remarks and in the presentation, you talk about strength in the memory business. Could you just elaborate what you're seeing in memory and, you know, what's behind the big bounce back, I guess, in that segment? You know, will we see some Vertical Wire revenue this year? I guess it's a two-part question.
+
+Lester Wong
+Interim CEO and CFO
+0:18:21
+
+Yeah, I'll answer the Vertical Wire first. I think there'll be a little bit of Vertical Wire, but I think that's more of a 27 and beyond play. We're very excited about that. As I think we've mentioned before, Vertical Wire is something that we came up with, and it's the best way, you know, to stack, and it's focused towards low power DDR, which is definitely gonna be needed on on-premise AI as well as perhaps in the data center. We think Vertical Wire has a very bright future. As far as memory in general, we do see a rebound in our memory business, particularly in China. I think a lot of the Chinese memory OSATs are expanding significantly, and that's really driving our business in China for ball bonding.
+
+David Duley
+Analyst
+0:19:03
+
+Thank you.
+
+
+Operator
+0:19:07
+
+Thank you. Our next question is coming from Rebecca Zamsky from B. Riley Securities. Your line is now live.
+
+Rebecca Zamsky
+Analyst
+0:19:13
+
+Hello, this is Rebecca Zamsky on for Craig Ellis. A&I was a positive surprise this quarter. Is this primarily automotive power device related, industrial sensor driven or broader mature foundry capacity adds? Does this guide assume A&I continues to accelerate through the rest of the year? I have one follow-up.
+
+Lester Wong
+Interim CEO and CFO
+0:19:41
+
+Sorry, I didn't Rebecca, I'm sorry, I didn't quite catch. You said what was the application or the tool that you were asking about from us?
+
+Rebecca Zamsky
+Analyst
+0:19:48
+
+Yeah. Like, what was primarily driving the auto and industrial, like, positive surprise this quarter? Like, was it automotive power device related, industrial sensor driven, or more broader, like mature foundry capacity adds?
+
+Lester Wong
+Interim CEO and CFO
+0:20:07
+
+Okay. Well, I think it's more automotive. I think we're seeing, you know, obviously, semiconductor content is going up in automotive, both around ADAS as well as in infotainment. Also, I think it's the high IO count, as well as, you know, again, we need the As the current increases, you know, I think our new tools are serving that market quite well. It's mainly automotive.
+
+Rebecca Zamsky
+Analyst
+0:20:38
+
+Great. Thank you. OpEx declined quarter on quarter on an absolute dollar basis despite the revenue ramp. How should we think about the OpEx trajectory through the rest of the year? Is there a step up in R&D or SG&A to support the TCB capacity build and new product qualifications?
+
+
+Lester Wong
+Interim CEO and CFO
+0:21:04
+
+I think we guided for non-GAAP OpEx for $85 million. A big part of that increase from the Q2 OpEx is because of its variable incentive compensation as well as, you know, sales commission. That's tied to revenue, which has increased significantly. We are also investing more in terms of fixed costs, particularly around R&D, particularly around advanced packaging. We mentioned panel-level architecture as well as hybrid bonding, which as I indicated, we're going to try to accelerate that program. Yes, a big part of it is variable, so a move of revenue, but we are increasing our investments in what we believe is critical growth areas.
+
+Rebecca Zamsky
+Analyst
+0:21:51
+
+Great. Thank you.
+
+Operator
+0:21:55
+
+Thank you. We reach the end of our question and answer session. I'd like to turn the floor back over to Joe for any further closing comments.
+

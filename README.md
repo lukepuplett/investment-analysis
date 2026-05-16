@@ -324,7 +324,7 @@ Arelle may still emit **info** messages about missing taxonomy references for br
 | **[EMR](emr/README.md)** | Emerson Electric | 34.20x | 20.33x | 4.26x | ~2% (2026) | Reasonable for quality industrial |
 | **[GLW](glw/README.md)** | Corning | 87.79x | 28.99x | 5.05x | 14% YoY | Trailing P/E distorted by earnings recovery |
 | **[HOOD](hood/README.md)** | Robinhood Markets | ~39.8x* | ~36.8x* | ~16.4x* | ~15% YoY rev (Q1 file) | Profitable vs 2022–23 losses; multiples assume growth continues—legal/sentiment/beta swings (yahoo paste Apr 2026) |
-| **[AMAT](amat/README.md)** | Applied Materials | 40.44x | 36.23x | 13.22x | Semiconductor WFE cycle | Semiconductor equipment premium; stats Apr 2026 |
+| **[AMAT](amat/README.md)** | Applied Materials | 36.4x | 36.7x | 11.8x | 30%+ CY2026 WFE | Strong AI infrastructure cycle; record Q2 (May 14, 2026); forward P/E supported by guidance |
 | **[AMZN](amzn/README.md)** | Amazon | 34.93x | 34.60x | 3.69x | 13.3% YoY rev | E-commerce / AWS; stats Jan 2026 |
 | **[ASML](asml/financials/2026_04/yahoo_stats.md)** | ASML Holding | 32.4x | — | 9.8x | ~28.5% YoY rev | EUV monopoly; lithography capex; stats Apr 2026 |
 | **[CVCO](CVCO/financials/2025_02/yahoo_stats.md)** | Cavco Industries | 25.24x | — | — | Modular housing cyclical | No P/S in pasted stats Feb 2026 |
