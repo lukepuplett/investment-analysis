@@ -150,7 +150,58 @@ python3 robotaxi_revenue_model.py --scenario hypergrowth --market-json '{"us_met
 
 ---
 
-## Valuation Anchor (2035 Terminal)
+## Valuation Anchor (2035 Terminal) & Stockholder Value Impact
+
+### Tesla Current Valuation (May 2026)
+
+**Tesla current market position:**
+- Market cap: **$1.5–1.7 trillion** (varies by source, using midpoint $1.6T)
+- Stock price: **$398.87/share**
+- Shares outstanding: **~4.0B**
+- Current valuation: **7.1x revenue** (auto + energy + FSD development)
+
+**Robotaxi scenarios and per-share impact (May 2026 dollars):**
+
+| Scenario | Terminal Value (2035) | Discounted Value | % of TSLA Cap | Per Share Impact | Cumulative Stock Value |
+|----------|----------------------|------------------|-----------------|-----------------|----------------------|
+| **Bear (Autonomy Fails)** | ~$0 | ~$0 | 0% | $0 | $398.87 (current) |
+| **Slow (Marginal Progress)** | $27.2B | $10.5B | 0.66% | +$2.63/sh | $401.50 |
+| **Base (Autonomy Works)** | $41.2B | $15.9B | 0.99% | +$3.98/sh | $402.85 |
+| **Hypergrowth (Breakthrough)** | $60.9B | $23.5B | 1.47% | +$5.88/sh | $404.75 |
+
+**Probability-weighted valuation (using thesis probabilities):**
+- Base case: 50% × $15.9B = **$7.95B**
+- Bull case: 35% × $23.5B = **$8.23B**
+- Bear case: 15% × $0 = **$0**
+- **Probability-weighted expected value: $16.2B discounted**
+- **Per share: +$4.05** (weighted average across all scenarios)
+
+### Interpretation for Tesla Shareholders
+
+**The robotaxi opportunity is material but binary:**
+- **Bull case:** +$5.88/share (+1.47% upside if autonomy fully succeeds by 2035)
+- **Base case:** +$3.98/share (+1.0% upside; steady autonomy progress)
+- **Bear case:** $0 (autonomy doesn't work; value goes to core auto business)
+- **Expected value:** +$4.05/share (probability-weighted across scenarios)
+
+**Why the wide scenario range for Tesla vs Waymo:**
+- Waymo: Regulatory approval constrains upside/downside (0% to 0.74% of GOOGL market cap)
+- Tesla: **Autonomy maturity is existential** — determines if robotaxi is $0 or $24B value
+- Tesla shareholders have asymmetric optionality: success is +6%/share, failure is $0
+
+**Critical path for Tesla shareholders:**
+1. **2027:** FSD intervention rate must reach 20k+ mi/intervention (25%+ YoY improvement)
+   - Miss: Probability of bull case drops from 35% → 15%
+2. **2028-2029:** Hit 5B cumulative safety miles (regulatory credibility gate)
+   - Miss: Probability of bear case rises from 15% → 50%
+3. **2029-2032:** Clear Tier 3 regulatory approvals (1/quarter)
+   - Miss: Fleet caps at 150k, scenario downshifts to Slow ($2.63/share)
+4. **2030-2035:** Remote ops cost sustains <$0.10/mile
+   - Miss: Unit economics break, scenario collapses to Bear case
+
+**Key risk:** Tesla shareholders should monitor FSD progress quarterly. A single year of <10% intervention rate improvement signals autonomy isn't scaling as expected → entire robotaxi valuation reprices downward.
+
+---
 
 ### Bull Case: $40B Option Value
 
@@ -170,8 +221,7 @@ python3 robotaxi_revenue_model.py --scenario hypergrowth --market-json '{"us_met
 **Present value (discounted 2026–2035 at 10% WACC):**
 - Terminal value (2035): $41.16B
 - PV factor (10 years, 10% discount): 0.386
-- **Discounted value: ~$15.9B** (bull case optionality)
-- BUT: This assumes autonomy succeeds. Probability-weighted = bullish scenario value
+- **Discounted value: ~$15.9B** (base case optionality if autonomy succeeds)
 
 ### Bear Case: <$5B Option Value
 

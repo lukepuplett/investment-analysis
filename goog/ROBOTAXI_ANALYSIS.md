@@ -164,7 +164,37 @@ All customizable via CLI flags (see `robotaxi_analysis/README.md`):
 
 ## Valuation Anchor (2035 Terminal)
 
-### Base Case: $60B Option Value
+### Stockholder Value Impact (May 2026)
+
+**Alphabet current valuation (May 20, 2026):**
+- Market cap: **$4.68 trillion**
+- Stock price: **$388/share**
+- Shares outstanding: **~12.06B** (combined A & C)
+
+**Waymo robotaxi base case contribution:**
+- Discounted option value: **$23.4B** (PV of 2035 terminal)
+- **As % of Alphabet market cap: 0.50%**
+- **Per share impact: +$1.94/share** (if allocated to equity holders)
+- Represents **0.50% of current stock price** at $388
+
+**Valuation scenarios for shareholders:**
+
+| Scenario | Terminal Value (2035) | Discounted Value | % of GOOGL Cap | Per Share Value | Investment Thesis |
+|----------|----------------------|------------------|-----------------|-----------------|-------------------|
+| **Bear (Autonomous Fails)** | ~$0 | ~$0 | 0% | $0 | Waymo becomes marginal; value destruction risk low given Alphabet's core business |
+| **Slow (Regulatory Drag)** | $41.3B | $15.9B | 0.34% | +$1.32/sh | Conservative approval pace; downside scenario |
+| **Base (Steady Regulatory)** | $60.5B | $23.4B | 0.50% | +$1.94/sh | **Most likely: Regulatory approval gates fleet growth** |
+| **Hypergrowth (Fast Tier 2 Expansion)** | $89.0B | $34.4B | 0.74% | +$2.85/sh | Upside case: Safety milestones unlock secondary metros early |
+
+**Interpretation for Alphabet shareholders:**
+- Waymo robotaxi is a **small but meaningful option** (0.50% of market cap at base case)
+- Base case adds **$1.94/share** of value; upside case adds **$2.85/share**
+- For context: Alphabet currently trades at **42x forward earnings** on core business; Waymo is separate optionality
+- Downside protection: Even if Waymo fails entirely, Alphabet's core Google/Cloud business unaffected (represents ~99.5% of value)
+
+---
+
+### Base Case: $60B Terminal Value
 
 **Waymo platform revenue: $3.5B annually (2035E)**
 - Fleet: 120k vehicles, 75% concentrated in Tier 1 (premium metros)
@@ -180,8 +210,7 @@ All customizable via CLI flags (see `robotaxi_analysis/README.md`):
 **Present value (discounted 2026–2035 at 10% WACC):**
 - Terminal value (2035): $60.55B
 - PV factor (10 years, 10% discount): 0.386
-- **Discounted value: ~$23.4B** (represents Waymo optionality value)
-- This is embedded in Alphabet market cap; not separately valued
+- **Discounted value: ~$23.4B** (represents Waymo optionality value embedded in Alphabet market cap)
 
 ### Scenario Range
 
