@@ -231,7 +231,7 @@ python3 robotaxi_revenue_model.py --scenario hypergrowth --market-json '{"us_met
 - Platform revenue: ~$0
 - Valuation: **~$0–5B** (sunk costs, residual value of development IP, Tesla brand value from attempt)
 
-### Scenario Range
+### Scenario Range (USA Only)
 
 | Scenario | Autonomy Maturity | 2035 Fleet | 2035 Platform Revenue | Terminal Multiple | Terminal Value | PV @ 10% WACC | Key Assumption |
 |----------|-------------------|-----------|----------------------|------------------|-----------------|---------------|-----------------|
@@ -239,6 +239,94 @@ python3 robotaxi_revenue_model.py --scenario hypergrowth --market-json '{"us_met
 | **Slow** | Marginal (18k mi/int) | 150k | $3.2B | 8.5x | $27.2B | $10.5B | Autonomy progresses slowly; Tier 3 expansion delayed |
 | **Base** | Proven (30k mi/int) | 200k | $4.2B | 9.8x | $41.2B | $15.9B | Autonomy targets hit; standard Tier 3 deployment |
 | **Hypergrowth** | Advanced (40k+ mi/int) | 300k | $5.8B | 10.5x | $60.9B | $23.5B | FSD breakthrough; rapid Tier 2/3 expansion; cost advantage sustained |
+
+---
+
+## Global Expansion Risk Analysis (Western Developed Markets, 2035E)
+
+### Geographic Opportunity & Challenges
+
+**Addressable metro populations in developed nations:**
+- **USA:** 280M (current model base; favorable to Tesla suburban model)
+- **Western Europe:** 400M (dense cities, strong transit systems; unfavorable to Tesla)
+- **Japan/South Korea:** 180M (high-wage labor, conservative regulation; unfavorable)
+- **UK/Canada/Australia:** 100M
+- **Other allies:** 50M
+
+**Total developed market TAM: 1.01B people (3.6x USA)**
+
+### Tesla Global Scenario Risk (2035E)
+
+**Why global expansion UNDERMINES Tesla's bull case:**
+
+| Challenge | Impact | Unit Economics |
+|-----------|--------|-----------------|
+| **Western Europe labor costs** | Remote ops staff cost $50-70k/yr (vs US $40k) | Remote ops cost rises from $0.10/mile to $0.14-0.16/mile |
+| **Dense cities, strong transit** | Trip intensity drops from 15/cap to 8/cap | Fewer miles per vehicle; fleet utilization drops to 40% |
+| **Regulatory conservatism** | Europe: 27 member state approvals; Japan: strict standards | Approval timeline 2-3x longer than USA Tier 3 |
+| **Higher local wages in ops** | Tier 3 European cities have higher driver/tech wages | Take-rate pressure: must drop below 15% to compete |
+
+**Per-market revenue breakdown:**
+
+| Market | Population | Trip Intensity | Avg Fare | Gross Revenue | Take Rate | Platform Revenue |
+|--------|-----------|-----------------|----------|--------------|-----------|------------------|
+| **USA (Tier 3)** | 200M | 12/cap/yr | $1.10 | $2.6B | 18% | $0.47B |
+| **Western Europe (cost-sensitive)** | 300M | 8/cap/yr | $0.90 | $2.2B | 15% | $0.33B |
+| **Japan/Korea (limited)** | 100M | 5/cap/yr | $1.50 | $0.8B | 14% | $0.11B |
+| **Other developed** | 100M | 4/cap/yr | $0.85 | $0.3B | 14% | $0.04B |
+| **Global Total** | **700M** | — | — | **$5.9B** | — | **$0.95B** |
+
+**Valuation impact (devastating to Tesla bull case):**
+- **Global platform revenue (2035E):** $0.95B (vs $4.2B USA-only, **-77%)
+- **Terminal multiple:** 8.5x (commodity market; no cost advantage defensible)
+- **Terminal value:** $8.1B (vs $41.2B USA)
+- **Discounted PV (10% WACC):** **$3.1B** (vs $15.9B USA, **-80% downside**)
+- **Per TSLA share impact:** **+$0.78** (vs +$3.98 USA-only, **-80% destruction**)
+- **% of Tesla market cap:** **0.05%** (vs 0.99% USA-only)
+
+### Why Global Expansion Breaks Tesla's Model
+
+1. **Cost advantage is USA-specific**
+   - Tesla's $0.42/mile opex assumes US labor costs + suburban sprawl
+   - Western Europe: $0.50-0.60/mile opex (higher wages, denser cities = lower vehicle utilization)
+   - Japan: $0.55+/mile (premium wages, high regulation overhead)
+
+2. **Mass-market thesis fails internationally**
+   - USA Tier 3: sprawling suburbs, $1.10/mile fares work
+   - Europe: dense cities with €0.90/km max fares; can't sustain 18% take-rate
+   - Japan: aging population, excellent trains; robotaxi is niche, not mass-market
+
+3. **Regulatory barriers compound**
+   - USA: State-by-state approval, precedent from Waymo helps Tesla
+   - Europe: 27 member state + Brexit fragmentation; each requires separate certification
+   - Japan: Conservative approach; safety thresholds higher than USA
+   - Timeline risk: Each market could delay global rollout by 2-3 years
+
+### Global Impact: Tesla Bull Case Collapses
+
+**Valuation scenarios with global expansion:**
+
+| Scenario | USA Only (2035E) | Global Developed (2035E) | Delta |
+|----------|-----------------|-------------------------|-------|
+| **Bear (Autonomy Fails)** | $0 | $0 | No change |
+| **Slow** | $10.5B PV | $2.1B PV | -80% |
+| **Base** | $15.9B PV | $3.1B PV | **-80%** |
+| **Hypergrowth** | $23.5B PV | $4.7B PV | **-80%** |
+
+**Critical insight:** **Tesla's robotaxi option value is entirely dependent on USA-market dominance.** Global expansion scenario eliminates 80% of the bull case value because the cost advantage (Tesla's only defensible moat) doesn't translate to developed markets with higher wages and different market structures.
+
+### Implication for Tesla Shareholders
+
+**Probability-weighted valuation shifts with global expansion:**
+
+| Scenario Probability | USA Only | Global Markets |
+|--------|-----------|-----------------|
+| **35% Bull case** | +$5.88/share | +$1.18/share |
+| **50% Base case** | +$3.98/share | +$0.78/share |
+| **15% Bear case** | $0 | $0 |
+| **Expected value** | **+$4.05/share** | **+$0.65/share** |
+
+**Bottom line:** If Tesla's robotaxi thesis depends on international expansion to justify valuation (as many bulls assume), the math breaks dramatically. Tesla's opportunity is **USA-only optionality**; go global and the entire thesis reprices downward 80%.
 
 **Key insight:** Tesla's entire valuation range ($(0–24B) is driven by one variable: **autonomy maturity**. Regulatory approval, manufacturing, pricing all matter only IF autonomy works.
 

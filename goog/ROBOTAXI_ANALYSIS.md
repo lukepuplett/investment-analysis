@@ -212,7 +212,7 @@ All customizable via CLI flags (see `robotaxi_analysis/README.md`):
 - PV factor (10 years, 10% discount): 0.386
 - **Discounted value: ~$23.4B** (represents Waymo optionality value embedded in Alphabet market cap)
 
-### Scenario Range
+### Scenario Range (USA Only)
 
 | Scenario | 2035 Platform Revenue | Terminal Multiple | Terminal Value | PV @ 10% WACC | Assumption |
 |----------|----------------------|------------------|-----------------|---------------|-----------|
@@ -220,6 +220,64 @@ All customizable via CLI flags (see `robotaxi_analysis/README.md`):
 | **Base** | $3.5B | 17.3x | $60.5B | $23.4B | Steady regulatory approval; safety milestones hit |
 | **Hypergrowth** | $5.0B | 17.8x | $89.0B | $34.4B | Fast Tier 2 expansion post-2030; 160k vehicles |
 | **Bear (Autonomy Fails)** | ~$0 | — | ~$0 | ~$0 | Tesla dominates; Waymo becomes marginal player |
+
+---
+
+## Global Expansion Scenario (Western Developed Markets, 2035E)
+
+### Geographic Opportunity
+
+**Addressable metro populations in developed nations:**
+- **USA:** 280M (current model base)
+- **Western Europe:** 400M (higher density, lower trip intensity due to transit)
+- **Japan/South Korea:** 180M (premium pricing possible; regulatory conservatism)
+- **UK/Canada/Australia:** 100M
+- **Other allies:** 50M (Singapore, Taiwan, NZ, etc.)
+
+**Total developed market TAM: 1.01B people (3.6x USA)**
+
+### Waymo Global Scenario (2035E)
+
+**Per-market revenue breakdown:**
+
+| Market | Population | Trip Intensity | Avg Fare | Gross Revenue | Take Rate | Platform Revenue |
+|--------|-----------|-----------------|----------|--------------|-----------|------------------|
+| **USA (Tier 1 focus)** | 280M | 15/cap/yr | $1.90 | $8.0B | 32% | $2.56B |
+| **Western Europe** | 400M | 10/cap/yr | $1.80 | $7.2B | 28% | $2.02B |
+| **Japan/Korea** | 180M | 12/cap/yr | $2.10 | $4.5B | 30% | $1.35B |
+| **Other developed** | 150M | 8/cap/yr | $1.70 | $2.0B | 28% | $0.56B |
+| **Global Total** | **1.01B** | — | — | **$21.7B** | — | **$6.49B** |
+
+**Valuation impact:**
+- **Global platform revenue (2035E):** $6.49B (vs $3.5B USA-only, +85%)
+- **Terminal multiple:** 16.0x (discounted from 17.3x for regulatory fragmentation + currency risk)
+- **Terminal value:** $103.8B (vs $60.5B USA)
+- **Discounted PV (10% WACC):** **$40.1B** (vs $23.4B USA)
+- **Per GOOGL share impact:** **+$3.32** (vs +$1.94 USA-only, +71% upside)
+- **% of Alphabet market cap:** **0.86%** (vs 0.50% USA-only)
+
+### Why Global Expansion Favors Waymo
+
+**Regulatory moat strengthens internationally:**
+1. **Fragmented approval process** (EU + UK + Japan require separate certification) → higher barriers to entry → Waymo's early regulatory relationships become more valuable
+2. **Premium pricing translates** → Western European and Japanese markets support €1.80-2.10/km fares → Waymo's 28-30% take-rate sustainable
+3. **Operating in multiple jurisdictions** → Waymo's infrastructure + safety track record compounds advantage
+
+**Tesla's global expansion challenge:**
+- **Cost advantage erodes** → Western Europe labor costs $50-70k/yr (remote ops) vs US $40k
+- **Mass-market positioning fails** → Dense European cities prefer public transit; lower trip intensity (10 trips/capita vs 15 in US)
+- **Regulatory skepticism higher** → Japan/Korea conservative on autonomous vehicles; EU fragmented by 27 member states
+
+### Global vs USA-Only: Competitive Shift
+
+| Factor | USA Only | Global Expansion |
+|--------|----------|------------------|
+| **Waymo advantage** | Premium metros + regulatory moat in Tier 1 | Regulatory moat **amplifies** across multiple jurisdictions; premium pricing in developed markets sustainable |
+| **Tesla challenge** | Tier 3 suburban cost advantage viable | Cost advantage **collapses** in high-wage developed markets; mass-market thesis doesn't translate |
+| **Waymo global PV** | $23.4B | **$40.1B** (+71%) |
+| **Tesla global PV** | $15.9B | $3.1B (-80%) |
+
+**Critical insight:** Global expansion is **asymmetrically favorable to Waymo**. Tesla's bull case depends on low-cost suburban dominance in USA; international expansion undermines the cost advantage that makes the thesis work.
 
 **Sensitivity to key drivers:**
 
