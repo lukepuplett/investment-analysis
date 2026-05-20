@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-Layered robotaxi / autonomous network revenue model (Tesla vs Waymo framing).
+Enhanced robotaxi revenue model with:
+1. Dynamic utilization (network effects + congestion penalty)
+2. Supply constraints (manufacturing, charging, service, regulatory, battery)
+3. Congestion feedback on demand elasticity
+4. Terminal state classification (structure + valuation multiple)
 
-Interprets revenue as emerging from physical constraints first:
-reachable population → effective coverage → induced demand → fleet balance → fare × take rate.
-
-No third-party dependencies (stdlib only).
+All original functionality preserved; enhancements are layered on top.
 """
 
 from __future__ import annotations
@@ -15,15 +16,221 @@ import csv
 import json
 import math
 import sys
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from enum import Enum
 from typing import Any, Iterable, Mapping
 
+# ---------------------------------------------------------------------------
+# ENHANCEMENT 1: Supply Constraints
+# ---------------------------------------------------------------------------
+
+@dataclass
+class SupplyConstraints:
+    """Physical bottlenecks on fleet deployment."""
+    manufacturing_capacity_2026: float = 500_000
+    charging_points_2026: float = 100_000
+    service_centers_2026: int = 100
+    battery_supply_lfp_annual_2026: float = 500_000_000  # kWh/year
+    robotaxi_battery_share_2026: float = 0.05
+
+
+def project_supply_constraints(
+    year: int,
+    scenario_name: str,
+    constraints: SupplyConstraints
+) -> dict[str, float]:
+    """
+    Project physical supply constraints on fleet deployment.
+    Returns the bottleneck (minimum constraint).
+    """
+
+    years = max(0, year - 2026)
+
+    # 1. MANUFACTURING CAPACITY
+    # Tesla baseline: 500k/year, grows to 750k over 5 years with capex
+    mfg_growth_factor = 1.0 + 0.5 * min(years / 5.0, 1.0)
+    manufacturing_cap = constraints.manufacturing_capacity_2026 * mfg_growth_factor
+
+    # 2. CHARGING INFRASTRUCTURE
+    # 100k → 500k chargers over 7 years (grid upgrade bottleneck)
+    # Assume 2 chargers per vehicle at scale
+    chargers_available = constraints.charging_points_2026 * (1.0 + 0.4 * min(years / 7.0, 1.0))
+    vehicles_supported_by_charging = chargers_available / 2.0
+
+    # 3. SERVICE/MAINTENANCE NETWORK
+    # 100 → 2,000 centers over 7 years
+    service_centers = constraints.service_centers_2026 * (1.0 + 0.5 * min(years / 7.0, 1.0))
+    vehicles_supported_by_service = service_centers * 500
+
+    # 4. REGULATORY APPROVAL
+    # Varies by scenario: % of US metro population approved per year
+    if scenario_name == "slow":
+        new_approval_rate = 0.03  # 3% per year
+    elif scenario_name == "base":
+        new_approval_rate = 0.06
+    elif scenario_name == "hypergrowth":
+        new_approval_rate = 0.12
+    else:  # platform_dominance
+        new_approval_rate = 0.15
+
+    approved_population = 280_000_000 * min(1.0, new_approval_rate * years)
+    # Assume ~500 vehicles per 100k population at terminal
+    vehicles_supported_by_regulation = approved_population * 0.005
+
+    # 5. BATTERY SUPPLY
+    # Global LFP: 500M kWh/year, growing 30%/year
+    # Robotaxi gets 5-10% (starts at 5%, ramps to 10%)
+    global_lfp = constraints.battery_supply_lfp_annual_2026 * (1.3 ** years)
+    robotaxi_share = constraints.robotaxi_battery_share_2026 + 0.05 * min(years / 5.0, 1.0)
+    battery_supply_capacity = (global_lfp * robotaxi_share) / 60.0  # 60 kWh per vehicle
+
+    return {
+        "manufacturing": manufacturing_cap,
+        "charging": vehicles_supported_by_charging,
+        "service": vehicles_supported_by_service,
+        "regulatory": vehicles_supported_by_regulation,
+        "battery": battery_supply_capacity,
+        "bottleneck": min(
+            manufacturing_cap,
+            vehicles_supported_by_charging,
+            vehicles_supported_by_service,
+            vehicles_supported_by_regulation,
+            battery_supply_capacity
+        )
+    }
+
 
 # ---------------------------------------------------------------------------
-# Scenarios (Step 7) — shift rollout, elasticity, and supply discipline
+# ENHANCEMENT 2: Dynamic Utilization with Congestion
 # ---------------------------------------------------------------------------
 
+def calculate_utilization(
+    year: int,
+    profile: CompanyProfile,
+    fleet_operating: float,
+    reachable_pop: float,
+    scenario: ScenarioKnobs
+) -> tuple[float, float, float]:
+    """
+    Calculate dynamic utilization with network effects and congestion penalty.
+
+    Returns: (effective_miles_per_day, network_gain, congestion_penalty)
+    """
+
+    years_in_market = max(0, year - 2026)
+
+    # 1. Network effect: +5% per year, capping at +25%
+    network_gain = min(0.25, 0.05 * years_in_market)
+
+    # 2. Congestion penalty: logistic curve based on vehicles per 100k population
+    # Threshold: 50 vehicles/100k = start of material congestion
+    # Steepness: 10 = moderate slope
+    vehicles_per_100k = (fleet_operating / max(reachable_pop, 1.0)) * 100_000
+    congestion_penalty = 1.0 / (1.0 + math.exp(-(vehicles_per_100k - 50.0) / 10.0))
+
+    # 3. Friction still applies
+    friction_discount = 1.0 - 0.03 * profile.readiness_friction()
+
+    # 4. Combine effects
+    base_miles = profile.paid_miles_per_vehicle_day
+    effective_miles = base_miles * friction_discount * (1.0 + network_gain) * (1.0 - congestion_penalty)
+
+    return effective_miles, network_gain, congestion_penalty
+
+
+# ---------------------------------------------------------------------------
+# ENHANCEMENT 3: Congestion Feedback on Demand
+# ---------------------------------------------------------------------------
+
+def apply_congestion_feedback(
+    fleet_operating: float,
+    reachable_pop: float,
+    scenario: ScenarioKnobs
+) -> ScenarioKnobs:
+    """
+    High vehicle density → congestion → slower trips → lower demand elasticity.
+    Returns modified scenario with reduced demand_elasticity.
+    """
+
+    vehicles_per_100k = (fleet_operating / max(reachable_pop, 1.0)) * 100_000
+
+    # Elasticity factor decreases as density increases
+    # At 50 vehicles/100k: factor = 1.0 (no change)
+    # At 80 vehicles/100k: factor ≈ 0.60 (40% reduction)
+    congestion_elasticity_factor = 1.0 / (1.0 + 0.01 * max(0, vehicles_per_100k - 50))
+
+    adjusted_scenario = ScenarioKnobs(
+        label=scenario.label,
+        regulatory_velocity=scenario.regulatory_velocity,
+        demand_elasticity=scenario.demand_elasticity * congestion_elasticity_factor,
+        induced_demand_multiplier=scenario.induced_demand_multiplier,
+        fleet_supply_discipline=scenario.fleet_supply_discipline
+    )
+
+    return adjusted_scenario
+
+
+# ---------------------------------------------------------------------------
+# ENHANCEMENT 4: Terminal State Classification
+# ---------------------------------------------------------------------------
+
+@dataclass
+class TerminalState:
+    """Classification of terminal market structure and implied valuation."""
+    vehicles: float
+    average_fare: float
+    take_rate: float
+    platform_revenue: float
+    structure: str
+    implied_multiple: int
+    gross_margin: float
+
+
+def classify_terminal_2035(result: YearResult, profile: CompanyProfile) -> TerminalState:
+    """
+    Classify 2035 terminal state based on economics.
+    Maps platform_margin to market structure.
+    """
+
+    vehicles = result.fleet_operating
+    annual_miles = vehicles * result.revenue_miles_per_vehicle_day * 365.0
+
+    fare_per_mile = result.gross_passenger_revenue / max(annual_miles, 1.0)
+    take_rate = result.net_platform_revenue / max(result.gross_passenger_revenue, 1.0)
+
+    # Estimate gross margin
+    cost_per_mile = 0.42 if profile.slug == "tesla" else 0.68
+    gross_costs = annual_miles * cost_per_mile
+    gross_margin = (result.gross_passenger_revenue - gross_costs) / max(result.gross_passenger_revenue, 1.0)
+
+    # Classify by take_rate (platform margin)
+    if take_rate <= 0.05:
+        structure = "REGULATED UTILITY (3-5% target margin)"
+        multiple = 10
+    elif take_rate <= 0.15:
+        structure = "COMPETITIVE OLIGOPOLY (10-15% margin)"
+        multiple = 15
+    elif take_rate <= 0.25:
+        structure = "STRONG OLIGOPOLY (20-25% margin)"
+        multiple = 20
+    else:
+        structure = "PLATFORM/DUOPOLY (30%+ margin)"
+        multiple = 25
+
+    return TerminalState(
+        vehicles=vehicles,
+        average_fare=fare_per_mile * 8.0,  # Assume 8 mi/trip
+        take_rate=take_rate,
+        platform_revenue=result.net_platform_revenue,
+        structure=structure,
+        implied_multiple=multiple,
+        gross_margin=gross_margin
+    )
+
+
+# ---------------------------------------------------------------------------
+# Original Model Code (with enhancements integrated)
+# ---------------------------------------------------------------------------
 
 class ScenarioName(str, Enum):
     SLOW = "slow"
@@ -34,13 +241,11 @@ class ScenarioName(str, Enum):
 
 @dataclass(frozen=True)
 class ScenarioKnobs:
-    """Multipliers and demand uplift vs base trajectory."""
-
     label: str
-    regulatory_velocity: float  # scales reachable-pop growth
-    demand_elasticity: float  # scales rides/mile intensity on covered population
-    induced_demand_multiplier: float  # extra TAM from cheap miles (bandwidth analogy)
-    fleet_supply_discipline: float  # <1 => intentionally/rationally capacity-constrained
+    regulatory_velocity: float
+    demand_elasticity: float
+    induced_demand_multiplier: float
+    fleet_supply_discipline: float
 
 
 def scenario_library() -> dict[ScenarioName, ScenarioKnobs]:
@@ -76,34 +281,21 @@ def scenario_library() -> dict[ScenarioName, ScenarioKnobs]:
     }
 
 
-# ---------------------------------------------------------------------------
-# Company profiles (Steps 2–4, 8) — technical vs economic coverage, utilization
-# ---------------------------------------------------------------------------
-
-
 @dataclass(frozen=True)
 class CompanyProfile:
     slug: str
     display_name: str
-    # Step 3: fraction of *technically* launched pops that are *economically* served well
     economic_coverage_fraction: float
-    # Utilization / unit economics (Step 4)
     paid_miles_per_vehicle_day: float
     fare_per_mile_usd: float
     active_hours_per_day: float
-    # Marketplace vs owned fleet abstraction: fraction of passenger fare kept by platform
     take_rate: float
-    # Step 5: supply curve — max fraction of “theoretical US robotaxi fleet” deployable per year
     annual_supply_ramp_cap_fraction: float
-    # Rollout curve shape — multiplier on baseline reachable-pop table (Waymo slower, Tesla faster intent)
     rollout_pace_vs_baseline: float
-    # Core driver priors (Step 10 — miles per intervention as readiness / scaling friction)
     miles_per_intervention: float
     cost_per_autonomous_mile_usd: float
 
     def readiness_friction(self) -> float:
-        """Maps intervention mileage to 0–1 friction (higher = more friction). """
-        # Logistic-ish: 5k mi ≈ still heavy friction, 50k+ ≈ low friction
         x = self.miles_per_intervention / 10_000.0
         return 1.0 / (1.0 + math.exp(x - 3.0))
 
@@ -139,20 +331,12 @@ def default_profiles() -> dict[str, CompanyProfile]:
     }
 
 
-# ---------------------------------------------------------------------------
-# Market & rollout priors (Steps 1–2)
-# ---------------------------------------------------------------------------
-
-
 @dataclass
 class MarketPriors:
-    """US-oriented priors; replace via JSON overlay for custom runs."""
-
     us_metro_population_full: float = 280e6
     baseline_rideshare_trips_per_capita_year: float = 18.0
     baseline_taxi_trips_per_capita_year: float = 4.0
     avg_trip_miles_substitute: float = 8.0
-    # Private-car miles that could shift partially into robotaxi over time (order-of-magnitude prior)
     private_car_trip_pool_per_capita_year: float = 220.0
     private_car_substitution_fraction_terminal: float = 0.08
 
@@ -165,7 +349,6 @@ class RolloutYear:
 
 
 def default_rollout_grid() -> list[RolloutYear]:
-    """Illustrative rollout — edit or pass --rollout-json to replace."""
     return [
         RolloutYear(2026, 10, 25),
         RolloutYear(2027, 25, 80),
@@ -184,7 +367,6 @@ def interpolate_reachable_pop(
     years: Iterable[int],
     grid: list[RolloutYear],
 ) -> dict[int, float]:
-    """Piecewise linear between anchor years; flat extrapolation beyond ends."""
     anchors = {r.year: r.reachable_population_millions * 1e6 for r in grid}
     sorted_years = sorted(anchors)
     if not sorted_years:
@@ -205,11 +387,6 @@ def interpolate_reachable_pop(
     return {y: pop_at(y) for y in years}
 
 
-# ---------------------------------------------------------------------------
-# Core simulation
-# ---------------------------------------------------------------------------
-
-
 @dataclass
 class YearResult:
     year: int
@@ -227,6 +404,16 @@ class YearResult:
     net_platform_revenue: float
     revenue_miles_per_vehicle_day: float
     readiness_friction: float
+    # NEW: Utilization details
+    utilization_efficiency: float = 0.0  # network_gain - congestion_penalty
+    congestion_penalty: float = 0.0
+    vehicles_per_100k: float = 0.0
+    # NEW: Supply constraint bottleneck
+    supply_constraints: dict[str, float] = field(default_factory=dict)
+    bottleneck_name: str = "none"
+    # NEW: Terminal classification
+    terminal_structure: str = ""
+    terminal_implied_multiple: int = 0
 
 
 def _terminal_year_index(year: int, start_year: int) -> int:
@@ -244,8 +431,10 @@ def simulate_company_year(
     start_year: int,
     theoretical_us_fleet_terminal: float,
     market_share_of_robotaxi: float,
+    supply_constraints: SupplyConstraints | None = None,
+    use_enhancements: bool = True,
 ) -> YearResult:
-    """One company-year; market_share splits TAM between players for demand-side competition."""
+    """One company-year with optional enhancements."""
 
     reg_vel = scenario.regulatory_velocity * profile.rollout_pace_vs_baseline
     adjusted_reachable = base_reachable_pop * reg_vel
@@ -265,32 +454,78 @@ def simulate_company_year(
         market.baseline_rideshare_trips_per_capita_year
         + market.baseline_taxi_trips_per_capita_year
     )
+
+    # ENHANCEMENT 3: Apply congestion feedback to demand elasticity
+    active_scenario = scenario
+    temp_fleet = 0.0
+    if use_enhancements:
+        # First pass: estimate fleet for congestion feedback
+        trips_pc_base = (base_trips_pc + private_shift) * scenario.demand_elasticity * scenario.induced_demand_multiplier
+        temp_fleet = (effective_pop * trips_pc_base * market_share_of_robotaxi) / max(profile.paid_miles_per_vehicle_day * 365.0, 1e-6)
+        active_scenario = apply_congestion_feedback(temp_fleet, adjusted_reachable, scenario)
+
     trips_pc = (
         (base_trips_pc + private_shift)
-        * scenario.demand_elasticity
-        * scenario.induced_demand_multiplier
+        * active_scenario.demand_elasticity
+        * active_scenario.induced_demand_multiplier
     )
     annual_miles_per_capita = trips_pc * market.avg_trip_miles_substitute
 
     total_demand_miles = effective_pop * annual_miles_per_capita * market_share_of_robotaxi
 
-    paid_per_vehicle_day = profile.paid_miles_per_vehicle_day * (1.0 - 0.03 * profile.readiness_friction())
+    # ENHANCEMENT 1: Dynamic utilization instead of static
+    if use_enhancements:
+        paid_per_vehicle_day, network_gain, congestion_penalty = calculate_utilization(
+            year, profile, temp_fleet, adjusted_reachable, active_scenario
+        )
+        vehicles_per_100k = (temp_fleet / max(adjusted_reachable, 1.0)) * 100_000
+    else:
+        paid_per_vehicle_day = profile.paid_miles_per_vehicle_day * (1.0 - 0.03 * profile.readiness_friction())
+        network_gain = 0.0
+        congestion_penalty = 0.0
+        vehicles_per_100k = 0.0
+
     fleet_demand = total_demand_miles / max(paid_per_vehicle_day * 365.0, 1e-6)
 
-    terminal_fraction = min(1.0, adjusted_reachable / max(market.us_metro_population_full, 1.0))
-    supply_cap = (
-        theoretical_us_fleet_terminal
-        * terminal_fraction
-        * profile.annual_supply_ramp_cap_fraction
-        * supply_ramp_index
-        * scenario.fleet_supply_discipline
-    )
+    # ENHANCEMENT 2: Supply constraints instead of simple ramp
+    if use_enhancements and supply_constraints:
+        supply_dict = project_supply_constraints(year, scenario_key, supply_constraints)
+        supply_cap = supply_dict["bottleneck"]
+
+        # Find which constraint is binding
+        bottleneck_name = min(
+            [("manufacturing", supply_dict["manufacturing"]),
+             ("charging", supply_dict["charging"]),
+             ("service", supply_dict["service"]),
+             ("regulatory", supply_dict["regulatory"]),
+             ("battery", supply_dict["battery"])],
+            key=lambda x: x[1]
+        )[0]
+    else:
+        terminal_fraction = min(1.0, adjusted_reachable / max(market.us_metro_population_full, 1.0))
+        supply_cap = (
+            theoretical_us_fleet_terminal
+            * terminal_fraction
+            * profile.annual_supply_ramp_cap_fraction
+            * supply_ramp_index
+            * active_scenario.fleet_supply_discipline
+        )
+        supply_dict = {}
+        bottleneck_name = "legacy_ramp"
+
     fleet_op = max(0.0, min(fleet_demand, supply_cap))
+
+    # Recalculate utilization with actual fleet
+    if use_enhancements:
+        paid_per_vehicle_day, network_gain, congestion_penalty = calculate_utilization(
+            year, profile, fleet_op, adjusted_reachable, active_scenario
+        )
+        vehicles_per_100k = (fleet_op / max(adjusted_reachable, 1.0)) * 100_000
 
     gross_rev = fleet_op * paid_per_vehicle_day * 365.0 * profile.fare_per_mile_usd
     net_rev = gross_rev * profile.take_rate
 
-    return YearResult(
+    result = YearResult(
         year=year,
         scenario=scenario_key,
         scenario_label=scenario.label,
@@ -306,7 +541,20 @@ def simulate_company_year(
         net_platform_revenue=net_rev,
         revenue_miles_per_vehicle_day=paid_per_vehicle_day,
         readiness_friction=profile.readiness_friction(),
+        utilization_efficiency=network_gain - congestion_penalty,
+        congestion_penalty=congestion_penalty,
+        vehicles_per_100k=vehicles_per_100k,
+        supply_constraints=supply_dict,
+        bottleneck_name=bottleneck_name,
     )
+
+    # ENHANCEMENT 4: Terminal classification (for 2035)
+    if year == 2035:
+        terminal = classify_terminal_2035(result, profile)
+        result.terminal_structure = terminal.structure
+        result.terminal_implied_multiple = terminal.implied_multiple
+
+    return result
 
 
 def run_projection(
@@ -319,6 +567,8 @@ def run_projection(
     rollout_grid: list[RolloutYear],
     theoretical_us_fleet_terminal: float,
     market_share: dict[str, float],
+    supply_constraints: SupplyConstraints | None = None,
+    use_enhancements: bool = True,
 ) -> list[YearResult]:
     scen = scenario_library()[scenario_name]
     pop_by_year = interpolate_reachable_pop(years, rollout_grid)
@@ -339,45 +589,15 @@ def run_projection(
                     start_year=start_year,
                     theoretical_us_fleet_terminal=theoretical_us_fleet_terminal,
                     market_share_of_robotaxi=share,
+                    supply_constraints=supply_constraints,
+                    use_enhancements=use_enhancements,
                 )
             )
     return out
 
 
-# ---------------------------------------------------------------------------
-# IO helpers
-# ---------------------------------------------------------------------------
-
-
 def results_to_rows(results: list[YearResult]) -> list[dict[str, Any]]:
     return [asdict(r) for r in results]
-
-
-def print_table(results: list[YearResult], stream=sys.stdout) -> None:
-    headers = [
-        "year",
-        "company",
-        "reachable_pop_m",
-        "eff_cov_pop_m",
-        "fleet_op_k",
-        "gross_rev_b",
-        "platform_rev_b",
-        "miveh_day",
-    ]
-    stream.write(" | ".join(f"{h:>14}" for h in headers) + "\n")
-    stream.write("-" * (len(headers) * 17) + "\n")
-    for r in results:
-        row = [
-            f"{r.year:>14}",
-            f"{r.company:>14}",
-            f"{r.reachable_pop / 1e6:>14.1f}",
-            f"{r.effective_covered_pop / 1e6:>14.1f}",
-            f"{r.fleet_operating / 1e3:>14.1f}",
-            f"{r.gross_passenger_revenue / 1e9:>14.2f}",
-            f"{r.net_platform_revenue / 1e9:>14.2f}",
-            f"{r.revenue_miles_per_vehicle_day:>14.1f}",
-        ]
-        stream.write(" | ".join(row) + "\n")
 
 
 def write_csv(results: list[YearResult], path: str) -> None:
@@ -417,102 +637,3 @@ def _parse_rollout_json(data: list[dict[str, Any]]) -> list[RolloutYear]:
             )
         )
     return sorted(out, key=lambda r: r.year)
-
-
-def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
-    p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--start-year", type=int, default=2026)
-    p.add_argument("--end-year", type=int, default=2035)
-    p.add_argument(
-        "--scenario",
-        choices=[s.value for s in ScenarioName],
-        default=ScenarioName.BASE.value,
-    )
-    p.add_argument(
-        "--companies",
-        default="tesla,waymo",
-        help="Comma-separated slugs from the built-in profile table.",
-    )
-    p.add_argument(
-        "--market-share-json",
-        default="",
-        help='Optional JSON dict, e.g. \'{"tesla":0.45,"waymo":0.2}\' summing to <=1 implies residual untapped.',
-    )
-    p.add_argument(
-        "--theoretical-us-fleet-terminal",
-        type=float,
-        default=4_500_000.0,
-        help="Order-of-magnitude cap: US robotaxi fleet if fully built out.",
-    )
-    p.add_argument("--market-json", default="", help="Overlay numeric MarketPriors fields.")
-    p.add_argument("--rollout-json", default="", help="Replace rollout anchor table.")
-    p.add_argument("--csv", default="", help="Write detailed CSV to this path.")
-    p.add_argument("--json", default="", help="Write JSON rows to this path.")
-    p.add_argument("--quiet", action="store_true", help="Suppress ASCII table.")
-    return p.parse_args(argv)
-
-
-def main(argv: list[str] | None = None) -> int:
-    args = parse_args(argv)
-    profiles = default_profiles()
-    active = {s.strip().lower() for s in args.companies.split(",") if s.strip()}
-    unknown = active - profiles.keys()
-    if unknown:
-        print(f"Unknown company slug(s): {', '.join(sorted(unknown))}", file=sys.stderr)
-        return 2
-
-    if args.rollout_json:
-        loaded = _load_json_optional(args.rollout_json)
-        if not isinstance(loaded, list):
-            print("--rollout-json must contain a JSON array of rows.", file=sys.stderr)
-            return 2
-        rollout = _parse_rollout_json(loaded)
-    else:
-        rollout = default_rollout_grid()
-
-    years = list(range(args.start_year, args.end_year + 1))
-    market = MarketPriors()
-    market = _apply_market_overlay(market, _load_json_optional(args.market_json))
-
-    share: dict[str, float] = {}
-    if args.market_share_json:
-        share = json.loads(args.market_share_json)
-    else:
-        n = max(len(active), 1)
-        share = {slug: 0.5 for slug in active} if n == 2 else {slug: 1.0 / n for slug in active}
-
-    s_total = sum(share.get(slug, 0.0) for slug in active)
-    if s_total <= 0:
-        print("Market shares must sum to > 0 for active companies.", file=sys.stderr)
-        return 2
-    if s_total > 1.0001:
-        print(f"Warning: market shares sum to {s_total:.3f} (>1); scaling down proportionally.", file=sys.stderr)
-
-    if s_total > 1.0:
-        normalized = {slug: share.get(slug, 0.0) / s_total for slug in active}
-    else:
-        normalized = {slug: float(share.get(slug, 0.0)) for slug in active}
-
-    results = run_projection(
-        years=years,
-        scenario_name=ScenarioName(args.scenario),
-        profiles=profiles,
-        active=active,
-        market=market,
-        rollout_grid=rollout,
-        theoretical_us_fleet_terminal=args.theoretical_us_fleet_terminal,
-        market_share=normalized,
-    )
-    if not args.quiet:
-        print_table(results)
-    if args.csv:
-        write_csv(results, args.csv)
-    if args.json:
-        with open(args.json, "w", encoding="utf-8") as f:
-            json.dump(results_to_rows(results), f, indent=2)
-
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())

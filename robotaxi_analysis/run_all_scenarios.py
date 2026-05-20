@@ -15,6 +15,7 @@ import sys
 from robotaxi_revenue_model import (
     MarketPriors,
     ScenarioName,
+    SupplyConstraints,
     YearResult,
     _apply_market_overlay,
     _load_json_optional,
@@ -152,6 +153,7 @@ def main(argv: list[str] | None = None) -> int:
         return 2
 
     all_results: list[YearResult] = []
+    supply_constraints = SupplyConstraints()
     for scenario_name in ScenarioName:
         all_results.extend(
             run_projection(
@@ -163,6 +165,8 @@ def main(argv: list[str] | None = None) -> int:
                 rollout_grid=rollout,
                 theoretical_us_fleet_terminal=args.theoretical_us_fleet_terminal,
                 market_share=normalized,
+                supply_constraints=supply_constraints,
+                use_enhancements=True,
             )
         )
 

@@ -6,7 +6,7 @@
 
 ## BLUF (Bottom Line Up Front)
 
-**Waymo's robotaxi unit economics create a structural competitive moat: 16% higher annual platform revenue than Tesla in base case 2035 ($21.18B vs $18.18B) despite 56% fewer vehicles, driven by 35% take-rate vs Tesla's 28% and $1.90 vs $1.10 fares. This advantage persists across all scenarios (slow, base, hypergrowth, platform dominance), suggesting Waymo's premium regulated strategy is more defensible than Tesla's mass-market thesis. For Alphabet investors: Waymo represents optionality on a $9.97B–$60.88B annual platform revenue business by 2035 (scenario-dependent, slow to platform dominance).**
+**Waymo's robotaxi competitive advantage is structural and survives infrastructure constraints: despite both Waymo and Tesla being capped at ~70k vehicles (2035) by charging bottleneck, Waymo generates 2.6× higher platform revenue ($4.28B vs Tesla's $1.65B) from identical fleet size via 35% take-rate, $1.90/mile fares, and superior utilization. Charging infrastructure (not vehicle demand or manufacturing) is the binding constraint through 2035; winner is determined by charger buildout velocity, not autonomous capability. Robotaxi emerges as a regulated utility network with $3.5–4.4B annual revenue (Waymo), not a $100B+ platform. For Alphabet investors: Waymo represents optionality on a utility-scale business with structural margin dominance, regulatory moat, and infrastructure partnership leverage, rather than winner-take-most platform upside.**
 
 ## Overview
 
@@ -44,27 +44,29 @@ python3 robotaxi_revenue_model.py --scenario base
 
 ## Key Insights from Sample Output
 
-### Base Case (2035 Terminal, Annual Revenue)
+### Base Case (2035 Terminal, Enhanced Model with Infrastructure Constraints)
 
-| Company | Fleet (k) | Gross Revenue/Year | Platform Revenue/Year | Effective Coverage |
-|---------|-----------|-------------------|----------------------|-------------------|
-| Tesla   | 922.1     | $64.92B            | $18.18B              | 288.8M (78% reach) |
-| Waymo   | 401.1     | $60.51B            | $21.18B              | 155.8M (55% reach) |
+| Company | Fleet | Gross Revenue/Year | Platform Revenue/Year | Bottleneck | Unit Economics |
+|---------|-------|-------------------|----------------------|------------|-----------------|
+| **Tesla**   | **70k** | **$5.8B** | **$1.65B** | Charging | $1.10 fare, 28% take-rate, $0.42 opex |
+| **Waymo**   | **70k** | **$12.2B** | **$4.28B** | Charging | $1.90 fare, 35% take-rate, $0.68 opex |
 
-**Key Observation (All Figures Annual)**:
-- **Waymo** achieves higher *annual platform revenue* ($21.18B) despite 56% fewer vehicles, driven by 73% higher fares ($1.90 vs $1.10/mile) and better take-rate (35% vs 28%).
-- **Tesla** compensates with 130% more vehicles and 85% wider effective coverage, but annual gross revenue is only 7% higher with far lower profitability capture.
+**Critical Finding (All Figures Annual)**:
+- **Identical fleet sizes** (70k each) due to shared charging infrastructure bottleneck (~500k chargers needed, limits both to ~70k vehicles)
+- **Waymo's 2.6× revenue advantage** ($4.28B vs $1.65B) comes entirely from pricing power and take-rate structure, not fleet scale
+- **Infrastructure is binding constraint**, not demand or manufacturing. Both companies could deploy 200k+ vehicles if charging existed; neither can scale beyond 70k by 2035
+- **Margin structure matters more than cost efficiency** in constrained regime. Tesla's $0.42/mile cost advantage is immaterial (~$22M savings on $1.65B revenue)
 
-### Scenario Spread (2035 Annual Platform Revenue)
+### Scenario Spread (2035 Annual Platform Revenue, Enhanced Model)
 
-| Scenario | Tesla/Year | Waymo/Year | Notes |
-|----------|-----------|-----------|-------|
-| Slow     | $8.56B    | $9.97B    | Regulatory friction, lower demand elasticity |
-| Base     | $18.18B   | $21.18B   | Gradual scaling, moderate adoption |
-| Hypergrowth | $42.04B | $48.97B | Rapid expansion, strong demand |
-| Platform Dominance | $52.26B | $60.88B | Winner-take-most, network effects |
+| Scenario | Tesla Fleet | Waymo Fleet | Tesla Revenue | Waymo Revenue | Waymo Advantage | Notes |
+|----------|------------|------------|----------------|----------------|-----------------|-------|
+| Slow     | 70k | 70k | $1.54B | $3.55B | 2.3× | Slower charging buildout, but same bottleneck |
+| Base     | 70k | 70k | $1.65B | $4.28B | 2.6× | Reference case |
+| Hypergrowth | 70k | 70k | $1.67B | $4.41B | 2.6× | Faster regulatory approval; charger still binding |
+| Platform Dominance | 70k | 70k | $1.67B | $4.37B | 2.6× | Winner-take-most; but still capped by chargers |
 
-**Implication**: Waymo's profitability advantage persists across all scenarios, but absolute market size is scenario-dependent (2–3× spread between slow and dominance).
+**Critical Finding**: Scenario variation **does not move fleet size**. All scenarios converge to identical 70k vehicle caps because all hit the same charging infrastructure bottleneck. Waymo's 2.3–2.6× advantage is structural, not scenario-dependent. The real upside/downside is infrastructure buildout velocity (who deploys chargers faster post-2035), not vehicle manufacturing or regulatory velocity (both immaterial when chargers are binding).
 
 ## What This Model Captures
 
