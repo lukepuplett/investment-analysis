@@ -1,352 +1,163 @@
-# Quarterly Monitoring Framework: Robotaxi Scenarios
+# Quarterly Monitoring Framework: Regime Determination
 
 ## Overview
 
-This document defines the operational monitoring process for the three optionality scenarios (Conservative, Infrastructure, Natural Monopoly). It translates scenario theory into quarterly data collection, trend analysis, and repricing triggers for Waymo (GOOGL) and Tesla (TSLA).
+This document defines the operational monitoring process for determining which robotaxi regime (A/B/C) is materializing. Replaces scenario probability weighting with hard regime transitions.
 
-**Goal:** Detect early which scenario is unfolding and adjust probability weights (and valuations) before the market reprices.
+**Goal:** Quarterly KPI tracking determines observable shifts toward Regime A, B, or C. Hard triggers force regime transitions (not gradual probability shifts).
 
----
-
-## Framework Structure
-
-### 1. Quarterly Data Collection (Due 30 days post-earnings)
-- **Source:** Earnings call, 10-Q MD&A, investor presentations, SEC filings
-- **Metric groups:** Operational (deployment, utilization), Financial (take-rate, margins), Strategic (behavior change signals, infrastructure layers)
-- **Output:** Populated monitoring scorecard (see Section 5)
-
-### 2. Scenario Path Assessment (Due 45 days post-earnings)
-- **Process:** Compare actual metrics vs. scenario projections for that quarter
-- **Decision rules:** If metric deviates >1.5 sigma from scenario path, flag
-- **Output:** Scenario probability adjustment (see Section 6)
-
-### 3. Repricing Trigger (Automatic)
-- **Condition:** Any scenario shifts >10 percentage points in cumulative probability
-- **Action:** Recalculate terminal valuations and per-share impact; update investment thesis
-
-### 4. Annual Deep Dive (Q4 only)
-- **Review:** Full-year actuals vs. forward guidance for next 2 years
-- **Assess:** Which scenario's assumptions are holding; which are breaking
-- **Reforecast:** Update 2035 terminal fleet, revenue, multiples if needed
+**Current Probability (May 2026):** A 50%, B 35%, C 15%  
+**First Checkpoint:** Q4 2027 (hard data distinguishes regimes)
 
 ---
 
-## Section 1: Scenario Definition at a Glance
+## Regime Definitions at a Glance
 
-| Aspect | Conservative | Infrastructure | Natural Monopoly |
-|--------|--------------|-----------------|------------------|
-| **Behavior Inflection** | Never | 2028 | 2030 |
-| **Key Value Driver** | Ride-hailing only | Infrastructure layers | Moat compounding |
-| **Demand Multiplier** | 1.35x (fixed) | 2.0x by 2035 | 1.5x by 2035 |
-| **Terminal Multiples** | 17-8x | 32-15x | 45-20x |
-| **2035 Waymo Platform Revenue** | $4.56B | $6.10B | $8.20B |
-| **2035 Waymo PV (10% WACC)** | $30.0B | $65.2B | $126.6B |
-| **Per GOOGL Share** | +$2.48 | +$5.41 | +$10.51 |
-| **Probability Weight (Illustrative)** | 40% | 40% | 20% |
-
----
-
-## Section 2: Quarterly KPI Monitoring Scorecard
-
-**Instructions:** Populate after each earnings call. Score each metric 0–10 (10 = scenario confirmed, 0 = scenario contradicted).
-
-### Waymo (GOOGL) — Quarterly Tracking
-
-| KPI | Scenario Path | Q1 2026 | Q2 2026 | Q3 2026 | Q4 2026 | Confidence |
-|-----|---------------|---------|---------|---------|---------|------------|
-| **Tier 2 Expansion** | | | | | | |
-| - Conservative Target | 1 new metro/year | | | | | |
-| - Infrastructure Target | 1.5 new metros/year | | | | | |
-| - Monopoly Target | 2+ metros/year by 2029 | | | | | |
-| **Waymo Intervention Rate** | | | | | | |
-| - Conservative Path | Stalls at 18k mi/intervention | | | | | |
-| - Infrastructure Path | Reaches 25-28k by 2028-29 | | | | | |
-| - Monopoly Path | Reaches 35k+ by 2030 | | | | | |
-| **Utilization Efficiency (SF, Tier 1)** | | | | | | |
-| - Conservative Path | Stable 80-85% | | | | | |
-| - Infrastructure Path | Accelerates to 88-92% | | | | | |
-| - Monopoly Path | Reaches 94%+ by 2030 | | | | | |
-| **Take-Rate in Tier 2** | | | | | | |
-| - Conservative Path | 20-22% (pricing pressure) | | | | | |
-| - Infrastructure Path | 24-26% (infrastructure premium) | | | | | |
-| - Monopoly Path | 28%+ (moat premium) | | | | | |
-| **City Integration Depth** | | | | | | |
-| - Conservative Signal | Traffic management only | | | | | |
-| - Infrastructure Signal | Traffic + parking + emergency | | | | | |
-| - Monopoly Signal | Full mobility OS (energy, logistics, delivery) | | | | | |
-| **FSD Safety Progress (Tesla Comparison)** | | | | | | |
-| - Conservative Path | Tesla narrows gap; Waymo lead erodes | | | | | |
-| - Infrastructure Path | Waymo gap widens | | | | | |
-| - Monopoly Path | Waymo gap becomes structural moat | | | | | |
-
-### Tesla (TSLA) — Quarterly Tracking
-
-| KPI | Scenario Path | Q1 2026 | Q2 2026 | Q3 2026 | Q4 2026 | Confidence |
-|-----|---------------|---------|---------|---------|---------|------------|
-| **FSD Intervention Rate (Autonomy Gate)** | | | | | | |
-| - Conservative Path | Stalls at 18k mi/intervention | | | | | |
-| - Infrastructure Path | Reaches 25-28k by 2028-29 | | | | | |
-| - Monopoly Path | Reaches 35k+ by 2030 | | | | | |
-| **Regulatory Approvals (Tier 3/Suburban)** | | | | | | |
-| - Conservative Path | 2-3 new metros/year | | | | | |
-| - Infrastructure Path | 3-4 new metros/year | | | | | |
-| - Monopoly Path | 5+ metros/year (faster than Waymo) | | | | | |
-| **Fleet Operating (Waymo+Tesla total in model)** | | | | | | |
-| - Conservative Path | 180k Tesla vehicles | | | | | |
-| - Infrastructure Path | 220k Tesla vehicles | | | | | |
-| - Monopoly Path | 280k Tesla vehicles | | | | | |
-| **Take-Rate in Tier 3** | | | | | | |
-| - Conservative Path | 15-18% (commodity pricing) | | | | | |
-| - Infrastructure Path | 18-20% (behavior change) | | | | | |
-| - Monopoly Path | 20-25% (winner-takes-most) | | | | | |
-| **Utilization (Suburban Fleet Average)** | | | | | | |
-| - Conservative Path | Stable 55-60% | | | | | |
-| - Infrastructure Path | Accelerates to 65-70% | | | | | |
-| - Monopoly Path | Reaches 75%+ by 2030 | | | | | |
-| **Manufacturing Cost/Vehicle (Model 3-based fleet)** | | | | | | |
-| - All Scenarios | Should decline ~5-8%/year | | | | | |
-| - Flag | If cost deltas vs Waymo reverse (labor arbitrage lost) | | | | | |
+| Aspect | **Regime A** | **Regime B** | **Regime C** |
+|--------|-----------|-----------|-----------|
+| **Ownership Substitution** | <5% | 15–30% | 50%+ |
+| **Fleet Size (2035)** | 120–300k | 500k–2M | 10–50M |
+| **Take-Rate** | 18–32% | 25–40% | 40–65% |
+| **Regulatory Approval** | 3–6%/year | 5–8%/year S-curve | >10%/year exponential |
+| **Non-Ride Use** | <5% miles | 10–25% miles | 30%+ miles |
+| **2035 Waymo Revenue** | $3–5B | $15–30B | $50–150B |
+| **Terminal Value** | $30–90B | $150–400B | $2–10T |
+| **Multiple** | 9–18x | 25–50x | 50–150x |
 
 ---
 
-## Section 3: Red Flag Thresholds (Scenario-Breaking Events)
+## Quarterly KPI Monitoring Scorecard
 
-When you observe ANY of these, escalate to reforecasting within 5 business days.
+**Track each KPI. Hard threshold breached = regime transition triggered.**
 
-### Waymo (GOOGL) — Breaking Points
+### Key Metrics by Regime
 
-| Event | Impact | Severity | Scenario Breaks | Action |
-|-------|--------|----------|-----------------|--------|
-| **Tier 1 Utilization Falls Below 75%** | Suggests demand softer than modeled; limits leverage for Infrastructure case | 8/10 | Infrastructure, Monopoly | Recalculate demand curve; check competitive pricing |
-| **Intervention Rate Plateau >20k mi (Q1-Q3 2026)** | Safety learning curve flatter than expected; regulatory approval delayed | 7/10 | Infrastructure, Monopoly | Extend 2028 infrastructure inflection to 2030+ |
-| **Tier 2 Expansion Stalls (0 new metros 2 consecutive quarters)** | Regulatory approval slower than assumed; moat may not widen | 8/10 | Infrastructure, Monopoly | Shift prob from Infrastructure/Monopoly → Conservative |
-| **Take-Rate in Tier 1 Drops Below 20%** | Competitive pressure from Tesla or traditional rideshare; pricing power eroding | 7/10 | All (impacts margin profile) | Recalculate terminal multiple downward |
-| **City Integration Not Progressing (MD&A silent on parking/emergency integration Q4 2026)** | Infrastructure layer assumption unfounded | 6/10 | Infrastructure | Shift prob Infrastructure → Conservative |
-| **Safety Dataset Not Compounding (FSD improves as fast as Waymo)** | No moat from regulation | 9/10 | Monopoly | Shift prob Monopoly → Conservative/Infrastructure 50/50 |
-| **Alphabet Cuts Waymo Budget or Changes Strategic Commitment** | Existential risk | 10/10 | All scenarios null | Abort analysis; reassess from zero |
+| KPI | Regime A | Regime B | Regime C | A→B Trigger | B→C Trigger | B→A Collapse |
+|-----|----------|----------|----------|------------|------------|-------------|
+| **Ownership %** | <5% | 15–30% | 50%+ | 10%+ | 35%+ | <10% |
+| **Approval %/yr** | 3–6% | 5–8% | >10% | 8%+ | 10%+ | 2% |
+| **Non-Ride % miles** | <5% | 10–25% | 30%+ | 10%+ | 30%+ | <5% |
+| **Take-Rate** | 18–32% | 25–40% | 40–65% | 30%+ | 40%+ | <18% |
+| **Fleet Size** | <300k | 500k–2M | 10M+ | 500k | 5M | <300k |
+| **Intervention Rate** | Improving | Improving 20%+/yr | Improving 30%+/yr | — | — | Flat 4Q |
+| **Winner Share** | <70% | <70% | >70% | — | 75%+ | — |
 
-### Tesla (TSLA) — Breaking Points
-
-| Event | Impact | Severity | Scenario Breaks | Action |
-|-------|--------|----------|-----------------|--------|
-| **FSD Intervention Rate Deteriorates (>20k by 2027)** | Autonomy not improving; Tier 3 deployment gated indefinitely | 9/10 | All scenarios | Reset to Bear case ($0-5B value) |
-| **No Tier 3 Regulatory Approvals by Q4 2026** | Deployment path stalled; regulatory bet lost | 8/10 | Infrastructure, Monopoly | Collapse all to Conservative |
-| **Manufacturing Cost Per Vehicle Increases** | Labor cost inflation or capex bloat erodes margin advantage | 7/10 | All (base assumption broken) | Narrow valuation to Conservative downside |
-| **Gross Margin (Auto Segment) Compresses Below 20%** | Pricing war or input cost inflation; robotaxi econ unsustainable | 8/10 | All scenarios | Reduce terminal take-rate assumption |
-| **Elon Commits Resources to Other Projects (Humanoid, Neuralink)** | Robotaxi deprioritized; funding/mgmt attention diverted | 6/10 | Infrastructure, Monopoly | Shift to Conservative; assume slower deployment |
-| **Waymo's Safety Lead Becomes Undeniable (2x better intervention rate)** | Tesla cannot catch up; loses moat race | 9/10 | Monopoly | Shift from Monopoly → Conservative |
+**Data Sources:** Earnings calls, 10-Q MD&A, investor presentations, press releases
 
 ---
 
-## Section 4: Quarterly Data Collection Checklist
+## Regime-Breaking Events (Trigger Regime Transition)
 
-**Due 30 days after quarter-end earnings.**
+**If ANY observed, regime transition is FORCED (not probability-weighted).**
 
-### Always Capture (All Quarters)
-
-- [ ] **10-Q Filing:** MD&A section, risk factors, forward guidance
-- [ ] **Earnings Call Transcript:** Management commentary on deployment, utilization, safety milestones
-- [ ] **Investor Presentation:** Product roadmap, geographic expansion plans, technology progress
-- [ ] **Press Release:** Fleet size, intervention rate, new metro approvals
-
-### Waymo-Specific (GOOGL)
-
-- [ ] **Fleet Operating:** Current vehicle count across all metros (Tier 1, 2, 3)
-- [ ] **Utilization Efficiency:** Revenue per vehicle per day (proxy for demand strength)
-- [ ] **Take-Rate by Tier:** If disclosed; otherwise calculate from gross revenue / gross Miles
-- [ ] **Intervention Rate:** Miles per intervention or intervention-free miles milestone
-- [ ] **New Metro Approvals:** List new cities approved/deployed in quarter
-- [ ] **City Integration Signals:** Any MD&A mentions of parking, emergency services, logistics, data partnerships
-- [ ] **Capex/Fleet Growth Plans:** Forward guidance on fleet size 2026-2027
-- [ ] **Competitive Positioning:** Any commentary on Tesla FSD, Cruise, or other competitors
-
-### Tesla-Specific (TSLA)
-
-- [ ] **FSD Intervention Rate:** Latest miles-per-intervention or improvement trajectory
-- [ ] **Robotaxi Fleet Status:** Vehicles deployed, utilization, take-rate if disclosed
-- [ ] **Regulatory Approvals:** New Tier 3 metros approved in quarter
-- [ ] **Manufacturing Cost Trends:** Gross margin trend; any commentary on vehicle cost
-- [ ] **Autonomous Capex:** Capex plans for FSD, fleet infrastructure, computing
-- [ ] **Management Commentary on Autonomy:** Elon's tone on "self-driving" progress; timeline realism
-- [ ] **Optionality on Other Businesses:** Any changes in Elon's stated priorities (Humanoid, Neuralink, etc.)
+| Event | Regime Shift | Action |
+|-------|-------------|--------|
+| **Ownership <10% after 3+ years availability (Waymo/Tesla combined)** | B→A | Collapse to Regime A; demand insufficient for ownership replacement |
+| **Approval <2%/year sustained 2+ years** | B→A | Regulatory environment unchanged; not civilization-scale |
+| **Take-rate <18% sustained (Waymo Tier 1)** | B→A | Uber re-enters; margin collapse to commodity |
+| **Intervention rate flat 4+ quarters** | B→A or C→B | Autonomy stalled; fragility evident |
+| **One player captures >75% share in any tier** | A→B or B→C | Software scaling evident; winner consolidation |
+| **Approval >8%/year (Waymo)** | A→B | Regulatory environment accelerating |
+| **Ownership >35% in major metro** | B→C | Ownership replacement structural |
+| **Non-ride >30% of miles** | B→C | Platform layer exceeds core ride |
+| **Cost decline >30%/year sustained** | B→C | Software scaling compounding |
+| **Major incident (fatality, crash)** | →A | Safety narrative reversed |
+| **Regulatory approval reversed** | →A | Pilot closure; policy flip |
 
 ---
 
-## Section 5: Scenario Probability Adjustment Rules
+## Quarterly Data Collection (Due 30 Days Post-Earnings)
 
-**Decision framework for repricing scenarios quarterly.**
-
-### Rule 1: Waymo Tier 2 Expansion Velocity
-
-| Actual Approvals | Conservative (0.25x) | Infrastructure (0.5x) | Monopoly (1.0x) | Guidance |
-|-----------------|---------------------|----------------------|-----------------|----------|
-| **0 metros Q1-Q2** | Slightly more likely (+5%) | Slightly less likely (-5%) | Much less likely (-10%) | Delay infrastructure inflection to 2029 |
-| **1 new metro (expected)** | No change | No change | No change | On track |
-| **2+ new metros** | Much less likely (-10%) | Slightly more likely (+5%) | More likely (+10%) | Accelerate inflection; pull forward 2030 milestones |
-
-**Action:** After Q2 and Q3 2026, reweight probabilities based on cumulative metro approvals YTD vs. expected path.
-
-### Rule 2: Utilization Efficiency Trajectory
-
-| Waymo SF Utilization | Conservative | Infrastructure | Monopoly | Note |
-|----------------------|--------------|-----------------|----------|------|
-| **Falls Below 80%** | Slightly more likely (+3%) | Less likely (-5%) | Much less likely (-8%) | Demand assumptions too high |
-| **Stays 80-85%** | No change | No change | No change | On track for all scenarios |
-| **Reaches 90%+** | Less likely (-5%) | More likely (+8%) | More likely (+10%) | Demand stronger; infrastructure premium evident |
-
-**Action:** Track quarterly; adjust in Q2-Q4 2026.
-
-### Rule 3: Intervention Rate Progress (Waymo vs. Tesla)
-
-| Rate | Waymo Moat Narrative | Adjustment | Note |
-|-----|---------------------|-----------|------|
-| **Waymo 18k, Tesla 18k** | No gap; no moat | Monopoly -15%, split to Inf/Cons | Safety learning similar; regulation won't favor one |
-| **Waymo 20k, Tesla 16k** | Widening (on path) | Monopoly +5% | Gap compounding; infrastructure scenario more likely |
-| **Waymo 22k+, Tesla <14k** | Significant gap | Monopoly +10%, Inf +5% | Clear safety lead; regulatory moat likely |
-
-**Action:** Quarterly comparison; adjust Monopoly probability based on gap widening/narrowing.
-
-### Rule 4: City Integration Signals (Infrastructure Case Validator)
-
-| Evidence | Probability Shift | Reason |
-|----------|------------------|--------|
-| **Zero mentions of parking/emergency integration in MD&A** | Infrastructure -10%, Conservative +10% | Infrastructure value layer assumption broken |
-| **One city (SF) integrates with emergency services OR parking system** | Infrastructure +5%, Monopoly +3% | Value layer proof-of-concept; scales to other metros |
-| **Two+ cities adopt Waymo as city OS (traffic, parking, emergency)** | Infrastructure +10%, Monopoly +8% | Infrastructure case confirmed; natural monopoly path opened |
-
-**Action:** Qualitative check each quarter; milestone-based repricing.
-
-### Rule 5: Collective Probability Shift (Annual Decision)
-
-**When cumulative adjustments exceed 10 percentage points in any scenario:**
-
-1. **Recalculate terminal valuations** using updated scenario probabilities
-2. **Recalculate per-share impact** (impact = probability × per-scenario-per-share-value)
-3. **Update GOOGL/TSLA investment thesis** with new probability-weighted valuation
-4. **Communicate repricing:** Document which KPI shifts drove the change
-
-**Example:**
-- Original: Conservative 40%, Infrastructure 40%, Monopoly 20%
-- Q2 2026 actual: Waymo hits 2x metro approvals, FSD stalls, utilization 92%
-- Adjusted: Conservative 25%, Infrastructure 50%, Monopoly 25% (Monopoly +5%, Infrastructure +10%, Conservative -15%)
-- **Repricing trigger:** Yes, shift >10 points
-- **New Waymo PV:** (0.25 × $30B) + (0.50 × $65.2B) + (0.25 × $126.6B) = $7.5B + $32.6B + $31.7B = **$71.8B** (vs. $63.4B before)
-- **Per-share impact:** +$5.96 (vs. +$5.26 before)
+| Source | Extract | Waymo (GOOGL) | Tesla (TSLA) |
+|--------|---------|---|---|
+| **10-Q + MD&A** | Deployment plans, guidance, risks | Fleet guidance, utilization plan | FSD timeline, Robotaxi capex |
+| **Earnings Call** | Management tone on approval, autonomy progress | Approval pace, intervention rate | FSD improvement rate, tier expansion |
+| **Investor Presentation** | Roadmap, new use cases | Non-ride monetization signals | Cost structure, manufacturing trends |
+| **Press Release** | Fleet size, metro expansion | Ownership behavior signals | Regulatory wins, competitive positioning |
 
 ---
 
-## Section 6: Annual Deep Dive Checklist (Q4 Only)
+## Regime Determination Rules
 
-**Due within 30 days of Q4 earnings release; informs 2027 guidance and thesis update.**
+**If KPI hits hard trigger threshold, regime transition is FORCED.**
 
-### Full-Year Assessment
-
-- [ ] **Cumulative Interval Rate Progress:** How far did Waymo/Tesla move toward next 5B-mile safety milestone?
-- [ ] **Full-Year Take-Rate by Tier:** Gross revenue / gross miles for each tier; any compression signals?
-- [ ] **Fleet Composition:** Split of Tier 1 vs. Tier 2 vs. Tier 3; is expansion on expected path?
-- [ ] **Capex Efficiency:** Total capex / fleet size; is manufacturing cost declining as expected?
-- [ ] **Geographic Concentration:** % of revenue from top 3 metros; diversification progress?
-- [ ] **Forward Guidance Reality Check:** Did company hit 2026 targets stated in 2025? What are 2027 guidance?
-
-### Scenario Reforecast (If Material Changes)
-
-- [ ] **Demand Inflection:** Any evidence behavior change is accelerating or delaying?
-- [ ] **Margin Architecture:** Is infrastructure layer monetization visible, or still transactional?
-- [ ] **Competitive Dynamics:** Has Waymo's lead widened or narrowed vs. Tesla, Cruise, others?
-- [ ] **2035 Terminal Assumptions:** Do 2035 fleet size / revenue / multiple assumptions still hold?
-
-### Update Investment Thesis
-
-- [ ] **Revise per-company probabilities** if annual data suggests major shift
-- [ ] **Update 2028-2035 projections** if inflection years need to move
-- [ ] **Recalculate terminal values** with any updated assumptions
-- [ ] **Publish updated investment thesis documents** (goog/ROBOTAXI_ANALYSIS.md, tsla/ROBOTAXI_ANALYSIS.md)
+| KPI Trend | Regime A | Regime B | Regime C | Decision |
+|-----------|----------|----------|----------|----------|
+| **Ownership grows 5→10%** | Challenged | Threshold hit | — | A→B forced |
+| **Approval accelerates to 8%+/year** | Challenged | Threshold hit | — | A→B forced |
+| **Non-ride climbs to 10% of miles** | Challenged | Threshold hit | — | A→B forced |
+| **Take-rate sustains >30%** | Challenged | Threshold hit | — | A→B forced |
+| **Fleet guidance exceeds 500k** | Challenged | Threshold hit | — | A→B forced |
+| **Ownership grows 30→35%** | — | Challenged | Threshold hit | B→C forced |
+| **Approval accelerates to 10%+/year** | — | Challenged | Threshold hit | B→C forced |
+| **Non-ride climbs to 30% of miles** | — | Challenged | Threshold hit | B→C forced |
+| **One player >75% of market** | — | Challenged | Threshold hit | B→C forced |
+| **Ownership stalls <10% (after 3yr)** | Confirmed | — | — | B→A collapse |
+| **Approval stalls <2%/year** | Confirmed | — | — | B→A collapse |
+| **Take-rate drops <18%** | Confirmed | — | — | B→A collapse |
+| **Intervention rate flat 4+ quarters** | Confirmed | Challenged | — | C→B or B→A |
 
 ---
 
-## Section 7: Repricing Trigger & Valuation Update Process
+## Annual Deep Dive (Q4 Only)
 
-**When to act and how.**
+**Within 30 days of Q4 earnings; determines if regime assumptions still hold for 2027+.**
 
-### Automatic Repricing Condition
-
-**Any scenario's cumulative probability shifts by >10 percentage points from prior quarter.**
-
-### Repricing Workflow
-
-1. **Data Collection (Days 1-2):** Populate quarterly scorecard (Section 2)
-2. **Flag Assessment (Day 3):** Check against red flag thresholds (Section 3)
-3. **Probability Adjustment (Day 4):** Apply decision rules (Section 5); calculate new weights
-4. **Valuation Recalculation (Day 5):**
-   ```
-   New Waymo PV = (Conservative% × $30B) + (Infrastructure% × $65.2B) + (Monopoly% × $126.6B)
-   New Tesla PV = (Conservative% × $1.6B) + (Infrastructure% × $3.5B) + (Monopoly% × $7.1B)
-   New GOOGL Per-Share = Waymo PV / 12.06B shares
-   New TSLA Per-Share = Tesla PV / 4.0B shares
-   ```
-5. **Communication (Day 6):**
-   - Document scenario shift and KPI drivers
-   - Update GOOGL/TSLA investment thesis files
-   - Email alert: "Robotaxi scenarios repriced: [Old PV] → [New PV], +/- $X/share"
-
-### Example: Q2 2026 Repricing
-
-**Scenario:** Waymo approves 2 new Tier 2 metros in Q2 (vs. 1 expected); utilization hits 91% in SF; FSD intervention rate stalls at 16k miles (vs. expected 17k).
-
-**Impact:**
-- Tier 2 acceleration (+2 metros): Infrastructure +8%, Monopoly +5%, Conservative -13% → probabilities now 27% / 48% / 25%
-- Utilization strength: Infrastructure +3%, Monopoly +2% → 30% / 51% / 19%
-- FSD stall relative to Waymo: Monopoly -8% (moat widening is key to this case) → 30% / 51% / 19%
-- **Net shift:** Conservative -13%, Infrastructure +11%, Monopoly +2% ✓ Exceeds 10-point threshold
-
-**Waymo Repricing:**
-- New Expected PV = (0.30 × $30B) + (0.51 × $65.2B) + (0.19 × $126.6B) = $9.0B + $33.3B + $24.1B = $66.4B
-- Per GOOGL share = $66.4B / 12.06B = **+$5.51/share** (vs. +$5.26 before)
-- **Implication:** Waymo's optionality worth +$0.25/share more; thesis upgraded to "Infrastructure path likely"
+- [ ] Full-year intervention rate trend (did company hit improvement targets?)
+- [ ] Take-rate by tier YTD (any compression signals?)
+- [ ] Fleet expansion actual vs. guidance (on track for regime's fleet size targets?)
+- [ ] Non-ride revenue mix (emerging or flat?)
+- [ ] Ownership substitution signals (market data, insurance, public transit ridership)
+- [ ] Competitive gap (Waymo vs. Tesla intervention rate delta widening/narrowing?)
+- [ ] If regime threshold hit: Update GOOG/TSLA investment thesis with new regime valuation
 
 ---
 
-## Section 8: Summary — The Monitoring Rhythm
+## When a Hard Trigger is Hit
 
-| Timing | Deliverable | Owner | Key Question |
-|--------|-------------|-------|--------------|
-| **T+30 days post-earnings** | Quarterly scorecard (Section 2) populated | Analyst | What KPIs moved? |
-| **T+45 days post-earnings** | Red flag audit (Section 3) + scenario assessment (Section 5) | Analyst | Did any break threshold? |
-| **T+50 days post-earnings** | Repricing decision (Section 7) if >10pt shift | Investment Committee | Do we update thesis? |
-| **Q4 only (T+60 days)** | Annual deep dive (Section 6) + 2027-2035 reforecast | Analyst | Do 2035 assumptions still hold? |
-| **Always (on file)** | Investment thesis docs updated with latest prob-weighted valuations | Analyst | Does market reflect optionality? |
+**If any KPI reaches regime threshold, regime transition is FORCED.**
+
+**Immediate Actions (within 5 business days):**
+1. Confirm threshold breach (cross-validate with multiple data sources)
+2. Recalculate terminal valuations using new regime economics
+3. Update per-share impact (valuation drops/spikes discontinuously)
+4. Update GOOG/TSLA investment thesis documents
+5. Document which KPI(s) forced the regime shift
+
+**Example: Q2 2026 A→B Trigger**
+- Waymo ownership substitution measured at 12% (vs. Regime A max 5%)
+- **Trigger:** Hard threshold A→B breached
+- **Action:** Regime A model ($30–90B Waymo valuation) → Regime B model ($150–400B)
+- **Valuation jump:** Discontinuous, not gradual
+- **Thesis update:** Publish revised per-share impact; recommend position increase
+
+---
+
+## Monitoring Timeline
+
+| Timing | Deliverable | KPI Check |
+|--------|-------------|-----------|
+| **T+30 days post-earnings** | Quarterly KPI tracking | Which KPIs moved toward regime thresholds? |
+| **T+45 days post-earnings** | Regime assessment | Did any hard trigger breach? |
+| **Q4 only (T+60 days)** | Annual deep dive | Do regime assumptions still hold for 2027+? |
+
+**Key Checkpoints:**
+- **Q4 2027:** First major checkpoint (A confirm, B trigger evident, or C signals)
+- **Q4 2028:** Second checkpoint (B escalate to C, or fallback to A)
+- **Q4 2030:** Final regime determination
 
 ---
 
-## Appendix: 2026-2027 Expected Paths (Baseline Scenario Projections)
+## Regime Transition Timeline (Baseline Expectations)
 
-### Waymo Expected Milestones (Infrastructure Case)
-
-| Quarter | Fleet | Intervention Rate (mi) | Tier 2 Metros | Utilization (SF) | Signal to Watch |
-|---------|-------|----------------------|----------------|------------------|-----------------|
-| Q1 2026 | 18k | 17.5k | 5 | 85% | Baseline establishment |
-| Q2 2026 | 22k | 18.0k | 6 | 86% | First Tier 2 expansion |
-| Q3 2026 | 26k | 18.5k | 7 | 87% | Acceleration signal |
-| Q4 2026 | 32k | 19.0k | 8 | 87% | Regulatory velocity confirmed |
-| Q2 2027 | 45k | 21.0k | 10 | 89% | Infrastructure premium emerging |
-| Q4 2027 | 60k | 23.0k | 12 | 90% | Inflection path on track |
-
-### Tesla Expected Milestones (Infrastructure Case)
-
-| Quarter | Fleet | FSD Intervention (mi) | Tier 3 Metros | Utilization (Suburban Avg) | Signal to Watch |
-|---------|-------|----------------------|----------------|----------------------------|-----------------|
-| Q1 2026 | 8k | 16k | 6 | 58% | Baseline ops |
-| Q2 2026 | 12k | 16.5k | 7 | 59% | Slow FSD progress |
-| Q3 2026 | 16k | 17k | 8 | 60% | Regulatory momentum |
-| Q4 2026 | 22k | 17.5k | 10 | 61% | Deployment accelerating |
-| Q2 2027 | 35k | 19k | 13 | 64% | FSD improvement visible |
-| Q4 2027 | 50k | 21k | 16 | 67% | Cost advantage emerging |
-
-**Deviations >1.5 sigma from above paths warrant scenario adjustment.**
-
----
+| Event | Regime A Path | Regime B Path | Regime C Path |
+|-------|---|---|---|
+| **Q1–Q3 2026** | Confirmation or first A→B signals | Early signals (approval >6%, ownership 5–10%) | Unlikely (pre-B threshold) |
+| **Q4 2026** | Confirm A or hit A→B trigger | Progress toward B (ownership 10–15%, approval 7%) | Unlikely |
+| **Q2 2027** | If A: Hold through 2027 | Ownership 15–20%, approval 7–8%, evidence of B dynamics | Unlikely |
+| **Q4 2027** | Final confirmation A (50%+ prob remains) | Ownership 20–25%, approval 8%+, first B→C signals visible | Early signals (ownership 30%+, approval 9%+) |
+| **Q4 2028** | Very unlikely to shift further | Ownership 25–30%, still in S-curve | Ownership 35–45%, approval 10%+, B→C trigger possible |
 
 **Last Updated:** May 20, 2026  
-**Monitoring Interval:** Quarterly (post-earnings, within 30 days)  
-**Repricing Condition:** >10 percentage-point shift in cumulative scenario probability  
-**Status:** Ready for H2 2026 quarterly monitoring cycle
+**Monitoring Interval:** Quarterly  
+**Status:** Ready for H2 2026 monitoring cycle
