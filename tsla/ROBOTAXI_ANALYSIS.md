@@ -124,6 +124,8 @@ Typical workflow:
 
 ## Accessing the Shared Model
 
+### Core Model Documentation
+
 See [`robotaxi_analysis/README.md`](../../robotaxi_analysis/README.md) for:
 - Full model documentation
 - All customization options (rollout timeline, market share, assumptions)
@@ -147,6 +149,15 @@ python3 run_all_scenarios.py --market-share-json '{"tesla":0.6,"waymo":0.4}'
 # Run single scenario with custom assumptions
 python3 robotaxi_revenue_model.py --scenario hypergrowth --market-json '{"us_metro_population_full": 300000000}'
 ```
+
+### Optionality Framework (Extended Analysis)
+
+**For deeper analysis of Tesla's potential value under different autonomy maturity scenarios, see:**
+
+- **[`OPTIONALITY_SCENARIOS.md`](../../robotaxi_analysis/OPTIONALITY_SCENARIOS.md)** — Three scenarios (Conservative Transport / Infrastructure Layer / Natural Monopoly) with detailed assumptions. **Start here for understanding how regulatory moats and behavior change affect the competitive dynamic between Waymo and Tesla.**
+- **[`OPTIONALITY_SCENARIOS_RESULTS.md`](../../robotaxi_analysis/OPTIONALITY_SCENARIOS_RESULTS.md)** — 2035 terminal valuations for each scenario: Tesla ranges from $1.6B PV (Conservative) to $7.1B PV (Monopoly); probability-weighted $2.0B (+$0.50/share). **Key finding: Tesla's option value collapses 80% in global expansion scenario due to eroding cost advantage.**
+- **[`QUARTERLY_MONITORING_FRAMEWORK.md`](../../robotaxi_analysis/QUARTERLY_MONITORING_FRAMEWORK.md)** — Quarterly KPI tracking, red flag thresholds, repricing triggers, and scenario probability adjustment rules. **Critical for Tesla monitoring: tracks FSD intervention rate, Tier 3 approvals, and remote ops cost scaling.**
+- **[`INFRASTRUCTURE_CASE_GUIDANCE_2026_2030.md`](../../robotaxi_analysis/INFRASTRUCTURE_CASE_GUIDANCE_2026_2030.md)** — Detailed quarter-by-quarter expectations for Tesla fleet, utilization, take-rate, FSD intervention rate, and revenue progression through 2030 under the Infrastructure scenario. **Use to validate vs. actuals each quarter and assess if autonomy is tracking.**
 
 ---
 
@@ -488,4 +499,4 @@ python3 robotaxi_revenue_model.py --scenario hypergrowth --market-json '{"us_met
 
 **Last updated:** 2026-05-20  
 **Model version:** Reframed (autonomy maturity as primary risk, regulatory approval as secondary constraint)  
-**Status:** Bull case ($40B) feasible if milestones hit; Bear case ($0) if autonomy stalls; Base ($16B PV) most likely outcome
+**Status:** Bull case $15.9B PV (+$3.98/share); **optionality framework live** (Conservative $1.6B / Infrastructure $3.5B / Monopoly $7.1B); quarterly monitoring framework ready; probability-weighted expected value $2.0B (+$0.50/share); **critical risk: global expansion scenario destroys 80% of bull case value**

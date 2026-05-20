@@ -1,0 +1,84 @@
+{
+  "waymo": {
+    "Conservative (Transport)": {
+      "year": 2035,
+      "scenario": "Conservative (Transport)",
+      "company": "waymo",
+      "fleet_operating": 750000,
+      "gross_passenger_revenue": 6.714556460625687e-08,
+      "net_platform_revenue": 2.3500947612189906e-08,
+      "revenue_miles_per_vehicle_day": 1.2909505331652368e-07,
+      "utilization_efficiency": -0.7499999995251856,
+      "terminal_multiple": 25,
+      "terminal_value_billions": 5.875236903047476e-07,
+      "pv_at_10pct_wacc_billions": 2.2678414445763255e-07
+    },
+    "Infrastructure Layer": {
+      "year": 2035,
+      "scenario": "Infrastructure Layer",
+      "company": "waymo",
+      "fleet_operating": 750000,
+      "gross_passenger_revenue": 7.447536579706969e-07,
+      "net_platform_revenue": 2.606637802897439e-07,
+      "revenue_miles_per_vehicle_day": 1.4318743724502704e-06,
+      "utilization_efficiency": -0.749999994733535,
+      "terminal_multiple": 25,
+      "terminal_value_billions": 6.5165945072435974e-06,
+      "pv_at_10pct_wacc_billions": 2.5154054797960286e-06
+    },
+    "Natural Monopoly": {
+      "year": 2035,
+      "scenario": "Natural Monopoly",
+      "company": "waymo",
+      "fleet_operating": 750000,
+      "gross_passenger_revenue": 5.531489100442157e-06,
+      "net_platform_revenue": 1.936021185154755e-06,
+      "revenue_miles_per_vehicle_day": 1.0634922567540796e-05,
+      "utilization_efficiency": -0.7499999608845238,
+      "terminal_multiple": 25,
+      "terminal_value_billions": 4.840052962886887e-05,
+      "pv_at_10pct_wacc_billions": 1.868260443674338e-05
+    }
+  },
+  "tesla": {
+    "Conservative (Transport)": {
+      "year": 2035,
+      "scenario": "Conservative (Transport)",
+      "company": "tesla",
+      "fleet_operating": 750000,
+      "gross_passenger_revenue": 1.56653460917944e-05,
+      "net_platform_revenue": 4.386296905702432e-06,
+      "revenue_miles_per_vehicle_day": 5.2022735049545534e-05,
+      "utilization_efficiency": -0.7499997626781186,
+      "terminal_multiple": 25,
+      "terminal_value_billions": 0.00010965742264256081,
+      "pv_at_10pct_wacc_billions": 4.2327765140028474e-05
+    },
+    "Infrastructure Layer": {
+      "year": 2035,
+      "scenario": "Infrastructure Layer",
+      "company": "tesla",
+      "fleet_operating": 750000,
+      "gross_passenger_revenue": 9.876158251984109e-05,
+      "net_platform_revenue": 2.7653243105555507e-05,
+      "revenue_miles_per_vehicle_day": 0.0003279753674382435,
+      "utilization_efficiency": -0.7499985038131661,
+      "terminal_multiple": 25,
+      "terminal_value_billions": 0.0006913310776388877,
+      "pv_at_10pct_wacc_billions": 0.0002668537959686107
+    },
+    "Natural Monopoly": {
+      "year": 2035,
+      "scenario": "Natural Monopoly",
+      "company": "tesla",
+      "fleet_operating": 750000,
+      "gross_passenger_revenue": 0.0004580991686922058,
+      "net_platform_revenue": 0.00012826776723381763,
+      "revenue_miles_per_vehicle_day": 0.001521292382539496,
+      "utilization_efficiency": -0.7499930600348099,
+      "terminal_multiple": 25,
+      "terminal_value_billions": 0.003206694180845441,
+      "pv_at_10pct_wacc_billions": 0.0012377839538063402
+    }
+  }
+}

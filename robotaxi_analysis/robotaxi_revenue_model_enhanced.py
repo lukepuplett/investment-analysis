@@ -5,8 +5,32 @@ Enhanced robotaxi revenue model with:
 2. Supply constraints (manufacturing, charging, service, regulatory, battery)
 3. Congestion feedback on demand elasticity
 4. Terminal state classification (structure + valuation multiple)
+5. Optionality scenarios (infrastructure/monopoly vs transport market) [NEW]
 
 All original functionality preserved; enhancements are layered on top.
+
+## Optionality Scenarios (NEW)
+
+The model now supports three market structure assumptions:
+
+1. **Conservative (Transport Market)**:
+   - Fixed trips/capita, limited induced demand
+   - Terminal multiples: 8-18x (transport economics)
+   - Result: $23.4B PV for Waymo (current baseline)
+
+2. **Infrastructure Layer**:
+   - 2x induced demand from behavior change starting 2028
+   - City OS, logistics, data monetization value
+   - Terminal multiples: 15-32x (infrastructure economics)
+   - Result: $50-100B PV for Waymo
+
+3. **Natural Monopoly**:
+   - Winner-take-most with compounding moats
+   - Safety datasets, regulatory preference, city lock-in
+   - Terminal multiples: 20-45x (platform monopoly)
+   - Result: $100-300B PV for Waymo
+
+Use optionality_scenarios() to access extended scenarios.
 """
 
 from __future__ import annotations

@@ -47,13 +47,22 @@ Google (Alphabet) does not directly operate a public robotaxi service, but **Way
 
 The model is located at `/robotaxi_analysis/` (repo root). See [`../../robotaxi_analysis/README.md`](../../robotaxi_analysis/README.md) for full documentation.
 
-### Files
+### Core Model Files
 
 - **`robotaxi_revenue_model.py`** — Core simulation engine
 - **`run_all_scenarios.py`** — Multi-scenario executor (runs slow, base, hypergrowth, platform_dominance)
 - **`README.md`** — Full documentation and usage guide
 - **`all_scenarios_sample.csv`** — Sample CSV output (all scenarios, 2026–2035)
 - **`all_scenarios_sample.json`** — Sample JSON output (structured results for downstream analysis)
+
+### Optionality Framework (Extended Analysis)
+
+**For deeper analysis of Waymo's potential value under different market scenarios, see:**
+
+- **[`OPTIONALITY_SCENARIOS.md`](../../robotaxi_analysis/OPTIONALITY_SCENARIOS.md)** — Three scenarios (Conservative Transport / Infrastructure Layer / Natural Monopoly) with detailed assumptions and inflection points. **Start here for understanding scenario mechanics.**
+- **[`OPTIONALITY_SCENARIOS_RESULTS.md`](../../robotaxi_analysis/OPTIONALITY_SCENARIOS_RESULTS.md)** — 2035 terminal valuations for each scenario: Waymo ranges from $30B PV (Conservative) to $126.6B PV (Monopoly); probability-weighted $63.4B (+$5.26/share)
+- **[`QUARTERLY_MONITORING_FRAMEWORK.md`](../../robotaxi_analysis/QUARTERLY_MONITORING_FRAMEWORK.md)** — Quarterly KPI tracking, red flag thresholds, repricing triggers, and scenario probability adjustment rules. **Essential for operational monitoring post-Q2 2026.**
+- **[`INFRASTRUCTURE_CASE_GUIDANCE_2026_2030.md`](../../robotaxi_analysis/INFRASTRUCTURE_CASE_GUIDANCE_2026_2030.md)** — Detailed quarter-by-quarter expectations for fleet, utilization, take-rate, intervention rate, and revenue progression through 2030 under the Infrastructure scenario. **Use to validate vs. actuals each quarter.**
 
 ## Quick Usage
 
@@ -402,4 +411,4 @@ All customizable via CLI flags (see `robotaxi_analysis/README.md`):
 
 **Last updated:** 2026-05-20  
 **Model version:** Reframed (regulatory approval primary, charging elastic)  
-**Status:** Valuation anchored at $60B; monitoring metrics defined; ready for quarterly thesis review
+**Status:** Base case $60B valuation; **optionality framework live** (Conservative $30B / Infrastructure $65.2B / Monopoly $126.6B); quarterly monitoring operational; probability-weighted expected value $63.4B (+$5.26/share)
