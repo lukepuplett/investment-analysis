@@ -20,6 +20,22 @@
 
 ---
 
+## Geographic Scope
+
+**Analysis covers USA market only.** The model includes 11 metropolitan areas:
+
+**Explicitly Modeled (8 metros):**
+- **Tier 1 (Premium):** SF/East Bay (7.7M), Phoenix (5.0M), LA Downtown (3.5M)
+- **Tier 2 (Secondary):** Austin (2.4M), Denver (3.2M)
+- **Tier 3 (Suburban):** DFW Suburbs (4.0M), LA Suburbs (6.0M)
+- **Aggregate tier buckets (3):** Tier 1 Other (7.8M: NYC, Boston, Seattle, DC), Tier 2 Other (32.7M: Chicago, Atlanta, rest of secondary), Tier 3 Other (206.2M: remaining suburban/exurban US)
+
+**Total coverage:** 278.5M of 280M US metro population (99.5%)
+
+**Note:** Defined metros (8) cover 31.8M explicitly; aggregates cover remaining 246.7M at tier-level characteristics. For 2035 projections, model uses national rollout grid with tier-specific regulatory velocities.
+
+---
+
 ## Overview
 
 Google (Alphabet) does not directly operate a public robotaxi service, but **Waymo** (Google's autonomous vehicle subsidiary) is the primary competitive counterpart to Tesla's robotaxi ambitions. This shared model compares:
