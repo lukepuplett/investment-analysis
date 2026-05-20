@@ -8,15 +8,16 @@
 
 **Tesla's robotaxi strategy hinges entirely on vision autonomy survival in long-tail edge cases. Charging bottleneck is a red herring; regulatory approval is the real constraint. If autonomy works: Tesla dominates suburban Tier 3 with 200k+ vehicles, 18% take-rate, $4.2B platform revenue at 9.8x multiple = $40B+ option value. If autonomy fails: near-zero value. The charging model was wrong (elastic capital, $500/vehicle/year, 0.5% of fleet cost). Real risk: remote ops costs don't scale with intervention rate, or vision failures spike after 2030 as edge cases accumulate. For Tesla shareholders: robotaxi is all-or-nothing bet on FSD maturity, not a utility-scale regulated business. Waymo's 17.3x premium metro moat is structural; Tesla's optionality is fragile.**
 
-## ⚠️ MODEL REFRAME (May 2026)
+## ⚠️ REGIME-BASED REFRAME (May 2026)
 
-**The original model is SUPERSEDED.** The "charging bottleneck" assumption was incorrect. See [`robotaxi_analysis/REFRAME_ANALYSIS.md`](../robotaxi_analysis/REFRAME_ANALYSIS.md) for complete reframe:
+**Tesla's robotaxi case depends critically on which regime materializes.** See [`robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md`](../../robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md) for architectural critique.
 
-- ✅ **Charging is NOT the bottleneck** — it's elastic capital ($500/vehicle/year, 0.5% of fleet economics)
-- ✅ **Regulatory approval is the actual constraint** — gates fleet by metro tier
-- ✅ **Tesla's real risk is autonomy fragility** — remote ops costs don't scale if intervention rate doesn't improve with scale
-- ✅ **Tesla's real path is Tier 3 dominance** — suburban markets where lower density and cost advantage matter, not mass-market network effects
-- ✅ **Different terminal outcomes** — Tesla bull case 9.8x multiple (commodity suburban), bear case near-zero (autonomy fails)
+**Regime outcomes for Tesla:**
+- ✅ **Regime A (Utility):** Fleet 150–250k, take-rate 18–32%, 2035 revenue $4–6B, terminal value $15–50B (IF vision autonomy survives)
+- ✅ **Regime B (Infrastructure):** Fleet 800k–2M, take-rate 25–40%, 2035 revenue $8–15B, terminal value $80–200B (IF autonomy + ownership shift)
+- ✅ **Regime C (Platform):** Fleet 8M–30M, take-rate 40–65%, 2035 revenue $50–120B, terminal value $500B–5T (IF Tesla wins; or $0 if loses)
+- ✅ **Autonomy fragility is the hinge:** Intervention rate stall (4+ quarters flat) collapses value instantly
+- ✅ **Ownership substitution determines outcome:** If <5%, Tesla stays Tier 3 commodity (9.8x). If 20–30%, Tesla participates in infrastructure layer (15–25x). If 50%+, winner-take-most to Waymo or Tesla
 
 ---
 
@@ -154,10 +155,19 @@ python3 robotaxi_revenue_model.py --scenario hypergrowth --market-json '{"us_met
 
 **For deeper analysis of Tesla's potential value under different autonomy maturity scenarios, see:**
 
-- **[`OPTIONALITY_SCENARIOS.md`](../../robotaxi_analysis/OPTIONALITY_SCENARIOS.md)** — Three scenarios (Conservative Transport / Infrastructure Layer / Natural Monopoly) with detailed assumptions. **Start here for understanding how regulatory moats and behavior change affect the competitive dynamic between Waymo and Tesla.**
-- **[`OPTIONALITY_SCENARIOS_RESULTS.md`](../../robotaxi_analysis/OPTIONALITY_SCENARIOS_RESULTS.md)** — 2035 terminal valuations for each scenario: Tesla ranges from $1.6B PV (Conservative) to $7.1B PV (Monopoly); probability-weighted $2.0B (+$0.50/share). **Key finding: Tesla's option value collapses 80% in global expansion scenario due to eroding cost advantage.**
-- **[`QUARTERLY_MONITORING_FRAMEWORK.md`](../../robotaxi_analysis/QUARTERLY_MONITORING_FRAMEWORK.md)** — Quarterly KPI tracking, red flag thresholds, repricing triggers, and scenario probability adjustment rules. **Critical for Tesla monitoring: tracks FSD intervention rate, Tier 3 approvals, and remote ops cost scaling.**
-- **[`INFRASTRUCTURE_CASE_GUIDANCE_2026_2030.md`](../../robotaxi_analysis/INFRASTRUCTURE_CASE_GUIDANCE_2026_2030.md)** — Detailed quarter-by-quarter expectations for Tesla fleet, utilization, take-rate, FSD intervention rate, and revenue progression through 2030 under the Infrastructure scenario. **Use to validate vs. actuals each quarter and assess if autonomy is tracking.**
+**Core Regime Economics:**
+- **[`REGIME_A_UTILITY.md`](../../robotaxi_analysis/REGIME_A_UTILITY.md)** — Transport model (fleet 150–250k, take-rate 18–32%, 2035 revenue $4–6B, terminal value $15–50B). **Tesla's base case IF autonomy survives.**
+- **[`REGIME_B_INFRASTRUCTURE.md`](../../robotaxi_analysis/REGIME_B_INFRASTRUCTURE.md)** — Infrastructure layer (fleet 800k–2M, take-rate 25–40%, 2035 revenue $8–15B, terminal value $80–200B). **Tesla participates if ownership shifts 20–30% and autonomy holds.**
+- **[`REGIME_C_PLATFORM.md`](../../robotaxi_analysis/REGIME_C_PLATFORM.md)** — Computing platform (fleet 8M–30M, take-rate 40–65%, 2035 revenue $50–120B, terminal value $500B–5T). **Tesla wins big OR loses completely (bifurcated outcome).**
+
+**Valuation & Framework:**
+- **[`REGIME_VALUATION_MASTER.md`](../../robotaxi_analysis/REGIME_VALUATION_MASTER.md)** — 2035 outcomes for Tesla: A $15–50B, B $80–200B, C $500B–5T (if wins) or $0 (if loses). Probability baseline (May 2026): A 50%, B 35%, C 15%.
+- **[`REGIME_TRANSITIONS.md`](../../robotaxi_analysis/REGIME_TRANSITIONS.md)** — Hard triggers that force regime shifts. **Critical for Tesla: intervention rate flat 4+ quarters = C→B downshift or B→A collapse.**
+- **[`REGIME_INDICATORS.md`](../../robotaxi_analysis/REGIME_INDICATORS.md)** — Leading indicators by regime. **For Tesla: FSD intervention rate is Tier 1 signal; approval pace is Tier 2.**
+
+**Monitoring & Indicators:**
+- **[`QUARTERLY_MONITORING_FRAMEWORK.md`](../../robotaxi_analysis/QUARTERLY_MONITORING_FRAMEWORK.md)** — Reframed from scenario probability to regime determination. **Critical for Tesla: track intervention rate (autonomy health) + ownership % (regime signal) + approval pace (regulatory environment).**
+- **[`MODEL_ARCHITECTURE_COMPARISON.md`](../../robotaxi_analysis/MODEL_ARCHITECTURE_COMPARISON.md)** — Transport vs. platform model comparison. **Tesla's cost advantage erodes in platform (Regime C) due to labor/manufacturing economics.**
 
 ---
 

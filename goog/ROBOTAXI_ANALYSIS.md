@@ -8,15 +8,16 @@
 
 **Waymo's competitive moat is regulatory trust and premium market dominance, NOT charging infrastructure. The original model's "2-charger bottleneck" was a spreadsheet constraint, not a physical law. Reframed analysis reveals: regulatory approval (not chargers) is the primary binding constraint through 2035. Waymo dominates premium metros (Tier 1: SF, Phoenix, LA) with 89.7% utilization and 32% take-rate, generating $3.5B+ platform revenue from 120k vehicles at 17.3x valuation multiple. Tesla's path (IF vision autonomy matures) is suburban Tier 3 dominance (200k vehicles) at 9.8x multiple with 18% take-rate. For Alphabet: Waymo's real advantage is regulatory relationships + operational competence in high-value markets, not charging logistics. Charging is $500/vehicle/year capex (0.5% of fleet economics) — trivial, solved with capital, never a constraint.**
 
-## ⚠️ MODEL REFRAME (May 2026)
+## ⚠️ REGIME-BASED REFRAME (May 2026)
 
-**The original model is SUPERSEDED.** The "charging bottleneck" assumption was incorrect. See [`robotaxi_analysis/REFRAME_ANALYSIS.md`](../robotaxi_analysis/REFRAME_ANALYSIS.md) for complete reframe:
+**The original model (Regime A: Utility) is the base case, not the full range.** Waymo's optionality is much larger if ownership substitution emerges. See [`robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md`](../../robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md) for architectural critique.
 
-- ✅ **Charging is NOT the bottleneck** — it's elastic capital ($500/vehicle/year, 0.5% of fleet economics)
-- ✅ **Regulatory approval is the actual constraint** — gates fleet by metro tier
-- ✅ **Waymo's advantage is premium market concentration** — Tier 1 metros (SF, Phoenix) not charger density
-- ✅ **Tesla's path is suburban dominance** — IF vision autonomy survives edge cases; constrained by regulatory barriers in premium metros
-- ✅ **Different terminal structures** — Waymo 17.3x multiple (utility-scale premium market), Tesla 9.8x (commodity suburban)
+**Key reframes from original model:**
+- ✅ **Base case (Regime A):** Fleet 120–300k, take-rate 18–32%, 2035 revenue $3–5B, terminal value $30–90B (ownership <5%, approval linear)
+- ✅ **Infrastructure case (Regime B):** Fleet 500k–2M, take-rate 25–40%, 2035 revenue $15–30B, terminal value $150–400B (ownership 20–30%, approval S-curve)
+- ✅ **Platform case (Regime C):** Fleet 10–50M, take-rate 40–65%, 2035 revenue $50–150B, terminal value $2–10T (ownership 50%+, approval exponential)
+- ✅ **Ownership substitution % is hinge variable** — determines all other assumptions (approval pace, take-rate, fleet size, competitive dynamics)
+- ✅ **Probability-weighted expected value:** $368B–1.69T (vs single-regime $30–90B)
 
 ---
 
@@ -55,14 +56,27 @@ The model is located at `/robotaxi_analysis/` (repo root). See [`../../robotaxi_
 - **`all_scenarios_sample.csv`** — Sample CSV output (all scenarios, 2026–2035)
 - **`all_scenarios_sample.json`** — Sample JSON output (structured results for downstream analysis)
 
-### Optionality Framework (Extended Analysis)
+### Regime-Based Analysis Framework (May 2026 Reframe)
 
-**For deeper analysis of Waymo's potential value under different market scenarios, see:**
+**The original model is now reframed as Regime A (Utility).** For deeper analysis of Waymo's potential value under different market regimes, see:
 
-- **[`OPTIONALITY_SCENARIOS.md`](../../robotaxi_analysis/OPTIONALITY_SCENARIOS.md)** — Three scenarios (Conservative Transport / Infrastructure Layer / Natural Monopoly) with detailed assumptions and inflection points. **Start here for understanding scenario mechanics.**
-- **[`OPTIONALITY_SCENARIOS_RESULTS.md`](../../robotaxi_analysis/OPTIONALITY_SCENARIOS_RESULTS.md)** — 2035 terminal valuations for each scenario: Waymo ranges from $30B PV (Conservative) to $126.6B PV (Monopoly); probability-weighted $63.4B (+$5.26/share)
-- **[`QUARTERLY_MONITORING_FRAMEWORK.md`](../../robotaxi_analysis/QUARTERLY_MONITORING_FRAMEWORK.md)** — Quarterly KPI tracking, red flag thresholds, repricing triggers, and scenario probability adjustment rules. **Essential for operational monitoring post-Q2 2026.**
-- **[`INFRASTRUCTURE_CASE_GUIDANCE_2026_2030.md`](../../robotaxi_analysis/INFRASTRUCTURE_CASE_GUIDANCE_2026_2030.md)** — Detailed quarter-by-quarter expectations for fleet, utilization, take-rate, intervention rate, and revenue progression through 2030 under the Infrastructure scenario. **Use to validate vs. actuals each quarter.**
+**Core Regime Economics:**
+- **[`REGIME_A_UTILITY.md`](../../robotaxi_analysis/REGIME_A_UTILITY.md)** — Transport model (fleet 120–300k, take-rate 18–32%, 2035 revenue $3–5B, terminal value $30–90B). **This is the base case from the original model.**
+- **[`REGIME_B_INFRASTRUCTURE.md`](../../robotaxi_analysis/REGIME_B_INFRASTRUCTURE.md)** — Infrastructure layer (fleet 500k–2M, take-rate 25–40%, 2035 revenue $15–30B, terminal value $150–400B). Requires 20–30% ownership substitution and S-curve regulatory inflection.
+- **[`REGIME_C_PLATFORM.md`](../../robotaxi_analysis/REGIME_C_PLATFORM.md)** — Computing platform (fleet 10–50M, take-rate 40–65%, 2035 revenue $50–150B, terminal value $2–10T). Requires 50%+ ownership replacement and exponential approval post-inflection.
+
+**Valuation & Framework:**
+- **[`REGIME_VALUATION_MASTER.md`](../../robotaxi_analysis/REGIME_VALUATION_MASTER.md)** — 2035 outcomes comparison across all three regimes. Waymo: A $30–90B, B $150–400B, C $2–10T. Probability baseline (May 2026): A 50%, B 35%, C 15%. Expected value: $368B–1.69T.
+- **[`REGIME_COHERENCE_CONSTRAINTS.md`](../../robotaxi_analysis/REGIME_COHERENCE_CONSTRAINTS.md)** — Why assumptions are coupled within each regime. Cannot cherry-pick across regimes.
+- **[`REGIME_TRANSITIONS.md`](../../robotaxi_analysis/REGIME_TRANSITIONS.md)** — Hard triggers that force regime shifts (A→B, B→C, B→A, C→B, C→A). Key checkpoint: Q4 2027 (first major data point to distinguish regimes).
+
+**Monitoring & Indicators:**
+- **[`QUARTERLY_MONITORING_FRAMEWORK.md`](../../robotaxi_analysis/QUARTERLY_MONITORING_FRAMEWORK.md)** — Reframed from scenario probability to regime determination. Track KPIs quarterly; hard thresholds force regime transitions (not gradual probability shifts).
+- **[`REGIME_INDICATORS.md`](../../robotaxi_analysis/REGIME_INDICATORS.md)** — Five-tier hierarchy of leading indicators (ownership %, approval pace, non-ride mix, take-rate, fleet size). When any hard trigger hits, regime shift is forced.
+
+**Architecture & Critique:**
+- **[`REFRAME_WORLD_ANALYSIS.md`](../../robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md)** — Why original model failed: embedded transport assumptions prevent platform emergence. Shows hinge variable (ownership substitution) that determines all other outcomes.
+- **[`MODEL_ARCHITECTURE_COMPARISON.md`](../../robotaxi_analysis/MODEL_ARCHITECTURE_COMPARISON.md)** — Nine-dimension comparison of transport vs. platform model assumptions (demand, geography, unit economics, competition, valuation, scaling, labor, regulatory, success conditions).
 
 ## Quick Usage
 
