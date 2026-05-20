@@ -241,13 +241,43 @@ This model informs:
 
 ## Files in This Directory
 
+### Core Regime Economics (May 2026 Framework)
+
 | File | Purpose |
 |------|---------|
-| `robotaxi_revenue_model_enhanced.py` | **Main model** — reframed with metro-tier + regulatory constraints |
-| `REFRAME_ANALYSIS.md` | Full reframe documentation and investment implications |
-| `README.md` | This file |
-| `.backup/DEPRECATION.md` | Explanation of what changed from old model |
-| `.backup/robotaxi_revenue_model.py.old` | Old model (DEPRECATED, do not use) |
+| [**REGIME_A_UTILITY.md**](REGIME_A_UTILITY.md) | Transport commodity model (fleet 120–300k, take-rate 18–32%, 2035 revenue $3–5B, terminal value $30–90B). Base case if ownership substitution stays <5%. |
+| [**REGIME_B_INFRASTRUCTURE.md**](REGIME_B_INFRASTRUCTURE.md) | Infrastructure layer model (fleet 500k–2M, take-rate 25–40%, 2035 revenue $15–30B, terminal value $150–400B). Emerges if ownership substitution 20–30%, regulatory S-curve inflection. |
+| [**REGIME_C_PLATFORM.md**](REGIME_C_PLATFORM.md) | Computing platform model (fleet 10–50M, take-rate 40–65%, 2035 revenue $50–150B, terminal value $2–10T). Winner-take-most if ownership substitution 50%+, approval exponential. |
+
+### Valuation & Framework
+
+| File | Purpose |
+|------|---------|
+| [**REGIME_VALUATION_MASTER.md**](REGIME_VALUATION_MASTER.md) | 2035 outcomes comparison across all three regimes. Waymo: A $30–90B, B $150–400B, C $2–10T. Tesla: A $15–50B, B $80–200B, C $500B–5T (win) or $0 (lose). Probability baseline: A 50%, B 35%, C 15%. Expected value: $368B–1.69T. |
+| [**REGIME_COHERENCE_CONSTRAINTS.md**](REGIME_COHERENCE_CONSTRAINTS.md) | Why assumptions are coupled within each regime. Cannot cherry-pick across regimes. Documents seven hidden variables that lock each regime (ownership %, approval pace, non-ride revenue, take-rate, fleet size, software scaling, competitive consolidation). |
+| [**REGIME_TRANSITIONS.md**](REGIME_TRANSITIONS.md) | Hard triggers that force regime shifts (A→B, B→C, B→A, C→B, C→A). Soft signals precede hard triggers. Key checkpoint: Q4 2027 (first major data point to distinguish regimes). |
+
+### Monitoring & Indicators
+
+| File | Purpose |
+|------|---------|
+| [**QUARTERLY_MONITORING_FRAMEWORK.md**](QUARTERLY_MONITORING_FRAMEWORK.md) | Reframed from scenario probability to regime determination. Track KPIs quarterly; hard thresholds force regime transitions (not gradual probability shifts). Includes regime-breaking events, data collection checklist, decision rules. |
+| [**REGIME_INDICATORS.md**](REGIME_INDICATORS.md) | Five-tier hierarchy of leading indicators (Tier 1: ownership %, Tier 2: approval pace, Tier 3: non-ride mix, Tier 4: take-rate, Tier 5: fleet size). When any hard trigger hits, regime shift is forced. |
+
+### Architecture & Critique
+
+| File | Purpose |
+|------|---------|
+| [**REFRAME_WORLD_ANALYSIS.md**](REFRAME_WORLD_ANALYSIS.md) | Architectural critique: original model built as "transport business" while market prices "platform outcome". Explains why original model failed, hidden variables that determine regimes, hinge variable (ownership substitution) that unlocks all others. |
+| [**MODEL_ARCHITECTURE_COMPARISON.md**](MODEL_ARCHITECTURE_COMPARISON.md) | Nine-dimension breakdown of transport vs. platform model assumptions: demand, geography, unit economics, competition, valuation, scaling, labor, regulatory, success conditions. Shows why cannot mix regimes. |
+
+### Legacy Files (Reference Only)
+
+| File | Purpose |
+|------|---------|
+| `robotaxi_revenue_model_enhanced.py` | Main model implementation — reframed with metro-tier + regulatory constraints |
+| `robotaxi_revenue_model.py.backup` | Backup of original model (reference only) |
+| `.backup/DEPRECATION.md` | Explanation of old model obsolescence |
 
 ---
 
