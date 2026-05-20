@@ -561,6 +561,7 @@ def classify_terminal_by_metro_2035(
     total_vehicles: float,
     total_revenue: float,
     regulatory_velocity: float,
+    scenario: ScenarioKnobs | None = None,
 ) -> MetroAwareTerminalState:
     """
     Classify 2035 terminal state by metro tier distribution.
@@ -602,10 +603,18 @@ def classify_terminal_by_metro_2035(
     tier_2_revenue = tier_2_vehicles * 160.0 * 365.0 * 1.40 * tier_2_take_rate
     tier_3_revenue = tier_3_vehicles * 100.0 * 365.0 * 1.10 * tier_3_take_rate
 
-    # Valuation multiples by tier (accounting for structure and growth)
-    tier_1_multiple = 18  # Utility-like in premium metros
-    tier_2_multiple = 12  # Oligopoly in secondary metros
-    tier_3_multiple = 8   # Commodity-like in suburban (tight margins)
+    # Valuation multiples by tier — determined by market structure
+    # Transport economics: 8-18x (based on take-rate margins)
+    # Infrastructure economics: 15-32x (network effects, city OS, logistics)
+    # Monopoly economics: 20-45x (compounding moats, natural monopoly)
+    if scenario is not None:
+        tier_1_multiple = scenario.terminal_multiple_tier1
+        tier_2_multiple = scenario.terminal_multiple_tier2
+        tier_3_multiple = scenario.terminal_multiple_tier3
+    else:
+        tier_1_multiple = 18  # Default: utility-like in premium metros
+        tier_2_multiple = 12  # Default: oligopoly in secondary metros
+        tier_3_multiple = 8   # Default: commodity-like in suburban (tight margins)
 
     # Weighted average multiple
     total_revenue_check = tier_1_revenue + tier_2_revenue + tier_3_revenue
@@ -650,6 +659,62 @@ class ScenarioKnobs:
     demand_elasticity: float
     induced_demand_multiplier: float
     fleet_supply_discipline: float
+    behavior_change_inflection_year: int = 9999  # Year when land use/behavior shifts accelerate (default: never)
+    market_structure: str = "transport"  # "transport" | "infrastructure" | "monopoly"
+    terminal_multiple_tier1: float = 18.0  # Tier 1 multiple (can vary by structure)
+    terminal_multiple_tier2: float = 12.0  # Tier 2 multiple
+    terminal_multiple_tier3: float = 8.0   # Tier 3 multiple
+
+
+def optionality_scenarios() -> dict[str, ScenarioKnobs]:
+    """
+    Extended scenarios exploring robotaxis as infrastructure (not just transport).
+
+    These scenarios model:
+    1. Behavior change (land use shifts, second-car elimination, new user cohorts)
+    2. Market structure evolution (transport → infrastructure → monopoly)
+    3. Terminal multiples that reflect different market dynamics
+
+    Use alongside scenario_library() for comprehensive optionality analysis.
+    """
+    return {
+        "conservative_transport": ScenarioKnobs(
+            label="Conservative: Transport market economics (current model)",
+            regulatory_velocity=1.0,
+            demand_elasticity=1.0,
+            induced_demand_multiplier=1.35,
+            fleet_supply_discipline=1.0,
+            behavior_change_inflection_year=9999,  # Never
+            market_structure="transport",
+            terminal_multiple_tier1=17.0,
+            terminal_multiple_tier2=11.0,
+            terminal_multiple_tier3=8.0,
+        ),
+        "infrastructure_layer": ScenarioKnobs(
+            label="Infrastructure: City OS + logistics + data (medium upside)",
+            regulatory_velocity=1.1,
+            demand_elasticity=1.15,
+            induced_demand_multiplier=1.75,  # 2x baseline by 2035 from behavior change
+            fleet_supply_discipline=1.0,
+            behavior_change_inflection_year=2028,  # Land use shifts accelerate mid-period
+            market_structure="infrastructure",
+            terminal_multiple_tier1=32.0,  # Utility-scale + network effects
+            terminal_multiple_tier2=22.0,
+            terminal_multiple_tier3=15.0,
+        ),
+        "natural_monopoly": ScenarioKnobs(
+            label="Monopoly: Winner-take-most with compounding moats (high upside)",
+            regulatory_velocity=1.2,
+            demand_elasticity=1.25,
+            induced_demand_multiplier=1.50,
+            fleet_supply_discipline=1.1,
+            behavior_change_inflection_year=2030,  # Inflection later, but more dramatic
+            market_structure="monopoly",
+            terminal_multiple_tier1=45.0,  # Platform + moat compounding
+            terminal_multiple_tier2=30.0,
+            terminal_multiple_tier3=20.0,
+        ),
+    }
 
 
 def scenario_library() -> dict[ScenarioName, ScenarioKnobs]:
@@ -660,6 +725,11 @@ def scenario_library() -> dict[ScenarioName, ScenarioKnobs]:
             demand_elasticity=0.85,
             induced_demand_multiplier=1.15,
             fleet_supply_discipline=0.9,
+            behavior_change_inflection_year=9999,  # Never
+            market_structure="transport",
+            terminal_multiple_tier1=16.0,
+            terminal_multiple_tier2=11.0,
+            terminal_multiple_tier3=7.0,
         ),
         ScenarioName.BASE: ScenarioKnobs(
             label="Base case — gradual scaling",
@@ -667,6 +737,11 @@ def scenario_library() -> dict[ScenarioName, ScenarioKnobs]:
             demand_elasticity=1.0,
             induced_demand_multiplier=1.35,
             fleet_supply_discipline=1.0,
+            behavior_change_inflection_year=9999,  # Never
+            market_structure="transport",
+            terminal_multiple_tier1=18.0,
+            terminal_multiple_tier2=12.0,
+            terminal_multiple_tier3=8.0,
         ),
         ScenarioName.HYPERGROWTH: ScenarioKnobs(
             label="Hypergrowth — trust + economics win quickly",
@@ -674,6 +749,11 @@ def scenario_library() -> dict[ScenarioName, ScenarioKnobs]:
             demand_elasticity=1.35,
             induced_demand_multiplier=1.85,
             fleet_supply_discipline=1.0,
+            behavior_change_inflection_year=9999,  # Never
+            market_structure="transport",
+            terminal_multiple_tier1=20.0,
+            terminal_multiple_tier2=13.0,
+            terminal_multiple_tier3=9.0,
         ),
         ScenarioName.PLATFORM_DOMINANCE: ScenarioKnobs(
             label="Platform dominance — winner-take-most dynamics",
@@ -681,6 +761,11 @@ def scenario_library() -> dict[ScenarioName, ScenarioKnobs]:
             demand_elasticity=1.5,
             induced_demand_multiplier=2.25,
             fleet_supply_discipline=1.05,
+            behavior_change_inflection_year=9999,  # Never
+            market_structure="transport",
+            terminal_multiple_tier1=22.0,
+            terminal_multiple_tier2=14.0,
+            terminal_multiple_tier3=10.0,
         ),
     }
 
@@ -880,6 +965,16 @@ def simulate_company_year(
         * active_scenario.demand_elasticity
         * active_scenario.induced_demand_multiplier
     )
+
+    # ENHANCEMENT 4: Behavior change inflection (land use shifts, second-car elimination, new user cohorts)
+    # If behavior_change_inflection_year is specified and we've reached it, apply additional multiplier
+    # This models phase-change demand growth from land use shifts, reduced second-car ownership, etc.
+    if use_enhancements and year >= scenario.behavior_change_inflection_year:
+        years_past_inflection = year - scenario.behavior_change_inflection_year
+        # Inflection amplification: starts at 1.0x, ramps to full effect by +5 years
+        behavior_change_multiplier = 1.0 + (scenario.induced_demand_multiplier - 1.0) * min(years_past_inflection / 5.0, 1.0)
+        trips_pc = trips_pc * behavior_change_multiplier
+
     annual_miles_per_capita = trips_pc * market.avg_trip_miles_substitute
 
     total_demand_miles = effective_pop * annual_miles_per_capita * market_share_of_robotaxi
