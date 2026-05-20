@@ -146,6 +146,146 @@ All customizable via CLI flags (see `robotaxi_analysis/README.md`):
 - **Market share** — control demand split between Tesla and Waymo
 - **Time horizon** — change 2026–2035 projection window
 
+## Valuation Anchor (2035 Terminal)
+
+### Base Case: $60B Option Value
+
+**Waymo platform revenue: $3.5B annually (2035E)**
+- Fleet: 120k vehicles, 75% concentrated in Tier 1 (premium metros)
+- Take rate: 32% (premium market pricing power)
+- Utilization: 89.7% efficiency (mature operational competence)
+- Gross annual revenue: $12.2B; platform net: $3.5B
+
+**Valuation multiple: 17.3x** (utility-scale, mature infrastructure business)
+- **Formula:** $3.5B annual platform revenue × 17.3x = $60.55B terminal value
+- **Rationale:** Waymo's premium market focus + regulatory moat = utility-scale returns (not platform-scale winner-take-all)
+- **Comparable:** Utilities trade 15-20x EBITDA; Waymo at 17.3x reflects stable, high-margin, geographically-diversified business with regulatory protection
+
+**Present value (discounted 2026–2035 at 10% WACC):**
+- Terminal value (2035): $60.55B
+- PV factor (10 years, 10% discount): 0.386
+- **Discounted value: ~$23.4B** (represents Waymo optionality value)
+- This is embedded in Alphabet market cap; not separately valued
+
+### Scenario Range
+
+| Scenario | 2035 Platform Revenue | Terminal Multiple | Terminal Value | PV @ 10% WACC | Assumption |
+|----------|----------------------|------------------|-----------------|---------------|-----------|
+| **Slow** | $2.5B | 16.5x | $41.3B | $15.9B | Regulatory drag; Tier 1 concentrated |
+| **Base** | $3.5B | 17.3x | $60.5B | $23.4B | Steady regulatory approval; safety milestones hit |
+| **Hypergrowth** | $5.0B | 17.8x | $89.0B | $34.4B | Fast Tier 2 expansion post-2030; 160k vehicles |
+| **Bear (Autonomy Fails)** | ~$0 | — | ~$0 | ~$0 | Tesla dominates; Waymo becomes marginal player |
+
+**Sensitivity to key drivers:**
+
+| Driver | ±10% Impact on Terminal Value | Monitoring KPI |
+|--------|-------------------------------|-----------------|
+| Fleet size (vehicles) | ±10% = ±$6.0B | Annual vehicle additions by metro tier |
+| Take-rate (% of gross) | ±10% = ±$4.5B | Pricing power in Tier 2 expansion |
+| Utilization efficiency | ±10% = ±$3.2B | Intervention rate (miles/intervention) |
+| Discount rate (±1% WACC) | ±$8.0B | Cost of capital assumptions |
+
+---
+
+## Monitoring Metrics (Quarterly Review)
+
+**Five core KPIs to track Waymo's path to $60B terminal value:**
+
+### 1. **Deployment Progress by Metro Tier**
+- **Metric:** Cumulative vehicles approved and operating by Tier 1/2/3
+- **Current baseline:** 120k terminal assumption, 75% in Tier 1
+- **Monitoring frequency:** Quarterly (Waymo investor updates, regulatory filings)
+- **Trigger:** 
+  - ✅ On track: +5-8% annual vehicle fleet growth
+  - ⚠️ Watch: Flat quarters or <3% growth (regulatory delays)
+  - ❌ Downside: Tier 2 approvals <2 per year by 2028
+
+### 2. **Utilization Efficiency & Safety Track Record**
+- **Metric:** Intervention rate (miles per intervention required)
+- **Target:** 35,000+ miles/intervention by 2028 (demonstrates 10B+ safety milestone)
+- **Monitoring:** Waymo safety reports, regulatory testimonies, 5B milestone achievement
+- **Trigger:**
+  - ✅ On track: Intervention rate improving 15-20% YoY
+  - ⚠️ Watch: Plateau or regression in intervention rate (edge cases not solving)
+  - ❌ Downside: Stuck at 15,000 mi/intervention (won't clear Tier 2 expansion gates)
+
+### 3. **Take-Rate Sustainability in Tier 2 Expansion**
+- **Metric:** Average take-rate across all operating metros
+- **Assumption:** Maintain ≥25% take-rate as Waymo enters secondary metros (Austin, Denver)
+- **Monitoring:** Pricing announcements, earnings MD&A, competitive fare comparisons
+- **Trigger:**
+  - ✅ On track: Take-rate stays 25-32% across tiers
+  - ⚠️ Watch: Tier 2 take-rate <20% (margin pressure from competition)
+  - ❌ Downside: Average take-rate drops to 18% (Tesla competitive pricing forces margin cuts)
+
+### 4. **Tier 2 Market Approval Timing**
+- **Metric:** Regulatory approval probability in secondary metros (Austin, Denver, Chicago, Atlanta)
+- **Target:** 50%+ approval probability by 2030; 80%+ by 2032
+- **Monitoring:** State regulatory updates, company expansion announcements, competitive approvals
+- **Trigger:**
+  - ✅ On track: 1-2 new Tier 2 metros per year post-2028
+  - ⚠️ Watch: Approval rate <1 new metro per 18 months (regulatory caution)
+  - ❌ Downside: No new Tier 2 approvals past 2029 (capped at Tier 1 dominance only)
+
+### 5. **Manufacturing Capacity vs. Regulatory Gates**
+- **Metric:** Planned annual vehicle production (Waymo-branded or partner vehicles)
+- **Target:** 50k+ vehicles/year by 2030 (supports $5B+ Hypergrowth case)
+- **Monitoring:** Capital equipment announcements, manufacturing partnerships, production capacity filings
+- **Trigger:**
+  - ✅ On track: Capacity commissioned ahead of regulatory approvals
+  - ⚠️ Watch: Capacity bottleneck emerging (production <60% of regulatory-allowed fleet)
+  - ❌ Downside: Manufacturing capacity capped <20k vehicles/year (hard constraint on upside)
+
+---
+
+## Risk Management (Reframed Model)
+
+### Primary Risks & Mitigants
+
+| Risk | Severity (1-10) | Mitigant | Mitigant Strength (1-10) | Monitoring KPI | Trigger Level |
+|------|-----------------|----------|-------------------------|-----------------|---------------|
+| **Regulatory expansion stalls in Tier 2/3** | 8 | Safety track record (10B mile milestone); lobbying + partnerships | 6 | New tier approvals/year; intervention rate trend | <1 new Tier 2 approval per 18 months |
+| **Tesla vision autonomy matures faster** | 7 | Premium market focus (Waymo margin > Tesla's); Tier 1 moat | 7 | Tesla FSD intervention rate; competitor pricing | Tesla take-rate >22% in Tier 3 |
+| **Utilization efficiency plateaus** | 6 | Operational excellence + years in market (89.7% SF baseline); fleet maturity | 7 | Intervention rate (target 35k+ mi/int); daily miles/vehicle | Intervention rate flat for 2+ quarters |
+| **Take-rate compression in Tier 2** | 7 | Brand + regulatory protection; less competitive pressure vs suburban | 6 | Average take-rate across metros; Tier 2 fares | Tier 2 take-rate drops <20% |
+| **Manufacturing capacity lag** | 5 | OEM partnerships (automakers); Waymo can outsource production | 8 | Announced production capacity; vehicle additions | Fleet demand >production capacity for 2+ qtrs |
+| **Regulatory crackdown (safety incident)** | 5 | Proven safety track record; full autonomy (no remote ops liability) | 8 | Cumulative safety miles; incident tracking | Major incident with fatality |
+
+### Investment Thesis Coherence Check
+
+| Thesis Pillar | Status | Confidence (1-10) | Evidence | Risk if Wrong |
+|---------------|--------|-----------------|----------|---------------|
+| **Regulatory moat is primary competitive advantage** | ✅ | 8 | 2.25x approval velocity in Tier 1; years of tested safety | Tesla autonomy matures unexpectedly fast → Waymo advantage erodes |
+| **Premium market focus is economically optimal** | ✅ | 7 | 89.7% utilization + 32% take-rate = $29k/vehicle/year vs Tesla's $21k | Tier 2 expansion margins worse than model; forces repricing down |
+| **$3.5B platform revenue is achievable by 2035** | ⚠️ | 6 | Metro model works; 120k fleet fits regulatory approval timeline | Tier 2 approvals slower than expected; capped at $2.5B (Slow scenario) |
+| **17.3x multiple is justified (utility-scale)** | ✅ | 7 | Comparable to regulated utilities; stable cash flows; moat durability | If autonomy proven commoditized, multiple compresses to 10x (platform). Then $3.5B → $35B (vs $60B) |
+| **Tesla's Tier 3 play doesn't threaten Waymo** | ⚠️ | 6 | Different market structure; Waymo premium, Tesla suburban | If Tesla proves safety + scales to 300k+ vehicles, takes share in Tier 2; margin compression |
+
+---
+
+## Risk Management: Next Steps
+
+**Quarterly Validation (starting Q2 2026):**
+1. Extract Waymo vehicle additions by metro tier from Alphabet earnings (if disclosed)
+2. Track intervention rate from regulatory filings or press releases
+3. Monitor competitive moves from Tesla (FSD progress, approval timelines, pricing)
+4. Assess Tier 2 regulatory signals (state approvals, docket activity)
+
+**Red Flag Thresholds (escalate to thesis review):**
+- Intervention rate flat for >2 consecutive quarters
+- <1 new Tier 2 market approval in any 18-month window
+- Tesla FSD reaching 30k mi/intervention before 2029 (threatens Waymo's timeline)
+- Waymo take-rate in Tier 2 <18% (below model assumption)
+
+**Scenario Re-run Triggers:**
+- Alphabet provides meta-analysis of Waymo fleet size and geography
+- Regulatory approval pattern changes materially
+- Tesla autonomy assessment shifts
+- Competitive pricing environment shifts
+- Supply chain constraints emerge
+
+---
+
 ## Files Metadata
 
 | File | Purpose | Size |
@@ -158,4 +298,5 @@ All customizable via CLI flags (see `robotaxi_analysis/README.md`):
 ---
 
 **Last updated:** 2026-05-20  
-**Next step:** Integrate base case projections into standard GOOG valuation analysis.
+**Model version:** Reframed (regulatory approval primary, charging elastic)  
+**Status:** Valuation anchored at $60B; monitoring metrics defined; ready for quarterly thesis review

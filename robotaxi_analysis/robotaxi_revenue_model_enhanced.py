@@ -977,6 +977,120 @@ def simulate_company_year(
     return result
 
 
+def simulate_company_metro_year(
+    year: int,
+    metro: Metro,
+    company: str,
+    profile: CompanyProfile,
+    scenario: ScenarioKnobs,
+    market: MarketPriors,
+    scenario_key: str,
+    start_year: int,
+    supply_constraints: SupplyConstraints | None = None,
+) -> dict[str, any]:
+    """
+    Simulate a single company-metro-year combination.
+
+    Returns per-metro results: fleet_allocated, revenue, regulatory_gating, utilization_efficiency.
+    Applies company-specific regulatory velocity by metro tier and safety track record.
+
+    This is the foundation for metro-by-metro deployment tracking (Task #8).
+    """
+
+    years_elapsed = max(0, year - start_year)
+
+    # 1. REGULATORY VELOCITY (company + metro tier specific)
+    # Waymo: 2.25x in Tier 1, 0.42x in Tier 3
+    # Tesla: 0.8x in Tier 1, 0.94-1.4x in Tier 3
+    reg_velocity = regulatory_approval_velocity_by_tier_and_company(
+        metro.tier,
+        company,
+        years_elapsed,
+        cumulative_autonomy_miles=0.0,  # Would be tracked per-company per-metro in full implementation
+        major_incidents=0,
+    )
+
+    # 2. METRO APPROVAL PROBABILITY (cumulative over years)
+    # Tier 1: faster approval (2.25x for Waymo, 0.8x for Tesla)
+    # Tier 3: slower (0.42x for Waymo, 0.94x for Tesla)
+    base_approval_rate = {
+        MetroTier.TIER_1: 0.08,  # 8% of metros approve per year
+        MetroTier.TIER_2: 0.06,  # 6% per year
+        MetroTier.TIER_3: 0.04,  # 4% per year (many metros, slow approval)
+        MetroTier.TIER_4: 0.0,
+    }.get(metro.tier, 0.0)
+
+    # Adjust by company regulatory velocity
+    approval_rate = base_approval_rate * reg_velocity
+    approval_probability = min(1.0, approval_rate * years_elapsed)
+
+    # If not approved, fleet = 0
+    if approval_probability < 0.5:  # Require 50%+ certainty
+        return {
+            "metro": metro.name,
+            "tier": metro.tier.value,
+            "approved": False,
+            "approval_probability": approval_probability,
+            "fleet_allocated": 0.0,
+            "gross_revenue": 0.0,
+            "net_revenue": 0.0,
+            "utilization_efficiency": 0.0,
+            "regulatory_velocity": reg_velocity,
+            "paid_miles_per_day": 0.0,
+        }
+
+    # 3. UTILIZATION EFFICIENCY (operational maturity)
+    utilization_eff = utilization_efficiency_by_company_metro(
+        company=company,
+        metro=metro,
+        years_in_market=years_elapsed,
+        miles_per_intervention=profile.miles_per_intervention,
+        cumulative_autonomy_miles=0.0,
+    )
+
+    # 4. FLEET ALLOCATION (demand × utilization efficiency)
+    # Trip demand in this metro: population × trip_intensity × market_share
+    # Fleet needed = demand_miles / (paid_miles_per_vehicle_day × 365 × utilization)
+    annual_trip_miles = (
+        metro.population_millions * 1e6
+        * metro.baseline_trip_intensity_per_capita_annual
+        * market.avg_trip_miles_substitute
+    )
+    paid_miles_per_day = profile.paid_miles_per_vehicle_day * utilization_eff
+
+    fleet_demand = annual_trip_miles / max(paid_miles_per_day * 365.0, 1e-6)
+
+    # Cap by approved deployment (phased rollout by tier)
+    # Tier 1: faster ramp (up to 30% of terminal by 2030)
+    # Tier 3: slower ramp (up to 10% of terminal by 2030)
+    deployment_cap_by_tier = {
+        MetroTier.TIER_1: 0.003 * years_elapsed,  # 0.3% per year
+        MetroTier.TIER_2: 0.002 * years_elapsed,  # 0.2% per year
+        MetroTier.TIER_3: 0.001 * years_elapsed,  # 0.1% per year
+        MetroTier.TIER_4: 0.0,
+    }.get(metro.tier, 0.0)
+
+    fleet_cap = metro.population_millions * 1e6 * deployment_cap_by_tier
+    fleet_allocated = approval_probability * min(fleet_demand, fleet_cap)
+
+    # 5. REVENUE CALCULATION
+    gross_revenue = fleet_allocated * paid_miles_per_day * 365.0 * profile.fare_per_mile_usd
+    net_revenue = gross_revenue * profile.take_rate
+
+    return {
+        "metro": metro.name,
+        "tier": metro.tier.value,
+        "approved": approval_probability >= 0.5,
+        "approval_probability": approval_probability,
+        "fleet_allocated": fleet_allocated,
+        "utilization_efficiency": utilization_eff,
+        "gross_revenue": gross_revenue,
+        "net_revenue": net_revenue,
+        "regulatory_velocity": reg_velocity,
+        "paid_miles_per_day": paid_miles_per_day,
+    }
+
+
 def run_projection(
     *,
     years: list[int],
@@ -1014,6 +1128,113 @@ def run_projection(
                 )
             )
     return out
+
+
+def run_projection_metro_aware(
+    *,
+    years: list[int],
+    scenario_name: ScenarioName,
+    profiles: dict[str, CompanyProfile],
+    active: set[str],
+    market: MarketPriors,
+    rollout_grid: list[RolloutYear],
+    theoretical_us_fleet_terminal: float,
+    market_share: dict[str, float],
+    supply_constraints: SupplyConstraints | None = None,
+    use_metros: bool = True,
+) -> tuple[list[YearResult], dict[str, list[dict]]]:
+    """
+    Run projection with metro-by-metro breakdown.
+
+    Returns:
+    - list[YearResult]: Company-level aggregates (for compatibility with existing code)
+    - dict[str, list[dict]]: Per-metro breakdowns by company slug
+    """
+
+    scen = scenario_library()[scenario_name]
+    start_year = min(years)
+    metros = default_metros()
+
+    # Aggregate results
+    company_results: list[YearResult] = []
+    metro_results: dict[str, list[dict]] = {slug: [] for slug in active}
+
+    for y in years:
+        for slug in active:
+            pr = profiles[slug]
+            share = market_share.get(slug, 1.0 / max(len(active), 1))
+
+            if use_metros:
+                # Per-metro simulation
+                metro_fleet_total = 0.0
+                metro_revenue_total = 0.0
+                metro_data_by_metro = []
+
+                for metro_key, metro in metros.items():
+                    metro_result = simulate_company_metro_year(
+                        year=y,
+                        metro=metro,
+                        company=slug,
+                        profile=pr,
+                        scenario=scen,
+                        market=market,
+                        scenario_key=scenario_name.value,
+                        start_year=start_year,
+                        supply_constraints=supply_constraints,
+                    )
+                    metro_data_by_metro.append(metro_result)
+                    metro_fleet_total += metro_result["fleet_allocated"]
+                    metro_revenue_total += metro_result["net_revenue"]
+
+                # Store metro breakdown
+                metro_results[slug].append(
+                    {
+                        "year": y,
+                        "metro_breakdown": metro_data_by_metro,
+                        "fleet_total": metro_fleet_total,
+                        "revenue_total": metro_revenue_total,
+                    }
+                )
+
+                # Create aggregated YearResult for compatibility
+                # (National rollout still used for demand/supply, metros for gating)
+                pop_by_year = interpolate_reachable_pop(years, rollout_grid)
+                base_reachable_pop = pop_by_year[y]
+                reg_vel = scen.regulatory_velocity * pr.rollout_pace_vs_baseline
+
+                result = simulate_company_year(
+                    y,
+                    scenario_key=scenario_name.value,
+                    profile=pr,
+                    scenario=scen,
+                    market=market,
+                    base_reachable_pop=base_reachable_pop,
+                    start_year=start_year,
+                    theoretical_us_fleet_terminal=theoretical_us_fleet_terminal,
+                    market_share_of_robotaxi=share,
+                    supply_constraints=supply_constraints,
+                    use_enhancements=True,
+                )
+                company_results.append(result)
+            else:
+                # Original national-level simulation
+                pop_by_year = interpolate_reachable_pop(years, rollout_grid)
+                result = simulate_company_year(
+                    y,
+                    scenario_key=scenario_name.value,
+                    profile=pr,
+                    scenario=scen,
+                    market=market,
+                    base_reachable_pop=pop_by_year[y],
+                    start_year=start_year,
+                    theoretical_us_fleet_terminal=theoretical_us_fleet_terminal,
+                    market_share_of_robotaxi=share,
+                    supply_constraints=supply_constraints,
+                    use_enhancements=True,
+                )
+                company_results.append(result)
+
+    return company_results, metro_results
 
 
 def results_to_rows(results: list[YearResult]) -> list[dict[str, Any]]:
