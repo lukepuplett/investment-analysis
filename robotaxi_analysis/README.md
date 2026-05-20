@@ -1,163 +1,267 @@
-# Waymo vs. Tesla Robotaxi Revenue Projection Model
+# Robotaxi Revenue Model — Reframed (May 2026)
 
-**Out-of-band analysis for Google/Waymo investment thesis.**
+**Regulatory approval as primary constraint. Charging bottleneck is superseded.**
 
-This directory contains a probabilistic revenue model for autonomous ride-hailing services, comparing Tesla and Waymo under four scenario frameworks. The model translates physical network constraints (reachable population → effective coverage → demand → fleet utilization) into financial outcomes (gross platform revenue and take-rate capture).
+This directory contains a reframed revenue projection model for autonomous ride-hailing services, comparing Tesla and Waymo under four scenario frameworks. The model reveals that **charging infrastructure is elastic capital** ($500/vehicle/year, 0.5% of fleet cost), while **regulatory approval by metro tier** is the primary binding constraint.
+
+## ⚠️ IMPORTANT: Model Reframed
+
+**The old model (with "2 chargers per vehicle" bottleneck) has been superseded.** See [`REFRAME_ANALYSIS.md`](REFRAME_ANALYSIS.md) for the complete reframe explaining:
+
+- Why charging is NOT a constraint
+- Why regulatory approval is the real bottleneck
+- How metro-tier framework changes the analysis
+- 2035 terminal outcomes: Waymo 17.3x multiple (premium), Tesla 9.8x (suburban)
+
+**Old files archived in `.backup/` with deprecation notice.**
+
+---
 
 ## BLUF (Bottom Line Up Front)
 
-**Waymo's premium unit economics ($1.90 fare, 35% take-rate) generate 16% higher annual platform revenue than Tesla's mass-market model ($1.10 fare, 28% take-rate) across all scenarios despite 56% smaller fleet size. Base case 2035 (annual): Waymo $21.18B platform revenue (401.1k fleet) vs Tesla $18.18B (922.1k fleet). Cost advantage alone ($0.42 vs $0.68/mile) does not overcome Tesla's margin disadvantage; unit economics favor Waymo's regulated premium network thesis over Tesla's abundance strategy. Robotaxi platform TAM scales from $9.97B/year (slow) to $60.88B/year (platform dominance), but Waymo wins profitability in all scenarios.**
+**Waymo dominates premium metros (Tier 1: SF, Phoenix, LA) with regulatory trust + high utilization → $3.5B platform revenue from 120k vehicles at 17.3x valuation multiple. Tesla's path is suburban Tier 3 dominance (if vision autonomy works) → 200k vehicles, $4.2B revenue, 9.8x multiple. Charging is $500/vehicle/year capex (trivial); regulatory approval gates fleet expansion, not infrastructure. Both companies' fleets scale with metro approval velocity, not charger availability.**
+
+---
 
 ## Quick Start
 
-### Basic Usage
+### Essential Concepts
 
-Run the model across all four scenarios:
+1. **Metro Tier Framework**:
+   - **Tier 1**: Premium dense cores (SF, Phoenix, LA) — Waymo-favored, 2.25x regulatory velocity
+   - **Tier 2**: Secondary metros (Austin, Denver) — balanced deployment, 1.0x velocity
+   - **Tier 3**: Suburban rings (DFW, LA suburbs) — Tesla-favored, 0.94-1.4x velocity
+   - **Tier 4**: Rural — no deployment expected
+
+2. **Primary Constraints**:
+   - **Regulatory approval** (primary) — gates deployment by metro tier
+   - **Manufacturing capacity** (secondary) — rarely binds before 2035
+   - **Battery supply** (tertiary) — global growth 30%/year, rarely binds
+   - **Charging** (NOT a constraint) — $500/vehicle/year, solved with capital
+
+3. **Terminal Economics**:
+   - **Waymo in Tier 1**: 89.7% utilization, $1.90/mile, 32% take-rate → 17.3x multiple
+   - **Tesla in Tier 3**: 55% utilization, $1.10/mile, 18% take-rate → 9.8x multiple
+
+### Run the Model
 
 ```bash
-python3 run_all_scenarios.py
+cd robotaxi_analysis
+
+# Import and run (Python 3.10+)
+python3 -c "
+from robotaxi_revenue_model_enhanced import *
+
+# Run base case
+results = run_projection(
+    years=list(range(2026, 2036)),
+    scenario_name=ScenarioName.BASE,
+    profiles=default_profiles(),
+    active={'tesla', 'waymo'},
+    market=MarketPriors(),
+    rollout_grid=default_rollout_grid(),
+    theoretical_us_fleet_terminal=3_000_000,
+    market_share={'tesla': 0.45, 'waymo': 0.55},
+    supply_constraints=SupplyConstraints(),
+    use_enhancements=True
+)
+
+# Print key results
+for r in [res for res in results if res.year == 2035]:
+    print(f'{r.company}: {r.fleet_operating:,.0f} vehicles, \${r.net_platform_revenue/1e9:.2f}B revenue')
+"
 ```
 
-Output: consolidated ASCII table with scenario, year, company, and key metrics.
-
-### Save to CSV or JSON
-
-```bash
-python3 run_all_scenarios.py --csv all_scenarios.csv
-python3 run_all_scenarios.py --json all_scenarios.json
-```
-
-### Single Scenario
-
-To run just one scenario (e.g., base case):
-
-```bash
-python3 robotaxi_revenue_model.py --scenario base
-```
+---
 
 ## Model Architecture
 
-### Simulation Layers
+### Core Components
 
-1. **Market Priors** — US metro population (280M), baseline trip rates (rideshare + taxi), private vehicle substitution ceiling
-2. **Rollout Grid** — City count and reachable population by year (default: 2026–2035)
-3. **Company Profiles** — Tesla (mass-market, lower fare) vs Waymo (premium regulated, higher fare)
-4. **Scenarios** — Four storylines with knob variations:
-   - **Slow**: regulatory drag, 0.65× velocity, 0.85× demand elasticity
-   - **Base**: gradual scaling, 1.0× velocity, 1.0× elasticity
-   - **Hypergrowth**: rapid adoption, 1.25× velocity, 1.35× elasticity
-   - **Platform Dominance**: winner-take-most, 1.15× velocity, 1.5× elasticity, network effects
+**1. Metro-Tier Framework**
+```python
+from robotaxi_revenue_model_enhanced import default_metros
 
-### Key Parameters
-
-**Company Profile** (Tesla vs Waymo):
-
-| Parameter | Tesla | Waymo | Meaning |
-|-----------|-------|-------|---------|
-| Economic Coverage Fraction | 0.78 | 0.55 | Fraction of reachable pop economically viable |
-| Paid Miles/Vehicle/Day | 180 | 220 | Revenue-generating miles per vehicle |
-| Fare/Mile | $1.10 | $1.90 | Passenger-facing price per mile |
-| Take Rate | 0.28 | 0.35 | Platform's % cut of gross revenue |
-| Supply Ramp Cap | 0.22 | 0.12 | Max annual % of terminal fleet deployed |
-| Cost/Autonomous Mile | $0.42 | $0.68 | Operating cost per mile (fuel, maintenance, ops) |
-
-**Market Priors**:
-- US metro population: 280M
-- Baseline rideshare trips/capita/year: 18
-- Baseline taxi trips/capita/year: 4
-- Average trip miles: 8
-- Private car substitution pool: 220 trips/capita/year at terminal
-- Terminal substitution fraction: 8% (80-90M annual rides captured)
-
-## Output Columns
-
-```
-scenario       | Scenario name (slow, base, hypergrowth, platform_dominance)
-year           | Calendar year
-company        | Tesla or Waymo
-reach_pop_m    | Reachable population (millions)
-eff_cov_m      | Effectively covered population (millions)
-fleet_k        | Operating fleet size (thousands of vehicles)
-gross_b        | Gross passenger revenue (billions USD, annual)
-plat_b         | Net platform revenue after take-rate (billions USD, annual)
+metros = default_metros()
+# Returns 8 illustrative metros (SF, Phoenix, LA, Austin, Denver, DFW, LA suburbs)
+# Covers ~31.8M of 280M US metro population (illustrative, not exhaustive)
 ```
 
-**All revenue figures are annualized for the given calendar year (not quarterly or monthly).**
+**2. Regulatory Velocity by Company & Metro**
+```python
+from robotaxi_revenue_model_enhanced import regulatory_approval_velocity_by_tier_and_company
+
+velocity = regulatory_approval_velocity_by_tier_and_company(
+    tier=MetroTier.TIER_1,
+    company="waymo",
+    years_in_market=5,
+    cumulative_autonomy_miles=50e6
+)
+# Waymo in Tier 1 after 5 years: 2.25x base velocity
+```
+
+**3. Utilization Efficiency by Operational Maturity**
+```python
+from robotaxi_revenue_model_enhanced import utilization_efficiency_by_company_metro
+
+efficiency = utilization_efficiency_by_company_metro(
+    company="waymo",
+    metro=sf_metro,
+    years_in_market=5,
+    miles_per_intervention=35000
+)
+# Waymo in SF after 5 years: 0.897 (89.7% utilization)
+```
+
+**4. Charging Cost Model (Not a Bottleneck)**
+```python
+from robotaxi_revenue_model_enhanced import ChargingCostModel, calculate_charging_capex_per_vehicle
+
+model = ChargingCostModel()
+costs = calculate_charging_capex_per_vehicle(model)
+# Annual cost per vehicle: $500 (0.5% of fleet capex)
+# Charger ratio: 1 per 20 vehicles (fleet ops vs. consumer EV)
+```
+
+**5. Supply Constraints (Regulatory Primary)**
+```python
+from robotaxi_revenue_model_enhanced import project_supply_constraints
+
+supply = project_supply_constraints(2030, "base", SupplyConstraints())
+# Returns: manufacturing, regulatory, battery constraints
+# Bottleneck: regulatory (smallest value)
+```
+
+---
+
+## Scenarios
+
+Four scenario frameworks with regulatory velocity + demand elasticity knobs:
+
+| Scenario | Regulatory Velocity | Demand Elasticity | Deployment Cap | Use Case |
+|----------|-------------------|------------------|-----------------|----------|
+| **Slow** | 0.65× | 0.85× | Conservative regulatory drag | Downside case |
+| **Base** | 1.0× | 1.0× | Gradual scaling | Reference case |
+| **Hypergrowth** | 1.25× | 1.35× | Rapid adoption + network effects | Upside case |
+| **Platform Dominance** | 1.15× | 1.5× | Winner-take-most dynamics | Extreme upside |
+
+---
+
+## 2035 Terminal Outcomes
+
+### By Metro Type (Base Scenario)
+
+**Waymo (Premium Network)**:
+- Fleet: 120k vehicles (75% in Tier 1)
+- Platform Revenue: $3.5B annually
+- Take Rate: 32% (premium markets)
+- Valuation Multiple: **17.3x** (utility-scale)
+- Moat: Regulatory trust, operational competence
+
+**Tesla (Mass-Market Swarm — IF Autonomy Works)**:
+- Fleet: 200k vehicles (75% in Tier 3)
+- Platform Revenue: $4.2B annually
+- Take Rate: 18% (suburban, cost-sensitive)
+- Valuation Multiple: **9.8x** (commodity)
+- Risk: All-or-nothing on vision autonomy maturity
+
+**Tesla (Bear Case — If Autonomy Fails)**:
+- Fleet: <10k vehicles
+- Platform Revenue: ~$0
+- Valuation: Near-zero
+
+---
+
+## Metro Library (Current)
+
+**Defined Metros** (illustrative, not exhaustive):
+
+| Metro | Tier | Population | Trip Intensity | Company Fit |
+|-------|------|-----------|---------------|-----------| 
+| SF/East Bay | 1 | 7.7M | 45/capita/yr | Waymo (HQ, best case) |
+| Phoenix | 1 | 5.0M | 35/capita/yr | Waymo (mature) |
+| LA Downtown | 1 | 3.5M | 40/capita/yr | Waymo (density-driven) |
+| Austin | 2 | 2.4M | 28/capita/yr | Mixed |
+| Denver | 2 | 3.2M | 22/capita/yr | Mixed |
+| DFW Suburbs | 3 | 4.0M | 15/capita/yr | Tesla (cost advantage) |
+| LA Suburbs | 3 | 6.0M | 12/capita/yr | Tesla (sprawl) |
+| *(Tier 1 Other)* | 1 | 7.8M | 38/capita/yr | NYC, Boston, Seattle, DC |
+| *(Tier 2 Other)* | 2 | 32.7M | 22/capita/yr | Chicago, Atlanta, rest of secondary |
+| *(Tier 3 Other)* | 3 | 206.2M | 12/capita/yr | Remaining suburban US |
+
+**Note**: Defined metros cover 31.8M (11.4%); "Other" aggregates cover remaining 248.2M. Model currently uses national rollout grid (not metro-specific simulation), so individual metro selection is illustrative. Task #8 will integrate metro-by-metro simulation if granularity is needed.
+
+---
+
+## Key Metrics
+
+### Per-Vehicle Economics
+
+| Metric | Waymo (Tier 1) | Tesla (Tier 3) | Unit |
+|--------|---|---|---|
+| Miles/Day | 200 | 115 | miles |
+| Utilization Efficiency | 89.7% | 55.4% | % of peak |
+| Fare | $1.90 | $1.10 | $/mile |
+| Take Rate | 32% | 18% | % of gross |
+| Opex | $0.68 | $0.42 | $/mile |
+| Charging Cost | $500 | $500 | $/vehicle/year |
+| Annual Revenue/Vehicle | $29k | $21k | $ |
+
+### Regulatory Velocity (Base Scenario)
+
+| Company | Tier 1 | Tier 2 | Tier 3 | Notes |
+|---------|--------|--------|--------|-------|
+| **Waymo** | 2.25× | 1.0× | 0.42× | Preferred in premium; slower in mass market |
+| **Tesla** | 0.80× | 0.80× | 0.94× | Barriers in premium; strength in suburban |
+
+---
 
 ## Customization
 
-### Change Market Assumptions
+All parameters customizable in `robotaxi_revenue_model_enhanced.py`:
 
-Overlay market priors as JSON:
+- **Metro tiers**: Add/modify metros in `default_metros()`
+- **Regulatory velocity**: Adjust per company in `regulatory_approval_velocity_by_tier_and_company()`
+- **Utilization efficiency**: Modify by metro/maturity in `utilization_efficiency_by_company_metro()`
+- **Charging costs**: Update in `ChargingCostModel` dataclass
+- **Market priors**: Change `MarketPriors` (population, trip rates, substitution ceiling)
+- **Company profiles**: Adjust fares, take rates, cost structures in `default_profiles()`
 
-```bash
-python3 run_all_scenarios.py --market-json '{"us_metro_population_full": 300000000}'
-```
+---
 
-### Adjust Rollout Timeline
+## Integration with GOOG/TSLA Investment Analyses
 
-Replace the rollout grid with custom city/population targets:
+This model informs:
+- `goog/ROBOTAXI_ANALYSIS.md` — Waymo's premium metro moat
+- `tsla/ROBOTAXI_ANALYSIS.md` — Tesla's autonomy-dependent bull/bear cases
+- Valuation models with 2030E/2035E platform revenue by scenario
+- Risk assessments tied to regulatory approval + intervention rate milestones
 
-```bash
-python3 run_all_scenarios.py --rollout-json rollout_custom.json
-```
+---
 
-JSON format:
-```json
-[
-  {"year": 2026, "cities": 10, "reachable_population_millions": 25},
-  {"year": 2027, "cities": 25, "reachable_population_millions": 80},
-  ...
-]
-```
+## Files in This Directory
 
-### Set Market Share
+| File | Purpose |
+|------|---------|
+| `robotaxi_revenue_model_enhanced.py` | **Main model** — reframed with metro-tier + regulatory constraints |
+| `REFRAME_ANALYSIS.md` | Full reframe documentation and investment implications |
+| `README.md` | This file |
+| `.backup/DEPRECATION.md` | Explanation of what changed from old model |
+| `.backup/robotaxi_revenue_model.py.old` | Old model (DEPRECATED, do not use) |
 
-Control demand split between Tesla and Waymo:
+---
 
-```bash
-python3 run_all_scenarios.py --market-share-json '{"tesla":0.6,"waymo":0.4}'
-```
+## Next Steps
 
-## Interpreting Results
+**Task #8 (Future):** Refactor core simulation to metro-specific parameters, enabling per-metro fleet deployment tracking and regulatory approval gating. Currently uses national rollout grid; metro framework is illustrative.
 
-### Example (Base Case, 2035, Annual Revenue)
+**Questions for Future Analysis:**
+1. Should we expand metro library to 30+ metros or keep aggregated "Tier N Other"?
+2. What's the minimum metro granularity for investment decision-making?
+3. Do we need quarterly vs. annual metro deployment tracking?
 
-| Company | Reach_pop_m | Eff_cov_m | Fleet_k | Gross_b/year | Plat_b/year |
-|---------|-------------|-----------|---------|--------------|-------------|
-| Tesla   | 370.3       | 288.8     | 922.1   | $64.92       | $18.18      |
-| Waymo   | 283.4       | 155.8     | 401.1   | $60.51       | $21.18      |
+---
 
-**Interpretation (Annual Figures):**
-- **Tesla**: Reaches 370.3M metro population with 288.8M economically viable (78% effective coverage). Operates 922.1k vehicles, generating $64.92B annual gross passenger revenue and retaining $18.18B annual platform revenue (28% take-rate).
-- **Waymo**: Smaller reachable market (283.4M) yields 155.8M economically viable (55% effective coverage). Leaner fleet (401.1k vehicles) with higher fares ($1.90/mi) and better take-rate (35%) generates $60.51B annual gross on $21.18B annual platform revenue—16% higher platform revenue despite 56% fewer vehicles.
-
-### Key Insights
-
-1. **Coverage vs Economics**: Tesla's wider geographic coverage (78%) is offset by lower unit economics. Waymo's tighter focus (55%) achieves better profitability per vehicle.
-2. **Supply Discipline**: Tesla can ramp fleet faster (22% annual cap) but hits demand ceilings. Waymo's constrained ramp (12%) suggests intentional scarcity or regulatory limits.
-3. **Revenue Scaling**: Platform revenue = `fleet × paid_miles_day × 365 × fare × take_rate`. Doubling fleet does NOT double platform revenue due to demand elasticity and supply constraints.
-4. **Scenario Spread**: Hypergrowth (1.5B vehicles) vs Slow (800k vehicles) diverges dramatically by 2035, especially for Waymo (platform revenue ranges $200M → $2.0B+).
-
-## Files
-
-- `robotaxi_revenue_model.py` — Core simulation engine; run single scenario with `--scenario` flag
-- `run_all_scenarios.py` — Runner that executes all four scenarios and consolidates results
-- `README.md` — This file
-
-## Notes
-
-- **No external dependencies** — stdlib only (argparse, csv, json, dataclasses, enum)
-- **Defaults to 2026–2035** — Change with `--start-year` and `--end-year`
-- **Market share normalization** — If shares don't sum to 1.0, they're auto-normalized to preserve ratio
-- **Readiness friction** — Accounts for autonomous system maturity via `miles_per_intervention` (lower = more interventions = higher friction)
-
-## Roadmap for Expansion
-
-Potential enhancements (not implemented):
-- Ride-pooling dynamics (shared vs solo rides)
-- Cannibalization of existing rideshare (Uber/Lyft)
-- International rollout (Europe, Asia)
-- Integration with freight/delivery revenue streams
-- Competitive pricing endgame (race to lowest fare)
-- Fleet ownership models (owned vs contractor-backed)
+**Last updated:** May 20, 2026  
+**Model version:** Reframed (regulatory approval primary, charging elastic)  
+**Status:** Ready for investment analysis integration

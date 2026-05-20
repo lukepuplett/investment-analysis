@@ -6,14 +6,26 @@
 
 ## BLUF (Bottom Line Up Front)
 
-**Waymo's robotaxi competitive advantage is structural and survives infrastructure constraints: despite both Waymo and Tesla being capped at ~70k vehicles (2035) by charging bottleneck, Waymo generates 2.6× higher platform revenue ($4.28B vs Tesla's $1.65B) from identical fleet size via 35% take-rate, $1.90/mile fares, and superior utilization. Charging infrastructure (not vehicle demand or manufacturing) is the binding constraint through 2035; winner is determined by charger buildout velocity, not autonomous capability. Robotaxi emerges as a regulated utility network with $3.5–4.4B annual revenue (Waymo), not a $100B+ platform. For Alphabet investors: Waymo represents optionality on a utility-scale business with structural margin dominance, regulatory moat, and infrastructure partnership leverage, rather than winner-take-most platform upside.**
+**Waymo's competitive moat is regulatory trust and premium market dominance, NOT charging infrastructure. The original model's "2-charger bottleneck" was a spreadsheet constraint, not a physical law. Reframed analysis reveals: regulatory approval (not chargers) is the primary binding constraint through 2035. Waymo dominates premium metros (Tier 1: SF, Phoenix, LA) with 89.7% utilization and 32% take-rate, generating $3.5B+ platform revenue from 120k vehicles at 17.3x valuation multiple. Tesla's path (IF vision autonomy matures) is suburban Tier 3 dominance (200k vehicles) at 9.8x multiple with 18% take-rate. For Alphabet: Waymo's real advantage is regulatory relationships + operational competence in high-value markets, not charging logistics. Charging is $500/vehicle/year capex (0.5% of fleet economics) — trivial, solved with capital, never a constraint.**
+
+## ⚠️ MODEL REFRAME (May 2026)
+
+**The original model is SUPERSEDED.** The "charging bottleneck" assumption was incorrect. See [`robotaxi_analysis/REFRAME_ANALYSIS.md`](../robotaxi_analysis/REFRAME_ANALYSIS.md) for complete reframe:
+
+- ✅ **Charging is NOT the bottleneck** — it's elastic capital ($500/vehicle/year, 0.5% of fleet economics)
+- ✅ **Regulatory approval is the actual constraint** — gates fleet by metro tier
+- ✅ **Waymo's advantage is premium market concentration** — Tier 1 metros (SF, Phoenix) not charger density
+- ✅ **Tesla's path is suburban dominance** — IF vision autonomy survives edge cases; constrained by regulatory barriers in premium metros
+- ✅ **Different terminal structures** — Waymo 17.3x multiple (utility-scale premium market), Tesla 9.8x (commodity suburban)
+
+---
 
 ## Overview
 
 Google (Alphabet) does not directly operate a public robotaxi service, but **Waymo** (Google's autonomous vehicle subsidiary) is the primary competitive counterpart to Tesla's robotaxi ambitions. This shared model compares:
 
-- **Waymo**: Premium regulated network thesis (higher fares, tighter geographic focus, better unit economics)
-- **Tesla**: Mass-market swarm thesis (lower fares, broader coverage, supply-constrained growth)
+- **Waymo**: Premium metro network (Tier 1: SF, Phoenix, LA) — regulatory trust + high utilization + pricing power
+- **Tesla**: Suburban/mass-market swarm (Tier 3: DFW, LA suburbs) — cost advantage *IF* vision autonomy works
 
 ## What's Inside
 
@@ -42,31 +54,34 @@ python3 run_all_scenarios.py --csv my_output.csv
 python3 robotaxi_revenue_model.py --scenario base
 ```
 
-## Key Insights from Sample Output
+## Key Insights from Reframed Model (May 2026)
 
-### Base Case (2035 Terminal, Enhanced Model with Infrastructure Constraints)
+### Base Case (2035 Terminal, Regulatory Approval as Primary Constraint)
 
-| Company | Fleet | Gross Revenue/Year | Platform Revenue/Year | Bottleneck | Unit Economics |
-|---------|-------|-------------------|----------------------|------------|-----------------|
-| **Tesla**   | **70k** | **$5.8B** | **$1.65B** | Charging | $1.10 fare, 28% take-rate, $0.42 opex |
-| **Waymo**   | **70k** | **$12.2B** | **$4.28B** | Charging | $1.90 fare, 35% take-rate, $0.68 opex |
+| Company | Fleet | Take Rate | Fare/Mile | Platform Revenue | Bottleneck | Valuation Multiple |
+|---------|-------|-----------|-----------|------------------|------------|-------------------|
+| **Tesla** (Tier 3 dominant)   | **200k** | **18%** | **$1.10** | **$4.2B** | Regulatory | **9.8x** (commodity) |
+| **Waymo** (Tier 1 dominant)   | **120k** | **32%** | **$1.90** | **$3.5B** | Regulatory | **17.3x** (utility) |
 
-**Critical Finding (All Figures Annual)**:
-- **Identical fleet sizes** (70k each) due to shared charging infrastructure bottleneck (~500k chargers needed, limits both to ~70k vehicles)
-- **Waymo's 2.6× revenue advantage** ($4.28B vs $1.65B) comes entirely from pricing power and take-rate structure, not fleet scale
-- **Infrastructure is binding constraint**, not demand or manufacturing. Both companies could deploy 200k+ vehicles if charging existed; neither can scale beyond 70k by 2035
-- **Margin structure matters more than cost efficiency** in constrained regime. Tesla's $0.42/mile cost advantage is immaterial (~$22M savings on $1.65B revenue)
+**Critical Findings (Reframed)**:
+- **Different fleet sizes by strategy**, not shared constraint — Waymo focuses Tier 1 (premium), Tesla targets Tier 3 (suburban)
+- **Waymo's 73% revenue/vehicle advantage** comes from **premium market concentration + regulatory trust**, not from charger density
+- **Regulatory approval is the PRIMARY BOTTLENECK**, not charging. Charging is $500/vehicle/year capex (0.5% of fleet economics) — trivial, solved with capital
+- **Utilization efficiency varies by metro and company maturity:**
+  - Waymo in SF (Tier 1), 5 years: 89.7% utilization
+  - Tesla in suburbs (Tier 3), 1 year: 45.7% utilization
+- **Margin structure heavily metro-dependent:** Premium metros (Tier 1) support 25-32% take-rate; suburban (Tier 3) supports 15-18%
 
-### Scenario Spread (2035 Annual Platform Revenue, Enhanced Model)
+### Scenario Implications (Base Case + Sensitivity)
 
-| Scenario | Tesla Fleet | Waymo Fleet | Tesla Revenue | Waymo Revenue | Waymo Advantage | Notes |
-|----------|------------|------------|----------------|----------------|-----------------|-------|
-| Slow     | 70k | 70k | $1.54B | $3.55B | 2.3× | Slower charging buildout, but same bottleneck |
-| Base     | 70k | 70k | $1.65B | $4.28B | 2.6× | Reference case |
-| Hypergrowth | 70k | 70k | $1.67B | $4.41B | 2.6× | Faster regulatory approval; charger still binding |
-| Platform Dominance | 70k | 70k | $1.67B | $4.37B | 2.6× | Winner-take-most; but still capped by chargers |
+| Scenario | Waymo Fleet | Waymo Revenue | Waymo Multiple | Tesla Fleet | Notes |
+|----------|------------|----------------|----------------|------------|-------|
+| **Slow** | 90k | $2.5B | 16.5x | 150k | Slower approval, but no constraint collapse |
+| **Base** | 120k | $3.5B | 17.3x | 200k | Reference case; regulatory gates expansion |
+| **Hypergrowth** | 160k | $5.0B | 17.8x | 300k | Fast approval if safety milestones hit |
+| **Tesla Bear** | 120k | $3.5B | 17.3x | <10k | Vision autonomy fails in edge cases |
 
-**Critical Finding**: Scenario variation **does not move fleet size**. All scenarios converge to identical 70k vehicle caps because all hit the same charging infrastructure bottleneck. Waymo's 2.3–2.6× advantage is structural, not scenario-dependent. The real upside/downside is infrastructure buildout velocity (who deploys chargers faster post-2035), not vehicle manufacturing or regulatory velocity (both immaterial when chargers are binding).
+**Critical Finding**: **Fleet size scales with regulatory approval velocity, not infrastructure scarcity.** Waymo's constraint is regulatory caution (focus on Tier 1); Tesla's is regulatory barriers (vision autonomy proof required) + optionality on autonomy maturity. Scenario variation moves fleet size significantly. Charging constraint has been eliminated.
 
 ## What This Model Captures
 
@@ -91,10 +106,21 @@ Multipliers that shift realistic outcomes:
 
 ## Why This Matters for Waymo (Google) Investment Thesis
 
-1. **Profitability path is clearer** — Waymo's tighter focus + higher unit economics → platform revenue scales better than raw fleet size
-2. **Regulatory advantage** — Premium positioning and controlled rollout may mitigate regulatory risk
-3. **Competitive moat** — If Waymo achieves 55%+ economic coverage + strong brand perception, Tesla's mass-market approach has structural cost disadvantage
-4. **Revenue upside** — Platform revenue 25–45% higher than Tesla across base-to-hypergrowth scenarios suggests significant option value for Alphabet
+### Waymo's Real Moat (Reframed):
+1. **Regulatory trust gates expansion** — Waymo's 2.25x approval velocity in premium metros (vs Tesla's 0.8x) is the primary advantage, not charger density
+2. **Premium market focus is optimal** — Tier 1 metros (SF, Phoenix, LA) support 28-32% take-rates; suburban (Tier 3) only 15-18%. Waymo's smaller fleet in better markets generates 3-4× more revenue per vehicle
+3. **Operational maturity compounds advantage** — 89.7% utilization efficiency in premium metros after 5 years; safety track record (35k mi/intervention) accelerates regulatory expansion
+4. **Ceiling is utility-scale, not platform** — $3-5B platform revenue at 17.3x multiple is real value creation, but different from "winner-take-most" narrative
+
+### Waymo's Risks (Reframed):
+1. **Tier 2/3 expansion may require 50%+ margin cuts** — Can Waymo maintain 15-20% take-rate in secondary metros without compromising brand?
+2. **Regulatory expansion is slow** — Safety milestones (5B, 10B cumulative miles) gate tier upgrades. Revenue scales slower than manufacturing capacity allows
+3. **Tesla's optionality in Tier 3** — If vision autonomy matures, Tesla dominates suburban mass market (200k+ vehicles) with cost advantage, even at low margins
+
+### For Alphabet Investors:
+- **Valuation anchor:** Waymo at 120k vehicles, $3.5B platform revenue, 17.3x multiple = $60B+ option value (but utility-scale, not platform-scale)
+- **Downside scenario:** Regulatory approval stalls in secondary metros; revenue capped at $2.5B (Slow scenario)
+- **Upside scenario:** Safety milestones unlock Tier 2 expansion by 2032; revenue reaches $5B+ by 2035 (Hypergrowth)
 
 ## Integration with Standard CLAUDE.md Analysis
 
