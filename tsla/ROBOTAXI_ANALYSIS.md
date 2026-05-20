@@ -10,7 +10,7 @@
 
 ## ⚠️ REGIME-BASED REFRAME (May 2026)
 
-**Tesla's robotaxi case depends critically on which regime materializes.** See [`robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md`](../../robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md) for architectural critique.
+**Tesla's robotaxi case depends critically on which regime materializes.** See [`robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md`](../robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md) for architectural critique.
 
 **Regime outcomes for Tesla:**
 - ✅ **Regime A (Utility):** Fleet 150–250k, take-rate 18–32%, 2035 revenue $4–6B, terminal value $15–50B (IF vision autonomy survives)
@@ -127,7 +127,7 @@ Typical workflow:
 
 ### Core Model Documentation
 
-See [`robotaxi_analysis/README.md`](../../robotaxi_analysis/README.md) for:
+See [`robotaxi_analysis/README.md`](../robotaxi_analysis/README.md) for:
 - Full model documentation
 - All customization options (rollout timeline, market share, assumptions)
 - CLI usage and export formats (CSV, JSON)
@@ -156,18 +156,18 @@ python3 robotaxi_revenue_model.py --scenario hypergrowth --market-json '{"us_met
 **For deeper analysis of Tesla's potential value under different autonomy maturity scenarios, see:**
 
 **Core Regime Economics:**
-- **[`REGIME_A_UTILITY.md`](../../robotaxi_analysis/REGIME_A_UTILITY.md)** — Transport model (fleet 150–250k, take-rate 18–32%, 2035 revenue $4–6B, terminal value $15–50B). **Tesla's base case IF autonomy survives.**
-- **[`REGIME_B_INFRASTRUCTURE.md`](../../robotaxi_analysis/REGIME_B_INFRASTRUCTURE.md)** — Infrastructure layer (fleet 800k–2M, take-rate 25–40%, 2035 revenue $8–15B, terminal value $80–200B). **Tesla participates if ownership shifts 20–30% and autonomy holds.**
-- **[`REGIME_C_PLATFORM.md`](../../robotaxi_analysis/REGIME_C_PLATFORM.md)** — Computing platform (fleet 8M–30M, take-rate 40–65%, 2035 revenue $50–120B, terminal value $500B–5T). **Tesla wins big OR loses completely (bifurcated outcome).**
+- **[`REGIME_A_UTILITY.md`](../robotaxi_analysis/REGIME_A_UTILITY.md)** — Transport model (fleet 150–250k, take-rate 18–32%, 2035 revenue $4–6B, terminal value $15–50B). **Tesla's base case IF autonomy survives.**
+- **[`REGIME_B_INFRASTRUCTURE.md`](../robotaxi_analysis/REGIME_B_INFRASTRUCTURE.md)** — Infrastructure layer (fleet 800k–2M, take-rate 25–40%, 2035 revenue $8–15B, terminal value $80–200B). **Tesla participates if ownership shifts 20–30% and autonomy holds.**
+- **[`REGIME_C_PLATFORM.md`](../robotaxi_analysis/REGIME_C_PLATFORM.md)** — Computing platform (fleet 8M–30M, take-rate 40–65%, 2035 revenue $50–120B, terminal value $500B–5T). **Tesla wins big OR loses completely (bifurcated outcome).**
 
 **Valuation & Framework:**
-- **[`REGIME_VALUATION_MASTER.md`](../../robotaxi_analysis/REGIME_VALUATION_MASTER.md)** — 2035 outcomes for Tesla: A $15–50B, B $80–200B, C $500B–5T (if wins) or $0 (if loses). Probability baseline (May 2026): A 50%, B 35%, C 15%.
-- **[`REGIME_TRANSITIONS.md`](../../robotaxi_analysis/REGIME_TRANSITIONS.md)** — Hard triggers that force regime shifts. **Critical for Tesla: intervention rate flat 4+ quarters = C→B downshift or B→A collapse.**
-- **[`REGIME_INDICATORS.md`](../../robotaxi_analysis/REGIME_INDICATORS.md)** — Leading indicators by regime. **For Tesla: FSD intervention rate is Tier 1 signal; approval pace is Tier 2.**
+- **[`REGIME_VALUATION_MASTER.md`](../robotaxi_analysis/REGIME_VALUATION_MASTER.md)** — 2035 outcomes for Tesla: A $15–50B, B $80–200B, C $500B–5T (if wins) or $0 (if loses). Probability baseline (May 2026): A 50%, B 35%, C 15%.
+- **[`REGIME_TRANSITIONS.md`](../robotaxi_analysis/REGIME_TRANSITIONS.md)** — Hard triggers that force regime shifts. **Critical for Tesla: intervention rate flat 4+ quarters = C→B downshift or B→A collapse.**
+- **[`REGIME_INDICATORS.md`](../robotaxi_analysis/REGIME_INDICATORS.md)** — Leading indicators by regime. **For Tesla: FSD intervention rate is Tier 1 signal; approval pace is Tier 2.**
 
 **Monitoring & Indicators:**
-- **[`QUARTERLY_MONITORING_FRAMEWORK.md`](../../robotaxi_analysis/QUARTERLY_MONITORING_FRAMEWORK.md)** — Reframed from scenario probability to regime determination. **Critical for Tesla: track intervention rate (autonomy health) + ownership % (regime signal) + approval pace (regulatory environment).**
-- **[`MODEL_ARCHITECTURE_COMPARISON.md`](../../robotaxi_analysis/MODEL_ARCHITECTURE_COMPARISON.md)** — Transport vs. platform model comparison. **Tesla's cost advantage erodes in platform (Regime C) due to labor/manufacturing economics.**
+- **[`QUARTERLY_MONITORING_FRAMEWORK.md`](../robotaxi_analysis/QUARTERLY_MONITORING_FRAMEWORK.md)** — Reframed from scenario probability to regime determination. **Critical for Tesla: track intervention rate (autonomy health) + ownership % (regime signal) + approval pace (regulatory environment).**
+- **[`MODEL_ARCHITECTURE_COMPARISON.md`](../robotaxi_analysis/MODEL_ARCHITECTURE_COMPARISON.md)** — Transport vs. platform model comparison. **Tesla's cost advantage erodes in platform (Regime C) due to labor/manufacturing economics.**
 
 ---
 

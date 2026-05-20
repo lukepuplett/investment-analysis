@@ -10,7 +10,7 @@
 
 ## ⚠️ REGIME-BASED REFRAME (May 2026)
 
-**The original model (Regime A: Utility) is the base case, not the full range.** Waymo's optionality is much larger if ownership substitution emerges. See [`robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md`](../../robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md) for architectural critique.
+**The original model (Regime A: Utility) is the base case, not the full range.** Waymo's optionality is much larger if ownership substitution emerges. See [`robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md`](../robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md) for architectural critique.
 
 **Key reframes from original model:**
 - ✅ **Base case (Regime A):** Fleet 120–300k, take-rate 18–32%, 2035 revenue $3–5B, terminal value $30–90B (ownership <5%, approval linear)
@@ -46,7 +46,7 @@ Google (Alphabet) does not directly operate a public robotaxi service, but **Way
 
 ## What's Inside
 
-The model is located at `/robotaxi_analysis/` (repo root). See [`../../robotaxi_analysis/README.md`](../../robotaxi_analysis/README.md) for full documentation.
+The model is located at `/robotaxi_analysis/` (repo root). See [`../robotaxi_analysis/README.md`](../robotaxi_analysis/README.md) for full documentation.
 
 ### Core Model Files
 
@@ -61,22 +61,22 @@ The model is located at `/robotaxi_analysis/` (repo root). See [`../../robotaxi_
 **The original model is now reframed as Regime A (Utility).** For deeper analysis of Waymo's potential value under different market regimes, see:
 
 **Core Regime Economics:**
-- **[`REGIME_A_UTILITY.md`](../../robotaxi_analysis/REGIME_A_UTILITY.md)** — Transport model (fleet 120–300k, take-rate 18–32%, 2035 revenue $3–5B, terminal value $30–90B). **This is the base case from the original model.**
-- **[`REGIME_B_INFRASTRUCTURE.md`](../../robotaxi_analysis/REGIME_B_INFRASTRUCTURE.md)** — Infrastructure layer (fleet 500k–2M, take-rate 25–40%, 2035 revenue $15–30B, terminal value $150–400B). Requires 20–30% ownership substitution and S-curve regulatory inflection.
-- **[`REGIME_C_PLATFORM.md`](../../robotaxi_analysis/REGIME_C_PLATFORM.md)** — Computing platform (fleet 10–50M, take-rate 40–65%, 2035 revenue $50–150B, terminal value $2–10T). Requires 50%+ ownership replacement and exponential approval post-inflection.
+- **[`REGIME_A_UTILITY.md`](../robotaxi_analysis/REGIME_A_UTILITY.md)** — Transport model (fleet 120–300k, take-rate 18–32%, 2035 revenue $3–5B, terminal value $30–90B). **This is the base case from the original model.**
+- **[`REGIME_B_INFRASTRUCTURE.md`](../robotaxi_analysis/REGIME_B_INFRASTRUCTURE.md)** — Infrastructure layer (fleet 500k–2M, take-rate 25–40%, 2035 revenue $15–30B, terminal value $150–400B). Requires 20–30% ownership substitution and S-curve regulatory inflection.
+- **[`REGIME_C_PLATFORM.md`](../robotaxi_analysis/REGIME_C_PLATFORM.md)** — Computing platform (fleet 10–50M, take-rate 40–65%, 2035 revenue $50–150B, terminal value $2–10T). Requires 50%+ ownership replacement and exponential approval post-inflection.
 
 **Valuation & Framework:**
-- **[`REGIME_VALUATION_MASTER.md`](../../robotaxi_analysis/REGIME_VALUATION_MASTER.md)** — 2035 outcomes comparison across all three regimes. Waymo: A $30–90B, B $150–400B, C $2–10T. Probability baseline (May 2026): A 50%, B 35%, C 15%. Expected value: $368B–1.69T.
-- **[`REGIME_COHERENCE_CONSTRAINTS.md`](../../robotaxi_analysis/REGIME_COHERENCE_CONSTRAINTS.md)** — Why assumptions are coupled within each regime. Cannot cherry-pick across regimes.
-- **[`REGIME_TRANSITIONS.md`](../../robotaxi_analysis/REGIME_TRANSITIONS.md)** — Hard triggers that force regime shifts (A→B, B→C, B→A, C→B, C→A). Key checkpoint: Q4 2027 (first major data point to distinguish regimes).
+- **[`REGIME_VALUATION_MASTER.md`](../robotaxi_analysis/REGIME_VALUATION_MASTER.md)** — 2035 outcomes comparison across all three regimes. Waymo: A $30–90B, B $150–400B, C $2–10T. Probability baseline (May 2026): A 50%, B 35%, C 15%. Expected value: $368B–1.69T.
+- **[`REGIME_COHERENCE_CONSTRAINTS.md`](../robotaxi_analysis/REGIME_COHERENCE_CONSTRAINTS.md)** — Why assumptions are coupled within each regime. Cannot cherry-pick across regimes.
+- **[`REGIME_TRANSITIONS.md`](../robotaxi_analysis/REGIME_TRANSITIONS.md)** — Hard triggers that force regime shifts (A→B, B→C, B→A, C→B, C→A). Key checkpoint: Q4 2027 (first major data point to distinguish regimes).
 
 **Monitoring & Indicators:**
-- **[`QUARTERLY_MONITORING_FRAMEWORK.md`](../../robotaxi_analysis/QUARTERLY_MONITORING_FRAMEWORK.md)** — Reframed from scenario probability to regime determination. Track KPIs quarterly; hard thresholds force regime transitions (not gradual probability shifts).
-- **[`REGIME_INDICATORS.md`](../../robotaxi_analysis/REGIME_INDICATORS.md)** — Five-tier hierarchy of leading indicators (ownership %, approval pace, non-ride mix, take-rate, fleet size). When any hard trigger hits, regime shift is forced.
+- **[`QUARTERLY_MONITORING_FRAMEWORK.md`](../robotaxi_analysis/QUARTERLY_MONITORING_FRAMEWORK.md)** — Reframed from scenario probability to regime determination. Track KPIs quarterly; hard thresholds force regime transitions (not gradual probability shifts).
+- **[`REGIME_INDICATORS.md`](../robotaxi_analysis/REGIME_INDICATORS.md)** — Five-tier hierarchy of leading indicators (ownership %, approval pace, non-ride mix, take-rate, fleet size). When any hard trigger hits, regime shift is forced.
 
 **Architecture & Critique:**
-- **[`REFRAME_WORLD_ANALYSIS.md`](../../robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md)** — Why original model failed: embedded transport assumptions prevent platform emergence. Shows hinge variable (ownership substitution) that determines all other outcomes.
-- **[`MODEL_ARCHITECTURE_COMPARISON.md`](../../robotaxi_analysis/MODEL_ARCHITECTURE_COMPARISON.md)** — Nine-dimension comparison of transport vs. platform model assumptions (demand, geography, unit economics, competition, valuation, scaling, labor, regulatory, success conditions).
+- **[`REFRAME_WORLD_ANALYSIS.md`](../robotaxi_analysis/REFRAME_WORLD_ANALYSIS.md)** — Why original model failed: embedded transport assumptions prevent platform emergence. Shows hinge variable (ownership substitution) that determines all other outcomes.
+- **[`MODEL_ARCHITECTURE_COMPARISON.md`](../robotaxi_analysis/MODEL_ARCHITECTURE_COMPARISON.md)** — Nine-dimension comparison of transport vs. platform model assumptions (demand, geography, unit economics, competition, valuation, scaling, labor, regulatory, success conditions).
 
 ## Quick Usage
 
