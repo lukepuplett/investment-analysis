@@ -201,6 +201,29 @@
 
 ---
 
+## Thematic Research References
+
+The following cross-portfolio research informs Trane's valuation and growth thesis:
+
+### Data Center Buildout Research
+**Location:** `/research/themes/data-center-buildout/2026_Q2_GEMINI_global_data_center_research.md`
+
+**Relevance to TT:**
+- **TAM Validation:** 14% global data center capacity CAGR (103→200 GW through 2030) supports 30%+ data center cooling TAM growth thesis
+- **Geographic Distribution:** US primary market saturation and secondary market migration validates TT's geographic diversification strategy
+- **Fleet Lifecycle:** Legacy facility thermal obsolescence (5-10 kW → 40-140 kW/rack transition) drives multi-year retrofit cycle opportunity for Trane cooling solutions
+- **Commissioning Framework:** 11-step fit-out process + 6-level commissioning framework reveals service revenue TAM (commissioning, LTSA, efficiency optimization)
+- **Modular Delivery Trend:** 60% of new hyperscale builds use modular methodology—validates Stella acquisition and modular cooling systems opportunity
+- **Liquid Cooling Mandate:** 40% of new builds now specify liquid cooling; validates Trane's direct-to-chip cooling technology and Stellar heat exchange expertise
+
+**Key Metrics to Monitor:**
+- Grid interconnection timelines (8-10 year European queues = extended capex visibility)
+- Modular system adoption rates (40% → expanding share)
+- Liquid cooling prevalence (40% → targeting 60%+ in next 2 years)
+- Mega-project commissioning timelines (18-24 months construction + 6-8 months commissioning)
+
+---
+
 ## Last Updated
 **May 29, 2026** | Q1 2026 Analysis Complete | Ready for H2 2026 Review
 

@@ -353,4 +353,16 @@ Trane operates in large, growing markets with powerful secular tailwinds. **Data
 
 ---
 
+## Research References
+
+**Data Center Buildout Thematic Research:** `/research/themes/data-center-buildout/2026_Q2_GEMINI_global_data_center_research.md`
+
+This cross-portfolio research validates key market assumptions:
+- **Data Center TAM:** 14% global capacity CAGR (103→200 GW through 2030) supports 30%+ cooling TAM growth
+- **Geographic Distribution:** Secondary market expansion (Texas, Arizona, Ohio) as primary hubs saturate
+- **Fleet Lifecycle:** Retrofit cycle (legacy 5-10 kW → AI 40-140 kW/rack) creates multi-year TAM opportunity
+- **Commissioning Framework:** Multi-year facility buildout cycle provides extended service TAM visibility
+
+---
+
 *Next: Competitive Analysis to assess moat durability and threat assessment.*
