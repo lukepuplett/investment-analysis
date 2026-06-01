@@ -1,0 +1,819 @@
+# Trane Technologies Q1 2026 Earnings Call Transcript
+
+Trane Technologies plc (TT) Q1 FY2026 earnings call transcript
+Powered by Quartr
+Apr 30, 2026, 10:00 AM EDT
+
+Earnings call
+
+Trane Technologies delivered a strong Q1 2026 with organic bookings up 24%, record backlog of $10.7 billion (up 30% vs. year-end 2025), and adjusted EPS growth of 7%. Management raised full-year organic revenue growth guidance to ~7% and adjusted EPS to $14.75-$14.95, citing robust demand in commercial HVAC, especially data centers, and continued services growth, while maintaining a prudent outlook for residential and transport segments.
+
+Powered by Yahoo Scout
+View more
+Operator
+0:00:00
+
+Good morning. Welcome to the Trane Technologies Q1 2026 earnings conference call. My name is Lisa, and I will be your operator for the call. The call will begin in a few moments with the speaker remarks and the Q&A session. We do ask that you limit your questions to one initial and one follow-up today. At this time, all participants are in a listen-only mode. I will now turn the call over to Zachary Nagle, Vice President of Investor Relations. Please go ahead, sir.
+
+Zachary Nagle
+VP of Investor Relations
+0:00:28
+
+Thanks, operator. Good morning, and thank you for joining us for Trane Technologies' first quarter 2026 earnings conference call. This call is being webcast on our website at tranetechnologies.com, where you'll find the accompanying presentation. We're also recording and archiving this call on our website. Please note that statements made today are forward-looking and may differ materially from actual results as detailed in our SEC filings. This presentation also includes non-GAAP measures explained in our news release and presentation appendix. Joining me today are Dave Regnery, Chair and CEO, and Chris Kuehn, Executive Vice President and CFO. With that, I'll turn the call over to Dave. Dave?
+
+Dave Regnery
+Chair and CEO
+0:01:20
+
+Thanks, Zach, and everyone for joining today's call. Please turn to slide number three. I'll start with a few thoughts on how our purpose-driven strategy continues to fuel strong performance over time. The dynamic global environment and rising demand for power is pushing customers to think differently about energy. With our leading innovation, Trane Technologies is uniquely positioned to win. Our high-efficiency systems and smart controls help customers save energy, lower operating costs, and increase resiliency, proving that sustainability and performance go hand in hand. Our strategy is built on a strong foundation, a robust business operating system, a powerful cash flow engine, and an uplifting, engaging culture. This formula positions us to deliver differentiated long-term value to our people, our customers, our shareholders, and our communities. Please turn to slide number four.
+
+Dave Regnery
+Chair and CEO
+0:02:21
+
+Q1 was another strong quarter, marked by exceptional enterprise organic bookings, up 24%, and record backlog of $10.7 billion, up over 30% versus year-end 2025. We delivered organic revenue growth of 3%, led by our Americas commercial HVAC business and double-digit global services growth. This strong performance translated to adjusted EPS growth of 7%. Our commercial HVAC businesses delivered outstanding performance, particularly in the Americas, where our commercial HVAC bookings reached an all-time high, up approximately 40% year-over-year, with Applied Solutions bookings up over 160%. Our third consecutive quarter of Applied bookings growth of greater than 100%. The strength of our commercial HVAC business is further underscored by our combined Americas and EMEA backlog, which is up approximately $2.7 billion over year-end 2025.
+
+Dave Regnery
+Chair and CEO
+0:03:25
+
+This includes approximately $1 billion from our acquisition of Stellar Energy, a leader in modular data center cooling solutions. We are exceptionally well-positioned for continued growth in 2026 and beyond. Our exceptional bookings and record backlog provide strong visibility to continued market outgrowth and revenue growth acceleration in the second half of the year. Our robust and rapidly growing commercial HVAC pipeline across key verticals, including long-term capacity and master purchase agreements in data centers, bolsters our confidence in the long-term outlook. Our services business, which represents one-third of our enterprise revenue, continues to be a consistent and durable growth driver, boasting a low teens compound annual growth rate since 2020. Additionally, we anticipate residential market tailwinds in the second half of 2026, driven by improving market fundamentals and easier prior year comparisons.
+
+Dave Regnery
+Chair and CEO
+0:04:25
+
+The Americas transport market also continued improvement in fundamentals, strengthening the outlook for a late 2026 and 2027 recovery. Operational excellence is core to everything we do, and we expect to mitigate tariff and inflationary pressures through our business operating system. Altogether, we are raising our full-year revenue and EPS guidance, which Chris will cover shortly. Please turn to slide number five. As discussed in our Americas segment, commercial HVAC continued its standout performance, with bookings up approximately 40% and revenues up high single digits. In high-growth verticals like data centers, customers expect innovative, highly engineered solutions tailored to their unique needs. This plays directly to our strengths, including leading innovation, system expertise, proven operational excellence, and the capacity to grow with our customers as their needs rapidly expand.
+
+
+Dave Regnery
+Chair and CEO
+0:05:26
+
+These factors and the expertise of our direct sales force enable us to capture a significant share of these opportunities. Turning to residential, bookings were up low single digits while revenues declined mid-single digits, exceeding our expectations entering the quarter. In Americas transport refrigeration, bookings were up double digits and revenues were up low single digits, significantly outperforming end markets, which saw truck, trailer, and APU segments down double digits in Q1. EMEA results were solid and consistent with our expectations, excluding headwinds from geopolitical events in the region. In Asia-Pacific, commercial HVAC bookings were up high 20%s, and revenues grew low single digits in the quarter, led by the rest of Asia, where bookings were up approximately 50% and revenues were up low single digits. Now, I'd like to turn the call over to Chris. Chris?
+
+Chris Kuehn
+EVP and CFO
+0:06:24
+
+Thanks, Dave. Please turn to slide six. Dave covered many key points from this slide earlier, so I'll keep my comments brief. Organic revenue growth for the enterprise was solid, up 3%, led by services growth up double digits. Enterprise organic leverage was in the high teens, and adjusted EPS growth was 7%, demonstrating the effectiveness of our business operating system in driving operational excellence throughout the P&L. Please turn to slide seven. Margins across the segments were largely in line with our expectations, with the Americas and Asia operating margins up 10 basis points and 90 basis points respectively. EMEA margins were impacted by expected first-year acquisition and integration-related costs and lower revenues and forecasts in the Middle East. We also maintained high levels of business reinvestment across the portfolio in the quarter, driving our flywheel of innovation and growth.
+
+Chris Kuehn
+EVP and CFO
+0:07:24
+
+Now I'd like to turn the call back over to Dave. Dave?
+
+Dave Regnery
+Chair and CEO
+0:07:28
+
+Thanks, Chris. Please turn to slide number eight. Our outlook for 2026 remains strong, supported by our record bookings and backlog. Our America's commercial HVAC business is executing at a very high level, significantly outperforming end markets. We expect continued strength in data centers and other core markets like higher education, government, and healthcare, just to name a few. Our Q1 book to bill was approximately 150%, and our backlog is up nearly 70% year-over-year, strengthening our visibility into 2026 and beyond. Based on our exceptional backlog and the timing of customer deliveries, we expect approximately 10% revenue growth in Q2 against a tough prior year comp of mid-teens growth. We expect revenues to accelerate to low teens growth as we move through the second half of the year. In residential, we had a strong start to the year.
+
+Dave Regnery
+Chair and CEO
+0:08:27
+
+We expect Q2 to be flattish, pivoting to growth in the second half, aided by easier prior year comps. At this early stage in the year, our outlook remains prudent, with flat revenues expected for 2026. Turning to transport, market fundamentals continue to improve and are increasingly supportive of a recovery in late 2026 and healthy growth in 2027. Our market forecast remains largely unchanged, with a mid-single-digit decline expected for full year 2026. We expect Q2 to be down roughly mid-teens based on the timing of large customer deliveries within the year. As we've discussed previously, given our strong mix of large customers, orders and revenues can be uneven from quarter to quarter. We significantly outperformed the transport markets in the first quarter and expect to outperform for the year.
+
+Dave Regnery
+Chair and CEO
+0:09:21
+
+Turning to EMEA, our results to date and expectations for the year are largely unchanged, excluding impacts related to the Middle East. First and foremost, we have prioritized the safety of our employees in the region. We do expect continued headwinds in the second quarter of approximately $50 million in revenues, representing an estimated $0.05 EPS impact in Q2. We continue to monitor the situation closely. In Asia-Pacific, China remains challenging with dynamic macro conditions. We expect the rest of Asia to be stronger than China in 2026. Overall, our outlook for the region remains flattish for 2026. I'd like to turn the call back over to Chris. Chris, over to you.
+
+
+Chris Kuehn
+EVP and CFO
+0:10:07
+
+Thanks, Dave. Please turn to slide number nine. Our 2026 guidance reflects the market dynamics we've discussed and operational excellence driven by our business operating system. It also incorporates our value creation flywheel, continued investment in innovation, market outgrowth, healthy leverage, and strong free cash flow. We're increasing our organic revenue growth guidance to approximately 7%, the high end of our prior range of approximately 6%-7%. Our reported revenue guidance moves to approximately 9.5%, with unchanged estimates for approximately two points of M&A and 50 basis points of favorable FX. We're also increasing our adjusted EPS guidance range to $14.75-$14.95, or approximately 13%-15% of adjusted EPS growth, up from $14.65-$14.85 prior.
+
+Chris Kuehn
+EVP and CFO
+0:11:06
+
+For Q2 2026, we expect approximately 5% organic revenue growth and adjusted EPS in the range of $4.20-$4.25. For additional details, please refer to slide 16. Please turn to slide number 10. We remain committed to our balanced capital allocation strategy focused on deploying excess cash to maximize shareholder returns. First, we strengthen our core business through relentless reinvestment. Second, we maintain a strong balance sheet to ensure optionality as markets evolve. Third, we expect to deploy 100% of excess cash over time. Our approach includes strategic M&A to enhance long-term returns and share repurchases when the stock trades below our calculated intrinsic value. Please turn to slide number 11.
+
+Chris Kuehn
+EVP and CFO
+0:12:00
+
+We are on track to deploy between $2.8-3.3 billion in 2026 through our balanced capital allocation strategy. This includes approximately $900 million for dividends, reflecting a 12% increase to $4.20 per share annualized in 2026. We've deployed or committed approximately $340 million year to date for M&A and strategic investments. Our share repurchases year to date through April stand at approximately $300 million, and we still have approximately $4.4 billion remaining under our current share repurchase authorization, providing significant optionality. Our M&A pipeline remains active, and we will continue to be disciplined in our approach. Overall, our strong free cash flow, liquidity, balance sheet, and substantial share repurchase authorization offer excellent capital allocation optionality as we move forward.
+
+Chris Kuehn
+EVP and CFO
+0:13:02
+
+Now I'd like to turn the call back over to Dave. Dave?
+
+Dave Regnery
+Chair and CEO
+0:13:06
+
+Thanks, Chris. Please turn to slide number 13. The Americas transport refrigeration market remains dynamic, but the long-term outlook is strong. ACT projects the market to bottom in the first half of 2026 and recover late in the second half. ACT also expects a sharp rebound beginning in 2027 and continued expansion through the end of the decade. We expect growth as well, but anticipate a more gradual slope to the recovery. We're managing the down cycle effectively, outperforming end markets, and continuing to invest in innovation, so we're well-positioned as the market strengthens. Please turn to slide number 14. In closing, our strategy is aligned to powerful secular tailwinds that position us to outperform. Megatrends around sustainability, digitalization, and rising energy demand are intensifying the need for our systems and services.
+
+Dave Regnery
+Chair and CEO
+0:14:01
+
+Through breakthrough innovation and the strength of our people, we're delivering superior performance for our customers and advancing a more sustainable future. With our proven business operating system, record backlog, and strong demand, we are well-positioned to deliver differentiated shareholder value in 2026 and beyond. Now, we'd be happy to take your questions. Operator?
+
+
+Operator
+0:14:27
+
+Thank you, sir. Everyone, if you would like to ask a question, please press star one on your telephone keypad. Again, we do ask that you limit your questions to one initial and one follow-up. First question today comes from Chris Snyder from Morgan Stanley.
+
+Chris Snyder
+Analyst
+0:14:43
+
+Thank you. I wanted to ask about the Americas Applied orders. You know, just kind of keep getting better, you know, despite the bar already being very high. I think this quarter up 160%. I guess my question is, are customers ordering with longer lead times than they were six or 12 months ago? Like, when you guys look at this backlog, is the delivery schedule, you know, meaningfully different versus a year ago? Just trying to figure if part of the strength is there's some extension in that lead times. Thank you.
+
+Dave Regnery
+Chair and CEO
+0:15:18
+
+Chris, how are you? This is Dave. Hope all is well. Look.
+
+Chris Snyder
+Analyst
+0:15:21
+
+All is well. Thank you.
+
+Dave Regnery
+Chair and CEO
+0:15:24
+
+Good. There's a little bit of confusion. Let me try to clear it up. Look, we have published lead times for all of our products. The published lead time on the unitary could be relatively quickly. In many cases, we have stock products, you know, next day, all the way up through our Applied Solutions where you could have lead time, say, 30 weeks. From a lead time perspective, we're very, very competitive. In fact, we also offer, in majority of our Applied Products, quick ship programs, which if a customer had an emergency, we'd be able to respond to at a premium, we'd be able to respond. That's kind of the lead time side of it.
+
+Dave Regnery
+Chair and CEO
+0:16:07
+
+If you're asking when customers are asking for the products, a little bit of a different question, and that could be really, you know, I think in the past, we probably talked about on average, and averages are always a little bit different. We would talk about, you know, six to nine months. In some verticals, we are seeing that being extended. You know, could it be 12 months, 18 months in some cases? For sure. Depending on the customer, how much visibility they want us to have, to make sure that our supply chain is ready as well. I guess the answer is if you're asking from a customer standpoint, for sure, it's a little bit longer.
+
+
+Dave Regnery
+Chair and CEO
+0:16:47
+
+Customers want that security that they're gonna make sure that we have their order and we're able to execute to it. From a lead times that we actually publish, that we actually can meet demand for customers, that is as it's always been.
+
+Chris Snyder
+Analyst
+0:17:03
+
+Thank you. I appreciate you highlighting that distinction between, like, the customer's lead times and your own because it does seem quite important. You know, maybe if I could just follow up on some of the cost/tariff changes that are in the market. I guess any, you know, impact on your back half price expectations in response to that? Then just, you know, kind of maybe more broadly, we hear a lot about difficulty or challenges of producing in the U.S. and others say it's just, you know, straight up uneconomical. You know, you guys have proved the opposite. You know, can you just maybe talk about the advantages of, you know, producing in the United States and how have you been able to compete effectively while facing the higher labor costs that come from domestic production?
+
+Chris Snyder
+Analyst
+0:17:55
+
+Thank you.
+
+Chris Kuehn
+EVP and CFO
+0:17:56
+
+Yeah, Chris, thanks for the, thanks for the questions. I'll kick off and I think Dave will jump in. Look, tariffs and inflation, look, it's certainly a dynamic environment with many changes since our last earnings call in January. On a net basis, we are expecting more inflation, including from raw materials and tariffs in the year than was estimated, say, 90 days ago. We do expect inflation will put some near-term pressure on price cost. We expect to manage this for the full year, and it's baked into our guide. I'm not gonna size the dollar impact for competitive reasons. Let me just share some context that I think would be helpful. You know, we've had an in-region, for-region manufacturing strategy for well over a decade in Trane Technologies. At the end of 2025, we had 21 factories in the Americas.
+
+Chris Kuehn
+EVP and CFO
+0:18:46
+
+Of that, 20 of those factories are in the U.S., and one factory is in Mexico. Since then, we've acquired Stellar Energy, which added production in Florida, which we're expanding, and we're expanding capacity with a new site to open later this year in Texas. One more thing to add. Over 95% of our products sold in the U.S. are manufactured and/or assembled in the U.S. Look, we've had a very strong track record to manage through inflation and tariffs. Maybe some short-term pressure, but we've got that managed in our guide, and we'll continue to leverage our business operating system to mitigate the impact of inflation, including tariffs over time. We'll look at mitigating the cost with suppliers. We'll look at alternative sources of supply, and then we'll look at pricing as necessary to offset that cost.
+
+Chris Kuehn
+EVP and CFO
+0:19:39
+
+At this point, I don't wanna get ahead of our businesses on price for the year. Our guide was around 1.5 points back in January. It's probably a little bit higher than that, probably closer to two points at the enterprise level now. We'll continue to leverage the business operating system and mitigate the cost where we can and price where we need to.
+
+
+Dave Regnery
+Chair and CEO
+0:19:58
+
+Chris, just to follow up there on the how do we stay competitive, look, I'll brag about our operating system, right? We are a great operator at Trane Technologies, we like our plants right here in the United States. We like creating jobs right here in the United States, and we do it in a very competitive way. Every time I go to one of our plants, I just see all the improvements they're making from the last time I had an opportunity to visit, and I just get so excited about what the future's gonna look like for our company.
+
+Dave Regnery
+Chair and CEO
+0:20:32
+
+Look, we have, as Chris said, we have over 21 plants now in the United States or will shortly, like that, and we are very, very competitive as you can see with our results.
+
+Chris Snyder
+Analyst
+0:20:45
+
+Thank you both. Really appreciate that.
+
+Dave Regnery
+Chair and CEO
+0:20:47
+
+Thanks, Chris.
+
+Chris Snyder
+Analyst
+0:20:47
+
+Thanks.
+
+Dave Regnery
+Chair and CEO
+0:20:48
+
+See you soon.
+
+
+Operator
+0:20:50
+
+Julian Mitchell from Barclays has the next question.
+
+Julian Mitchell
+Analyst
+0:20:55
+
+Hi. Good morning. Just wanted to start off with a question on operating leverage. You know, I think organically it was high teens in the first quarter, and you've got that mid-20s sort of baseline for the year. Maybe kind of walk us through how we should think about the operating leverage playing out through the balance of the year, organically and I suppose the inorganic headwind to that shrinks progressively. Is that the fair way to look at it?
+
+Chris Kuehn
+EVP and CFO
+0:21:25
+
+Hey, Julian. Good morning. Yeah, I mean, in the first quarter, I think leverage is consistent with our expectations. You know, we did a little bit better in the residential business. We had a bit of a headwind in the impact in the Middle East due to the conflict. You're right, it was around high teens organic leverage in the first quarter. We do see that improving as we move the year. You can think around the second quarter is in that mid-20s kind of range, then in the second half, we're in the mid- to high-20s in terms of organic leverage. We continue to see an acceleration in the top line then conversion to the bottom line in the second half of the year, consistent with our guide in January.
+
+Chris Kuehn
+EVP and CFO
+0:22:07
+
+We have even more conviction about the second half of the year and the guide for the year and a little bit easier comps in residential, growing top line in transport, and we expect to have a very strong business in the second half of the year with America's commercial HVAC executing on the backlog and when customers want product.
+
+Dave Regnery
+Chair and CEO
+0:22:26
+
+Yeah, the only, the only thing I would add, Julian, is in our resi business, we talked about this on our fourth quarter earnings call, we're level loading. Where in the past we would ramp up our factory, and over really produce in the first, you know, five months of the year and then bleed that down as we work through the peak season, we've changed our playbook there. We're level loading. Yeah, we are taking a bit of an absorption impact here in the first, I'll say, half of the year, but that will obviously come back in the back half of the year.
+
+Julian Mitchell
+Analyst
+0:22:59
+
+That's helpful. Thank you. Then maybe just a follow-up question on the resi HVAC side of things. Any big differences you're seeing on the one-step versus two-step, sort of movement there, and what's your confidence in terms of that inventory level in the channel and any early reads on summer selling season as it's starting out soon? Thank you.
+
+
+Dave Regnery
+Chair and CEO
+0:23:23
+
+Good question. I mean, look, we're very happy with our first quarter, and resi came in a bit better than what we anticipated, down mid-single digits. As far as inventory goes in the channel, look, as we said on our first fourth quarter call, we thought it was set properly in the independent wholesale distributor channel. Here we are at the end of the first quarter, and we say it's set properly. No change to that. We have the desired inventory levels, and, you know, we're optimistic. I mean, at the end of the fourth quarter, we felt we could be down, you know, 5% in our resi business. We've now modified that. We think it's gonna be a flattish year, but we'll see how it plays out.
+
+Dave Regnery
+Chair and CEO
+0:24:03
+
+We're only in Q1, early signs are, you know, we're executing well, we're more bullish than we have been for a while in our resi business. The team there is doing a great job executing, we'll see how the rest of the year plays out.
+
+Julian Mitchell
+Analyst
+0:24:20
+
+Fantastic. Thank you.
+
+Dave Regnery
+Chair and CEO
+0:24:22
+
+Okay. Thanks, Julian.
+
+Operator
+0:24:24
+
+The next question comes from Scott Davis, Melius Research.
+
+Scott Davis
+Analyst
+0:24:30
+
+Hey, good morning, guys.
+
+
+Dave Regnery
+Chair and CEO
+0:24:31
+
+Hey, Scott. How are you?
+
+Chris Kuehn
+EVP and CFO
+0:24:32
+
+Good morning.
+
+Scott Davis
+Analyst
+0:24:35
+
+I'm great. It's good that the week is winding down here a bit, but it's gonna be a long day, to be honest, but otherwise good. Look, I wanna back up a little bit. I think, you know, last quarter you talked about the Applied Solutions orders widening out and beyond just data center. Can you give a little bit of color on that? What particular markets? You know, I'm assuming that continued just given the orders up 160% has to be pretty broad based. Can you talk a little bit about some of the non-data center verticals that were strong for you?
+
+Dave Regnery
+Chair and CEO
+0:25:12
+
+Yeah, I mean, I think I talked a little bit in the prepared remarks, but yeah, it was broad-based, which is always encouraging for us. Look, everyone should understand, data centers was very strong, okay. Very strong. We had, you know, from a revenue standpoint, we had growth in the majority of the verticals that we track in the, at least in the Americas. I think we had, I think it was nine of the 14 verticals had positive growth. You could see that this is a broad-based. We have, I want to make sure everyone's aware, we have not lost focus on the core or what we call the core, even though data centers are very strong.
+
+Dave Regnery
+Chair and CEO
+0:25:50
+
+You know, I'll remind everyone that 95% plus of our account managers or sales force do not call on data centers, and they have real deep domain expertise in these verticals, and that really allows us to win. Broad-based growth, you know, mega projects continue to grow, data centers continue to grow, and obviously, our order rates continue to grow and, it's gonna be a great year for Trane Technologies.
+
+Chris Kuehn
+EVP and CFO
+0:26:19
+
+Scott, I'll add on the backlog. The growth in the 1st quarter was, I'll use a little bit of round numbers here, around $3 billion. Of that $3 billion, around $1.2 billion was from acquisitions, and of that was around $1 billion for Stellar Energy. That means we had about $1.7-1.8 billion of backlog growth from the core, from organic growth in the business. A very strong quarter in terms of backlog growth. We typically have seen ±$200 million to the backlog in any quarter over the last few years. Very strong momentum and orders in backlog, and the pipeline continues to remain very strong.
+
+
+Scott Davis
+Analyst
+0:27:05
+
+Are you guys operating full out in your factories, in your applied facilities right now? Are you fully capacitized at this point, or do you still have a little bit of flex?
+
+Dave Regnery
+Chair and CEO
+0:27:15
+
+Yeah, I mean, there's flex in some of the factories. Obviously, we're operating at a very high level right now. You know, capacity is one of those things where everyone will, "How are you defining it?" Right? Right now, in the majority of our factories, we're only running two shifts. In fact, some are only running one shift. We certainly have that to fall back on. With that said, I would also tell you that, you know, we have expanded our capacity, certainly over the last three years. We have plans to continue that expansion. In fact, we're making those investments as we speak. You know, Stellar, Chris talked about earlier, we also have expansions going into our some of our Applied factories as well.
+
+Chris Kuehn
+EVP and CFO
+0:27:56
+
+Yeah, Scott, we did raise our CapEx target for the year. We're generally 1%-2% of revenue. We raised it to 2%-3% of revenue, A, to capture the expanded production in Florida and in Texas for Stellar, and also to make sure we are staying ahead of where we see the growth, especially in our applied commercial HVAC business. Still targeting greater than or equal to 100% of free cash flow, even with that higher CapEx spend for the year.
+
+Scott Davis
+Analyst
+0:28:26
+
+Excellent. Well done. I appreciate it, guys, and best of luck this year.
+
+Dave Regnery
+Chair and CEO
+0:28:31
+
+Appreciate it, Scott.
+
+Chris Kuehn
+EVP and CFO
+0:28:31
+
+Thank you.
+
+
+Dave Regnery
+Chair and CEO
+0:28:32
+
+Thanks.
+
+Operator
+0:28:34
+
+Everyone, as a reminder, we please press star one if you have a question today. We'll take the next question from Andy Kaplowitz from Citi.
+
+Andy Kaplowitz
+Analyst
+0:28:43
+
+Good morning, everyone.
+
+Dave Regnery
+Chair and CEO
+0:28:45
+
+Hey, Andy. How are you?
+
+Andy Kaplowitz
+Analyst
+0:28:47
+
+Good. How are you? Dave and Chris, you know, obviously, data centers continue to be strong. I'm curious, like, if you look globally, you look at a market like Asia Pac, I mean, it's still a tough market, as you said, but you did have, I think, 50% growth ex China in bookings there. Do you see maybe a little bit more broad-based growth, you know, I don't know if it's led by data centers in places like that or maybe in Europe as well?
+
+Dave Regnery
+Chair and CEO
+0:29:14
+
+I mean, data centers are strong globally, okay? Once you get outside of the U.S., they tend to get smaller in size, but they're strong everywhere. Look, we have a, you know, our Asia team, we're still calling Asia flat for the year. Outside of China, we had some nice growth, nice orders. Team's got a very robust pipeline that they're tracking there. You know, we're gonna continue to execute. I'm still optimistic that we can hopefully do a little bit better than flattish in our Asia Pacific region for the year, the team is certainly executing to that goal as well. In Europe, look, I mean, Europe is actually, was relatively strong for us in Q1.
+
+
+Dave Regnery
+Chair and CEO
+0:30:01
+
+I mean, you know, orders were up, as we expected, as was revenue. We're not concerned at all about Europe, and that team continues to be very innovative and satisfying their customers in creative ways. We're happy with Europe. Obviously, the Middle East, we could all understand what's happening there, and we talked about that in our prepared remarks. The good news is all of our employees are safe in the Middle East, and let's hope that conflict gets over in the near term here.
+
+Andy Kaplowitz
+Analyst
+0:30:34
+
+Agreed. I'm curious about your continued outperformance in America's transport. You know, pretty strong in Q1 versus the market. I know you expect a recovery, you know, late this year, maybe a more gradual recovery than ACT. If you can talk about why you continue to outperform, you know, sort of the new products in the market and, you know, the outlook as you move forward there.
+
+Dave Regnery
+Chair and CEO
+0:30:56
+
+Yeah. I'll sound like a little bit of a broken record here because we love to talk about the innovation that we're putting out into the marketplace. You know, the transport markets have been down for years now. I think we all know that. We've been saying for a long time that we're gonna continue to invest even in down markets 'cause that's what makes great companies in the long term. You see some of those innovations and the efficiency of our products, the quality of our products. It's, you know, you could go out and do a sample of the trucking industry and you'd see the gold star is Thermo King. It's a gold star for a reason. That team will continue to execute.
+
+Dave Regnery
+Chair and CEO
+0:31:38
+
+We're seeing some nice signs that hopefully this market turns around. We're pretty confident it's gonna turn here in the back half of the year. It's late, but 2027 looks like it's gonna be a very strong market. At least if you listen to ACT, they would tell you it's gonna be a strong market and continue to build through the rest of the decade. We're well-positioned there, and I'll congratulate my team there for execution quite well here in the first quarter.
+
+Andy Kaplowitz
+Analyst
+0:32:09
+
+Appreciate all the color, Dave.
+
+Dave Regnery
+Chair and CEO
+0:32:11
+
+All right. Take care, Andy. See you now.
+
+
+Andy Kaplowitz
+Analyst
+0:32:13
+
+You too.
+
+Operator
+0:32:15
+
+Next up is Amit Mehrotra from UBS.
+
+Amit Mehrotra
+Analyst
+0:32:20
+
+Thanks. Morning, everybody. Dave, I just would like to see if you can talk about what you think your TAM is within data centers and how Stellar may change that. You know, when I think about Trane and data centers, I think large applied chillers, but obviously there are modular systems now with Stellar, and obviously the orders and the conversion is very good. Can you just talk about, you know, what that does for your competitive offering within data centers and really kind of what it does for your TAM?
+
+Dave Regnery
+Chair and CEO
+0:32:49
+
+Yeah. Sure. Well, let me start with Stellar, okay? I think that that's a great business, and we're so excited to have it be part of the Trane Technologies family. You know, today, Stellar specializes in building modular chiller plants for data centers. Okay? If we start kind of with the end in mind as to where we see Stellar, you know, think of this as a business that in two to three years is a $1 billion business. Think of it with mid-teensn plus EBITDA serving many verticals, not just data centers. The skilled labor scarcity is not unique to the data center vertical. It applies to all of our verticals, and we know that this is a great solution to help alleviate some of those shortages. We're very excited to have Stellar as part of the acquisition.
+
+Dave Regnery
+Chair and CEO
+0:33:43
+
+You look at it, today, it's $1 billion in backlog. Think about half of that shipping here in 2026. Modest accretion in 2026 as we'll be investing pretty heavily there. Chris talked a little bit about some of the expansions, but we're really deploying our operating system. We'll continue to deploy that and make a good company an even better company. I think we'll continue to see benefits with our Stellar acquisition well into the future, and we're excited to have it be part of the family. The other addition that we made was in LiquidStack, which really expanded our offering in CDUs. Another nice addition that's off to a great start, we'll continue to leverage that.
+
+Dave Regnery
+Chair and CEO
+0:34:35
+
+They also have some technology, kind of futuristic technology as well that we think could be part of the solutions in data centers in the future. As far as, you know, our position in data centers, look, we like our position, right? We're thought of as the thermal management experts. Okay? We're working with hyperscalers. We're working with other influencers, chip manufacturers and designing what some refer to as reference designs, others refer to as data centers of the future. Look, we get called on for a reason because of, you know, our expertise. As, you know, as far as the TAM goes, it keeps expanding, okay? The data center vertical keeps moving with innovation, and we keep pushing some of that innovation and developing that innovation.
+
+
+Dave Regnery
+Chair and CEO
+0:35:26
+
+It's a very, very strong vertical today, and it will be a very strong vertical well into the future.
+
+Amit Mehrotra
+Analyst
+0:35:34
+
+Great. Maybe just a follow-up to that. I don't know if this question is for Chris. Maybe you can talk about data center, service revenue and when you expect that to kick in. Obviously, service is one-third of the business mix right now. Maybe you can just help us think about how much of that is already data centers and really, like, is the mix within mix as data center service revenue ramps up, is the mix within that mix of service positive?
+
+Chris Kuehn
+EVP and CFO
+0:36:02
+
+Sure. I mean, again, with the end in mind, I mean, the service opportunity with the recent last few years' growth in data centers is still well in front of us. We've been in the data center vertical for decades, and so there's been a service component, but it's been one of 14 verticals prior to the last few years with the significant investments there, Amit. That's very much in front of us. We think about complex applied systems. They require the OEM to be connected. They require the OEM to provide service and maintenance. I know the last thing a data center wants is to ever have a fault or go down. Making sure that those systems and cooling systems are operating efficiently.
+
+Chris Kuehn
+EVP and CFO
+0:36:41
+
+Rotation through the products, is obviously very, very important. Maybe one more thing I'll maybe add on Stellar, maybe just from a modeling perspective, as Dave said, we expect about $500 million of revenue this year from Stellar. The base of that business we acquired was around $350 million of revenue. That was part of our January guide of around two points of revenue contribution from M&A. We also had anticipated about maybe 25% of growth off of that, just based on where data center growth was going in our January guide. In April, we've got the entire $500 million in our guide, and think of that as probably around $50 million incremental revenue we've got captured in April.
+
+Chris Kuehn
+EVP and CFO
+0:37:28
+
+It's an exciting business. The pipelines remain very strong in that business as well. To Dave Regnery's point, we've got a lot of investments to make to take this from a $350 million business to a $1 billion plus revenue business in two to three years.
+
+Dave Regnery
+Chair and CEO
+0:37:42
+
+Just one other comment on services. I think I've told most of you about our investment that we made here in North Carolina in our training facility. It's really the largest of its kind. I had the opportunity the other day to speak to a class, this particular class was there. They were technicians getting certified in data center commissioning, okay. That's how detailed we are in our training. I tell you, I was so impressed with the talent of our technicians and the excitement that they had on their face that I went home and I told my wife, I said, "When I come back next time, I'm gonna be a service technician." It's just gonna be so fun, there's gonna be so much growth in that space.
+
+
+Dave Regnery
+Chair and CEO
+0:38:26
+
+Look, we're gonna, as Chris said, a lot of this data center service works in front of us, and we're making sure we're ready for it and, it's gonna be a really fun journey here.
+
+Amit Mehrotra
+Analyst
+0:38:37
+
+Great. Dave, I think you'd make a great technician, by the way. Thank you very much. Yeah.
+
+Dave Regnery
+Chair and CEO
+0:38:43
+
+She was okay with me being a technician, I had to do it now. She didn't want me to come back and be one. Anyways, a lot of fun. Great team we have there.
+
+Operator
+0:38:54
+
+Andrew Obin from Bank of America has the next question.
+
+Andrew Obin
+Analyst
+0:38:58
+
+Hey, Dave. How are you?
+
+Dave Regnery
+Chair and CEO
+0:39:00
+
+Andrew, how are you?
+
+
+Andrew Obin
+Analyst
+0:39:01
+
+Hello, Dave. Dave, I think you're probably doing better than a technician. That would be my guess. Maybe a question. You know, there's a lot of conversation about behind the meter power and sort of resulting changes in HVAC infrastructure in data centers. Can you maybe talk about absorption chiller technology at Trane? What do you guys have? Do you need to add capacity? Does technology need to evolve to support behind the meter needs?
+
+Dave Regnery
+Chair and CEO
+0:39:40
+
+Look, I think behind the meter needs are not only in data centers. I'll start with that, but I'll come back to that. As far as in data centers, sure, we're starting to see that. As far as absorption chillers, yeah, that's a technology that it's been around for a while. It's, it's certainly getting some conversation now in data centers. I would tell you there's a lot of other types of technologies that we're looking at as well, that probably have, less water usage, and you'll could get some of the same benefits. A little bit careful here, but think of it as adiabatic cooling type solutions that, we're working on in clever ways, so that's another one.
+
+Dave Regnery
+Chair and CEO
+0:40:27
+
+There's certainly a lot of conversation around the, you know, direct current in data centers, so that's another technology that we're doing a lot of work on. All that's gonna be in front of us. If you look at, and there's a couple of, some of the larger chip manufacturers that will actually publish some of these reference designs. It's very interesting to go out and look at some of what our team is working on there, and it's pretty explicit as to what some of those technologies could be in the future. The behind the meter, yeah, that's happening. I would also tell you that we have a philosophy that that will happen in all buildings, right?
+
+Dave Regnery
+Chair and CEO
+0:41:05
+
+You know, long-term, we believe that all buildings will be smarter, all buildings will be more resilient, and we believe that we're gonna be part of the solution there with our agentic AI software tools to make buildings a lot smarter. That's really gonna be part of our future growth projections that we have going forward because we know that most buildings waste about 30% of the energy that they pay for. When you can solve that problem, you're solving a great problem for the planet from a carbon footprint standpoint. You're also creating great paybacks for the customer. You've probably heard me say before, it is green for green, right? It's green because it's saving our customers a lot of money, and it's also really good for the environment.
+
+Dave Regnery
+Chair and CEO
+0:41:56
+
+Data centers is one part of it, but don't leave out the core because that same concept is gonna take hold there.
+
+Andrew Obin
+Analyst
+0:42:03
+
+Excellent. Thank you. And maybe, you know, once again, staying on the data center topic, you know, you acquired Stellar Energy. Can you just talk about, and also obviously, you know, you have CoolIT, how has dialogue changed with customers since these acquisitions? Specifically, you know, your ability to increase your service presence inside data center with these acquisitions, how should we think about that?
+
+Dave Regnery
+Chair and CEO
+0:42:36
+
+Yeah, I mean, I don't think our dialogue has really changed with the end customers. We kind of always led with our deep domain expertise. You know, direct relationships with the customer, okay? That's not new to us. You know, we have the broadest portfolio in the industry, we're able to make sure that we're thinking at a system level, not a product level. That hasn't changed. Look, the service organization, and I've said this before, when customers, whether they're via a hyperscaler or a colo, when they come and see the capacity that we have within our service organization, you can see their eyes light up because they see the expertise that we have. They see how we train our associates, it alleviates a big.
+
+Dave Regnery
+Chair and CEO
+0:43:28
+
+If they had a fear that if something went wrong, we'd be there, that fear gets alleviated very quickly.
+
+Andrew Obin
+Analyst
+0:43:37
+
+Thank you.
+
+Dave Regnery
+Chair and CEO
+0:43:39
+
+Thank you, Andrew.
+
+Operator
+0:43:41
+
+Up next we'll take a question from Noah Kaye, Oppenheimer.
+
+Noah Kaye
+Analyst
+0:43:46
+
+Hey, Dave and Chris. How are you?
+
+Dave Regnery
+Chair and CEO
+0:43:48
+
+Good. How are you, Noah?
+
+Chris Kuehn
+EVP and CFO
+0:43:49
+
+Good morning.
+
+Noah Kaye
+Analyst
+0:43:50
+
+Good, good. Thanks. Same question. Maybe just to go back to transport and the outlook. Can you just give us a little bit more insight on what drives your back half conservatism versus ACT? You know, anything that, you know, you may be seeing from, you know, the pipeline to drive that or at least kind of leaving this as upside for the year?
+
+Dave Regnery
+Chair and CEO
+0:44:15
+
+I mean, look, we have several models, okay? ACT is one of them that we use to do our forecasts, and don't just base everything on ACT. Look, we think it's gonna have an uptick in the back half of the year. It's probably the oldest fleet of vehicles that we've seen in a long, long time, maybe 30, 40 years. I mean, these units eventually have to get replaced. They cost too much to operate if you don't. You know, you have the spot rate that's now, you know, exceeding the contract rate, which is always a good sign. We're bullish that this market's gonna start to come back, and when it comes back, it's gonna come back relatively strongly. We don't quite have the same inflection point in 2027 as ACT does.
+
+Dave Regnery
+Chair and CEO
+0:45:05
+
+We think they're being a little aggressive there, 'cause I'm not sure that the trailer OEMs could respond to that type of an increase. We're bullish about, you know, from, you know, I think it's gonna trough here in the second quarter, and I think it's upside in the back half of the year and really for several years to come. This is a great business, and it's had some tough years. Look, I, having personal experience of running this business at one time in my career, we will continue to be very, very successful in our transport refrigeration business.
+
+Noah Kaye
+Analyst
+0:45:45
+
+Thanks, Dave. Maybe just wanna ask about some of the improvements the company made to the reference design for large scale data center deployments. It's a little bit of a piece with your comments earlier on innovation, but, you know, there's more of a benefit from heat recovery integration, larger air-cooled chillers. You know, how far in front of kind of the market is this in terms of the innovation trend? Are you already starting to see this kind of reflected in your orders rates or your pipeline?
+
+
+Dave Regnery
+Chair and CEO
+0:46:18
+
+Yeah, I think you gotta take a reference design and think it's probably out there, you know, we could argue whether it's 12 months or 24 months, but it's probably somewhere in between there. You know, I think, like I said, I think you could think of buildings being smarter. I think you're gonna see chillers being smarter. We're doing a lot of work around that, and think of it as taking different elements that may not be part of that system today and embedding them in the system. Having a chiller that knows when to run in a free cooling mode only, or having a chiller that knows when to run in a vapor compression cycle and for how long.
+
+Dave Regnery
+Chair and CEO
+0:47:03
+
+Understanding weather patterns and the impact that they have on these microgrids that are being created here with these chiller farms and knowing when to cycle which units, that's all part of the efficiencies. Then you start thinking about the water flow. By the way, these are all closed loop systems. The water flow within the system.
+
+Noah Kaye
+Analyst
+0:47:25
+
+Mm-hmm
+
+Dave Regnery
+Chair and CEO
+0:47:25
+
+... and the velocity and the, and the needs and the pressure. There's a lot of complications here, and I'll get over my skis relatively quickly, but I know that we have some-
+
+Noah Kaye
+Analyst
+0:47:35
+
+Hmm
+
+Dave Regnery
+Chair and CEO
+0:47:35
+
+really smart technical engineers that work with the hyperscalers and the NVIDIA's of the world that love to have these conversations and little changes make a big difference, and it can have a big impact on the bottom line of a data center.
+
+
+Noah Kaye
+Analyst
+0:47:57
+
+Yep. Yep. Thanks for the insight.
+
+Dave Regnery
+Chair and CEO
+0:47:59
+
+Okay. Thanks, Noah.
+
+Operator
+0:48:02
+
+Nigel Coe from Wolfe Research is up next.
+
+Nigel Coe
+Analyst
+0:48:05
+
+Thanks. Good morning. I want to go back to the, you know, the, this AI reference design that you've been highlighting, Dave. Before that, I just wanna make sure we cover just a couple of guidance points. The resi outlook for flat for the year, you got flat for 2Q. Seems like on easier comps, the back half looks super easy, or rather super conservative. Just wanna make sure I understand that. I think that ACT Research did raise their reefer builds for the full year. You're not raising your market outlook, so just wondering what that disconnect's about.
+
+Dave Regnery
+Chair and CEO
+0:48:39
+
+Yeah. Well, I mean, I'll start with the TK side of it. Look, we thought that TK had. We think that ACT maybe was a little bit, maybe wasn't very accurate at the end of the fourth quarter. Them raising their number didn't really change our outlook very much at all. Okay. Like I said, we use ACT, but we use other sources, including our own internal models. We're happy that it's not a negative number from ACT. I think it jumped up, I think it's 6% now on what they're projecting. We'll see how the year, you know, unfolds here, but we're off to a good start in the first quarter. Some of that had to do with timing of some large customers, as I talked about in our prepared remarks.
+
+Dave Regnery
+Chair and CEO
+0:49:20
+
+At the end of the day, we're starting to see some growth signs in Thermo King, which I haven't been able to say in a long time. I'm proud of what that team's been able to do.
+
+
+Chris Kuehn
+EVP and CFO
+0:49:30
+
+Yeah. Nigel, I'll add on residential, yeah, we took the full year guide up to about flattish versus, you know, flat to down five, you know, in January. Off to a strong start, it's also just the 1st quarter of the year, right? We're just about to enter into the cooling season, calling the second quarter around flattish and, maybe around mid-single-digit growth in the second half. I mean, our teams are ready. We've talked about inventory in the channel is in a very good spot, just like it was 90 days ago. We'll see how the year plays out. We'll at least like to put it out in this outlook and, a lot of confidence in the full-year guide.
+
+Dave Regnery
+Chair and CEO
+0:50:08
+
+Let me know if you need a unit, okay, Nigel? You could help us out.
+
+Nigel Coe
+Analyst
+0:50:12
+
+Yeah, well, you know, I just replaced my unit, you never know, maybe another year or two. Just on going back to data center. Go back to data center. You mentioned, you know, DC power, you know, you seemed to indicate You see that as an opportunity. I'm wondering, do you wanna be a DC power sort of equipment provider, or are you talking about, you know, sort of realigning your equipment to be DC power native? Just wanna clarify that. On the AI reference design, to what extent is that helping to drive, you know, higher content for Trane?
+
+Nigel Coe
+Analyst
+0:50:51
+
+I'm talking about chillers and the whole integrated unit as opposed to, you know, just selling, you know, pieces of the puzzle.
+
+Dave Regnery
+Chair and CEO
+0:50:58
+
+Yeah. I think, on the DC question, absolutely. We're not gonna get into DC power, but we're gonna make sure our system can work on DC power. Okay. Think of it like that. As far as the reference design, look, every reference design I've seen has chillers in it. Okay. I would also tell you that in data centers, as in other verticals, we love to think of it at a system level, and we have the opportunity to think at a system level based on the breadth of our portfolio. We're not wed to any particular component within that system. We just want it all to say Trane Technologies at the end of the day.
+
+Dave Regnery
+Chair and CEO
+0:51:37
+
+When we sit down with the influencers in the data center vertical and work on reference designs, we're plugging and playing lots of different products and derivatives of those products that could be in a pipeline of our own NPD pipeline for the future. We're very happy with our position in data centers. You know, we believe that the data center vertical will be strong for the foreseeable future, and we know that we're gonna be a big part of that.
+
+
+Nigel Coe
+Analyst
+0:52:12
+
+Okay. By the way, Dave, I'll buy a Trane unit if you come and install it. How's that? How about that?
+
+Dave Regnery
+Chair and CEO
+0:52:18
+
+All right. With my new technician skills, I'm ready, man.
+
+Nigel Coe
+Analyst
+0:52:21
+
+Good. Okay. Thanks, Dave.
+
+Dave Regnery
+Chair and CEO
+0:52:23
+
+Thanks, Nigel.
+
+Operator
+0:52:25
+
+Everyone, that does conclude the question and answer session. I'd like to turn the call back to Zachary Nagle for any additional or closing remarks.
+
+Zachary Nagle
+VP of Investor Relations
+0:52:34
+
+I'd just like to thank everyone for joining today's call, and wanted to let folks know we'll be around for questions, as always. Please feel free to give us a call. Also, we're looking forward to seeing many of you on the road here in the second quarter, and we'll speak to you at the end of the second quarter on our earnings call. Thanks again. Bye.
+
+
+Operator
+0:52:55
+
+Once again, everyone, that does conclude today's conference. We would like to thank you all for your participation. You may now disconnect.
+
