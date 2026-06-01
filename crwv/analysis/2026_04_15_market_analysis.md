@@ -110,6 +110,63 @@
 
 ---
 
+## The Infrastructure Stack: Landlord vs. Neocloud Layer
+
+### Market Segmentation by Infrastructure Role
+
+The global data center expansion (103 GW → 200 GW through 2030, per thematic research) bifurcates into two distinct economic layers, each with different margin profiles, capital structures, and execution risks:
+
+| Component | Landlord Layer | Neocloud Layer (CoreWeave) |
+|-----------|---|---|
+| **Primary Companies** | Digital Realty, Vantage Data Centers, Aligned, Equinix, PowerHouse | CoreWeave, Lambda Labs, Crusoe Energy |
+| **Capital Deployment** | Real estate: land, concrete, transformers, cooling plants | Silicon: NVIDIA GPUs, liquid-cooling manifolds, orchestration software |
+| **Cost per MW** | $7-10M | $50-70M |
+| **Debt Collateral** | Real estate mortgages, long-term tenant leases | GPU inventory, multi-year revenue contracts |
+| **Annual Capex (50 MW facility)** | $350-500M | $2.5-3.5B |
+| **Market Constraint** | 8-10 year utility grid interconnection queues | Landlord shell availability, NVIDIA chip allocation |
+| **Gross Margin Target** | 35-45% (long-term leases) | 55-65% (compute margin) |
+
+### Why CoreWeave Capex Dwarfs Landlord Capex
+
+For an identical 50 MW facility:
+- **Landlord's responsibility:** Build weather-tight concrete structure, pull in power lines, install cooling plants = **$350-500M**
+- **CoreWeave's responsibility:** Fill same facility with GPU clusters, liquid cooling infrastructure, orchestration = **$2.5-3.5B**
+- **Ratio:** CoreWeave capex is **5-7x larger than landlord capex** for the identical asset
+
+This explains CoreWeave's $20B+ debt requirement despite zero real estate ownership: **the silicon is vastly more expensive than the concrete.**
+
+### Landlord Dependency: The Critical Path to Revenue
+
+CoreWeave's 2026-2027 revenue delivery is entirely dependent on landlord ability to complete core-and-shell facilities on schedule. The data center fit-out timeline breaks down as:
+
+| Phase | Owner | Duration | Impact on CoreWeave |
+|-------|-------|----------|---------------------|
+| **Utility interconnection & power (Steps 1-4)** | Landlord | 12-18 months | Gate keeper; 8-10 year grid queues in Europe could delay entire facility |
+| **Core-and-shell completion (Steps 5-7)** | Landlord | 6-12 months | Must be weather-tight before CoreWeave can enter equipment |
+| **CoreWeave GPU deployment (Steps 8-10)** | CoreWeave | 4-6 months | Can only begin after landlord hands off shell |
+| **Operational handoff (Step 11)** | Both | 1-2 months | Revenue recognition begins |
+| **Total timeline** | — | **18-27 months** | **Landlord is critical path** |
+
+**Current landlord supply visibility (per thematic research):**
+- 50+ mega-projects under active construction globally
+- ~500-1,000 MW of core-and-shell availability per year through 2028
+- CoreWeave deployment capacity: 200-300 MW/year (constrained by NVIDIA allocation, not landlord supply)
+
+**Implication:** Landlord supply is abundant relative to CoreWeave's deployment speed. However, **regional variations matter**: European FLAP hubs (Frankfurt, London, Amsterdam, Paris) face 8-10 year grid queues, potentially affecting 10-15% of planned European expansion. Secondary markets (US: Texas, Arizona, Ohio; Asia-Pacific: Singapore, Tokyo, Sydney) have shorter queues and are the primary deployment targets for both landlords and CoreWeave.
+
+### Revenue Visibility vs. Infrastructure Risk
+
+CoreWeave's $99B backlog provides strong demand visibility, but revenue realization depends on:
+1. **NVIDIA GPU allocation** (managed by CoreWeave via procurement)
+2. **Landlord shell delivery** (external dependency, 8-10 year European queues create material risk)
+3. **Customer adoption timelines** (contracted; low risk given $99B backlog)
+
+A 6-12 month delay in any landlord facility cascades to $1-2B in quarterly revenue delays for CoreWeave.
+
+Reference: `/research/themes/data-center-buildout/2026_Q2_GEMINI_global_data_center_research.md` → **Part 7: The Neocloud Layer** for detailed infrastructure stack analysis and mega-project delivery timelines.
+
+---
+
 ## Pricing Dynamics & ASP Trends
 
 ### Historical ASP (Average Selling Price) Evolution

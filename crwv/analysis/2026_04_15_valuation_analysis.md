@@ -88,6 +88,104 @@ If we model CapEx moderating to 10% revenue post-2027:
 
 ---
 
+## GPU-Backed Financing as a Sustainable Competitive Moat
+
+### Why Debt Financing Creates Valuation Advantage
+
+CoreWeave's unique capital structure—funded via **GPU-backed Delayed Draw Term Loans (DDTL)** collateralized by NVIDIA GPU inventory and multi-year revenue contracts—provides a structural cost-of-capital advantage that competitors cannot replicate. This moat deserves explicit valuation recognition.
+
+#### The DDTL Financing Structure
+
+```
+Tier 1 Financial Sponsors (Blackstone, Goldman Sachs, Morgan Stanley)
+    ↓
+$8.5B+ Delayed Draw Facility @ 6% cost of debt (industry-leading rate)
+    │
+    ├─► Collateral 1: GPU Inventory (Thousands of NVIDIA GB200/GB300 units)
+    │   • Market value: $1-2M per unit
+    │   • Total collateral value: $8B+
+    │   • Liquid secondary market supports lender recovery
+    │
+    └─► Collateral 2: Revenue Backlog ($99B contracted)
+        • Multi-year hyperscaler commitments (5-10 year LTSA equivalents)
+        • Foundation labs (OpenAI, Meta, Google, Microsoft)
+        • ~$36B due next 24 months; ~$75B due next 4 years
+        • Revenue visibility 99%+ (pre-sold)
+```
+
+#### Why GPU Collateral Justifies "Infrastructure-Grade" Debt
+
+| Collateral Type | Cost of Capital | Why |
+|-----------------|-----------------|-----|
+| **GPU Inventory (CoreWeave)** | 6.0% (after-tax DDTL) | Hard asset; active secondary market; institutional buyer base (hyperscalers, cloud providers); minimal depreciation (5-10%/year) |
+| **Commercial Aircraft (for comparison)** | 4.5-6.5% | Similar hard asset, active leasing market; diversified buyer base |
+| **Traditional Venture Debt** | 10-15% | Unsecured; depends on execution; no tangible collateral |
+| **Corporate Bonds (B-rated)** | 8-10% | Secured against balance sheet; depends on earnings |
+
+**The Key Insight:** Wall Street values GPU inventory similarly to aircraft assets—**both are hard assets with global resale markets, predictable depreciation, and institutional buyers.**
+
+#### Cost of Capital Advantage vs. Competitors
+
+| Competitor | Funding Source | Cost of Capital | Valuation Impact |
+|------------|---|---|---|
+| **CoreWeave** | DDTL (GPU-backed) | 6% debt + equity | **Lower WACC** = higher valuation |
+| **Lambda Labs** | Venture capital (equity only) | 30%+ (equity risk premium) | Higher WACC, lower valuation multiple |
+| **AWS GPU (subsidiary)** | Corporate debt | 4-5% (investment-grade) | Lower WACC, but must justify broader AWS capex |
+| **Crusoe Energy** | Venture capital | 25%+ (equity risk) | Higher WACC, margin pressure |
+
+**CoreWeave's WACC Advantage:**
+- CoreWeave WACC: ~10% (blended 6% debt + 17.5% equity with 40/60 D/E ratio)
+- Lambda Labs (venture-only): ~18% WACC (all equity at high risk premium)
+- **Valuation Multiple Difference:** 8pp WACC differential compresses present value of future cash flows by 30-40%
+
+#### How Just-In-Time Draws Mitigate Downside Risk
+
+Traditional capex companies carry full debt on the balance sheet upfront, then deploy it over time. CoreWeave's DDTL structure matches draw timing to deployment:
+
+```
+Month 0: NVIDIA GPU allocation secured
+         ↓
+Month 6: Landlord completes core-and-shell
+         ↓ 
+Month 12: Draw Event #1 (~$1-2B) → GPUs purchased and deployed
+         ↓
+Month 18: Draw Event #2 (~$1-2B) → Additional capacity deployed
+         ↓
+Month 24: Facility operational, revenue recognition begins
+         ↓
+Month 25+: Customer payments service debt interest ($80-120M/year)
+```
+
+**Downside Mitigation:** If deployment slows (landlord delays, customer adoption slower), CoreWeave simply defers draws, avoiding unnecessary debt accumulation. Traditional capex-heavy companies cannot adjust debt drawdowns without penalty.
+
+#### Valuation Impact: WACC Discount
+
+Using WACC as the discount rate:
+
+| Scenario | Cost of Debt | D/E Ratio | WACC | Terminal Value PV | Equity Value |
+|----------|-------------|----------|------|-------------------|--------------|
+| **CoreWeave (6% debt rate)** | 6.0% | 40/60 | 10.0% | $156B | $150B |
+| **Competitor (10% debt rate)** | 10.0% | 40/60 | 11.5% | $118B | $115B |
+| **Venture-only (no debt)** | N/A | 0/100 | 18.0% | $72B | $72B |
+| **Valuation Difference** | — | — | **400 bps** | **+37% CoreWeave vs. venture** | **+108% CoreWeave vs. venture** |
+
+**Takeaway:** CoreWeave's DDTL financing structure alone justifies a **$30-50B+ valuation premium** vs. traditional venture-funded competitors.
+
+#### Revenue Quality: Pre-Sold, Contracted, Backlog-Driven
+
+CoreWeave's $99B backlog is not speculative pipeline; it is **contractually committed capacity with multi-year terms**:
+
+| Attribute | Value | Impact on Cost of Capital |
+|-----------|-------|--------------------------|
+| **Backlog (24-month)** | $36B | De-risks next 2 years; supports low debt rate |
+| **Backlog (4-year)** | $75B | Provides cash flow certainty; reduces equity risk premium |
+| **Revenue Visibility** | 99%+ | Cash flow predictability justifies 6% debt (vs. 10%+ for speculative capex) |
+| **Customer Concentration** | <35% largest customer | Diversified; reduces idiosyncratic risk |
+
+**Bottom Line:** The combination of **hard asset collateral (GPUs) + pre-sold revenue backlog + infrastructure-grade financing** creates a sustainable cost-of-capital advantage that is durable as long as the backlog remains solid and GPU markets remain liquid.
+
+---
+
 ## Comparable Company Analysis
 
 ### Public Company Comparables

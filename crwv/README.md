@@ -10,6 +10,38 @@ CoreWeave is a specialized AI hyperscaler that focuses on:
 - High-performance computing solutions
 - Strategic partnerships with AI leaders (OpenAI, IBM, NVIDIA)
 
+### Neocloud Operator Model: Asset-Light Infrastructure
+
+CoreWeave operates as a **"Neocloud" operator**—a fundamental structural distinction from traditional cloud providers (AWS, Azure, GCP) or physical real estate developers (Digital Realty, Vantage Data Centers):
+
+| Dimension | Traditional Real Estate Developer | CoreWeave (Neocloud Operator) | Traditional Cloud Provider |
+|-----------|----------------------------------|------------------------------|---------------------------|
+| **Primary Capital Deployment** | Land, concrete, transformers, cooling plants ($7-10M/MW) | NVIDIA GPUs, liquid cooling manifolds, networking ($50-70M/MW) | Diversified (real estate, compute, storage, networking) |
+| **Balance Sheet Assets** | Real property, substations, utility infrastructure | GPU inventory, network equipment | Hybrid real estate + software |
+| **Debt Collateral** | Real estate mortgages, long-term leases | NVIDIA GPU inventory + multi-year revenue contracts (DDTL) | Corporate balance sheet |
+| **Business Model** | Build core-and-shell facilities, lease to tenants | Lease facilities from developers, deploy & manage GPU clusters | Broad cloud services portfolio |
+| **Market Constraint** | 8-10 year utility grid interconnection queues | Landlord shell availability, NVIDIA chip allocation | Demand competition, pricing pressure |
+
+**Why CoreWeave Needs $20B+ in Debt Despite Owning Zero Real Estate:**
+- A 50 MW data center facility costs $350-500M for the landlord to build
+- The same facility costs $2.5-3.5B for CoreWeave to fill with GPU clusters and cooling infrastructure
+- Landlord capex = 1x | CoreWeave capex = 5-7x
+- CoreWeave's capital requirements dwarf the landlord's, despite zero real estate ownership
+
+**GPU-Backed Financing Model:**
+CoreWeave pioneered **Delayed Draw Term Loans (DDTL)** collateralized by:
+1. **Physical GPU Inventory** — Thousands of NVIDIA GB200/GB300 units held as security; actively traded secondary market supports loan recovery
+2. **Multi-Year Revenue Contracts** — $99B+ contracted backlog from hyperscalers (Meta, OpenAI, Microsoft) provides cash flow certainty to service debt
+3. **Just-In-Time Drawdown** — Debt facilities are drawn in phases aligned with facility fit-out timelines (Steps 1-11 per data center lifecycle), matching debt to cash deployment needs
+
+**Dependency on Landlord Infrastructure:**
+CoreWeave's execution is entirely dependent on availability of ready-to-occupy data center shells from third-party developers. A 50 MW facility requires:
+- 12-18 months for landlord to complete core-and-shell (utility interconnection, power, cooling plants)
+- 6-9 months for CoreWeave to install GPUs, cooling manifolds, and orchestration software
+- **Total timeline: 18-27 months**, with landlord completion as the critical path gate
+
+Reference: `/research/themes/data-center-buildout/2026_Q2_GEMINI_global_data_center_research.md` → **Part 7: The Neocloud Layer** for detailed infrastructure stack analysis.
+
 ### Customer Interface & Value Proposition
 CoreWeave surfaces its value proposition through:
 
@@ -265,4 +297,25 @@ The analysis follows the framework defined in the root `llms.txt` file, covering
 - Quarterly statements: `YYYY_QN_[type].txt` format where type is:
   * `form_10Q` for SEC filings
   * `presentation` for earnings presentations
-  * `
+
+---
+
+## Thematic Research References
+
+The following cross-portfolio research informs CoreWeave's competitive positioning and infrastructure dependency:
+
+### Data Center Buildout Research (Neocloud Layer)
+**Location:** `/research/themes/data-center-buildout/2026_Q2_GEMINI_global_data_center_research.md` → **Part 7: The Neocloud Layer**
+
+**Relevance to CoreWeave:**
+- **Infrastructure Stack Clarity:** Distinguishes landlord layer (Digital Realty, Vantage, Aligned building shells at $7-10M/MW) from neocloud layer (CoreWeave deploying GPUs at $50-70M/MW)
+- **Cost of Capital Advantage:** GPU-backed DDTL financing (6% debt) is infrastructure-grade because GPUs are hard assets with active secondary markets and institutional buyers—similar to aircraft financing
+- **Landlord Dependency Risk:** CoreWeave's deployment timelines depend on landlord shell completion; European 8-10 year grid queues create material execution risk for FLAP hub (Frankfurt, London, Amsterdam, Paris) facilities
+- **Supply Abundance:** 50+ mega-projects globally deliver 500-1,000 MW/year core-and-shell capacity vs. CoreWeave 200-300 MW/year deployment speed; landlord supply is abundant relative to demand
+- **Commissioning Timeline:** 18-27 month total fit-out process (12-18 months landlord shell + 6-9 months CoreWeave GPU deployment) with landlord as critical path
+
+**Key Metrics to Monitor:**
+- Landlord facility commissioning adherence (especially secondary markets: Texas, Arizona, Ohio)
+- European grid interconnection timelines (8-10 year FLAP queues impact European expansion)
+- GPU collateral market depth (secondary market liquidity supports DDTL financing sustainability)
+- Modular data center adoption (60% of new builds use modular delivery, supporting faster CoreWeave deployment cycles)
