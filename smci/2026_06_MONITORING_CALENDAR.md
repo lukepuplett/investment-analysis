@@ -1,5 +1,30 @@
 # SMCI Investment Thesis – Monitoring Calendar & KPI Tracker
-**Updated: June 3, 2026 | Current Price: $50.17 USD (NASDAQ:SMCI)**
+**Updated: June 3, 2026 (Post Q3 FY2026 Results) | Current Price: $46.88 USD (NASDAQ:SMCI)**
+
+---
+
+## Q3 FY2026 Results Summary (May 5, 2026 Earnings Call)
+
+✅ **THESIS VALIDATED & ACCELERATED**
+
+| Metric | Q3 FY26 Actual | Prior Guidance | Status |
+|--------|---|---|---|
+| **Revenue** | $10.2B | — | 123% YoY, -19% QoQ (customer site delays) |
+| **Gross Margin** | 10.1% (non-GAAP) | 12%+ target | ✅ Achieved; 2–3Q ahead of schedule |
+| **Q4 FY26 Guidance** | $11.0–12.5B | — | Strong; mid-point $11.75B |
+| **FY2026E Guidance** | $38.9–40.4B | $33B+ | ✅ Raised +18–22%; 77–84% full-year growth |
+| **DCBBS Status** | Revenue visible | <1% | ✅ Margin contribution confirmed |
+| **New Markets** | NeoCloud, Sovereign AI, Agentic AI gaining traction | Emerging | ✅ Tangible customer wins |
+
+**Key Outcomes:**
+- Margin recovery: +370 bps QoQ (6.4% → 10.1%); structural improvement confirmed
+- DCBBS delivering: Now visible in actual margins; new profit streams opening
+- Revenue delayed Q3 (customer site readiness), rescheduled Q4/Q1 FY27 (not demand miss)
+- Backlog: "Record high" per management
+- Conviction upgraded: 6.5–7.0/10 → 7.5–8.0/10
+- Recommendation: BUY → **STRONG BUY** at $46.88
+
+---
 
 ---
 
