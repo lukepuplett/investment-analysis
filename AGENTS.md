@@ -337,6 +337,150 @@ When creating or updating a company's README, include:
 - **Quarterly**: Full performance review, earnings analysis, model updates
 - **Semi-Annual**: Thesis review, moat assessment, valuation refresh
 
+---
+
+## Monitoring Framework
+
+### Purpose & Structure
+
+**Monitoring files** bridge the gap between comprehensive analysis documents and daily/weekly operational tracking. They are forward-looking, actionable checklists organized chronologically by month (not by analysis date). Unlike analysis documents (dated YYYY_MM_analysis_type.md), monitoring files are live documents updated continuously as months pass.
+
+### File Organization
+
+**Format:** `[TICKER]_MONITORING_SCHEDULE.md` (e.g., `SMCI_MONITORING_SCHEDULE.md`)
+
+**Location:** Company root directory (`smci/SMCI_MONITORING_SCHEDULE.md`)
+
+**No date prefix** because monitoring covers a multi-year horizon (24–36 months) and is updated as time progresses.
+
+### Monitoring Document Structure
+
+Each month includes four key sections:
+
+1. **Status from Prior Month** — Backward-looking
+   - What was supposed to happen last month?
+   - What actually happened? (checkboxes marked ✅/❌)
+   - Thesis confidence: higher or lower than expected?
+
+2. **This Month** — Current/forward-looking
+   - What metrics to track this month
+   - What catalysts are scheduled (earnings, product launches, etc.)
+   - What data points to monitor (price, news, insider activity)
+
+3. **Red Flags & Green Lights** — Decision framework
+   - **Red Flags:** Specific metrics that would invalidate thesis pillar(s)
+   - **Green Lights:** Specific metrics that would confirm bull case
+   - **Action Thresholds:** What to do if flags trigger (trim, exit, hold, add)
+
+4. **Next Month Prep** — Forward visibility
+   - What's coming next month
+   - Any major catalysts ahead
+   - Required research/prep work
+
+### Critical vs. Quiet Months
+
+- **🔴 CRITICAL months** (marked with red flag emoji)
+  - Usually earnings releases with specific watch lists
+  - Detailed red flags and green lights
+  - Clear action thresholds
+  - Example: "Q4 FY2026 earnings expected Sept 2026; watch for gross margin >10%, DCBBS >2% of revenue"
+
+- **Regular months** (ongoing data collection)
+  - Less intense; routine monitoring
+  - Optional deep dives on specific metrics
+  - Useful for catching competitive moves, news, sentiment shifts
+
+- **Quiet months** (explicitly listed as nothing scheduled)
+  - Confidence in timeline; nothing material expected
+  - Continued price/news monitoring
+  - No action required unless red flag triggers
+
+### When to Use Monitoring Files
+
+**Daily/Weekly:**
+- Open the file at start of current month
+- Check "This Month" section for items to track
+- Monitor checkbox items as data arrives (earnings, press releases, analyst updates)
+- Scan "Red Flags" — if any trigger, reassess conviction immediately
+
+**Monthly:**
+- At month-end: review "Status from Prior Month" — what hit, what missed
+- Update conviction level if status diverges from expectations
+- Move to next month; review "Next Month Prep" to plan ahead
+
+**Quarterly (Earnings):**
+- 🔴 CRITICAL months get intensive review
+- Check detailed watch list before earnings call
+- Score red flags/green lights during call or immediately after
+- Execute action thresholds if needed (trim, hold, add)
+
+**Semi-Annual (Major Review):**
+- Reassess conviction level against all thesis pillars
+- Update positioning (increase/decrease allocation) based on execution
+- Validate core assumptions against latest data
+
+### Ongoing Monitoring Checklist
+
+Monitoring files include a separate section for continuous tracking across the investment horizon:
+
+| Frequency | Items | Example |
+|-----------|-------|---------|
+| **Daily/Weekly** | Stock price, news, insider activity, analyst coverage | Monitor for thesis-invalidating events |
+| **Monthly** | Data center industry reports, mega-projects status, cooling infrastructure, competitive announcements | Track external factors outside company control |
+| **Quarterly** | Earnings analysis, analyst consensus, comparable company performance, mega-projects wins tracking | Full assessment of progress vs. plan |
+| **Semi-Annual** | Thesis coherence review, conviction re-assessment, valuation update, risk audit | Strategic checkpoint on positioning |
+
+### Example: How to Use Monthly Monitoring
+
+**Scenario:** It's currently June 2026 (current month)
+
+1. **Open** `SMCI_MONITORING_SCHEDULE.md`
+2. **Search** for "## 2026-06 (June)"
+3. **Status from Prior Month** shows Q3 FY2026 earnings (May 5) results: ✅ margin recovery validated
+4. **This Month** lists: monitor stock price, track sentiment, scan for competitive news
+5. **Red Flags** show: stock drops >10% on no news, analyst downgrades
+6. **Green Lights** show: stock holds $45–50, positive DCBBS sentiment
+7. **Next Month Prep** says: nothing major; quiet summer period expected
+
+Later in the month, if stock drops 8% on no news (minor red flag), you know to monitor closely but not panic. If analyst raises price target (green light), you increase conviction slightly.
+
+By month-end, move to July section and repeat.
+
+### Updating Monitoring Files
+
+**Timing:** Update when major catalysts pass (earnings, analyst changes, strategic events)
+
+**Approach:** 
+- Add brief note in "Status from Prior Month" of next month (e.g., "Earnings beat margin expectations by 50 bps")
+- Mark checkboxes as items complete
+- Update conviction level if needed
+- Do NOT rewrite entire structure; monitoring is a live document, not a retrospective
+
+**Example Update:**
+```
+## 2026-09 (September) — 🔴 CRITICAL CATALYST
+
+**Status from Prior Month:**
+- ✅ Aug quiet period complete; no major surprises
+- ✅ Sept 5: Q4 FY2026 earnings released
+- ✅ Revenue $11.8B (beat $11.0–12.5B guidance)
+- ✅ Margin 10.3% (held above 10%, good)
+- ❌ DCBBS only 1.8% of revenue (below 2% target, slight miss)
+- Conviction: Maintained at 7.5/10 (margin recovery confirmed, DCBBS slightly slower)
+```
+
+### When to Create New Monitoring Files
+
+For each new company in the repository, create a monitoring file once the initial 7-document analysis is complete:
+
+1. **Identify catalyst timeline** (earnings, product launches, customer wins)
+2. **Map catalysts to months** (24–36 month horizon)
+3. **Define red flags & green lights** for each critical catalyst
+4. **Include ongoing checklist** (daily/weekly/monthly/quarterly/semi-annual)
+5. **Save as** `[TICKER]_MONITORING_SCHEDULE.md` in company root directory
+
+---
+
 ## Key Metrics to Track
 
 ### Financial Performance
