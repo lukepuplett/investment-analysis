@@ -1,0 +1,428 @@
+Earnings call transcript: Super Micro Computer Q4 2025 earnings miss expectations
+Transcripts
+Published 08/05/2025, 06:59 PM
+
+
+0
+SMCI
++7.02%
+
+Earnings call transcript: Super Micro Computer Q4 2025 earnings miss expectations
+Earnings call transcript: Super Micro Computer Q4 2025 earnings miss expectations
+
+Super Micro Computer Inc. (SMCI) reported its fourth-quarter earnings for fiscal year 2025, revealing a slight miss on both earnings per share (EPS) and revenue forecasts. The company reported an EPS of $0.41, falling short of the expected $0.44, and revenue of $5.8 billion, below the anticipated $5.96 billion. Despite these misses, the stock saw a modest aftermarket increase of 1.2%, closing at $58.93, as investors weighed the company’s strategic advances in AI and data center solutions against its financial performance. According to InvestingPro analysis, SMCI currently trades at a P/E ratio of 29.6x, suggesting a premium valuation relative to its near-term earnings growth potential.
+
+Key Takeaways
+Super Micro reported a full-year revenue growth of 47%, reaching $22 billion.
+The company missed its Q4 EPS and revenue forecasts, with a negative surprise of -6.82% and -2.68%, respectively.
+New AI platforms and data center solutions were introduced, highlighting innovation.
+Gross margin decreased to 11.2% for the full year, down from 13.9% in FY2024.
+The stock experienced a 1.2% increase in aftermarket trading.
+Company Performance
+Super Micro Computer demonstrated significant growth over the fiscal year, with a 47% increase in revenue, reaching $22 billion. This growth was driven by the company’s advancements in AI platforms and data center solutions, which have expanded their customer base and market reach. InvestingPro data reveals the company maintains an impressive 5-year revenue CAGR of 34%, though its gross profit margin of 11.27% remains a concern. The company’s overall financial health score is rated as "GREAT" by InvestingPro analysts, with particularly strong momentum and growth metrics.
+
+Super Micro Computer
+
+Follow
+
+Analyze SMCI
+50.17
+▲
++3.29
+(+7.02%)
+Closed
+·
+02/06
+·
+USD
+49.36
+▼
+-0.81
+(-1.61%)
+Pre Market
+·
+12:47:12
+1D
+1W
+1M
+6M
+1Y
+5Y
+Max
+Financial Highlights
+Revenue: $5.8 billion in Q4 FY2025, representing 8% year-over-year growth.
+Earnings per share: $0.41, down from $0.50 in the previous year.
+Full-year non-GAAP EPS: $2.60, up from $2.12 in FY2024.
+Gross margin: 9.6% for Q4, with a full-year margin of 11.2%.
+Earnings vs. Forecast
+Super Micro’s Q4 results showed an EPS of $0.41, missing the forecast of $0.44 by 6.82%. Revenue also fell short at $5.8 billion, against a forecast of $5.96 billion, marking a 2.68% negative surprise. This performance contrasts with the company’s historical trend of exceeding expectations, highlighting potential challenges in the current market environment.
+
+Market Reaction
+Following the earnings release, Super Micro’s stock saw a slight increase of 1.2% in aftermarket trading, closing at $58.93. This movement reflects cautious optimism among investors, who are balancing the company’s strategic growth initiatives with its recent financial performance. The stock trades between its 52-week range of $17.25 to $66.44. Analyst consensus from InvestingPro shows mixed sentiment, with price targets ranging from $15 to $93, highlighting the market’s divided outlook on SMCI’s future prospects. For comprehensive analysis of SMCI and 1,400+ other stocks, including detailed valuation metrics and growth projections, investors can access the full Pro Research Report on InvestingPro.
+
+Outlook & Guidance
+Looking ahead, Super Micro provided a revenue guidance of $6-7 billion for Q1 FY2026, with a full-year projection of at least $33 billion. The company anticipates improved chip and resource availability, which could enhance margins and support growth in AI and enterprise markets. InvestingPro analysis indicates strong financial fundamentals, with a current ratio of 6.66 and moderate debt levels, positioning the company well for its ambitious growth plans. The platform offers 15 additional exclusive ProTips for SMCI, providing deeper insights into the company’s growth trajectory and market position.
+
+
+
+Executive Commentary
+CEO Charles Liang emphasized the company’s strategic focus, stating, "We officially announced our data center building blocks solution last quarter." He also highlighted the potential for margin expansion, noting, "Enterprise and IoT have a much higher margin." These comments underscore Super Micro’s commitment to innovation and value creation.
+
+Risks and Challenges
+Supply chain disruptions could impact production and delivery timelines.
+Competitive pressures in the AI and data center markets may affect market share.
+Macroeconomic uncertainties could influence customer spending and investment decisions.
+The company’s gross margin decline suggests potential cost management challenges.
+Q&A
+During the earnings call, analysts inquired about the elongated customer decision cycles and the company’s strategy for data center building block solutions. Executives addressed potential margin expansion opportunities and explored the sovereign and enterprise market potential, indicating a focus on long-term growth and strategic positioning.
+
+Full transcript - Super Micro Computer Inc (SMCI) Q4 2025:
+Cameron, Conference Operator: Thank you for standing by. My name is Cameron, and I will be your conference operator today. At this time, I would like to welcome everyone to the Super Micro Computer Inc. SMCI U. S.
+
+Fourth Quarter Fiscal Year twenty twenty five Business Update Call. With us today are Charles Liang, Founder, President and Chief Executive Officer David Wieggen, CFO and Michael Stager, Senior Vice President of Corporate Development. All lines have been placed on mute to prevent any background noise. After the speakers’ remarks, there will be a question and answer session.
+
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.: Good afternoon, and thank you for attending Super Micro’s call to discuss financial results for the fourth quarter and full year fiscal 2025, which ended 06/30/2025. With me today are Charles Liang, founder, chairman, and chief executive officer, and David Weegan, chief financial officer. By now, you should have received a copy of the press release from the company that was distributed at the close of regular, trading and is available on the company’s website. As a reminder, during today’s call, the company will refer to a presentation that’s available to participants in the Investor Relations section of the company’s website under Events and Presentations tab. We have also published management’s scripted commentary on our website.
+
+Please note that some of the information you’ll hear during our discussion today will consist of forward looking statements, including without limitation, those regarding revenue, gross margin, operating expenses, other income and expenses, taxes, capital allocation, and future business outlook, including guidance for the 2026 and the full fiscal year 2026. These statements and other comments are based on management’s current expectations and assumptions that involve material risks and uncertainties that could cause actual results or events to materially different from those anticipated, and you should not place undue reliance on forward looking statements. You can learn more about these risks and uncertainties in the press release we issued earlier this afternoon, our most recent 10 k for fiscal twenty twenty four, and other SEC filings. All these documents are available on the investor relations page of Super Micro’s website. We assume no obligation to update any forward looking statements.
+
+
+
+Most of today’s presentation will refer to non GAAP financial results and business outlook. For an explanation of our non GAAP financial measures, please refer to the accompanying presentation or to our press release published earlier today. The non GAAP measures are presented as we believe that they provide investors with a means of evaluating and understanding how companies’ management evaluates operating performance. These non GAAP measures should not be considered in isolation from, as substitutes for, or superior to financial measures prepared in accordance with US GAAP. In addition, a reconciliation of GAAP to non GAAP is contained in today’s press release and in the supplemental information attached to today’s presentation.
+
+At the end of today’s prepared remarks, we’ll have a q and a session for sell side analysts. Our first our first quarter fiscal twenty twenty six quiet period begins at the close of business, Friday, 09/12/2025. And with that, I will now turn it over to Charles.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Thank you, Michael. I will be covering our performance for fiscal two thousand twenty five and providing insights into our strategic direction for fiscal two thousand twenty six. Our fiscal two thousand twenty five results represent a 47% year on year revenue growth at a $22,000,000,000. This growth reflects continued strong demand for our AI and green computing solutions. Despite the six months cash flow impact from the delayed filing of our fiscal year twenty four ten k and delayed revenue recognition from a major new large partner.
+
+
+Non GAAP earnings per share were 41¢ down year over year from 50% last year, primarily due to the tariff impact. Although, we had taken measures to reduce the impact, and we will see their results. Allow me to go a little deeper at the June revenue shortfall in what was otherwise a stronger quarter. A shortfall stem from two key factor, a capital constraint that limited our ability to rapidly scale production and specification changes from a major new customer that delay revenue recognition because of new ad because of some new ad features. The capital constraint were no longer an issue after we filed the fiscal year twenty four ten k, and the large customer orders are now slated for recognition in September and December quarters.
+
+Following close collaboration to align with the customers update feature requirements. Despite of these circumstance, we remain focused on our strategic priorities, optimizing our solutions and capturing market share. Notably, the number of large scale plug and play direct customer grew from two in fiscal year twenty four to four in fiscal year twenty five, signaling strong momentum and continuing growth potential across our customer base. We are also on track to add a few more in fiscal year twenty six. We continue our leadership in AI platforms and infrastructure with a comprehensive portfolio optimized for latest GPU technologies, including NVIDIA, p 300, and g p 300 platforms, and AMD’s m I three fifty and m I three fifty five x GPUs.
+
+
+
+Our x 14 and h 14 GPU systems deliver breakthrough performance, supporting a large scale AI training and even seeing workloads and enterprise computing demands with exceptional efficiency. Notably, we were able to deliver our b 200 systems with an industry leading time to market to our customers. We are confident our b 300 and g b 300 solutions will deliver a similar, if not even better, come to market and come to online advantages for customer. Helping them accelerate their AI deployment faster than others. To further simplify our customers’ AI data center infrastructure, the deployment and time to online, we officially introduced our data center building block solution, DCBBS, to the market last quarter.
+
+With our DCBBS, customers can harness our proven system building product advantage to adapt quickly to evolving market demands, especially in response to increasing complex AI product cycles. Our modular architecture enable faster customization, stimulants production, and reduce time to delivery and time to online, while also optimize the quality, efficiency, and easy of maintenance. In most of the cases, customers who use our DC BPS can finish building a liquid core AI data center in just eighteen months instead of two to three years. When converting an existing data center or warehouse to a high density direct data recording data center, customer can complete the transformation in only three to six months instead of twelve or even eighteen months. We had just begun deploying rack scale total solutions with our DC to a few key customers.
+
+
+Key components of DC BPS include DLC solutions, the LR2A sidecar I mean, LIP2A cooling, CPU, especially in those CPU indirect CPU as well, and chill door, power share, battery backup, CPU, water or dry power solutions, and the more are coming. Our advanced second generation direct liquid cooling, d l c two system, reduce power and water consumption by up to 40% while operating at a near library quite a day, 50 decimal. This enable superior performance which reduce total cost of ownership, TCO, and total cost to the environment, TCE, for modern data centers. Several DC BPS components are now shipping or entering production medicine, supporting a growing demand for high performance energy efficient data center infrastructure.
+
+: Equally important, DCPPS meets the growing demand for the for a comprehensive one stop shop solution, including software defined infrastructure, system management, AI workload optimization, networking,
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: deployment, and all different level of services. It allows cloud service provider to reduce both CapEx and OpEx, capital expense and operating expense. Indeed, it delivers also greater value to both AI focus and traditional IT data centers. By seamlessly integrated PCBPS capability with our system and rack solution, we are not only enhancing customer’s value, but also improving our profit margins. This shift toward higher margin and revenue stream is central to our long term strategy.
+
+We are also start to strategically focus on the enterprise IoT and the telco markets. And initiative, we believe, will improve both gross and net margin over time. In last two quarters, we made a significant investment to optimize our solutions for enterprise customers, introducing a demands server and storage systems, tailor for hybrid cloud, AI application, and edge computing workloads. This enterprise focused strategy will continue for many year to come. SuperMango had also launched an enhanced enterprise service program, delivering a comprehensive twenty four seven global support for high density, high performance driven data center deployment based on optimized rack scale architecture.
+
+
+
+Our IoT portfolio, including embedded system and edge servers, is gaining momentum across industry, like manufacturing, healthcare, telco, smart city, and AI edge applications. Additionally, we have announced strategic partnership to accelerate innovation in AI and the edge and telecom solutions. By expanding into this higher margin segment, we are diversifying our revenue streams and driven long term sustainable profitability that will benefit our shareholders. Our global footprint allow us to efficiently deploy optimize the solution worldwide with minimal tariff impact, especially after September. With large and most tire manufacturing campus across The US, Taiwan, Malaysia, and the next one, we can deliver a comprehensive system rack and data and data center label building block and total solution to our customer directly and quickly.
+
+This robust global presence enable us to respond to dynamic and regional demands, support a cost sensitive customers seeking greater value, mitigate tariff exposure, and maintain the designs global supply chain. That’s both agile and responsive. Looking ahead to q one, fiscal year twenty six, I anticipate revenue between 6,000,000,000 and 7,000,000,000 driven by continuing momentum across our AI rack, plug and play, PCPBS, software, and service business, which we are delivering exceptional customer value and strengthen our profitability. I’m especially excited about our DCBBS for a for a fiscal year 02/1926. I expect at at least $33,000,000,000 total revenue supported by our expanding Dutch and enterprise customer base, upcoming product innovation, and the fast PC BPS total solution.
+
+In closing, I want to thank you, our employees, for their dedication, our customers, for their trust, and our investors, for their continuous support. We are excited about the opportunity ahead and, looking forward to, updating you on our progress in the next quarter. David, please.
+
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: Thank you, Charles. Q four fiscal year twenty five revenues were 5,800,000,000.0, up 8% year over year and up 25% quarter over quarter compared to our guidance of 5.6 to 6,400,000,000.0. Growth was led by demand for next generation air cooled and liquid cooled GPU AI platforms, which represented over 70% of q four revenues across both enterprise and cloud service provider markets. For the full year fiscal ’25, we reported revenues of 22,000,000,000, representing 47% growth over fiscal year twenty four revenues of 15,000,000,000. During q four, we recorded 2,100,000,000.0 in the enterprise channel segment, representing 36% of revenues versus 42 in the last quarter, up 7% year over year and up 6% quarter over quarter.
+
+The OEM appliance and large data center segment revenues were 3,700,000,000.0, representing 63% of q four revenues versus 57% in the last quarter, up two percent year over year and up 40% quarter over quarter. Emerging five g telco edge IoT segment revenues were 1% of q four revenues. For fiscal year twenty five, enterprise channel revenues grew 80 grew 38% to represent 39% of total revenues. The OEM appliance and large data center segment grew 50% and represented 60% of total revenues. The five g telco edge IoT segment represented 1% of total revenues.
+
+For fiscal year twenty five, we had 410% plus large data center customers versus one in fiscal year twenty four. Server and storage systems comprised 98% of q four revenue, and subsystems and accessories represented 2%. By geography, The US represented 38% of q four revenues, Asia 42%, Europe 15%, and the rest of the world 5%. On a year over year basis, US revenues decreased 33%, Asia increased 91%, Europe increased 66%, and rest of world decreased 3%. On a quarter over quarter basis, US revenues decreased 21%, Asia increased 78%, Europe increased a 196, and the rest of world increased 53%.
+
+
+
+The q four non GAAP gross margin was 9.6% versus 9.7% in q three due to product customer mix. For fiscal year twenty five, the non GAAP gross margin was 11.2 versus 13.9% for fiscal year twenty four. Our long term goal is to gradually improve gross margins through providing complete data center building block solutions and focusing on the enterprise, IoT, and telco markets. We also expect to benefit from economies of scale from higher revenues, cost effective global facilities, including the new Malaysia manufacturing plant and customer diversification. The q four operating expenses on a GAAP basis increased by 8% quarter over quarter and 23% year over year to $316,000,000 driven by higher compensation expenses and headcount.
+
+: On a
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: non GAAP basis, operating expenses increased 11% quarter over quarter and 29% year over year to $239,000,000 The q four non GAAP operating margin was 5.3% versus 5% in q three. Other income and expense for q four was a net expense of 5,700,000.0, consisting of 28,400,000.0 in interest income, offset by $22,300,000 in interest expense and FX and other losses of $11,800,000 The tax provision for Q4 was $19,000,000 on a GAAP basis and 37,000,000 on a non GAAP base basis. The GAAP tax rate for q four was 9%, and the non GAAP tax rate was 12%. The GAAP tax rate was 13% for fiscal year twenty five versus 5% in fiscal year twenty four, and the non GAAP tax rate was 15% in in fiscal year twenty five versus 11% in fiscal year twenty four. The q four GAAP diluted EPS was $0.31 compared to guidance of $0.30 to $0.40 and non GAAP diluted EPS of $0.41 versus guidance of $0.40 to $0.50 due to lower gross margins and higher operating expenses in the quarter.
+
+
+For fiscal year twenty five, we reported GAAP diluted earnings per share of 1.68 versus $1.92 for fiscal year twenty four and non GAAP diluted EPS of $2.6 versus $2.12 in fiscal year twenty four. The GAAP fully diluted share current count increased quarter over quarter from $622,000,000 to $625,000,000 in Q4 and the non GAAP share count increased sequentially from $636,000,000 to $638,000,000 shares. Q4 cash flow generated from operations was $864,000,000 compared to $627,000,000 in the previous quarter. For fiscal year twenty five, cash generated from operations was $1,700,000,000 versus cash consumed by operations of $2,500,000,000 in fiscal year twenty four. Q four closing inventory was 4,700,000,000.0 versus 3,900,000,000.0 in q three.
+
+CapEx and investments for q four was 79,000,000 resulting in positive free cash flow of 841,000,000 for the quarter. CapEx and investments for fiscal year twenty five were 183,000,000 versus 194,000,000 in fiscal year twenty four. During the quarter, we completed a convertible bond offering raising $2,300,000,000 in gross proceeds before operating expenses and the costs associated with the simultaneous covered call spread and stock buyback. The q four closing balance sheet cash position was 5,200,000,000.0, while bank and convertible note debt was 4,800,000,000.0, resulting in a net cash position of 412,000,000 versus a net cash position of 44,000,000 last quarter. Additionally, in July, we executed a $1,800,000,000 facility, which allows for the nonrecourse sale of certain qualified accounts receivables to strengthen our working capital on a discretionary basis.
+
+Turning to the balance sheet and working capital metrics compared to last quarter. The q four cash conversion cycle was ninety eight days versus a hundred and twenty four days in q three. Days of inventory decreased by six days to seventy five days compared to the prior quarter of eighty one days. Day sales outstanding were forty days compared to fifty six days in Q3. Days payables outstanding increased by four days to seventeen days versus thirteen days in Q3.
+
+
+
+Now turning to the outlook for Q1 fiscal year ’26, we expect net sales in the range of $6,000,000,000 to $7,000,000,000 GAAP diluted net income per share of $0.30 to $0.42 and non GAAP diluted net income per share of $0.40 to $0.52 We expect gross margins to be similar to Q4 fiscal year twenty five levels. GAAP operating expenses are expected to be approximately $329,000,000 and to include $82,000,000 in stock based compensation expenses that are not included in non GAAP operating expenses. The outlook for 2026 fully diluted GAAP earnings per share includes approximately $69,000,000 in expected stock based compensation expenses, net of tax effects of $20,000,000 which are excluded from non GAAP diluted net income per common share. We expect other income and expenses, including interest expense, to be a net expense of approximately 24,000,000. The company’s projections for q one fiscal year twenty six GAAP and non GAAP diluted net income per common share assume a GAAP tax rate of 13%, a non GAAP tax rate of 15.5%, and a fully diluted share count of 631,000,000 for GAAP and 644,000,000 shares for non GAAP.
+
+We expect CapEx for Q1 to be in the range of 60,000,000 to $80,000,000 And for fiscal year twenty six, we expect net sales of at least 33,000,000,000 Michael, we’re ready for Q and A.
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.: Great. Cameron, let’s turn it over to question and answer session.
+
+
+Cameron, Conference Operator: Thank you. We will now begin the Q and A session. The first question is from the line of Simon M. Leopold with Raymond James. You may proceed.
+
+Simon Leopold, Analyst, Raymond James: Thanks for taking the question. I wanted to get a better understanding of some of the bottlenecks or gating factors for sales. And what I’m looking at is we’ve got full year revenue outlook of $33,000,000,000 so that’s better than $8,000,000,000 a quarter. And we’re looking at September being roughly 6,000,000,000 to $7,000,000,000 So I would have thought that availability of Blackwell’s GV200s could have given you maybe some more upside to September in a more linear outlook for the year, but
+
+: this would suggest more of
+
+Simon Leopold, Analyst, Raymond James: a back end load. So if you could help
+
+Speaker 6: us
+
+Simon Leopold, Analyst, Raymond James: understand how you’re thinking about the cadence through that fiscal year? And what are the bottlenecks or what are the restraints in terms of the September, and availability of the of the chips? Thank you.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. Basically, our business will continue to grow. Last year, because of 10 k today, we have some constraints, so we grew 47%. This year, we should be able to grow better than that. And you mentioned about a bottleneck.
+
+Yes. Some chip availability, some resource availability from vendor, like NVIDIA. That’s still we had to wait and see. Basically, we believe their availability will be much better than last two quarter, and that’s why we estimate minimum $33,000,000,000. And by the way, our new introduction, DCPBS, that help customer to build a data center quicker, especially make their cloud ready for time to online much quicker.
+
+
+
+So that’s another factor we believe this year. I mean, 02/1926, we should be able to grow better than last year.
+
+Simon Leopold, Analyst, Raymond James: And is any of this related to customers perhaps waiting for GB three hundreds, or is that not a factor?
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yes. You are right. Some customer always waiting for cumbersome technology. That would be 300, g v 300. So the good thing is we have a b 300, g v 300 pretty much ready to go.
+
+That’s waiting for our partner NVIDIA to support us.
+
+Simon Leopold, Analyst, Raymond James: Great. Thanks for taking the question.
+
+Cameron, Conference Operator: The next question is from the line of Rupli Bhattacharya with Bank of America. You may proceed.
+
+Rupli Bhattacharya, Analyst, Bank of America: Hi, thanks for taking my questions. I have two of them. The first one is a higher level question. Can you talk about management strategy for competing in the AI server market? Is your focus on revenue growth and gaining market share?
+
+Or is your focus on margin expansion? And if it’s both, then what gives you confidence that you can grow revenues and grow margins in this competitive market? And I have a follow-up.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. Very good question. Yes. We can grow much quicker if, we don’t care about the gross margin and net margin. And that’s why we introduced the DC PPS, data center billing box solution.
+
+
+That’s a total solution to support the customer to build a data center quicker, better, and also save money, more reliable. And we provide the all the infrastructure need, including on-site deployment, networking, cabling, all doing kind of service. So we believe we can grow revenue, market share, and profitability, especially our data center end to end software solution. So DCPPS plus all our software need customer need, including service. So we for sure, able to provide a better value to customer, not just the price war.
+
+Rupli Bhattacharya, Analyst, Bank of America: Okay. Thanks for that. Price war. Charles, can I for my follow-up, can you talk about the opportunity with Sovereigns? You announced an MOU with DataVault during the quarter.
+
+Can you give us your thoughts on expected rollout of that opportunity? And David, what margin uplift should we expect from Sovereign customers versus your existing customer base suggest tier two CSPs? I mean, how should we think about the revenue and margin opportunity here? Thank you.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. The sovereign AI, it bring us a very good chance. There are so many country need to build that they are AI infrastructure, and those country, those people really appreciate our DCBBS data center infrastructure total solution. So we have them to design their AI infrastructure and have them build the AI infrastructure quicker and better. So we see a very good doom very big room to grow in that area, David.
+
+
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: Yeah. And, Blue Blue, on the gross margin side, you know, we are, we are optimistic that we will be able to, to sell more, complete data center BBS solutions, you know you know, with sovereigns. And so therefore, we don’t have a lot enough experience to to be forecasting specific gross margins, but we’re very optimistic that with the additional, offerings that we will have, that there’s upside there.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. There are so many countries, especially in Europe in Europe, in Middle East, in Asia. So they they all are very aggressively that will build their AI infrastructure for their country, for their company. And we are working very closely with them.
+
+Rupli Bhattacharya, Analyst, Bank of America: Alright. Thank you for all the detail.
+
+Cameron, Conference Operator: The next question is from the line of Ananda Baruah with Loop Capital. You may proceed.
+
+Ananda Baruah, Analyst, Loop Capital: Yes, guys. Thanks for taking the question. Two, if I could. The first one is maybe a little bit more of a clarification. You in the first six months of the calendar year, you guys saw, as did the industry, elongated a little bit elongated customer purchase cycles, you know, first from the HDX, from the HDX GB decision making situation in the March, then the b 200, b 300 sort of decision making situation in the June.
+
+
+Now, Charles, it it sounds like to one of the first questions, I think it was to Simon’s question, you may have suggested. It sounds like you you you’re suggesting there may then currently be some b 300, you know, sort of elongated decision, customer decision making as well. So just to clarify, are you still going through are we still not yet to normalize customer decision making cycles? Because if that’s the case, I think it’s useful for us to understand that as distinct from what the organic demand backdrop may be as we go through as we go through the year here. And and, anyway, I have a follow-up after that.
+
+Thanks.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. As you know, NVIDIA have so many product, so many beta product, new product, and we are very happy to provide all the new technology, new product, and make them available for the market as soon as possible. Like, just mentioned, b three entry, g b three entry. We work with our partner very closely and make sure once NVIDIA able to ship it in volume, we we can service customer quicker. And we saw PCBPS.
+
+We exactly optimize for customer’s data center, including the large data center and middle sized data center or even small sized data center. So we we we are very happy to support a lot of middle sized and small sized AI infrastructure as well. That’s part of Supermanco’s advantage. We provide a total solution and make a customer’s job much easier to build their AI factory, AI infrastructure quicker and better.
+
+
+
+Ananda Baruah, Analyst, Loop Capital: And just as a follow-up, can you guys any context you can give us, guys around the comment of, large scale data center customers expanding to to six to eight in fiscal twenty six. What you know, sort of what, what flavor of customers might that be? You know, when do you consider someone to be large scale? And, what what market domains like those those additional large scale data set of customers fit into? Thanks.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yes. Most of largest scale AI CSP continue to have a strong demand. And we we are we are prepare to support them as well. The vision is with much strong cash flow now. So we are ready to support the more large scale data center as well.
+
+Ananda Baruah, Analyst, Loop Capital: Okay. Thanks guys. Appreciate The
+
+Cameron, Conference Operator: next question comes from the line of Samik Chatterjee with JPMorgan. You may proceed.
+
+Samik Chatterjee, Analyst, JPMorgan: Hi. Thanks for taking my question. I have two. But maybe for the first one, you talked about the data center building block solutions and that is still maybe a bit early for you to forecast gross margins on that front. But anything that you can help us in terms of what does a typical sales cycle or what are you expecting for the sales cycle on that front to look like?
+
+
+Have any of your larger data center customers shown interest in data center building block solutions? I guess the question more is when should we start to see or what should we expect in terms of material revenues in relation to when that does come into the P and L? What would be the earliest if you were sort of going and talking to your customers about these solutions? Now what is what should be our expectation on this one? I have a follow-up.
+
+Thank you.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. Thank you. Yeah. We officially announced our data center building blocks solution last quarter. And now we have a sample that, fully ready to ship.
+
+For example, the AI computing power rack PMP that had been available for four years from Shibbol Michael and kind of like CPU, right, in low indirect CPU and kind of like a sidecar at all to a, right, from liquid to air transformation kind of for those customers who not to go for deep coding, but do not have a deep coding data center in those charger ready. We support them sidecar, and the product is ready to ship now like a PowerShell. Right? Kinda when a g p 200, g p 300 go for rack scale. I mean, use PowerShell.
+
+We have a product ready now. And BBU, we have a product about ready now as well. And kind of like a water tower for deep cooling or dry tower, we are shipping now. And kind of like a on-site deployment and networking including a cabling, all doing kind of service. We have most of those components getting ready now.
+
+
+
+And we started ship in September. Right? And then we are doing probably in a much higher volume in December. And then for sure, we’ll continue to grow in next year, March and June. So this data center building block solution, eventually, we have customer to build their AI factory infrastructure much quicker and much energy efficient and also save money as well.
+
+So so we are very excited for our Okay. DCBPS solution.
+
+Samik Chatterjee, Analyst, JPMorgan: Got it. Got it. And for my follow-up, you mentioned the investments that you’re making on the enterprise opportunity or edge opportunity as well. I mean, some of those are better margin opportunities including the data center building block solutions relative to your business currently on the sort of where you’re around this 9%, 10% gross margin right now. Do you see an opportunity still to get back to the long term targets that you had on the gross margin of 14% to 17%?
+
+Or like are those are these new opportunities necessarily big enough and at a margin high enough to get you back to that 14% to 17% run rate? Or do you think the expectations of investors should be at a, maybe a more more modest level in terms of what the long term gross margin ratio of the company, would be in the future?
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. Very big question and very good question also. I mean, yes. Enterprise and IoT, as you know, have a much higher margin. And DCPDS service software, which you have a better margin.
+
+
+So we are growing in both direction. One is growing revenue and support a larger scale data center, and the same time growing enterprise data center total solution and solar warehouse service. So, I mean, long term, I believe 15%, 16% still our target and take how long. It depends on a combination. So I believe, yes, the direction is still there.
+
+I mean, we’d like to get back to our traditional 16%, even 17% power margin. Maybe you can add a search.
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: Yeah. I think that, you know, as Charles mentioned, we have been providing these services already. We’ve had customers with very large, deployments that we’ve, helped them in in the build out of their data center and, with specific services. And so it’s something that, that we’re really focused on when we and we know that it’ll contribute to our our profitability.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. As a Silicon Valley, based company, for sure, we we are able and we’d like to provide more value to customer, not just hardware, not just high volume product, but all given kind of service solution optimization and to make a customer the job much easier.
+
+Samik Chatterjee, Analyst, JPMorgan: Got it. Great. Thank you.
+
+Cameron, Conference Operator: The next question is from the line of Michael Ng with Goldman Sachs. You may proceed.
+
+
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.0: Hey, good afternoon. Thank you for the questions. I just have two. First, on the greater than 10% customers for fiscal twenty twenty five, I was wondering if you could just let us know what the revenue exposures were for those customers. I appreciate we’ll eventually get it in the 10 ks, but any early color would be helpful.
+
+And then second, thank you for all the guidance on 2026. I was wondering if you could just talk about how we should think about gross margins for the full year. Is the first quarter gross margins that you spoke to a good indication about how we should think about the full year? Thank you very much.
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: Okay, Michael. So the four customers, which we’ll refer to as a b a, b, c, and d, you know, not not in the in that particular order, but, 11% with three eleven percents and a 21%. And, you know, as as to your second question, you know, we we we’re not gonna forecast, annual, guides, but, you know, I wanna revert back to our earlier comments that we’re doing everything that we can, especially and we’re very optimistic about these data center building block solutions. And and and, you know, we have we’re very quick to market. We think those the two combinations, DC, BBS and our fast time to market is our is our best chances for margin improvement.
+
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. Especially, David, our TCPPS especially our TCPPS, we are able to have a customer increase as speed up their time to online. Right? Kind of traditionally, for example, two years, we have them improve to speed up to eighteen months, sixteen months. So lots of customer are very interest to those service.
+
+Ananda Baruah, Analyst, Loop Capital: Thank you, Charles.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Thank you.
+
+Cameron, Conference Operator: The next question is from the line of Nehal Chokshi with Northland. You may proceed.
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.: Yes. Thank you. I have two questions. First one is, what is going to be the driver of projected Q over Q uptick to the September revenue? And maybe that can also help us understand why you’re guiding to no operating leverage.
+
+Believe effectively the guidance implies about a flat operating margin from the June to September.
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: So the, you know, in terms of, of the, of the of the customers, we have, we have a lot of customers that are that are, building out a really good deployments. And, so that’s what gives us a guide, you know, to the first quarter. So we we have, we’ve been shipping, you know, MI three fifty five x and GB 300. And and so we expect that to, you know, to ramp in in q one, and that’s really what’s what’s giving us our our guide.
+
+
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. We are also gaining many more customer in Europe, Middle East, and Asia now. So, basically, the near future should be pretty strong.
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.: And why with the incremental billion dollars in revenue, we won’t see any operating margin leverage?
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: Well, whenever there is a you know, in changing over to, these new, new, platform technologies, there’s always a little bit of a ramp, for us. And so that, that creates a little a little bit of a of a production learning curve.
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.: Okay. And then my second question is that the data center building blocks or, solutions, is that being pitched for as a discrete service where the value of that discrete service is fractional to GenAI factory, or is it bundled in to GenAI factory where it’s meant to drive a better margin profile for that GenAI factory?
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: It is support or even scale of data center. That that meant a general issue AI or agenda AI or application. Right? Evening. So it’s a solution that we we are defined pretty test, pretty validate.
+
+So when we ship to customer, a customer can put it together easily. It’s kinda like a kids player, they go castle. Right? So kind of it’s a very data in advance when customer receive easy to to deploy and easy for quickly go for online.
+
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.: So, basically, it’s the latter of the situations that I have proposed.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. Kind of including the computing power, the rack, deep cooling, even the power, the water tower, dry tower, the battery system, the power module. Right? So we have everything pretty good and very data in advance.
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: Yeah. And as as Charles mentioned, Dale, the the time to time to delivery and time to online, you know, for our customers is is critical because they have, you know, they have been customers that they’re waiting for. So that’s a that’s a huge, you know, selling point.
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.: Yeah. So is that in our building block solutions at least gonna be representative of 10% of the deals that 10% of the deal value that you’re gonna
+
+Samik Chatterjee, Analyst, JPMorgan: be doing in the September?
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: It will be stably growing. I hope very soon it will be more than 20% or even more more than 30% because so many people provide a system computing power, but we instead not just computing power, but total solution. A data center or cloud total solution.
+
+
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.: Great. Thank you very much.
+
+Samik Chatterjee, Analyst, JPMorgan: Thank you.
+
+Cameron, Conference Operator: The next question is from the line of Brandon Nispel with KeyCorp. You may proceed.
+
+Simon Leopold, Analyst, Raymond James: Hey, guys. Thanks for taking the question. I was hoping you could unpack gross margins during the quarter. Last quarter, you had provided some adjusted gross margins based on inventory reserves. I was hoping you could help us understand whether there were any inventory reserves this quarter and if you’re expecting any in 1Q, including maybe potential impact from tariffs.
+
+Thank you.
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: Yeah. Thanks, Brandon. So, yeah, we did mention a little bit about that last last quarter, and and what I would say is that they they they came they did come in as as expected. However, we believe that that’s not gonna be the case going forward. So we think that, you know, we we we we’re anticipating, stabilization in that in that area.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. Especially with our PCBPS and with our service function. So we have customer feeder at data center and make sure they go for online mostly. And that way, of make customers’ business much more smooth. And just I mean, is it good for our inventory control as well?
+
+
+That’s I may that’s the return product. So that way, I have less slow moving. Less product write down as well.
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: Yeah. But So we expect we are improving that area. Yeah. And, Brandon, with respect to tariffs, you know, the the situation’s dynamic. We’re actively monitoring the tariff environment.
+
+We know there’s news coming out next week. You know, if we have any updates, we’ll we’ll share it with you. But we we we we can only watch and react as as every other businesses.
+
+Simon Leopold, Analyst, Raymond James: Thanks for taking the questions.
+
+Cameron, Conference Operator: The next question is from the line of Quinn Bolton with Needham and Co. You may proceed.
+
+Speaker 6: Hey, guys. This is Shadi on for Quinn. Thanks for letting me ask a question. My first question is on the recent export licenses for NVIDIA and AMD. Just curious to see how Super Micro is positioned to potentially support these deployments.
+
+And does the guide embed any of these potential shipments?
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: Are you referring to h twenty?
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.1: Yes. H 20, I believe, is
+
+Speaker 6: that Are you referring to
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.2: h twenty, Clark?
+
+
+
+Speaker 6: Yes.
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: Yeah. We’re not we’re not anticipating, selling those, those those products at at at, any quantities.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. Not at at least the nine high volume for us. Yeah.
+
+Speaker 6: Got it. And then my I have a follow-up, which is a clear quick clarification question from, I think, Northland. But did you say that the data center building block solutions will be around 20 to 30% of total revenue revenue in the September?
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: No. I mean, that will be further away. Maybe next year, summer. So it will ramp up gradually, not immediately.
+
+Speaker 6: Got it. Thank you.
+
+Cameron, Conference Operator: The next question is from the line of John Tamwanteng with CJS Securities. You may proceed.
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.2: Hi, good afternoon and thank you for taking my questions. First one, just on the data center building block solutions. I was just wondering what the gross margin profile looks like there compared to the corporate average and what an incremental dollar of of sales in that in that kind of solution, adds to your gross profit.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: You know, very good question. They are sending a billion product solution. I believe we are the first one. So we the first company to introduce data center total solution with the building block feature. So profit margin, the value to customer ratio are both good.
+
+
+Much better than commodity product. When you had to compete with many company, that’s the pressure for coffee margin. Right? But there are still a bidding box solution instead. We have much less competition.
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.2: Okay. Great. Thank you. That’s helpful. And then just on the b 300 launch, do you expect to see yourself distancing yourself from competitors, both pricing wise and and allocation wise, when that is that reaches volume?
+
+Or is there, any reason to believe that you may see more of of what you’ve seen in the b 100 and b 200 time frames?
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: We work with our vendor very closely. Right? And so I believe our position will be a second to none. So for sure, we have a good chance. Once it’s available from our vendor, we are very happy to promote quickly.
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.2: Okay. Great. Thank you.
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Thank you.
+
+Cameron, Conference Operator: The last question is from the line of Vijay Rakesh with Mizuho. You may proceed.
+
+: Yes. Hey, it’s Arjun, David. Just a quick question on this on the $33,000,000,000 guide for fiscal twenty twenty six. Wondering what is contemplated in terms of revenues from the data
+
+
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: world, you
+
+: know, data world win that you announced?
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: We don’t make a comment for specific customer, but we do have a growing customer base in Europe and in Middle East. So we feel exciting to grow business in the territory Middle East, PV, and believe it it will be a good percentage for a supermarket business to grow.
+
+: Got it. And then on the DC DBS, obviously, a nice move with the racks and enabling your go to market timing, I guess. Just wondering what’s what would be the split of a full and we’ll send you
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: to rack
+
+: versus HDX that you that you’re shipping now? Or or into next end of the year, end of
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.: the fiscal twenty six failures?
+
+Charles Liang, Founder, Chairman, and Chief Executive Officer, Super Micro Computer Inc.: Yeah. We start to ship assumption about now. Kind of like, for example, the this to air sidecar or we had shipping now. And CPU, we have been shipping for for a while. Right?
+
+Including in in the CPU, we are shipping now. And BBU, we will start the ship operation. A power share, we are ready to ship this quarter. And so so lots of parts, we have been shipping for a few months or ready to ship in volume. And some other will be ready in next few months or few quarter.
+
+
+So, eventually, it will be really big product line. The goal is to support all our major components for customer to build their data center, their AI factory. So kind of to offer a one stop shop. A one stop shop not just to save customer time, but to make sure when customer put those components together, it’ll work and optimize for both efficiency, quality, and cost.
+
+David Weegan, Chief Financial Officer, Super Micro Computer Inc.: Got it. Thanks.
+
+Michael, Senior Vice President of Corporate Development, Super Micro Computer Inc.: Alright. Great. Thank you.
+
+Samik Chatterjee, Analyst, JPMorgan: You. Thank That
+
+Cameron, Conference Operator: was our last question. Thank you for joining today’s call. That will now conclude today’s call. Thank you for your participation and enjoy the rest of your day.
+
+This article was generated with the support of AI and reviewed by an editor. For more information see our T&C.
+
