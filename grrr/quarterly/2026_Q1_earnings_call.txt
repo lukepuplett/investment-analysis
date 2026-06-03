@@ -1,0 +1,721 @@
+Gorilla Technology Group Inc. (GRRR) Q1 FY2026 earnings call transcript
+Powered by Quartr
+Jun 2, 2026, 2:00 AM EDT
+
+Earnings call
+
+GRRRW delivered Q1 revenue of $28.2M, up 55% YoY, and turned operating cash flow positive with $6.6M, while ending the quarter with $98.4M in cash (up 373% YoY). Management raised 2026 revenue guidance to $160M–$200M and reiterated a $500M revenue target for next year, driven by AI infrastructure and data center expansion.
+
+Powered by Yahoo Scout
+Operator
+0:00:00
+
+Before we begin, we will read the forward-looking statement. Today's call includes forward-looking statements made pursuant to the Safe Harbor provisions of the Private Securities Litigation Reform Act of 1995. These statements reflect management's current expectations and projections about future events and are subject to known and unknown risks and uncertainties that could cause actual results to differ materially. Forward-looking statements often include terms such as expects, believes, plans, anticipates, may, should, and similar expressions. For a discussion of important factors that could affect Gorilla's results, please refer to our filings with the SEC, including our most recent annual report on Form 20-F. Except as required by law, Gorilla undertakes no obligation to update or revise any forward-looking statements made on this call, whether as a result of new information, future events, or otherwise.
+
+Operator
+0:01:01
+
+I would now like to turn the conference over to Jay Chandan, Chairman and Chief Executive Officer, and Bruce Bower, Chief Financial Officer. Please go ahead.
+
+Jay Chandan
+Chairman and CEO
+0:01:11
+
+Thank you very much. Thanks, everyone. Thanks for joining. Bruce and I are going to keep this very direct today. Q1 was not a very quiet quarter. For us, it was not an accounting quarter which was wrapped in a bow. It was one of those quarters where everyone smiles politely, Bruce and I read from a script, pretend that the world has changed because someone added AI to the script and the release. I am not going to be reading from a piece of paper today. Q1 for me was the quarter where Gorilla moved from turnaround into scale. Scale is not always pretty in the first few innings. Anyone who's actually built a business and something meaningful knows that.
+
+Jay Chandan
+Chairman and CEO
+0:01:57
+
+You do not build a data center campus, you do not secure power, buy hardware, deploy GPUs, hire people, expand products, and move into sovereign AI infrastructure without creating some noise on the P&L. If anyone expected a perfectly polished quarter while we are building the next version of this company, they may also believe that the British sunshine arrives on schedule. It's a charming idea, rarely accurate. Let me start with the facts. We delivered $28.2 million of revenue, which is up 55% year-on-year. More importantly, we turned operating cash flow positive. Let that sink in. Net cash from operating activities was $6.6 million compared with the cash, more importantly, used in operating activities to about $10.7 million in Q1 of last year. This is a huge swing. It's a positive swing, about $17.3 million of improvement or 162% swing.
+
+Jay Chandan
+Chairman and CEO
+0:03:02
+
+On top of that, we ended the quarter with little over $98.4 million of cash, which is up 373% year-on-year. Let me put that in plain, simple English. Revenue grew, our customers paid us, operating cash flow turned positive, cash stayed strong. On top of that, this is not just theory, this is not market theater. This is execution landing on the cash flow statement. The reported operating loss of about $41.1 million, that number, you should stop reading there. If you stop reading there, and if you look at the business, then you've not actually missed the business. The loss was heavily distorted by two major items. The $20.9 million stock compensation, which has been due for the better part of three and a half years. We had to take that hit. Second, you've got a $18.9 million of foreign exchange losses.
+
+Jay Chandan
+Chairman and CEO
+0:03:58
+
+Together, combined, that's about 97%+ of reported operating loss. Excluding those items, the underlying operating loss of the entire company was only $1.2 million. That's real context. No, it was not a $41 million reflection of the operating business. This was an accounting-heavy quarter inside a company that grew revenue 55%, turned operating cash flow positive, and ended up with nearly $100 million of cash. That is why I say this quarter separates accounting noise from an operating reality. The stock-based compensation charge is a non-cash. It reflects a long overdue equity compensation linked to several years, which we have been discussing with the market. Frankly, I would rather recognize the charge when our equity value is materially higher than issue it at distressed levels or punish the shareholders.
+
+
+Jay Chandan
+Chairman and CEO
+0:04:54
+
+Put it more simply, I would rather take the accounting medicine at around, let's say, $15 than hand out the company at $3. This is not arrogance, this is arithmetic. The FX loss was painful. Nobody enjoys currency devaluation unless they have a very unusual weekend hobby. Again, look actually what happened underneath that accounting line. We collected cash. What people seem to be missing is that we've collected cash. Our customers paid us. Egypt paid us. Milestones were achieved. All of our advance payment, let me repeat that again, all of our advance payment guarantees associated with the project now have been completed, and for every single project stage were released, and the project moved into a final implementation, which means we're successful. When naysayers came out and said, "You're not going to be able to deliver," we have now delivered.
+
+Jay Chandan
+Chairman and CEO
+0:05:53
+
+We're in the final stage of implementation. Yes, the [audio distortion] came in. The project progressed, the guarantees have been reduced, and that is the operating story. Let us talk about what Gorilla is becoming, which is what we are all excited about. When we spoke to the analysts previously, Gorilla was still largely being viewed as a security intelligence, network intelligence, smart city technology company. That business remains important. It is part of our DNA. It is who we are and who we were for the last 25 years. The company is now moving into a much larger arena, AI infrastructure, GPU infrastructure, data centers, sovereign compute, and secure national digital platforms. The transition costs money before it produces its full return. We're hiring people. We're buying hardware. We're securing land. We're progressing with power. We're taking co-location capacity.
+
+Jay Chandan
+Chairman and CEO
+0:06:56
+
+I think most of you have seen that press release come out in the last couple of days. We're investing in GPUs, networking, storage, cabling, security infrastructure, and operational systems. We could have managed the quarter for optics. We chose to manage the business for scale. The easy thing would have been to protect, in short term, the EPS, make sure that the right thing is to build the company, but that is most important for us to build this company. Personally, I do not believe PowerPoints run GPUs. Headlines do not cool data halls, and definitely hope does not secure power for us. Most importantly, execution does. That is what we are doing. In India, we have signed contracts with Yotta and materially expanded our AI infrastructure collaboration. That program supports major infrastructure deployment and gives us credible foundation for significant revenue scale.
+
+Jay Chandan
+Chairman and CEO
+0:07:52
+
+When I speak about Gorilla becoming a $500 million revenue business next year, I am not throwing darts at a wall after a long lunch, okay? I'm not drunk on my wine. I am looking at a signed demand, contracted opportunity, and infrastructure required to deliver it. Since then, people will say, "Jay, you're being aggressive." Fine. I call it ambition with a calculator. In Thailand, for example, we're advancing with our 200-MW AI data centers campus in Korat. We have secured and acquired the strategic land. We have secured the foundation of the power planning. We are building the physical platform for Gorilla's AI infrastructure. More importantly, it is an owned AI infrastructure strategy in Asia. Thailand is not just a concept, it's not just a mood board, it's land, power, planning, water, dark fiber, cooling, security, a real development path.
+
+Jay Chandan
+Chairman and CEO
+0:08:53
+
+Anyone can say they [audio distortion]. Very few can assemble the infrastructure required to power it. We're also pursue—[audio distortion] opportunities across Thailand, including Rayong. In [Indonesia], I think [audio distortion] we have moved forward securing co-location facilities in Jakarta and in Batam. Across Southeast Asia, our goal is to combine own data centers, co-location facilities, GPU deployments, and sovereign AI demand into one regional infrastructure platform. Personally, as Jay, I believe Gorilla has incredible path towards approximately over 500 MW of AI infrastructure capacity by the end of 2028. I'm not talking five years. If we execute properly, I can even go more. The demand is well north of a couple of gigawatts today. We need to execute across Korat, whether it's Rayong, whether it's Bangkok, whether it's Jakarta, Batam, Singapore, Malaysia, Philippines, and other regional opportunities.
+
+Jay Chandan
+Chairman and CEO
+0:10:01
+
+Now, half a gigawatt of potential AI infrastructure is not normal for a company of our current size. I've heard that before. Many have told me, "Oh, you're too small. How are you going to build it?" That is why this opportunity is actually so significant for a company of our size. Here is the most important point. We're not becoming a one-dimensional data center company. We have not stopped products. Raj, our Group CTO, he continues to [audio distortion] platforms. He continues to deepen our security intelligence capabilities. He is continuing to expand the network intelligence portfolio and push our sovereign technology roadmap forward. In Taiwan, we continue to pursue new customer opportunities. With Chelpis, for example, as you've seen a couple of weeks ago, we're advancing our quantum [safety].
+
+Jay Chandan
+Chairman and CEO
+0:10:52
+
+With Astrikos in India, we're strengthening our intelligence layer that helps predict and optimize infrastructure across cooling, IT load, and physical systems. That matters because the future of AI infrastructure will not be judged by how many GPUs I own or I can point to. It will be judged on whether the infrastructure is secure, resilient, sovereign, efficient, and most importantly, trusted. Compute without control, for me, is just expensive heat. Gorilla's advantage is that we are building the infrastructure layer and the intelligence layer together. We are also investing very heavily into people. A lot of people questioned this last year, and now I can tell you, over the last several months, we have added more than 100+ employees and over 200+ contractors across delivery, engineering, finance, compliance, operations, commercial functions, procurement, and so on and so forth.
+
+Jay Chandan
+Chairman and CEO
+0:11:56
+
+That is not overhead for the sake of overhead. That's execution muscle. No one, and personally, Gorilla, cannot deliver multi-billion dollar scale with a village hall committee and a lucky spreadsheet. No, that does not work. We're building the organization required for the next phase. When you look at Q1, do not look at it as small quarterly miss against an old model. Look at it from the first visible quarter of a company that is going to be much larger and is being built. The old Gorilla was about proving that we could turn around. The new Gorilla is about proving we can scale. We are raising our full year 2026 guidance to $160 million-$200 million, and I am personally focused on what it takes to build a profitable $500 million revenue business next year. That will require execution. It will require discipline. It will require capital.
+
+Jay Chandan
+Chairman and CEO
+0:12:55
+
+It will require delivery. More importantly, it will require us to keep pushing across all of the markets in Middle East and Asia, along with other strategic locations. The direction is very, very clear. Revenue is growing. Our customers are paying. I'm going to repeat that. Our customers are paying. Operating cash flow is positive. Cash is strong. We are securing land. We're securing capacity. We're buying hardware. We are building data centers. We're developing new products. We're investing in people. We're building the capital platform to fund larger projects. That is not hype. That's not Jay spinning some BS. That's execution. Frankly, in an AI market where there are too many companies selling dreams before breakfast and explanations by dinner, personally, execution is becoming rather refreshing. My message to the market is very simple. Gorilla is no longer proving that it survived.
+
+Jay Chandan
+Chairman and CEO
+0:13:55
+
+Gorilla is proving that it can build something far larger and bigger. The market can debate my narratives. Markets can enjoy the debate. It gives people something to do between the spreadsheets. The cash flow statement has already started speaking. Thank you. I will hand this over to Bruce, who will now walk you through the numbers in a way that accountants enjoy and non-people tolerate. Bruce?
+
+Bruce Bower
+CFO
+0:14:22
+
+Thank you for that. I think Jay covered all of the highlights. I just wanted to zero in on a few of those highlights and then a few other numbers that stood out to me. The first is, as Jay mentioned, revenue up 55% year-over-year. You can see from the full year guidance, $160-$200 is the range compared to last year. That shows we're already on track with our year-over-year forecast. The other thing is that revenue is converting into operating cash flow. We collected invoices from three large customers in the first quarter. That meant that overall, net cash was $6.6 million. Subsequent to this quarter, we also got a release of all of the guarantees for our major project in Egypt.
+
+Bruce Bower
+CFO
+0:15:14
+
+Basically, the free cash portion of the balance sheet is very strong, and the restricted cash, which a year ago was a very large number, has come down to almost zero. At the end of the quarter, we are $98.4 million of cash and cash equivalents. That shows, I think that we have a fortress-like balance sheet, which is able to tackle the projects that we have enumerated. In between the Korat and then the expansion into the co-location facilities and then the project of Yotta, et cetera, this is what gets us through the first stages. The debt position continues to perform in the sense that it's continuing to dwindle. We have $13.2 million of debt. That leaves us with a very strong net cash position.
+
+Bruce Bower
+CFO
+0:16:09
+
+The last thing I would say is, when you look at the top line and the operating cash flow, obviously the results we're very excited about. We have invested, but a lot of this is operating leverage in the sense that, the operating expense line, so in the financial results, it shows up as other operating expenses. That's basically the SG&A bill. It was only up 16% year-on-year, and that's because some of the major hires we made last year, some of the major steps up in the budget we made last year. We're actually seeing those investments pay off, and then I think the second round of investments that we're making now into building out the infrastructure offering will soon pay off in a similar fashion.
+
+Bruce Bower
+CFO
+0:17:01
+
+The last thing I wanted to talk about was Jay mentioned some of the numbers about the FX losses and the stock-based compensation. There was a $1.1 million operating loss without those two big revaluations. I would note that basically we carry large balances in three currencies, apart from U.S. dollars, obviously, in Taiwan dollars, in Thai Baht, and in Egyptian Pound. Given geopolitical events in the first quarter, all of those had adverse movements. Taiwan, Egypt, and Thailand have all stabilized as currencies, so we shouldn't see a repeat of that magnitude. Second is some of those exchange rate losses actually showed up in the operating figures because they had to do with the movement in the receivables value. That, I think, masks the underlying profitability of the business.
+
+Bruce Bower
+CFO
+0:18:02
+
+In a stable exchange rate environment, what I'm saying is, we should revert, one without significant geopolitical upheaval, we should revert to a much more positive net income profile. In terms of many people have asked us over the last couple of months, okay, you have all these projects, you've announced that you're going for project financing. What is the update? Without going into too much detail, which I think lenders would not like me to do, is we are very happy with the progress. We have multiple term sheets that we have either received and are waiting to sign and go into the documentation phase, or we are in the documentation phase already. The next announcement about the project level financing will be one where we basically say it's closed and this is the delivery date for the various projects that would be funded.
+
+Bruce Bower
+CFO
+0:18:57
+
+That is my update on the project financing, but we're very happy with how it's progressing and it's comparing well with the assumptions that we had when we went in and signed the projects. The profitability is there. That's all from me. I'll turn it back over to Jay, and we can open up for questions.
+
+Jay Chandan
+Chairman and CEO
+0:19:20
+
+Thank you, Bruce. No problem. We're happy to take the questions.
+
+Operator
+0:19:32
+
+Thank you. We'll now begin the question and answer session. To join the question queue, you may press star then the number one on your telephone keypad. You will hear a tone acknowledging your request. If you are using a speakerphone, please pick up your handset before pressing any keys. To withdraw your question, please press star one again. We'll pause for just a moment as callers join the queue. Our first question comes from the line of Brian Kinstlinger with Alliance Global Partners. Please go ahead.
+
+Kevin Pimental
+Analyst
+0:20:03
+
+Hi. Thank you. This is Kevin for Brian. Could you talk about the planned timeline for the variety of HPC AI deals that you've had announced, including the multiple Yotta phases, the three [Freyr] programs, and the 200-MW campus in Thailand, as well as any others that I might be missing? Particularly when each phase is expected to begin revenue generation.
+
+Jay Chandan
+Chairman and CEO
+0:20:33
+
+Hey, Kevin. It's good to hear from you. Thank you. We have started out our campus build-out in Korat. Let me start with that. We have already started talking to the EPCs. We're looking at the water, we're looking at power. Our build-out should start somewhere around the third to fourth quarter this year. That's when we will potentially start looking at pouring the concrete. In terms of the other projects, so Yotta has already kicked off. We've already placed the orders with our OEM partners, Supermicro, through our distributor in India. We are working through all of the customs, the government of India regulations and requirements for import, which is a very tedious task. That has kicked off already, and we are expecting our first delivery to come in at the end of July.
+
+Jay Chandan
+Chairman and CEO
+0:21:24
+
+We've already got the confirmation from our very close partner, Supermicro, who have basically given us the first delivery schedule. The second Yotta phase, which is the much larger project, that is expected to be delivered end of August, and subsequent to that, every month we are having up until November, we're going to complete all the delivery. If you look at the revenues hitting our books, you will see the first phase revenue hit our books from September. Going on for the second phase would be from October, November, and December. In Asia, which you talked about, that was your first question, as you know, we've just signed up the co-location facility with NeutraDC over the last couple of weeks. That revenue is expected to hit our books from the mid of third quarter or the fourth quarter of this year.
+
+Jay Chandan
+Chairman and CEO
+0:22:20
+
+Because again, we have the data center, we have the power and all that fully connected. We have now confirmed the full design architecture with the customer. We are working with, again, our partner, Supermicro, to get the delivery schedule, and as of now, the delivery schedule looks like something between August and September. We will keep the market updated as and when we evolve with our timelines. I hope that answers your question.
+
+Kevin Pimental
+Analyst
+0:22:50
+
+Yeah. It's great. Thanks for the color.
+
+Jay Chandan
+Chairman and CEO
+0:22:53
+
+Thanks, Kevin.
+
+Operator
+0:22:56
+
+The next question comes from the line of Mike Latimore with Northland Capital Markets. Please go ahead.
+
+Mike Latimore
+Analyst
+0:23:03
+
+Yeah. Thanks. Congrats on the first quarter results here. Cash flow looks great. I guess you raised the lower end of your guidance from the start of the year, it was $137 million, now it's $160 million. Maybe what was the main factor behind that?
+
+Jay Chandan
+Chairman and CEO
+0:23:20
+
+Bruce, do you want to take that?
+
+Bruce Bower
+CFO
+0:23:23
+
+Yeah, sure. As you know, how we forecast guidance is we take what is contracted. We don't just stick our finger in the wind and think about, "Oh, the pipeline looks like this and this," project the conversion and hope for the best. We feel confident in two things. The first is that the timeline, as Jay just mentioned, are looking very good for us to deliver above what was the previous low end of the range, $137 million. The second thing is that the second quarter and the third quarter are shaping up with more contracted revenue than we were originally planning on. By the end of the third quarter, I think we'll come out in a better place than we had originally assumed.
+
+Bruce Bower
+CFO
+0:24:14
+
+Those two factors led us to think, okay, the bottom end of this range needs to move up. The $200 million is still being ultra-conservative. You heard, for instance, that one of the phases would be October, November delivery. If there's any hiccups and it falls into the next year, I don't want to include that in our guidance for this year and then have egg on my face, right? It's much better to be conservative to the market, underpromise, but to be transparent. As things become 99% certain, then we'll adjust the guidance as appropriate. Jay, anything I missed?
+
+Mike Latimore
+Analyst
+0:24:52
+
+Great.
+
+Jay Chandan
+Chairman and CEO
+0:24:55
+
+No. I think you hit the nail on the head. Mike, good to hear from you again. We are working very closely. As you can imagine, a lot of the global political environment in terms of deliveries and all that have also been a bit of a challenge. We are making sure that we're getting the right attention at the highest level at NVIDIA, making sure that we get it over with through Charles, who's at Supermicro, co-founder of Supermicro, and make sure that we are able to get all the deliveries sent over to us. The good thing about India is that we've already gotten the delivery schedules, and that's why we upped the lower end of the guidance.
+
+Jay Chandan
+Chairman and CEO
+0:25:33
+
+Once we get through the hurdles over the next few days or weeks, we will come back to you with a more concrete, maybe an upgrade for the upper end of the numbers.
+
+Mike Latimore
+Analyst
+0:25:48
+
+At that $200 million level, how much of that would be in the kind of AI data center, digital infrastructure category?
+
+Jay Chandan
+Chairman and CEO
+0:26:00
+
+Roughly around 60%-70%.
+
+Mike Latimore
+Analyst
+0:26:05
+
+Okay.
+
+Jay Chandan
+Chairman and CEO
+0:26:06
+
+Our core business will continue to grow, but this AI is new, so you're going from zero to almost 150% of that in terms of revenue. Yes, that's going to be where we are.
+
+Mike Latimore
+Analyst
+0:26:21
+
+On the Egypt deal, you're at full implementation. Is there recurring revenue that continues now?
+
+Jay Chandan
+Chairman and CEO
+0:26:32
+
+Yes. We have a five-year recurring revenue, as we had mentioned to the market about three years ago, post the completion. We are looking to complete sometime mid to third quarter of next year. We're in the final implementation stage. As I've mentioned earlier, we've gone through the motions, we've done all the deliveries, customers been super happy. One thing I want to mention here is that, we now have nil, near nil advance payment guarantees on any projects. All our projects have been delivered successfully. The total advance payments, as you know, three years ago, our advance payments were well north of $50, $60 million being held hostage by our customers, which is obviously very important for them, so we can prove we're delivering. Today, it's $45,000. Just want to make that statement very clear. It means we have delivered, customers have paid us.
+
+Mike Latimore
+Analyst
+0:27:28
+
+That's great. Just last for me on the gross margin. How should we think about gross margin for the year?
+
+Jay Chandan
+Chairman and CEO
+0:27:40
+
+Well, Go for it, yeah.
+
+Bruce Bower
+CFO
+0:27:46
+
+Last year's gross margins were in the low 30%. Given the growth in the AI-focused business, the margins will expand. The gross margins on the data center or GPU-as-a-service implementations are sort of 75%-80% in a bad case, and it can be even higher. That will drive the gross margins up for the full year. In this quarter, we saw a lower gross margin than we'd like, given the mix where basically skewed a little bit to more hardware, and then likely we were a little more aggressive on the pricing just to get an extra customer across the line. Overall, we've announced the contracts that will form the growth phase for quarter two, three, four, and the margins on those are much higher than the traditional business, the growth margins, at least. We're expecting to move higher.
+
+Bruce Bower
+CFO
+0:28:42
+
+When Jay alluded to a guidance update, when we update the guidance, we'll have a firmer picture with a pretty tight range on what that will be.
+
+Jay Chandan
+Chairman and CEO
+0:28:53
+
+Yeah.
+
+Mike Latimore
+Analyst
+0:28:54
+
+All right, thanks.
+
+Jay Chandan
+Chairman and CEO
+0:28:56
+
+Mike, my apologies. If I may add to that, right?
+
+Mike Latimore
+Analyst
+0:28:59
+
+Sure.
+
+Jay Chandan
+Chairman and CEO
+0:28:59
+
+Just a quick point. See, personally, for Bruce and I, this was like a mobilization quarter, okay? We've been front-loading the costs. As you see, we have hired people, tons of people, new people for a company of our size. Infrastructure readiness. We've been buying hardware. We have to run POCs. We have data center capacity, which we have to pay for. You don't sign data center capacity by not paying. You have to pay a significant amount in advance. Project delivery and technical deployment. These are the costs which have kind of come in into the Q1. Now, most importantly, Mike, we're also building our capacity before the full revenue curve lands, right? That means the costs appear first, but the gross margin recovery follows as the utilization increases.
+
+Jay Chandan
+Chairman and CEO
+0:29:46
+
+You've been in this space for so long, you understand data centers better than most people. The AI infrastructure for us does not scale for free. More importantly, we're making sure that the platform is up, running, getting ready, steady. We're giving our 99.999% SLAs to our customers and making sure that all of our GPU deployments, our data center revenue, our managed revenues, are all improving materially over a period of time. That was just to add to Bruce's point.
+
+Mike Latimore
+Analyst
+0:30:13
+
+Yeah. All right, makes sense. Thank you.
+
+Jay Chandan
+Chairman and CEO
+0:30:16
+
+Thanks, Mike. Thank you, sir.
+
+Operator
+0:30:20
+
+The next question comes from the line of Bharath Nagaraj with Cantor Fitzgerald. Please go ahead.
+
+Bharath Nagaraj
+Analyst
+0:30:27
+
+Thank you. Thanks for taking my questions. I think you mentioned 100 new people were hired and 200 new contractors. I guess that'll only be partly reflected or maybe, I think Bruce was mentioning maybe fully reflected in Q1 and you're continuing to hire more. Just wondering how much should we expect operating expenses to increase by in the coming quarters? Basically that ties into any comments on where the EBITDA target should be for the coming quarters in the year. That's the first question.
+
+Jay Chandan
+Chairman and CEO
+0:30:55
+
+Bruce, if you want to take the first half, I'll take the second half. Will fit us?
+
+Bruce Bower
+CFO
+0:30:59
+
+Sure. I think what we mentioned that they were hired as contractors, so that's one of the reasons why the gross margin is depressed because a lot of the contractors would appear as project-level costs, not as SG&A. In terms of SG&A, it was a little over $7 million in the first quarter. It's going to expand in subsequent quarters. We'll continue to build scale operationally, but first of all, it won't expand as quickly as the revenue will. Also given that we're adding higher gross margin business, there should be expansion in gross margin, and it flows through to EBITDA margin. Last year we saw, at the end of the year, $101 million of sales and then $20 million of adjusted EBITDA, or $19.5 million of adjusted EBITDA. I would expect it will expand beyond that margin to 25%, 30%+.
+
+Bharath Nagaraj
+Analyst
+0:31:56
+
+Yeah.
+
+Bruce Bower
+CFO
+0:31:58
+
+We'll give the exact when we have the cloud numbers.
+
+Bharath Nagaraj
+Analyst
+0:32:03
+
+Yeah. Understood.
+
+Jay Chandan
+Chairman and CEO
+0:32:04
+
+Just to add to that for the second half, I mean, I think the market also needs to understand the number of people we're hiring is not enough. This will expand by another 5x or maybe even 10x more, both on the full-time side and the contractors. Let me explain why, right. Today, we've built these contractors. This is because they're sitting together, putting all these infrastructure in play and so on and so forth. Look at the execution side of it. We need people on delivery and program execution, which we'll be hiring. We'll look at engineering and infrastructure build-out. We'll be doing data center operations. I mean, just to build a single data hall, we would need roughly around 300+ people. Right? On an average.
+
+Jay Chandan
+Chairman and CEO
+0:32:46
+
+Each person working, let's say 60 people working in a shift, that's 180 people, including everything else, you're looking at about 300 people per data center operation. You've got your GPU deployments, you've got your technical enablement, you've got your product development, you've got your SOC, NOC, and managed services. You'll have your finance, compliance, procurement, and project controls, export controls. We have to have a separate legal team for all the export controls, the U.S. government and NVIDIA have, and which we have to support. Finally, we have to have our commercial support and our, what I call as, our customer success. Again, Bharath, we're not collecting these employees like stamps, okay? We're moving from a lean turnaround business into a scale execution. The mobilization on Q1 and Q2 should be understood as hiring directly into what I call backlog execution.
+
+Jay Chandan
+Chairman and CEO
+0:33:39
+
+We're not hiring and waiting for new projects to come. We've already signed these projects. We're looking at about roughly, we've got $3.2 billion coming from the Yotta projects. We've got another $2 billion of signed contracts. You're looking at about $5+ billion of backlog execution. Number two, Korat data center build-out, that's going to be at least another 1,000 to 2,000 people. The India GPU infrastructure, which is up and running. We have the team from India sitting here today in Asia and Southeast Asia with us, and we are building all of our infrastructure teams and so on and so forth. You've got your Southeast Asia co-location capacity. We have outsourced most of that work to our friends at NeutraDC. You've got your security, network intelligence, and so on and so forth.
+
+Jay Chandan
+Chairman and CEO
+0:34:24
+
+We are building what I call half a gigawatt of ambition, and fortunately, that is going well in our favor today.
+
+Bharath Nagaraj
+Analyst
+0:34:34
+
+Thank you. That's very helpful color. Just a quick couple of follow-ups. In terms of the capacity, the data center capacity or AI capacity you want to be installing by the end of this year, I think you mentioned 60%, 70% at the upper end of your guidance is to come from that. In terms of the capacity, what's it going to be? I think it is historically around 100 MW. Maybe that is at the lower end. Just wanted to clarify what that number is for 2026. I think 2028 you've mentioned 500 MW.
+
+Jay Chandan
+Chairman and CEO
+0:35:04
+
+That's a really good question, Bharath. We are aiming at anything between 100 MW-150 MW by the end of this year.
+
+Jay Chandan
+Chairman and CEO
+0:35:14
+
+By end of 2027, my personal ambition is to complete the full 500 MW. We've already received inbound interest on a number of other land sites and government approaches from various different parts of Asia. We received inward requests in terms of how we can build up scale to about 2 GW as well. These are conversations we're having right now as we speak. My personal ambition, like I said, end of 2027, I want to have at least half a gigawatts of power capacity with a view that I've signed another full gigawatt of development capacity as well.
+
+Bharath Nagaraj
+Analyst
+0:36:04
+
+Okay. Yeah. Super. That's very helpful. Just one. Sorry, I actually have a couple more, if that's all right. Just on the-
+
+Jay Chandan
+Chairman and CEO
+0:36:10
+
+Please
+
+Bharath Nagaraj
+Analyst
+0:36:11
+
+you have obviously a lot of competing demands for GPU. How confident are you that all these GPUs for all these projects can be delivered given the supply chain issues? I mean, there's a lot of orders that you won. Pipeline is pretty significant. Hence, I was wondering around that.
+
+Jay Chandan
+Chairman and CEO
+0:36:31
+
+Well, listen. If I had a magic wand and I was looking into my crystal glass, I would love to tell you that I can have all this delivered by the end of this year, and I'll be significantly pumping out revenues next year, it takes time. NVIDIA is releasing. If you looked at NVIDIA's release now, you're looking at the next generation of Vera Rubin also coming out. Customers are now keen to look at that as well and potentially talk to us about it. That changes the entire goalpost as well sometimes. We're making sure that the customers' architectures don't change. We have to make sure that the customers are grounded, right? There's a nice, shiny object out there, customers want to run towards it. We've got to keep them grounded.
+
+Jay Chandan
+Chairman and CEO
+0:37:15
+
+On the delivery side, fortunately, we have not had any major issues at all in terms of NVIDIA today. The global concerns or issues today, which are like a noose around my neck, don't seem to be having created a major problem yet. What has created some level of delay is the current lack of availability of memory and storage in the market. Compounded now, we are also seeing shortages in CPU availability in the market. We are working with our partners. We are very closely integrated with Supermicro right now. We're working day in and day out. In fact, I was there the whole of the week before with them.
+
+Jay Chandan
+Chairman and CEO
+0:38:01
+
+We're spending the next full week at Computex as well in Taiwan, where we are sitting together and making our plans as to how we make sure that getting the GPUs is great, but our capacity needs to increase, right? We are working hand in glove with every single major partner of ours across the region to make sure that it does not falter.
+
+Bharath Nagaraj
+Analyst
+0:38:23
+
+Okay. Thank you. One small and minor accounting question. On the SBC costs, am I right in saying that given you recognized most of what you had said you would in Q1 itself, the remaining quarter should be minimal? Is that right, or am I getting that wrong?
+
+Jay Chandan
+Chairman and CEO
+0:38:41
+
+Bruce?
+
+Bruce Bower
+CFO
+0:38:43
+
+Yes, I think that's correct. There was deferred stock-based compensation, and it's been out there for a couple of years. For various reasons, we decided to do it in this quarter, so that's no longer an overhang.
+
+Bharath Nagaraj
+Analyst
+0:38:59
+
+Okay. All right. Perfect. Thank you very much.
+
+Jay Chandan
+Chairman and CEO
+0:39:00
+
+Yeah.
+
+Bharath Nagaraj
+Analyst
+0:39:01
+
+Congrats again.
+
+Jay Chandan
+Chairman and CEO
+0:39:02
+
+Hey, Bharath, if I may add to that. This is not me being funny. I've seen comments like, "Oh, my God, CEO's gotten paid," and blah, blah. No, this was not just CEO. This was for the employees as well and everybody else around the company. I want to make sure that the compensation, the market understands that the compensation was due for the last, what? Nearly four years now since the company went public. Employees need to be paid. They're given their stock. Unfortunately, it had to come in this quarter, but that's okay. If I don't pay my employees, that's the wrong thing for me to do. I'm setting the right precedent.
+
+Bharath Nagaraj
+Analyst
+0:39:39
+
+Yeah. No, absolutely. Thank you. That's helpful. Thanks for answering all the questions.
+
+Jay Chandan
+Chairman and CEO
+0:39:43
+
+Look forward to speaking later. Cheers.
+
+Operator
+0:39:49
+
+All right. Thank you. The next question comes from the line of John Roy with Water Tower Research. Please go ahead.
+
+John Roy
+Analyst
+0:39:57
+
+Jay, obviously there's been a lot of talk about much larger and larger projects, AI infrastructure, GPUs, data centers, et cetera. I was curious, I know Bruce talked a little bit about funding, just to your maybe philosophy about how are you going to fund these massive projects and where do you stand on that? Maybe just give a step back and tell us where you're at.
+
+Jay Chandan
+Chairman and CEO
+0:40:25
+
+John, good to hear from you. I was wondering when you'd ask me a question. That's a very fair question, and frankly, it is the right question. The scale of Gorilla has changed, right? You and I know, we talk regularly. We're not talking about small software deployments. We're signing and pursuing large AI infrastructure, GPU data center projects across India, Thailand, Indonesia, Malaysia, Singapore, Philippines, and so on and so forth. That requires capital. There's no version of my story or this story today where we sign multi-billion dollar opportunities to buy GPUs, reserve data center capacity, procure networking, memory. I was just telling Bharath about it, memory and storage, secure power, buying land, building data centers, without funding the business properly. Right? GPUs take money. I don't know if people realize buying a B300 server costs me more than half a million dollars.
+
+Jay Chandan
+Chairman and CEO
+0:41:18
+
+That's excluding networking and all the other hoopla that goes with it. When a customer tells me that I need 1,000 servers, you're looking at about $500+ million of investment just on the GPUs, on the servers, and then you've got networking and so on and so forth, which costs you another 20%-25%. It's a pretty penny. On top of that, where are we today? We have not yet relied on dilutive equity to fund the build-out to date. Our approach has been to protect shareholders while building the capital stack required for our particular flow. Okay. We are actively working on vendor financing. We have received term sheets in the range of approximately $0.5 billion-$1 billion across all of the vendor financing and debt structures. We are progressing with various debt financing.
+
+Jay Chandan
+Chairman and CEO
+0:42:06
+
+We have term sheets and bank-led proposals between $300 million to more than $700, $800 million that contemplate lending at the project or the SPV level rather than relying purely on the listed parent. You remember what Bruce said last quarter. We're making sure it's a non-recourse. I think people need to understand when Bruce meant that, he meant that for real. We're also looking at different levels of SPV structures. Now, that is important because infrastructure assets could be financed against their own cash flows, the contracts, equipment, and the project economics where possible. We are working with various levels of structures at the SPV level. We're also building Gorilla Capital. Again, the market seems to have forgotten about it because it's what I call a strategic funding platform.
+
+Jay Chandan
+Chairman and CEO
+0:42:56
+
+The goal is to bring long-duration capital, including pension funds, endowments, institutional investors with structures that can support a 7-10-year long life infrastructure asset investment. We're matching funding to the asset. GPUs, data centers, and contracted infrastructure revenue should not be financed with short-term thinking. The capital structure has to match the commercial life of the asset. More importantly, we're also being very disciplined on shareholder impact. We will not do financing simply for the sake of financing. The objective is to make sure that there is growth, profitability, and shareholder value. What the market needs to understand. I have no idea what's happening to me. Sorry. I apologize. We're looking at potentially more than $5 billion of signed contracts and executable opportunity across our AI infrastructure and data center pipeline. The market knows about this already.
+
+Jay Chandan
+Chairman and CEO
+0:43:59
+
+If we want to move Gorilla from $100 million revenue business last year to $500 million revenue next year, plus annualized business for the next five years, the business has to be funded like a serious infrastructure platform. Growth requires capital, and more importantly, profitable growth requires very disciplined capital. That's why we're not raising money because the business is weak. I think the market needs to understand this, John. We're not raising money because the business is weak. We're assembling capital because the opportunity is much, much larger ahead of us, and the difference is very simple. My message to you and to the entire market and to all the people listening to this call is we're funding growth through a variety of vendor financing, SPV level financing, long-term, long-duration institutional capital.
+
+Jay Chandan
+Chairman and CEO
+0:44:54
+
+We're doing it very carefully to protect our shareholders, keeping them in mind at every single time. Hope that answers your question?
+
+John Roy
+Analyst
+0:45:03
+
+Yeah, it does, actually. It kind of brings up a corollary question, which is the pipeline. Can you give us any kind of color on the pipeline? I know there's some big numbers out there. Just curious if maybe you could summarize it with some.
+
+Jay Chandan
+Chairman and CEO
+0:45:19
+
+Sure. Today, the pipeline, the signed contracts, or I would go into say backlog, is well over $5 billion. Okay. The pipeline to be signed or in negotiations and discussions is well north of another $5+ billion. That's excluding any of the build-out we're doing currently in Korat or in Rayong, and so on and so forth. When I mentioned this previously to Bharath, I made this very clear to him that my personal ambition would be to get a full gigawatt in there. If I get the full gigawatt with off-takers, and by the way, just FYI, we do not sign any colo. We're not purchasing any land without an off-taker. I have signed off-takers completely ready to take over the capacity day one. There's not a single hour I will spend on GPU power without having an off-taker.
+
+Jay Chandan
+Chairman and CEO
+0:46:23
+
+Our revenue will hit the books as soon as the day it opens when the ribbons are being cut. If we do the 1 GW, then you're looking at, you know what the revenues are. I'm not going to prompt any numbers right now, but we will look at a significant upgrade from even the $500 million+ numbers.
+
+John Roy
+Analyst
+0:46:43
+
+Great. Thanks, Jay. Congratulations, guys.
+
+Jay Chandan
+Chairman and CEO
+0:46:47
+
+Thank you very much, John.
+
+Operator
+0:46:51
+
+Once again, if you have a question, please press star one. The next question comes from the line of Barrett Boone with RedChip. Please go ahead.
+
+Barrett Boone
+VP of of Global Markets
+0:47:01
+
+Jay, Bruce, congratulations on the strong start to 2026. As discussed earlier in the call, receivables came down meaningfully during the quarter. Can you talk about what's driving the better collections and how we should think going forward about cash conversion as you scale towards the $500 million revenue target?
+
+Jay Chandan
+Chairman and CEO
+0:47:22
+
+I'm happy for Bruce to start, and then I can chip in. Bruce?
+
+Bruce Bower
+CFO
+0:47:27
+
+Sure. What's driving it is really, we have three core customers, which we disclosed in the 20-F. We delivered over the course of 2025. We invoiced, in 2026, we said, "These are the terms, make sure that we collect." Two of them have always been extremely prompt payers, and that's the kind of customer we like. In the third one, it's really just a simple commercial logic where we say, "Look, we're in Egypt. We've been working together since July 2023 when we awarded the contract. We've come this far. We've done this much for you. Is it too much to ask that you pay on time?" The customer recognizes the value and then the core nature of the infrastructure that we've built. That is helping and just the sticky nature of our products.
+
+Bruce Bower
+CFO
+0:48:31
+
+The thing I would say is that with new customers, we're extremely vigilant about the payment terms for new customers that we're onboarding. Jay?
+
+Jay Chandan
+Chairman and CEO
+0:48:44
+
+Absolutely. Thanks, Barrett. Bruce, that was actually quite interesting. You stole everything from me already. Just to add to it, Barrett, personally, revenue is wonderful. Of course, everyone likes revenue, but cash is what separates the business from being a brochure. Okay? We produce operating cash flow. As you know the numbers, I'm not going to repeat it. There was a huge swing, +$6.6 million. More importantly, what drove it? I think, again, I think we need to educate the market. First, our customers paid us. That may sound very obvious, but when you look at large infrastructure projects, payment behavior is one of the clearest signals of delivery quality. It shows quality of the company. Customers do not release meaningful cash because they're feeling charitable. Okay?
+
+Jay Chandan
+Chairman and CEO
+0:49:40
+
+They release cash because milestones are being met, documentation is being accepted, and projects are moving forward. The second part is that we've also tightened our project discipline. We're no longer a $20 million revenue company. We're being more aggressive internally in invoicing, collections, milestone tracking, project governance, all of that, customer acceptance. It is not enough to win large programs, but we must convert that into recognized revenue, and subsequently into cash. The difficulty is that we want to make sure that we're running the business profitably. The third most important part of the business is now that we're building the business where cash conversion is becoming part of the operating model but not an afterthought, what matters next is scale.
+
+Jay Chandan
+Chairman and CEO
+0:50:32
+
+Now, if we are being serious about moving towards our $500 million of revenue, we cannot allow working capital to become, for me, a museum of unpaid invoices. We'll need discipline, contracting, delivery, acceptance, billing, collections, cash application, and so on and so forth. As we scale, Barrett, into data centers and GPU, cash flow will always not move in a perfectly straight line. I wish it did, but these are all large programs. We're going to make sure that we are going to stick to our guns on every single month. The Q1 signal is very important. We grew revenues, we reduced our receivables, we reduced our advanced payment guarantees. I just mentioned this earlier, to Mani. It's gone down from $50+ million to $45,000. That's talking about next phase of our business evolution.
+
+Jay Chandan
+Chairman and CEO
+0:51:32
+
+The simple answer is, as we scale forward, cash conversion will become the most key metric for us, which personally, Bruce and I are watching and will continue to watch like a hawk. Revenue gets attention, but cash earns respect, for me. For me, cash will be our standing ovation going forward. Barrett.
+
+Barrett Boone
+VP of of Global Markets
+0:51:55
+
+Understood. Thank you very much for the extra color there. Extremely helpful. I just had one last question. Actually, about today's release. You do cite that the combination of infrastructure and AI products gives Gorilla leverage. Can you talk about how everything sort of works together, and how these products help you win infrastructure deals that perhaps a pure-play data center competitor couldn't?
+
+Jay Chandan
+Chairman and CEO
+0:52:19
+
+That's actually a really good question. I think, again, markets and many, many investors seem to have also missed this. The simple point is, Barrett, we're actually not just selling space, power, and cooling. A pure-play data center operator will give you building, they'll give you racks, they'll give you power, service desk. Useful, but it's not stuff of Shakespeare. Okay, I'm just using a British chronology here. Why? Because Gorilla brings the full operating layer around the infrastructure. Think about it this way: site assessment, power planning, cooling infrastructure and architecture, feasibility studies, data center readiness. All that is being done by us.
+
+Jay Chandan
+Chairman and CEO
+0:53:01
+
+Racking, stacking, cabling, GPU commissioning, network integration, cloud enablement, that's also being done by us. When you look at security, whether it's physical security, access control, cybersecurity, your SOC capabilities, your NOC monitoring, your CCTV access controls, we build and manage everything ourselves. We also operate it. That means we have a 24/7 monitoring, managed services, remote operations, preventative maintenance, life cycle support, all of that. For us, we're not just providing a room with very, very lovely blinking lights. We are making sure that our products are sitting into it, and that's why we invested into Astrikos. Right? Look at the difference.
+
+Jay Chandan
+Chairman and CEO
+0:53:46
+
+We have security intelligence products which actually help customers protect their critical infrastructure, their endpoints, their users, their cameras, their operational networks. We've got the network intelligence products coming in from our friends at Astrikos. We have built our own SD-WAN, secure tunneling, orchestration, and edge connectivity for products. Our business intelligence layer talks about all of our operational data, our infrastructure data, our video, IoT analytics, and actual decisions. When we sit with a government telecom operator or enterprise, any infrastructure partner, per se, right? We're not saying, "Here is a building.
+
+Jay Chandan
+Chairman and CEO
+0:54:23
+
+Good luck." That's not us. That's not a strategy. That's a real estate with electricity. Okay. It puts Gorilla in a much stronger position than a pure data center competitor. With Gorilla, it gives them capacity plus control. Look at it this way. Customers care about sovereignty, what is it? Security, latency, compliance, and so on and so forth. They don't have 12 vendors doing this. Typically, when you go into a data center, you've got 10 to 12 vendors doing this. We are there. We're the one throat to choke when something goes wrong. This is very, very, very important. Now, our model also gives us leverage. It gives us scale. It creates differentiation. It also creates what is called the Gorilla Edge, right, all pun intended.
+
+Jay Chandan
+Chairman and CEO
+0:55:15
+
+If you look at the full stack model across design, development, deployment, operations, and so on and so forth, we're sitting right at the top of it. If you look at a pure data center, think about it as someone giving you a garage, but more importantly, Gorilla gives you the garage, it provides you the engine, it provides you the security system, it provides you the control room, and someone who's awake at, let's say, 3:00 A.M., like I was awake at 2:00 A.M. this morning, when things actually matter, Bharath. Hope that answers your question.
+
+Barrett Boone
+VP of of Global Markets
+0:55:50
+
+Certainly does. That's it for me. Thank you very much.
+
+Jay Chandan
+Chairman and CEO
+0:55:55
+
+Thank you.
+
+Operator
+0:55:58
+
+That concludes the question and answer session. I would like to turn the conference back over to management for any closing remarks.
+
+Jay Chandan
+Chairman and CEO
+0:56:06
+
+Thank you very much, Prema. I really appreciate it. Analysts, investors, and employees listening to my conversation today, thank you very much for your support. I would want to leave our investors with this thought. We have rebuilt the business, we've proved the technology, we've collected cash, we've turned operating cash flow positive, and are now moving into a much larger arena, AI infrastructure. We've always been an AI infrastructure company, okay? We've been building the blocks. If you hear me, what I said, my first interview on the Nasdaq in July of 2022, I said we were moving into building an AI infrastructure, platform as a service. That's exactly what we're doing. Data center is a part of it. It's not a pivot. Please do not use that word. We're not pivoting. We are building the platform, and we're going to close and secure the platform.
+
+Jay Chandan
+Chairman and CEO
+0:57:03
+
+We're building GPU capacity, we're building sovereign compute, and we're making sure that national platforms function. We're buying land, we're securing power, we're taking data center capacity, we're building new products, we're hiring new people, more people needed to deliver. We're not talking about scale from a distance, we're actually building it. My message to the market is very simple. Judge us on execution, judge us on cash, judge us on delivery, and judge us on whether we keep scaling. Everything else for me is commentary. Frankly, there's been plenty of commentary from people who are just sitting on the sidelines, and these people are not even able to build a sandwich, let alone an AI infrastructure business. Gorilla is not only getting started, the market can doubt the story if it wants, but it cannot ignore our direction of travel.
+
+Jay Chandan
+Chairman and CEO
+0:57:57
+
+Thank you very much for listening in. Have a lovely evening.
+
+Operator
+0:58:02
+
+Thank you. This concludes today's conference call. You may now disconnect.
+
