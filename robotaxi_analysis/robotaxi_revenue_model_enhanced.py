@@ -452,11 +452,16 @@ def calculate_utilization(
     # 1. Network effect: +5% per year, capping at +25%
     network_gain = min(0.25, 0.05 * years_in_market)
 
-    # 2. Congestion penalty: logistic curve based on vehicles per 100k population
-    # Threshold: 50 vehicles/100k = start of material congestion
-    # Steepness: 10 = moderate slope
+    # 2. Congestion penalty: logistic curve based on vehicles per 100k population.
+    # Calibration: US has ~88,000 vehicles/100k people, of which ~10-15% are in motion
+    # at any time (~9,000-13,000 moving vehicles/100k). Robotaxis operate ~18 hrs/day
+    # vs personal cars ~1 hr/day, so 1 robotaxi ≈ 18× utilisation of a parked car.
+    # Inflection at 5,000/100k ≈ 6% of car ownership density (but all actively moving).
+    # Steepness 500 = shallow slope so penalty grows gradually beyond the threshold.
+    # Original threshold of 50/100k caused congestion_penalty→1.0 at sub-NYC-taxi
+    # densities, producing zero revenue on any real fleet.
     vehicles_per_100k = (fleet_operating / max(reachable_pop, 1.0)) * 100_000
-    congestion_penalty = 1.0 / (1.0 + math.exp(-(vehicles_per_100k - 50.0) / 10.0))
+    congestion_penalty = 1.0 / (1.0 + math.exp(-(vehicles_per_100k - 5_000.0) / 500.0))
 
     # 3. Friction still applies
     friction_discount = 1.0 - 0.03 * profile.readiness_friction()
@@ -484,17 +489,28 @@ def apply_congestion_feedback(
 
     vehicles_per_100k = (fleet_operating / max(reachable_pop, 1.0)) * 100_000
 
-    # Elasticity factor decreases as density increases
-    # At 50 vehicles/100k: factor = 1.0 (no change)
-    # At 80 vehicles/100k: factor ≈ 0.60 (40% reduction)
-    congestion_elasticity_factor = 1.0 / (1.0 + 0.01 * max(0, vehicles_per_100k - 50))
+    # Elasticity factor decreases as density increases.
+    # Onset at 5,000/100k (consistent with congestion_penalty threshold).
+    congestion_elasticity_factor = 1.0 / (1.0 + 0.0002 * max(0, vehicles_per_100k - 5_000))
 
     adjusted_scenario = ScenarioKnobs(
         label=scenario.label,
         regulatory_velocity=scenario.regulatory_velocity,
         demand_elasticity=scenario.demand_elasticity * congestion_elasticity_factor,
         induced_demand_multiplier=scenario.induced_demand_multiplier,
-        fleet_supply_discipline=scenario.fleet_supply_discipline
+        fleet_supply_discipline=scenario.fleet_supply_discipline,
+        behavior_change_inflection_year=scenario.behavior_change_inflection_year,
+        market_structure=scenario.market_structure,
+        terminal_multiple_tier1=scenario.terminal_multiple_tier1,
+        terminal_multiple_tier2=scenario.terminal_multiple_tier2,
+        terminal_multiple_tier3=scenario.terminal_multiple_tier3,
+        terminal_fleet_waymo=scenario.terminal_fleet_waymo,
+        terminal_fleet_tesla=scenario.terminal_fleet_tesla,
+        private_car_substitution_fraction=scenario.private_car_substitution_fraction,
+        asset_layer_revenue_multiplier=scenario.asset_layer_revenue_multiplier,
+        use_scurve_adoption=scenario.use_scurve_adoption,
+        scurve_steepness=scenario.scurve_steepness,
+        scurve_max_multiplier=scenario.scurve_max_multiplier,
     )
 
     return adjusted_scenario
@@ -516,10 +532,15 @@ class TerminalState:
     gross_margin: float
 
 
-def classify_terminal_2035(result: YearResult, profile: CompanyProfile) -> TerminalState:
+def classify_terminal_2035(
+    result: YearResult,
+    profile: CompanyProfile,
+    scenario: ScenarioKnobs | None = None,
+) -> TerminalState:
     """
     Classify 2035 terminal state based on economics.
-    Maps platform_margin to market structure.
+    When a scenario is provided, uses its market_structure to select the appropriate
+    multiple tier rather than inferring from take_rate alone.
     """
 
     vehicles = result.fleet_operating
@@ -528,13 +549,21 @@ def classify_terminal_2035(result: YearResult, profile: CompanyProfile) -> Termi
     fare_per_mile = result.gross_passenger_revenue / max(annual_miles, 1.0)
     take_rate = result.net_platform_revenue / max(result.gross_passenger_revenue, 1.0)
 
-    # Estimate gross margin
     cost_per_mile = 0.42 if profile.slug == "tesla" else 0.68
     gross_costs = annual_miles * cost_per_mile
     gross_margin = (result.gross_passenger_revenue - gross_costs) / max(result.gross_passenger_revenue, 1.0)
 
-    # Classify by take_rate (platform margin)
-    if take_rate <= 0.05:
+    # Use scenario's Tier 1 multiple when provided (infrastructure/monopoly regimes
+    # warrant higher multiples than what take_rate heuristics can capture).
+    if scenario is not None:
+        multiple = int(scenario.terminal_multiple_tier1)
+        if scenario.market_structure == "monopoly":
+            structure = f"PLATFORM MONOPOLY ({scenario.market_structure})"
+        elif scenario.market_structure == "infrastructure":
+            structure = f"INFRASTRUCTURE LAYER ({scenario.market_structure})"
+        else:
+            structure = f"TRANSPORT MARKET ({scenario.market_structure})"
+    elif take_rate <= 0.05:
         structure = "REGULATED UTILITY (3-5% target margin)"
         multiple = 10
     elif take_rate <= 0.15:
@@ -549,7 +578,7 @@ def classify_terminal_2035(result: YearResult, profile: CompanyProfile) -> Termi
 
     return TerminalState(
         vehicles=vehicles,
-        average_fare=fare_per_mile * 8.0,  # Assume 8 mi/trip
+        average_fare=fare_per_mile * 8.0,
         take_rate=take_rate,
         platform_revenue=result.net_platform_revenue,
         structure=structure,
@@ -688,6 +717,26 @@ class ScenarioKnobs:
     terminal_multiple_tier1: float = 18.0  # Tier 1 multiple (can vary by structure)
     terminal_multiple_tier2: float = 12.0  # Tier 2 multiple
     terminal_multiple_tier3: float = 8.0   # Tier 3 multiple
+    # Terminal fleet ceilings vary by regime: transport = current rideshare scale,
+    # infrastructure = city-scale deployment, monopoly = ownership-replacement scale.
+    terminal_fleet_waymo: int = 120_000
+    terminal_fleet_tesla: int = 200_000
+    # Fraction of private car trips absorbed at terminal. In transport regime this is
+    # modest (people still own cars). In infrastructure/monopoly regimes, second-car
+    # elimination and mobility-as-a-service adoption drive this much higher.
+    private_car_substitution_fraction: float = 0.08
+    # Multiplier on net_platform_revenue for adjacent monetisation layers
+    # (in-car commerce, data licensing, advertising, logistics, municipal APIs,
+    # subscriptions). 1.0 = ride revenue only; 1.25 = rides + 25% from adjacencies.
+    # Kept separate from terminal multiples so the source of value is transparent.
+    asset_layer_revenue_multiplier: float = 1.0
+    # S-curve adoption path (activate with use_scurve_adoption=True).
+    # Models threshold-crossing / exponential lock-in instead of the default linear ramp.
+    # scurve_steepness: how rapidly adoption accelerates post-inflection (higher = sharper).
+    # scurve_max_multiplier: asymptotic ceiling on the S-curve demand boost.
+    use_scurve_adoption: bool = False
+    scurve_steepness: float = 1.0
+    scurve_max_multiplier: float = 3.0
 
 
 def optionality_scenarios() -> dict[str, ScenarioKnobs]:
@@ -708,23 +757,32 @@ def optionality_scenarios() -> dict[str, ScenarioKnobs]:
             demand_elasticity=1.0,
             induced_demand_multiplier=1.35,
             fleet_supply_discipline=1.0,
-            behavior_change_inflection_year=9999,  # Never
+            behavior_change_inflection_year=9999,
             market_structure="transport",
             terminal_multiple_tier1=17.0,
             terminal_multiple_tier2=11.0,
             terminal_multiple_tier3=8.0,
+            terminal_fleet_waymo=120_000,
+            terminal_fleet_tesla=200_000,
+            private_car_substitution_fraction=0.08,
+            asset_layer_revenue_multiplier=1.0,
         ),
         "infrastructure_layer": ScenarioKnobs(
             label="Infrastructure: City OS + logistics + data (medium upside)",
             regulatory_velocity=1.1,
             demand_elasticity=1.15,
-            induced_demand_multiplier=1.75,  # 2x baseline by 2035 from behavior change
+            induced_demand_multiplier=1.75,
             fleet_supply_discipline=1.0,
-            behavior_change_inflection_year=2028,  # Land use shifts accelerate mid-period
+            behavior_change_inflection_year=2028,
             market_structure="infrastructure",
-            terminal_multiple_tier1=32.0,  # Utility-scale + network effects
+            terminal_multiple_tier1=32.0,
             terminal_multiple_tier2=22.0,
             terminal_multiple_tier3=15.0,
+            terminal_fleet_waymo=2_000_000,
+            terminal_fleet_tesla=5_000_000,
+            private_car_substitution_fraction=0.20,
+            # Logistics (20%): delivery routing, last-mile, idle-time freight
+            asset_layer_revenue_multiplier=1.20,
         ),
         "natural_monopoly": ScenarioKnobs(
             label="Monopoly: Winner-take-most with compounding moats (high upside)",
@@ -732,11 +790,42 @@ def optionality_scenarios() -> dict[str, ScenarioKnobs]:
             demand_elasticity=1.25,
             induced_demand_multiplier=1.50,
             fleet_supply_discipline=1.1,
-            behavior_change_inflection_year=2030,  # Inflection later, but more dramatic
+            behavior_change_inflection_year=2030,
             market_structure="monopoly",
-            terminal_multiple_tier1=45.0,  # Platform + moat compounding
+            terminal_multiple_tier1=45.0,
             terminal_multiple_tier2=30.0,
             terminal_multiple_tier3=20.0,
+            terminal_fleet_waymo=5_000_000,
+            terminal_fleet_tesla=15_000_000,
+            private_car_substitution_fraction=0.35,
+            # Advertising + data licensing + subscriptions + logistics (40%)
+            asset_layer_revenue_multiplier=1.40,
+        ),
+        "ownership_disruption": ScenarioKnobs(
+            label="Ownership disruption: robotaxis compete with cars, not Uber",
+            # TAM basis: Americans drive ~13,500 miles/yr/person. Even 30% capture at
+            # $1.10/mile = $4,455/person/yr vs Uber at ~$500/yr. Induced demand
+            # multiplier of 7x reflects: deadheading acceptability, kids travelling
+            # independently, errand fragmentation, expanded commute radius, mobile room
+            # use cases. Private car substitution at 0.60 = majority of second-car
+            # households convert to MaaS by terminal year.
+            regulatory_velocity=1.3,
+            demand_elasticity=1.5,
+            induced_demand_multiplier=7.0,
+            fleet_supply_discipline=1.2,
+            behavior_change_inflection_year=2029,
+            market_structure="monopoly",
+            terminal_multiple_tier1=50.0,
+            terminal_multiple_tier2=35.0,
+            terminal_multiple_tier3=25.0,
+            terminal_fleet_waymo=10_000_000,
+            terminal_fleet_tesla=30_000_000,
+            private_car_substitution_fraction=0.60,
+            asset_layer_revenue_multiplier=1.60,
+            # S-curve: ownership disruption is threshold-crossing, not linear
+            use_scurve_adoption=True,
+            scurve_steepness=0.8,
+            scurve_max_multiplier=4.0,
         ),
     }
 
@@ -749,11 +838,15 @@ def scenario_library() -> dict[ScenarioName, ScenarioKnobs]:
             demand_elasticity=0.85,
             induced_demand_multiplier=1.15,
             fleet_supply_discipline=0.9,
-            behavior_change_inflection_year=9999,  # Never
+            behavior_change_inflection_year=9999,
             market_structure="transport",
             terminal_multiple_tier1=16.0,
             terminal_multiple_tier2=11.0,
             terminal_multiple_tier3=7.0,
+            terminal_fleet_waymo=50_000,
+            terminal_fleet_tesla=80_000,
+            private_car_substitution_fraction=0.05,
+            asset_layer_revenue_multiplier=1.0,
         ),
         ScenarioName.BASE: ScenarioKnobs(
             label="Base case — gradual scaling",
@@ -761,11 +854,15 @@ def scenario_library() -> dict[ScenarioName, ScenarioKnobs]:
             demand_elasticity=1.0,
             induced_demand_multiplier=1.35,
             fleet_supply_discipline=1.0,
-            behavior_change_inflection_year=9999,  # Never
+            behavior_change_inflection_year=9999,
             market_structure="transport",
             terminal_multiple_tier1=18.0,
             terminal_multiple_tier2=12.0,
             terminal_multiple_tier3=8.0,
+            terminal_fleet_waymo=120_000,
+            terminal_fleet_tesla=200_000,
+            private_car_substitution_fraction=0.08,
+            asset_layer_revenue_multiplier=1.0,
         ),
         ScenarioName.HYPERGROWTH: ScenarioKnobs(
             label="Hypergrowth — trust + economics win quickly",
@@ -773,11 +870,15 @@ def scenario_library() -> dict[ScenarioName, ScenarioKnobs]:
             demand_elasticity=1.35,
             induced_demand_multiplier=1.85,
             fleet_supply_discipline=1.0,
-            behavior_change_inflection_year=9999,  # Never
+            behavior_change_inflection_year=9999,
             market_structure="transport",
             terminal_multiple_tier1=20.0,
             terminal_multiple_tier2=13.0,
             terminal_multiple_tier3=9.0,
+            terminal_fleet_waymo=500_000,
+            terminal_fleet_tesla=1_000_000,
+            private_car_substitution_fraction=0.12,
+            asset_layer_revenue_multiplier=1.05,
         ),
         ScenarioName.PLATFORM_DOMINANCE: ScenarioKnobs(
             label="Platform dominance — winner-take-most dynamics",
@@ -785,11 +886,15 @@ def scenario_library() -> dict[ScenarioName, ScenarioKnobs]:
             demand_elasticity=1.5,
             induced_demand_multiplier=2.25,
             fleet_supply_discipline=1.05,
-            behavior_change_inflection_year=9999,  # Never
+            behavior_change_inflection_year=9999,
             market_structure="transport",
             terminal_multiple_tier1=22.0,
             terminal_multiple_tier2=14.0,
             terminal_multiple_tier3=10.0,
+            terminal_fleet_waymo=1_000_000,
+            terminal_fleet_tesla=2_000_000,
+            private_car_substitution_fraction=0.15,
+            asset_layer_revenue_multiplier=1.10,
         ),
     }
 
@@ -934,10 +1039,34 @@ class YearResult:
     # NEW: Terminal classification
     terminal_structure: str = ""
     terminal_implied_multiple: int = 0
+    # Asset-layer revenue on top of core ride revenue (logistics, data, ads, etc.)
+    asset_layer_revenue: float = 0.0
+    total_platform_revenue: float = 0.0
+    # S-curve adoption multiplier applied on top of base trips_pc
+    adoption_multiplier: float = 1.0
 
 
 def _terminal_year_index(year: int, start_year: int) -> int:
     return max(0, year - start_year)
+
+
+def scurve_adoption_multiplier(
+    year: int,
+    inflection_year: int,
+    steepness: float,
+    max_multiplier: float,
+) -> float:
+    """
+    Logistic S-curve centred on inflection_year.
+    Returns a multiplier in (1.0, max_multiplier].
+    At inflection_year: multiplier ≈ (1 + max_multiplier) / 2.
+    Before inflection: approaches 1.0 (no boost).
+    After inflection: approaches max_multiplier asymptotically.
+    """
+    years_from_inflection = year - inflection_year
+    # Shift logistic so output is 1.0 at t→-∞ and max_multiplier at t→+∞
+    logistic = 1.0 / (1.0 + math.exp(-steepness * years_from_inflection))
+    return 1.0 + (max_multiplier - 1.0) * logistic
 
 
 def simulate_company_year(
@@ -966,7 +1095,7 @@ def simulate_company_year(
 
     private_shift = (
         market.private_car_trip_pool_per_capita_year
-        * market.private_car_substitution_fraction_terminal
+        * scenario.private_car_substitution_fraction
         * substitution_ramp
     )
 
@@ -991,13 +1120,21 @@ def simulate_company_year(
     )
 
     # ENHANCEMENT 4: Behavior change inflection (land use shifts, second-car elimination, new user cohorts)
-    # If behavior_change_inflection_year is specified and we've reached it, apply additional multiplier
-    # This models phase-change demand growth from land use shifts, reduced second-car ownership, etc.
-    if use_enhancements and year >= scenario.behavior_change_inflection_year:
-        years_past_inflection = year - scenario.behavior_change_inflection_year
-        # Inflection amplification: starts at 1.0x, ramps to full effect by +5 years
-        behavior_change_multiplier = 1.0 + (scenario.induced_demand_multiplier - 1.0) * min(years_past_inflection / 5.0, 1.0)
-        trips_pc = trips_pc * behavior_change_multiplier
+    adoption_mult = 1.0
+    if use_enhancements and scenario.behavior_change_inflection_year < 9999:
+        if scenario.use_scurve_adoption:
+            # Logistic S-curve: sharp threshold-crossing, approaches max_multiplier asymptotically
+            adoption_mult = scurve_adoption_multiplier(
+                year,
+                inflection_year=scenario.behavior_change_inflection_year,
+                steepness=scenario.scurve_steepness,
+                max_multiplier=scenario.scurve_max_multiplier,
+            )
+        elif year >= scenario.behavior_change_inflection_year:
+            years_past_inflection = year - scenario.behavior_change_inflection_year
+            # Original linear ramp: full effect by +5 years
+            adoption_mult = 1.0 + (scenario.induced_demand_multiplier - 1.0) * min(years_past_inflection / 5.0, 1.0)
+    trips_pc = trips_pc * adoption_mult
 
     annual_miles_per_capita = trips_pc * market.avg_trip_miles_substitute
 
@@ -1020,15 +1157,26 @@ def simulate_company_year(
     # ENHANCEMENT 2: Supply constraints instead of simple ramp
     if use_enhancements and supply_constraints:
         supply_dict = project_supply_constraints(year, scenario_key, supply_constraints)
-        supply_cap = supply_dict["bottleneck"]
+        physical_cap = supply_dict["bottleneck"]
 
-        # Find which constraint is binding (charging removed—it's elastic capital)
-        bottleneck_name = min(
-            [("manufacturing", supply_dict["manufacturing"]),
-             ("regulatory", supply_dict["regulatory"]),
-             ("battery", supply_dict["battery"])],
-            key=lambda x: x[1]
-        )[0]
+        # Apply regime ceiling from the scenario.
+        # - Small regimes (transport): cap at regime ceiling so fleet never exceeds target.
+        # - Large regimes (infrastructure/monopoly): ceiling > physical cap, so model a
+        #   linear ramp to the regime ceiling; physical cap provides the floor in early years.
+        terminal_year = start_year + 9  # 2026→2035 horizon
+        if theoretical_us_fleet_terminal > physical_cap:
+            regime_ramp = theoretical_us_fleet_terminal * min(1.0, years_elapsed / max(terminal_year - start_year, 1))
+            supply_cap = max(physical_cap, regime_ramp)
+            bottleneck_name = "regime_ramp"
+        else:
+            supply_cap = min(physical_cap, theoretical_us_fleet_terminal)
+            bottleneck_name = min(
+                [("manufacturing", supply_dict["manufacturing"]),
+                 ("regulatory", supply_dict["regulatory"]),
+                 ("battery", supply_dict["battery"]),
+                 ("regime_ceiling", theoretical_us_fleet_terminal)],
+                key=lambda x: x[1]
+            )[0]
     else:
         terminal_fraction = min(1.0, adjusted_reachable / max(market.us_metro_population_full, 1.0))
         supply_cap = (
@@ -1052,6 +1200,8 @@ def simulate_company_year(
 
     gross_rev = fleet_op * paid_per_vehicle_day * 365.0 * profile.fare_per_mile_usd
     net_rev = gross_rev * profile.take_rate
+    asset_layer_rev = net_rev * (scenario.asset_layer_revenue_multiplier - 1.0)
+    total_rev = net_rev * scenario.asset_layer_revenue_multiplier
 
     # ENHANCEMENT 5: Intervention rate tracking for regulatory gating
     annual_autonomy_miles = fleet_op * paid_per_vehicle_day * 365.0
@@ -1085,11 +1235,14 @@ def simulate_company_year(
         cumulative_autonomy_miles=cumulative_autonomy_miles,
         annual_autonomy_miles=annual_autonomy_miles,
         major_incidents=major_incidents,
+        asset_layer_revenue=asset_layer_rev,
+        total_platform_revenue=total_rev,
+        adoption_multiplier=adoption_mult,
     )
 
     # ENHANCEMENT 4: Terminal classification (for 2035)
     if year == 2035:
-        terminal = classify_terminal_2035(result, profile)
+        terminal = classify_terminal_2035(result, profile, scenario=scenario)
         result.terminal_structure = terminal.structure
         result.terminal_implied_multiple = terminal.implied_multiple
 

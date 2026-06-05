@@ -76,13 +76,16 @@ def extract_2035_metrics(results, scenario_name):
                 'scenario': scenario_name,
                 'company': r.company,
                 'fleet_operating': int(r.fleet_operating),
-                'gross_passenger_revenue': r.gross_passenger_revenue / 1e9,  # Billions
-                'net_platform_revenue': r.net_platform_revenue / 1e9,  # Billions
+                'gross_passenger_revenue': r.gross_passenger_revenue / 1e9,
+                'net_platform_revenue': r.net_platform_revenue / 1e9,
+                'asset_layer_revenue': r.asset_layer_revenue / 1e9,
+                'total_platform_revenue': r.total_platform_revenue / 1e9,
                 'revenue_miles_per_vehicle_day': r.revenue_miles_per_vehicle_day,
                 'utilization_efficiency': r.utilization_efficiency,
                 'terminal_multiple': r.terminal_implied_multiple,
-                'terminal_value_billions': (r.net_platform_revenue * r.terminal_implied_multiple) / 1e9,
-                'pv_at_10pct_wacc_billions': (r.net_platform_revenue * r.terminal_implied_multiple * 0.386) / 1e9,
+                # Terminal value and PV use total_platform_revenue (rides + asset layer)
+                'terminal_value_billions': (r.total_platform_revenue * r.terminal_implied_multiple) / 1e9,
+                'pv_at_10pct_wacc_billions': (r.total_platform_revenue * r.terminal_implied_multiple * 0.386) / 1e9,
             }
     return None
 
@@ -101,12 +104,6 @@ def run_all_scenarios():
     rollout_grid = default_rollout_grid()
     supply_constraints = SupplyConstraints()
 
-    # Realistic terminal fleet sizes (from analyses)
-    TERMINAL_FLEETS = {
-        'waymo': 120_000,   # Conservative case
-        'tesla': 200_000,   # Conservative case
-    }
-
     # Scenario configurations
     opt_scen = optionality_scenarios()
 
@@ -114,6 +111,7 @@ def run_all_scenarios():
         'Conservative (Transport)': opt_scen['conservative_transport'],
         'Infrastructure Layer': opt_scen['infrastructure_layer'],
         'Natural Monopoly': opt_scen['natural_monopoly'],
+        'Ownership Disruption': opt_scen['ownership_disruption'],
     }
 
     results_by_company = {}
@@ -127,6 +125,12 @@ def run_all_scenarios():
         print(f"  Market Structure: {scenario_obj.market_structure}")
         print(f"  Tier Multiples: {scenario_obj.terminal_multiple_tier1:.0f}x / {scenario_obj.terminal_multiple_tier2:.0f}x / {scenario_obj.terminal_multiple_tier3:.0f}x")
         print(f"  Induced Demand: {scenario_obj.induced_demand_multiplier:.2f}x")
+        print(f"  Terminal Fleet: Waymo {scenario_obj.terminal_fleet_waymo:,} / Tesla {scenario_obj.terminal_fleet_tesla:,}")
+
+        fleet_by_company = {
+            'waymo': scenario_obj.terminal_fleet_waymo,
+            'tesla': scenario_obj.terminal_fleet_tesla,
+        }
 
         for company_slug in ['waymo', 'tesla']:
             print(f"\n  {company_slug.upper()}")
@@ -140,7 +144,7 @@ def run_all_scenarios():
                 active={company_slug},
                 market=market,
                 rollout_grid=rollout_grid,
-                theoretical_us_fleet_terminal=TERMINAL_FLEETS[company_slug],
+                theoretical_us_fleet_terminal=fleet_by_company[company_slug],
                 market_share={company_slug: 1.0},
                 supply_constraints=supply_constraints,
                 use_enhancements=True,
@@ -155,7 +159,9 @@ def run_all_scenarios():
 
                 print(f"    Fleet (2035):               {metrics_2035['fleet_operating']:,} vehicles")
                 print(f"    Gross Revenue:             ${metrics_2035['gross_passenger_revenue']:.2f}B")
-                print(f"    Platform Revenue:          ${metrics_2035['net_platform_revenue']:.2f}B")
+                print(f"    Platform Revenue (rides):  ${metrics_2035['net_platform_revenue']:.2f}B")
+                print(f"    Asset Layer Revenue:       ${metrics_2035['asset_layer_revenue']:.2f}B")
+                print(f"    Total Platform Revenue:    ${metrics_2035['total_platform_revenue']:.2f}B")
                 print(f"    Miles/Vehicle/Day:         {metrics_2035['revenue_miles_per_vehicle_day']:.0f}")
                 print(f"    Utilization Efficiency:    {metrics_2035['utilization_efficiency']:.1%}")
                 print(f"    Terminal Multiple:         {metrics_2035['terminal_multiple']:.1f}x")
