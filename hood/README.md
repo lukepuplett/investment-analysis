@@ -13,8 +13,18 @@ Robinhood Markets, Inc. operates a financial-services platform allowing retail i
 
 **Apr 29, 2026 snapshot:** HOOD has pivoted from losses (2022–23) to strong profitability ($1.88B net income TTM, 46% operating margin). Revenue is $4.5B TTM with 15% YoY growth driven by retail deposits, trading, and Gold subscriptions. **The valuation tension:** At **37× forward P/E and 16× sales**, the stock is **50% overvalued vs. base case** ($5.4B FY2027 revenue, ~$49B fair value) but **fairly priced for bull case** (15%+ growth sustained, 25× multiple). Risk is material: high beta (2.5) means sentiment can swing the stock 20–30% on headlines independent of fundamentals. **Key execution bets:** deposits exceed $100B by late 2027 → NII becomes material; Gold subs scale to 5M+ → high-margin recurring revenue; event contracts survive regulatory scrutiny; Trump Accounts generate incremental margin. **See [investment thesis](analysis/2026_04_29_investment_thesis.md) for conviction and monitoring KPIs.**
 
+## News Update - 07/29/2026: Q2 2026 10-Q — Growth Accelerated Beyond the April Base Case
 
-Analysis Status: [x] Full pass (**2026-04-29** with remedial revisions); refresh after Q2 FY2026 earnings (August 2026) or major thesis catalyst.
+- **Q2 2026 (GAAP, per 10-Q):** Total net revenues $1,308M (+32.3% YoY vs. $989M); net income attributable to Robinhood $561M (+45.3% YoY); diluted EPS $0.62 (+47.6% YoY vs. $0.42).
+- **H1 2026:** Revenue $2,375M (+23.9% YoY); net income attributable $911M (+26.2% YoY); diluted EPS $1.00 (+26.6% YoY).
+- Revenue growth (+32.3% Q2 YoY) is running well above the ~15% YoY figure the April base case was built on — worth revisiting whether $5.4B FY2027 revenue (the April base case) is now too conservative.
+- **Balance sheet event:** Robinhood issued **$2.2B in convertible senior notes** in H1 2026 — its first debt since IPO. Conversion terms/dilution potential should be checked before the next valuation refresh.
+- **One-time item:** A $106M non-cash gain from deconsolidating RVI (Robinhood Ventures Inc., which completed its own IPO this quarter raising $312M) inflated Q2 "Other income, net" — exclude from run-rate profitability views.
+- Continued aggressive buybacks ($664M H1 2026 vs. $446M H1 2025) alongside the new debt issuance.
+- **Data saved:** Full Q2 2026 10-Q financials in `financials/2026_06/` (income statement, balance sheet, cash flow — Yahoo stats not yet pasted).
+- **Not yet done:** Full re-run of the valuation/thesis analysis docs against these stronger numbers — the April 29 "50% overvalued vs. base case" conclusion should be revisited given the growth beat, but the underlying analysis documents have not been rewritten this cycle.
+
+Analysis Status: [x] Full pass (**2026-04-29** with remedial revisions); [x] Q2 2026 10-Q financials pulled (**2026-07-30**), analysis docs not yet refreshed — treat April 29 valuation conclusions as stale pending a full re-run.
 
 ### Analysis Documents
 - [x] [**Conviction Summary** (1-page executive memo)](analysis/2026_04_29_conviction_summary.md) — **START HERE**

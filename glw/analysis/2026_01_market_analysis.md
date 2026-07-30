@@ -3,6 +3,16 @@
 
 ---
 
+## Addendum — July 30, 2026 (Q2 2026 Light-Touch Update)
+
+**Not a full refresh.** Core market structure/TAM conclusions below still hold. What's new since January, worth folding in at the next full update:
+- Enterprise (data center) growth accelerated further to +65% YoY in Q2 2026 (from +61% YoY cited here), and AI-related sales nearly doubled YoY — the hyperscaler shift described below is continuing, not slowing.
+- New named customer commitments this half: Meta (up to $6B multi-year, announced Q1 2026), NVIDIA (multi-year manufacturing/technology partnership, May 2026), Amazon (multi-billion dollar agreement, June 2026) — all reinforce the market-structure thesis of hyperscaler-driven demand replacing carrier-driven demand.
+- New TAM expansion vector disclosed: a dedicated Photonics market (co-packaged/near-package optics inside AI server racks), targeted at $10B by 2030 — this is a new addressable market layer not modeled in this document's TAM figures. See `2026_07_technical_analysis.md` for the technical detail and `2026_07_investment_thesis.md` for thesis implications.
+- **Flag for full refresh:** TAM estimates ($20B 2025 → $40-45B 2028 cited below) should be revisited against management's upgraded Springboard revenue targets ($30B by 2028, $40B by 2030 company-wide) and the new Photonics TAM layer.
+
+---
+
 ## Executive Summary
 
 **BLUF: Corning is benefiting from a structural acceleration in optical infrastructure demand driven by AI/ML datacenters, with enterprise data center business growing 61% YoY and hyperscale portions growing "significantly faster." The optical communications market is shifting from carrier networks to hyperscaler-driven demand, where Corning's new Gen AI products are establishing market leadership. This represents a multi-year TAM expansion and a secular shift in the primary growth driver for the optical segment.**

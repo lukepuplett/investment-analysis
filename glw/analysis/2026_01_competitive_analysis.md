@@ -3,6 +3,15 @@
 
 ---
 
+## Addendum — July 30, 2026 (Q2 2026 Light-Touch Update)
+
+**Not a full refresh.** Core competitive-moat conclusions below still hold and were reinforced this quarter (Optical Communications delivered record 21% net margin, +77% YoY net income). What's new since January, worth folding in at the next full update:
+- The competitive moat now has a new frontier: the Photonics platform (co-packaged/near-package optics, $10B target by 2030) moves Corning's integration advantage from "between servers" to "inside the server box" — a new battleground where the competitive set (silicon photonics specialists, potentially chip vendors themselves) may differ from today's fiber/connector competitors (Prysmian, Amphenol). This document's competitor list does not yet address photonics-specific competition.
+- Customer lock-in evidence strengthened: NVIDIA (technology/manufacturing partnership, May 2026) and Amazon (multi-billion agreement, June 2026) joined Meta as named strategic partners this half, broadening the hyperscaler relationship base referenced below.
+- **Flag for full refresh:** Add a competitive assessment specifically for the Photonics/co-packaged-optics space (who else is positioned there — e.g., Broadcom, Ayar Labs, and other silicon photonics players) — this is currently a gap in the competitive landscape as documented.
+
+---
+
 ## Executive Summary
 
 **BLUF: Corning holds a dominant competitive position in optical communications through an integrated supply chain (fiber + connectors + assemblies) that competitors cannot easily replicate. Gen AI product success demonstrates technology leadership, and customer concentration with major hyperscalers (Meta partnership) validates competitive moat. Primary competitive threats are from specialized fiber competitors and potential new entrants, but switching costs and architectural integration provide strong protection. Moat durability remains high if Corning maintains product innovation leadership.**

@@ -3,6 +3,23 @@
 
 ---
 
+## Addendum — July 30, 2026 (Q2 2026 Light-Touch Update)
+
+**Not a full refresh**, but two new risk items surfaced this quarter that are material enough to flag here rather than wait for the next full rewrite. See `2026_07_financial_analysis.md`, `2026_07_technical_analysis.md`, and `2026_07_investment_thesis.md` for full detail.
+
+### New Risk: Optical Scale-Up Adoption Timing (Severity 8/10, Mitigant 5/10)
+Management's own Q2 2026 disclosure bracketed a 10x range of outcomes for Enterprise optical content per GPU (16 fibers/GPU if scale-up stays 100% copper, vs. 160 fibers/GPU if scale-up goes fully optical) depending on decisions NVIDIA/hyperscalers make about network architecture — decisions Corning does not control and has limited forward visibility into (management explicitly declined to disclose the optical-port percentage in NVIDIA's announced Vera Rubin Ultra design). This supersedes and sharpens the more generic "Technology Disruption" risk in this document's Tier 2/3 register — reclassify as a Tier 1 risk going forward.
+
+### New Risk: Share Dilution from Warrant Proceeds (Severity 5/10, Mitigant 6/10)
+Diluted shares outstanding grew ~12% in H1 2026 (from ~808M to ~906M), substantially driven by a $500M "proceeds from warrants" financing inflow. Diluted EPS growth remained very strong despite this (+47.2% YoY H1), so this is not yet a red flag, but it's a new headwind to per-share economics that wasn't present in the January risk register and should be tracked for continuation/acceleration.
+
+### Existing Risks — Status Check
+- **Automotive weakness:** Q2 2026 shows a modest recovery (+2% YoY sales, +4% YoY net income) vs. the -3% YoY decline noted in this document — trending toward resolution of this risk, not worsening.
+- **Solar ramp profitability:** Still loss-making in Q2 ($7M net loss), now the fourth consecutive quarter flagged as "improving next quarter" by management. Not yet a red flag, but the credibility of the "next quarter" framing should be reassessed if Q3 doesn't show the promised inflection.
+- **Hyperscaler concentration:** Diversification continues to improve (NVIDIA and Amazon joined Meta as named partners this half) — mitigant strength trending favorably.
+
+---
+
 ## Executive Summary
 
 **BLUF: Corning faces manageable but material risks including automotive market weakness (headwind), solar ramp profitability challenges (near-term drag), and customer concentration in hyperscaler datacenter segment. Primary mitigants exist for each risk (emissions recovery for auto, solar path to profitability, diversified hyperscaler customer base). Overall risk profile is moderate with clear visibility into monitoring metrics. No red flags (severity ≥8 with mitigant ≤5) currently identified.**

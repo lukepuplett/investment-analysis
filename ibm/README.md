@@ -25,6 +25,16 @@ International Business Machines Corporation (IBM) is a multinational technology 
 
 *Abbreviations: MRQ = Most Recent Quarter, TTM = Trailing Twelve Months*
 
+## News Update - 07/22/2026: Q2 2026 10-Q — Steady Quarter, Big Acquisition Spend
+
+- **Q2 2026:** Revenue $17.16B (+1.1% YoY), net income $2.17B (-1.3% YoY), diluted EPS $2.27 (-1.7% YoY) — modest, unspectacular, in line with IBM's usual low-volatility profile.
+- **H1 2026:** Revenue $33.08B (+5.0% YoY), net income $3.38B (+4.1% YoY), diluted EPS $3.55 (+3.5% YoY).
+- **Segment note:** Sales (products/software) revenue dipped slightly (-0.9% YoY) in Q2 while Services grew (+3.2% YoY) — worth checking if this is mainframe-cycle timing (historically lumpy for IBM) rather than a trend.
+- **Standout item: $10.48B spent on business acquisitions in H1 2026** (vs. $7.85B H1 2025), driving goodwill up $6.9B and cash down from $13.6B to $7.2B. This is the single biggest thing to chase down for the next full refresh — what was acquired, and does it extend the hybrid-cloud/AI thesis.
+- **Cash flow strength:** Free cash flow $7.3B H1 2026, +30% YoY — a genuinely strong underlying signal, growing faster than net income.
+- **Data saved:** Full Q2 2026 10-Q financials in `financials/2026_06/` (income statement, balance sheet, cash flow).
+- **Not yet done:** The Key Metrics table above and Analysis Status docs below are still dated to Q1 2026 (03/31/2026) — treat as stale pending a refresh incorporating Q2 actuals and the M&A detail.
+
 ## Analysis Status
 
 - [x] Financial Analysis — `2026_05_financial_analysis.md`

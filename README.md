@@ -19,20 +19,35 @@ _Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVC
 - **CRWV**: CoreWeave — GPU-focused cloud infrastructure
 - **CVCO**: Cavco Industries, Inc. — Factory-built manufactured and modular housing
 - **DASH**: DoorDash Inc. — Local commerce and delivery
+- **DDOG**: Datadog, Inc. — Cloud monitoring, observability, and security platform
 - **DRO**: DroneShield Limited — Counter-drone detection and mitigation
 - **DUK**: Duke Energy Corporation — Regulated utilities
 - **EMR**: Emerson Electric Co. — Industrial automation and software
+- **ENR.DE**: Siemens Energy AG — Energy technology and power transmission (Xetra/Frankfurt)
 - **FLR**: Fluor Corporation — Engineering, procurement, and construction (EPC)
 - **GLW**: Corning Incorporated — Specialty glass and materials
+- **GOOG**: Alphabet Inc. — Search, advertising, and cloud (Google Cloud)
+- **GRRR**: Gorilla Technology Group Inc. — AI video intelligence and IoT security
+- **GTLB**: GitLab Inc. — DevOps platform and software development lifecycle
 - **HOOD**: Robinhood Markets, Inc. — Retail brokerage, banking, and related financial services
+- **IBM**: IBM Corp. — Enterprise technology, AI, and consulting
+- **INTC**: Intel Corporation — Semiconductors, processors, and computing
 - **JCI**: Johnson Controls International — Building technology and systems
+- **KLIC**: Kulicke and Soffa Industries, Inc. — Semiconductor packaging and bonding equipment
+- **LASE**: Laser Photonics Corporation — Industrial laser systems and photonics
 - **LYB**: LyondellBasell Industries — Chemicals and polymers
 - **MNTN**: MNTN, Inc. — Performance TV advertising (CTV)
 - **MSFT**: Microsoft Corporation — Cloud (Azure), productivity, and devices
 - **NEE**: NextEra Energy, Inc. — Utilities and renewables
+- **NET**: Cloudflare, Inc. — Cloud network security and performance (folders: `net/`, `cloudflare/`)
 - **PH**: Parker-Hannifin Corporation — Motion and control technologies
+- **PLAB**: Photronics, Inc. — Semiconductor photomasks
 - **RKLB**: Rocket Lab USA — Launch services and space systems
+- **RYCEY**: Rolls-Royce Holdings plc — Aerospace engines and power systems
+- **SMCI**: Super Micro Computer, Inc. — AI server infrastructure and high-performance computing
 - **SPCE**: Virgin Galactic Holdings — Space tourism and related
+- **TSLA**: Tesla, Inc. — Electric vehicles, energy storage, and autonomy
+- **TT**: Trane Technologies plc — HVAC, climate control, and building efficiency
 
 ### Non-ticker folders
 
@@ -40,6 +55,8 @@ _Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVC
 |------|---------|
 | `consolidated/` | Cross-cutting analysis across names |
 | `excel_poc/` | Spreadsheet tooling and experiments |
+| `research/` | Cross-cutting thematic research and market themes |
+| `robotaxi_analysis/` | Robotaxi/autonomous vehicle scenario modelling |
 
 ## Data Access Strategy: SEC EDGAR via Obscura
 

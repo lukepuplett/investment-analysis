@@ -1,10 +1,23 @@
 # GLW - Corning Incorporated
 
-## 📈 MARKET BULLETIN: Springboard Plan Execution Ahead of Schedule with Strong Growth Drivers
+## 📈 MARKET BULLETIN: Q2 2026 Beat, But Stock Sells Off on Valuation Reset
 
-**Current Status:** GLW trading at $85.19 (-2.64% today, +85% YTD) as exceptional execution on Springboard plan drives strong performance. Current pullback appears to be normal consolidation after strong YTD run. Q3 2025 shows core sales of $4.27B (+14% YoY), operating margin expansion to 19.6% (+130 bps YoY), and EPS growth of 24% to $0.67. Company achieved 20% operating margin target a full year ahead of schedule, driven by GenAI optical demand (+58% YoY Enterprise Network), solar ramp (+46% YoY), and Apple partnership expansion ($2.5B U.S. manufacturing commitment). Multiple secular tailwinds support continued growth. **BUY THE DIP** - Fair value $95-110 represents 12-29% upside from current price.
+**Current Status:** GLW trading at $124.05 (-1.56% on 7/29, down ~13.5% from $143.36 on 7/27) after Q2 2026 earnings. Results beat: core sales +17% YoY to $4.74B, core EPS +30% YoY to $0.78, operating margin +190bps to 20.9%, ROIC +180bps to 14.9%, free cash flow $1.42B. GAAP net sales were $4,505M (+16.7% YoY), GAAP diluted EPS $0.64 (+18.5% YoY). Despite the beat, the stock fell hard — Q3 guide (sales +16% YoY, Core EPS +28% YoY) implies similar, not accelerating, growth, and the stock had run +96% over the trailing year into a stretched ~80x forward P/E. This looks like a valuation reset on an in-line-not-better quarter rather than a fundamentals problem. Management reiterated the Springboard Plan: $20B annualized sales run-rate by end-2026 (possibly a quarter early), $30B by end-2028, $40B by end-2030, with a 19% sales CAGR from Q4 2026–Q4 2030 and earnings growing faster than sales.
 
-**Key Themes:** GenAI infrastructure (scale-out and scale-up opportunities), solar energy expansion ($2.5B target by 2028), Apple partnership deepening, technology leadership, margin expansion execution.
+**Key Themes:** GenAI infrastructure (Optical Communications sales +32% YoY, Enterprise +65% YoY), new $10B Photonics platform by 2030 (optical scale-up, co-packaged/near-package optics), solar ramp (+90% YoY, wafer facility maintenance drag easing in Q3), major customer commitments (Meta up to $6B, NVIDIA, Amazon multi-billion agreement), Gorilla Glass outperforming a memory-price-pressured handheld market.
+
+---
+
+## News Update - 07/29/2026: Q2 2026 Earnings — Beat and Raise, Sold Off Anyway
+
+- **Q2 2026 results (core/non-GAAP):** Sales $4.74B (+17% YoY), EPS $0.78 (+30% YoY), gross margin 39.6% (+120bps), operating margin 20.9% (+190bps), ROIC 14.9% (+180bps), FCF $1.42B.
+- **Q2 2026 results (GAAP, per 10-Q):** Net sales $4,505M (+16.7% YoY), operating income $698M (+21.8% YoY), net income attributable to Corning $559M (+19.2% YoY), diluted EPS $0.64 (+18.5% YoY).
+- **Segment highlights:** Optical Communications sales +32% YoY to $2.07B, net income +77% YoY to $438M (21% NPAT margin, record profitability); Enterprise (Gen AI/data center) sales +65% YoY, AI-related sales nearly doubled YoY; Solar sales +90% YoY to $438M but a $7M net loss due to a planned wafer-facility maintenance shutdown (expected to resolve in Q3); Glass Innovations +1% YoY; Automotive +2% YoY.
+- **Q3 2026 guidance:** Sales $4.9–5.0B (+16% YoY), Core EPS $0.85–0.89 (+28% YoY).
+- **Springboard Plan reiterated (no change from May investor day):** $20B annualized sales run-rate by end-2026 (tracking a quarter ahead), $30B by end-2028, $40B by end-2030; 19% sales CAGR Q4 2026–Q4 2030; new Photonics MAP targeting $10B by 2030 from optical scale-up (co-packaged/near-package optics inside AI server racks).
+- **Stock reaction:** Fell from $143.36 (7/27 close) to $124.05 (7/29 close), roughly -13.5% over two sessions, despite the beat-and-raise. Forward P/E compressed from ~80x to ~39x. On the call, BofA's Wamsi Mohan directly asked whether the Q3 guide implied deceleration; CFO Ed Schlesinger said the guide implies similar (not decelerating) YoY growth to Q2, with reacceleration expected starting Q4 2026.
+- **Thesis impact:** Fundamentals remain strong and consistent with the May Springboard update (no new information on scale-up timing or photonics economics), but the stock had priced in near-flawless execution after a 96% trailing-12-month run. This reads as a valuation reset rather than a thesis break — worth monitoring Q3 delivery against the $4.9–5.0B / $0.85–0.89 guide as the next confidence check.
+- **Data saved:** Full Q2 2026 10-Q financials in `financials/2026_06/` (income statement, balance sheet, cash flow, Yahoo stats) and full transcript in `quarterly/2026_Q2_earnings_call_transcript.txt`.
 
 ---
 
@@ -66,22 +79,41 @@ Corning Incorporated is a materials science company that specializes in glass, c
 - `question_answers/` - Q&A documentation and analysis
 
 ## Analysis Files
-- [x] [Financial Analysis](analysis/2025_11_03_financial_analysis.md)
-- [x] [Market Analysis](analysis/2025_11_03_market_analysis.md)
-- [x] [Competitive Analysis](analysis/2025_11_03_competitive_analysis.md)
-- [x] [Technical Analysis](analysis/2025_11_03_technical_analysis.md)
-- [x] [Risk Assessment](analysis/2025_11_03_risk_assessment.md)
-- [x] [Investment Thesis](analysis/2025_11_03_investment_thesis.md)
-- [x] [Valuation Analysis](analysis/2025_11_03_valuation_analysis.md)
+
+**Latest (Q2 2026, post-earnings, July 30 2026):**
+- [x] [Financial Analysis](analysis/2026_07_financial_analysis.md)
+- [x] [Valuation Analysis](analysis/2026_07_valuation_analysis.md)
+- [x] [Technical Analysis](analysis/2026_07_technical_analysis.md)
+- [x] [Investment Thesis](analysis/2026_07_investment_thesis.md)
+
+**Last full refresh (FY2025, Jan 2026) — Market/Competitive/Risk have a July 2026 addendum at the top, not yet a full rewrite:**
+- [x] [Market Analysis](analysis/2026_01_market_analysis.md)
+- [x] [Competitive Analysis](analysis/2026_01_competitive_analysis.md)
+- [x] [Risk Assessment](analysis/2026_01_risk_assessment.md)
+
+**Earlier snapshots:**
+- [x] [Financial Analysis (Nov 2025)](analysis/2025_11_03_financial_analysis.md)
+- [x] [Market Analysis (Nov 2025)](analysis/2025_11_03_market_analysis.md)
+- [x] [Competitive Analysis (Nov 2025)](analysis/2025_11_03_competitive_analysis.md)
+- [x] [Technical Analysis (Nov 2025)](analysis/2025_11_03_technical_analysis.md)
+- [x] [Risk Assessment (Nov 2025)](analysis/2025_11_03_risk_assessment.md)
+- [x] [Investment Thesis (Nov 2025)](analysis/2025_11_03_investment_thesis.md)
+- [x] [Valuation Analysis (Nov 2025)](analysis/2025_11_03_valuation_analysis.md)
 - [x] [Structured Analysis Tables](analysis/2025_11_11_structured_tables.md)
 
 ## Financial Data
-- [Balance Sheet](financials/2025_11/balance_sheet.md)
-- [Cash Flow Statement](financials/2025_11/cashflow.md)
-- [Income Statement](financials/2025_11/income_statement.md)
-- [Yahoo Finance Statistics](financials/2025_11/yahoo_stats.md)
+- [Balance Sheet (Q2 2026)](financials/2026_06/balance_sheet.md)
+- [Cash Flow Statement (Q2 2026)](financials/2026_06/cashflow.md)
+- [Income Statement (Q2 2026)](financials/2026_06/income_statement.md)
+- [Yahoo Finance Statistics (Q2 2026)](financials/2026_06/yahoo_stats.md)
+- [Balance Sheet (FY2025)](financials/2025_12/balance_sheet.md)
+- [Cash Flow Statement (FY2025)](financials/2025_12/cashflow.md)
+- [Income Statement (FY2025)](financials/2025_12/income_statement.md)
+- [Yahoo Finance Statistics (FY2025)](financials/2025_12/yahoo_stats.md)
 
 ## Quarterly Reports
+- [Q2 2026 Earnings Call Transcript](quarterly/2026_Q2_earnings_call_transcript.txt)
+- [Q1 2026 Earnings Call Transcript](quarterly/2026_Q1_earnings_transcript.txt)
 - [Q3 2025 Earnings Presentation](quarterly/2025_Q3_presentation.md)
 - [Q3 2025 Earnings Call Transcript](quarterly/2025_Q3_earnings_call_transcript.md)
 

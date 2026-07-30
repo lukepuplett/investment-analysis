@@ -14,6 +14,18 @@ Intel faces a critical inflection point in its turnaround, with the stock pricin
 
 ---
 
+## News Update - 07/23/2026: Q2 2026 10-Q — Real Operational Turnaround, Obscured by a Confusing GAAP Headline Loss
+
+- **Q2 2026 GAAP headline:** Net loss attributable to Intel of **$(11.0)B**, EPS $(2.16) — looks like a disaster at face value, but **~$12.5B of that is a single non-cash, non-operating item.**
+- **What actually happened operationally (and it's good):** Revenue $16.1B (+25.4% YoY, a clear reacceleration); gross margin expanded from 27.5% to 40.4% (+1,280bps YoY); **operating income turned positive at $1.8B**, vs. a $3.2B operating loss in Q2 2025 — the first clean positive operating quarter in this repo's recent INTC coverage. Restructuring charges fell 91% YoY. Operating cash flow more than doubled YoY to $8.1B (H1).
+- **What actually caused the headline loss:** A **$12.5B non-cash mark-to-market loss on "Escrowed Shares"** issued to the U.S. Department of Commerce under the August 2025 CHIPS Act equity-stake agreement ("Secure Enclave"). As INTC's stock price has risen sharply (the +320.50% YTD figure already noted in this README as of April), the fair value of the government's escrowed share liability ballooned from $2.7B (12/27/2025) to $15.6B (6/27/2026) — Intel must book that increase as a loss even though no cash moves.
+- **This is not "just ignore it," though.** The mechanism represents a real, structural claim on Intel's equity upside by the U.S. government (plus separate warrants for up to 241M shares at $20.00/share, not yet exercisable). As the stock keeps re-rating higher on the turnaround narrative, this dilution/value-transfer to the government grows too — it should be modeled explicitly in the next valuation update, not waved away as "non-cash."
+- **Other balance sheet event:** Intel paid ~$14.2B cash in Q2 to buy out Apollo's 49% minority stake in Ireland SCIP (a manufacturing JV), now owning 100%. Capex ($6.2B H1) is down 29% YoY, worth checking against Intel's stated foundry buildout pacing.
+- **Data saved:** Full Q2 2026 10-Q financials in `financials/2026_06/` (income statement — with a detailed writeup of the Escrowed Shares mechanism — balance sheet, cash flow).
+- **Not yet done:** This README's BLUF sections above are from before this quarter's print and still frame Intel as "unprofitable at the operating level" and "FCF negative" — **that is now stale.** The full BLUF/thesis/valuation should be re-run against the operating turnaround shown here before relying on the framing below for a decision.
+
+---
+
 ## Comprehensive Analysis Summary (BLUF Consolidation)
 
 ### Financial Analysis (BLUF)
