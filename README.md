@@ -16,6 +16,7 @@ _Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVC
 - **ASML**: ASML Holding N.V. — Semiconductor lithography (EUV, DUV) systems and services
 - **CAT**: Caterpillar Inc. — Heavy equipment and power generation
 - **CBT**: Cabot Corporation — Specialty chemicals and performance materials
+- **CSCO**: Cisco Systems, Inc. — Networking hardware, software, and security
 - **CRWV**: CoreWeave — GPU-focused cloud infrastructure
 - **CVCO**: Cavco Industries, Inc. — Factory-built manufactured and modular housing
 - **DASH**: DoorDash Inc. — Local commerce and delivery
