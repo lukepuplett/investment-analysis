@@ -337,6 +337,10 @@ When creating or updating a company's README, include:
 - **Quarterly**: Full performance review, earnings analysis, model updates
 - **Semi-Annual**: Thesis review, moat assessment, valuation refresh
 
+### Data Staleness Table
+
+**[STALE.md](STALE.md)** (repo root) ranks every covered ticker by how current its latest quarterly/period data is, most stale → most current. It exists so agents and the user can quickly spot which names need a data refresh without manually checking every `quarterly/` folder. It should be regenerated occasionally (e.g. after a batch of quarterly data pulls, or before a portfolio-wide review) — not on every commit. When regenerating, update the "Last updated" date at the top of the file.
+
 ---
 
 ## Monitoring Framework

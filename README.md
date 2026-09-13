@@ -59,6 +59,10 @@ _Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVC
 | `research/` | Cross-cutting thematic research and market themes |
 | `robotaxi_analysis/` | Robotaxi/autonomous vehicle scenario modelling |
 
+### Data staleness
+
+**[STALE.md](STALE.md)** tracks how current each covered ticker's data is (latest quarter/period on file, ranked most stale → most current). Update it occasionally — after a batch of quarterly data pulls, or before a portfolio-wide review — so it stays a useful pointer to who needs a refresh.
+
 ## Data Access Strategy: SEC EDGAR via Obscura
 
 **Reality check:** EDGAR’s **`data.sec.gov` submissions JSON** and static **`Archives`** URLs often work with **`curl`** if you send a **descriptive `User-Agent`** (SEC expects identification — include contact info). Some browse/HTML flows still behave like bot traps; **Obscura** remains the fallback when plain HTTP fails.
