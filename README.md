@@ -40,7 +40,7 @@ _Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVC
 - **MNTN**: MNTN, Inc. — Performance TV advertising (CTV)
 - **MSFT**: Microsoft Corporation — Cloud (Azure), productivity, and devices
 - **NEE**: NextEra Energy, Inc. — Utilities and renewables
-- **NET**: Cloudflare, Inc. — Cloud network security and performance (folders: `net/`, `cloudflare/`)
+- **NET**: Cloudflare, Inc. — Cloud network security and performance (folder: `cloudflare/`)
 - **PH**: Parker-Hannifin Corporation — Motion and control technologies
 - **PLAB**: Photronics, Inc. — Semiconductor photomasks
 - **RKLB**: Rocket Lab USA — Launch services and space systems

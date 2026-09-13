@@ -537,13 +537,23 @@ Most investors focus on the headline 34% growth rate without accounting for scal
 
 ## Key Resources
 
-- **Latest Earnings Call:** `2026_Q1_earnings_call.txt`
-- **Call Analysis:** `2026_Q1_earnings_call_analysis.md` (boiled-down findings)
+- **Latest Earnings Call:** `quarterly/2026_Q1_earnings_call.txt`
+- **Call Analysis:** `quarterly/2026_Q1_earnings_call_analysis.md` (boiled-down findings)
 - **SEC Filings:** [data.sec.gov/submissions](https://data.sec.gov/submissions)
 - **Investor Relations:** [investors.cloudflare.com](https://investors.cloudflare.com)
 
+### Historical Coverage (Q4 2025)
+
+Q4 2025 analysis is preserved under `analysis/2025_12_*` and `financials/2025_12/`:
+
+- **Q4 2025 Earnings Call:** `quarterly/2025_Q4_earnings_call_transcript.txt`
+- **Q4 2025 Analysis Suite (7 docs):** `analysis/2025_12_financial_analysis.md`, `2025_12_market_analysis.md`, `2025_12_competitive_analysis.md`, `2025_12_technical_analysis.md`, `2025_12_risk_assessment.md`, `2025_12_valuation_analysis.md`, `2025_12_investment_thesis.md`
+- **Q4 2025 Financials:** `financials/2025_12/` (income statement, balance sheet, cashflow, yahoo_stats)
+- **Filings Manifest:** `quarterly/FILINGS_MANIFEST.md`
+- **SEC Fetch Notes:** `quarterly/OBSCURA_TEST_SUMMARY.md`
+
 ---
 
-**Document Version:** Q1 2026 | **Last Updated:** May 7, 2026  
+**Document Version:** Q1 2026 | **Last Updated:** September 13, 2026 (folder consolidation from `net/` → `cloudflare/`)  
 **Analyst:** Investment Analysis Repository  
 **Next Review:** Post-Investor Day (June 9, 2026)
