@@ -6,7 +6,8 @@
 **Headquarters**: Lake Mary/Orlando, Florida  
 **Founded**: 2019 (public via SPAC/IPO 2022)  
 **Employees**: ~94  
-**CEO**: Wayne Tupuola
+**CEO**: Ann Tewari (Interim) — Wayne Tupuola departed June 2026  
+**Acting CFO**: Timothy A. Peterman (appointed Sept 2026)
 
 Laser Photonics is a micro-cap industrial laser systems company specializing in eco-friendly alternatives to traditional methods like sandblasting, abrasives, and chemicals.
 
@@ -17,26 +18,47 @@ Laser Photonics is a micro-cap industrial laser systems company specializing in 
 - **Pharma/Medical (CMS)**: Laser drilling for drug delivery, anti-counterfeit marking, precision medical devices
 - **Other**: Wafer dicing, 3D metal additive manufacturing, robotic cells, solar manufacturing
 
-## Recent Performance
+## Recent Performance (Updated 2026-09-13)
 
 | Metric | Value | Period |
 |--------|-------|--------|
-| Revenue (FY 2025) | $8.3M | FY 2025 |
-| Revenue Growth (YoY) | +144% | FY 2025 vs 2024 |
-| Q4 2025 Revenue | $2.5M | Q4 2025 |
-| Backlog | ~$2.5M | End 2025 |
-| Net Loss (FY 2025) | -$32.6M | FY 2025 |
+| Revenue (FY 2025) | $8.34M | FY 2025 (10-K) |
+| Revenue (H1 2026) | $2.72M | Q1+Q2 2026 |
+| Net Loss (FY 2025) | −$17.46M | FY 2025 (10-K, corrected) |
+| Net Loss (H1 2026) | −$6.22M | Q1+Q2 2026 |
+| Cash (Q2 2026) | $2.16M | 6/30/2026 |
+| Equity (Q2 2026) | −$0.91M | 6/30/2026 |
+| Shares Outstanding | ~50.2M | 10-Q cover 8/14/26 |
 
-## Key Recent Catalysts
+## Stock Price Snapshot (2026-09-11)
 
-- **June 2, 2026**: LSAD anti-drone system selected for MEIA Vulcan Call for Solutions (Counter C5ISR-T)
-- **Stock Surge**: +160.92% (June 2, 2026) to ~$2.42 on LSAD news
-- **CMS Acquisition**: Closed late 2024, brought pharma expertise and $2M+ initial backlog
-- **Operational**: Consolidated to larger facility, ~$2M annualized cost savings starting 2026
+| Metric | Value |
+|--------|-------|
+| **Stock Price** | $0.695 |
+| Prior (June 2, 2026) | $2.42 |
+| Change | −71% |
+| 52-Week Range | $0.38 – $5.88 |
+| Market Cap | ~$35M |
+
+## Key Events Since June 2026
+
+| Date | Event |
+|------|-------|
+| 2026-06-02 | LSAD anti-drone selection (MEIA Vulcan); stock +161% |
+| 2026-06-12 | Nasdaq compliance letter (listing risk) |
+| 2026-06-23 | CEO Wayne Tupuola departure; Ann Tewari interim |
+| 2026-07-24 | Auditor change (8-K) |
+| 2026-08-14 | Q2 2026 10-Q filed |
+| 2026-08-24 | CMS $1.05M pharma order (PR) |
+| 2026-08-26 | Director Gonzalez resigns |
+| 2026-09-08 | Acting CFO Timothy A. Peterman |
+| ~2026-09-10 | S-1 offering EFFECT (~$7.9M @ $0.75) |
+| ~2026-09-14 | S-1 close expected |
+| 2026 H2 | LSAD Phase 2 USAF Shaw AFB (ongoing) |
 
 ## Executive Summary (BLUF – Bottom Line Up Front)
 
-**Overall Assessment**: LASE demonstrates strong top-line growth (+144% YoY to $8.3M in 2025) backed by validated defense (Navy, Army, Marines) and pharma (J&J) customer traction, but faces critical near-term liquidity crisis ($0.65M cash, -$6.4M annual burn) and severe profitability challenges (-$17.5M net loss TTM, negative equity -$5.0M). Path to profitability remains unproven. LSAD anti-drone selection (June 2, 2026) validates emerging defense opportunity but represents prototype/trials phase—not yet revenue. Company entirely dependent on capital raises, backlog conversion, and flawless execution on multiple fronts. **Rating: HOLD (existing shareholders); AVOID (new entrants) at current $2.42 valuation; wait for 2026 milestones.**
+**Overall Assessment (September 2026)**: LASE has deteriorated significantly since the June 2026 baseline. Stock collapsed 71% ($2.42 → $0.695) on CEO departure, Nasdaq compliance concerns, auditor change, and severe dilution (shares ~2.2x since YE 2025). Financial performance mixed: Q2 revenue improved ($1.81M, +8.2% gross margin) but H1 gross margin negative (−9.0%) and net loss of $6.22M continues burn. Cash improved to $2.16M via ~$10M+ capital raises in 2026 YTD. Going concern affirmed in Q1 and Q2 10-Qs. Management instability (CEO, CFO, auditor, director all changed in 3 months) elevates execution risk materially. LSAD Phase 2 and CMS order are positives but overshadowed by governance chaos. **Rating: AVOID — thesis undermined by execution failures and governance instability. Only reconsider on permanent CEO/CFO, LSAD production order, or revenue recovery.**
 
 ---
 
@@ -64,7 +86,10 @@ Laser Photonics is a micro-cap industrial laser systems company specializing in 
 **LASE current market valuation of ~$40M reflects investor optimism on LSAD/defense catalysts but appears fairly valued to slightly optimistic on bull case assumptions. Fair value range: $100–150M by 2029 (3–4x current) assuming successful execution of base case; bull case upside to $300–500M if LSAD production succeeds. Valuation highly sensitive to LSAD program advancement, backlog conversion, and gross margin recovery. DCF suggests intrinsic value of $80–120M (beta adjustment for execution risk); comparable company analysis of acquisition multiples (8–10x revenue for defense SMBs) supports $100–130M target. Current price of $2.42 appropriate for risk-adjusted investor; new money should wait for 2026 validation milestones.** ✅ Complete
 
 #### Delta Analysis (2026_06 – Baseline)
-**This baseline analysis establishes key metrics for LASE coverage as of June 3, 2026, to track material changes quarterly. Key baseline: $8.3M revenue, -$17.5M net loss, $0.65M cash, $2.5M backlog, LSAD selection (June 2), stock $2.42. Critical tracking metrics: revenue growth (target $12–14M in 2026), gross margin recovery (target 18%+), cash burn, backlog conversion rate, LSAD program advancement, capital raise timing/size, and CMS pharma integration progress. Next update: Q2 2026 earnings cycle (July–August 2026) or material event.** ✅ Complete
+**This baseline analysis establishes key metrics for LASE coverage as of June 3, 2026, to track material changes quarterly. Key baseline: $8.3M revenue, -$17.5M net loss, $0.65M cash, $2.5M backlog, LSAD selection (June 2), stock $2.42. Critical tracking metrics: revenue growth (target $12–14M in 2026), gross margin recovery (target 18%+), cash burn, backlog conversion rate, LSAD program advancement, capital raise timing/size, and CMS pharma integration progress.** ✅ Complete
+
+#### Delta Analysis (2026_09 – Q2 Refresh)
+**LASE deteriorated significantly since June baseline. Stock −71% ($2.42 → $0.695) on CEO departure, Nasdaq compliance, auditor change, massive dilution (2.2x shares). H1 2026: Revenue $2.72M (annualized below FY25), Net Loss $6.22M, H1 gross margin −9.0% (though Q2 turned positive +8.2%). Cash improved $0.65M → $2.16M via ~$10M capital raises. Management instability: CEO, CFO, auditor, director all changed in 3 months. Going concern affirmed Q1/Q2. Backlog not disclosed. LSAD Phase 2 USAF and CMS $1.05M order are positives but overshadowed by governance chaos. Rating downgraded to AVOID.** ✅ Complete (2026-09-13)
 
 ---
 
@@ -78,43 +103,46 @@ Laser Photonics is a micro-cap industrial laser systems company specializing in 
 - [x] Investment Thesis (2026_06)
 - [x] Valuation Analysis (2026_06)
 - [x] Delta Analysis (2026_06 – Baseline)
+- [x] Delta Analysis (2026_09 – Q2 Refresh)
 
-**Status**: COMPLETE — All required analysis documents prepared (June 3, 2026)
+**Status**: COMPLETE — Updated with Q2 2026 data (September 13, 2026)
 
 ---
 
 ## Investment Summary & Recommendation
 
-**Current Rating**: **HOLD (existing) | AVOID (new entrants)**
+**Current Rating**: **AVOID**
 
-**Fair Value**: $100–$130M (2029E) | $5.85–$7.60 per share
-**Current Price**: $2.42 (as of 6/2/2026)
-**Upside Potential**: 2.4–3.1x over 3 years (31–44% annualized) if base case executes
+**Prior Rating (June 2026)**: HOLD (existing) | AVOID (new entrants)  
+**Current Price**: $0.695 (as of 2026-09-11)  
+**Market Cap**: ~$35M  
+**Fair Value (if thesis recovers)**: $100–$130M (2029E) | ~$2–$2.60 per share (post-dilution adjusted)
 
-**Key Catalysts (2026)**:
-- Q2–Q3: Backlog conversion ($2.5M target)
-- H2: Capital raise ($4–5M)
-- H2: Facility consolidation complete; cost savings realized
-- H2: LSAD trials initiated
+**Key Catalysts to Watch**:
+- Permanent CEO/CFO appointment (governance stability)
+- LSAD production contract (not just trials)
+- Q3 2026 revenue > $2M (recovery trajectory)
+- Nasdaq compliance resolution
 
-**Red Flags to Monitor**:
-- Revenue miss vs. backlog (backlog conversion failure)
-- Gross margin decline below 14% (profitability path deteriorates)
-- Cash depletion below $0.3M without capital raise announced (liquidity crisis)
-- LSAD trials slip beyond Q4 2026 (program momentum loss)
-- Top-5 customer loss >20% (concentration risk realized)
+**Active Red Flags**:
+- ❌ Going concern affirmed (Q1/Q2 2026 10-Qs)
+- ❌ Management instability (CEO, CFO, auditor, director all changed in 3 months)
+- ❌ Nasdaq compliance risk (potential delisting)
+- ❌ Severe dilution (~2.2x shares in 2026 YTD)
+- ❌ Revenue trajectory declining (H1 annualized < FY25)
+- ⚠️ Backlog not disclosed in recent filings
 
-**Next Update**: Q2 2026 earnings (expected July–August 2026)
+**Next Update**: Q3 2026 earnings (expected Nov 2026) or material governance event
 
 ---
 
-## Key Risks
+## Key Risks (Updated September 2026)
 
-- Persistent losses and cash burn ($6.4M annual)
-- Shareholder dilution from equity raises (17.1M shares; further dilution likely)
-- Liquidity crisis ($0.65M cash; 1.2-month runway at current burn)
-- Filing compliance history (Q1 2026 delayed 10-Q; covenant risk)
-- Execution on M&A integration (CMS) and contract conversion (backlog)
-- Micro-cap volatility and thin trading volumes
-- Customer concentration (top 5 = 50–60% of revenue)
-- Balance sheet insolvency (negative equity -$5.0M)
+- **Management instability**: CEO departure, auditor change, CFO change, director resignation in 3 months
+- **Nasdaq compliance**: Potential delisting if not cured
+- **Severe dilution**: Shares ~2.2x since YE 2025 (22.8M → 50.2M); more coming from S-1 warrants
+- **Going concern**: Affirmed in both Q1 and Q2 2026 10-Qs
+- **Revenue decline**: H1 2026 annualized run rate (~$5.4M) below FY2025 ($8.34M)
+- **Persistent losses**: H1 2026 net loss $6.22M (vs. full FY25 $17.46M)
+- **Negative equity**: −$0.91M (Q2 2026), though improving from −$5.04M (YE 2025)
+- **Cash burn elevated**: ~$790K/month (H1 2026 annualized)

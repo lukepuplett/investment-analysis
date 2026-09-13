@@ -10,7 +10,7 @@ Sorted most stale → most current as of the last-updated date above.
 
 | Ticker | Company | Held? | Latest Period on File | Source Doc | Staleness |
 |--------|---------|-------|------------------------|------------|-----------|
-| **LASE** | Laser Photonics | No (watchlist) | FY2025 (12/31/2025 annual) | `financials/2026_06/income_statement.md` | ⚠️ Very stale — no quarterly filings captured |
+| **LASE** | Laser Photonics | No (watchlist) | Q2 2026 (6/30/2026) | `financials/2026_09/income_statement.md` | Recent — refreshed with Q1+Q2 2026 10-Q data |
 | **RYCEY** | Rolls-Royce | Yes | H2 2025 (semi-annual reporter) | `2025_H2_earnings_call.txt` | ⚠️ Very stale — pre-2026 |
 | **MSFT** | Microsoft | Yes | FY2025 Q2 (ended ~Dec 2024) | `2025_Q2_press_release.txt` | ⚠️ Very stale — ~3 quarters behind current FY2026 Q4 |
 | **MNTN** | MNTN | No (watchlist) | 2025 Q2 | `2025_Q2_presentation.md` | ⚠️ Very stale |
