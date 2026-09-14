@@ -1,0 +1,45 @@
+Microsoft Corporation (MSFT) — Fiscal Year 2026 Second Quarter Summary
+Reported: January 2026 | Quarter ended: December 31, 2025
+
+================================================================================
+KEY FINANCIAL HIGHLIGHTS (GAAP)
+================================================================================
+
+| Metric                    | Q2 FY26   | YoY Change |
+|---------------------------|-----------|------------|
+| Revenue                   | $81.3B    | +18%       |
+| Azure and Other Cloud     | +39%      | Sustained strength |
+| RPO                       | $625B     | +59% vs Q1 ($392B) |
+| Diluted EPS               | $5.16     | Includes OpenAI gain noise |
+
+================================================================================
+SEGMENT RESULTS
+================================================================================
+
+- Productivity and Business Processes: M365 Commercial growth strong
+- Intelligent Cloud: Azure 39%; AI workloads driving demand
+- More Personal Computing: Search advertising +20%+
+
+================================================================================
+AI HIGHLIGHTS
+================================================================================
+
+- AI services contributing meaningfully to Azure growth
+- Enterprise AI adoption broadening
+- OpenAI investment mark-to-market created EPS noise
+
+================================================================================
+BACKLOG / CONTRACTED REVENUE
+================================================================================
+
+- RPO $625B — significant jump from $392B in Q1
+- Indicates multi-year cloud commitments accelerating
+
+================================================================================
+NOTES
+================================================================================
+
+- EPS of $5.16 includes one-time items (OpenAI gain)
+- Normalize for underlying earnings comparison
+
+Data sources: Microsoft earnings reports, SEC filings

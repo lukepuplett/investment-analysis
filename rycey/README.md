@@ -1,13 +1,31 @@
 # Rolls-Royce Holdings plc (RYCEY)
-**Comprehensive Investment Analysis — December 2025**
+**Comprehensive Investment Analysis — Updated September 2026**
 
 ---
 
 ## Executive Summary (BLUF - Bottom Line Up Front)
 
-**Rating: BUY** | **Target Price (2028E): £22–24** | **Current Price: £16.38** | **Upside: +34–47%**
+**Rating: BUY** | **Target Price (2028E): £22–26** | **Current Price: RYCEY $19.65 / RR.L ~1,426p** | **Market Cap: ~$163.5B / ~£118.6B**
 
-Rolls-Royce is a compelling deep-value operational turnaround story in the aerospace/defense sector. The company has executed a financial transformation (2022–2025) swinging from distressed equity (£6B deficit) to profitability (£5.8B earnings), with operating margins improving 1,500 bps to 20.8% and free cash flow tripling to £3.6B. Supply-constrained commercial aviation demand through 2027 provides a near-term tailwind; long-term service agreement (LTSA) recurring revenue provides defensive base with structural margin expansion potential. UltraFan narrowbody engine represents credible 15–20% market share opportunity worth £2–3B incremental revenue by 2030. Financial metrics are attractive: valuation 23% discount to peers on P/E (17.2x vs. 22.4x), fortress balance sheet (net cash £1.8B), and strong cash generation (2.7% FCF yield, above-peer). Key execution risks are UltraFan certification and supply chain sustainability, but not existential given aftermarket stickiness and net cash position. Recommended for growth portfolios with 3–5 year time horizon.
+Rolls-Royce execution continues to exceed expectations. **H1 2026 operating margin of 22.5%** already at 2028 mid-term target floor, with **raised FY2026 guidance (UOP £4.7–4.9B vs prior £4.0–4.2B)**. Net cash strengthened to **£2.1B** despite aggressive shareholder returns (£1.4B H1 buyback + dividends). All three segments delivered margins above 20% simultaneously for the first time (Civil 25.3%, Defence 21.0%, Power Systems 20.3%). The £7–9B multi-year buyback program (2026–28) is executing well with 56% of the £2.5B 2026 tranche complete. SMR progress continues with a new Sweden win, UltraFan secured €64m UNIFIED EU funding. LTSA margin expansion tracking 8pp ahead of February 2026 guidance — management notes only 25% of LTSA cash benefits realized by 2028 with majority coming beyond midterm. Key risks remain UltraFan certification (2027 target) and macro cyclicality, but balance sheet fortress and recurring revenue base provide downside protection. **Conviction raised to 8.5/10; all thesis pillars validated or strengthening.**
+
+---
+
+## Latest Data (September 2026)
+
+| Metric | Value | Period | Source |
+|--------|-------|--------|--------|
+| RYCEY ADR Price | $19.65 | 09/11/2026 | Yahoo Finance |
+| RR.L Price | ~1,425.8p | 09/14/2026 | LSE |
+| Shares Outstanding | 8,318,461,371 | 31/08/2026 | TVR |
+| Market Cap | ~$163.5B / ~£118.6B | 09/14/2026 | Calculated |
+| H1 2026 Revenue | £11,279M | H1 2026 | Company |
+| H1 2026 UOP | £2,534M | H1 2026 | Company |
+| H1 2026 Margin | 22.5% | H1 2026 | Company |
+| H1 2026 FCF | £1,964M | H1 2026 | Company |
+| Net Cash | £2,136M | 30/06/2026 | Company |
+| FY2026 UOP Guidance | £4.7–4.9B | Raised Jul 2026 | Company |
+| FY2026 FCF Guidance | £3.8–4.0B | Raised Jul 2026 | Company |
 
 ---
 
@@ -15,13 +33,14 @@ Rolls-Royce is a compelling deep-value operational turnaround story in the aeros
 
 | Document | Type | Status | Key Insight |
 |----------|------|--------|-------------|
-| **Financial Analysis** | ✅ Complete | ✅ | Turnaround proven (FCF +286%, margin +1,500 bps); sustainable |
+| **Financial Analysis** | ✅ Complete | ✅ | Turnaround validated; H1 2026 margin 22.5% at target |
 | **Market Analysis** | ✅ Complete | ✅ | Supply-constrained through 2027; TAM >£200B |
 | **Competitive Analysis** | ✅ Complete | ✅ | Strong moats (LTSA, widebody dominance); challenged narrowbody |
 | **Technical Analysis** | ✅ Complete | ✅ | World-class in widebody/defense; UltraFan execution risk (6/10) |
 | **Risk Assessment** | ✅ Complete | ✅ | Moderate risks (6/10); UltraFan, supply chain, recession primary |
-| **Investment Thesis** | ✅ Complete | ✅ | 5 pillars validated; 8/10 conviction level |
-| **Valuation Analysis** | ✅ Complete | ✅ | Fair value £20–24 (DCF, EV/EBITDA, FCF yield methods) |
+| **Investment Thesis** | ✅ Complete | ✅ | 5 pillars validated; 8.5/10 conviction level |
+| **Valuation Analysis** | ✅ Complete | ✅ | Fair value £22–26 (raised upper bound) |
+| **Delta Analysis** | ✅ Complete | ✅ | [2026_09_delta_analysis](analysis/2026_09_delta_analysis.md) — all pillars validated |
 
 ---
 

@@ -1,0 +1,35 @@
+Microsoft Corporation (MSFT) — Fiscal Year 2025 Fourth Quarter Summary
+Reported: July 2025 | Quarter ended: June 30, 2025
+
+================================================================================
+KEY FINANCIAL HIGHLIGHTS (GAAP)
+================================================================================
+
+| Metric                    | Q4 FY25   | YoY Change |
+|---------------------------|-----------|------------|
+| Revenue                   | $76.4B    | +15%       |
+| Azure and Other Cloud     | +39%      | (growth accelerated from Q3) |
+
+================================================================================
+SEGMENT RESULTS
+================================================================================
+
+- Productivity and Business Processes: Office 365 momentum
+- Intelligent Cloud: Azure growth acceleration to 39%
+- More Personal Computing: Gaming strength
+
+================================================================================
+AI HIGHLIGHTS
+================================================================================
+
+- AI driving Azure acceleration
+- Enterprise AI adoption broadening
+
+================================================================================
+NOTES
+================================================================================
+
+- FY2025 10-K filed following Q4
+- SEC 10-K Accession: 0000950170-25-100235
+
+Data sources: Microsoft earnings reports, SEC filings

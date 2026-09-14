@@ -1,0 +1,44 @@
+Microsoft Corporation (MSFT) — Fiscal Year 2026 First Quarter Summary
+Reported: October 2025 | Quarter ended: September 30, 2025
+
+================================================================================
+KEY FINANCIAL HIGHLIGHTS (GAAP)
+================================================================================
+
+| Metric                    | Q1 FY26   | YoY Change |
+|---------------------------|-----------|------------|
+| Revenue                   | $77.7B    | +16%       |
+| Azure and Other Cloud     | +40%      | (sustained acceleration) |
+| RPO (Remaining Performance Obligations) | $392B | Strong backlog |
+
+================================================================================
+SEGMENT RESULTS
+================================================================================
+
+- Productivity and Business Processes: M365 Copilot expansion
+- Intelligent Cloud: Azure 40% growth; capacity constraints easing
+- More Personal Computing: Windows stability
+
+================================================================================
+AI HIGHLIGHTS
+================================================================================
+
+- AI revenue run rate exceeding targets
+- Copilot seats expanding across enterprise
+- OpenAI partnership execution strong
+
+================================================================================
+BACKLOG / CONTRACTED REVENUE
+================================================================================
+
+- RPO $392B indicates strong forward visibility
+- Cloud contracts extending in duration
+
+================================================================================
+NOTES
+================================================================================
+
+- First quarter of FY2026
+- SEC 10-Q filings available for reference
+
+Data sources: Microsoft earnings reports, SEC filings

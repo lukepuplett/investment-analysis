@@ -1,0 +1,108 @@
+Microsoft Corporation (MSFT) — Fiscal Year 2026 Fourth Quarter Summary
+Reported: July 2026 | Quarter ended: June 30, 2026
+
+================================================================================
+KEY FINANCIAL HIGHLIGHTS (GAAP)
+================================================================================
+
+| Metric                    | Q4 FY26   | YoY Change |
+|---------------------------|-----------|------------|
+| Revenue                   | $90.0B    | +18%       |
+| Azure and Other Cloud     | +43%      | Accelerated |
+| Microsoft Cloud Revenue   | $59.3B    | Strong     |
+| Intelligent Cloud Revenue | $39.3B    | +32%       |
+| Diluted EPS               | $4.81     | Solid      |
+| RPO                       | $678B     | +84% YoY   |
+| M365 Copilot Seats        | >30M      | Milestone  |
+
+================================================================================
+SEGMENT RESULTS
+================================================================================
+
+PRODUCTIVITY AND BUSINESS PROCESSES
+- Office 365 Commercial strong
+- LinkedIn growth sustained
+- Dynamics 365 cloud momentum
+
+INTELLIGENT CLOUD
+- Revenue $39.3B (+32% YoY)
+- Azure +43% growth (accelerated from 40% in Q3)
+- Server products stable
+- Enterprise Services growing
+
+MORE PERSONAL COMPUTING
+- Windows license growth
+- Gaming integration benefits
+- Search advertising continued momentum
+
+================================================================================
+AI HIGHLIGHTS
+================================================================================
+
+- M365 Copilot: >30 million seats — significant enterprise adoption
+- Azure AI: driving acceleration in cloud growth
+- AI ARR: trajectory implies >$40B annual run rate
+- AI contribution to Azure growth: meaningful (estimated 8–10pp of 43%)
+
+================================================================================
+BACKLOG / CONTRACTED REVENUE
+================================================================================
+
+- RPO $678B — up 84% YoY
+- Indicates accelerating multi-year cloud commitments
+- Strong forward revenue visibility
+
+================================================================================
+FY2026 FULL YEAR RESULTS
+================================================================================
+
+| Metric                    | FY2026    | FY2025    | YoY Change |
+|---------------------------|-----------|-----------|------------|
+| Revenue                   | $331.8B   | $280.9B*  | +18%       |
+| Operating Income          | $155.2B   | $131B*    | +18%       |
+| Diluted EPS               | $17.95    | $15.20*   | +18%       |
+| Azure Full Year Growth    | +41%      | +29%*     | Accelerated |
+| Azure FY Revenue          | >$100B    | ~$75B*    | Milestone  |
+
+*FY2025 estimates for comparison
+
+================================================================================
+FY2027 Q1 GUIDANCE (Issued July 2026)
+================================================================================
+
+| Metric                    | Q1 FY27 Guide |
+|---------------------------|---------------|
+| Total Revenue             | $89.85–90.95B |
+| Intelligent Cloud         | $40.95–41.25B |
+| Azure Growth (cc)         | ~45%          |
+| CapEx                     | >$50B         |
+| CY2026 CapEx Framing      | ~$175B (incl. lease reclass) |
+
+================================================================================
+SEGMENT REORGANIZATION (8-K, 2 Sep 2026)
+================================================================================
+
+Effective FY2027:
+- NEW: Agents & Infra segment
+- NEW: Devices & Consumer segment
+- RETIRING: Old P&BP / Intelligent Cloud / MPC continuity
+
+This ends historical segment comparability starting FY2027.
+
+================================================================================
+NOTES
+================================================================================
+
+- Q4 FY26 represents strong finish to fiscal year
+- Azure >$100B full year is major milestone
+- CapEx guidance significant: >$50B/quarter, ~$175B CY2026
+- Segment reorganization complicates forward comparisons
+- Next earnings: October 28, 2026 (FY27 Q1)
+
+SEC Filings Reference (CIK 789019):
+- FY25 Q3 10-Q: 0000950170-25-061046
+- FY25 10-K: 0000950170-25-100235
+- FY26 10-K: 0001193125-26-323660
+- Segments 8-K: 0001193125-26-380280
+
+Data sources: Microsoft earnings reports, SEC filings

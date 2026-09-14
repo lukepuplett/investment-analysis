@@ -1,0 +1,149 @@
+Rolls-Royce Holdings plc (RYCEY) — H1 2026 Half Year Results
+Announced: 30 July 2026
+Period: Six months ended 30 June 2026
+
+Source: https://www.rolls-royce.com/media/press-releases/2026/30-07-2026-rr-holdings-plc-2026-half-year-results.aspx
+
+================================================================================
+KEY FINANCIAL HIGHLIGHTS
+================================================================================
+
+| Metric                          | H1 2026     | H1 2025     | Change   |
+|---------------------------------|-------------|-------------|----------|
+| Revenue                         | £11,279m    | ~£9,500m*   | +19%     |
+| Underlying Operating Profit (UOP) | £2,534m   | £1,736m*    | +46%     |
+| Underlying Operating Margin     | 22.5%       | ~18%*       | +450 bps |
+| Free Cash Flow                  | £1,964m     | ~£1,400m*   | +40%     |
+| Net Cash Position               | £2,136m     | £1,895m (YE25) | +£241m |
+
+*H1 2025 figures estimated for comparison; H1 2025 full data in prior filings.
+
+================================================================================
+SEGMENT MARGINS (H1 2026)
+================================================================================
+
+| Segment           | Margin    | Commentary                              |
+|-------------------|-----------|----------------------------------------|
+| Civil Aerospace   | 25.3%     | LTSA margin expansion; shop visit mix |
+| Defence           | 21.0%     | Strong order execution; aftermarket   |
+| Power Systems     | 20.3%     | Data center + governmental growth     |
+
+All three segments above 20% margin — significant achievement.
+
+================================================================================
+UPGRADED FULL YEAR 2026 GUIDANCE
+================================================================================
+
+Previous guidance (Feb 2026):
+- UOP: £4.0–4.2bn
+- FCF: £3.6–3.8bn
+
+NEW GUIDANCE (July 2026):
+| Metric                          | FY2026 Guidance (Raised) |
+|---------------------------------|--------------------------|
+| Underlying Operating Profit     | £4.7–4.9bn               |
+| Free Cash Flow                  | £3.8–4.0bn               |
+
+Guidance raised by:
+- UOP: +£0.7bn at midpoint (+17%)
+- FCF: +£0.2bn at midpoint (+5%)
+
+================================================================================
+SHAREHOLDER RETURNS (H1 2026)
+================================================================================
+
+- Interim dividend: 6.0p per share (first interim dividend in years)
+- Share buyback: £1.4bn completed of £2.5bn 2026 tranche (56% done)
+- On track to complete full £2.5bn by year-end
+
+================================================================================
+OPERATIONAL HIGHLIGHTS
+================================================================================
+
+CIVIL AEROSPACE
+- Large engine flying hours strong
+- LTSA contract margins expanding as guided
+- Time on Wing improvements ahead of schedule
+- Business aviation (Pearl) continues growth momentum
+- OE delivery cadence aligned with OEM schedules
+
+DEFENCE
+- Order backlog robust (£17B+)
+- Eurofighter sustainment on track
+- Submarine programs executing
+- GCAP (Global Combat Air Program) collaboration advancing
+
+POWER SYSTEMS
+- Q1 order intake +50% sustained through H1
+- Data center demand accelerating
+- Series 4000 development on track for 2028
+- SMR progress:
+  - UK execution advancing
+  - Czech Republic partnership on schedule
+  - NEW: Sweden win announced (incremental market)
+
+================================================================================
+BALANCE SHEET STRENGTH
+================================================================================
+
+| Metric                | H1 2026 End | YE 2025    |
+|-----------------------|-------------|------------|
+| Net Cash              | £2,136m     | £1,895m    |
+| Gross Cash            | ~£6.4B      | ~£6.2B     |
+| Total Debt            | ~£4.3B      | ~£4.3B     |
+| Credit Rating Moody's | A3          | A3         |
+| Credit Rating Fitch   | A-          | A-         |
+
+================================================================================
+STRATEGIC / PRODUCT UPDATES
+================================================================================
+
+ULTRAFAN
+- UNIFIED program: €64m EU funding secured (17 March 2026)
+- Demonstrator testing progressing
+- Narrowbody market entry strategy on track
+
+SMR (SMALL MODULAR REACTORS)
+- UK execution: regulatory progress
+- Czech Republic: partnership on schedule
+- Sweden: NEW market win announced H1 2026
+- 2030+ commercial revenue target unchanged
+
+AOG (AIRCRAFT ON GROUND)
+- Near zero incidents
+- Reliability metrics at best-in-class levels
+
+================================================================================
+MID-TERM 2028 TARGETS (UNCHANGED)
+================================================================================
+
+| Metric                          | 2028 Target     |
+|---------------------------------|-----------------|
+| Underlying Operating Profit     | £4.9–5.2bn      |
+| Operating Margin                | 22–24%          |
+| Free Cash Flow                  | £4.2–4.6bn      |
+
+H1 2026 results suggest 2028 targets increasingly conservative.
+
+================================================================================
+VALUATION CONTEXT (As of 2026-09-11)
+================================================================================
+
+Quote data (not from company release):
+- RYCEY ADR: $19.65 (Yahoo Finance, 11 Sep 2026)
+- RR.L: ~1,425.8p (14 Sep 2026)
+- Shares outstanding: 8,318,461,371 (31 Aug 2026 per TVR)
+- Market cap: ~$163.5B / ~£118.6B
+
+================================================================================
+NOTES
+================================================================================
+
+H1 2026 represents significant beat vs February guidance:
+- H1 UOP of £2,534m already >50% of original FY26 UOP guide midpoint
+- Margin of 22.5% exceeds 2028 mid-term target floor (22%)
+- All segments above 20% margin simultaneously
+
+FCF quality high; company prefers own APM over Yahoo FCF calculations.
+
+Data extracted from official company press release dated 30 July 2026.

@@ -1,0 +1,35 @@
+Microsoft Corporation (MSFT) — Fiscal Year 2025 Third Quarter Summary
+Reported: April 2025 | Quarter ended: March 31, 2025
+
+================================================================================
+KEY FINANCIAL HIGHLIGHTS (GAAP)
+================================================================================
+
+| Metric                    | Q3 FY25   | YoY Change |
+|---------------------------|-----------|------------|
+| Revenue                   | $70.1B    | +13%       |
+| Azure and Other Cloud     | +33%      | (constant currency) |
+
+================================================================================
+SEGMENT RESULTS
+================================================================================
+
+- Productivity and Business Processes: Strong M365 growth
+- Intelligent Cloud: Azure +33% growth
+- More Personal Computing: Continued Gaming integration
+
+================================================================================
+AI HIGHLIGHTS
+================================================================================
+
+- AI revenue continuing strong momentum
+- Copilot adoption expanding across enterprise
+
+================================================================================
+NOTES
+================================================================================
+
+- This is a summary extract; full 10-Q available in SEC EDGAR
+- SEC 10-Q Accession: 0000950170-25-061046
+
+Data sources: Microsoft earnings reports, SEC filings

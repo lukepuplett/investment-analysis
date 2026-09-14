@@ -1,0 +1,46 @@
+Microsoft Corporation (MSFT) — Fiscal Year 2026 Third Quarter Summary
+Reported: April 2026 | Quarter ended: March 31, 2026
+
+================================================================================
+KEY FINANCIAL HIGHLIGHTS (GAAP)
+================================================================================
+
+| Metric                    | Q3 FY26   | YoY Change |
+|---------------------------|-----------|------------|
+| Revenue                   | $82.9B    | +18%       |
+| Azure and Other Cloud     | +40%      | Sustained strength |
+| AI Annual Run Rate (ARR)  | $37B      | Significant milestone |
+| RPO                       | $627B     | Stable vs Q2 |
+
+================================================================================
+SEGMENT RESULTS
+================================================================================
+
+- Productivity and Business Processes: M365 Copilot momentum
+- Intelligent Cloud: Azure 40%; AI ARR $37B milestone
+- More Personal Computing: Gaming strong; devices stable
+
+================================================================================
+AI HIGHLIGHTS
+================================================================================
+
+- AI ARR hit $37B — major milestone
+- Azure AI services scaling rapidly
+- Copilot enterprise adoption accelerating
+- AI driving cloud consumption growth
+
+================================================================================
+BACKLOG / CONTRACTED REVENUE
+================================================================================
+
+- RPO $627B — stable vs Q2
+- Strong multi-year visibility
+
+================================================================================
+NOTES
+================================================================================
+
+- AI ARR of $37B demonstrates AI monetization success
+- Azure growth sustainable at 40% level
+
+Data sources: Microsoft earnings reports, SEC filings
