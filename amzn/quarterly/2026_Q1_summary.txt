@@ -1,0 +1,122 @@
+# Amazon.com, Inc. (AMZN) – Q1 FY2026 Summary
+## Period Ended March 31, 2026
+
+**Filing Date:** April 2026 (Form 10-Q)
+**Accession:** 0001018724-26-000014
+**CIK:** 0001018724
+
+---
+
+## Q1 2026 Highlights
+
+### Revenue & Growth
+- **Total Revenue:** $181.7B (+17% YoY)
+- **North America:** $104.5B (+14% YoY)
+- **International:** $38.2B (+12% YoY ex-FX)
+- **AWS:** $38.9B (+32% YoY) — acceleration continues
+- **Advertising:** $16.8B (+23% YoY)
+
+### Profitability
+- **Operating Income:** $24.2B
+- **Operating Margin:** 13.3%
+- **Net Income:** $41.0B (includes $16.8B Anthropic MTM gain)
+- **Diluted EPS:** $3.82
+
+### Anthropic Non-Cash Gains
+- **Q1 2026 Pre-Tax Gain:** +$16.8B
+- Continues to inflate reported net income
+- Core operating income ($24.2B) more representative
+
+---
+
+## Segment Performance
+
+### AWS (Q1 2026)
+| Metric | Q1 2026 | Q1 2025 | YoY |
+|--------|---------|---------|-----|
+| Revenue | $38.9B | $29.5B | +32% |
+| Operating Income | $13.2B | $9.4B | +40% |
+| Operating Margin | 33.9% | 31.9% | +200 bps |
+| ARR (Implied) | $156B | $118B | +32% |
+
+**AWS Commentary:**
+- Re-acceleration driven by AI workloads
+- Trainium 2 fully subscribed
+- Trainium 3 full volumes beginning Q1 2026
+- Capacity monetizing immediately as brought online
+
+### North America (Q1 2026)
+| Metric | Q1 2026 | Q1 2025 | YoY |
+|--------|---------|---------|-----|
+| Revenue | $104.5B | $91.7B | +14% |
+| Operating Income | $7.8B | $5.6B | +39% |
+| Operating Margin | 7.5% | 6.1% | +140 bps |
+
+### International (Q1 2026)
+| Metric | Q1 2026 | Q1 2025 | YoY |
+|--------|---------|---------|-----|
+| Revenue | $38.2B | $33.5B | +14% |
+| Operating Income | $2.1B | $0.9B | +133% |
+| Operating Margin | 5.5% | 2.7% | +280 bps |
+
+### Advertising (Q1 2026)
+- Revenue: $16.8B (+23% YoY)
+- Continued acceleration from Prime Video, sports
+- Netflix/Roku/Spotify DSP integrations contributing
+
+---
+
+## Cash Flow & CapEx
+
+### Q1 2026 Cash Flow
+| Metric | Q1 2026 | Q1 2025 |
+|--------|---------|---------|
+| Operating Cash Flow | $28.5B | $24.1B |
+| Capital Expenditure | $38.7B | $28.2B |
+| Free Cash Flow | $(10.2)B | $(4.1)B |
+
+### CapEx Trajectory
+- Q1 2026 CapEx: $38.7B
+- Q1 annualized: ~$155B run rate
+- FY2026 Guidance: **~$200B**
+
+---
+
+## Key Developments
+
+### OpenAI Commitment (February 2026)
+- **Initial Commitment:** $15B
+- **Total Capacity:** Up to $35B
+- Strategic positioning in AI ecosystem
+- In addition to existing Anthropic investment
+
+### Globalstar Merger (April 2026 Announcement)
+- Satellite communications acquisition
+- Supports Kuiper constellation strategy
+- Deal announced April 2026
+
+### Trainium 3 Launch
+- Full production volumes Q1 2026
+- ~40% performance improvement vs Trainium 2
+- Strong customer interest from large and mid-size
+
+---
+
+## Balance Sheet (3/31/2026)
+
+| Metric | 3/31/2026 | 12/31/2025 |
+|--------|-----------|------------|
+| Cash & Equivalents | $71.2B | $82.3B |
+| Total Debt | $115.7B | $108.6B |
+| Total Assets | $715.2B | $680.4B |
+| Stockholders' Equity | $378.4B | $345.2B |
+
+---
+
+## Q2 2026 Guidance
+
+- **Revenue:** $196-201B (+18-21% YoY)
+- **Operating Income:** $25-29B
+- **FX Impact:** Minimal
+
+*Summary based on Q1 2026 10-Q filing*

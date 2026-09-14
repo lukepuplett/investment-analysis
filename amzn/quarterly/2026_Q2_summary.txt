@@ -1,0 +1,154 @@
+# Amazon.com, Inc. (AMZN) – Q2 FY2026 Summary
+## Period Ended June 30, 2026
+
+**Filing Date:** August 2026 (Form 10-Q)
+**Accession:** 0001018724-26-000026
+**CIK:** 0001018724
+
+---
+
+## Q2 2026 Highlights
+
+### Revenue & Growth
+- **Total Revenue:** $200.6B (+20% YoY)
+- **North America:** $113.8B (+17% YoY)
+- **International:** $42.6B (+15% YoY ex-FX)
+- **AWS:** $42.2B (+37% YoY) — strongest growth in years
+- **Advertising:** $18.4B (+26% YoY)
+
+### Profitability
+- **Operating Income:** $27.5B
+- **Operating Margin:** 13.7%
+- **Net Income:** $80.9B (includes $53.4B Anthropic MTM gain)
+- **Core Operating Income:** $27.5B (better metric for comparison)
+- **Diluted EPS:** $7.50
+
+### Anthropic MTM Impact
+- **Q2 2026 Non-Op Other Income:** +$53.4B (pre-tax)
+- Massive non-cash gain inflating net income
+- **Core operating income ($27.5B) is more representative**
+
+---
+
+## Segment Performance
+
+### AWS (Q2 2026)
+| Metric | Q2 2026 | Q2 2025 | YoY |
+|--------|---------|---------|-----|
+| Revenue | $42.2B | $30.8B | +37% |
+| Operating Income | $16.6B | $10.5B | +58% |
+| Operating Margin | 39.4% | 34.1% | +530 bps |
+| ARR (Implied) | **~$169B** | $123B | +37% |
+
+**AWS Commentary:**
+- 37% YoY growth — highest in recent memory
+- Margin expansion to 39.4% driven by Trainium/AI efficiency
+- Capacity additions monetizing immediately
+- AI workload demand exceeding supply
+
+### North America (Q2 2026)
+| Metric | Q2 2026 | Q2 2025 | YoY |
+|--------|---------|---------|-----|
+| Revenue | $113.8B | $97.3B | +17% |
+| Operating Income | $8.5B | $6.2B | +37% |
+| Operating Margin | 7.5% | 6.4% | +110 bps |
+
+### International (Q2 2026)
+| Metric | Q2 2026 | Q2 2025 | YoY |
+|--------|---------|---------|-----|
+| Revenue | $42.6B | $37.0B | +15% |
+| Operating Income | $2.4B | $1.1B | +118% |
+| Operating Margin | 5.6% | 3.0% | +260 bps |
+
+### Advertising (Q2 2026)
+- Revenue: $18.4B (+26% YoY)
+- Prime Video, sports, DSP partnerships driving growth
+- Full-funnel advantage extending
+
+---
+
+## Cash Flow & CapEx
+
+### Q2 2026 Cash Flow
+| Metric | Q2 2026 | Q2 2025 |
+|--------|---------|---------|
+| Operating Cash Flow | $32.4B | $26.8B |
+| Capital Expenditure | $42.6B | $32.1B |
+| Free Cash Flow | $(10.2)B | $(5.3)B |
+
+### TTM Cash Flow (as of 6/30/2026)
+| Metric | TTM |
+|--------|-----|
+| Operating Cash Flow | ~$152B |
+| Capital Expenditure | ~$169B |
+| **Free Cash Flow** | **$(7.6)B** |
+
+### CapEx Guidance Reiterated
+- **FY2026: ~$200B**
+- H1 2026 run rate: $81.3B (~$163B annualized)
+- Expect acceleration in H2 2026
+
+---
+
+## Key Developments (Q2 2026)
+
+### Debt Issuance
+- Long-term debt increased: $65.6B → $128.9B
+- Funding CapEx program
+- Manageable given cash generation profile
+
+### Kevin Mandia Board Appointment
+- Former Mandiant CEO joined board September 2026
+- Strengthens cybersecurity expertise
+
+### Project Kuiper Progress
+- 150+ satellites in space
+- 1+ Gbps speeds achieved in testing
+- Commercial deployment progressing
+
+---
+
+## Balance Sheet (6/30/2026)
+
+| Metric | 6/30/2026 | 12/31/2025 |
+|--------|-----------|------------|
+| Cash & Equivalents | $68.3B | $82.3B |
+| Total Debt | $128.9B | $108.6B |
+| Total Assets | $792.6B | $680.4B |
+| Stockholders' Equity | $426.3B | $345.2B |
+
+---
+
+## Q3 2026 Guidance
+
+- **Revenue:** $197-202B (+16-19% YoY)
+- **Operating Income:** $22.5-26.5B
+- **FX Impact:** Minimal headwind
+
+---
+
+## Key Metrics Summary
+
+### Trailing Twelve Months (6/30/2026)
+| Metric | TTM |
+|--------|-----|
+| Revenue | ~$778B |
+| Operating Income | ~$93.7B |
+| Net Income | ~$135.3B (Anthropic-inflated) |
+| Operating Margin | 12.0% |
+| AWS Revenue | ~$153B |
+| Advertising Revenue | ~$70B |
+
+### Valuation Context (9/11/2026)
+| Metric | Value |
+|--------|-------|
+| Stock Price | $256.78 |
+| Market Cap | ~$2.77T |
+| Trailing P/E | ~20.7x (Anthropic-inflated) |
+| Forward P/E | ~24-28x (normalized) |
+| P/S | ~3.6x |
+| EV/EBITDA | ~11.3x |
+
+**Note:** Trailing P/E appears low due to non-cash Anthropic gains. Forward P/E on normalized earnings is 24-28x.
+
+*Summary based on Q2 2026 10-Q filing*

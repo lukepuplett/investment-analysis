@@ -1,0 +1,142 @@
+# Virgin Galactic Holdings, Inc. (SPCE) – Q2 FY2026 Summary
+## Period Ended June 30, 2026
+
+**Filing Date:** August 2026 (Form 10-Q)
+**CIK:** 0001706946
+
+---
+
+## Financial Highlights
+
+### Income Statement
+- **Revenue:** ~$0.2M (no commercial flights)
+- **Operating Expenses:** ~$48M (continued cost discipline)
+- **Net Loss:** ~$(56)M
+- **Adjusted EBITDA:** ~$(40)M
+
+### Balance Sheet (6/30/2026)
+- **Cash + Restricted Cash + Marketable Securities:** **$286M**
+- **Total Debt:** ~$365M (2027 converts + 2028 first-lien notes)
+- **Stockholders' Equity:** ~$75M
+- **Shares Outstanding:** **151.6M** (as of August 5, 2026)
+
+### Cash Flow
+- **Operating Cash Flow:** ~$(85)M
+- **Free Cash Flow:** ~$(91)M
+- **CapEx:** ~$(6)M
+
+---
+
+## Cash Bridge Analysis
+
+| Item | Amount |
+|------|--------|
+| Q1 2026 Ending Cash | $251M |
+| Operating Cash Burn | $(85)M |
+| CapEx | $(6)M |
+| Equity Issuances / Other | +$126M |
+| Q2 2026 Ending Cash | **$286M** |
+
+**Note:** Cash increased QoQ due to equity issuances despite ~$(91)M FCF burn
+
+---
+
+## Cash Runway & Going Concern
+
+### Management Guidance (Q2 2026 Call)
+- **Q3 2026 FCF guidance:** $(95-100)M
+- **Q4 2026 FCF guidance:** $(80-90)M
+- **Implied YE 2026 cash:** ~$100-110M
+
+### Going Concern Status
+- **Substantial doubt** language continues in 10-Q
+- Cash runway now extends through Q1 2027 at guided burn rates
+- Commercial revenue expected to begin February 2027
+- Additional financing likely required before cash flow positive
+
+---
+
+## Capital Structure Updates
+
+### Dilution Summary
+| Period | Shares Outstanding |
+|--------|-------------------|
+| FY2024 End | 33.0M |
+| Q1 2026 | ~95M |
+| Q2 2026 (8/5/26) | **151.6M** |
+
+**Total dilution:** 4.6x share count increase since FY2024
+
+### Debt Structure
+- 2027 Convertible Notes: Reduced principal (partial repurchase Dec 2025)
+- 2028 First-Lien Secured Notes: 9.80% interest rate
+- Derivative liability settlement: August 2026
+
+---
+
+## Operational Updates
+
+### Spaceship Program
+- First Delta-class spaceship: Testing phase
+- Flight test target: **October 2026** (on track)
+- Second spaceship: **March 2027** delivery target
+- Ground testing operations proceeding
+
+### Commercial Timeline (Confirmed)
+| Milestone | Target Date |
+|-----------|-------------|
+| Flight Test | October 2026 |
+| Commercial Service Launch | **February 2027** |
+| Second Spaceship Operations | March 2027 |
+
+### Ticket Sales & Backlog
+- $750K tickets remain oversubscribed
+- Total backlog: ~$250M (includes new sales)
+- ~320+ tickets in backlog
+- Pricing power demonstrated at premium levels
+
+---
+
+## Market Data (September 11, 2026)
+
+| Metric | Value |
+|--------|-------|
+| Stock Price | **$2.92** |
+| Market Cap | **~$443M** |
+| Shares Outstanding | 151.6M |
+| Enterprise Value | ~$520M |
+| Cash per Share | ~$1.89 |
+
+---
+
+## Key Risks
+
+### Near-Term
+1. **Liquidity:** ~$100-110M YE 2026 cash vs. continued burn
+2. **Going concern:** Substantial doubt language persists
+3. **Dilution:** Further equity raises likely before profitability
+4. **Timeline risk:** Any flight test delays could push commercial ops
+
+### Mitigants
+1. **Demand validation:** $750K tickets oversubscribed
+2. **Backlog:** ~$250M in presold revenue
+3. **October 2026 catalyst:** Flight test approaching
+4. **Path to revenue:** February 2027 commercial ops visible
+
+---
+
+## Investment Thesis Update
+
+### Bull Case
+- Flight test success October 2026 → sentiment shift
+- Commercial ops February 2027 → revenue begins
+- Premium pricing validated → unit economics attractive
+- First-mover advantage in commercial space tourism
+
+### Bear Case
+- Going concern risk if delays occur
+- Further dilution 50%+ likely
+- Cash position precarious (~$100M YE 2026)
+- 27+ month gap since last commercial flight
+
+*Summary based on Q2 2026 10-Q filing and August 2026 earnings call*

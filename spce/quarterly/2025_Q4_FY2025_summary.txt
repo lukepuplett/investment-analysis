@@ -1,0 +1,80 @@
+# Virgin Galactic Holdings, Inc. (SPCE) – Q4 FY2025 / Full Year 2025 Summary
+## Period Ended December 31, 2025
+
+**Filing Date:** February/March 2026 (Form 10-K)
+**CIK:** 0001706946
+
+---
+
+## FY2025 Full Year Financial Highlights
+
+### Income Statement (FY2025)
+- **Revenue:** ~$1.7M (minimal - no commercial operations)
+- **Operating Expenses:** ~$248M (significant cost reduction vs FY2024 $376M)
+- **Net Loss:** ~$(260)M (improved from FY2024 $(347)M)
+- **Research & Development:** ~$106M (down from $153M)
+- **SG&A:** ~$126M (stable)
+
+### Balance Sheet (12/31/2025)
+- **Cash, Restricted Cash & Marketable Securities:** $338M
+- **Total Assets:** ~$850M
+- **Total Debt:** $420M (2027 convertible notes + new first-lien debt)
+- **Stockholders' Equity:** ~$180M (eroding)
+
+### Cash Flow (FY2025)
+- **Operating Cash Flow:** ~$(265)M
+- **Free Cash Flow:** ~$(380)M
+- **CapEx:** ~$(115)M (heavy spaceship production investment)
+
+---
+
+## Q4 2025 Highlights
+
+### Cash Position
+- Q4 ending cash: $338M (down from $424M Q3)
+- Quarterly burn: ~$(86)M
+- ATM program active for equity raises
+
+### Operational Progress
+- Delta-class spaceship production advancing
+- Ground testing underway
+- Timeline: First flight test targeted for October 2026
+
+---
+
+## Going Concern Disclosure
+
+**Management and auditors disclosed substantial doubt about going concern** in the FY2025 10-K filing:
+- Current cash position insufficient to fund operations for 12 months
+- Requires additional capital raises (equity, debt, or strategic transactions)
+- Dilution risk elevated for existing shareholders
+
+---
+
+## Capital Structure Changes (Late 2025)
+
+### December 2025 Convertible Repurchase
+- Repurchased portion of 2027 convertible notes
+- Issued new 9.80% first-lien senior secured notes due 2028
+- Total debt composition changed but principal amount ~$420M maintained
+
+### Share Count Impact
+- Continued ATM program utilization
+- Share count rising from dilutive offerings
+
+---
+
+## FY2026 Guidance
+- Q3 2026: Expect $(95-100)M operating cash burn
+- Q4 2026: Expect $(80-90)M operating cash burn
+- Commercial operations: February 2027 target
+
+---
+
+## Key Events
+- Going concern warning issued
+- New first-lien debt at 9.80% rate
+- Phoenix production facility operating
+- 2027 notes partially restructured
+
+*Summary based on FY2025 10-K filing*

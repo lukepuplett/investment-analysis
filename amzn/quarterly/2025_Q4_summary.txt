@@ -1,0 +1,113 @@
+# Amazon.com, Inc. (AMZN) – Q4 FY2025 / Full Year 2025 Summary
+## Period Ended December 31, 2025
+
+**Filing Date:** February 2026 (Form 10-K)
+**Accession:** 0001018724-26-000004
+**CIK:** 0001018724
+
+---
+
+## FY2025 Full Year Highlights
+
+### Revenue & Growth
+- **Total Revenue:** $716.9B (+12.4% YoY)
+- **North America:** $416.8B (+11% YoY)
+- **International:** $150.4B (+10% YoY ex-FX)
+- **AWS:** $128.7B (+21% YoY)
+- **Advertising:** $69.1B (+24% YoY)
+
+### Profitability
+- **Operating Income:** $80.0B (+56% YoY vs $51.3B in FY2024)
+- **Operating Margin:** 11.2% (vs 8.0% FY2024)
+- **Net Income:** $89.5B (includes Anthropic mark-to-market gains)
+- **Diluted EPS:** $8.32
+
+### AWS Segment
+- **FY2025 Revenue:** $128.7B
+- **FY2025 Operating Income:** $47.8B
+- **FY2025 Operating Margin:** 37.2%
+- **ARR (Annualized):** ~$145B
+
+### Cash Flow
+- **Operating Cash Flow:** $138.2B
+- **Capital Expenditure:** $125.0B
+- **Free Cash Flow:** $13.2B
+
+---
+
+## Q4 2025 Highlights
+
+### Financial Performance
+- **Revenue:** $213.5B (+14% YoY)
+- **Operating Income:** $25.0B
+- **Net Income:** $33.0B (Anthropic gains included)
+- **Diluted EPS:** $3.10
+
+### Segment Performance
+
+**AWS (Q4 2025):**
+- Revenue: $35.5B (+23% YoY)
+- Operating Income: $14.7B
+- Operating Margin: 41.4%
+
+**North America (Q4 2025):**
+- Revenue: $122.2B (+12% YoY)
+- Operating Income: $7.8B
+- Operating Margin: 6.4%
+
+**International (Q4 2025):**
+- Revenue: $42.3B (+9% YoY ex-FX)
+- Operating Income: $1.5B
+- Operating Margin: 3.5%
+
+**Advertising (Q4 2025):**
+- Revenue: $19.4B (+26% YoY)
+
+---
+
+## Capital Expenditure
+
+### FY2025 CapEx: $125B
+- Primary driver: AWS infrastructure for AI
+- Secondary: Fulfillment and transportation
+- 2026 Guidance: **~$200B** (significant increase)
+
+### Infrastructure Build
+- AWS capacity doubling by 2027 (vs 2022 baseline)
+- Power capacity additions exceeding all other cloud providers
+- Trainium chip production scaling
+
+---
+
+## Key Developments
+
+### Anthropic Investment
+- Total investment position: ~$40B carrying value
+- Q1 2025: $1.3B convertible note
+- Q3 2025: Notes converted to preferred stock
+- FY2025 total gains: ~$18B (non-cash mark-to-market)
+
+### Trainium Custom Silicon
+- Trainium 2: Fully subscribed, 30-40% better price/performance
+- Trainium 3: Launching Q1 2026
+- Project Rainier: 500K chips deployed, scaling to 1M
+
+### Grocery & Retail
+- Perishable delivery: 2,300 U.S. cities by YE 2025
+- Rufus AI shopping: $10B+ incremental sales target
+- Third-party seller mix: 62% of units
+
+---
+
+## Guidance (FY2026)
+
+### Q1 2026 Guidance
+- Revenue: $195-200B (+11-13% YoY)
+- Operating Income: $23-27B
+
+### CapEx Guidance
+- **FY2026: ~$200B** (vs $125B in FY2025)
+- Majority for AWS AI infrastructure
+- Free cash flow pressure expected
+
+*Summary based on FY2025 10-K filing*

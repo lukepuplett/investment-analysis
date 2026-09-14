@@ -14,12 +14,12 @@ Sorted most stale → most current as of the last-updated date above.
 | **RYCEY** | Rolls-Royce | Yes | H1 2026 (30 Jul 2026) | `quarterly/2026_H1_results.txt` | ✅ Fresh — H1 2026 results; FY26 guidance raised |
 | **MSFT** | Microsoft | Yes | FY2026 Q4 (year-end Jun 2026) | `quarterly/2026_Q4_summary.txt` | ✅ Fresh — FY2026 complete; FY27 Q1 guidance issued |
 | **MNTN** | MNTN | No (watchlist) | 2025 Q2 | `2025_Q2_presentation.md` | ⚠️ Very stale |
-| **SPCE** | Virgin Galactic | Yes | 2025 Q2 | `2025_Q2_press_release.txt` | ⚠️ Very stale |
+| **SPCE** | Virgin Galactic | Yes | Q2 2026 (6/30/2026) | `quarterly/2026_Q2_summary.txt` | ✅ Fresh — Q2 2026 data; going concern, $286M cash |
 | **DUK** | Duke Energy | No (watchlist) | 2025 Q2 | `2025_Q2_transcript.txt` | ⚠️ Very stale |
 | **FLR** | Fluor | — | 2025 Q2 | `2025_Q2_presentation.txt` | ⚠️ Very stale |
 | **CAT** | Caterpillar | No (watchlist) | 2025 Q2 | `2025_Q2_financial_review_presentation.md` | ⚠️ Very stale |
 | **CVCO** | Cavco Industries | No (watchlist) | FY2026 Q2 (~Sep 2025) | `2025_Q2_transcript.txt` | ⚠️ Very stale |
-| **AMZN** | Amazon | Yes | 2025 Q3 | `2025_Q3_10Q_summary.md` | Stale (partial coverage — summary only, no 10-Q/facts) |
+| **AMZN** | Amazon | Yes | Q2 2026 (6/30/2026) | `quarterly/2026_Q2_summary.txt` | ✅ Fresh — Q2 2026; AWS +37%, $93.7B OI TTM |
 | **DASH** | DoorDash | — | 2025 Q3 | `2025_Q3_press_release.md` | Stale |
 | **DRO** | DroneShield | Yes | 1H 2026 (30 Jun 2026) | `quarterly/2026_H1_4d_notes.md` | Fresh |
 | **LYB** | LyondellBasell | — | 2025 Q3 | `2025_Q3_press_release.txt` | Stale |
@@ -56,7 +56,7 @@ Sorted most stale → most current as of the last-updated date above.
 - **GOOG** and **TSLA** were refreshed on 2026-09-12 (10-Q + FMP-sourced financials for Q2 2026, period ended 6/30/26). They still only have the raw filing + `financials/` — no `analysis/` documents yet (market, competitive, thesis, etc. per the standard 7-doc workflow). GOOG's Q2 2026 income statement carries a ~$98B non-cash "other income" item that skews TTM net margin/P/E in `financials/2026_06/yahoo_stats.md` — verify against the 10-Q MD&A before using in valuation. FMP rejected the `GOOG` ticker directly; `GOOGL` was used instead (economically equivalent for fundamentals).
 - **NET/Cloudflare** now uses single `cloudflare/` folder (Q1 2026 latest; Q4 2025 historical materials preserved under `analysis/2025_12_*` and `financials/2025_12/`). The legacy `net/` folder was removed 2026-09-13.
 - **Held? column**: populated from the user's confirmed holdings list (2026-09-12). Ask before assuming a ticker not on that list is or isn't an active position.
-- **Refresh priority among held names** (staleness-ranked): SPCE (2025 Q2) > AMZN (2025 Q3). GOOG/TSLA refreshed 2026-09-12. NET refreshed Q1 2026. DRO refreshed 2026-09-13 (1H 2026). RYCEY/MSFT refreshed 2026-09-14.
+- **Refresh priority among held names** (staleness-ranked): All major held names now current to Q2 2026. GOOG/TSLA refreshed 2026-09-12. NET refreshed Q1 2026. DRO refreshed 2026-09-13 (1H 2026). RYCEY/MSFT refreshed 2026-09-14. SPCE/AMZN refreshed 2026-09-14.
 
 ## How to regenerate
 

@@ -1,0 +1,61 @@
+# Virgin Galactic Holdings, Inc. (SPCE) – Q3 FY2025 Summary
+## Period Ended September 30, 2025
+
+**Filing Date:** November 2025 (Form 10-Q)
+**CIK:** 0001706946
+
+---
+
+## Financial Highlights
+
+### Income Statement
+- **Revenue:** Minimal (~$0.2M) - no commercial spaceflight operations
+- **Operating Expenses:** ~$55M (continued cost reduction from Q2's $70M)
+- **Net Loss:** ~$(58)M
+- **Adjusted EBITDA:** ~$(45)M
+
+### Balance Sheet
+- **Cash, Restricted Cash & Marketable Securities:** $424M (down from $508M in Q2)
+- **Total Debt:** $420M (2027 convertible notes)
+- **Stockholders' Equity:** Declining due to continued losses
+
+### Cash Flow
+- **Operating Cash Flow:** ~$(72)M
+- **Free Cash Flow:** ~$(86)M
+- **CapEx:** ~$(14)M (spaceship production)
+
+---
+
+## Operational Highlights
+
+### Spaceship Production Progress
+- Delta-class spaceships under production at Phoenix facility
+- Assembly tooling 100% complete
+- Major systems in production phase
+- Testing and integration proceeding on schedule
+
+### Commercial Timeline Update
+- Commercial operations delayed from Q4 2026 to early 2027
+- Research flights targeted for fall 2026 (later pushed to Oct 2026)
+- Private astronaut flights to follow research program
+
+### Ticket Sales
+- Existing backlog of ~$190M in presold tickets
+- Ticket office reopening planned for early 2026
+- $600K price point expected at reopening
+
+---
+
+## Cash Runway Analysis
+- Q3 2025 ending cash: $424M
+- Quarterly burn rate: ~$(84)M
+- Runway: ~5 quarters at current burn
+
+---
+
+## Key Events
+- Continued headcount optimization
+- Phoenix factory operations scaling
+- No commercial flights conducted
+
+*Summary based on Q3 2025 10-Q filing*

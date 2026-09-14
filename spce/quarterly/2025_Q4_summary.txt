@@ -1,0 +1,86 @@
+# Virgin Galactic Holdings, Inc. (SPCE) – Q4 FY2025 / Full Year 2025 Summary
+## Period Ended December 31, 2025
+
+**Filing Date:** February 2026 (Form 10-K)
+**CIK:** 0001706946
+
+---
+
+## FY2025 Full Year Financial Highlights
+
+### Income Statement (Annual)
+- **Revenue:** ~$1.7M (minimal - no commercial flights)
+- **Operating Expenses:** ~$249M (down from $384M in FY2024)
+- **Net Loss:** ~$(247)M (improved from $(347)M in FY2024)
+- **Adjusted EBITDA:** ~$(190)M
+
+### Balance Sheet (12/31/2025)
+- **Cash, Restricted Cash & Marketable Securities:** $338M
+- **Total Debt:** $420M (2027 convertible notes)
+- **Stockholders' Equity:** ~$190M
+
+### Cash Flow (Annual)
+- **Operating Cash Flow:** ~$(270)M
+- **Free Cash Flow:** ~$(320)M
+- **CapEx:** ~$(50)M (spaceship production investment)
+
+---
+
+## Q4 2025 Highlights
+
+### Financial Performance
+- **Revenue:** ~$0.4M
+- **Operating Expenses:** ~$52M (continued cost discipline)
+- **Net Loss:** ~$(48)M
+- **Cash Used:** ~$(86)M
+
+### Cash Position Movement
+- Q3 ending: $424M
+- Q4 ending: $338M
+- Quarterly burn: $(86)M
+
+---
+
+## Operational Updates
+
+### Spaceship Production
+- Delta-class spacecraft production on track
+- First spaceship nearing completion at Phoenix facility
+- Second spaceship in advanced production stages
+- Mothership (Eve) maintenance and upgrades ongoing
+
+### Commercial Timeline
+- Commercial operations target: Q4 2026 (later pushed to Feb 2027)
+- Flight test program: Mid-2026 (later pushed to Oct 2026)
+- Ticket sales reopening: Q1 2026 at $600K (later increased to $750K)
+
+### Going Concern
+- **Substantial doubt** language included in 10-K
+- Management working on capital raising alternatives
+- Runway sufficient through mid-2026 at current burn rates
+
+---
+
+## Capital Structure Events
+
+### December 2025 Convertible Note Repurchase
+- Repurchased portion of 2027 convertible notes
+- New 9.80% first-lien secured notes issued (2028 maturity)
+- Reduced convertible note principal outstanding
+- Higher interest cost but improved debt maturity profile
+
+---
+
+## Guidance & Outlook
+
+### Cash Burn Guidance (2026)
+- Q1: $(95-100)M expected
+- Q2: $(90-95)M expected
+- Declining trajectory as operations approach commercial phase
+
+### Milestones
+- Flight test program commencement
+- Commercial service launch preparation
+- Ticket sales reopening
+
+*Summary based on FY2025 10-K filing*

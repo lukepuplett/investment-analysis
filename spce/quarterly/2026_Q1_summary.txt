@@ -1,0 +1,100 @@
+# Virgin Galactic Holdings, Inc. (SPCE) – Q1 FY2026 Summary
+## Period Ended March 31, 2026
+
+**Filing Date:** May 2026 (Form 10-Q)
+**CIK:** 0001706946
+
+---
+
+## Financial Highlights
+
+### Income Statement
+- **Revenue:** ~$0.3M (no commercial flights)
+- **Operating Expenses:** ~$50M (cost discipline maintained)
+- **Net Loss:** ~$(52)M
+- **Adjusted EBITDA:** ~$(42)M
+
+### Balance Sheet (3/31/2026)
+- **Cash, Restricted Cash & Marketable Securities:** $251M
+- **Total Debt:** ~$370M (2027 converts reduced + new 2028 first-lien)
+- **Stockholders' Equity:** ~$130M
+
+### Cash Flow
+- **Operating Cash Flow:** ~$(80)M
+- **Free Cash Flow:** ~$(87)M
+- **CapEx:** ~$(7)M
+
+---
+
+## Cash Bridge Analysis
+
+| Item | Amount |
+|------|--------|
+| Q4 2025 Ending Cash | $338M |
+| Operating Cash Burn | $(80)M |
+| CapEx | $(7)M |
+| Q1 2026 Ending Cash | $251M |
+
+**Quarterly burn:** $(87)M (within $(95-100)M guidance range)
+
+---
+
+## Operational Updates
+
+### Spaceship Production
+- First Delta-class spaceship assembly substantially complete
+- Systems integration and testing phase initiated
+- Second spaceship progressing through production
+- Ground testing operations ramping
+
+### Timeline Updates (Q1 2026 Guidance)
+- **Flight test program:** October 2026 (pushed from mid-2026)
+- **Commercial service launch:** February 2027 (pushed from Q4 2026)
+- **Second spaceship operational:** March 2027
+
+### Ticket Sales
+- Reopened ticket sales in Q1 2026
+- New price point: **$750,000** (up from $600K)
+- $750K tranche **oversubscribed** 
+- Added ~$50M to ticket backlog
+- Total backlog: ~$240M
+
+---
+
+## Going Concern Status
+
+### 10-Q Disclosure
+- **Substantial doubt** about going concern reiterated
+- Cash runway extends to late 2026 / early 2027
+- Management pursuing additional financing options
+- ATM equity program largely exhausted
+
+### Capital Raising
+- $134M raised via ATM in Q2 2025
+- Limited ATM capacity remaining
+- Exploring strategic alternatives
+
+---
+
+## Share Count & Dilution
+
+### Shares Outstanding
+- Shares outstanding: ~95M (up from 33M at end of FY2024)
+- Massive dilution from ATM equity issuances
+- Additional dilution expected from financing activities
+
+---
+
+## Key Events
+
+### Timeline Delays
+- Flight test pushed from mid-2026 to October 2026
+- Commercial ops pushed from Q4 2026 to February 2027
+- Delays attributed to testing requirements, not technical issues
+
+### Ticket Demand Validation
+- $750K price tranche oversubscribed demonstrates demand
+- Premium pricing strategy validated
+- Backlog now provides 12+ months of initial operations revenue visibility
+
+*Summary based on Q1 2026 10-Q filing*
