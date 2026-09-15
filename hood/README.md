@@ -13,6 +13,14 @@ Robinhood Markets, Inc. operates a financial-services platform allowing retail i
 
 **Apr 29, 2026 snapshot:** HOOD has pivoted from losses (2022–23) to strong profitability ($1.88B net income TTM, 46% operating margin). Revenue is $4.5B TTM with 15% YoY growth driven by retail deposits, trading, and Gold subscriptions. **The valuation tension:** At **37× forward P/E and 16× sales**, the stock is **50% overvalued vs. base case** ($5.4B FY2027 revenue, ~$49B fair value) but **fairly priced for bull case** (15%+ growth sustained, 25× multiple). Risk is material: high beta (2.5) means sentiment can swing the stock 20–30% on headlines independent of fundamentals. **Key execution bets:** deposits exceed $100B by late 2027 → NII becomes material; Gold subs scale to 5M+ → high-margin recurring revenue; event contracts survive regulatory scrutiny; Trump Accounts generate incremental margin. **See [investment thesis](analysis/2026_04_29_investment_thesis.md) for conviction and monitoring KPIs.**
 
+## News Update - 09/15/2026: Kalshi / prediction markets — Ninth Circuit adverse (sports)
+
+- **28 Aug 2026:** Ninth Circuit ruled sports event contracts are **not** CEA “swaps”; Nevada gaming rules can apply. Relief denied for Kalshi (and related HOOD / Crypto.com injunction requests on that path). Election contracts remanded separately. Opinion: `25-7516`.
+- **Circuit split** with Third Circuit (Apr 2026, pro-CFTC exclusivity) → SCOTUS likely. Kalshi seeking en banc; HOOD said it will appeal / SCOTUS petition reported ~10 Sep.
+- **Older CADC KalshiEX v. CFTC (24-5205)** remains closed (CFTC dismissal May 2025) — not the live appellate risk.
+- **Watch note:** `analysis/2026_09_15_kalshi_ninth_circuit_watch.md`. Prior framework: adverse ruling could pressure ~5–10% of trading revenue / moat — **Luke decision**, no trade from this bot.
+- DraftKings / Flutter reportedly rallied on the news (sportsbook competitive relief).
+
 ## News Update - 07/29/2026: Q2 2026 10-Q — Growth Accelerated Beyond the April Base Case
 
 - **Q2 2026 (GAAP, per 10-Q):** Total net revenues $1,308M (+32.3% YoY vs. $989M); net income attributable to Robinhood $561M (+45.3% YoY); diluted EPS $0.62 (+47.6% YoY vs. $0.42).
