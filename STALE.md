@@ -1,6 +1,6 @@
 # Data Staleness Table
 
-**Last updated: 2026-09-14**
+**Last updated: 2026-09-16**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
@@ -36,7 +36,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **HOOD** | Robinhood | Yes | 2026 Q1 | `2026_Q1_earnings_call_transcript.txt` | Recent |
 | **IBM** | IBM | — | 2026 Q1 | `2026_Q1_earnings_call.txt` | Recent |
 | **PLAB** | Photronics | — | FY2026 Q1 | `2026_Q1_earnings_call_transcript.txt` | Recent |
-| **RKLB** | Rocket Lab | Yes | 2026 Q1 | `2026_Q1_earnings_call.txt` | Recent |
+| **RKLB** | Rocket Lab | Yes | Q2 2026 (6/30/2026) | `quarterly/2026_Q2_summary.txt` / `financials/2026_06/` | ✅ Fresh — Q2 2026 + Sep Iridium financing / Electron ops |
 | **TT** | Trane Technologies | Yes | 2026 Q1 | `2026_Q1_press_release.txt` | Recent |
 | **NET** | Cloudflare (`cloudflare/`) | Yes | 2026 Q1 | `2026_Q1_earnings_call_analysis.md` | Recent |
 | **AMAT** | Applied Materials | Yes | FY2026 Q2 | `2026_Q2_press_release.txt` | Fresh |
@@ -52,6 +52,7 @@ Sorted most stale → most current as of the last-updated date above.
 
 ## Notes
 
+- **RKLB** refreshed 2026-09-16: Q2 2026 10-Q/PR financials, Sep Iridium ATM financing, Electron cadence, Neutron schedule, GAO MTN protest, IMM Apex; see `rklb/analysis/2026_09_delta_analysis.md`.
 - Several tickers (ADBE, CSCO, GTLB, EMR, JCI, PH, MSFT, CVCO, AMAT, KLIC, PLAB) run non-calendar fiscal years, so "Q#" labels don't map directly to calendar quarters — staleness above is a rough proxy, not exact days-since-filing.
 - **GOOG** and **TSLA** were refreshed on 2026-09-12 (10-Q + FMP-sourced financials for Q2 2026, period ended 6/30/26). They still only have the raw filing + `financials/` — no `analysis/` documents yet (market, competitive, thesis, etc. per the standard 7-doc workflow). GOOG's Q2 2026 income statement carries a ~$98B non-cash "other income" item that skews TTM net margin/P/E in `financials/2026_06/yahoo_stats.md` — verify against the 10-Q MD&A before using in valuation. FMP rejected the `GOOG` ticker directly; `GOOGL` was used instead (economically equivalent for fundamentals).
 - **NET/Cloudflare** now uses single `cloudflare/` folder (Q1 2026 latest; Q4 2025 historical materials preserved under `analysis/2025_12_*` and `financials/2025_12/`). The legacy `net/` folder was removed 2026-09-13.

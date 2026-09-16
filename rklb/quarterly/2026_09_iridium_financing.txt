@@ -1,0 +1,43 @@
+Rocket Lab — Iridium Acquisition Financing Update
+Date: September 15, 2026
+Sources:
+- SEC 8-K Acc. 0001753926-26-001769 (period 2026-09-15)
+  https://www.sec.gov/Archives/edgar/data/1819994/000175392626001769/g085951_8k.htm
+- EX-99.1 press release:
+  https://www.sec.gov/Archives/edgar/data/1819994/000175392626001769/g085951_ex99-1.htm
+- GlobeNewswire mirror:
+  https://www.globenewswire.com/news-release/2026/09/15/3361819/0/en/rocket-lab-fully-funds-iridium-acquisition-including-completion-of-1-94-billion-atm.html
+
+================================================================================
+SUMMARY
+================================================================================
+
+Rocket Lab announced it has fully financed the pending ~$8B cash-and-stock acquisition
+of Iridium Communications Inc. (announced with merger agreement ~June 28, 2026).
+
+KEY ACTIONS (as of 15 Sep 2026)
+1. Completed ATM equity offering: ~$1.944B gross proceeds via ~29.3M shares
+   (before commissions/expenses). Proceeds primarily for cash consideration.
+2. Iridium amended its existing $1.775B term loan (as of 6/30/26) — Change of Control
+   Amendment carves out Rocket Lab's acquisition; Rocket Lab USA to provide unsecured
+   parent guarantee at closing; margins step up within stated ranges; exit/prepay fees.
+3. Terminated $3.6B senior secured bridge commitment (Deutsche Bank / Wells Fargo
+   commitment letter dated June 28, 2026) in full on Sep 15, 2026.
+
+CLOSE TIMING
+- Expected mid-2027, subject to regulatory and shareholder approvals.
+- S-4 declared effective Aug 26, 2026; Iridium definitive proxy / Rocket Lab prospectus filed.
+
+STRATEGIC THESIS (company framing)
+Combine Rocket Lab launch + spacecraft manufacturing with Iridium's global LEO
+communications constellation, L-band spectrum, and subscriber base → vertically
+integrated launch + spacecraft + satellite services / applications platform.
+
+DILUTION / CAPITAL STRUCTURE NOTES (analyst)
+- 29.3M new common shares ≈ ~5% of ~598M common outstanding at 6/30/26 (larger % of
+  free float); plus stock consideration to Iridium holders at close (material additional
+  dilution not quantified here — see S-4).
+- Bridge kill removes near-term secured-debt overhang but Iridium term loan (~$1.8B)
+  remains in consolidated structure post-close with RKLB USA guarantee.
+- ATM done into a soft tape (~$62 vs May peak ~$100 / $151 52-week high) — expensive
+  equity from a May-peak perspective, but de-risks deal certainty vs bridge financing.

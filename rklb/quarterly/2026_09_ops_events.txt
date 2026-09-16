@@ -1,0 +1,56 @@
+Rocket Lab — September 2026 Operational / Corporate Events Log
+Compiled 2026-09-16 for lukepuplett/investment-analysis. Verify against primaries.
+
+--------------------------------------------------------------------------------
+1) ELECTRON LAUNCH CADENCE
+--------------------------------------------------------------------------------
+- 11 Sep 2026: Electron mission "Happily Ever Faster" — 95th Electron / 16th mission
+  of 2026 from LC-1 New Zealand. Single EO satellite for confidential customer to
+  ~500 km circular LEO. Company: 100% mission success YTD 2026.
+  Sources: Rocket Lab @RocketLab / X post 11 Sep 2026; Space.com 11 Sep 2026
+  https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-launches-mystery-satellite-to-orbit-for-secret-customer-photo
+  NextSpaceflight: https://nextspaceflight.com/launches/details/7268/
+
+- Next: "Owl By The Dozen" for Synspective (12th StriX SAR), window ~19 Sep 2026
+  ~15:15 NZST / 03:15 UTC from LC-1. Prior Synspective flights: 11 dedicated done;
+  multi-year booking (company historically: 21 additional missions through 2030
+  announced Oct 2025; diary cites 16 more booked through 2030 — treat as continuing
+  constellation campaign).
+  Related: "Owl Around the World" (StriX-11) success ~2 Sep 2026.
+
+--------------------------------------------------------------------------------
+2) IMM APEX SOLAR CELLS (8 Sep 2026)
+--------------------------------------------------------------------------------
+- Production release of germanium-free IMM Apex inverted metamorphic space solar cells.
+- ~31.5% beginning-of-life (BOL) efficiency; ~40% lower cell mass vs conventional
+  germanium-substrate cells; drop-in mechanical/electrical replacement; multi-hundred-kW
+  production volumes.
+  Sources: company PR via Quiver/StockTitan; pv magazine 11 Sep 2026
+  https://www.pv-magazine.com/2026/09/11/rocket-lab-launches-lightweight-space-solar-cell-built-without-critical-minerals/
+
+--------------------------------------------------------------------------------
+3) GAO PROTEST — NASA MARS TELECOMMUNICATIONS NETWORK (11 Sep 2026)
+--------------------------------------------------------------------------------
+- Rocket Lab filed GAO bid protest of NASA's ~$700M Mars Telecommunications Network
+  (MTN) award to Blue Origin. Alleged inconsistency with congressional eligibility
+  criteria and flawed technical evaluation.
+- Automatic stay: NASA paused work pending GAO decision (~100-day clock → mid-Dec 2026).
+  Sources: Space.com 11 Sep 2026
+  https://www.space.com/space-exploration/missions/rocket-lab-protests-nasas-decision-to-award-blue-origin-usd700-million-mars-orbiter-contract
+  SatNews 14 Sep 2026; Aviation Week coverage.
+
+--------------------------------------------------------------------------------
+4) NEUTRON STATUS (from Q2 PR/call + Sep context)
+--------------------------------------------------------------------------------
+- First-stage tank production aligned for delivery to LC-3 Wallops in Q4 2026.
+- First-flight window in 2026 narrowing; management prioritizing service-ready cadence
+  over rushing Flight 1 — slip into 2027 increasingly likely.
+- Archimedes: 400+ hot-fires (diary / IR narrative); Hungry Hippo fairing testing done
+  (Q1 call heritage + ongoing AIT).
+  Sources: Q2 PR 10 Aug 2026; Spaceflight Now 10 Aug 2026
+  https://spaceflightnow.com/2026/08/10/window-for-2026-launch-debut-of-rocket-labs-neutron-rocket-is-narrowing-as-development-continues/
+
+--------------------------------------------------------------------------------
+5) IRIDIUM FINANCING (15 Sep 2026)
+--------------------------------------------------------------------------------
+See quarterly/2026_09_iridium_financing.txt

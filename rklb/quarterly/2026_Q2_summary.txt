@@ -1,0 +1,59 @@
+# Rocket Lab (RKLB) — Q2 FY2026 Summary
+## Period Ended June 30, 2026
+
+**Filing:** Form 10-Q filed 2026-08-10 (Acc. 0001819994-26-000062)
+**Earnings PR:** 8-K / EX-99.1 filed 2026-08-10 (Acc. 0001819994-26-000061)
+**Call date:** August 10, 2026 (~2 p.m. PT)
+**CIK:** 0001819994
+**Compiled:** 2026-09-16
+
+---
+
+## Headline Numbers
+
+| Metric | Q2 2026 | Q1 2026 | Q2 2025 | Notes |
+|--------|--------:|--------:|--------:|-------|
+| Revenue | $234.1M | $200.3M | $144.5M | +62% YoY; +17% QoQ |
+| GAAP gross profit | $84.6M | ~$76.5M | $46.4M | GM 36.1% vs 38.2% Q1 |
+| Operating loss | $(57.5)M | ~$(44.8)M | $(59.6)M | Mynaric OpEx + Neutron R&D |
+| Net loss | $(49.3)M | ~$(45.0)M | $(66.4)M | EPS $(0.08) |
+| Backlog | $2.36B | $2.2B | — | +137% YoY; ~40% launch / 60% Space Systems |
+| Cash & equiv. | $2.13B | $1.48B | — | ATM proceeds H1 |
+| H1 Op. cash flow | $(134.4)M | — | $(77.5)M | H1 total |
+
+Backlog conversion: management noted ~45.5% expected within 12 months (call commentary).
+
+---
+
+## Segment / Mix
+
+- Product revenue $181.3M (+96% YoY) — spacecraft / hardware heavy.
+- Service revenue $52.7M (+2% YoY) — includes launch services mix.
+- Space Systems remains majority of backlog (~60%).
+- Launch backlog expanded to 90+ missions (Electron + HASTE + Neutron bookings).
+
+---
+
+## Strategic Events Embedded in Q2 Narrative
+
+1. **Iridium acquisition announced** (late June / Q2 close period): ~$8B cash-and-stock to combine launch + satellite manufacturing with Iridium LEO constellation, L-band spectrum, and subscribers. Close targeted mid-2027.
+2. **Mynaric & Motiv closed** — optical laser terminals (Europe footprint) + robotics/mechanisms.
+3. **Neutron:** Stage 1 tank production aligned for pad delivery LC-3 Wallops **Q4 2026**; management said 2026 first-flight window is **narrowing**; priority is service-ready cadence over rushing Flight 1 (slip to 2027 increasingly plausible).
+4. **Space Force SB-AMTI** Flatellite + Neutron award (~$397M incl. options).
+5. **GEO sats:** >$160M for three GEO spacecraft incl. SSC space-domain-awareness prime.
+6. **GHOST** portable launch system; LC-4 Kodiak Alaska; suborbital debut 2027.
+
+---
+
+## Q3 2026 Outlook (company guidance)
+
+Revenue $250–265M; GAAP GM 29–31% (further mix compression); Adj. EBITDA loss $17–23M.
+
+---
+
+## Sources
+
+- https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/
+- https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-08102026ex991.htm
+- https://investors.rocketlabcorp.com/node/12996/pdf
+- Call transcript mirrors: stockanalysis.com / Motley Fool / Spaceflight Now (2026-08-10)

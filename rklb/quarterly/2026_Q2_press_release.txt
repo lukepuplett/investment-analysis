@@ -1,0 +1,58 @@
+Rocket Lab Corporation (RKLB) — Q2 2026 Earnings Press Release (EX-99.1)
+Filed with 8-K Accession 0001819994-26-000061 on 2026-08-10
+Primary URL: https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-08102026ex991.htm
+IR PDF: https://investors.rocketlabcorp.com/node/12996/pdf
+Extracted / summarized for investment-analysis repo 2026-09-16.
+
+================================================================================
+HEADLINE
+Rocket Lab Announces Second Quarter 2026 Financial Results: Posts Record Revenue
+and Record Backlog, Guides To Another Record Revenue Quarter in Q3 2026
+Long Beach, California — August 10, 2026
+================================================================================
+
+CEO (Sir Peter Beck) key quotes:
+- Record $234M Q2 revenue — up 62% YoY and $34M higher than prior-quarter record.
+- Backlog $2.36B — another record; combined with post-close deals = more than $1B
+  in new contracts across launch and space systems already entered into in Q3.
+- Closed Mynaric and Motiv; announced agreement to acquire Iridium Communications Inc.
+  to become a self-launching, tier-1 space power delivering communications to millions.
+
+HIGHLIGHTS (Q2 2026 + post-period updates cited in PR)
+- Record quarterly revenue $234M (+62% YoY).
+- Record backlog $2.36B (+137% YoY).
+- Landmark agreement to acquire Iridium (design/build/launch/operate own constellations).
+- >$437M in new launch contracts (Electron, HASTE, Neutron) in Q2 + post-quarter;
+  launch backlog 90+ missions (company high).
+- Introduced GHOST globally-deployable launch system; first location LC-4 at Pacific
+  Spaceport Complex, Kodiak, Alaska; operational debut suborbital 2027.
+- Neutron: critical AIT milestones; Stage 1 tank production aligned with target delivery
+  of Neutron to the launch pad in Q4 2026.
+- $397M contract (incl. options) for multiple Flatellite spacecraft on Neutron for
+  U.S. Space Force SB-AMTI (Space-Based Airborne Moving Target Indicator); one of two
+  vendors delivering launch-plus-spacecraft.
+- >$160M across two contracts to build three GEO satellites, including Space Force SSC
+  prime for two space-domain-awareness satellites (first GEO sat production/ops for USG).
+- Formally established Rocket Lab Germany GmbH.
+
+Q3 2026 GUIDANCE
+- Revenue: $250–265M
+- GAAP Gross Margins: 29–31%
+- Non-GAAP Gross Margins: 35–37%
+- GAAP Operating Expenses: $143–149M
+- Non-GAAP Operating Expenses: $121–127M
+- Interest Income, net: $21M
+- Adjusted EBITDA loss: $17–23M
+- Basic WASO: 641M (incl. ~41M Series A convertible preferred)
+- SBC expected $18–20M in Q3
+
+SELECTED GAAP P&L (from PR tables; $ thousands)
+                    Q2'26      Q2'25      H1'26      H1'25
+Total revenues    234,066    144,498    434,414    267,067
+Gross profit       84,576     46,388    161,069     81,635
+Operating loss    (57,514)   (59,639)  (113,483)  (118,827)
+Net loss          (49,258)   (66,414)   (94,280)  (127,030)
+EPS basic/diluted  (0.08)     (0.13)     (0.15)     (0.25)
+
+IR contact: Patrick Vorenkamp, investors@rocketlabusa.com
+Media: Murielle Baker, media@rocketlabusa.com
