@@ -1,12 +1,13 @@
 # Data Staleness Table
 
-**Last updated: 2026-09-16**
+**Last updated: 2026-09-18**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
 Sorted most stale → most current as of the last-updated date above.
 
-**Held?** = whether this is an active position, as distinct from a name we merely research/watch. Confirmed by the user as of 2026-09-12: **held** = SMCI, GTLB, INTC, CSCO, AMAT, GLW, KLIC, CLOUDFLARE/NET, TT, RKLB, HOOD, ENR.DE, DDOG, CRWV, ASML, DRO, AMZN, SPCE, MSFT, RYCEY, TSLA, GOOG; **not held (watchlist)** = MNTN, DUK, CAT, CVCO, LASE. All other rows remain unconfirmed ("—").
+**Held?** = whether this is an active position, as distinct from a name we merely research/watch. Confirmed / updated by the user as of **2026-09-18** (interest open): **held** = AAPL, AMAT, AMZN, ASML, AVGO, CLOUDFLARE/NET, CRWV, CSCO, DDOG, DRO, ENR.DE, GLW, GOOG, GTLB, HOOD, INTC, KLIC, MSFT, NVDA, PH, RKLB, RYCEY, SMCI, SPCE, TSLA, TT; **not held (watchlist)** = MNTN, DUK, CAT, CVCO, LASE. Sep 2026 additions / explicit confirms vs 2026-09-12 list: **AVGO, NVDA, AAPL, PH**. Prior held names (CSCO, GLW, CLOUDFLARE/NET, DRO, AMZN, SPCE, etc.) retained — user said *add*, not replace. AVGO / NVDA / AAPL do not yet have dedicated ticker folders in-repo.
+
 
 | Ticker | Company | Held? | Latest Period on File | Source Doc | Staleness |
 |--------|---------|-------|------------------------|------------|-----------|
@@ -42,7 +43,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **AMAT** | Applied Materials | Yes | FY2026 Q2 | `2026_Q2_press_release.txt` | Fresh |
 | **GLW** | Corning | Yes | 2026 Q2 | `2026_Q2_earnings_call_transcript.txt` | Fresh |
 | **KLIC** | Kulicke & Soffa | Yes | FY2026 Q2 | `2026_Q2_earnings_call.txt` | Fresh |
-| **PH** | Parker-Hannifin | — | FY2026 Q2 | `2026_Q2_earnings_call_transcript.md` | Fresh |
+| **PH** | Parker-Hannifin | Yes | FY2026 Q2 | `2026_Q2_earnings_call_transcript.md` | Fresh |
 | **INTC** | Intel | Yes | Q2 2026 (ended 6/27/26) | `financials/2026_06/income_statement.md` | Fresh |
 | **GOOG** | Alphabet | Yes | Q2 2026 (ended 6/30/26) | `quarterly/2026_Q2_10q.htm` / `financials/2026_06/` | Fresh |
 | **TSLA** | Tesla | Yes | Q2 2026 (ended 6/30/26) | `quarterly/2026_Q2_10q.htm` / `financials/2026_06/` | Fresh |
@@ -56,8 +57,11 @@ Sorted most stale → most current as of the last-updated date above.
 - Several tickers (ADBE, CSCO, GTLB, EMR, JCI, PH, MSFT, CVCO, AMAT, KLIC, PLAB) run non-calendar fiscal years, so "Q#" labels don't map directly to calendar quarters — staleness above is a rough proxy, not exact days-since-filing.
 - **GOOG** and **TSLA** were refreshed on 2026-09-12 (10-Q + FMP-sourced financials for Q2 2026, period ended 6/30/26). They still only have the raw filing + `financials/` — no `analysis/` documents yet (market, competitive, thesis, etc. per the standard 7-doc workflow). GOOG's Q2 2026 income statement carries a ~$98B non-cash "other income" item that skews TTM net margin/P/E in `financials/2026_06/yahoo_stats.md` — verify against the 10-Q MD&A before using in valuation. FMP rejected the `GOOG` ticker directly; `GOOGL` was used instead (economically equivalent for fundamentals).
 - **NET/Cloudflare** now uses single `cloudflare/` folder (Q1 2026 latest; Q4 2025 historical materials preserved under `analysis/2025_12_*` and `financials/2025_12/`). The legacy `net/` folder was removed 2026-09-13.
-- **Held? column**: populated from the user's confirmed holdings list (2026-09-12). Ask before assuming a ticker not on that list is or isn't an active position.
+- **Held? column**: populated from the user's confirmed holdings list (2026-09-18; additive update vs 2026-09-12). Ask before assuming a ticker not on that list is or isn't an active position.
 - **Refresh priority among held names** (staleness-ranked): All major held names now current to Q2 2026. GOOG/TSLA refreshed 2026-09-12. NET refreshed Q1 2026. DRO refreshed 2026-09-13 (1H 2026). RYCEY/MSFT refreshed 2026-09-14. SPCE/AMZN refreshed 2026-09-14.
+
+
+- **2026-09-18 holdings update:** User confirmed invested interest open for TSLA, AVGO, CRWV, ASML, PH, HOOD, GOOG, DDOG, KLIC, AMAT, RKLB, GTLB, SMCI, TT, RYCEY, NVDA, plus INTC, ENR.DE, MSFT, AAPL (and retained prior held names). **AVGO, NVDA, AAPL** held but not yet covered as top-level folders — add when researched.
 
 ## How to regenerate
 
