@@ -27,7 +27,7 @@ Fundamentals underneath are still a **lossy commercial vaccine business** plus h
 
 1. Regulatory path / filings for intismeran post INTerpath-001 (label, timing, manufacturing scale for personalized INT)
 2. Further INTerpath readouts (NSCLC, bladder, RCC Ph2/3)
-3. mFLUSIVA / seasonal flu approvals and uptake; COVID+flu combo FDA refile clarity
+3. **mFLUSIVA (mRNA-1010) FDA-approved 5 Aug 2026** for adults 50+ (65+ accelerated); first mRNA flu vaccine — watch 2026–27 season uptake; COVID+flu combo FDA refile clarity
 4. Analyst Day **12 Nov 2026**
 5. Propionic acidemia (mRNA-3927) registrational data (guided potentially 2026)
 6. Cash vs YE guide after litigation outflow; any partnering / royalty updates
@@ -50,6 +50,14 @@ Fundamentals underneath are still a **lossy commercial vaccine business** plus h
 | Action | Build a starter **only** at levels that leave room for INT regulatory noise; scale on confirmed path + dips |
 | Invalidation | Cash guide breaks materially lower without offsetting pipeline wins; INTerpath franchise stalls clinically/regulatorily |
 | Peers to keep in frame | BNTX, MRK (partner), traditional vaccine names, other neoantigen/IO platforms |
+
+
+## Post-Q2 updates (filed 23 Sep evening)
+
+- **mFLUSIVA:** FDA approval **5 Aug 2026** (adults 50+; 65+ accelerated with confirmatory study) — fifth approved product; U.S. availability expected 2026–27 season ([FDA](https://www.fda.gov/vaccines-blood-biologics/vaccines/mflusiva); [Moderna IR](https://www.modernatx.com/ir-insights-mflusiva)).
+- **Litigation tail:** $950M paid Jul 2026; residual exposure cited up to ~$1.3B if appeal fails (per company commentary / Analyst Day framing — verify in 10-Q risk factors before sizing).
+- **Cash ambition:** management framework includes cash break-even targeted for **2028** (company communications).
+- Peak COVID-era market value ~$195–197B (Aug 2021) vs ~$72B now (~37% of peak).
 
 ## Sources (primary)
 
