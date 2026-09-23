@@ -1,0 +1,45 @@
+Moderna Q2 2026 — summary (from company PR / SEC exhibit 99.1, 31 Jul 2026)
+Source: https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm
+
+REVENUE
+- Total revenue Q2'26: $145M (vs $142M Q2'25)
+  - Net product sales: $94M (vs $114M)
+  - Other revenue: $51M (vs $28M) — grant/collaboration/licensing/stand-ready
+  - US $87M / International $58M
+- H1'26 total revenue: $534M (vs $250M H1'25)
+
+P&L
+- Cost of sales Q2: $93M (incl. $41M inventory write-downs, $23M unutilized capacity, $11M royalties)
+- R&D Q2: $651M (−7% YoY)
+- SG&A Q2: $216M (−6% YoY)
+- Net loss Q2: $(782)M; EPS $(1.97); WASO ~398M
+- H1 net loss: $(2,125)M; EPS $(5.36)
+
+BALANCE SHEET (30 Jun 2026)
+- Cash & equivalents: $1,723M
+- Current investments: $3,415M
+- Non-current investments: $1,772M
+- → Cash + investments ≈ $6.9B (company stated)
+- Total assets: $10,961M
+- Stockholders' equity: $6,761M
+- Long-term debt: $591M
+- Subsequently (Jul 2026): paid $950M litigation settlement (hits Q3 cash)
+
+2026 GUIDANCE (as of 31 Jul 2026)
+- Revenue: up to +10% vs 2025; ~50% US / 50% intl; ~55% of H2 revenue in Q3
+- CoS ~$1.7B (incl. $0.9B settlement)
+- R&D ~$2.9B; SG&A ~$1.0B; Capex $0.2–0.3B
+- YE cash+investments $4.7–5.2B (ex further draws on $0.9B undrawn credit)
+
+PIPELINE HIGHLIGHTS IN PR
+- mFLUSIVA (mRNA-1010): VRBPAC unanimous; PDUFA 5 Aug 2026
+- mRNA-1403 norovirus: Ph3 interim did NOT meet early-success criteria; additional cohort planned
+- Intismeran (mRNA-4157): nine Ph2/3 trials; Ph3 adjuvant melanoma data expected potentially 2026
+  → POST-QUARTER (19 Aug 2026): Ph3 INTerpath-001 met RFS and DMFS endpoints (Merck/Moderna PR)
+- mCOMBRIAX: EC marketing authorization; US FDA refile guidance pending
+- PA therapeutic mRNA-3927: registrational enrollment reached; data potentially 2026
+
+CORPORATE
+- Ester Banque → CCO effective 15 Jun 2026
+- Michael McDonnell (ex-Biogen CFO) → Board effective 8 Jul 2026
+- Analyst Day: 12 Nov 2026

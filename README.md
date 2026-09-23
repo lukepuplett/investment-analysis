@@ -7,6 +7,7 @@ This repository contains comprehensive investment analysis for multiple public c
 This is an investment analysis repository for tracking and analyzing public companies. The repository contains structured financial analysis and research materials for multiple companies.
 
 ## Companies Covered
+- **MRNA**: Moderna — mRNA platform (vaccines + oncology INT); watchlist Sep 2026
 
 _Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVCO**)._
 

@@ -1,6 +1,6 @@
 # Data Staleness Table
 
-**Last updated: 2026-09-18**
+**Last updated: 2026-09-23**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
@@ -11,6 +11,7 @@ Sorted most stale → most current as of the last-updated date above.
 
 | Ticker | Company | Held? | Latest Period on File | Source Doc | Staleness |
 |--------|---------|-------|------------------------|------------|-----------|
+| **MRNA** | Moderna | No (watchlist / interest) | Q2 2026 (6/30/2026) | `mrna/quarterly/2026_Q2_summary.txt` | ✅ Fresh — first-pass Sep 2026; Ph3 INT melanoma Aug 19 |
 | **LASE** | Laser Photonics | No (watchlist) | Q2 2026 (6/30/2026) | `financials/2026_09/income_statement.md` | Recent — refreshed with Q1+Q2 2026 10-Q data |
 | **RYCEY** | Rolls-Royce | Yes | H1 2026 (30 Jul 2026) | `quarterly/2026_H1_results.txt` | ✅ Fresh — H1 2026 results; FY26 guidance raised |
 | **MSFT** | Microsoft | Yes | FY2026 Q4 (year-end Jun 2026) | `quarterly/2026_Q4_summary.txt` | ✅ Fresh — FY2026 complete; FY27 Q1 guidance issued |
@@ -52,6 +53,8 @@ Sorted most stale → most current as of the last-updated date above.
 | **SMCI** | Super Micro Computer | Yes | 2026 Q3 | `2026_Q3_earnings_call.txt` | ✅ Most current — matches present calendar quarter |
 
 ## Notes
+
+- **2026-09-23:** Added **MRNA** (Moderna) first-pass research folder — biotech expansion; watchlist/interest (not held). Q2 2026 financials + Aug 19 INTerpath-001 Ph3 win noted.
 
 - **RKLB** refreshed 2026-09-16: Q2 2026 10-Q/PR financials, Sep Iridium ATM financing, Electron cadence, Neutron schedule, GAO MTN protest, IMM Apex; see `rklb/analysis/2026_09_delta_analysis.md`.
 - Several tickers (ADBE, CSCO, GTLB, EMR, JCI, PH, MSFT, CVCO, AMAT, KLIC, PLAB) run non-calendar fiscal years, so "Q#" labels don't map directly to calendar quarters — staleness above is a rough proxy, not exact days-since-filing.
