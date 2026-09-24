@@ -2,6 +2,10 @@
 
 This repository contains comprehensive investment analysis for multiple public companies, following a structured framework for financial analysis, market research, and investment thesis development.
 
+## Thinking framework
+
+See [THINKING_FRAMEWORK.md](THINKING_FRAMEWORK.md) for how I think about investments: the fundamental resources and bottlenecks (layer 1), who captures the value (layer 2), and price and margin of safety (layer 3), with a checklist for every thesis.
+
 ## Repository Overview
 
 This is an investment analysis repository for tracking and analyzing public companies. The repository contains structured financial analysis and research materials for multiple companies.
