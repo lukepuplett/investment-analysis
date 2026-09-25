@@ -1,6 +1,6 @@
 # Data Staleness Table
 
-**Last updated: 2026-09-23**
+**Last updated: 2026-09-25**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
@@ -50,10 +50,12 @@ Sorted most stale → most current as of the last-updated date above.
 | **TSLA** | Tesla | Yes | Q2 2026 (ended 6/30/26) | `quarterly/2026_Q2_10q.htm` / `financials/2026_06/` | Fresh |
 | **CSCO** | Cisco | Yes | FY2026 Q4 (ended ~Jul 2026) | `2026_Q4_press_release.htm` | Fresh — most recent fiscal quarter closed |
 | **GTLB** | GitLab | Yes | FY2026 Q4 (~Jan 2026 FYE) | `2026_Q4_earnings_call.txt` | Fresh |
-| **SMCI** | Super Micro Computer | Yes | 2026 Q3 | `2026_Q3_earnings_call.txt` | ✅ Most current — matches present calendar quarter |
+| **SMCI** | Super Micro Computer | Yes | FY2026 / Q4 (YE 30 Jun 2026) | Ex. 99.1 (11 Aug) + 10-K (31 Aug); `analysis/2026_09_25_risk_audit.md` | ✅ Fresh — risk audit 2026-09-25 (period data FY2026; prior Q3 call still on file) |
 
 ## Notes
 
+
+- **2026-09-25:** SMCI risk audit & thesis invalidation check (`smci/analysis/2026_09_25_risk_audit.md`) vs FY2026 Ex. 99.1 / 10-K. Verdict: **WATCH (customer-concentration pillar wobbling)**; hard invalidation not met. Period financials now FY2026/Q4; Q3 call retained.
 - **2026-09-23:** Added **MRNA** (Moderna) first-pass research folder — biotech expansion; watchlist/interest (not held). Q2 2026 financials + Aug 19 INTerpath-001 Ph3 win noted.
 
 - **RKLB** refreshed 2026-09-16: Q2 2026 10-Q/PR financials, Sep Iridium ATM financing, Electron cadence, Neutron schedule, GAO MTN protest, IMM Apex; see `rklb/analysis/2026_09_delta_analysis.md`.

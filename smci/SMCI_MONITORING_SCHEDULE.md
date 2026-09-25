@@ -87,49 +87,53 @@ Check boxes as items are completed. Red flags warrant immediate thesis re-evalua
 ## 2026-09 (September) — 🔴 CRITICAL CATALYST
 
 **Status from Prior Month:**
-- August quiet period complete; no major changes
+- August quiet period complete; Q4/FY26 results released **11 Aug 2026** (slightly ahead of this checklist’s early-Sep window)
+- **25 Sep 2026 risk audit complete** → `analysis/2026_09_25_risk_audit.md` — verdict **WATCH (concentration wobbling)**; hard invalidation **not** met
 
 **This Month:**
-- 🔴 **Q4 FY2026 Earnings Release (Early Sept — ~Sept 5-10, 2026)**
-- [ ] Revenue: Target $11.0–12.5B (mid-point $11.75B)
-- [ ] Gross Margin: Target >10% (sustain Q3's 10.1%, ideally 10.5%+)
-- [ ] DCBBS: Look for explicit % of revenue or customer wins mentioned
-- [ ] New CSP Customers: Any announced wins toward 6–8 target?
-- [ ] FY2027 Guidance: Management hint at revenue run-rate ($40B+)?
-- [ ] Mega-Projects: Any customer updates on Caprock, Stargate deployment timelines?
+- 🔴 **Q4 FY2026 Earnings Release (reported 11 Aug 2026; Ex. 99.1 + 10-K 31 Aug)**
+- [x] Revenue: Target $11.0–12.5B → **actual $11.12B**
+- [x] Gross Margin: Target >10% → **GAAP 17.5% / non-GAAP 17.6%**
+- [ ] DCBBS: Look for explicit % of revenue → **still not disclosed** (qualitative adoption credited)
+- [~] New CSP Customers toward 6–8 → **≥10% customer count 4→1**; Customer One **28.1%** of FY26 sales; “hundreds” of enterprise adds
+- [x] FY2027 Guidance → **$65–72B** (and Q1 FY27 $14.5–15.5B)
+- [ ] Mega-Projects Caprock/Stargate named updates → not covered in this audit pass
 
 **Red Flags (HARD STOPS):**
-- [ ] Revenue <$11B (miss guidance, demand slower than expected)
-- [ ] Gross Margin <9.5% (tariff relief stalled or DCBBS slower than expected)
-- [ ] DCBBS <2% of revenue (adoption stuck; re-evaluate margin inflection)
-- [ ] Customer concentration >65% (diversification failing)
-- [ ] Any major customer capex pullback signaled in Q&A
+- [ ] Revenue <$11B → **clear** ($11.12B)
+- [ ] Gross Margin <9.5% → **clear** (17.5%)
+- [ ] DCBBS <2% of revenue → **unknown** (no %)
+- [ ] Customer concentration >65% → **clear on disclosed metrics**; single-name 28.1% is the watch item
+- [ ] Major customer capex pullback → **not flagged** in Ex. 99.1
 
 **Green Lights (UPSIDE CONFIRMATION):**
-- [ ] Revenue >$12B (beat guidance; demand strong)
-- [ ] Gross Margin 10.5%+ (margin recovery accelerating further)
-- [ ] DCBBS >3% of revenue (adoption pace quickening)
-- [ ] 1–2 new CSP wins announced or hinted
-- [ ] Management raises FY2027 guidance or signals >$45B target
+- [ ] Revenue >$12B → no (mid-guide)
+- [x] Gross Margin 10.5%+ → **yes (17.5%)**
+- [ ] DCBBS >3% of revenue → unknown
+- [~] 1–2 new CSP wins → enterprise breadth yes; CSP count disclosure incomplete
+- [x] FY2027 guide raised / >$45B → **$65–72B**
 
 **Action if Red Flags Triggered:**
 - Minor miss: Hold thesis, monitor Q1 FY2027 for recovery
 - Major miss (margin <9.5% or >65% concentration): Trim 25% position, reassess base case
+- **Outcome 25 Sep:** hard stops not triggered → no automatic trim from this checklist
 
 **Action if Green Lights Triggered:**
-- Affirm STRONG BUY conviction
-- Consider modest add if stock <$50 (margin recovery faster than expected)
+- Affirm STRONG BUY conviction *(tempered to WATCH by concentration reshape + WC/FCF overhang — see risk audit)*
+- Consider modest add if stock <$50 (margin recovery faster than expected) — **Luke’s size call**; tape ~$41.5 is inside prior bear band
 
 **Next Month Prep:**
 - Post-earnings analyst updates and price target changes (monitor)
+- Q1 FY27: sequential GM vs 17.5%, Customer One trend, OCF/inventory
 
 ---
 
 ## 2026-10 (October)
 
 **Status from Prior Month:**
-- ✅/❌ Q4 FY2026 earnings released; thesis validated or challenged
-- Analyst response: price target updates, coverage initiation/downgrades
+- ✅ Q4 FY2026 earnings released (11 Aug 2026); **25 Sep risk audit: WATCH — not invalidated**
+- Hard invalidation checklist clear on margin / defection / top-line; concentration pillar wobbling (Customer One 28.1%)
+- Analyst response: price target updates, coverage initiation/downgrades *(still optional open loop)*
 
 **This Month:**
 - [ ] Monitor analyst sentiment post-earnings
