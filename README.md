@@ -19,6 +19,7 @@ _Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVC
 - **AMAT**: Applied Materials, Inc. — Semiconductor wafer fabrication equipment and services
 - **AMZN**: Amazon.com, Inc. — E-commerce and cloud (AWS)
 - **ASML**: ASML Holding N.V. — Semiconductor lithography (EUV, DUV) systems and services
+- **AVGO**: Broadcom Inc. — Semiconductors (AI custom silicon, networking ASICs) and infrastructure software (VMware)
 - **CAT**: Caterpillar Inc. — Heavy equipment and power generation
 - **CBT**: Cabot Corporation — Specialty chemicals and performance materials
 - **CSCO**: Cisco Systems, Inc. — Networking hardware, software, and security
