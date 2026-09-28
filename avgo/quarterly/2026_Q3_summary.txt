@@ -1,0 +1,42 @@
+Broadcom Inc. (AVGO) — Q3 FY2026 summary (fiscal quarter ended 2 Aug 2026)
+Sources: SEC Exhibit 99.1 press release (8-K filed 2 Sep 2026); Form 10-Q filed 10 Sep 2026 (accession 000173016826000080)
+
+HEADLINE RESULTS (Q3 FY2026 vs Q3 FY2025)
+- Consolidated net revenue: $29,591M (+86% YoY)
+- GAAP operating income: $15,955M (+171% YoY)
+- Non-GAAP operating income: $20,095M (+92% YoY)
+- GAAP diluted EPS: $2.68 (vs $0.85)
+- Non-GAAP diluted EPS: $3.32
+- Cash from operations: $14,197M (+98% YoY)
+- Free cash flow: $13,665M (+95% YoY; ~46% of revenue)
+- GAAP net income: $13,088M
+- Non-GAAP net income: $16,372M
+
+SEGMENTS (Q3 FY2026)
+- Semiconductor solutions: $20,839M (70% of revenue; +127% YoY)
+- Infrastructure software: $8,752M (30%; +29% YoY)
+
+AI / SEMICONDUCTOR (management commentary, Q3 FY2026)
+- AI semiconductor revenue: $16.7B (+221% YoY; +54% QoQ)
+- Q4 FY2026 AI semiconductor revenue expected: ~$21.7B (+236% YoY)
+
+YTD (first nine months FY2026 ended 2 Aug 2026 — from 10-Q / earnings tables)
+- Net revenue: $71,089M (vs $45,872M prior-year nine months)
+- GAAP diluted EPS (9M): $6.09
+
+BALANCE SHEET / LIQUIDITY (2 Aug 2026 — 10-Q XBRL)
+- Cash and equivalents: $23,975M
+- Long-term debt (non-current): $57,167M
+- Common shares outstanding: ~4,774M
+
+Q4 FY2026 GUIDANCE (company, Sep 2 2026)
+- Consolidated revenue: ~$34.8B (+93% YoY vs prior-year Q4)
+- Non-GAAP operating margin: ~66% of projected revenue
+
+CAPITAL RETURN
+- Quarterly dividend declared: $0.65/share (payable 30 Sep 2026; record 21 Sep 2026)
+
+RAW FILES IN REPO
+- `2026_Q3_press_release.htm` — Exhibit 99.1
+- `2026_Q3_10q.htm` — primary iXBRL 10-Q
+- `2026_Q3_10q_facts.json` — extracted numeric facts
