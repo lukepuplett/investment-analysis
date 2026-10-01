@@ -1,6 +1,6 @@
 # Data Staleness Table
 
-**Last updated: 2026-09-28**
+**Last updated: 2026-10-01**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
@@ -44,7 +44,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **NET** | Cloudflare (`cloudflare/`) | Yes | 2026 Q1 | `2026_Q1_earnings_call_analysis.md` | Recent |
 | **AMAT** | Applied Materials | Yes | FY2026 Q2 | `2026_Q2_press_release.txt` | Fresh |
 | **GLW** | Corning | Yes | 2026 Q2 | `2026_Q2_earnings_call_transcript.txt` | Fresh |
-| **KLIC** | Kulicke & Soffa | Yes | FY2026 Q2 | `2026_Q2_earnings_call.txt` | Fresh |
+| **KLIC** | Kulicke & Soffa | Yes | FY2026 Q3 (7/4/2026) | `quarterly/2026_Q3_10q.htm` / `financials/2026_10/` | ✅ Fresh — Q3 beat; Q4 guide $375M; next print est. Nov 17–18, 2026 |
 | **PH** | Parker-Hannifin | Yes | FY2026 Q2 | `2026_Q2_earnings_call_transcript.md` | Fresh |
 | **INTC** | Intel | Yes | Q2 2026 (ended 6/27/26) | `financials/2026_06/income_statement.md` | Fresh |
 | **GOOG** | Alphabet | Yes | Q2 2026 (ended 6/30/26) | `quarterly/2026_Q2_10q.htm` / `financials/2026_06/` | Fresh |

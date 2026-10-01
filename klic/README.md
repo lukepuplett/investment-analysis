@@ -2,7 +2,7 @@
 
 ## Executive Summary (BLUF - Bottom Line Up Front)
 
-**KLIC VALIDATES RECOVERY THESIS BUT SIGNALS FINANCIAL STRESS:** Q2 FY2026 results strongly confirm advanced packaging inflection—revenue beat ($242.6M vs. $230M guidance, +5%), gross margin sustained (49.3%), and **Q3 guidance massively exceeded expectations ($310M ±$20M = ~28% sequential growth vs. 15-20% H2 guidance).** Management explicitly raising capex $12M→$22M to support "$400M annual TCB system sales" potential, signaling genuine conviction in advanced packaging scaling. Demand breadth expanding (memory, automotive, industrial joining semiconductor tailwinds). **HOWEVER: Operating cash flow collapsed to $10.3M Q2 (vs. $79.9M Q2 FY25) and $1.3M YTD (vs. $98.8M YTD FY25), raising sustainability concerns despite revenue strength. Inventory obsolescence risk ($70.5M allowance) unaddressed.** **Recommendation upgraded to CAUTIOUS BUY on growth validation: 12-month target $125-135 (vs. $110-115 base prior). BUT: Monitor cash flow closely; if YTD trend continues, downside risk escalates to $85-95. Critical watch: capex execution and FCF trajectory through FY2026.**
+**KLIC: Q3 FY2026 CONFIRMS RAMP; HOLD WHILE CASH CONVERTS:** Revenue **$330.4M** (+36% seq, +123% YoY), non-GAAP EPS **$1.20** (beat), Q4 guide **$375M ±$20M** / **~48% GM**. **TCB FY27 outlook $150–200M** (up from prior >$100M FY26 framing); Singapore Advanced Solutions expansion on track **H1 FY2027**. **Q3 operating cash flow recovered to $45.2M**, but **9M OCF only $46.6M** vs **$105M** prior year and **AR $329.5M** (~50% at two China OSATs). Stock **de-rated ~$79** (Sep 2026) vs ~$95 post–Q2. **Recommendation (held): HOLD** into **~Nov 17–18, 2026** Q4 print; add only if OCF/AR normalize. See `analysis/2026_10_01_investment_thesis.md` and `analysis/2026_10_01_delta_analysis.md`.
 
 ---
 
@@ -15,8 +15,9 @@
 - [x] Risk Assessment — Complete (5/6/2026)
 - [x] Investment Thesis — Complete (5/6/2026)
 - [x] Valuation Analysis — Complete (5/6/2026)
-- [x] **Q2 FY2026 Validation Summary — Complete (5/7/2026)** ← NEW
-- [ ] Delta Analysis — **IN PROGRESS (after Q2 earnings confirmation)**
+- [x] **Q2 FY2026 Validation Summary — Complete (5/7/2026)**
+- [x] **Q3 FY2026 Delta & Thesis Refresh — Complete (10/1/2026)** — `analysis/2026_10_01_*`
+- [x] Delta Analysis — Complete (10/1/2026)
 - [x] Q1 FY2026 Earnings Call Summary — Complete (5/6/2026)
 
 ---

@@ -1,0 +1,627 @@
+Kulicke and Soffa Industries, Inc. (KLIC) Q3 FY2026 Earnings Call Transcript
+Source: MarketBeat/Quartr summary page (Aug 6, 2026). Full audio at investor.kns.com.
+
+### Kulicke and Soffa Industries Q3 2026 Earnings Call Transcript
+
+Provided by Quartr
+
+August 6, 2026
+
+Share
+
+Share
+
+Share This Report
+
+Link copied to clipboard.
+
+Close
+
+#### Key Takeaways
+
+- Positive Sentiment: Demand accelerated significantly, with fiscal Q3 revenue rising 36.2% sequentially and 123% year over year to exceed company guidance. General semiconductor and memory applications led the recovery, while automotive and industrial demand also improved.
+- Positive Sentiment: Management expects fiscal Q4 revenue to increase 13.5% sequentially to $375 million, with approximately 48% gross margins and non-GAAP EPS of $1.42. It also anticipates above-average demand continuing into the first half of fiscal 2027.
+- Positive Sentiment: Advanced solutions revenue grew 20% sequentially, and management expects fiscal 2026 revenue to exceed $100 million. Thermal compression bonding revenue is projected to reach approximately **$ 150 million to $200 million in fiscal 2027**, supported by AI-driven heterogeneous integration.
+- Positive Sentiment: Data-center expansion is driving demand for both advanced thermal compression and traditional wire-bonding solutions across networking, communications, power management, storage, and NAND. The company has increased traditional-business capacity fourfold over the past two quarters and remains on track to complete its Singapore production expansion in the first half of fiscal 2027.
+- Neutral Sentiment: Fiscal Q4 non-GAAP operating expenses are expected to rise temporarily to about $87.5 million, mainly due to quarterly accruals for performance-based incentive compensation; the effective tax rate is expected to remain slightly above 20% in the near term.
+
+AI Generated. May Contain Errors.
+
+#### Conference Call Audio
+
+Live Call not available
+
+Earnings Conference Call
+
+Kulicke and Soffa Industries Q3 2026
+
+00:00 / 00:00
+
+Speed:1x1.25x1.5x2x
+
+#### Transcript Sections
+
+- Presentation
+- Participants
+
+#### Presentation
+
+Skip to Participants
+
+Operator
+
+00:00:00
+
+Welcome to Kulicke & Soffa third quarter 2026 conference call results. At this time, all participants are in a listen-only mode. A question and answer session will follow the formal presentation. If anyone should require operator assistance during the conference, please press star zero on your telephone keypad. Please note this conference is being recorded. I will now turn the conference over to Joe Elgindy, Senior Director, Investor Relations. Thank you. You may begin.
+
+Joe Elgindy
+
+Senior Director of Investor Relations at Kulicke & Soffa
+
+00:00:29
+
+Thank you. Welcome everyone to Kulicke & Soffa 's fiscal third quarter 2026 conference call. Lester Wong, Interim Chief Executive Officer and Chief Financial Officer, also joins me on today's call. Non-GAAP financial measures referenced today should be considered in addition to, not as a substitute for, or in isolation from, our GAAP financial information. GAAP to non-GAAP reconciliation tables are included within our latest earnings release and earnings presentation. Both are available at investor.kns.com, along with prepared remarks for today's call. In addition to historical statements, today's discussion contains forward-looking statements regarding our future performance and outlook. These statements are made under the safe harbor provisions of the Private Securities Litigation Reform Act of 1995, and involve risks and uncertainties that may cause actual results to differ materially.
+
+Joe Elgindy
+
+Senior Director of Investor Relations at Kulicke & Soffa
+
+00:01:21
+
+For a complete discussion of the risks associated with Kulicke & Soffa that could affect our future results and financial condition, please refer to our latest Form 10-K and upcoming SEC filings for additional information. With that said, I would now like to turn the call over to Lester Wong for the business, market, and financial overview. Please go ahead, Lester.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:01:41
+
+Thank you, Joe. Good morning, everyone. Demand continues to improve at a faster pace than previously expected, and our operational teams are aggressively ramping production to support customer capacity and technology requirements. Our own capacity expansion plan here in Singapore also remain on track. This new production space will support the growth of our advanced solutions segment over the coming years. We were able to support our customers' near-term needs by ramping our flexible production capacity and driving a 36% sequential revenue increase during the fiscal third quarter. Overall market strength continued to be led by generic semiconductor and memory applications, although we are pleased to note that utilization rates have improved sequentially in all regions and in all end markets. Growth in artificial intelligence applications remain the driving factor behind data center expansion.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:02:33
+
+This growing data center opportunity, in turn, drives meaningful increase in demand for both our thermal compression and wire bonding solutions. It is increasingly evident that most performance-oriented logic and memory applications will continue to adopt more complex heterogeneous integration approaches. Adoption of more complex assembly approaches directly benefits our current thermal compression business and steers our investments in R&D and production capacity. While emerging AI applications are a clear catalyst to accelerate high volume growth of new advanced packaging and heterogeneous assembly approaches, we expect we're still in the early stages of this much longer-term technology transition. We continue to anticipate this more than more driven technology-centric transition will continue to advance semiconductor assembly and benefit K&S well beyond this current cycle.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:03:29
+
+In addition to the needs of most performance-oriented applications, data center expansion also requires new and increased capacity for established assembly technologies, which support networking, communications, power management, and storage requirements. We estimate that the data center market relies on wire bonding technology at least as much as, if not more than, traditional semiconductor markets such as smartphones and PCs. As the leader in wire bonding technology, we are primed to support this growth. In addition to our involvement to support data center related technology and capacity needs, we are also encouraged to see positive momentum continuing within the automotive and industrial markets, which has recently increased demand for our wedge products as well. During the June quarter, company revenue increased by 36.2% sequentially through focused global coordination and operations execution.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:04:22
+
+While we are not immune from global supply chain constraints and macroeconomic conditions, we again exceeded expectations as we ramp production aggressively this quarter. Revenue recognized for our advanced solutions segment, which includes our leading fluxless thermal compression solutions, has exceeded last quarter's record revenue by 20%. In addition to supporting customers' emerging production requirements, our advanced solutions teams remain focused on driving innovation in both panel-level and hybrid bonding platforms, with a heightened emphasis on increasing our production capacity for our advanced solution offerings. We are maintaining our target of over $100 million in advanced solutions segment revenue for fiscal 2026, and continue to prepare for significant sequential growth in fiscal 2027. This growth is supported by performance and process readiness of our flexible, highly capable thermal compression platform provided to customers.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:05:19
+
+We remain closely engaged with a broad base of IDM, OSAT, and foundry customers as heterogeneous packaging approaches become mainstream. While AI applications are accelerating the transition to more complex assembly today, we're still relatively early stages of this advanced packaging transition. Today, emerging packaging solutions such as FDC, vertical wire, direct copper-to-copper, hybrid, and panel-based architectures will be critically necessary for a much wider array of semiconductor production over the coming years. Through our technical leadership, ongoing investment in R&D, and a manufacturing expansion plan, we continue to build a strong foundation that directly support these new advanced packaging approaches. Our capital expansion initiative here in Singapore is progressing well and remains on track. This new production space will allow us to support the growing capacity and technology needs of customers over the long term. We continue to target completion by the first fiscal half of 2027.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:06:17
+
+Our close engagement, technology leadership, and growing production footprint all enable us to contribute to a higher level of process value across served markets. Our wire bonding teams in both ball and wedge are also aggressively scaling production to meet strong customer demand and continue to develop and release new packaging solutions to a wide base of memory and power semiconductor customers. Turning to the end market review. General semiconductor revenue increased by 52.6% sequentially to $227.2 million, driven by higher capacity and technology requirements for both ball bonding and advanced solution segments. While AI and data center has been the major driver, we are now also seeing broader-based recovery in traditional markets as well. Memory shipment increased by 8.8% sequentially to $34 million after strong sequential growth in the second fiscal quarter. Our memory business is currently focused on delivering NAND technology and capacity requirements.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:07:17
+
+Based on our market understanding, data center is now currently the largest end applications across global NAND production. Beyond NAND, our vertical wire bonding team continues to work closely with memory customers as they develop new forms of stacked DRAM applications. Automotive and industrial demand improved by 9% sequentially to $24.2 million after strong improvement last quarter. We continue to see robust demand for high IO and high volume power and mixed signal packaging, which tends to track with general semiconductor. Additionally, during our fiscal third quarter, demand for our high current wedge solutions also increased. As many of you know, our wedge bonding suite is a critical part of our automotive and industrial offering. This market has faced industry-level headwinds for the past several years. Over this time, we continue to expand our portfolio and look forward to continued recovery.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:08:13
+
+We are pleased to see this sequential improvement and remain well positioned to benefit from long-term share growth in battery and plug-in hybrids, which require new power semiconductor technology and capacity requirements over the long term. Aftermarket Products and Services also increased sequentially due to the higher level of production across our installed base. It remains an interesting and exciting time at the company and for our industry. We recently celebrated K&S 75th anniversary and are proud of our legacy as a global leader and pioneer in semiconductor interconnect solutions. For three-quarters of a century, our success has been grounded in the trust and strong partnership we have developed with customers, suppliers, and business partners around the world. Looking ahead, we remain confident in our ability to extend our platform through ongoing investments in innovation to support the next generation of advanced packaging solutions.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:09:06
+
+With that said, I will now provide a brief financial update. My remarks today were for the GAAP results, unless noted. We again delivered revenue above guidance and continue to execute an aggressive production ramp through served markets. During the June quarter, overall revenue increased by 123% over the same period last year. Close coordination by our business segments, R&D, and supply chain teams remained essential to support our customers' immediate needs and also their future production requirements. Gross margins came in at 47.8% during the third fiscal quarter, and we delivered $1.07 of GAAP earnings and $1.20 of non-GAAP earnings. Total operating expenses came in at $89.7 million on a GAAP basis and $82.6 million on a non-GAAP basis. As explained last quarter, this sequential increase was anticipated and largely related to the increase in variable incentive compensation accruals throughout our second fiscal half.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:10:05
+
+This variable expense was the primary driver, although we have also increased some fixed resources, which support our growing base of opportunities. Tax expense came in at $15.3 million, and we anticipate our effective tax rate will remain slightly above 20% over the near term. For the September quarter, revenue is expected to increase by 13.5% sequentially to $375 million, with gross margins of 48%. non-GAAP operating expenses will temporarily increase to approximately $87.5 million. This sequential increase is temporary for the September quarter and is largely associated with the performance-oriented nature and quarterly accrual of our variable incentive compensation plan.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:10:50
+
+We expect GAAP earnings per share to be $1.29 and non-GAAP earnings per share to be $1.42 for the fourth fiscal quarter. At this point, we remain opportunistic on both near-term and longer-term opportunities, and we continue to anticipate above-average demand will continue into fiscal 2027. This concludes our prepared comments. Operator, please open the call for questions.
+
+Operator
+
+00:11:14
+
+Thank you. If you would like to ask a question, please press star one on your telephone keypad. A confirmation tone will indicate your line is in the question queue. You may press star two if you would like to remove your question from the queue. For participants using speaker equipment, it may be necessary to pick up your handset before pressing the star keys. Our first question is from Krish Sankar with TD Cowen. Please proceed.
+
+Krish Sankar
+
+Analyst at TD Cowen
+
+00:11:42
+
+Hi. Thanks for taking my question, and congrats on the really strong results and guidance. Les, I have three quick questions. I'm just sort of wondering, given the strong growth in September, are you seeing it across the board, like mid-teens growth for semi, memory, and auto industry, or is one better than the other?
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:12:02
+
+Krish, I think as we said, general semi and memory are leading the way. I think automotive and industrial has improved. As you know, they faced quite a lot of headwinds over the last couple of quarters, but they're picking up a little bit. But still, it's generally general semi and memory that's driving the ramp.
+
+Krish Sankar
+
+Analyst at TD Cowen
+
+00:12:21
+
+Got it. I think you also mentioned in the slide that the strength is expected to last into fiscal first half. I am kind of curious, as you get more data center, how should we think about December and March quarter? In other words, should we see seasonality in March, or do you think there won't be seasonality this time?
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:12:42
+
+Well, Krish, you know our business is always a little bit of seasonality in our Q1, right? Which is our December quarter. I think, based on what we see right now, both the utilization rates are extremely high. In China, it is over 95%. End markets, both memory and general semi, is around 90%. We are also seeing a lot of inbound POs, even extending into Q2. Usually, that doesn't happen for us. You usually don't have POs that goes out that far. In conversations and visits with customers, particularly in China, we are seeing them to continue to build factories.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:13:20
+
+I think based on all those factors, we feel pretty confident that the strength in the traditional business is going to continue into the first half of fiscal 2027. In addition, for our advanced solution business, we are engaged with foundries, OSATs, and IDMs. Again, we feel pretty confident we can take advantage of a lot of opportunities, particularly in Heterogeneous Integration around logic for our FLEX-ES TCB.
+
+Krish Sankar
+
+Analyst at TD Cowen
+
+00:13:47
+
+Got you. Very helpful. A quick follow-up, Lester, just on the advanced solutions, that TC business. You said over $100 million this year, fiscal year, which is end of this quarter. If I just take what you did last quarter, analyze that kind of implies close to $120 million next year, at least 20% growth. Is that the right way to think about it, or do you think that actually accelerates next year?
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:14:11
+
+You mean, what do I think TCB is going to do next year, Krish?
+
+Krish Sankar
+
+Analyst at TD Cowen
+
+00:14:14
+
+Yeah.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:14:17
+
+I think actually TCB will grow significantly next year, on a sequential basis. I think, as I said, for this year, we think we're going to beat $100 million. I think for FY 2027, I think for TCB, we are looking at somewhere in the region of $150 million-$ 200 million.
+
+Krish Sankar
+
+Analyst at TD Cowen
+
+00:14:35
+
+Great. Thank you very much, Lester. Appreciate it.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:14:38
+
+Thanks, Krish.
+
+Operator
+
+00:14:41
+
+Our next question is from Charles Shi with Needham & Company. Please proceed.
+
+Charles Shi
+
+Analyst at Needham & Company
+
+00:14:48
+
+Hey, Lester. Congrats on the nice results.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:14:51
+
+Thank you, Charles.
+
+Charles Shi
+
+Analyst at Needham & Company
+
+00:14:53
+
+Yeah. One thing you said in the prepared remarks, kind of sounds very interesting. You said the data center relies on wire bonding as much as the phones and the PCs. This is a part, I think, we may have discussed this in the past, but can you elaborate a little bit what kind of wire bonding packaging you are seeing the most in data center applications?
+
+Charles Shi
+
+Analyst at Needham & Company
+
+00:15:22
+
+One thing in particular I do want to ask is, we would think there's a little bit more of the power devices there that could probably drive wedge bonding, but the wedge bonding looks like it's more still relying on the traditional industry, and you are seeing some sequential improvement, but a lot of what you consider data center demand seems to be driving ball bonding. It's a little bit of an interesting comment there, I wonder if you can provide a little bit more color. Thank you.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:15:56
+
+Sure, Charles. Wire bonding in data center, basically, in fact, more than a majority of chips in the data center is actually traditionally packaged using wire bonding. These are for applications like general infrastructure, networking, communication, power, and storage. Also, in storage, it's basically memory, I think as I said in the remarks, as you know, we're focused on NAND for now, and 40% of the NAND market now, it goes towards data centers. Obviously, we have exposure there as well. As far as wedge bonder in data center, you're correct. Wedge bonder is still a little bit more focused on the automotive. They're high current. It's more ball bonder in terms of for power management in data centers.
+
+Charles Shi
+
+Analyst at Needham & Company
+
+00:16:56
+
+Got it. I think you mentioned about demand, mentioned PO. You're actually starting to filling up the second fiscal quarter, if I hear you correctly, and first half of next fiscal year. I know it's kind of hard for you to project out for the entire year next year, because you don't really have the POs, but I'm sure you have customer conversations who provide you at least some high-level forecast.
+
+Charles Shi
+
+Analyst at Needham & Company
+
+00:17:33
+
+Can you help us understand where you think next year's growth could potentially be? Especially one of the things people like to compare is where you could go in terms of how high the revenue could be next year versus the prior cycles, let's say in 2021 and 2022, where you did hit that $1.5 billion per year level. Are you still thinking you're not going back to that level? Maybe you could actually go back there and maybe exceed that level? Thank you.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:18:15
+
+Well, Charles, as you said, you've followed the industry for a long time. For us, visibility actually is usually not even as far out as what we have in the first half of fiscal 2027. It's very volatile. I think it's difficult for me to say what FY 2027 would look like as a whole. As I said, based on utilization rate, based on POs, based on customer conversation, we think the first half of 2027 will be very strong.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:18:41
+
+As far as, do we think they'll go back to 2021, 2022 levels? Those were extreme levels. That was like a global pandemic, right? Growth was around the world as people work from home and play from home. That's a very high bar. I think we're pretty confident that the first half of 2027 will look good. In our November call, I think we'll probably give you more color on what the second half looks like.
+
+Charles Shi
+
+Analyst at Needham & Company
+
+00:19:09
+
+Thank you, Lester.
+
+Operator
+
+00:19:14
+
+As a reminder, it is star one on your telephone keypad if you would like to ask a question. Our next question is from Dave Duley with Steelhead Securities. Please proceed.
+
+Dave Duley
+
+Analyst at Steelhead Securities
+
+00:19:27
+
+Yeah, thanks for taking my question. Lester, I was just wondering if you could help us understand what your current total capacity is for the wire and wedge bonder business. You're running at pretty high run rates here with your guidance at $375 million a quarter. Perhaps just help us understand what your total capacity is and how much you're increasing the core business capacity at this time.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:19:56
+
+Thanks, Dave. Well, we actually have significantly increased the capacity for the traditional business, the wire bonding business, right? From about two quarters ago, we have now increased capacity 4X, right? We have a very, very flexible manufacturing model. We've been doing this for a long time. As I said in my remarks, this is our 75th anniversary. Our supply chain teams, our operations team, our logistics, as well as our engineering teams work very closely together to meet customers' near-term needs as well as more midterm demands, right? Again, we're very focused on not losing market share because of capacity issues. We're pretty comfortable where we are at.
+
+Dave Duley
+
+Analyst at Steelhead Securities
+
+00:20:42
+
+Would you be able to support a $400 million or $450 million kind of quarterly run rate at this point?
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:20:51
+
+Well, Dave, I don't see a $450 million run rate at this point. As I said, we don't guide beyond the quarter, but I think We've had supported $400 million quarters before, and if we need to, as I said, I think we're a very dynamic, flexible manufacturing model. If we need to ramp some more, we'll do what we need to do to make sure that we take care of our customers.
+
+Dave Duley
+
+Analyst at Steelhead Securities
+
+00:21:13
+
+Okay. A different topic. Could you just talk a little bit more about your investments that you're making outside the thermal compression bonding in the advanced packaging area? I think you've mentioned hybrid bonding in the past and also panel level. Perhaps just talk about what your opportunities are in those two areas.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:21:37
+
+Yeah. Dave, we're seeing a lot of interest in panel, right? From customers, both IDMs, as well as the foundry, as well as the OSAT. We are actively engaged with multiple customers on panel. Obviously, panel is the future, just given the geometry, right? You can fit a lot more die in a rectangle than you can in a circle. There is a lot of interest. We are investing significantly in our panel project. As far as hybrid bonding is concerned, yes, we also are in hybrid bonding. We have been pretty active. We've accelerated the program over the last year. We think our hybrid bonder has some unique features that is not currently in the market. We are planning to deliver a hybrid bonding tool to a customer in the first half of fiscal 2027.
+
+Dave Duley
+
+Analyst at Steelhead Securities
+
+00:22:30
+
+As far as the panel opportunity, just remind us exactly what you're going to do. Are you going to pick and place die and put them on the interposer? Or what exactly will be the application that you're focused in on there?
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:22:46
+
+Well, I think, Dave, right now we're talking to the customer, we're focusing on multiple applications at the panel level. I think, as we develop the program, we'll provide more color in our future calls.
+
+Dave Duley
+
+Analyst at Steelhead Securities
+
+00:23:01
+
+All right. Thank you, and congratulations on a nice quarter.
+
+Lester Wong
+
+Interim CEO and CFO at Kulicke & Soffa
+
+00:23:04
+
+Thank you.
+
+Operator
+
+00:23:08
+
+There are no further questions at this time. I would like to turn the conference back over to Joe for closing remarks.
+
+Joe Elgindy
+
+Senior Director of Investor Relations at Kulicke & Soffa
+
+00:23:15
+
+Thank you, Sherry, and thank you all for joining today's call. As always, please feel free to follow up directly with any additional questions. This concludes today's call. Have a great day, everyone.
+
+Read more
+
+#### Participants
+
+##### Executives
+
+- 
+Lester Wong
+Interim CEO and CFO
+
+##### Analysts
+
+- Joe Elgindy
+Senior Director of Investor Relations at Kulicke & Soffa
+- Krish Sankar
+Analyst at TD Cowen
+- Charles Shi
+Analyst at Needham & Company
+- Dave Duley
+Analyst at Steelhead Securities
+
+Powered by 
+
+## Earnings Documents
+
+Slide Deck
+
+Press Release (8-K)
+
+Quarterly report (10-Q)
+
+## Kulicke and Soffa Industries Earnings Headlines
+
+Brokerages Set Kulicke and Soffa Industries, Inc. (NASDAQ:KLIC) PT at $69.67
+
+September 5, 2026 | americanbankingnews.com
+
+Kulicke And Soffa Industries (KLIC) Could Be 26% Undervalued On Q2 Earnings Strength
+
+September 4, 2026 | uk.finance.yahoo.com
+
+Ready to give options a try? Your first trade (Ticker included) -INSIDE
+
+Tired of trying tactic after tactic when it comes to options trades... only to be met with market noise and stinging losses? Dave Aquino is giving away the exact 11-hour options strategy he uses in volatile markets. You get the plain English blueprint behind the strategy and the very same "rinse and repeat" ticker he's traded nearly 900 times with a 95.3% success rate. It's so simple to understand, you could trade it tomorrow.
+
+September 15 at 1:00 AM | Base Camp Trading (Ad)
+
+How Is Kulicke And Soffa Industries (KLIC) Shaping AI Infrastructure Packaging?
+
+September 2, 2026 | finance.yahoo.com
+
+Kulicke And Soffa Industries (KLIC) Stock Looks Fairly Valued Following Its 117% Run
+
+September 2, 2026 | uk.finance.yahoo.com
+
+Kulicke and Soffa (NASDAQ:KLIC) Q2 earnings: Leading the semiconductor manufacturing pack
+
+September 1, 2026 | msn.com
+
+See More Kulicke and Soffa Industries Headlines
+
+Get Earnings Announcements in your inbox
+
+Want to stay updated on the latest earnings announcements and upcoming reports for companies like Kulicke and Soffa Industries? Sign up for Earnings360's daily newsletter to receive timely earnings updates on Kulicke and Soffa Industries and other key companies, straight to your email.
+
+Email Address
+
+## About Kulicke and Soffa Industries
+
+Kulicke and Soffa Industries (NASDAQ:KLIC), Ltd. develops and manufactures equipment and tools used in semiconductor and electronic assembly. Its solutions support the packaging, interconnection and assembly of integrated circuits, light-emitting diodes and other electronic components.
+
+The company’s product portfolio includes wire bonding systems, wedge bonders, die attach equipment, advanced packaging systems and related consumables. Its technologies are used in applications such as automotive electronics, consumer electronics, communications, computing, power semiconductors and optoelectronics. Kulicke and Soffa also provides equipment for advanced display and semiconductor packaging applications.
+
+Kulicke and Soffa traces its history to the Kulicke Company, founded in 1951, and has developed into a global supplier serving semiconductor and electronics manufacturers across Asia, North America, Europe and other markets. The company is headquartered in Singapore, with additional operations and customer support activities in major semiconductor manufacturing regions. Its common stock trades on the Nasdaq under the symbol KLIC.
+
+View Kulicke and Soffa Industries Profile
+
+Read more
+
+## More Earnings Resources from MarketBeat
+
+Earnings Tools
+
+- Today's Earnings
+- Tomorrow's Earnings
+- Next Week's Earnings
+- Upcoming Earnings Calls
+- Earnings Newsletter
+- Earnings Call Transcripts
+- Earnings Beats & Misses
+- Corporate Guidance
+- Earnings Screener 
+
+Latest Articles
+
+- 3 Dividend Kings to Buy While They’re Still Beaten Down
+- Analysts Are Punting Their Calls Into the Next Quarter After Adobe’s Mixed Earnings
+- MarketBeat Week in Review – 09/07 - 09/11
+- Kroger’s Textbook Entry for Buy-and-Hold Investors
+- Oracle’s AI Spending Is Still Huge, But the Payoff Is Starting to Show in Earnings
+- Planet Labs Has Fallen Back to Earth, But Wall Street Still Sees a Rebound
+- The End of Big Tech Buybacks? Only One Hyperscaler Is Still Repurchasing Shares
+
+Upcoming Earnings
+
+- Cintas (9/23/2026)
+- Costco Wholesale (9/24/2026)
+- Micron Technology (9/30/2026)
+- NIKE (10/1/2026)
+- Accenture (10/1/2026)
+- PepsiCo (10/8/2026)
+- Delta Air Lines (10/8/2026)
+- America Movil (10/13/2026)
+- BlackRock (10/13/2026)
+- Citigroup (10/13/2026)
+
+Unlock superior investment research and tools.
+
+Sign up for MarketBeat All Access to gain access to MarketBeat's full suite of research tools and reports.
+
+Get MarketBeat All Access
+
+## MarketBeat All Access Features
+
+ Best-in-Class Portfolio Monitoring Get personalized stock ideas. Compare portfolio to indices. Check stock news, ratings, SEC filings, and more. 
+
+ Stock Ideas and Recommendations See daily stock ideas from top analysts. Receive short-term trading ideas from MarketBeat. Identify trending stocks on social media. 
+
+ Advanced Stock Screeners and Research Tools Use our seven stock screeners to find suitable stocks. Stay informed with MarketBeat's real-time news. Export data to Excel for personal analysis. 
+
+Sign in to your free account to enjoy these benefits
+
+- In-depth profiles and analysis for 20,000 public companies.
+- Real-time analyst ratings, insider transactions, earnings data, and more.
+- Our daily ratings and market update email newsletter.
+
+Sign in to your free account to enjoy all that MarketBeat has to offer.
+
+- Sign In
+- Create Account
+
+Your Email Address:
+
+Email Address Required
+
+Your Password:
+
+Password Required
+
+[Log In](javascript:WebForm%5FDoPostBackWithOptions%28new WebForm%5FPostBackOptions%28"ctl00$btnLoginOnModal", "", true, "Login", "", false, true%29%29) Email Me a Login Link
+
+---
+
+or
+
+ Sign in with Facebook Sign in with Google
+
+Forgot your password?
+
+Your Email Address:
+
+Please enter your email address.
+
+Please enter a valid email address
+
+Choose a Password:
+
+Please enter your password.
+
+Your password must be at least 8 characters long and contain at least 1 number, 1 letter, and 1 special character.
+
+Create My Account (Free)
+
+---
+
+or
+
+ Sign in with Facebook Sign in with Google
+
+By creating a free account, you agree to our terms of service. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+
+×
+
+```json
+{ "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.marketbeat.com/earnings/reports/2026-8-5-kulicke-and-soffa-industries-inc-stock/" }, "headline": "Kulicke and Soffa Industries Q3 2026 Earnings Call Transcript", "image": { "@type": "ImageObject", "url": "https://www.marketbeat.com/logos/kulicke-and-soffa-industries-inc-logo.png?v=20240306131400", "height": "522", "width": "600" }, "datePublished": "2026-08-06", "dateModified": "2026-08-06", "author": { "@type": "Person", "name": "Quartr" },  "publisher": {"@context":"https://schema.org", "@type":"Organization", "name":"MarketBeat", "url":"https://www.marketbeat.com/", "logo":{"@context":"https://schema.org", "@type":"ImageObject", "url":"https://www.marketbeat.com/images/master/marketbeat-logo-gray-blue-1200.png", "height":"306", "width":"1200"}, "email":"contact@marketbeat.com", "description":"MarketBeat empowers retail investors to make better trading decisions by providing real-time financial data and objective market research.", "address":{"@context":"https://schema.org", "@type":"PostalAddress", "streetAddress":"345 N Reid Place, Suite 620", "addressLocality":"Sioux Falls", "addressRegion":"SD", "postalCode":"57103", "addressCountry":"US"}, "contactPoint":{"@context":"https://schema.org", "@type":"ContactPoint", "telephone":"+1-844-978-6257", "email":"contact@marketbeat.com", "contactType":"Customer Support"}, "sameAs":["https://x.com/marketbeatmedia", "https://www.facebook.com/marketbeatcom/", "https://www.youtube.com/marketbeatcom", "https://en.wikipedia.org/wiki/MarketBeat", "https://www.linkedin.com/company/marketbeat", "https://www.crunchbase.com/organization/marketbeat-com"], "publishingPrinciples":"https://www.marketbeat.com/editorial-guidelines/"}, "publishingPrinciples": "https://www.marketbeat.com/editorial-guidelines/", "description": "Kulicke and Soffa Industries announced their Q3 2026  earnings on 8/5/2026. View KLIC's earnings results, press release, and conference call transcript at MarketBeat." }
+
+```
