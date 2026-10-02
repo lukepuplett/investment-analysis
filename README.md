@@ -45,6 +45,7 @@ _Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVC
 - **LYB**: LyondellBasell Industries — Chemicals and polymers
 - **MNTN**: MNTN, Inc. — Performance TV advertising (CTV)
 - **MSFT**: Microsoft Corporation — Cloud (Azure), productivity, and devices
+- **NVDA**: NVIDIA Corporation — AI compute (Data Center GPUs, networking, full-stack AI infrastructure)
 - **NEE**: NextEra Energy, Inc. — Utilities and renewables
 - **NET**: Cloudflare, Inc. — Cloud network security and performance (folder: `cloudflare/`)
 - **PH**: Parker-Hannifin Corporation — Motion and control technologies

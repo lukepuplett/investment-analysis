@@ -1,16 +1,17 @@
 # Data Staleness Table
 
-**Last updated: 2026-10-01**
+**Last updated: 2026-10-02**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
 Sorted most stale → most current as of the last-updated date above.
 
-**Held?** = whether this is an active position, as distinct from a name we merely research/watch. Confirmed / updated by the user as of **2026-09-18** (interest open): **held** = AAPL, AMAT, AMZN, ASML, AVGO, CLOUDFLARE/NET, CRWV, CSCO, DDOG, DRO, ENR.DE, GLW, GOOG, GTLB, HOOD, INTC, KLIC, MSFT, NVDA, PH, RKLB, RYCEY, SMCI, SPCE, TSLA, TT; **not held (watchlist)** = MNTN, DUK, CAT, CVCO, LASE. Sep 2026 additions / explicit confirms vs 2026-09-12 list: **AVGO, NVDA, AAPL, PH**. Prior held names (CSCO, GLW, CLOUDFLARE/NET, DRO, AMZN, SPCE, etc.) retained — user said *add*, not replace. **NVDA / AAPL** still lack dedicated ticker folders (AVGO added 2026-09-28).
+**Held?** = whether this is an active position, as distinct from a name we merely research/watch. Confirmed / updated by the user as of **2026-09-18** (interest open): **held** = AAPL, AMAT, AMZN, ASML, AVGO, CLOUDFLARE/NET, CRWV, CSCO, DDOG, DRO, ENR.DE, GLW, GOOG, GTLB, HOOD, INTC, KLIC, MSFT, NVDA, PH, RKLB, RYCEY, SMCI, SPCE, TSLA, TT; **not held (watchlist)** = MNTN, DUK, CAT, CVCO, LASE. Sep 2026 additions / explicit confirms vs 2026-09-12 list: **AVGO, NVDA, AAPL, PH**. Prior held names (CSCO, GLW, CLOUDFLARE/NET, DRO, AMZN, SPCE, etc.) retained — user said *add*, not replace. **AAPL** still lacks a dedicated ticker folder (AVGO added 2026-09-28; **NVDA** added 2026-10-02).
 
 
 | Ticker | Company | Held? | Latest Period on File | Source Doc | Staleness |
 |--------|---------|-------|------------------------|------------|-----------|
+| **NVDA** | NVIDIA | Yes | FY2027 Q2 (7/26/2026) | `nvda/quarterly/2026_Q2_summary.txt` / `2026_Q2_10q.htm` | ✅ Fresh — first-pass Oct 2026; Q2 rev $96.2B; Q3 guide $108B; next print ~Nov 18, 2026 |
 | **AVGO** | Broadcom | Yes | FY2026 Q3 (8/2/2026) | `avgo/quarterly/2026_Q3_summary.txt` / `2026_Q3_10q.htm` | ✅ Fresh — first-pass Sep 2026; Q3 record revenue/FCF; AI semi $16.7B |
 | **MRNA** | Moderna | No (watchlist / interest) | Q2 2026 (6/30/2026) | `mrna/quarterly/2026_Q2_summary.txt` | ✅ Fresh — first-pass Sep 2026; Ph3 INT melanoma Aug 19 |
 | **LASE** | Laser Photonics | No (watchlist) | Q2 2026 (6/30/2026) | `financials/2026_09/income_statement.md` | Recent — refreshed with Q1+Q2 2026 10-Q data |
@@ -56,6 +57,7 @@ Sorted most stale → most current as of the last-updated date above.
 ## Notes
 
 
+- **2026-10-02:** Added **NVDA** (NVIDIA) first-pass folder — **held**; FY2027 Q2 (period 7/26/2026) SEC 10-Q + Aug 26 earnings; THINKING_FRAMEWORK scorecard in `nvda/analysis/2026_10_scorecard.md`; stance **HOLD**; post–Q3 delta placeholder only.
 - **2026-09-28:** Added **AVGO** (Broadcom) first-pass research folder — **held**; FY2026 Q3 (period 8/2/2026) SEC 10-Q + Sep 2 earnings PR; THINKING_FRAMEWORK thesis in `avgo/analysis/2026_09_investment_thesis.md`; stance **HOLD**.
 - **2026-09-25:** SMCI risk audit & thesis invalidation check (`smci/analysis/2026_09_25_risk_audit.md`) vs FY2026 Ex. 99.1 / 10-K. Verdict: **WATCH (customer-concentration pillar wobbling)**; hard invalidation not met. Period financials now FY2026/Q4; Q3 call retained.
 - **2026-09-23:** Added **MRNA** (Moderna) first-pass research folder — biotech expansion; watchlist/interest (not held). Q2 2026 financials + Aug 19 INTerpath-001 Ph3 win noted.
@@ -68,7 +70,7 @@ Sorted most stale → most current as of the last-updated date above.
 - **Refresh priority among held names** (staleness-ranked): All major held names now current to Q2 2026. GOOG/TSLA refreshed 2026-09-12. NET refreshed Q1 2026. DRO refreshed 2026-09-13 (1H 2026). RYCEY/MSFT refreshed 2026-09-14. SPCE/AMZN refreshed 2026-09-14.
 
 
-- **2026-09-18 holdings update:** User confirmed invested interest open for TSLA, AVGO, CRWV, ASML, PH, HOOD, GOOG, DDOG, KLIC, AMAT, RKLB, GTLB, SMCI, TT, RYCEY, NVDA, plus INTC, ENR.DE, MSFT, AAPL (and retained prior held names). **NVDA, AAPL** held but not yet covered as top-level folders — add when researched.
+- **2026-09-18 holdings update:** User confirmed invested interest open for TSLA, AVGO, CRWV, ASML, PH, HOOD, GOOG, DDOG, KLIC, AMAT, RKLB, GTLB, SMCI, TT, RYCEY, NVDA, plus INTC, ENR.DE, MSFT, AAPL (and retained prior held names). **AAPL** still not covered as a top-level folder — add when researched.
 
 ## How to regenerate
 

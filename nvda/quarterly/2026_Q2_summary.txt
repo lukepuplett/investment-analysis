@@ -1,0 +1,25 @@
+NVIDIA Corporation (NVDA) — Q2 FY2027 summary
+Period ended: 2026-07-26 (Sunday)
+Filed: Form 10-Q 2026-08-26 (accession 0001045810-26-000075)
+Earnings: 8-K 2026-08-26 (accession 0001045810-26-000073)
+
+Key metrics (GAAP unless noted; $ in millions):
+- Revenue: $96,221 (+106% YoY, +18% QoQ vs Q1 FY27 $81,615)
+- Data Center revenue: $89,023 (+117% YoY)
+- Gross margin: 75.0%
+- Operating income: $63,734
+- Net income: $59,688
+- Diluted EPS: $2.46 (non-GAAP EPS $2.22 per CFO commentary)
+- Free cash flow (company definition): $21,341 (quarter); $69,895 (1H FY27)
+- Cash & equivalents: $22,443 (Jul 26, 2026)
+- Total assets: $320,272; Stockholders' equity: $228,984
+- Long-term debt: $33,366 (issued $25B senior notes in Q2)
+
+Q3 FY2027 outlook (8/26/2026):
+- Revenue ~$108.0B ±2% (no Data Center compute revenue from China assumed)
+- GAAP/non-GAAP gross margin ~74.0% ±50 bps
+- Supply commitments increased to ~$279B (from ~$119B prior quarter)
+
+Next earnings: ~2026-11-18 (FMP est. as of 2026-09-25; not company-confirmed)
+
+Sources: SEC 10-Q XBRL; q2fy27pr.htm / q2fy27cfocommentary.htm (8-K exhibits)

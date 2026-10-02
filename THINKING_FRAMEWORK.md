@@ -159,7 +159,7 @@ Qualitative sketches, not updated theses. Any figure names its source; the full 
 
 ### NVDA (Nvidia)
 
-*Layer 1:* rearranges information and energy into compute, currently a bottleneck for AI. *Layer 2:* captures unusually well for now through switching costs (its software ecosystem) and scale, but its largest customers are designing their own chips, and it relies on one leading foundry for supply. *Timing:* the classic early-cycle picks-and-shovels captor; the question is what happens when power and space replace compute as the constraint. (NVDA is held but has no repository folder yet, so this is the least evidenced example.)
+*Layer 1:* rearranges information and energy into compute, currently a bottleneck for AI. *Layer 2:* captures unusually well for now through switching costs (its software ecosystem) and scale, but its largest customers are designing their own chips, and it relies on one leading foundry for supply. *Timing:* the classic early-cycle picks-and-shovels captor; the question is what happens when power and space replace compute as the constraint. (See `nvda/` first pass Oct 2026 — scorecard and Q2 FY2027 filings.)
 
 ### ASML
 
