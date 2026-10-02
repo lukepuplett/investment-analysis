@@ -63,6 +63,10 @@ The AI build-out is a live example: the constraint has moved from compute to adv
 
 The practical rule: **a bottleneck thesis has a shelf life**. I should estimate how long it lasts and what ends it: new supply, substitution, or demand moving to the next constraint.
 
+### Open question: is attention really scarce? *(2026-10-02 — not a conclusion)*
+
+Attention is only scarce if I count the kind that matters. Humans can add more of it slowly — babies, people in new places — but AI can add synthetic attention at near-zero marginal cost, which could make attention abundant in aggregate. The tighter scarcity may be **whose** attention people value. Customers still pay for human attention: care, craft, judgement, live performance. Whether they will pay for synthetic attention in the same roles is open. If they do, the bottleneck may shift to the physical inputs that run it — energy, matter, space. If they don't, human attention stays the premium good and gets pricier as everything else gets cheap. For investing I should watch whether AI attention is accepted in place of human attention (support, companionship, advice, media) and who captures the profit when it is.
+
 ## Layer 2: Value capture
 
 Layer 2 asks who owns each rearrangement and who keeps the profit. A scarce input can pay customers, governments, workers or landowners instead of shareholders. Utilities sit on essential infrastructure, but regulators set their returns. Miners own scarce matter but take the commodity cycle's price and share it with host governments. Airlines rearrange time and space for millions, yet over long periods the profit has gone mostly to suppliers, airports, unions and passengers.
@@ -135,6 +139,7 @@ Run this on any holding or watchlist name.
 - [ ] Which fundamentals (MISTER C) does this company take in, and which does it rearrange?
 - [ ] Is that the current bottleneck? What is the evidence (queues, lead times, contracts)?
 - [ ] How long does the bottleneck last, and what ends it? Where does scarcity move next?
+- [ ] *(Open question)* Is synthetic attention substituting for valued human attention in this business, and who keeps the margin if it is?
 
 **Layer 2: Value capture**
 - [ ] Who owns the scarce input or the rearrangement: the company, a landlord, a licensor or a state?
