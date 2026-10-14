@@ -10,6 +10,16 @@ ASML is the world's leading supplier of photolithography systems for the semicon
 **Industry:** Semiconductor Equipment
 **Reporting:** Dutch foreign private issuer — files 20-F (annual) and 6-K (quarterly interim reports) with the SEC, not 10-K/10-Q. Reports in EUR.
 
+## News Update - 10/14/2026: Q3 2026 results — Record Sales, Guide Raised, Receivables Flag Eased
+
+- **Q3 2026:** Net sales €11.66bn (record, top of €11–12bn guide); gross margin 57.5% (guide 55–57%); net income €4.96bn; basic EPS €12.95. Installed-base sales €3.29bn (guide ~€2.9bn).
+- **Systems:** 113 new + 8 used lithography systems (121 total).
+- **Guidance:** Q4 sales €14.2–15.2bn, GM ~57%. FY26 tightened to €44–45bn (was €43–45bn), GM ~56% (was 54–56%).
+- **Cash:** Cash and short-term investments €12.7bn — eases the H1 2026 receivables/negative-operating-CF flag noted in the Q2 update below. Interim dividend €1.88 (payable 4 Nov).
+- **Demand:** Management says customers are raising AI-driven forecasts, some looking at 2029–30 orders; planned 2027–28 supply still won't fully meet demand, and more 2028 capacity is under study beyond the announced +30%. Quarterly bookings are no longer reported (annual backlog only).
+- **Stock:** ASML.AS −4.2% on 13 Oct in the semicap sell-off; ~−1% pre-market 14 Oct. Debate is valuation (~55x P/E), not fundamentals.
+- **Call:** 14 Oct, 15:00 CET / 14:00 UK — notes to follow. Diary: `diary/2026-10.md` (c3ca0ff).
+
 ## News Update - 07/15/2026: Q2 2026 6-K — Strong Reacceleration, One Working-Capital Item to Watch
 
 - **Q2 2026 (US GAAP):** Total net sales €9,326.5M (+21.3% YoY); operating income €3,456.1M (+29.7% YoY, margin 37.1%, +250bps); net income €2,917.6M (+27.4% YoY); diluted EPS €7.58 (+28.5% YoY).
