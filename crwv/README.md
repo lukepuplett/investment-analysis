@@ -70,6 +70,19 @@ CoreWeave surfaces its value proposition through:
    - Cost optimization tools
    - Usage analytics and reporting
 
+## October 2026: debt and credit scare
+
+_Added 2026-10-15. Sources: Yahoo price data; contemporaneous news found via search (Benzinga, Yahoo Finance, Bloomberg via CNBC TV18, Reuters, Motley Fool, MarketScreener). Items marked "reported" have not been checked against primary sources._
+
+- **Price:** CRWV closed at **$65.78 on 14 Oct 2026**, down about 15% on the day (worst day since February), and down from about $92 a week earlier. It was reported down about 6% further after hours.
+- **Trigger:** CoreWeave's unsecured 2032 bonds reportedly yielded about 15%, against about 9% in the summer, which is distress territory. Chamath Palihapitiya reportedly asked on X whether the AI buildout is creating a private credit bubble, and Elon Musk reportedly replied "Yikes".
+- **The worry:** debt plus leases is reportedly about $52bn (end of June), with Q2 net interest expense of about $640m. Bears argue it borrows at around 9% to build capacity that could earn far less if AI spending slows.
+- **Contagion:** the selloff spread to other neoclouds and Oracle (Nebius, Oracle, IREN and others). A Gartner note reportedly warned that most neoclouds could be unviable by 2030.
+- **Sell side:** D.A. Davidson's Gil Luria reportedly said equity could be wiped out in a downside case, which he described as a risk scenario, not his base case. Dan Ives (Wedbush) called the fears "way overdone", likened them to this year's SaaS-apocalypse scare, and expects hyperscaler earnings (GOOG/MSFT 28 Oct) to confirm rising capex.
+- **Company:** CEO Mike Intrator told staff the reaction was "irrational". He cited a backlog of more than $104bn plus over $25bn of new commitments, and said CoreWeave would be strongly cash-flow positive if it stopped building. It is reportedly looking for cheaper funding, for example from insurers.
+
+**What to watch:** demand is not the question here; refinancing cost is. Track the 2032 bond yield (equity is unsafe while it is near 15%), any new debt raises and their pricing, and hyperscaler capex commentary in late October. In framework terms, CoreWeave rents out the compute bottleneck but funds it with expensive borrowed capital, so the value-capture risk is that lenders take the return before shareholders do.
+
 ## Key Metrics (Q1 2026)
 - Revenue (Quarter): $2.1B (+112% YoY, +32% QoQ)
 - Adjusted EBITDA: $1.2B (56% margin)
@@ -264,6 +277,8 @@ The analysis follows the framework defined in the root `llms.txt` file, covering
 - **2027 visibility:** >$30B ARR target with 75% pre-contracted (excluding renewals). Ample power capacity already secured to deliver 2027 targets.
 
 ### Risks (Q1 2026)
+
+- **Funding cost (Oct 2026):** 2032 unsecured bonds reportedly near 15% yield; equity exposed if refinancing gets expensive or AI capex slows. See "October 2026: debt and credit scare".
 - **Component cost inflation & CapEx escalation:** CapEx guidance raised to $31–35B FY2026 due to higher component pricing (GPUs, memory, power modules). While management passes through costs in new contracts, prior contracts with locked-in pricing could face margin squeeze on components.
 - **Margin timing & execution cadence:** Q1 margin compression to 1% operating margin reflects rapid capacity ramp (tripled active power YoY). "Powered shell → revenue" lag (1–2 month fit-out) creates temporary negative contribution margins. Execution at 50 data centers across multiple geographies/partners introduces coordination risk.
 - **Interest expense growth:** Q1 interest expense $536M (doubled YoY) as debt scales. Even at <6% cost, $20B+ debt balance generates $1B+ annual interest. Must validate debt decline as capex moderates post-2026.
