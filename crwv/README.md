@@ -83,6 +83,15 @@ _Added 2026-10-15. Sources: Yahoo price data; contemporaneous news found via sea
 
 **What to watch:** demand is not the question here; refinancing cost is. Track the 2032 bond yield (equity is unsafe while it is near 15%), any new debt raises and their pricing, and hyperscaler capex commentary in late October. In framework terms, CoreWeave rents out the compute bottleneck but funds it with expensive borrowed capital, so the value-capture risk is that lenders take the return before shareholders do.
 
+**Macro watch: inflation from a commodity shock or war (added 2026-10-15).** This is close to the bear case for CoreWeave. If a commodities crunch or a war pushes inflation up:
+- central banks hold rates or raise them, so risk-free yields climb and junk-rated borrowers' yields climb further;
+- investors flee to quality, high-yield and private-credit funds stop lending to marginal names, and CoreWeave could be shut out of new funding altogether (the real failure mode for a company that has to borrow to keep building);
+- revenue is mostly fixed-price on multi-year contracts, while power, copper, construction labour and interest all rise, so margins are squeezed from both sides;
+- AI-lab customers also depend on cheap capital, which raises the risk of renegotiation or delay across the roughly $100bn backlog;
+- the only offset is that existing fixed-coupon debt shrinks in real terms, which doesn't help a company that needs new money.
+
+Signals to track: oil, copper and power prices; central-bank rate pricing; 30-year gilt and US Treasury yields; high-yield spreads; private-credit fund redemptions; and the CRWV 2032 bond yield. In this scenario the better place in the portfolio is owners of physical bottlenecks (power, grid equipment, materials; PH and TT are the closest holdings), not leveraged companies renting them out.
+
 ## Key Metrics (Q1 2026)
 - Revenue (Quarter): $2.1B (+112% YoY, +32% QoQ)
 - Adjusted EBITDA: $1.2B (56% margin)
