@@ -92,6 +92,28 @@ _Added 2026-10-15. Sources: Yahoo price data; contemporaneous news found via sea
 
 Signals to track: oil, copper and power prices; central-bank rate pricing; 30-year gilt and US Treasury yields; high-yield spreads; private-credit fund redemptions; and the CRWV 2032 bond yield. In this scenario the better place in the portfolio is owners of physical bottlenecks (power, grid equipment, materials; PH and TT are the closest holdings), not leveraged companies renting them out.
 
+## GPU useful life: what decides it (finding, 15 Oct 2026)
+
+Evidence: an eBay UK scan of asking prices for high-VRAM Nvidia GPUs on 15 Oct 2026 (asking prices, not sold prices; partial search).
+
+| Card | VRAM | Cheapest asking (Buy It Now) | vs launch |
+|---|---|---|---|
+| RTX 3090 | 24GB | ~£1k | ~75–80% after ~6 yrs |
+| RTX 4090 | 24GB | £2.5k | above launch (£1,579) |
+| RTX 5090 | 32GB | £5.1k new | well above launch (~£1.8–1.9k) |
+| RTX A6000 | 48GB | £3.8k | holding |
+| A100 80GB | 80GB | £16.25k | premium |
+| H100 PCIe | 80GB | £30k | premium |
+| V100 | 32GB | £599 | ~2–5% |
+| Tesla P40 | 24GB | ~£234 | ~2–5% |
+
+**Finding:** cards Nvidia still supports keep their value, and cards dropped by newer CUDA versions collapse. Economic life looks set mainly by **Nvidia's software support**, plus **work done per watt** in data centres where power is the limit, rather than by hardware wear.
+
+**What it means for CRWV:**
+- It partly supports Luke's longer-GPU-life thesis: an A100 bought around 2020–21 still commands a premium about five years on.
+- But six-year depreciation is a bet on Nvidia's support roadmap as well as on demand. Deprecation tends to come as a cliff, not a gentle slope.
+- Watch for CUDA, driver and framework deprecation notices for Ampere (A100) and Hopper (H100), for power-efficiency gaps against Blackwell and Rubin, and for re-contracting rates when the original contracts end (Baker's "reprices toward spot").
+
 ## Key Metrics (Q1 2026)
 - Revenue (Quarter): $2.1B (+112% YoY, +32% QoQ)
 - Adjusted EBITDA: $1.2B (56% margin)
