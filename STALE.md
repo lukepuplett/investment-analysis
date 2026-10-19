@@ -57,7 +57,7 @@ Sorted most stale → most current as of the last-updated date above.
 ## Notes
 
 
-- **2026-10-15:** **DRO** got a mid-October FY26 committed-revenue stamp (A$261M, at the midpoint of guidance; `dro/analysis/2026_10_15_committed_revenue_update.md`). The Q3 Appendix 4C is still pending, so the period stays 1H 2026.
+- **2026-10-15:** **DRO** got a mid-October FY26 committed-revenue stamp (A$261M, at the midpoint of guidance; `dro/analysis/2026_10_15_committed_revenue_update.md`). No Q3 Appendix 4C is coming: ASX confirmed on 18 May 2026 that DroneShield no longer has to lodge quarterly 4Cs (last one was 1Q2026, 22 Apr). It now reports half- and full-year only, so the period stays 1H 2026 until FY2026 results (~Feb 2027).
 - **2026-10-02:** Added **NVDA** (NVIDIA) first-pass folder — **held**; FY2027 Q2 (period 7/26/2026) SEC 10-Q + Aug 26 earnings; THINKING_FRAMEWORK scorecard in `nvda/analysis/2026_10_scorecard.md`; stance **HOLD**; post–Q3 delta placeholder only.
 - **2026-09-28:** Added **AVGO** (Broadcom) first-pass research folder — **held**; FY2026 Q3 (period 8/2/2026) SEC 10-Q + Sep 2 earnings PR; THINKING_FRAMEWORK thesis in `avgo/analysis/2026_09_investment_thesis.md`; stance **HOLD**.
 - **2026-09-25:** SMCI risk audit & thesis invalidation check (`smci/analysis/2026_09_25_risk_audit.md`) vs FY2026 Ex. 99.1 / 10-K. Verdict: **WATCH (customer-concentration pillar wobbling)**; hard invalidation not met. Period financials now FY2026/Q4; Q3 call retained.

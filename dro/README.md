@@ -109,7 +109,7 @@ DroneShield Limited (ABN 608 915 859) is an Australian company specializing in d
 - [x] Investment Thesis (Jan 2025)
 - [x] Valuation Analysis (Jan 2025)
 - [x] **Delta Analysis (Sep 2026)** — [View](analysis/2026_09_delta_analysis.md)
-- [x] Committed Revenue Update (15 Oct 2026) — [View](analysis/2026_10_15_committed_revenue_update.md) (Q3 4C pending)
+- [x] Committed Revenue Update (15 Oct 2026) — [View](analysis/2026_10_15_committed_revenue_update.md) (no Q3 4C: quarterly 4Cs ended after ASX confirmation 18 May 2026; next cash check FY2026 results ~Feb 2027)
 
 *Note: Jan 2025 analysis documents are stale. The Sep 2026 Delta Analysis supersedes prior assessments.*
 
