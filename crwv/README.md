@@ -365,3 +365,16 @@ The following cross-portfolio research informs CoreWeave's competitive positioni
 - European grid interconnection timelines (8-10 year FLAP queues impact European expansion)
 - GPU collateral market depth (secondary market liquidity supports DDTL financing sustainability)
 - Modular data center adoption (60% of new builds use modular delivery, supporting faster CoreWeave deployment cycles)
+## CoreWeave vs Tesla in the cheap-capital years (discussion, 22 Oct 2026)
+
+Luke's framing: about 30% of capacity live, about $11B cash, about $100B pipeline; arguably backstopped by Nvidia; confidence justified? Compare to Tesla when capital was cheap.
+
+**Where CoreWeave looks better**
+- Demand is contracted. Tesla in 2018–19 burned cash with no locked-in revenue and came near to running out during the Model 3 ramp. CoreWeave's pipeline is largely take-or-pay contracts (Microsoft, OpenAI, Meta), and with only about 30% of capacity live most of that revenue is still ahead.
+- Nvidia's backstop is informal but real: an equity stake plus an agreement to buy unused capacity. Nvidia has a reason to keep its largest independent customer alive. It is not a guarantee.
+
+**Where Tesla had it easier**
+- Cost of capital: in 2019–21 Tesla raised money through convertible bonds at about 2% and sold shares at soaring valuations, with no liens on its assets. CoreWeave pays under 6% on secured debt and about 15% on unsecured parent bonds, with gilts and Treasuries at 4–5%.
+- Economics: Tesla owned the product and its margin, with operating leverage. CoreWeave keeps the spread between rent and interest plus depreciation ("balance sheet for hire", lessor-like).
+
+**Takeaway:** confidence is justified on survival, but the upside is capped. Key watch item is refinancing: whether the 2032 unsecured bonds can roll below about 15%. If they can, the stock re-rates; if they can't, the thin spread turns into shareholder dilution.
