@@ -40,3 +40,5 @@
 
 *Source: FMP API (stable/cash-flow-statement), cross-referenced against SEC 10-Q filings. Data as filed through 06/30/2026.*
 *Abbreviations: MRQ = Most Recent Quarter.*
+
+> ⚠️ **Data-quality flag (2026-10-22):** checked against Tesla's Q3 2026 8-K deck. The $2,002M SpaceX equity purchase was in **Q1 2026**, not Q2 (Q2 investment purchases per SEC = −$7,963M). "Dividends Paid $70M" in Q2 looks like Q1's distributions to noncontrolling interests (Q2 = $21M). Prefer SEC figures; see [../../2026-10-Q3-delta.md](../../2026-10-Q3-delta.md).

@@ -508,5 +508,6 @@ python3 robotaxi_revenue_model.py --scenario hypergrowth --market-json '{"us_met
 ---
 
 **Last updated:** 2026-05-20  
+**Post-print check:** 2026-10-22, Q3 2026 results reviewed in [2026-10-Q3-delta.md](2026-10-Q3-delta.md): thesis unchanged, no escalation trigger hit; ~2M cumulative unsupervised Robotaxi miles; the 5B-miles gate needs defining as supervised or unsupervised.  
 **Model version:** Reframed (autonomy maturity as primary risk, regulatory approval as secondary constraint)  
 **Status:** Bull case $15.9B PV (+$3.98/share); **optionality framework live** (Conservative $1.6B / Infrastructure $3.5B / Monopoly $7.1B); quarterly monitoring framework ready; probability-weighted expected value $2.0B (+$0.50/share); **critical risk: global expansion scenario destroys 80% of bull case value**
