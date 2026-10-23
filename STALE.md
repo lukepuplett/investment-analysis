@@ -49,7 +49,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **PH** | Parker-Hannifin | Yes | FY2026 Q2 | `2026_Q2_earnings_call_transcript.md` | Fresh |
 | **INTC** | Intel | Yes | Q2 2026 (ended 6/27/26) | `financials/2026_06/income_statement.md` | Fresh |
 | **GOOG** | Alphabet | Yes | Q2 2026 (ended 6/30/26) | `quarterly/2026_Q2_10q.htm` / `financials/2026_06/` | Fresh |
-| **TSLA** | Tesla | Yes | Q2 2026 (ended 6/30/26) | `quarterly/2026_Q2_10q.htm` / `financials/2026_06/` | Fresh |
+| **TSLA** | Tesla | Yes | Q3 2026 (ended 9/30/26) | `2026-10-Q3-delta.md` (8-K deck + 10-Q filed 2026-10-22) / `financials/2026_06/` | Fresh (Q3 financials folder not yet pulled) |
 | **CSCO** | Cisco | Yes | FY2026 Q4 (ended ~Jul 2026) | `2026_Q4_press_release.htm` | Fresh — most recent fiscal quarter closed |
 | **GTLB** | GitLab | Yes | FY2026 Q4 (~Jan 2026 FYE) | `2026_Q4_earnings_call.txt` | Fresh |
 | **SMCI** | Super Micro Computer | Yes | FY2026 / Q4 (YE 30 Jun 2026) | Ex. 99.1 (11 Aug) + 10-K (31 Aug); `analysis/2026_09_25_risk_audit.md` | ✅ Fresh — risk audit 2026-09-25 (period data FY2026; prior Q3 call still on file) |
