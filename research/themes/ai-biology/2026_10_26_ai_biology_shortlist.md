@@ -82,3 +82,9 @@ Speculative sleeve, if any: RXRX as a small option on the AI-maximalist case. Mo
 10. type1.science on zimislecel timing — https://type1.science/items/stem-cell-islets
 11. Vertex press releases (Q3 on 2 Nov; PDUFA on 30 Nov) — https://news.vrtx.com/press-releases
 12. BioNTech BNT327-03 — https://clinicaltrials.biontech.com/trials/BNT327-03
+
+## Luke's view (2026-10-26)
+
+Luke's note: I used to hold Illumina. It ran up high and then crashed. It just makes machines, and I suspect others can make the machines in the new world. It's distribution that matters for AI breakthroughs.
+
+Implication for this list: treat ILMN as a commoditising hardware supplier (competing sequencers already exist, for example Element, Ultima, MGI/Complete Genomics, PacBio and Oxford Nanopore) rather than a top-3 start. Favour names that control access to patients, prescribers, trial sites or proprietary clinical data: IQV (trial sites and patient data), TEM (oncologist and clinical data network) and LLY (global commercial reach to sell whatever gets discovered). ILMN is demoted to watch only.
