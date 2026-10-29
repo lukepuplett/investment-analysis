@@ -16,7 +16,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **MRNA** | Moderna | No (watchlist / interest) | Q2 2026 (6/30/2026) | `mrna/quarterly/2026_Q2_summary.txt` | ✅ Fresh — first-pass Sep 2026; Ph3 INT melanoma Aug 19 |
 | **LASE** | Laser Photonics | No (watchlist) | Q2 2026 (6/30/2026) | `financials/2026_09/income_statement.md` | Recent — refreshed with Q1+Q2 2026 10-Q data |
 | **RYCEY** | Rolls-Royce | Yes | H1 2026 (30 Jul 2026) | `quarterly/2026_H1_results.txt` | ✅ Fresh — H1 2026 results; FY26 guidance raised |
-| **MSFT** | Microsoft | Yes | FY2026 Q4 (year-end Jun 2026) | `quarterly/2026_Q4_summary.txt` | ✅ Fresh — FY2026 complete; FY27 Q1 guidance issued |
+| **MSFT** | Microsoft | Yes | FY2027 Q1 (9/30/2026) | `2026-10-FY27Q1-delta.md` (8-K; 10-Q not yet reconciled) | ✅ Fresh — FY27 Q1 printed 28 Oct 2026 |
 | **MNTN** | MNTN | No (watchlist) | 2025 Q2 | `2025_Q2_presentation.md` | ⚠️ Very stale |
 | **SPCE** | Virgin Galactic | Yes | Q2 2026 (6/30/2026) | `quarterly/2026_Q2_summary.txt` | ✅ Fresh — Q2 2026 data; going concern, $286M cash |
 | **DUK** | Duke Energy | No (watchlist) | 2025 Q2 | `2025_Q2_transcript.txt` | ⚠️ Very stale |
@@ -48,7 +48,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **KLIC** | Kulicke & Soffa | Yes | FY2026 Q3 (7/4/2026) | `quarterly/2026_Q3_10q.htm` / `financials/2026_10/` | ✅ Fresh — Q3 beat; Q4 guide $375M; next print est. Nov 17–18, 2026 |
 | **PH** | Parker-Hannifin | Yes | FY2026 Q2 | `2026_Q2_earnings_call_transcript.md` | Fresh |
 | **INTC** | Intel | Yes | Q2 2026 (ended 6/27/26) | `financials/2026_06/income_statement.md` | Fresh |
-| **GOOG** | Alphabet | Yes | Q2 2026 (ended 6/30/26) | `quarterly/2026_Q2_10q.htm` / `financials/2026_06/` | Fresh |
+| **GOOG** | Alphabet | Yes | Q3 2026 (ended 9/30/26) | `2026-10-Q3-delta.md` (8-K; 10-Q not yet reconciled) | Fresh — Q3 printed 28 Oct 2026 |
 | **TSLA** | Tesla | Yes | Q3 2026 (ended 9/30/26) | `2026-10-Q3-delta.md` (8-K deck + 10-Q filed 2026-10-22) / `financials/2026_06/` | Fresh (Q3 financials folder not yet pulled) |
 | **CSCO** | Cisco | Yes | FY2026 Q4 (ended ~Jul 2026) | `2026_Q4_press_release.htm` | Fresh — most recent fiscal quarter closed |
 | **GTLB** | GitLab | Yes | FY2026 Q4 (~Jan 2026 FYE) | `2026_Q4_earnings_call.txt` | Fresh |
