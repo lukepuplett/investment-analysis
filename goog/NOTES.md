@@ -16,3 +16,9 @@ Held: yes, a large position (per Luke, 29 Oct 2026).
 - Charlie's view: the mix matters for valuation, because search was capital-light while Cloud needs about $200B a year of capex. Google's edge is owning the whole chain (TPUs, data centres, models, distribution), so it avoids paying Nvidia's margin; external TPU sales in 2027 would add the chip margin.
 - Anthropic stake: Google holds over 5% of Anthropic, capped at 14.99% (see ant/README.md). On Luke's $2T ANT valuation, a 13% stake is about $260B, so the 29 Oct sell-off roughly priced the stake at zero.
 - Risks to watch quarter by quarter: search revenue per query, capex vs FCF, and the size and price of the ANT stake once the S-1/A lands.
+
+## 2026-10-30 — Stake values from the Q3 10-Q (filed Oct 2026, accession 0001652044-26-000084)
+
+- SpaceX: $75.2B of SpaceX shares at 30 Sep 2026, inside marketable equity securities, subject to short-term sale restrictions. Q3 OI&E fell mainly on unrealized SpaceX losses after its June IPO.
+- Anthropic (not named; the filing says "one private company"): non-marketable equity under the measurement alternative carried at $128.2B (cost $48.6B, cumulative upward adjustments $88.8B), "primarily" that one company. Also $20.0B of future capital commitments to a private company, contingent on milestones through 2030, booked as an equity derivative. That matches the $20B undrawn on the Anthropic note.
+- Carrying value is set at the last priced round, not the IPO. On Luke's $2T IPO guess, a 12–14% stake would be about $240–280B, roughly $110–150B above book.
