@@ -1,6 +1,6 @@
 # Data Staleness Table
 
-**Last updated: 2026-10-02**
+**Last updated: 2026-10-30**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
@@ -23,7 +23,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **FLR** | Fluor | — | 2025 Q2 | `2025_Q2_presentation.txt` | ⚠️ Very stale |
 | **CAT** | Caterpillar | No (watchlist) | 2025 Q2 | `2025_Q2_financial_review_presentation.md` | ⚠️ Very stale |
 | **CVCO** | Cavco Industries | No (watchlist) | FY2026 Q2 (~Sep 2025) | `2025_Q2_transcript.txt` | ⚠️ Very stale |
-| **AMZN** | Amazon | Yes | Q2 2026 (6/30/2026) | `quarterly/2026_Q2_summary.txt` | ✅ Fresh — Q2 2026; AWS +37%, $93.7B OI TTM |
+| **AMZN** | Amazon | Yes | Q3 2026 (9/30/2026) | `2026-10-Q3-delta.md` (8-K Ex 99.1; 10-Q not yet reconciled) | ✅ Fresh — Q3 printed 29 Oct 2026; AWS +39%, OI $28.1B |
 | **DASH** | DoorDash | — | 2025 Q3 | `2025_Q3_press_release.md` | Stale |
 | **DRO** | DroneShield | Yes | 1H 2026 (30 Jun 2026) | `quarterly/2026_H1_4d_notes.md` | Fresh |
 | **LYB** | LyondellBasell | — | 2025 Q3 | `2025_Q3_press_release.txt` | Stale |
@@ -41,13 +41,13 @@ Sorted most stale → most current as of the last-updated date above.
 | **IBM** | IBM | — | 2026 Q1 | `2026_Q1_earnings_call.txt` | Recent |
 | **PLAB** | Photronics | — | FY2026 Q1 | `2026_Q1_earnings_call_transcript.txt` | Recent |
 | **RKLB** | Rocket Lab | Yes | Q2 2026 (6/30/2026) | `quarterly/2026_Q2_summary.txt` / `financials/2026_06/` | ✅ Fresh — Q2 2026 + Sep Iridium financing / Electron ops |
-| **TT** | Trane Technologies | Yes | 2026 Q1 | `2026_Q1_press_release.txt` | Recent |
-| **NET** | Cloudflare (`cloudflare/`) | Yes | 2026 Q1 | `2026_Q1_earnings_call_analysis.md` | Recent |
+| **TT** | Trane Technologies | Yes | Q3 2026 (9/30/2026) | `2026-10-Q3-delta.md` (8-K Ex 99.1; 10-Q filed 29 Oct, not yet reconciled) | ✅ Fresh — Q3 printed 29 Oct 2026; backlog $12.5B; FY rev guide raised |
+| **NET** | Cloudflare (`cloudflare/`) | Yes | 2026 Q1 | `2026_Q1_earnings_call_analysis.md` | Stale-ish — Q2 not pulled; **Q3 confirmed for 5 Nov 2026** (after close) |
 | **AMAT** | Applied Materials | Yes | FY2026 Q2 | `2026_Q2_press_release.txt` | Fresh |
-| **GLW** | Corning | Yes | 2026 Q2 | `2026_Q2_earnings_call_transcript.txt` | Fresh |
+| **GLW** | Corning | Yes | Q3 2026 (9/30/2026) | `2026-10-Q3-delta.md` (8-K Ex 99; 10-Q filed 29 Oct, not yet reconciled) | ✅ Fresh — Q3 printed 27 Oct 2026; core sales +19% |
 | **KLIC** | Kulicke & Soffa | Yes | FY2026 Q3 (7/4/2026) | `quarterly/2026_Q3_10q.htm` / `financials/2026_10/` | ✅ Fresh — Q3 beat; Q4 guide $375M; next print est. Nov 17–18, 2026 |
 | **PH** | Parker-Hannifin | Yes | FY2026 Q2 | `2026_Q2_earnings_call_transcript.md` | Fresh |
-| **INTC** | Intel | Yes | Q2 2026 (ended 6/27/26) | `financials/2026_06/income_statement.md` | Fresh |
+| **INTC** | Intel | Yes | Q3 2026 (ended 9/26/26) | `2026-10-Q3-delta.md` (8-K Ex 99.1; 10-Q not yet reconciled) | ✅ Fresh — Q3 printed 29 Oct 2026; DCAI +78% |
 | **GOOG** | Alphabet | Yes | Q3 2026 (ended 9/30/26) | `2026-10-Q3-delta.md` (8-K; 10-Q not yet reconciled) | Fresh — Q3 printed 28 Oct 2026 |
 | **TSLA** | Tesla | Yes | Q3 2026 (ended 9/30/26) | `2026-10-Q3-delta.md` (8-K deck + 10-Q filed 2026-10-22) / `financials/2026_06/` | Fresh (Q3 financials folder not yet pulled) |
 | **CSCO** | Cisco | Yes | FY2026 Q4 (ended ~Jul 2026) | `2026_Q4_press_release.htm` | Fresh — most recent fiscal quarter closed |
@@ -57,6 +57,7 @@ Sorted most stale → most current as of the last-updated date above.
 ## Notes
 
 
+- **2026-10-30:** Q3 2026 post-print delta notes added for **INTC** (29 Oct), **AMZN** (29 Oct), **GLW** (27 Oct) and **TT** (29 Oct), all from 8-K Ex 99.1 with 10-Qs not yet reconciled. Not yet printed: **AAPL** FQ4 FY26 confirmed **2 Nov 2026** (still no `aapl/` folder), **NET** Q3 confirmed **5 Nov 2026**, **SMCI** FY27 Q1 call **3 Nov 2026** (8-K preliminary on 20 Oct: revenue $18.5–19.5B vs $14.5–15.5B guide, GM 12.0–12.5%).
 - **2026-10-15:** **DRO** got a mid-October FY26 committed-revenue stamp (A$261M, at the midpoint of guidance; `dro/analysis/2026_10_15_committed_revenue_update.md`). No Q3 Appendix 4C is coming: ASX confirmed on 18 May 2026 that DroneShield no longer has to lodge quarterly 4Cs (last one was 1Q2026, 22 Apr). It now reports half- and full-year only, so the period stays 1H 2026 until FY2026 results (~Feb 2027).
 - **2026-10-02:** Added **NVDA** (NVIDIA) first-pass folder — **held**; FY2027 Q2 (period 7/26/2026) SEC 10-Q + Aug 26 earnings; THINKING_FRAMEWORK scorecard in `nvda/analysis/2026_10_scorecard.md`; stance **HOLD**; post–Q3 delta placeholder only.
 - **2026-09-28:** Added **AVGO** (Broadcom) first-pass research folder — **held**; FY2026 Q3 (period 8/2/2026) SEC 10-Q + Sep 2 earnings PR; THINKING_FRAMEWORK thesis in `avgo/analysis/2026_09_investment_thesis.md`; stance **HOLD**.
