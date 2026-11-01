@@ -3,3 +3,8 @@ date,item,region,metric,currency,value,p25,p75,n,price_type,source,notes
 2022-10-12,RTX 4090 FE,UK,launch_rrp,GBP,1679,,,,list,NVIDIA UK,announced; ~1699 at launch per KitGuru
 2026-10-24,RTX 4090,UK,used_median,GBP,2862.70,2735,3041,16,ebay_bin_asking,eBay UK (Lily),UK sellers; used working cards; excl 4090D/parts/laptop
 2026-10-24,RTX 4090,US,used_median,USD,3600,3399,4500,51,ebay_bin_asking,eBay US (Lily),US sellers; used working cards; first 200 of 1092 results
+2026-11-01,RTX 4090,UK,used_median,GBP,2811.70,2752.50,3155.19,12,ebay_bin_asking,eBay UK (box browser),UK sellers; used working cards; excl 4090D/parts/laptop/eGPU; sold view needs sign-in; ~11 rows unpriced in read
+2026-11-01,RTX 4090,US,used_median,USD,4648.99,3799,4750,17,ebay_bin_asking,eBay US (box browser),US sellers; used working cards incl Best Offer; excl 4090D/parts/eGPU and one *READ* listing; small sample (most results non-4090)
+2026-11-01,H100 SXM,US,rent_hourly,USD,4.29,,,,rental_quote,Lambda on-demand 1x,lambda.ai/pricing; 8x instance 3.99/GPU-hr
+2026-11-01,H100 SXM,US,rent_hourly,USD,3.99,,,,rental_quote,Runpod Secure Cloud,runpod.io/pricing (updated 2026-10-28)
+2026-11-01,H100 SXM,US,rent_hourly,USD,2.69,,,,rental_quote,Runpod Community Cloud,runpod.io/pricing (updated 2026-10-28)
