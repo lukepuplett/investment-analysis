@@ -1,6 +1,6 @@
 # Data Staleness Table
 
-**Last updated: 2026-10-30**
+**Last updated: 2026-11-02**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
@@ -14,7 +14,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **NVDA** | NVIDIA | Yes | FY2027 Q2 (7/26/2026) | `nvda/quarterly/2026_Q2_summary.txt` / `2026_Q2_10q.htm` | ✅ Fresh — first-pass Oct 2026; Q2 rev $96.2B; Q3 guide $108B; next print ~Nov 18, 2026 |
 | **AVGO** | Broadcom | Yes | FY2026 Q3 (8/2/2026) | `avgo/quarterly/2026_Q3_summary.txt` / `2026_Q3_10q.htm` | ✅ Fresh — first-pass Sep 2026; Q3 record revenue/FCF; AI semi $16.7B |
 | **MRNA** | Moderna | No (watchlist / interest) | Q2 2026 (6/30/2026) | `mrna/quarterly/2026_Q2_summary.txt` | ✅ Fresh — first-pass Sep 2026; Ph3 INT melanoma Aug 19 |
-| **LASE** | Laser Photonics | No (watchlist) | Q2 2026 (6/30/2026) | `financials/2026_09/income_statement.md` | Recent — refreshed with Q1+Q2 2026 10-Q data |
+| **LASE** | Laser Photonics | No (watchlist) | Q2 2026 (6/30/2026) | `financials/2026_09/income_statement.md`; `2026-11-pre-Q3-update.md` (Oct 8-Ks) | Recent — Q3 not yet printed; **confirmed 12 Nov 2026 BMO**; Oct: founder Nikitin Exec Chair, CFO permanent, Nasdaq $1 bid notice (cure by 19 Apr 2027) |
 | **RYCEY** | Rolls-Royce | Yes | H1 2026 (30 Jul 2026) | `quarterly/2026_H1_results.txt` | ✅ Fresh — H1 2026 results; FY26 guidance raised |
 | **MSFT** | Microsoft | Yes | FY2027 Q1 (9/30/2026) | `2026-10-FY27Q1-delta.md` (8-K; 10-Q not yet reconciled) | ✅ Fresh — FY27 Q1 printed 28 Oct 2026 |
 | **MNTN** | MNTN | No (watchlist) | 2025 Q2 | `2025_Q2_presentation.md` | ⚠️ Very stale |
@@ -56,6 +56,7 @@ Sorted most stale → most current as of the last-updated date above.
 
 ## Notes
 
+- **2026-11-02 (morning UK):** No new prints since 30 Oct (EDGAR checked: no Item 2.02 8-Ks for AAPL, NET, SMCI, DDOG, CRWV, RKLB, SPCE, PH, CSCO, AMAT or LASE). Confirmed dates: **AAPL** FQ4 FY26 today, 2 Nov (21:30 UK time); **SMCI** FY27 Q1 3 Nov (22:00 UK); **DDOG** 4 Nov BMO (call 13:00 UK); **PH** FY27 Q1 5 Nov BMO (call 16:00 UK); **NET** 5 Nov after close; **RKLB** 9 Nov after close; **CRWV** 10 Nov (call 22:00 UK); **ENR.DE** 11 Nov 07:00 CET; **LASE** 12 Nov BMO (call 13:00 UK); **AMAT**, **CSCO** and **SPCE** 12 Nov after close. LASE pre-print governance note added (`lase/2026-11-pre-Q3-update.md`).
 
 - **2026-10-30:** Q3 2026 post-print delta notes added for **INTC** (29 Oct), **AMZN** (29 Oct), **GLW** (27 Oct) and **TT** (29 Oct), all from 8-K Ex 99.1 with 10-Qs not yet reconciled. Not yet printed: **AAPL** FQ4 FY26 confirmed **2 Nov 2026** (still no `aapl/` folder), **NET** Q3 confirmed **5 Nov 2026**, **SMCI** FY27 Q1 call **3 Nov 2026** (8-K preliminary on 20 Oct: revenue $18.5–19.5B vs $14.5–15.5B guide, GM 12.0–12.5%).
 - **2026-10-15:** **DRO** got a mid-October FY26 committed-revenue stamp (A$261M, at the midpoint of guidance; `dro/analysis/2026_10_15_committed_revenue_update.md`). No Q3 Appendix 4C is coming: ASX confirmed on 18 May 2026 that DroneShield no longer has to lodge quarterly 4Cs (last one was 1Q2026, 22 Apr). It now reports half- and full-year only, so the period stays 1H 2026 until FY2026 results (~Feb 2027).
