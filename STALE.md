@@ -1,12 +1,12 @@
 # Data Staleness Table
 
-**Last updated: 2026-11-02**
+**Last updated: 2026-11-03**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
 Sorted most stale → most current as of the last-updated date above.
 
-**Held?** = whether this is an active position, as distinct from a name we merely research/watch. Confirmed / updated by the user as of **2026-09-18** (interest open): **held** = AAPL, AMAT, AMZN, ASML, AVGO, CLOUDFLARE/NET, CRWV, CSCO, DDOG, DRO, ENR.DE, GLW, GOOG, GTLB, HOOD, INTC, KLIC, MSFT, NVDA, PH, RKLB, RYCEY, SMCI, SPCE, TSLA, TT; **not held (watchlist)** = MNTN, DUK, CAT, CVCO, LASE. Sep 2026 additions / explicit confirms vs 2026-09-12 list: **AVGO, NVDA, AAPL, PH**. Prior held names (CSCO, GLW, CLOUDFLARE/NET, DRO, AMZN, SPCE, etc.) retained — user said *add*, not replace. **AAPL** still lacks a dedicated ticker folder (AVGO added 2026-09-28; **NVDA** added 2026-10-02).
+**Held?** = whether this is an active position, as distinct from a name we merely research/watch. Confirmed / updated by the user as of **2026-09-18** (interest open): **held** = AAPL, AMAT, AMZN, ASML, AVGO, CLOUDFLARE/NET, CRWV, CSCO, DDOG, DRO, ENR.DE, GLW, GOOG, GTLB, HOOD, INTC, KLIC, MSFT, NVDA, PH, RKLB, RYCEY, SMCI, SPCE, TSLA, TT; **not held (watchlist)** = MNTN, DUK, CAT, CVCO, LASE. Sep 2026 additions / explicit confirms vs 2026-09-12 list: **AVGO, NVDA, AAPL, PH**. Prior held names (CSCO, GLW, CLOUDFLARE/NET, DRO, AMZN, SPCE, etc.) retained — user said *add*, not replace. `aapl/` folder created 2026-11-03 (FQ4 FY26 delta note; no full thesis doc yet) (AVGO added 2026-09-28; **NVDA** added 2026-10-02).
 
 
 | Ticker | Company | Held? | Latest Period on File | Source Doc | Staleness |
@@ -23,6 +23,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **FLR** | Fluor | — | 2025 Q2 | `2025_Q2_presentation.txt` | ⚠️ Very stale |
 | **CAT** | Caterpillar | No (watchlist) | 2025 Q2 | `2025_Q2_financial_review_presentation.md` | ⚠️ Very stale |
 | **CVCO** | Cavco Industries | No (watchlist) | FY2026 Q2 (~Sep 2025) | `2025_Q2_transcript.txt` | ⚠️ Very stale |
+| **AAPL** | Apple | Yes | FY2026 Q4 (9/26/2026) | `aapl/2026-11-Q4FY26-delta.md` (8-K Ex 99.1; 10-K not yet reconciled) | ✅ Fresh — FQ4 printed 2 Nov 2026; rev $114.5B (+12%), iPhone +17.5%, FY FCF ~$136B; no thesis doc yet |
 | **AMZN** | Amazon | Yes | Q3 2026 (9/30/2026) | `2026-10-Q3-delta.md` (8-K Ex 99.1; 10-Q not yet reconciled) | ✅ Fresh — Q3 printed 29 Oct 2026; AWS +39%, OI $28.1B |
 | **DASH** | DoorDash | — | 2025 Q3 | `2025_Q3_press_release.md` | Stale |
 | **DRO** | DroneShield | Yes | 1H 2026 (30 Jun 2026) | `quarterly/2026_H1_4d_notes.md` | Fresh |
@@ -56,6 +57,7 @@ Sorted most stale → most current as of the last-updated date above.
 
 ## Notes
 
+- **2026-11-03 (morning UK):** **AAPL** FQ4 FY26 printed 2 Nov; first `aapl/` file added (`aapl/2026-11-Q4FY26-delta.md`, from 8-K Ex 99.1). Rev $114.5B (+12%), GM 47.9% incl. ~1pt tariff refunds, EPS $2.10 (+14%). Next: **SMCI** tonight (3 Nov, call 22:00 UK).
 - **2026-11-02 (morning UK):** No new prints since 30 Oct (EDGAR checked: no Item 2.02 8-Ks for AAPL, NET, SMCI, DDOG, CRWV, RKLB, SPCE, PH, CSCO, AMAT or LASE). Confirmed dates: **AAPL** FQ4 FY26 today, 2 Nov (21:30 UK time); **SMCI** FY27 Q1 3 Nov (22:00 UK); **DDOG** 4 Nov BMO (call 13:00 UK); **PH** FY27 Q1 5 Nov BMO (call 16:00 UK); **NET** 5 Nov after close; **RKLB** 9 Nov after close; **CRWV** 10 Nov (call 22:00 UK); **ENR.DE** 11 Nov 07:00 CET; **LASE** 12 Nov BMO (call 13:00 UK); **AMAT**, **CSCO** and **SPCE** 12 Nov after close. LASE pre-print governance note added (`lase/2026-11-pre-Q3-update.md`).
 
 - **2026-10-30:** Q3 2026 post-print delta notes added for **INTC** (29 Oct), **AMZN** (29 Oct), **GLW** (27 Oct) and **TT** (29 Oct), all from 8-K Ex 99.1 with 10-Qs not yet reconciled. Not yet printed: **AAPL** FQ4 FY26 confirmed **2 Nov 2026** (still no `aapl/` folder), **NET** Q3 confirmed **5 Nov 2026**, **SMCI** FY27 Q1 call **3 Nov 2026** (8-K preliminary on 20 Oct: revenue $18.5–19.5B vs $14.5–15.5B guide, GM 12.0–12.5%).
