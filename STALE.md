@@ -53,10 +53,11 @@ Sorted most stale → most current as of the last-updated date above.
 | **TSLA** | Tesla | Yes | Q3 2026 (ended 9/30/26) | `2026-10-Q3-delta.md` (8-K deck + 10-Q filed 2026-10-22) / `financials/2026_06/` | Fresh (Q3 financials folder not yet pulled) |
 | **CSCO** | Cisco | Yes | FY2026 Q4 (ended ~Jul 2026) | `2026_Q4_press_release.htm` | Fresh — most recent fiscal quarter closed |
 | **GTLB** | GitLab | Yes | FY2026 Q4 (~Jan 2026 FYE) | `2026_Q4_earnings_call.txt` | Fresh |
-| **SMCI** | Super Micro Computer | Yes | FY2026 / Q4 (YE 30 Jun 2026) | Ex. 99.1 (11 Aug) + 10-K (31 Aug); `analysis/2026_09_25_risk_audit.md` | ✅ Fresh — risk audit 2026-09-25 (period data FY2026; prior Q3 call still on file) |
+| **SMCI** | Super Micro Computer | Yes | FY2027 / Q1 (to 30 Sep 2026) | 8-K Ex. 99.1 (3 Nov, prelim); `analysis/2026_11_04_Q1FY27_delta.md` | ✅ Fresh — Q1 FY27 delta 2026-11-04 (10-Q not yet reconciled) |
 
 ## Notes
 
+- **2026-11-04 (morning UK):** **SMCI** Q1 FY27 printed 3 Nov: rev $19.95B (+298%), GM 12.7%, non-GAAP EPS $1.81, OCF −$434M (helped by +$3.1B customer advances), FY27 guide raised to $72–82B. CFO said one customer was **44%** of Q1 revenue (FY26: 28.1%), which meets conditional trim trigger (a) from the 25 Sep audit pending 10-Q. Note: `smci/analysis/2026_11_04_Q1FY27_delta.md`. Next: **DDOG** today BMO (call 13:00 UK), **PH** + **NET** 5 Nov.
 - **2026-11-03 (morning UK):** **AAPL** FQ4 FY26 printed 2 Nov; first `aapl/` file added (`aapl/2026-11-Q4FY26-delta.md`, from 8-K Ex 99.1). Rev $114.5B (+12%), GM 47.9% incl. ~1pt tariff refunds, EPS $2.10 (+14%). Next: **SMCI** tonight (3 Nov, call 22:00 UK).
 - **2026-11-02 (morning UK):** No new prints since 30 Oct (EDGAR checked: no Item 2.02 8-Ks for AAPL, NET, SMCI, DDOG, CRWV, RKLB, SPCE, PH, CSCO, AMAT or LASE). Confirmed dates: **AAPL** FQ4 FY26 today, 2 Nov (21:30 UK time); **SMCI** FY27 Q1 3 Nov (22:00 UK); **DDOG** 4 Nov BMO (call 13:00 UK); **PH** FY27 Q1 5 Nov BMO (call 16:00 UK); **NET** 5 Nov after close; **RKLB** 9 Nov after close; **CRWV** 10 Nov (call 22:00 UK); **ENR.DE** 11 Nov 07:00 CET; **LASE** 12 Nov BMO (call 13:00 UK); **AMAT**, **CSCO** and **SPCE** 12 Nov after close. LASE pre-print governance note added (`lase/2026-11-pre-Q3-update.md`).
 
