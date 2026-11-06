@@ -4,6 +4,8 @@
 **Last refresh:** 2026-09-23  
 **Price context:** ~$182 (23 Sep 2026); market cap ~$72B; 52-week ~$22–$192 (Yahoo/FMP).
 
+**Supplement (2026-11-06):** [Platform and pipeline notes](analysis/2026_11_platform_and_pipeline_notes.md) — mechanism vs gene-silencing RNA modalities, FDA/EMA anchors for flu/RSV labeling pages, CMV congenital program discontinuation, terminated MMA study, evidence-stage caveats for INT, and risks (manufacturing, competition, funding). Keeps the September 2026 analysis files as the baseline snapshot.
+
 ## BLUF
 
 **WATCH / selective ACCUMULATE on pullbacks — do not chase the post–Phase 3 spike blind.**
@@ -63,4 +65,5 @@ Fundamentals underneath are still a **lossy commercial vaccine business** plus h
 
 - Moderna Q2 2026 PR (SEC exhibit): https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm (31 Jul 2026)
 - Merck/Moderna INTerpath-001 Ph3 topline: https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma (19 Aug 2026)
+- Nov 2026 supplement (mechanism, flu/RSV pages, discontinued CMV, MMA CT.gov): [2026_11_platform_and_pipeline_notes.md](analysis/2026_11_platform_and_pipeline_notes.md)
 - Yahoo/FMP quote snapshot 23 Sep 2026
