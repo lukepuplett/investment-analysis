@@ -1,6 +1,6 @@
 # Data Staleness Table
 
-**Last updated: 2026-11-05**
+**Last updated: 2026-11-06**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
@@ -43,11 +43,11 @@ Sorted most stale → most current as of the last-updated date above.
 | **PLAB** | Photronics | — | FY2026 Q1 | `2026_Q1_earnings_call_transcript.txt` | Recent |
 | **RKLB** | Rocket Lab | Yes | Q2 2026 (6/30/2026) | `quarterly/2026_Q2_summary.txt` / `financials/2026_06/` | ✅ Fresh — Q2 2026 + Sep Iridium financing / Electron ops |
 | **TT** | Trane Technologies | Yes | Q3 2026 (9/30/2026) | `2026-10-Q3-delta.md` (8-K Ex 99.1; 10-Q filed 29 Oct, not yet reconciled) | ✅ Fresh — Q3 printed 29 Oct 2026; backlog $12.5B; FY rev guide raised |
-| **NET** | Cloudflare (`cloudflare/`) | Yes | 2026 Q1 | `2026_Q1_earnings_call_analysis.md` | Stale-ish — Q2 not pulled; **Q3 still expected 5 Nov 2026 after close** (no Item 2.02 as of ~09:45 UK 5 Nov) |
+| **NET** | Cloudflare (`cloudflare/`) | Yes | Q3 2026 (9/30/2026) | `cloudflare/2026-11-Q3-delta.md` (8-K Ex 99.1; 10-Q filed 5 Nov, not yet reconciled) | ✅ Fresh — Q3 printed 5 Nov 2026; rev $782.5M (+39%); Current RPO +37% y/y; FY26 rev guide ~$2.963B |
 | **AMAT** | Applied Materials | Yes | FY2026 Q2 | `2026_Q2_press_release.txt` | Fresh |
 | **GLW** | Corning | Yes | Q3 2026 (9/30/2026) | `2026-10-Q3-delta.md` (8-K Ex 99; 10-Q filed 29 Oct, not yet reconciled) | ✅ Fresh — Q3 printed 27 Oct 2026; core sales +19% |
 | **KLIC** | Kulicke & Soffa | Yes | FY2026 Q3 (7/4/2026) | `quarterly/2026_Q3_10q.htm` / `financials/2026_10/` | ✅ Fresh — Q3 beat; Q4 guide $375M; next print est. Nov 17–18, 2026 |
-| **PH** | Parker-Hannifin | Yes | FY2026 Q2 | `2026_Q2_earnings_call_transcript.md` | Fresh — **FY27 Q1 expected 5 Nov BMO** (call ~16:00 UK); no Item 2.02 as of ~09:45 UK 5 Nov |
+| **PH** | Parker-Hannifin | Yes | FY2027 Q1 (9/30/2026) | `ph/2026-11-FY27Q1-delta.md` (8-K Ex 99.1; 10-Q filed 5 Nov, not yet reconciled) | ✅ Fresh — Q1 FY27 printed 5 Nov 2026; net sales $5.99B; organic +11.5%; backlog record $13.7B; adj EPS guide raised to $36.45–37.25 |
 | **INTC** | Intel | Yes | Q3 2026 (ended 9/26/26) | `2026-10-Q3-delta.md` (8-K Ex 99.1; 10-Q not yet reconciled) | ✅ Fresh — Q3 printed 29 Oct 2026; DCAI +78% |
 | **GOOG** | Alphabet | Yes | Q3 2026 (ended 9/30/26) | `2026-10-Q3-delta.md` (8-K; 10-Q not yet reconciled) | Fresh — Q3 printed 28 Oct 2026 |
 | **TSLA** | Tesla | Yes | Q3 2026 (ended 9/30/26) | `2026-10-Q3-delta.md` (8-K deck + 10-Q filed 2026-10-22) / `financials/2026_06/` | Fresh (Q3 financials folder not yet pulled) |
@@ -57,7 +57,8 @@ Sorted most stale → most current as of the last-updated date above.
 
 ## Notes
 
-- **2026-11-05 (morning UK):** **DDOG** Q3 printed 4 Nov (8-K accession 0001628280-26-069792): rev $1.197B (+35%), non-GAAP OI $334M (28% margin), non-GAAP EPS $0.81; Q4 rev guide $1.19–1.20B (~flat sequential) → stock −14.4% to $188.72. Note: `ddog/2026-11-Q3-delta.md`. **PH** (FY27 Q1, BMO / call ~16:00 UK) and **NET** (Q3 after close) — no Item 2.02 yet as of ~09:45 UK. **MRNA** Q3 still expected ~**6 Nov** (FMP; no 8-K). **LASE** still 12 Nov BMO.
+- **2026-11-06:** **PH** FY27 Q1 and **NET** Q3 printed **5 Nov 2026** (8-Ks: PH accession 0000076334-26-000170 Ex 99.1; NET 0001477333-26-000060 Ex 99.1). Delta notes: `ph/2026-11-FY27Q1-delta.md`, `cloudflare/2026-11-Q3-delta.md`. Form 10-Qs filed same day (**0000076334-26-000172**, **0001477333-26-000061**) — **not reconciled** in those notes. **MRNA** Q3 print watch unchanged (~6 Nov). **LASE** still 12 Nov BMO.
+- **2026-11-05 (morning UK):** **DDOG** Q3 printed 4 Nov (8-K accession 0001628280-26-069792): rev $1.197B (+35%), non-GAAP OI $334M (28% margin), non-GAAP EPS $0.81; Q4 rev guide $1.19–1.20B (~flat sequential) → stock −14.4% to $188.72. Note: `ddog/2026-11-Q3-delta.md`. **PH** (FY27 Q1, BMO / call ~16:00 UK) and **NET** (Q3 after close) — no Item 2.02 yet as of ~09:45 UK (both filed later 5 Nov; see **2026-11-06** line). **MRNA** Q3 still expected ~**6 Nov** (FMP; no 8-K). **LASE** still 12 Nov BMO.
 - **2026-11-04 (morning UK):** **SMCI** Q1 FY27 printed 3 Nov: rev $19.95B (+298%), GM 12.7%, non-GAAP EPS $1.81, OCF −$434M (helped by +$3.1B customer advances), FY27 guide raised to $72–82B. CFO said one customer was **44%** of Q1 revenue (FY26: 28.1%), which meets conditional trim trigger (a) from the 25 Sep audit pending 10-Q. Note: `smci/analysis/2026_11_04_Q1FY27_delta.md`. Next: **DDOG** today BMO (call 13:00 UK), **PH** + **NET** 5 Nov.
 - **2026-11-03 (morning UK):** **AAPL** FQ4 FY26 printed 2 Nov; first `aapl/` file added (`aapl/2026-11-Q4FY26-delta.md`, from 8-K Ex 99.1). Rev $114.5B (+12%), GM 47.9% incl. ~1pt tariff refunds, EPS $2.10 (+14%). Next: **SMCI** tonight (3 Nov, call 22:00 UK).
 - **2026-11-02 (morning UK):** No new prints since 30 Oct (EDGAR checked: no Item 2.02 8-Ks for AAPL, NET, SMCI, DDOG, CRWV, RKLB, SPCE, PH, CSCO, AMAT or LASE). Confirmed dates: **AAPL** FQ4 FY26 today, 2 Nov (21:30 UK time); **SMCI** FY27 Q1 3 Nov (22:00 UK); **DDOG** 4 Nov BMO (call 13:00 UK); **PH** FY27 Q1 5 Nov BMO (call 16:00 UK); **NET** 5 Nov after close; **RKLB** 9 Nov after close; **CRWV** 10 Nov (call 22:00 UK); **ENR.DE** 11 Nov 07:00 CET; **LASE** 12 Nov BMO (call 13:00 UK); **AMAT**, **CSCO** and **SPCE** 12 Nov after close. LASE pre-print governance note added (`lase/2026-11-pre-Q3-update.md`).

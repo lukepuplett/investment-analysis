@@ -11,6 +11,10 @@ Parker-Hannifin Corporation is a global leader in motion and control technologie
 - `quarterly/` - Quarterly earnings reports and SEC filings
 - `question_answers/` - Q&A documentation
 
+## Post-print deltas (8-K Ex 99.1)
+
+- [FY27 Q1 (period ended 30 Sep 2026)](2026-11-FY27Q1-delta.md) — filed 5 Nov 2026 (10-Q same day; not reconciled in note)
+
 ## Analysis Files
 
 ### Executive Summary (BLUF - Bottom Line Up Front)

@@ -1,6 +1,6 @@
 # CloudFlare, Inc. (NET)
 
-**Latest Update:** Q1 2026 (May 7, 2026)  
+**Latest Update:** Q3 2026 (5 Nov 2026) — post-print stamp: [`2026-11-Q3-delta.md`](2026-11-Q3-delta.md) (8-K Ex 99.1; 10-Q same day not reconciled). Older Q1 2026 narrative and tables below are **not** refreshed for Q3 yet.  
 **Ticker:** NET | **Market Cap:** ~$25-30B (est. from Q1 shares + stock price)  
 **Website:** https://www.cloudflare.com | **Investor Relations:** https://investors.cloudflare.com
 
@@ -537,6 +537,7 @@ Most investors focus on the headline 34% growth rate without accounting for scal
 
 ## Key Resources
 
+- **Latest post-print delta (Q3 2026):** `2026-11-Q3-delta.md`
 - **Latest Earnings Call:** `quarterly/2026_Q1_earnings_call.txt`
 - **Call Analysis:** `quarterly/2026_Q1_earnings_call_analysis.md` (boiled-down findings)
 - **SEC Filings:** [data.sec.gov/submissions](https://data.sec.gov/submissions)
@@ -554,6 +555,6 @@ Q4 2025 analysis is preserved under `analysis/2025_12_*` and `financials/2025_12
 
 ---
 
-**Document Version:** Q1 2026 | **Last Updated:** September 13, 2026 (folder consolidation from `net/` → `cloudflare/`)  
+**Document Version:** Q1 2026 (body; refresh pending) | **Last Updated:** November 6, 2026 (`2026-11-Q3-delta.md` post-print stamp)  
 **Analyst:** Investment Analysis Repository  
 **Next Review:** Post-Investor Day (June 9, 2026)
