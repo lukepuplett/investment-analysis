@@ -33,6 +33,16 @@ Filing index: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=213
 - When the S-1/A lands: record the price range, share count, implied valuation, Google and Amazon percentages, and the compute commitments total.
 - S-1/A No. 1 (2 Nov 2026) filled in commitment totals; ARR, price range and share count still blank — recheck on next amendment.
 
+## Python model (9 Nov 2026)
+
+S-1/A-based dilution and valuation workbook: [model/README.md](model/README.md) · script [model/ant_model.py](model/ant_model.py) · [model/output.md](model/output.md) (run the script to refresh). **Summary:** about **2.2bn** basic shares become about **16.3bn** fully diluted (**+642%**), and about **17.6bn** after the facilities are drawn; **$1.5tn** is about **$90** a share fully diluted, against **$58.90** for Series H.
+
+![Dilution waterfall](model/dilution_waterfall.png)
+
+![Revenue scenarios](model/revenue_scenarios.png)
+
+![Price per share vs valuation](model/price_per_share.png)
+
 ## TechFundies thread check (9 Nov 2026)
 
 **Sources:** [@TechFundies $ANT IPO thread, 8 Nov 2026](https://x.com/TechFundies/status/2119235577321267365) · [S-1, filed 26 Oct 2026](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm) · [S-1/A No. 1, filed 2 Nov 2026](https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm) (CIK 2130357; the latest amendment as of 9 Nov). The original S-1 left the commitment totals blank, and the S-1/A fills them in. Page numbers below refer to the S-1/A. The price range, share count offered and Run-Rate Revenue (ARR) are still blank in both filings.
