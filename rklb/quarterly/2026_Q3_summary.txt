@@ -1,0 +1,109 @@
+# Rocket Lab (RKLB) — Q3 FY2026 Summary
+## Period Ended September 30, 2026
+
+**Filing:** Form 8-K filed 2026-11-09 (Acc. 0001819994-26-000073); Exhibit 99.1
+**Earnings PR:** https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm
+**IR release:** https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-third-quarter-2026-financial-results-posts
+**Call date:** November 9, 2026 (2 p.m. PT / 5 p.m. ET), after the US cash close
+**Transcript:** [`2026_Q3_earnings_call.txt`](2026_Q3_earnings_call.txt) (full public third-party transcript from Stock Analysis)
+**CIK:** 0001819994
+**Compiled:** 2026-11-10 (Europe/London)
+
+This is a results / call note, not a new rating or valuation refresh. The September 16, 2026 README still carries the last formal recommendation (ACCUMULATE / BUILD) and fair-value band of $55–85 (base ~$65–75).
+
+---
+
+## Headline Numbers
+
+| Metric | Q3 2026 | Q2 2026 | Q3 2025 | Notes |
+|--------|--------:|--------:|--------:|-------|
+| Revenue | $267.8M | $234.1M | $155.1M | PR rounds to $268M; +73% YoY; +14.4% QoQ; ~$34M above Q2; beat prior guide $250–265M |
+| GAAP gross profit / GM | $90.1M / 33.6% | $84.6M / 36.1% | $57.3M / 37.0% | Beat Q3 guide of 29–31% GAAP GM |
+| Non-GAAP GM | 38.4% | — | 41.9% | Beat Q3 guide of 35–37% |
+| Operating loss | $(79.2)M | $(57.5)M | $(59.0)M | GAAP opex $169.3M vs guide $143–149M, mainly Iridium deal costs |
+| Net loss / GAAP EPS | $(79.7)M / $(0.12) | $(49.3)M / $(0.08) | $(18.3)M / $(0.03) | GAAP EPS, not a non-GAAP/adjusted EPS figure |
+| Adjusted EBITDA | $(18.0)M | — | $(26.3)M | Toward the low end (better) of the $17–23M loss guide |
+| GAAP operating cash flow | +$7.2M | use of $84.1M | — | First positive quarterly GAAP OCF called out in the PR |
+| Non-GAAP free cash flow | use of $23.9M | use of $110.1M | — | OCF less PP&E and capitalized software (call definition) |
+| Backlog | $3.57B | $2.36B | — | +52% QoQ (~+$1.2B); ~52% launch / 48% Space Systems |
+| Liquidity (cash, restricted cash, marketable securities) | ~$4.7B | $2.13B cash + $0.17B ST securities at Q2 | — | ATM completed in September |
+
+Backlog conversion: management said ~32.9% of current backlog is expected to convert into revenue within 12 months (vs ~45.5% after Q2 — more of the book is now longer-dated Neutron). An analyst noted the next-12-months backlog dollars were still up ~47% sequentially.
+
+---
+
+## Segment / Mix
+
+- Space Systems revenue $214.8M (+13.3% QoQ), driven by satellite platforms plus a full quarter of the laser-communications (Mynaric) and robotics acquisitions, and organic growth in other components/software.
+- Launch Services revenue $53.1M (+19% QoQ), from a two-launch increase in point-in-time Electron missions.
+- Space Systems is 48% of backlog ($1.7B). Year-to-date Space Systems bookings $688M (+319% vs 2025); $470M of that signed in Q3 alone.
+- Launch backlog 117 missions (company record). Q3 launch bookings were 54 missions, including eight Neutrons.
+- Approximately 12 Rocket Lab-built spacecraft launched in the past 12 months; more than 55 in development and build.
+- Electron: 99 launches at the time of the call, 96% reliability, production averaging one vehicle every eight work days; 100th launch expected “within the next week or so.”
+
+---
+
+## Neutron
+
+- First launch now targeted for **no earlier than 2027**. Beck said the slip followed voids found in the Stage 1 propellant-tank forward dome. A replacement dome has been laminated and cured and is described as clean; mid-assembly (barrel and common dome) is already stacked. Next steps: finish forward and aft assemblies, hydrostatic tests, ship to LC-3 for a cryogenic qual campaign, then integrate with other major assemblies already in Virginia.
+- Stage 2 has been delivered to LC-3 and is heading into cryogenic proof tests, then wet-dress rehearsals without an engine. The thrust module is on the LC-3 launch mount. Archimedes vacuum-variant cold-box testing is underway.
+- Q3 Neutron bookings: eight launches for roughly $515 million, taking the Neutron backlog to 16 missions. The $70 million figure is a new escalated **base price for several (not all)** of those missions; Spice said pricing “is at $70 million” already in backlog and “logically going up from that new baseline.” They declined some additional volume at a slightly lower price to protect ASP. Next available customer slots are in the 2030s, with capacity also being reserved for Rocket Lab’s own future space-services missions (long-term aim ~50/50 internal vs external, not immediately after first flight).
+- A forward loss reserve was recorded against Neutron Flight 2.
+- Beck would not give a 2027 month or quarter until the Stage 1 tank is through its test gauntlet.
+- On the path to 10 flights (the prior 1-3-5 cadence): they are not yet revising the published profile, but Beck said pressure to go faster is “overwhelming” and extra time is being used on engine and composite production/acceptance so cadence can rise after flight one.
+- Economics: Spice reiterated conviction that Neutron is a 50%+ non-GAAP gross-margin business at scale; higher ASPs help get there faster, but absorption from cadence matters more than bill-of-materials. Adj. EBITDA is expected to turn positive within about six months of a first successful test flight; cash-flow inflection comes later and depends on how aggressively they invest in the reusable fleet. (This clarifies an earlier “cash-flow positive ~six months after first flight” formulation: that timing now attaches to adjusted EBITDA.)
+- During the call, a ~$150 million Office of Strategic Capital loan commitment was announced (Spice: about SOFR + 100 bp), described as non-dilutive capital to help scale, Neutron in particular. Terms should be confirmed from the subsequent official notice; they were discussed live, not in the pre-released 8-K.
+
+---
+
+## Iridium and other corporate
+
+- The pending Iridium acquisition is described as fully financed. Spice said the ATM completed in September generated approximately $2.4 billion of gross proceeds from 36.8 million shares (this is a later/completing figure vs the 15 Sep 8-K’s $1.944 billion / ~29.3 million shares). The $3.6 billion bridge was terminated. Iridium’s credit facility is secured for after close; Iridium shareholders have approved. Remaining work is regulatory (including the FCC). No new close date was given beyond the previously targeted mid-2027 window.
+- GAAP EPS widened sequentially mainly because of Iridium transaction costs in SG&A and other income, including termination of the bridge commitment and a $9.4 million expense tied to the change of control of Iridium’s existing term loan B, plus a $27.3 million loss on extinguishment of debt, and higher Neutron engine/composites spend (including the Stage 1 tank rebuild).
+- Q4 net interest income is guided at $45 million, a function of the elevated cash balance.
+
+---
+
+## Q4 2026 Outlook (company guidance)
+
+- Revenue $270–290 million (4.5% QoQ growth at the midpoint; +55.9% YoY). Stronger launch revenue (point-in-time and over-time) partly offset by a decline in Space Systems (solar and satellite platforms coming off a strong Q3; the rest of Space Systems expected up).
+- GAAP GM 34–36%; non-GAAP GM 39–41% (sequential improvement from mix).
+- GAAP opex $162–168 million; non-GAAP opex $136–142 million (Neutron development, testing, and readiness).
+- Net interest income $45 million.
+- Adjusted EBITDA loss $14–20 million.
+- Basic WASO ~681 million, including ~41 million Series A preferred.
+- Non-GAAP free cash flow expected to remain negative at elevated levels.
+
+Spice also said a ~20% launch CAGR is not seen as at risk, and 2027 launch growth “might be should be better” than 2025–2026, subject to customer payload readiness. HASTE could be roughly 25% of small dedicated launches next year (Beck: nominally something like 15 HASTE missions, highly customer-dependent). Alaska (two pads, not one) remains on track for 2027. MACH-TB / HASTE reconciliation risk was described as low. Continuing-resolution risk was also called relatively low for Rocket Lab’s programs.
+
+---
+
+## Share-price context (9–10 November 2026)
+
+- Regular session 9 Nov 2026: closed **$58.86**, up 10.91% on the day (open $54.31, high $59.69, low $53.01). Sources: Yahoo Finance; Stock Analysis.
+- After-hours on 9 Nov was **not** ~$55.50. End-of-after-hours prints clustered around **$54.94–$55.02** (Public.com $54.94 / −6.66%; Stock Analysis $54.99 at 7:59 p.m. ET / −6.57%; Investing.com $55.02 / −6.52%).
+- Overnight / early 10 Nov (Yahoo Blue Ocean ATS) was around **$54.45–$54.50**.
+- That after-hours/overnight range sits at the low end of the September README fair-value / accumulate band of **$55–85**. No new recommendation is made here.
+
+---
+
+## Call takeaways (plain language)
+
+1. Demand and pricing for launch, especially Neutron, are the core of the story: $515 million of Neutron orders in one quarter, 16 missions booked before first flight, and management turning away cheaper volume because they think prices have further to rise.
+2. The Neutron delay is real and specific (a Stage 1 tank dome that had to be remade). Hardware is arriving at Wallops and testing is running in parallel, but Beck refused to pin a 2027 month until that tank is through tests.
+3. Space Systems is now the larger, more diversified revenue engine this quarter ($215 million vs $53 million of launch) and continues to book large, lumpy platform work, with 55+ spacecraft in build.
+4. Reported EPS looks worse than the operating beat: revenue and gross margins cleared guidance, but GAAP costs jumped on Iridium deal expenses, a debt-extinguishment charge, and Neutron development, leaving a $0.12 GAAP loss. Cash on the balance sheet is very large because of the ATM.
+5. Cash-flow quality improved this quarter (positive GAAP OCF, much smaller FCF burn) on lumpy satellite milestone payments, but management was clear that lasting cash generation still waits on Neutron entering production — and on closing Iridium.
+6. Q&A themes: how fast they can scale Neutron after flight one; whether Electron/HASTE prices also rise as rideshare alternatives fade; Orbital data-center skepticism on economics (more constructive on defense/secure-comms use-cases); Iridium spectrum (happy with L-band for now, no imminent extra-spectrum deal); solidity of Neutron backlog (real deposits and cancellation fees, not options); and a new ~$150 million US government growth loan discussed live on the call.
+
+---
+
+## Sources
+
+- Official 8-K / EX-99.1: https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/
+- Official EX-99.1: https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm
+- IR press release: https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-third-quarter-2026-financial-results-posts
+- Full call transcript (Stock Analysis): https://stockanalysis.com/stocks/rklb/transcripts/729286-q3-2026/
+- Also compared against: https://www.investing.com/news/transcripts/earnings-call-transcript-rocket-lab-beats-revenue-in-q3-2026-stock-swings-lower-after-hours-93CH-5013696
+- Session close: https://finance.yahoo.com/quote/RKLB/history/ and https://stockanalysis.com/stocks/rklb/history/
+- After-hours: https://public.com/stocks/rklb/after-hours ; Stock Analysis after-hours stamp 7:59 p.m. ET 9 Nov 2026

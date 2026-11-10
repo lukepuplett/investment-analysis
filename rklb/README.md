@@ -1,6 +1,30 @@
 # Rocket Lab (RKLB) Investment Analysis
 
-**Current Price:** ~$62 (Sep 14–16, 2026) | **Analysis Updated:** September 16, 2026 | **Prior Price Point (May README):** $100 | **Market Cap:** ~$40B | **Q2 2026 Earnings:** August 10, 2026
+**Current Price (last formal thesis):** ~$62 (Sep 14–16, 2026) | **Analysis Updated:** September 16, 2026 (thesis); November 10, 2026 (Q3 results filing) | **Prior Price Point (May README):** $100 | **Market Cap (mid-Sep):** ~$40B | **Q2 2026 Earnings:** August 10, 2026 | **Q3 2026 Earnings:** November 9, 2026
+
+---
+
+## Q3 2026 Results (filed 9 Nov 2026; note added 10 Nov 2026, Europe/London)
+
+Light results filing only — **not a new rating or fair-value refresh.** The September 16 thesis and **$55–85** accumulate / FV band (base ~$65–75; ACCUMULATE / BUILD) remain the last formal recommendation.
+
+Q3 print (official 8-K / EX-99.1, Acc. 0001819994-26-000073, period ended 30 Sep 2026):
+
+- Record revenue **$267.8 million** (PR rounds to $268 million), **+73% YoY** and +14.4% QoQ, above the $250–265 million guide.
+- GAAP EPS **$(0.12)** (net loss $79.7 million). This is GAAP, not a non-GAAP EPS figure; the miss vs a ~$(0.07) street loss largely reflects Iridium transaction costs, a $27.3 million debt-extinguishment charge, and higher Neutron spend.
+- Backlog **$3.57 billion**, **+52% QoQ** (~+$1.2 billion).
+- **>$515 million** of Neutron contracts in Q3 across **eight** missions, taking Neutron’s backlog to **16 missions**. The **$70 million** figure is the new base price for **several** of those missions, not every Neutron slot.
+- Q4 revenue guide **$270–290 million**; GAAP GM 34–36%; adjusted EBITDA loss $14–20 million.
+- Neutron first launch **no earlier than 2027** (Stage 1 tank forward-dome voids; replacement hardware in work, no month given).
+- Positive Q3 GAAP operating cash flow of **$7.2 million**; cash, restricted cash and marketable securities ~**$4.7 billion** after the completed ATM.
+- Stock: regular-session close **$58.86** on 9 Nov 2026 (+10.91%). After-hours settled around **$54.94–$55.02**, not ~$55.50; overnight 10 Nov was ~$54.45–$54.50. That after-hours range sits at the low end of the existing **$55–85** band.
+
+Full note, official PR extract, and call transcript:
+
+- [`quarterly/2026_Q3_summary.txt`](quarterly/2026_Q3_summary.txt)
+- [`quarterly/2026_Q3_press_release.txt`](quarterly/2026_Q3_press_release.txt)
+- [`quarterly/2026_Q3_earnings_call.txt`](quarterly/2026_Q3_earnings_call.txt) (full public transcript; source [Stock Analysis](https://stockanalysis.com/stocks/rklb/transcripts/729286-q3-2026/))
+- Official EX-99.1: https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm
 
 ---
 
@@ -74,6 +98,7 @@ Rocket Lab is a vertically integrated end-to-end space company:
 ## Analysis Status (September 2026)
 
 ### Latest
+- [x] **Q3 2026 results (9 Nov 2026)** — [`quarterly/2026_Q3_summary.txt`](quarterly/2026_Q3_summary.txt), [`2026_Q3_press_release.txt`](quarterly/2026_Q3_press_release.txt), [`2026_Q3_earnings_call.txt`](quarterly/2026_Q3_earnings_call.txt). Facts only; September thesis / $55–85 band not refreshed.
 - [x] **Delta Analysis** — [`analysis/2026_09_delta_analysis.md`](analysis/2026_09_delta_analysis.md)
 - [x] **Q2 financials** — [`financials/2026_06/`](financials/2026_06/)
 - [x] **Q2 quarterly extracts** — [`quarterly/2026_Q2_summary.txt`](quarterly/2026_Q2_summary.txt), [`2026_Q2_press_release.txt`](quarterly/2026_Q2_press_release.txt)
@@ -134,7 +159,7 @@ rklb/
 ├── financials/
 │   ├── 2025_04/ 2025_05/ 2025_12/
 │   └── 2026_06/       # Q2 2026 statements + yahoo_stats
-└── quarterly/         # 2026_Q1 call; 2026_Q2_*; 2026_09_* event extracts
+└── quarterly/         # 2026_Q1 call; 2026_Q2_*; 2026_Q3_* (call, PR, summary); 2026_09_* event extracts
 ```
 
 ---
@@ -145,6 +170,8 @@ rklb/
 - Q2 earnings PR: https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-08102026ex991.htm
 - Iridium financing 8-K (2026-09-15): https://www.sec.gov/Archives/edgar/data/1819994/000175392626001769/
 - Spaceflight Now Neutron (2026-08-10); Space.com launch & GAO (2026-09-11); pv magazine IMM Apex (2026-09-11)
+- Q3 2026 8-K / EX-99.1 (filed 2026-11-09): https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/
+- Q3 call transcript (Stock Analysis): https://stockanalysis.com/stocks/rklb/transcripts/729286-q3-2026/
 - Company IR: https://investors.rocketlabcorp.com/ | https://www.rocketlabcorp.com/
 
 ---
@@ -153,5 +180,6 @@ rklb/
 
 Educational / research use only — not financial advice. Verify filings and quotes before acting.
 
-**Last Updated:** September 16, 2026  
-**Next Review:** Q3 2026 earnings (est. early November 2026) or Neutron pad-delivery milestone
+**Last formal thesis update:** September 16, 2026  
+**Q3 results files added:** November 10, 2026 (Europe/London)  
+**Next Review:** A full thesis / FV refresh after digesting Q3, or a Neutron pad-delivery / Flight 1 timing update
