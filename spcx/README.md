@@ -6,6 +6,7 @@ Public since **12 June 2026** (Nasdaq: SPCX). This folder collects filings and m
 
 **[analysis/2026_11_model_inputs.md](analysis/2026_11_model_inputs.md)** — register of HARD / PROXY / GUESS inputs (canonical sources for the model).
 - [Valuation snapshot, 11 Nov 2026](analysis/2026_11_valuation_snapshot.md) — rough multiples on filed Q3 numbers plus a reverse test
+- [Synthesis, 11 Nov 2026](analysis/2026_11_synthesis.md): what the inputs, valuation, ground and orbital models say together, plus the free-electricity point
 - **[Terrestrial scenario model](model/README.md)** — `python3 spcx/model/spcx_model.py` → Bear/Base/Bull revenue, EBIT, FCF, DCF + exit vs **$141.30**; orbital compute excluded (residual line only)
 - **[Orbital AI DC — physics, BOM, $/GW](orbital/README.md)** — `python3 spcx/orbital/orbital_dc_model.py` → bottom-up mass, launch cadence, breakeven $/kg vs terrestrial **$60B/GW**
 
