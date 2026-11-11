@@ -1,20 +1,19 @@
 # CoreWeave Q3 2026 results pack
 
-Quarter ended 30 September 2026. Results released and Form 8-K filed 10 November 2026. This folder assembled 11 November 2026 (morning, Europe/London).
+Quarter ended 30 September 2026. Results released and Form 8-K filed 10 November 2026. Sources assembled 11 November 2026 (morning, Europe/London).
 
 Primary source: Exhibit 99.1 to the 10 November 8-K, [accession 0001769628-26-000461](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/0001769628-26-000461-index.html). Amounts are unaudited and in millions of dollars unless noted. The company's Form 10-Q for this quarter had not yet appeared on EDGAR as of this filing (the press release said it would be filed on or about 10 November).
 
 ## Contents
 
+Source files are filed in [../quarterly/](../quarterly/) with the repo's `YYYY_Q#_` names.
+
 | File | What it is |
 |------|------------|
-| `crwv-20261110_8-K.htm` | Form 8-K (Item 2.02), filed 10 Nov 2026 |
-| `EX-99.1_earnings_press_release.htm` | Official earnings release (Exhibit 99.1) |
-| `EX-99.1_earnings_press_release.txt` | Text extract of that exhibit |
-| `CoreWeave-3Q26-Earnings-Presentation-Final.pdf` | Company earnings presentation, 10 Nov 2026 |
-| `CoreWeave-3Q26-Earnings-Presentation-Final.txt` | Text extract of the presentation |
-| `CoreWeave-3Q26-Transcript.pdf` | Company-posted call transcript |
-| `CoreWeave-3Q26-Transcript.txt` | Text extract of the transcript |
+| `2026_Q3_8k.htm` | Form 8-K (Item 2.02), filed 10 Nov 2026 |
+| `2026_Q3_press_release.htm` / `.txt` | Official earnings release (Exhibit 99.1) and text extract |
+| `2026_Q3_investor_presentation.pdf` / `.txt` | Company earnings presentation, 10 Nov 2026 |
+| `2026_Q3_earnings_call.pdf` / `.txt` | Company-posted call transcript |
 
 IR release page: [CoreWeave Reports Strong Third Quarter 2026 Results](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx).
 

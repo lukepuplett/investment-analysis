@@ -67,11 +67,15 @@ company_ticker/
 │   ├── YYYY_Q#_md_and_a.txt               # Management Discussion & Analysis (text)
 │   ├── YYYY_Q#_earnings_call.txt          # Earnings call transcript (if available)
 │   ├── YYYY_Q#_investor_presentation.pdf  # Earnings presentation slides
-│   ├── YYYY_Q#_press_release.txt          # Company press release
+│   ├── YYYY_Q#_press_release.txt          # Company press release (Ex. 99.1 text extract)
+│   ├── YYYY_Q#_8k.htm                     # Item 2.02 8-K announcing results
 │   └── 10Q_EXTRACTION_SUMMARY.md          # Metadata on extraction process
+├── model/                       # Optional: runnable toy model (script, README, output.md, charts); see ant/model/, crwv/model/
 └── question_answers/            # Q&A documentation
     └── YYYY_MM_DD_topic.md
 ```
+
+Source files never go in dated subfolders at the company root; file them in `quarterly/` with `YYYY_Q#_` names. A summary of checked figures from a results pack is analysis, so it goes in `analysis/` with a `YYYY_MM_` prefix.
 
 ### Key Components
 
@@ -986,6 +990,7 @@ After completing all analysis documents:
    - `2024_Q4_10q.txt`
 3. Location: `quarterly/` directory
 4. Content: Complete quarterly report filed with SEC
+5. Form 8-K (Item 2.02 results announcement): `YYYY_Q#_8k.htm`, same location
 
 ### Financial Statements
 1. Format: `YYYY_MM/statement_type.md`

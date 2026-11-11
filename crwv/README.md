@@ -2,7 +2,9 @@
 
 This repository contains financial analysis and research materials for CoreWeave, a leading AI hyperscaler specializing in GPU-accelerated computing and AI infrastructure.
 
-**Latest results pack:** [2026-11-10-Q3/](2026-11-10-Q3/) — Q3 2026 8-K, official press release, earnings presentation, call transcript, and a figures summary. The Q3 10-Q had not yet been filed when that folder was assembled.
+**Latest results pack:** [quarterly/](quarterly/) `2026_Q3_*` — Q3 2026 8-K, official press release, earnings presentation and call transcript; figures summary in [analysis/2026_11_q3_results_summary.md](analysis/2026_11_q3_results_summary.md). The Q3 10-Q had not yet been filed when that folder was assembled.
+
+**Equity residual toy model:** [model/](model/) — scenarios from the Q3 2026 pack through cash after interest, leases and capex to a simple residual for equity (toy, to be updated with the Q3 10-Q).
 
 ## Overview
 
