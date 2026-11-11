@@ -5,6 +5,7 @@ Public since **12 June 2026** (Nasdaq: SPCX). This folder collects filings and m
 ## Model inputs (start here)
 
 **[analysis/2026_11_model_inputs.md](analysis/2026_11_model_inputs.md)** — register of HARD / PROXY / GUESS inputs for a future model (no valuation built). Includes Baker TBPN arithmetic check, segment financials, Google & Anthropic compute contracts, GPU lease 8-K, and gap list.
+- [Valuation snapshot, 11 Nov 2026](analysis/2026_11_valuation_snapshot.md) — rough multiples on filed Q3 numbers plus a reverse test
 
 ## Saved primary sources
 
