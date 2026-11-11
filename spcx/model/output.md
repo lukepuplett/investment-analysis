@@ -30,9 +30,13 @@ register: [2026_11_model_inputs.md](../analysis/2026_11_model_inputs.md).
 |   Super Intelligence | 18.5 | 33.5 | 30.0 | 30.5 | 33.1 |
 | EBIT (after corp overhead) | 1.3 | 10.3 | 11.1 | 12.2 | 13.5 |
 |   EBIT margin | 3.0% | 16.9% | 18.1% | 18.4% | 18.3% |
-| Capex | 51.2 | 41.1 | 58.7 | 70.9 | 72.1 |
-| FCF | -39.0 | -21.0 | -32.8 | -35.7 | -25.5 |
-|   Funding need (if FCF<0) | 39.0 | 21.0 | 32.8 | 35.7 | 25.5 |
+| Capex | 67.7 | 41.1 | 58.7 | 70.9 | 72.1 |
+| FCF | -58.0 | -21.0 | -33.5 | -37.4 | -27.8 |
+| Unlevered FCF | -57.3 | -19.5 | -30.9 | -33.2 | -22.2 |
+|   Funding need after lease (2026 = Q4 only) | 17.2 | 12.5 | 20.0 | 20.4 | 10.8 |
+|   New debt outstanding (cum) | 12.0 | 20.8 | 34.7 | 49.0 | 56.6 |
+|   Equity issued | 5.2 | 3.8 | 6.0 | 6.1 | 3.2 |
+|   Shares (m, after issuance) | 13,617 | 13,644 | 13,686 | 13,730 | 13,753 |
 | SI nameplate GW (EOY) | 1.7 | 2.2 | 3.0 | 4.0 | 5.0 |
 
 
@@ -47,9 +51,13 @@ register: [2026_11_model_inputs.md](../analysis/2026_11_model_inputs.md).
 |   Super Intelligence | 18.5 | 62.9 | 98.5 | 132.0 | 158.4 |
 | EBIT (after corp overhead) | 1.3 | 13.8 | 20.6 | 29.6 | 40.0 |
 |   EBIT margin | 3.0% | 14.8% | 15.2% | 16.7% | 18.7% |
-| Capex | 51.2 | 94.6 | 127.2 | 150.9 | 152.1 |
-| FCF | -39.0 | -70.4 | -81.0 | -75.2 | -42.0 |
-|   Funding need (if FCF<0) | 39.0 | 70.4 | 81.0 | 75.2 | 42.0 |
+| Capex | 67.7 | 94.6 | 127.2 | 150.9 | 152.1 |
+| FCF | -58.0 | -71.5 | -84.2 | -80.4 | -48.0 |
+| Unlevered FCF | -57.3 | -69.0 | -78.3 | -70.7 | -35.2 |
+|   Funding need after lease (2026 = Q4 only) | 17.2 | 46.6 | 49.6 | 38.8 | 6.5 |
+|   New debt outstanding (cum) | 12.0 | 44.6 | 79.3 | 106.5 | 111.0 |
+|   Equity issued | 5.2 | 14.0 | 14.9 | 11.6 | 1.9 |
+|   Shares (m, after issuance) | 13,617 | 13,716 | 13,822 | 13,904 | 13,918 |
 | SI nameplate GW (EOY) | 1.7 | 3.5 | 6.0 | 9.0 | 12.0 |
 
 
@@ -64,9 +72,13 @@ register: [2026_11_model_inputs.md](../analysis/2026_11_model_inputs.md).
 |   Super Intelligence | 18.5 | 111.8 | 214.8 | 371.0 | 569.3 |
 | EBIT (after corp overhead) | 1.3 | 19.7 | 41.2 | 82.5 | 148.8 |
 |   EBIT margin | 3.0% | 13.6% | 15.9% | 19.3% | 23.1% |
-| Capex | 51.2 | 139.0 | 204.7 | 319.9 | 397.1 |
-| FCF | -39.0 | -108.1 | -129.2 | -170.1 | -130.7 |
-|   Funding need (if FCF<0) | 39.0 | 108.1 | 129.2 | 170.1 | 130.7 |
+| Capex | 67.7 | 139.0 | 204.7 | 319.9 | 397.1 |
+| FCF | -58.0 | -110.0 | -134.6 | -179.6 | -143.0 |
+| Unlevered FCF | -57.3 | -106.7 | -125.7 | -163.5 | -119.0 |
+|   Funding need after lease (2026 = Q4 only) | 17.2 | 71.4 | 76.0 | 86.0 | 26.0 |
+|   New debt outstanding (cum) | 12.0 | 62.0 | 115.2 | 175.4 | 193.6 |
+|   Equity issued | 5.2 | 21.4 | 22.8 | 25.8 | 7.8 |
+|   Shares (m, after issuance) | 13,617 | 13,769 | 13,931 | 14,113 | 14,168 |
 | SI nameplate GW (EOY) | 1.7 | 5.0 | 10.0 | 18.0 | 28.0 |
 
 
@@ -90,9 +102,12 @@ RPO **$62.96B** HARD supports recognition timing; bear case cuts Google after 20
 
 | Scenario | DCF equity/sh | Exit 25×2030 NI PV/sh | Blended 50/50 | Market | Blended vs mkt | Orbital residual |
 |---|---|---|---|---|---|---|
-| Bear | $1.4 | $10.3 | $5.9 | $141.30 | -96% | $1.84tn implied orbital/option |
-| Base | $12.4 | $31.5 | $22.0 | $141.30 | -84% | $1.62tn implied orbital/option |
-| Bull | $87.5 | $129.7 | $108.6 | $141.30 | -23% | $445bn implied orbital/option |
+| Bear | $-2.8 | $5.9 | $1.6 | $141.30 | -99% | $1.90tn implied orbital/option |
+| Base | $-1.8 | $21.7 | $10.0 | $141.30 | -93% | $1.78tn implied orbital/option |
+| Bull | $31.1 | $105.9 | $68.5 | $141.30 | -52% | $989bn implied orbital/option |
+
+
+*Method: DCF is unlevered, at the 30 Sep 2026 balance-sheet date (Q4'26 stub, FY27-30 mid-year, normalised terminal), less net debt -7,288M (debt + drawn lease - cash). Exit lens is 2030 NI x 25x, discounted 4.25 years and scaled for shares issued to fund the gap. The funding gap is financed 70% debt at 7% and the rest equity at $141.30.*
 
 
 **Implied value left for orbital/option** = market cap − terrestrial blended equity (per scenario). 
@@ -104,14 +119,14 @@ Negative terrestrial blended ⇒ market already prices orbital/out-of-model upsi
 
 | rev\GW | 5 GW | 8 GW | 12 GW | 18 GW | 28 GW |
 |---|---|---|---|---|---|
-| $8B/GW-yr | $7 | $9 | $12 | $16 | $23 |
-| $12B/GW-yr | $8 | $11 | $15 | $22 | $32 |
-| $16B/GW-yr | $9 | $13 | $19 | $27 | $41 |
-| $20B/GW-yr | $10 | $15 | $23 | $33 | $51 |
-| $24B/GW-yr | $11 | $18 | $26 | $39 | $60 |
+| $8B/GW-yr | $21 | $18 | $15 | $10 | $2 |
+| $12B/GW-yr | $22 | $21 | $20 | $17 | $13 |
+| $16B/GW-yr | $24 | $24 | $24 | $24 | $24 |
+| $20B/GW-yr | $25 | $27 | $28 | $31 | $35 |
+| $24B/GW-yr | $26 | $29 | $33 | $38 | $46 |
 
 
-Cells: stylized 2030 exit (25× NI) holding Base Starlink/Space; merchant GW = deployed − 1.6 contracted. **GUESS** interest/corp costs.
+Cells: exit-lens PV per current share from a full Base-case run (25× 2030 NI, funding cost and dilution included), with 2030 GW and merchant $/GW-yr overridden and GW ramping linearly from 1.7. Merchant GW = deployed − 1.6 contracted.
 
 
 ## 5. Funding & financing hooks
@@ -123,7 +138,7 @@ Cells: stylized 2030 exit (25× NI) holding Base Starlink/Space; merchant GW = d
 
 - **9M capex** 48,069M HARD; SI dominated (16,444M/qtr Q3).
 
-- Cumulative terrestrial funding need (negative FCF years): Bear $154bn, Base $308bn, Bull $577bn (GUESS capex/lease splits).
+- Cumulative funding need after lease financing, Q4'26 to 2030: Bear $81bn (debt $57bn, equity $24bn), Base $159bn (debt $111bn, equity $48bn), Bull $277bn (debt $194bn, equity $83bn) (GUESS capex, lease and debt/equity splits). It carries interest and dilution in the valuation above.
 
 
 ## 6. Three biggest drivers (terrestrial vs $141.30)

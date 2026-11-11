@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import math
 import os
+import copy
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -72,7 +73,19 @@ A = dict(
   discount_rate=(0.11, "GUESS: terrestrial WACC; no beta filed post-IPO"),
   terminal_growth=(0.03, "GUESS: terminal FCF growth post-2030"),
   exit_pe=(25, "PROXY: valuation_snapshot reverse test ~$75B NI @ 25×"),
-  hold_years=(4, "GUESS: 2026 buy -> 2030 exit"),
+  stub_years=(0.25, "DERIVED: 30 Sep 2026 balance-sheet date to 31 Dec 2026; DCF/exit discounting runs from the 30 Sep net-debt date"),
+  new_debt_rate=(0.07, "GUESS: cost of newly raised GPU-backed debt (same as lease_rate)"),
+  funding_debt_share=(0.70, "GUESS: share of the funding need left after lease financing that is raised as debt; the rest is equity"),
+  equity_issue_price=(F["price_mkt"][0], "ASSUMPTION: new equity issued at the 11 Nov 2026 price (no re-rating); dilutes the exit lens"),
+  lease_finance_share=(0.35, "GUESS: share of new-GW SI capex lease-financed, like the Apollo programme"),
+  lease_amort_share=(0.12, "GUESS: principal repaid in the year as a share of that year's lease draw"),
+  lease_drawn_at_valuation_share=(0.15, "GUESS: share of the $40bn Apollo commitment drawn at the valuation date and by YE2026"),
+  dev_share_of_space=(0.36, "PROXY: development contracts ~637/1,767 of Q3 Space revenue"),
+  other_da_pct_rev=(0.04, "GUESS: Connectivity + Space D&A as % of revenue"),
+  cash_yield_growth=(0.05, "GUESS: growth per year in the cash balance earning the yield"),
+  terminal_capex_to_da=(1.10, "GUESS: steady-state capex / D&A used for the normalised terminal free cash flow"),
+  q4_si_capex_uplift=(1.00, "GUESS: Q4 2026 SI capex as a multiple of Q3 ($16.4bn); capex leads GW"),
+  si_capex_9m=(F["capex_9m"][0] - (F["capex_space_q3"][0] + F["capex_conn_q3"][0]) * 3, "PROXY: 9M capex less Q3 Space+Connectivity capex x3; opening base for SI depreciation (not HARD)"),
   tax_rate=(0.21, "GUESS: US blended statutory"),
   debt_rate=(0.055, "GUESS: weighted avg on $25B notes + other financings"),
   lease_rate=(0.07, "GUESS: Apollo GPU master lease — rate not in 8-K summary"),
@@ -187,13 +200,11 @@ def space_annual(sc: dict, year: int, dev_base: float) -> tuple[float, float, fl
     if year == 2026:
         rev = F["space_9m"][0] + F["space_q3"][0] * A["q4_space_uplift"][0]
         ebit = F["opinc_space_q3"][0] * (rev / (F["space_q3"][0] * 4))
-        dev_base = F["space_q3"][0] * 0.36  # dev ~637/1767 of Q3 quarterly -> annualize Q3 dev
+        dev_base = F["space_q3"][0] * A["dev_share_of_space"][0]
     else:
         launches = lin(F["space_q3"][0] * 0.64 / sc["rev_per_launch"][0], sc["launches_2030"][0], year - 2026)
         launch_rev = launches * sc["rev_per_launch"][0]
-        dev_base = dev_base * (1 + sc["dev_contract_growth"][0])
-        dev_rev = dev_base * 4 / (F["space_q3"][0] / (F["space_q3"][0] * 0.36))  # keep dev ratio stable GUESS
-        dev_rev = F["space_q3"][0] * 0.36 * 4 * (1 + sc["dev_contract_growth"][0]) ** (year - 2026)
+        dev_rev = F["space_q3"][0] * A["dev_share_of_space"][0] * 4 * (1 + sc["dev_contract_growth"][0]) ** (year - 2026)
         rev = launch_rev + dev_rev
         m0 = F["opinc_space_q3"][0] / F["space_q3"][0]
         m = lin(m0, sc["space_margin_2030"][0], year - 2026)
@@ -225,79 +236,111 @@ def si_annual(sc: dict, year: int, ads: float) -> tuple[float, float, float, flo
     return rev, ebit, gw, ads
 
 
-def project_scenario(name: str) -> list[dict]:
-    sc = A["scenarios"][name]
+def net_debt_at_valuation() -> float:
+    """Existing claims at the 30 Sep 2026 balance-sheet date: debt + Apollo lease drawn - cash.
+    The undrawn lease commitment is future financing of capex that the DCF already charges, so it is not subtracted."""
+    return F["debt"][0] + F["apollo_lease_commit"][0] * A["lease_drawn_at_valuation_share"][0] - F["cash"][0]
+
+
+def project_scenario(name: str, sc: dict | None = None) -> list[dict]:
+    sc = sc or A["scenarios"][name]
     subs, arpu = F["starlink_subs"][0], F["starlink_arpu"][0]
     eg_annual = F["conn_eg_q3"][0] * 4
-    dev_base = F["space_q3"][0] * 0.36
+    dev_base = F["space_q3"][0] * A["dev_share_of_space"][0]
     ads = F["si_ads_q3"][0] * 4
     gw_prev = F["gw_nameplate"][0]
-    si_capex_cum = F["capex_si_q3"][0] * 3  # proxy 9M SI capex HARD
+    si_capex_cum = A["si_capex_9m"][0]
+    lease_bal = F["apollo_lease_commit"][0] * A["lease_drawn_at_valuation_share"][0]
+    new_debt = 0.0
+    shares = F["shares_out"][0]
     rows = []
-    lease_bal = F["apollo_lease_commit"][0] * 0.15  # GUESS: 15% drawn by YE2026
     for i, y in enumerate(YEARS):
         c_rev, c_ebit, subs, arpu = connectivity_annual(sc, y, subs, arpu, eg_annual)
         eg_annual = F["conn_eg_q3"][0] * 4 * (1 + sc["eg_growth"][0]) ** max(0, y - 2026)
         s_rev, s_ebit, dev_base = space_annual(sc, y, dev_base)
         si_rev, si_ebit, gw, ads = si_annual(sc, y, ads)
         rev = c_rev + s_rev + si_rev
-        seg_ebit = c_ebit + s_ebit + si_ebit
         corp = rev * A["corp_overhead_pct"][0]
-        ebit = seg_ebit - corp
-        da_si = si_capex_cum / A["dep_years_si"][0]
-        da_other = rev * 0.04  # GUESS: conn+space D&A % rev
-        da = da_si + da_other
-        int_exp = F["debt"][0] * A["debt_rate"][0] + lease_bal * A["lease_rate"][0]
-        int_inc = F["cash"][0] * A["cash_yield"][0] * (1 + 0.05 * i)
-        pbt = ebit + int_inc - int_exp
-        tax = max(0.0, pbt) * A["tax_rate"][0]
-        ni = pbt - tax
+        ebit = c_ebit + s_ebit + si_ebit - corp
         new_gw = max(0.0, gw - gw_prev)
         si_capex = new_gw * sc["capex_per_gw"][0]
         other_capex = (F["capex_space_q3"][0] + F["capex_conn_q3"][0]) * (1 + A["capex_space_conn_growth"][0]) ** i * 4
+        q4_si_capex = F["capex_si_q3"][0] * A["q4_si_capex_uplift"][0] if y == 2026 else 0.0
         if y == 2026:
-            capex = F["capex_9m"][0] + si_capex + other_capex * 0.25
+            q4_capex = q4_si_capex + other_capex * 0.25
+            capex = F["capex_9m"][0] + si_capex + q4_capex
         else:
+            q4_capex = None
             capex = si_capex + other_capex
-        si_capex_cum += si_capex
-        lease_draw = max(0.0, si_capex * 0.35)  # GUESS: 35% lease-financed like Apollo program
-        lease_bal += lease_draw
-        lease_bal -= lease_draw * 0.12  # GUESS: amortize principal slice
-        fcf = ni + da - capex
-        funding_need = max(0.0, -fcf)
+        da = (si_capex_cum / A["dep_years_si"][0]) + rev * A["other_da_pct_rev"][0]
+        int_inc = F["cash"][0] * A["cash_yield"][0] * (1 + A["cash_yield_growth"][0] * i)
+        lease_draw = si_capex * A["lease_finance_share"][0]
+        lease_repay = lease_draw * A["lease_amort_share"][0]
+        lease_net = lease_draw - lease_repay
+        # interest depends on in-year debt draws, which depend on the funding need: iterate to a fixed point
+        draw_debt = 0.0
+        for _ in range(100):
+            int_exp = (F["debt"][0] * A["debt_rate"][0]
+                       + (new_debt + 0.5 * draw_debt) * A["new_debt_rate"][0]
+                       + (lease_bal + 0.5 * lease_net) * A["lease_rate"][0])
+            pbt = ebit + int_inc - int_exp
+            tax = max(0.0, pbt) * A["tax_rate"][0]
+            ni = pbt - tax
+            fcf = ni + da - capex
+            # 2026: the 9M spend was funded before the valuation date; only Q4 needs new financing
+            fcf_to_fund = (ni + da) * 0.25 - q4_capex if y == 2026 else fcf
+            need = max(0.0, -fcf_to_fund - lease_net)
+            new_draw = A["funding_debt_share"][0] * need
+            if abs(new_draw - draw_debt) < 1e-6:
+                break
+            draw_debt = new_draw
+        equity_raised = need - draw_debt
+        shares += equity_raised / A["equity_issue_price"][0]
+        new_debt += draw_debt
+        lease_bal += lease_net
+        si_capex_cum += si_capex + q4_si_capex
+        nopat = ebit - max(0.0, ebit) * A["tax_rate"][0]
+        ufcf = nopat + da - capex
+        q4_ufcf = (nopat + da) * 0.25 - q4_capex if y == 2026 else None
         rows.append(dict(
             year=y, revenue=rev, conn_rev=c_rev, space_rev=s_rev, si_rev=si_rev,
             ebit=ebit, ebit_m=ebit / rev if rev else 0, da=da, ni=ni, capex=capex, fcf=fcf,
-            funding_need=funding_need, gw=gw, int_exp=int_exp, tax=tax, si_merchant_note=si_rev - sc["google_revenue"][min(i, 4)] - sc["anthropic_revenue"][min(i, 4)] - ads if y > 2026 else None,
+            ufcf=ufcf, q4_ufcf=q4_ufcf, funding_need=need, debt_raised=draw_debt, equity_raised=equity_raised,
+            new_debt_cum=new_debt, shares_eoy=shares, gw=gw, int_exp=int_exp, tax=tax,
         ))
         gw_prev = gw
     return rows
 
 
+def years_to_exit() -> float:
+    return A["stub_years"][0] + (YEARS[-1] - 2026)
+
+
 def terrestrial_ev_dcf(rows: list[dict]) -> float:
-    r = A["discount_rate"][0]
-    g = A["terminal_growth"][0]
-    pv = 0.0
+    """Unlevered DCF at the 30 Sep 2026 balance-sheet date: Q4'26 stub, FY27-30 mid-year, normalised terminal value."""
+    r, g = A["discount_rate"][0], A["terminal_growth"][0]
+    if r <= g:
+        raise ValueError("Unable to run the DCF. discount_rate must exceed terminal_growth.")
+    stub = A["stub_years"][0]
+    pv = rows[0]["q4_ufcf"] / (1 + r) ** (stub / 2)
     for row in rows[1:]:
-        t = row["year"] - 2025
-        pv += row["fcf"] / (1 + r) ** t
-    fcf30 = rows[-1]["fcf"]
-    tv = fcf30 * (1 + g) / (r - g) if r > g and fcf30 > 0 else rows[-1]["ni"] * A["exit_pe"][0]
-    pv += tv / (1 + r) ** (2030 - 2025)
-    return pv
+        pv += row["ufcf"] / (1 + r) ** (stub + (row["year"] - 2027) + 0.5)
+    last = rows[-1]
+    nopat = last["ebit"] - max(0.0, last["ebit"]) * A["tax_rate"][0]
+    ufcf_norm = nopat + last["da"] * (1 - A["terminal_capex_to_da"][0])
+    tv = ufcf_norm * (1 + g) / (r - g)
+    return pv + tv / (1 + r) ** years_to_exit()
 
 
-def terrestrial_equity_value(rows: list[dict], use_exit_pe: bool = True) -> tuple[float, float, float]:
-    """Returns (dcf_ev, exit_pe_equity, blended per model). All USD M."""
-    dcf_ev = terrestrial_ev_dcf(rows)
-    ni30 = rows[-1]["ni"]
-    exit_mcap = max(0, ni30) * A["exit_pe"][0]
-    exit_pv = exit_mcap / (1 + A["discount_rate"][0]) ** A["hold_years"][0]
-    net_debt = F["debt"][0] + F["apollo_lease_commit"][0] - F["cash"][0]  # PROXY: full lease outstanding
-    dcf_equity = dcf_ev - net_debt
-    exit_equity = exit_pv  # exit is equity at 2030; PV as equity proxy
-    blend = 0.5 * dcf_equity + 0.5 * exit_pv
-    return dcf_equity, exit_pv, blend
+def terrestrial_equity_value(rows: list[dict]) -> tuple[float, float, float]:
+    """Returns (dcf_equity, exit_pv_equity, blend), USD M attributable to today's shareholders.
+    DCF: unlevered EV less net debt at the valuation date. Exit: 2030 NI (after all interest) x P/E, discounted,
+    scaled for shares issued to fund the gap. Neither lens subtracts debt twice."""
+    dcf_equity = terrestrial_ev_dcf(rows) - net_debt_at_valuation()
+    last = rows[-1]
+    exit_mcap = max(0.0, last["ni"]) * A["exit_pe"][0]
+    exit_pv = exit_mcap / (1 + A["discount_rate"][0]) ** years_to_exit() * (F["shares_out"][0] / last["shares_eoy"])
+    return dcf_equity, exit_pv, 0.5 * dcf_equity + 0.5 * exit_pv
 
 
 def md_table(headers, rows):
@@ -314,20 +357,15 @@ ft = lambda x: f"${x/1e6:,.2f}tn" if x >= 1e6 else f"${x/1e3:,.0f}bn"
 
 
 def sensitivity_2030_value(rev_per_gw: float, gw: float) -> float:
-    """Quick 2030 NI proxy -> PV equity per share (USD). rev_per_gw in $M/GW-yr."""
-    util = A["scenarios"]["Base"]["util"][0]
-    si_rev = 11_040 + 37_200 + max(0, gw - 1.6) * util * rev_per_gw + 2_500
-    conn = 22_000  # GUESS flat base conn 2030
-    space = 8_000
-    rev = si_rev + conn + space
-    ebit = rev * 0.14 - rev * A["corp_overhead_pct"][0]
-    int_exp = F["debt"][0] * A["debt_rate"][0] + F["apollo_lease_commit"][0] * A["lease_rate"][0]
-    ni = (ebit + F["cash"][0] * A["cash_yield"][0] - int_exp) * (1 - A["tax_rate"][0])
-    exit_mcap = max(0.0, ni) * A["exit_pe"][0]
-    exit_pv = exit_mcap / (1 + A["discount_rate"][0]) ** A["hold_years"][0]
-    net_debt = F["debt"][0] + F["apollo_lease_commit"][0] - F["cash"][0]
-    equity_m = exit_pv - net_debt  # USD M
-    return equity_m / F["shares_out"][0]  # USD/sh (M cap / M shares)
+    """Exit-lens PV per current share (USD) from a full Base-case run with merchant $/GW-yr and 2030 GW overridden.
+    GW ramps linearly from nameplate to the 2030 level; funding cost and dilution are included."""
+    sc = copy.deepcopy(A["scenarios"]["Base"])
+    gw0 = F["gw_nameplate"][0]
+    n = len(YEARS) - 1
+    sc["gw_eoy"] = tuple(gw0 + (gw - gw0) * i / n for i in range(len(YEARS)))
+    sc["si_merchant_rev_gw"] = (rev_per_gw, "sensitivity override")
+    _, exit_pv, _ = terrestrial_equity_value(project_scenario("Base", sc))
+    return exit_pv / F["shares_out"][0]
 
 
 def main():
@@ -351,7 +389,9 @@ def main():
             ("revenue", "Total revenue", fb), ("conn_rev", "  Connectivity", fb),
             ("space_rev", "  Space", fb), ("si_rev", "  Super Intelligence", fb),
             ("ebit", "EBIT (after corp overhead)", fb), ("ebit_m", "  EBIT margin", fp),
-            ("capex", "Capex", fb), ("fcf", "FCF", fb), ("funding_need", "  Funding need (if FCF<0)", fb),
+            ("capex", "Capex", fb), ("fcf", "FCF", fb), ("ufcf", "Unlevered FCF", fb), ("funding_need", "  Funding need after lease (2026 = Q4 only)", fb),
+            ("new_debt_cum", "  New debt outstanding (cum)", fb), ("equity_raised", "  Equity issued", fb),
+            ("shares_eoy", "  Shares (m, after issuance)", lambda x: f"{x:,.0f}"),
             ("gw", "SI nameplate GW (EOY)", lambda x: f"{x:.1f}"),
         ]:
             tbl.append([label] + [fmt(r[key]) for r in rows])
@@ -389,6 +429,7 @@ def main():
             ft(orbital) + " implied orbital/option",
         ])
     out.append(md_table(["Scenario", "DCF equity/sh", "Exit 25×2030 NI PV/sh", "Blended 50/50", "Market", "Blended vs mkt", "Orbital residual"], val_rows))
+    out.append(f"\n*Method: DCF is unlevered, at the 30 Sep 2026 balance-sheet date (Q4'26 stub, FY27-30 mid-year, normalised terminal), less net debt {fm(net_debt_at_valuation())}M (debt + drawn lease - cash). Exit lens is 2030 NI x {A['exit_pe'][0]}x, discounted {years_to_exit():.2f} years and scaled for shares issued to fund the gap. The funding gap is financed {A['funding_debt_share'][0]*100:.0f}% debt at {A['new_debt_rate'][0]*100:.0f}% and the rest equity at ${A['equity_issue_price'][0]:.2f}.*\n")
     out.append("\n**Implied value left for orbital/option** = market cap − terrestrial blended equity (per scenario). ")
     out.append("Negative terrestrial blended ⇒ market already prices orbital/out-of-model upside in bull segments.\n\n")
 
@@ -400,15 +441,16 @@ def main():
     for rv in rev_grid:
         sens.append([f"${rv}B/GW-yr"] + [f"${sensitivity_2030_value(rv*1000, g):.0f}" for g in gw_grid])
     out.append(md_table(hdr, sens))
-    out.append("\nCells: stylized 2030 exit (25× NI) holding Base Starlink/Space; merchant GW = deployed − 1.6 contracted. **GUESS** interest/corp costs.\n\n")
+    out.append("\nCells: exit-lens PV per current share from a full Base-case run (25× 2030 NI, funding cost and dilution included), with 2030 GW and merchant $/GW-yr overridden and GW ramping linearly from 1.7. Merchant GW = deployed − 1.6 contracted.\n\n")
 
     out.append("## 5. Funding & financing hooks\n\n")
     out.append(f"- **Debt** {fm(F['debt'][0])}M HARD; **cash** {fm(F['cash'][0])}M HARD.\n")
     out.append(f"- **Apollo GPU lease** up to {fm(F['apollo_lease_commit'][0])}M principal HARD (8-K); model assumes gradual draw with SI capex.\n")
     out.append(f"- **9M capex** {fm(F['capex_9m'][0])}M HARD; SI dominated ({fm(F['capex_si_q3'][0])}M/qtr Q3).\n")
     cum_fund = {s: sum(r["funding_need"] for r in results[s]) for s in results}
-    out.append("- Cumulative terrestrial funding need (negative FCF years): " +
-               ", ".join(f"{s} ${cum_fund[s]/1000:.0f}bn" for s in results) + " (GUESS capex/lease splits).\n\n")
+    cum_debt = {s: sum(r["debt_raised"] for r in results[s]) for s in results}
+    out.append("- Cumulative funding need after lease financing, Q4'26 to 2030: " +
+               ", ".join(f"{s} ${cum_fund[s]/1000:.0f}bn (debt ${cum_debt[s]/1000:.0f}bn, equity ${(cum_fund[s]-cum_debt[s])/1000:.0f}bn)" for s in results) + " (GUESS capex, lease and debt/equity splits). It carries interest and dilution in the valuation above.\n\n")
 
     out.append("## 6. Three biggest drivers (terrestrial vs $141.30)\n\n")
     out.append("1. **GW deployed × $/GW-year (merchant + contract utilization)** — filings anchor Google $11B/yr and Anthropic ~$37B/yr at full delivery, but only **1.7 GW** nameplate today (HARD). Bull case needs 10–28 GW terrestrial by 2030 (GUESS) at neocloud-to-hyperscaler yields.\n")

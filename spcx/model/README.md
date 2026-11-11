@@ -41,16 +41,17 @@ FY**2026** = **9M actual** (HARD) + modelled **Q4** (GUESS uplifts on Q3 run-rat
 
 ## Valuation method
 
-1. **DCF** — discount annual FCF 2027–2030 at 11% (GUESS WACC); terminal on 2030 FCF (Gordon) or **25×** 2030 NI if FCF still negative.
-2. **Exit multiple** — **25×** 2030 NI (same anchor as reverse test in valuation snapshot), PV’d four years at 11%.
-3. **Blended** — 50% DCF equity + 50% exit PV, both net of **debt + full Apollo lease − cash** (PROXY balance-sheet bridge).
-4. **Per share** — blended equity ÷ 13.581B shares.
+1. **DCF** — unlevered free cash flow (EBIT after tax + D&A − capex), valued at the **30 Sep 2026** balance-sheet date: a Q4'26 stub, FY27–30 at mid-year, and a terminal value on a **normalised** 2030 cash flow (capex = 1.1× D&A, 3% growth), discounted at 11% (GUESS WACC).
+2. **Exit multiple** — **25×** 2030 NI (after all interest, including interest on funding raised), PV'd 4.25 years at 11%, scaled for shares issued to fund the gap.
+3. **Net debt (DCF only)** — debt + the *drawn* part of the Apollo lease (GUESS 15%) − cash. The undrawn lease is future financing of capex the DCF already charges, so it is not subtracted. The exit lens is already after interest and is not reduced by net debt.
+4. **Funding gap** — after lease financing (35% of new-GW capex), the remaining need is raised 70% as debt at 7% and 30% as equity at $141.30; interest and dilution flow into net income and the share count. For 2026 only Q4 needs new financing.
+5. **Blended** — 50% DCF equity + 50% exit PV, per current share (13.581B).
 
 Terrestrial DCF is heavily negative in early years because SI capex is modeled gross per GW (HARD 9M capex pace + PROXY $/GW). Treat the blend as **scenario equity for filed-Earth businesses**, not a price target.
 
 ## Sensitivity
 
-Section 4 of `output.md`: stylized **2030** exit per share vs **merchant revenue per GW-year** and **GW deployed**, holding Base Starlink/Space and full Google/Anthropic contract fees.
+Section 4 of `output.md`: exit-lens value per current share from a **full Base-case run** per cell, with 2030 **GW deployed** and **merchant revenue per GW-year** overridden (GW ramps linearly from 1.7), so funding cost and dilution are included.
 
 ## Caveats (read before quoting numbers)
 
@@ -60,6 +61,8 @@ Section 4 of `output.md`: stylized **2030** exit per share vs **merchant revenue
 - **No orbital revenue or capex** — residual is a plug vs $141.30, not a priced orbital DCF.
 - Musk **$100B Dec ARR** / **$500B–$1T 2027** guides: **NOT FOUND** in saved primaries (per inputs register); not used.
 - DCF and FCF omit working capital, exact lease amortization, and SBC (material in 9M NI).
+- Q4 2026 SI capex is set to the Q3 level ($16.4bn, GUESS); the 9M SI capex base for depreciation is a proxy (9M capex less Space/Connectivity), not a filed figure.
+- All formerly in-function constants (lease split, D&A %, development share, etc.) now live in `ASSUMPTIONS`.
 
 ## Related files
 

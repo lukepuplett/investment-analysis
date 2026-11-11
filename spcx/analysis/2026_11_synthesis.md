@@ -8,13 +8,13 @@ On Q3 run rates that is ~33x EV/sales, ~54x adjusted EBITDA and ~170x operating 
 
 ## 2. The ground business is worth far less than that
 
-From the terrestrial model (`spcx/model/`), 50/50 blend of DCF and 25x 2030 net income:
+From the terrestrial model (`spcx/model/`), 50/50 blend of an unlevered DCF and 25x 2030 net income (revised after a method review: debt is no longer counted twice, and the funding gap now carries interest and dilution):
 
 | Scenario | Value per share | Unexplained by ground business |
 |---|---:|---:|
-| Bear | ~$6 | ~$1.84T |
-| Base | ~$22 | ~$1.62T |
-| Bull | ~$109 | ~$445bn |
+| Bear | ~$2 | ~$1.90T |
+| Base | ~$10 | ~$1.78T |
+| Bull | ~$69 | ~$989bn |
 
 Even the bull case (10–28 GW on the ground by 2030 at neocloud yields) is below the market price. The DCF is dragged down by years of negative compute cash flow, so the exit-multiple half carries most of the weight. The three things that move it most are GW deployed × revenue per GW, capex per GW plus financing ($154–577B of funding needed), and how fast Starlink grows.
 
