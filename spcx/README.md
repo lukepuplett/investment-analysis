@@ -4,8 +4,9 @@ Public since **12 June 2026** (Nasdaq: SPCX). This folder collects filings and m
 
 ## Model inputs (start here)
 
-**[analysis/2026_11_model_inputs.md](analysis/2026_11_model_inputs.md)** — register of HARD / PROXY / GUESS inputs for a future model (no valuation built). Includes Baker TBPN arithmetic check, segment financials, Google & Anthropic compute contracts, GPU lease 8-K, and gap list.
+**[analysis/2026_11_model_inputs.md](analysis/2026_11_model_inputs.md)** — register of HARD / PROXY / GUESS inputs (canonical sources for the model).
 - [Valuation snapshot, 11 Nov 2026](analysis/2026_11_valuation_snapshot.md) — rough multiples on filed Q3 numbers plus a reverse test
+- **[Terrestrial scenario model](model/README.md)** — `python3 spcx/model/spcx_model.py` → Bear/Base/Bull revenue, EBIT, FCF, DCF + exit vs **$141.30**; orbital compute excluded (residual line only)
 
 ## Saved primary sources
 
@@ -47,4 +48,5 @@ Public since **12 June 2026** (Nasdaq: SPCX). This folder collects filings and m
 | Document | Status |
 |----------|--------|
 | [analysis/2026_11_model_inputs.md](analysis/2026_11_model_inputs.md) | [x] Input register (Nov 2026) |
+| [model/README.md](model/README.md) | [x] Terrestrial scenario model (Nov 2026) |
 | Full analysis set per AGENTS.md | [ ] Not started |

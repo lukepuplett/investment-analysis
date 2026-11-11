@@ -45,6 +45,6 @@ The price is for the bull case. You're paying today for compute capacity that ha
 - Run-rate × 4 overstates a business that is ramping fast in some places and understates it in others. Q3 SI revenue jumped from $2.56B in Q2 to $7.56B.
 - The EV excludes finance leases and the Apollo lease. Including them pushes the multiples up slightly.
 - Adjusted EBITDA is the company's non-GAAP figure.
-- Next step if wanted: an Earth-based scenario model (GW deployed × revenue per GW × margin, plus Starlink subscribers × ARPU), with orbital compute as a separate, explicitly labelled option.
+- Earth-based scenario model: [../model/README.md](../model/README.md) (`spcx/model/spcx_model.py`); orbital compute as residual vs market cap.
 
 Tags: #SPCX #valuation #GOOG #AI #compute
