@@ -193,3 +193,5 @@ Qualitative sketches, not updated theses. Any figure names its source; the full 
 ## Using this framework
 
 The framework sits above the company-folder workflow. Each thesis should state, near the BLUF, its bottleneck and how long it lasts, its capture mechanism and leaks, and what is priced in. When a delta analysis records a change, first ask which layer it affects: a supply glut is layer 1, a new competitor layer 2, a share-price fall layer 3.
+
+For practical checks on the financials and the outlook — coverage, funding, backlog quality, and kill switches — see [LESSONS_AND_MITIGATIONS.md](LESSONS_AND_MITIGATIONS.md).
