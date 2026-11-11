@@ -1,0 +1,476 @@
+Siemens Energy Q4 FY26 Pre-Close Group Call
+
+Operator
+Good afternoon, and welcome to Siemens Energy’s pre-close group call for the fourth
+quarter and fiscal year 2026.
+Before we begin, please note that today’s call is being recorded. The recording will be
+available on Siemens Energy’s website until the fiscal year results are published.
+Before we start, I would like to remind you of the Information and Forward-Looking
+Statements disclaimer, which applies to comments made during this call.
+At this time, I would like to hand over to your host today, Mr. Tobias Hang. Please go
+ahead, sir.
+
+
+Tobias Hang
+Head of Investor Relations
+
+
+Introduction
+Good afternoon and good evening to those joining us from Asia, and a warm welcome to
+the Siemens Energy pre-close call for the fourth quarter and fiscal year 2026.
+The purpose of today’s call is to reinforce our previously communicated guidance and to
+recap the key messages that we have consistently shared since our Q3 results.
+We plan to publish our Q4 and fiscal year 2026 results on Wednesday, November 11 at
+7:00 a.m. CET, with the webcast scheduled for 10:00 a.m. CET that morning, which will
+be extended to 90 minutes.
+We will take you through the major developments during Q4 fiscal year 2026 but also
+provide you with our FY 2027 outlook and FY 2030 targets based on the individual
+business area’s performance as well as an updated capital allocation framework until FY
+2030. As usual, we will share our company-compiled consensus one week ahead of the
+earnings release, and our silent period will begin immediately after this call.
+Let me briefly guide you through today’s agenda. I will start by recapping the key
+messages that we have consistently communicated over recent weeks and share our
+view of the current market environment. I will then review the performance and market
+dynamics across Gas Services, Grid Technologies, Transformation of Industry, and
+Siemens Gamesa. I will then address fourth-quarter seasonality and cash flow and
+conclude with a few additional remarks.
+We will finish with a short Q&A session to clarify statements already made during the
+quarter. Please remember that we cannot provide information beyond what has already
+been communicated.
+
+
+
+                                                                                      1
+Overall messages
+Together with our management team, we have held numerous investor meetings over the
+past few weeks. Let me therefore recap the four key messages we have consistently
+communicated.
+First, our markets remain structurally strong and diversified. Rising electricity demand,
+electrification, resilience and infrastructure replacement provide the foundation of the
+strong market, while data center activities add further upside.
+Second, execution is becoming a key determinant of value creation. Our focus is on
+converting our record backlog into revenue, profit and cash through disciplined project
+delivery, capacity ramp-ups and operational excellence.
+Third, the profitable growth expansion runway extends well beyond the current order
+cycle. Today’s Gas Services equipment orders build the installed base for recurring
+service revenues and cash generation well into the next decade. Grid Technologies
+benefits from long-term infrastructure investment, multi-year visibility and enduring
+electrification trends.
+Fourth, stronger earnings and cash generation provide increasing strategic flexibility. We
+are balancing investment in profitable growth, portfolio development and sustainable
+shareholder returns while preserving the balance-sheet strength required for our long-
+cycle project business.
+Overall, Siemens Energy is entering its next phase from a position of strength supported
+by favorable market fundamentals, disciplined execution, a long-duration growth runway,
+and increasing financial flexibility.
+
+
+Current environment
+Let me now focus on the current environment.
+Our core message remains unchanged. We continue to operate in structurally growing
+electricity markets, supported by electrification, rising power consumption, the need for
+reliable and dispatchable generation, grid expansion and the replacement of aging
+infrastructure.
+Demand remains broad-based across geographies, customer groups and applications.
+Data centers are an important additional driver, but they are not the foundation of our
+outlook. General higher electricity demand, resilience, security of supply, regulated grid
+investment and replacement demand remain the primary structural drivers.
+In addition, the increasingly frequent periods of extreme temperatures experienced
+across Europe and other regions globally in recent months reinforce our expectation that
+cooling and air conditioning will account for an increasing share of global electricity
+demand in the years ahead.
+Across our markets, the principal constraint is not underlying demand. It is the pace at
+which physical infrastructure can be permitted, financed, built, connected and
+commissioned. Across the industry, customer demand continues to exceed the pace at
+which generation, transmission and supporting infrastructure can realistically be
+
+
+                                                                                        2
+brought to market. We continue to apply disciplined project selection to ensure
+attractive pricing conditions, long-term service opportunities and contractual protection.
+The execution of our record backlog is therefore a core message as we close the fiscal
+year. Our priority is to convert backlog into revenue, profit and cash through disciplined
+project execution, timely factory ramp-ups and operational excellence.
+
+
+Market environment
+Let us now turn to the broader market environment.
+For gas turbines, our planning assumption remains an annual market of around 110 to
+120 gigawatts over the coming years, with a further 10 to 20 gigawatts of potential upside
+from data centers.
+Electricity demand growth, fleet replacement, coal-to-gas shift and the increasing need
+for dispatchable capacity provide a broad and durable foundation of the gas-turbine
+market and account for up to 80 GW. The remainder of the above-mentioned demand
+forecast is driven by the build-out of data center infrastructure.
+The gas market remains supply-constrained, and industry capacity additions continue to
+be orderly. Smaller players and small to mid-size frames are benefiting from the current
+market opportunity, but this does not alter the structural market balance for large gas
+turbines, which dominate the market due to their efficiency and lower life-cycle costs.
+Pricing in Gas Services remains very strong. Attractive delivery windows continue to
+command a premium, especially in the United States, and elevated US pricing also
+supports other regions. At the same time, order intake per gigawatt should not be used
+as a pricing indicator because frame size, geography, Hertz rating, scope and the new-
+unit and service mix can materially distort that metric.
+During our Q4 earnings call, we will provide, as usual, the dynamics of the backlog margin
+improvement year over year.
+In Grid Technologies, pricing trends are slightly differentiated by region. In the US market
+we continue to see premium pricing overall and especially where delivery slots are
+available. While the pricing dynamic in regulated markets such as Europe have stabilized
+at a high level. Going forward, margin expansion will increasingly be driven by backlog
+conversion, cost management, capacity utilization and operational excellence rather
+than further broad-based price increases.
+
+
+Gas Services
+Let‘s now have a deeper dive into Gas Services.
+Demand continues to be exceptionally strong and diversified, contractual terms and
+conditions remain favorable, and the fiscal year 2027 project pipeline provides strong
+visibility.
+As communicated, the fourth-quarter order intake is expected to be below the
+exceptionally strong levels of the first three quarters. This reflects normal project phasing
+and the large-project nature of the business, not a change in the underlying market.
+
+                                                                                           3
+Order intake should therefore be assessed on a full-year basis rather than on a single
+quarter.
+Slot reservation agreements remain an important part of our commercial process. They
+are structured commitments rather than speculative reservations and are generally
+intended to convert into firm orders within a defined period, typically around six months.
+Reservation fees and advance payments provide economic protection, and our project-
+selection process remains highly disciplined to ensure that the projects we select are
+viable and can support 15 to 20 years of long-term service revenues. We have not seen
+any delays or cancellations of previously signed slot reservation agreements or orders.
+During the first three quarters, we booked around 40 gigawatts of firm gas turbine orders,
+including 15 gigawatts in Q3. Total customer commitments, including reservation
+agreements, stood at 95 gigawatts and are trending towards our communicated
+approximately 100 gigawatts by fiscal year-end.
+Our capacity discipline remains unchanged. We continue to target approximately 30
+gigawatts of annual delivery capacity by 2030. The focus is now on executing the capacity
+expansion announced at the Capital Market Day, including strengthening critical supply
+chains through vertical integration and expanded in-house manufacturing capabilities.
+In parallel, we are unlocking additional capacity and efficiency from our existing gas
+turbine facilities through automation, robotics, and continuous productivity
+improvements. This approach allows us to support growth while maintaining disciplined
+capital allocation and attractive returns.
+During previous quarters, there have been many discussions about the industry supply
+of blades and vanes. We are strengthening vertical integration and have signed
+framework agreements with our suppliers to support deliveries into the 2030s. All key
+components are multi-sourced to avoid dependency on individual suppliers. Our
+investments in the in-house blades and vanes production capabilities position us well,
+particularly as the long-term service business requires around 70 percent of blades and
+vanes. The new-unit production capacity itself, however, is usually not shared with the
+service business as the inspections typically take place at the customers’ sites.
+Medium-sized gas turbine capacity has increased from around 50 units in fiscal year
+2025 to around 80 units this year. The large gas turbine expansion from 35 to 50 units
+remains fully on track and will contribute from fiscal year 2027 onwards.
+As we experienced in the third quarter, revenues were positively impacted by higher
+medium-sized turbine capacity. For this quarter, we expect this to remain at similar
+levels.
+On profitability, new-unit margins continue to expand. Orders booked today carry better
+margins than both, the backlog executed in the past and orders signed in the first half of
+this fiscal year. Margins embedded in current slot reservation agreements also continue
+to be higher. Backlog conversion over the next two to three years, and over a longer period
+for larger turbines therefore supports further sustainable margin progression.
+Service remains a highly attractive and recurring part of the business. Long-term service
+agreements average around 17 years, and at last years' CMD we have communicated
+that the lifetime service opportunity is around 400 million euros per gigawatt. The service
+benefit follows the delivery, installation and warranty phases, which means the full
+
+                                                                                         4
+contribution from today’s new-unit orders develops gradually over time. Please consider,
+that depending on the frame size, installation takes 12 to 24 months and the warranty
+phase normally lasts another 24 months.
+This means the first long-term service revenue streams typically start three to four years
+after our products leave the factory, while modification and upgrade opportunities arise
+only after six to seven years. More broadly, each new unit delivered today expands the
+installed base that will generate recurring service revenues, cash flows and customer
+engagement opportunities for decades to come.
+
+
+Grid Technologies
+Let me now turn to Grid Technologies.
+The market environment remains strong, supported by regulated grid investment, the
+replacement of 30- to 40-year-old assets, interconnection, grid stabilization and
+resilience. Data centers are additive to this story, but they are not its foundation.
+Order momentum continues to be led by the product business, particularly large power
+transformers with Europe and North America remaining the strongest regions. Visibility
+is structurally long: HVDC and large power transformers provide multi-year visibility into
+the early 2030s. While switchgear is more transactional but supported by predictable
+grid investment plans.
+As expected, in the fourth quarter, we did not book an HVDC project, so order intake
+remains similar to previous quarters without any large-project one-offs.
+We are happy to report that the first brownfield expansions for large power transformers
+and gas-insulated switchgear started to come online in Q3. We are also expanding our
+solutions and EPC capacity, particularly in the fast-growing US market. The US continues
+to deliver strong growth, driven by new generation, data-center demand, and the need
+for stronger connections and grid reinforcement.
+The brownfield expansions are supporting a further increase in fourth-quarter revenue
+and higher profitability consistent with the Grid Technologies guidance upgrade
+announced in the second quarter.
+Profitability development continues to be driven by higher volumes, a better margin
+profile in the executed backlog and disciplined execution. With pricing at an elevated
+level, operational excellence, capacity utilization and cost management will become
+even more important drivers of further improvement.
+Europe continues to be a strong and attractive market for Grid Technologies, with
+significant growth opportunities driven by sustained interconnection and grid investment
+needs. Following a period of substantial project awards in HVDC, customers and the
+industry are actively advancing execution and positioning the supply chain for the next
+phase of growth. We remain confident in the long-term demand outlook and in our
+planned execution capacity. As previously communicated, we expect to book the next
+HVDC order in early fiscal year 2027.
+Our digital-grid strategy is deliberately focused on intelligent, digitally enabled
+equipment rather than a broad software platform. Camlin and Noedra’s capabilities,
+
+                                                                                        5
+combined with our collaboration with NVIDIA, strengthen and accelerate this focused
+approach.
+
+
+Transformation of Industry
+Let’s continue with Transformation of Industry.
+Transformation of Industry continues to be a strong and reliable earnings and cash
+contributor, supported by a balanced new-unit and service portfolio as well as attractive
+end markets.
+As communicated, Siemens Energy is preparing the legal and operational separation of
+the business. The objective is to establish a self-sustaining industrial energy solutions
+company with greater strategic and financial flexibility. The range of options includes co-
+investors or private ownership as well as a capital-markets transaction.
+Siemens Energy intends to deconsolidate Transformation of Industry while retaining a
+meaningful minority stake. This would support continuity and customer trust in
+businesses with long-term service commitments, while preserving participation in
+potential future value creation.
+The strategic rationale remains clear. The electricity businesses have increasing capital
+requirements, while Transformation of Industry serves different markets, customers and
+investment priorities, with limited customer and sales synergies. A standalone setup
+would sharpen strategic focus and provide greater flexibility and access to capital.
+No final decision is expected before around mid-calendar 2027. We are initiating the
+process from a position of strength: the business is profitable, cash-generative and has
+a good order book, giving us the flexibility to pursue the option that creates the greatest
+value.
+
+
+Siemens Gamesa
+Now let’s move to Siemens Gamesa.
+The first positive quarterly result since the fourth quarter of fiscal year 2022 marked a
+significant turnaround milestone. Our full-year breakeven target remains firmly on track.
+The turnaround is not yet complete, and execution discipline, quality management and
+cost efficiency remain key priorities.
+In Offshore, fiscal year 2026 order intake has been below our expectations as project
+decisions have shifted to the next fiscal year. The underlying opportunities remain intact,
+with many projects now positioned to support order intake in fiscal year 2027.
+The current European offshore build-out of around 4 to 5 gigawatts per year remains
+below the level required for a more sustainable market, which would be closer to 8 to 9
+gigawatts annually. We will book one large offshore order this quarter, but do not expect
+a full catch-up for the offshore orders that have been pushed out to fiscal year 2027.
+In Onshore, our approach remains selective and service-led rather than volume-led.
+Building a structurally attractive margin profile takes time because new-unit deliveries
+must first expand the installed base and the future service portfolio.
+
+                                                                                         6
+Longer term, the margin potential remains attractive, particularly in Offshore, supported
+by longer product cycles, better industrialization and sufficient annual market volume.
+In parallel, our immediate priorities are to de-risk execution, reach cash breakeven and
+improve market visibility.
+
+
+Seasonality and fourth-quarter phasing
+Let me now briefly address fourth-quarter phasing.
+Following an exceptionally strong third quarter, we are confident that fourth-quarter
+group margins will remain around the solid first-half level, fully in line with our consistent
+communication. This reflects the expected business mix and project phasing, normal
+service seasonality in Gas Services, planned corporate costs, and the anticipated year-
+end ramp-up in capital expenditure.
+The improving margin quality in the backlog, higher volumes and continued operational
+execution support further progression over time.
+Capital expenditure is back-end loaded into Q4, however lower than communicated in
+the CMD, and consistent with the typical fiscal-year pattern including the ramp-up of our
+capacity expansion programs.
+Overall, we confirm that we expect group profitability to be at the upper end of the
+guidance range.
+
+
+Cash flow and capital allocation
+Let me briefly touch on cash flow and capital allocation.
+The fourth quarter includes back-end-loaded capital expenditure and the usual working-
+capital phasing. It is also important to distinguish between cash items and non-cash
+accruals. The Q3 other line included reservation fees as well as personnel-related
+accruals that affected profit but were not cash-effective.
+Growing profitability and disciplined cash conversion are the structural foundations of
+our cash generation. Reservation fees provide additional support, while we continue to
+target cash conversion above one throughout the cycle and to remain a net-cash
+company.
+On 24 September, we started the third tranche of our previously announced share
+buyback program of up to 6 billion euros. This tranche comprises a volume of up to 2
+billion euros and is scheduled for completion no later than March 31, 2027. Our dividend
+policy remains unchanged, with a payout of 40 to 60 percent of net income attributable
+to Siemens Energy shareholders.
+For fiscal year 2026, total shareholder returns of more than 3.6 billion euros include the
+fiscal year 2025 dividend paid this March and the two share buyback programs tranches
+of 3 billion Euros which have been concluded in fiscal year 2026 plus the lately initiated
+third share buyback tranche.
+
+
+
+
+                                                                                            7
+We continue to review our capital allocation framework. A more comprehensive update,
+together with the full financial framework and our mid-term ambitions, will be provided
+with the fiscal year results in November.
+
+
+Additional remarks
+Finally, a few additional remarks.
+In the United States, demand remains strong and projects continue to advance as
+permitting, interconnection timelines and EPC capacity progress. We have seen no data-
+center project cancellations, and our reservation fees, advance payments and
+termination provisions provide robust economic protection.
+The US bulk-power equipment Executive Order is targeted rather than a blanket ban, with
+key implementation details still to come. Against a backdrop of strong US transformer
+demand that exceeds current domestic production capacity, the order’s apparent focus
+on equipment, components and digital access from sanctioned or security-sensitive
+jurisdictions could strengthen the position of trusted suppliers and create additional
+opportunities for Siemens Energy.
+Across all businesses, value over volume remains our guiding commercial principle. We
+continue to apply strict project selectivity, pricing discipline and close customer
+engagement.
+
+
+Closing
+Let me conclude with the key messages.
+First, demand across our core markets remains structurally strong, global, and
+diversified. The gas market continues to be supply constrained, Grid Technologies
+continues to benefit from multiple long-term growth drivers, and data centers provide
+additional upside without being the sole foundation of either growth story.
+Second, execution is a key priority. Capacity expansions are progressing as planned,
+backlog quality continues to improve, and the disciplined conversion of backlog into
+revenue, profit, and cash underpins the next phase of value creation.
+Third, our business-specific investment theses remain unchanged. Gas Services
+continues to benefit from strong demand, attractive pricing, and resilient recurring
+service revenues. Grid Technologies delivers sustained growth and margin expansion
+through operational execution. Siemens Gamesa remains on track to achieve full-year
+breakeven, while Transformation of Industry continues to perform well as we prepare the
+business for a potential separation from a position of strength.
+Finally, we reaffirm our upgraded fiscal year 2026 outlook. We continue to expect
+comparable revenue growth of 14 to 16 percent and a profit margin before special items
+of 10 to 12 percent, trending towards the upper end, net income of around 4 billion euros
+and free cash flow pre-tax of around 8 billion euros.
+
+
+
+
+                                                                                       8
+With that, we will start today’s Question & Answer session. If you wish to ask a question,
+please press “*1” on your telephone keypad. If you no longer want to ask a question,
+please press “*2”.
+
+
+
+Q&A Session
+Tobias Hang
+Head of Investor Relations
+[Operator Instructions] With that, I will just call right now Max Yates from Morgan
+Stanley for the first question.
+
+
+Max Yates
+Morgan Stanley
+Tobias. I guess just my first question is on the market outlook could clarify. You talked
+about 110 to 120 megawatts that you sort of 10 to 20 gigawatts of additional demand on
+top of that I guess.
+
+
+Tobias Hang
+Head of Investor Relations
+Sorry, the connection was quite bad. I know it's just a...
+
+
+Max Yates
+Morgan Stanley
+I was just saying, so you marked that you've talked about 100 to 110 gigawatts. But I
+thought you also said that maybe there was an additional 10 to 20 gigawatts of demand
+on top of that, which sounded to me. But I was just checking that I have heard that
+correct or is that not right?
+
+
+Tobias Hang
+Head of Investor Relations
+Thanks a lot, Max. Then I heard it correctly. So we continue to say that we have now
+increased the market from the last capital market view to 110 to 120 gigawatts, but we
+see additional potential upside from data centers of 10 to 20 gigawatts. That means
+potentially it might be a market of roughly 130 to 140 depending on how the data center
+demand will be turning out.
+
+
+Max Yates
+Morgan Stanley
+Okay. And just one quick clarification. Obviously, great margin.
+
+
+                                                                                        9
+Tobias Hang
+Head of Investor Relations
+I think I have lost you, sorry.
+
+
+Max Yates
+Morgan Stanley
+Can you hear me now?
+
+
+Tobias Hang
+Head of Investor Relations
+Yes, I hope.
+
+
+Max Yates
+Morgan Stanley
+Yes. Okay. Well, just very quickly. Q4 in Grid has a very wide range of outcomes
+because of the guidance. The guidance is quite wide. I guess what I'm trying to
+understand is, you know, when we think about sort of sequential margin progress, you
+know, do you feel yourself trending towards the upper end of the full year grid guidance,
+or you know, more midpoint or more lower end, just to get a kind of sense of you know
+rough ballpark for that Q4, because obviously it's a very wide range of outcomes
+depending on where you come.
+
+
+Tobias Hang
+Head of Investor Relations
+I mean thanks, Max, for this question. Generally, I mean, as you might have noticed, we
+have not really specified further the guidance for the individual business area. So it
+means we didn't really show or talk about any trends there. What you still have to
+consider though is and that's what we already mentioned in Q3 is that the additional
+revenue growth we could see from the capacity additions, which came online from our
+brownfield expansions, certainly on the one hand, provided us additional revenue and
+therefore, also a certain margin expansion.
+
+So therefore, I think it was quite easy in Q2 when we upgraded our margin to somehow
+do the math where we should be getting into if you, let's say, would take it to the
+midpoint of the guidance. So therefore, I would expect that there is a certain margin
+progression continuing due to the fact that we have higher revenues within Grid
+Technologies after the capacity expansion.
+
+
+
+
+                                                                                       10
+Max Yates
+Morgan Stanley
+That’s great, thank you.
+
+
+Tobias Hang
+Head of Investor Relations
+Thank you so much. As we, as I'm seeing, that everything seems to be quite clear so far.
+I mean, I also have to admit we had quite a long intro. I don't see any additional
+questions.
+So therefore, thank you so much for participating in today's call. And with that, we will
+conclude our pre-closed call today. Thank you very much for your participation and
+your continued engagement. Have a wonderful evening or afternoon, and please mark
+in your calendars again November 11th, 2026, when we will have our Q4 full-year
+results released. Thanks a lot, and a good afternoon. Bye bye.
+
+
+
+
+                                                                                        11
+

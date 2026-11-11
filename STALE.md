@@ -1,6 +1,6 @@
 # Data Staleness Table
 
-**Last updated: 2026-11-06**
+**Last updated: 2026-11-11**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
@@ -36,7 +36,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **ASML** | ASML | Yes | 2026 Q1 | `2026_Q1_earnings_transcript.txt` | Recent |
 | **CRWV** | CoreWeave | Yes | 2026 Q3 | `2026_Q3_press_release.txt` | Current |
 | **DDOG** | Datadog | Yes | Q3 2026 (9/30/2026) | `ddog/2026-11-Q3-delta.md` (8-K Ex 99.1; 10-Q filed 4 Nov, not yet reconciled) | ✅ Fresh — Q3 printed 4 Nov 2026; rev $1.197B (+35%), non-GAAP EPS $0.81; Q4 guide ~flat seq → −14% tape |
-| **ENR.DE** | Siemens Energy | Yes | 2026 Q1 | `2026_Q1_earnings_call.txt` | Recent |
+| **ENR.DE** | Siemens Energy | Yes | FY2026 Q4 (9/30/2026) | `quarterly/2026_Q4_earnings_release.txt`; `analysis/2026_11_delta_analysis.md` | ✅ Fresh — FY26 printed 11 Nov 2026 (preliminary; Annual Report due ~early Dec); rev €44.2bn (+15.5% comp.), margin before SI 12.4%, FCF pre tax €8.8bn, backlog €164bn; FY27 guide 14–16% / 14–16%; README and May thesis still dated May |
 | **GRRR** | Gorilla Technology | — | 2026 Q1 | `2026_Q1_earnings_call.txt` | Recent |
 | **HOOD** | Robinhood | Yes | Q3 2026 (9/30/2026) | `hood/2026_10_27_q3_2026_results.md` | ✅ Fresh — Q3 note already filed (SHA 0d4cb79 cluster); next LASE-related watch is separate |
 | **IBM** | IBM | — | 2026 Q1 | `2026_Q1_earnings_call.txt` | Recent |
@@ -57,6 +57,7 @@ Sorted most stale → most current as of the last-updated date above.
 
 ## Notes
 
+- **2026-11-11 (evening UK):** **ENR.DE** FY2026 / Q4 FY26 printed 11 Nov 07:00 CET. Official pack filed in `enr.de/quarterly/2026_Q4_*` (earnings release, analyst presentation, company-compiled consensus, 30 Sep pre-close transcript) plus the Q1–Q3 FY26 earnings releases the repo was missing. Notes: `enr.de/analysis/2026_11_q4_fy26_results_summary.md`, `enr.de/analysis/2026_11_delta_analysis.md`. Record year; FY27 net income guide (~€5bn) below the pre-results consensus (€5.53bn); Q4 firm Gas orders only ~2 GW. No analyst-call transcript on IR yet; Annual Report 2026 not yet out. README and the `2026_05_*` thesis/valuation carry pointer banners only, and a rewrite is recommended.
 - **2026-11-06:** **PH** FY27 Q1 and **NET** Q3 printed **5 Nov 2026** (8-Ks: PH accession 0000076334-26-000170 Ex 99.1; NET 0001477333-26-000060 Ex 99.1). Delta notes: `ph/2026-11-FY27Q1-delta.md`, `cloudflare/2026-11-Q3-delta.md`. Form 10-Qs filed same day (**0000076334-26-000172**, **0001477333-26-000061**) — **not reconciled** in those notes. **MRNA** Q3 print watch unchanged (~6 Nov). **LASE** still 12 Nov BMO.
 - **2026-11-05 (morning UK):** **DDOG** Q3 printed 4 Nov (8-K accession 0001628280-26-069792): rev $1.197B (+35%), non-GAAP OI $334M (28% margin), non-GAAP EPS $0.81; Q4 rev guide $1.19–1.20B (~flat sequential) → stock −14.4% to $188.72. Note: `ddog/2026-11-Q3-delta.md`. **PH** (FY27 Q1, BMO / call ~16:00 UK) and **NET** (Q3 after close) — no Item 2.02 yet as of ~09:45 UK (both filed later 5 Nov; see **2026-11-06** line). **MRNA** Q3 still expected ~**6 Nov** (FMP; no 8-K). **LASE** still 12 Nov BMO.
 - **2026-11-04 (morning UK):** **SMCI** Q1 FY27 printed 3 Nov: rev $19.95B (+298%), GM 12.7%, non-GAAP EPS $1.81, OCF −$434M (helped by +$3.1B customer advances), FY27 guide raised to $72–82B. CFO said one customer was **44%** of Q1 revenue (FY26: 28.1%), which meets conditional trim trigger (a) from the 25 Sep audit pending 10-Q. Note: `smci/analysis/2026_11_04_Q1FY27_delta.md`. Next: **DDOG** today BMO (call 13:00 UK), **PH** + **NET** 5 Nov.

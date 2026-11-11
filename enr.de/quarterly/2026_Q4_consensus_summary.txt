@@ -1,0 +1,109 @@
+Consensus Estimates - Pre Q4 FY26
+
+as of November 4th, 2026
+
+
+
+
+                                                                                             Q4 FY25               Q4 FY26                  FY25           FY26             FY27            FY28               # Estimates
+                                                                                              Actual               Estimate                 Actual        Estimate         Estimate        Estimate              Q4 FY26           FY26           FY27           FY28
+
+Orders
+
+Gas Services                                                                 €m                4,769                   6,143               22,996          33,725          34,147           33,316                        17             17             17             17
+Grid Technologies                                                            €m                6,880                   5,965               21,423          24,292          25,986           27,291                        17             17             17             17
+Transformation of Industry                                                   €m                1,629                   1,625                6,003           6,267           6,622            6,991                        17             17             17             17
+Siemens Gamesa                                                               €m                1,123                   1,939                9,324           5,391           9,656           10,451                        17             17             17             17
+
+Reconciliation to Consolidated Financial Statements                          €m                 (187)                  (198)                (818)           (865)            (912)            (940)                      17             17              17             17
+
+Siemens Energy                                                               €m               14,214                  15,474               58,928          68,810          75,501           77,108                        17             17             17             17
+
+Revenue
+
+Gas Services                                                                 €m                3,094                   3,776               12,198          14,106          16,784           19,534                        17             17             17             17
+Grid Technologies                                                            €m                3,145                   4,271               11,305          14,015          16,853           19,905                        17             17             17             17
+Transformation of Industry                                                   €m                1,614                   1,742                5,723           5,995           6,385            6,788                        17             17             17             17
+Siemens Gamesa                                                               €m                2,744                   2,896               10,375          10,537          10,997           11,553                        17             17             17             17
+
+Reconciliation to Consolidated Financial Statements                          €m                 (169)                  (122)                (524)           (660)            (705)            (748)                      17             17              17             17
+
+Siemens Energy                                                               €m               10,428                  12,563               39,077          43,994          50,314           57,032                        17             17             17             17
+
+Profit before Special Items
+
+Gas Services                                                                 €m                   251                     511               1,580           2,226            3,094            4,073                       17             17             17             17
+Grid Technologies                                                            €m                   463                     878               1,791           2,662            3,504            4,428                       17             17             17             17
+Transformation of Industry                                                   €m                   177                     208                 646             751              823              907                       17             17             17             17
+Siemens Gamesa                                                               €m                 (303)                      72             (1,364)              57              296              527                       17             17             17             17
+
+Reconciliation to Consolidated Financial Statements                          €m                 (117)                  (196)                (298)           (284)            (308)            (319)                      17             17              17             17
+
+Siemens Energy                                                               €m                   471                  1,472                2,355           5,412            7,410            9,615                       17             17             17             17
+
+Profit before SI margin as calculated:
+
+Gas Services                                                                  %                8.1%                   13.5%                13.0%           15.8%            18.4%            20.8%                        17             17             17             17
+Grid Technologies                                                             %               14.7%                   20.6%                15.8%           19.0%            20.8%            22.2%                        17             17             17             17
+Transformation of Industry                                                    %               11.0%                   12.0%                11.3%           12.5%            12.9%            13.4%                        17             17             17             17
+Siemens Gamesa                                                                %              -11.0%                    2.5%              (13.1)%            0.5%             2.7%             4.6%                        17             17             17             17
+
+Siemens Energy                                                                %                 4.5%                  11.7%                  6.0%          12.3%            14.7%            16.9%                        17             17             17             17
+
+Special Items
+
+Siemens Energy                                                               €m                 (143)                      23                   6            (244)           (101)              (87)                     16             16              16             16
+   therein Siemens Gamesa                                                    €m                  (50)                       3               (347)           (193)             (63)             (36)                      16             16              16             16
+
+Profit
+
+Gas Services                                                                 €m                   246                     504               1,566           2,257            3,085            4,079                       15             15             15             15
+Grid Technologies                                                            €m                   458                     881               1,778           2,655            3,501            4,445                       15             15             15             15
+Transformation of Industry                                                   €m                   175                     211                 635             745              823              905                       15             15             15             15
+Siemens Gamesa                                                               €m                 (353)                      74             (1,711)           (139)              252              492                       15             15             15             15
+
+Reconciliation to Consolidated Financial Statements                          €m                 (199)                  (148)                    92          (320)            (307)            (323)                      15             15              15             15
+
+Siemens Energy                                                               €m                   328                  1,501                2,361           5,170            7,340            9,571                       16             16             16             16
+
+Profit margin as calculated:
+
+Gas Services                                                                  %                8.0%                   13.4%                12.8%           16.0%            18.4%            20.9%                        15             15             15             15
+Grid Technologies                                                             %               14.6%                   20.6%                15.7%           18.9%            20.8%            22.3%                        15             15             15             15
+Transformation of Industry                                                    %               10.9%                   12.1%                11.1%           12.4%            12.9%            13.3%                        15             15             15             15
+Siemens Gamesa                                                                %              -12.9%                    2.6%              (16.5)%           (1.3)%            2.3%             4.3%                        15             15             15             15
+Siemens Energy                                                                %                3.1%                   11.9%                 6.0%           11.8%            14.6%            16.8%                        16             16             16             16
+
+Net Income Transition
+
+Profit (calculated above)                                                    €m                   328                  1,501                2,361           5,170            7,340            9,571                       16             16             16             16
+
+Amortisation of intangible assets acquired in business
+combinations and goodwill impairments                                        €m                  (45)                    (63)                (212)          (204)            (211)            (218)                       16             16             16             16
+Financial result                                                             €m                    17                      44                   64            186              218              255                       16             16             16             16
+
+Income (loss) before income tax                                              €m                  300                   1,480                2,213           5,154            7,338            9,598                       16             16             16             16
+Income tax expense / gains                                                   €m                  (64)                  (233)                (527)         (1,141)          (1,805)          (2,386)                       16             16             16             16
+
+Net Income (loss)                                                            €m                   236                  1,248                1,685           4,013            5,532            7,212                       16             16             16             16
+  Non-controlling interests                                                  €m                    68                     58                  271             244              272              309                       16             16             16             16
+  Shareholders of Siemens Energy AG                                          €m                   168                  1,166                1,414           3,684            5,172            6,809                       16             16             16             16
+
+Basic Earnings per share                                                   €/share               0.19                    1.38                 1.63            4.32             6.23            8.34                       15             15             15             15
+
+Disclaimer
+This document has been issued by Siemens Energy for information purposes only and is not intended to constitute investment advice. It is based on estimates and forecasts of various sell-side analysts regarding our revenues, earnings and business developments. Such
+estimates and forecasts cannot be independently verified by reason of the subjective character. Siemens Energy gives no guarantee, representation or warranty and is not responsible or liable as to its accuracy and completeness.
+Siemens Energy is a trademark licensed by Siemens AG
+
+
+Haftungsausschluss
+Dieses Dokument wurde von der Siemens Energy ausschließlich zu Informationszwecken erstellt und dient keinesfalls der Anlageberatung. Es beruht auf der Bewertung der bisherigen und Einschätzung der zukünftigen Umsatz-, Gewinn- und Geschäftsentwicklung durch
+verschiedene Börsenanalysten. Die Bewertungen und Einschätzungen sind wegen ihres subjektiven Charakters einer unabhängigen Verifizierung nicht zugänglich. Trotz sorgfältiger Prüfung kann die Siemens Energy keine Garantie, Zusicherung oder Gewährleistung für die
+Vollständigkeit und Richtigkeit abgeben; eine Verantwortlichkeit und Haftung ist folglich insoweit ausgeschlossen.
+Siemens Energy ist eine durch die Siemens AG lizensierte Marke.
+
+
+
+                                                                                           Siemens Energy is a trademark licensed by Siemens AG
+

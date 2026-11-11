@@ -1,0 +1,796 @@
+Earnings Release Q3 FY 2026
+April 1 to June 30, 2026
+Munich, Germany, August 5, 2026 – Siemens Energy today announced its results for the third quarter of fiscal year 2026 that ended June 30, 2026.
+
+
+
+
+Siemens Energy accelerates profitable growth – Siemens Gamesa delivers a
+positive quarterly result
+
+“Global demand for electricity – and consequently for our products – remained strong in the third quarter. We delivered record orders, revenue,
+and profitability, while continuing to improve efficiency. The fact that our wind business has returned to profitability in a quarter for the first time
+since 2022 is a fantastic achievement by this team”, says Christian Bruch, President and CEO of Siemens Energy AG.
+
+
+• Siemens Energy further accelerated its profitable growth in the third quarter, achieving record levels of orders, revenue and profitability. Order
+  intake once again benefited primarily from demand in the U.S. Also, Siemens Energy delivered its highest quarterly revenue to date, supported
+  by progress in capacity expansion. Siemens Gamesa reported a positive result for the first time since fiscal year 2022 and is on track to reach
+  break-even for 2026. Strong cash flow momentum also continued.
+• Orders reached another record level of €17.9bn. Growth was driven by a new record order intake at Gas Services, as well as strong increases at
+  Grid Technologies and Transformation of Industry. Book-to-bill ratio (ratio of orders to revenue) was 1.57, while order backlog increased to
+  €162bn at quarter-end.
+• Year-over-year, revenue rose 18.5% on a comparable basis (excluding currency translation and portfolio effects) to €11.4bn. Growth was rec-
+  orded across all segments.
+• Profit before Special items more than tripled to €1,623m, compared with €497 million in Q3 FY 2025. All segments delivered strong improve-
+  ments, with Siemens Gamesa making the largest contribution. Special items amounted to negative €59m (Q3 FY 2025: positive €458m, primar-
+  ily reflecting the demerger of the energy business from Siemens Limited, India). Siemens Energy's Profit came in at €1,564m (Q3 FY 2025:
+  €956m).
+• Net income also increased sharply to €1,188m (Q3 FY 2025: €697m). Corresponding basic earnings per share were €1.28 (Q3 FY 2025: €0.71).
+• Free cash flow pre tax increased to €2,319m (Q3 FY 2025: €419m). The sharp increase resulted largely from the improvement in cash-effective
+  profit and was further supported by customer advance payments associated with the strong order intake.
+• Siemens Energy confirms its fiscal year 2026 outlook, which was raised after the end of the first half-year, and expects its Profit margin before
+  Special Items to be towards the upper end of the guided range.
+                                                                                                                                                  Earnings Release Q3 FY 2026 | Siemens Energy
+
+
+
+
+Siemens Energy                                                                                                   • Siemens Energy delivered strong order growth, led by record order
+                                                                                                                   intake at Gas Services, despite a decline in Siemens Gamesa's new
+                                                                                                                   units business. Service orders increased substantially, comple-
+                                                                                      Q3                           mented by continued growth in new unit orders compared with the
+                                                                                                                   prior year. The U.S. was again the main driver of order intake growth.
+(in millions of €)                                           FY 2026           FY 2025            Change
+                                                                                                                 • Book-to-bill ratio was 1.57 and order backlog rose yet again to a new
+                                                                                                                   record high of €162bn.
+Orders                                                         17,926            16,613              8.5%¹
+                                                                                                                 • All segments contributed to revenue growth, led by Grid Technolo-
+Revenue                                                        11,447              9,745           18.5%¹          gies and Gas Services.
+Profit                                                           1,564               956             63.6%
+                                                                                                                 • Profit before Special items and the corresponding margin rose
+                                                                                                                   sharply, supported by excellent project execution. All segments rec-
+Profit margin                                                   13.7%               9.8%           3.9 p.p.        orded improvements, with Siemens Gamesa delivering the most pro-
+    Special items (SI)                                             (59)              458                 n/a       nounced increase.
+                                                                                                                 • Positive Special items in the prior-year quarter were primarily due to
+Profit before SI                                                 1,623               497            >200%          the demerger of the energy business from Siemens Limited, India.
+Profit margin before SI                                         14.2%               5.1%           9.1 p.p.      • Gas Services and Grid Technologies were the main contributors to
+                                                                                                                   the increase in Free cash flow pre-tax, mainly reflecting the profit
+Net income (loss)                                                1,188               697             70.5%         improvement and a higher Cash conversion rate. In addition, Free
+    Basic earnings per share                                                                                       cash flow pre-tax again benefited from customer advance payments,
+                                                                  1.28               0.71            80.3%         including reservation fees, in connection with higher orders.
+    (in €)
+
+Free cash flow pre tax                                           2,319               419            >200%
+
+1
+    Comparable basis: Excluding currency translation and portfolio effects. Orders developed year-over-year by
+    7.9% on a nominal basis, revenue respectively by 17.5%.
+
+
+
+
+                                                                                                                                                                                            2
+                                                                                                                                                  Earnings Release Q3 FY 2026 | Siemens Energy
+
+
+
+
+Gas Services                                                                                                     • Gas Services once again with record orders for the quarter. Demand
+                                                                                                                   from the U.S., including large orders related to data centers, and or-
+                                                                                                                   ders from the Middle East and Asia for new power plants were the
+                                                                                      Q3                           key drivers of the development. Both the new units and service busi-
+                                                                                                                   ness grew substantially.
+(in millions of €)                                           FY 2026           FY 2025            Change
+                                                                                                                 • Book‑to‑bill ratio was 2.65 and order backlog increased to €73bn.
+                                                                                                                 • Revenue rose substantially, with growth in the new units business
+Orders                                                           9,967             6,180           61.9%¹
+                                                                                                                   exceeding the significant increase in the service business.
+Revenue                                                          3,756             3,118           20.8%¹        • Profit before Special items was sharply up. This was driven by volume
+Profit                                                             645               402             60.3%
+                                                                                                                   and primarily due to the higher margin, reflecting the increased prof-
+                                                                                                                   itability of the processed order backlog in the new units business as
+Profit margin                                                   17.2%             12.9%            4.3 p.p.        well as the year-over-year increase in service volume.
+    Special items (SI)                                               (3)               (4)           14.5%
+
+Profit before SI                                                   648               406             59.6%
+
+Profit margin before SI                                         17.3%             13.0%            4.2 p.p.
+1
+    Comparable basis: Excluding currency translation and portfolio effects. Orders developed year-over-year by
+    61.3% on a nominal basis, revenue respectively by 20.5%.
+
+
+
+
+Grid Technologies                                                                                                • Grid Technologies increased orders in all businesses. The major con-
+                                                                                                                   tribution came from the substantial growth in the transformer busi-
+                                                                                                                   ness including data center projects. From a regional perspective, de-
+                                                                                      Q3                           mand from Europe and North America was the primary growth
+                                                                                                                   driver.
+(in millions of €)                                           FY 2026           FY 2025            Change
+                                                                                                                 • Book‑to‑bill ratio was 1.48 and the order backlog increased to
+                                                                                                                   €51bn.
+Orders                                                           5,367             4,218           27.6%¹
+                                                                                                                 • Revenue was substantially above the prior‑year quarter’s level,
+Revenue                                                          3,624             2,819           28.6%¹          mainly driven by the product business. Growth was supported by ex-
+Profit                                                             718               447             60.8%
+                                                                                                                   panded production capacities.
+                                                                                                                 • Profit before Special items rose sharply, due to increased volume and
+Profit margin                                                   19.8%             15.8%            4.0 p.p.        improved margin profile of the processed order backlog year-over-
+    Special items (SI)                                               (4)               (2)       (143.9)%          year.
+
+Profit before SI                                                   722               448             61.1%
+
+Profit margin before SI                                         19.9%             15.9%            4.0 p.p.
+
+1
+    Comparable basis: Excluding currency translation and portfolio effects. Orders developed year-over-year by
+    27.3% on a nominal basis, revenue respectively by 28.6%.
+
+
+
+
+                                                                                                                                                                                            3
+                                                                                                                                                  Earnings Release Q3 FY 2026 | Siemens Energy
+
+
+
+
+Transformation of Industry                                                                                       • Transformation of Industry showed a substantial increase in orders.
+                                                                                                                   Compression’s new units business was the key contributor, benefit-
+                                                                                                                   ing from large orders from the Americas.
+                                                                                      Q3                         • Book‑to‑bill ratio was 1.19, order backlog at the end of the quarter
+                                                                                                                   was €8bn, unchanged from the previous quarter.
+(in millions of €)                                           FY 2026           FY 2025            Change
+                                                                                                                 • Revenue increased significantly compared with the prior‑year quar-
+                                                                                                                   ter, with all businesses contributing. Growth was achieved in both
+Orders                                                           1,809             1,356           31.5%¹
+                                                                                                                   the new units and service business.
+Revenue                                                          1,527             1,361           11.5%¹        • Profit before Special items and the corresponding margin increased
+Profit                                                             214               154             38.7%
+                                                                                                                   substantially. This was due to the increased volume and positive pro-
+                                                                                                                   ject-related one‑off effects.
+Profit margin                                                   14.0%             11.3%            2.7 p.p.
+
+    Special items (SI)                                               (4)               (3)        (44.3)%
+
+Profit before SI                                                   218               157             38.8%
+
+Profit margin before SI                                         14.3%             11.5%            2.7 p.p.
+1
+    Comparable basis: Excluding currency translation and portfolio effects. Orders developed year-over-year by
+    33.5% on a nominal basis, revenue respectively by 12.2%.
+
+
+
+
+Siemens Gamesa                                                                                                   • Orders declined sharply compared with prior-year quarter’s level. The
+                                                                                                                   prior year included two large orders in the offshore business worth
+                                                                                                                   more than €3bn, while the recent quarter did not comprise any com-
+                                                                                      Q3                           parable order intake.
+                                                                                                                 • Book‑to‑bill ratio was 0.38 and the order backlog decreased to
+(in millions of €)                                           FY 2026           FY 2025            Change
+                                                                                                                   €31bn.
+                                                                                                                 • Year-over-year, revenue rose significantly due to an increase in the
+Orders                                                           1,050             4,890         (77.0)%¹
+                                                                                                                   offshore business. Growth was driven by service revenue, with the
+Revenue                                                          2,743             2,506           13.5%¹          new units business also showing a clear increase.
+Profit                                                               56            (425)                 n/a
+                                                                                                                 • Profit before Special items improved sharply and returned to profita-
+                                                                                                                   bility. The improvement reflects productivity gains and increased
+Profit margin                                                     2.0%          (17.0)%          19.0 p.p.         cost efficiency.
+    Special items (SI)                                             (20)                13                n/a
+
+Profit before SI                                                     75            (438)                 n/a
+
+Profit margin before SI                                           2.7%          (17.5)%          20.2 p.p.
+
+1
+    Comparable basis: Excluding currency translation and portfolio effects. Orders developed year-over-year by
+    (78.5)% on a nominal basis, revenue respectively by 9.4%.
+
+
+
+
+Reconciliation to Consolidated Financial                                                                         Reconciliation to Consolidated Financial Statements includes items,
+                                                                                                                 which management does not consider to be indicative of the segments’
+Statements                                                                                                       performance – mainly group management costs (management and cor-
+                                                                                                                 porate functions) and other central items, Treasury activities as well as
+                                                                                                                 eliminations. Other central items include Siemens brand fees, corporate
+Profit before Special items (SI)                                                                         Q3
+                                                                                                                 services (e.g. management of the Group’s real estate portfolio), corpo-
+(in millions of €)                                                              FY 2026           FY 2025        rate projects, centrally held equity interests and other items.
+
+Total Segments                                                                      1,663               573
+
+Reconciliation to Consolidated Financial Statements                                   (40)             (76)
+
+Siemens Energy                                                                      1,623               497
+
+
+
+
+                                                                                                                                                                                            4
+                                                                                                           Earnings Release Q3 FY 2026 | Siemens Energy
+
+
+
+
+Outlook
+Siemens Energy confirms its fiscal year 2026 outlook, which was raised after the end of the first half-year, and expects its Profit margin before
+Special Items to be towards the upper end of the guided range.
+
+Siemens Energy expects for the Group to achieve comparable revenue growth (excluding currency translation and portfolio effects) in fiscal year
+2026 in a range of 14% to 16% and a Profit margin before Special items between 10% and 12%. Siemens Energy expects a Net income of around
+€4bn and a Free cash flow pre tax of around €8bn.
+
+The outlook for Siemens Energy does not include charges related to any future legal and regulatory matters.
+
+Overall assumptions per business area
+
+• Gas Services assumes a comparable revenue growth of 16% to 18% and a Profit margin before Special items of 14% to 16%.
+• Grid Technologies plans to achieve a comparable revenue growth of 25% to 27% and a Profit margin before Special items between 18% and
+  20%.
+• Transformation of Industry expects a comparable revenue growth of 5% to 7% and a Profit margin before Special items of 11% to 13%.
+• Siemens Gamesa assumes a comparable revenue growth of 3% to 5% and a Profit margin before Special items at break-even.
+
+
+
+
+                                                                                                                                                     5
+                                                                                                              Earnings Release Q3 FY 2026 | Siemens Energy
+
+
+
+
+Notes and forward-looking statements
+The press conference call on Siemens Energy’s financial results of the third quarter of fiscal year 2026 will be broadcasted live for journalists at
+https://www.siemens-energy.com/pressconference starting at 8:30 a.m. CEST today.
+
+You can also follow the conference call for analysts and investors live at www.siemens-energy.com/analystcall starting at 10:00 a.m. CEST today.
+
+Recordings of both conference calls will be made available afterwards.
+
+The financial publications can be downloaded at: www.siemens-energy.com/financial-publications.
+
+
+
+This document contains statements related to our future business and financial performance, and future events or developments involving Siemens
+Energy that may constitute forward-looking statements. These statements may be identified by words such as “expect,” “look forward to,” “antici-
+pate,” “intend,” “plan,” “believe,” “seek,” “estimate,” “will,” “project,” or words of similar meaning. We may also make forward-looking statements in
+other reports, prospectuses, in presentations, in material delivered to shareholders, and in press releases. In addition, our representatives may from
+time to time make oral forward-looking statements. Such statements are based on the current expectations and certain assumptions of Siemens
+Energy´s management, of which many are beyond Siemens Energy´s control. These are subject to a number of risks, uncertainties, and other
+factors, including, but not limited to, those described in disclosures, in particular in the chapter “Report on expected developments and associated
+material opportunities and risks” in the Annual Report and the Half-year Financial Report, which should be read in conjunction with the Annual
+Report. Should one or more of these risks or uncertainties materialize, should acts of force majeure, such as pandemics, occur, or should underlying
+expectations including future events occur at a later date or not at all, or should assumptions not be met, Siemens Energy´s actual results, perfor-
+mance, or achievements may (negatively or positively) vary materially from those described explicitly or implicitly in the relevant forward-looking
+statement. Siemens Energy neither intends, nor assumes any obligation, to update or revise these forward-looking statements in light of develop-
+ments which differ from those anticipated. This document includes supplemental financial measures – that are not clearly defined in the applicable
+financial reporting framework – and that are or may be alternative performance measures (non-GAAP-measures). These supplemental financial
+measures should not be viewed in isolation or as alternatives to measures of Siemens Energy´s net assets and financial position or results of
+operations as presented in accordance with the applicable financial reporting framework in its consolidated financial statements. Other companies
+that report or describe similarly titled alternative performance measures may calculate them differently. Due to rounding, numbers presented
+throughout this and other documents may not add up precisely to the totals provided and percentages may not precisely reflect the absolute
+figures.
+
+
+
+
+This document is a Quarterly Statement according to § 53 of the Exchange Rules for the Frankfurter Wertpapierbörse.
+
+
+
+
+Financial Media:
+
+Tim Proll-Gerwe
+Phone: +49 (0)152 2283 5652
+E-mail: tim.proll-gerwe@siemens-energy.com
+
+Oliver Sachgau
+Phone: +49 (0)173 272 9231
+E-mail: oliver.sachgau@siemens-energy.com
+
+Siemens Energy AG,
+81739 Munich, Germany
+
+© Siemens Energy, 2026
+
+
+
+
+                                                                                                                                                        6
+Financial Results
+Third quarter of fiscal year 2026
+
+
+
+
+                                    I
+Key figures
+(in millions of €, except where otherwise stated)
+
+Volume
+                                                                                        Q3                                   Change                                       Q1 - Q3                                    Change
+
+                                                           FY 2026               FY 2025                 Actual               Comp.                 FY 2026              FY 2025                  Actual               Comp.
+
+Orders                                                      17,926                16,613                    7.9%                 8.5%                53,284                44,714                 19.2%                23.1%
+Revenue                                                     11,447                  9,745                 17.5%                18.5%                 31,416                28,649                   9.7%               13.4%
+Book-to-bill ratio                                              1.57                  1.70                    n/a                                       1.70                  1.56                     n/a
+Order backlog (in billions of €)                                 162                   136                19.3%                                          162                   136                19.3%
+
+
+
+
+Profitability
+                                                                                                                     Q3                 Change                                              Q1 - Q3                  Change
+
+                                                                                    FY 2026                   FY 2025                     Actual                  FY 2026                  FY 2025                      Actual
+
+Profit                                                                                 1,564                        956                    63.6%                     3,680                     2,033                    81.0%
+Profit margin                                                                          13.7%                        9.8%                 3.9 p.p.                    11.7%                      7.1%                  4.6 p.p.
+    Special items (SI)                                                                    (59)                      458                        n/a                    (266)                       149                        n/a
+Profit before SI                                                                       1,623                        497                   >200%                      3,946                     1,884                   109.4%
+Profit margin before SI                                                                14.2%                        5.1%                 9.1 p.p.                    12.6%                      6.6%                  6.0 p.p.
+EBITDA                                                                                 1,920                     1,275                     50.6%                     4,715                     3,232                    45.9%
+Net income (loss)                                                                      1,188                        697                    70.5%                     2,769                     1,450                    91.0%
+Basic earnings per share (in €)1                                                         1.28                       0.71                   80.3%                       2.96                      1.44                  105.6%
+¹   Basic earnings per share – attributable to shareholders of Siemens Energy AG. For fiscal 2026 and 2025 weighted average shares outstanding (basic) (in thousands) for the third quarter amounted to 848,584 and 867,495 and for
+    the nine months to 854,475 and 866,056 shares, respectively.
+
+
+
+
+Capital Structure and Liquidity
+                                                                                                                                 Jun 30, 2026                                                                  Sep 30, 2025
+
+Total equity                                                                                                                             11,171                                                                        10,675
+Adjusted Net debt/ (Net cash)                                                                                                           (7,719)                                                                       (4,790)
+
+
+
+
+                                                                                           Q3 FY 2026                             Q3 FY 2025                      Q1 - Q3 FY 2026                        Q1 - Q3 FY 2025
+
+Free cash flow                                                                                      2,111                                    267                                  6,634                                 2,940
+Free cash flow pre tax                                                                              2,319                                    419                                  7,163                                 3,336
+
+
+
+
+Employees
+
+
+(in thousands)                                                                                                                   Jun 30, 2026                                                                  Sep 30, 2025
+
+Siemens Energy                                                                                                                               106                                                                           103
+Germany                                                                                                                                        29                                                                            27
+Outside Germany                                                                                                                                77                                                                            76
+
+
+
+
+                                                                                                                                                                                                                                   II
+Consolidated Statements of Income
+                                                                                                  Q3               Q1 - Q3
+
+(in millions of €, earnings per share in €)                                         FY 2026   FY 2025   FY 2026    FY 2025
+
+
+Revenue                                                                              11,447     9,745    31,416     28,649
+
+Cost of sales                                                                       (8,778)   (8,205)   (24,398)   (23,737)
+
+Gross profit                                                                          2,669     1,541     7,019      4,912
+
+        Research and development expenses                                             (311)     (291)     (839)      (890)
+
+        Selling and general administrative expenses                                   (872)     (851)    (2,603)    (2,509)
+
+        Other operating income                                                          22        10        102         65
+
+        Other operating expenses                                                       (18)        8      (270)      (287)
+
+        Income (loss) from investments accounted for using the equity method, net       25       493        130        575
+
+Operating income (loss)                                                               1,515      909      3,539      1,866
+
+        Interest income                                                                 75        66        227        194
+
+        Interest expenses                                                              (42)     (100)     (141)      (237)
+
+        Other financial income (expenses), net                                          21       (29)        64         91
+
+Income (loss) before income taxes                                                     1,570      846      3,689      1,913
+
+Income tax (expenses) benefits                                                        (382)     (149)     (920)      (464)
+
+Net income (loss)                                                                     1,188      697      2,769      1,450
+
+
+
+Attributable to:
+
+  Non-controlling interests                                                            105        82        243        203
+
+  Shareholders of Siemens Energy AG                                                   1,083      615      2,525      1,247
+
+
+
+Basic earnings per share                                                               1.28      0.71      2.96       1.44
+
+Diluted earnings per share                                                             1.26      0.70      2.91       1.42
+
+
+
+
+                                                                                                                             III
+Consolidated Statements of Comprehensive Income
+                                                                                          Q3              Q1 - Q3
+
+(in millions of €)                                                          FY 2026   FY 2025   FY 2026   FY 2025
+
+Net income (loss)                                                             1,188      697      2,769     1,450
+
+
+
+Remeasurements of defined benefit plans                                         37         0        53        62
+
+  therein Income tax effects                                                    (5)       (5)       (8)      (11)
+
+Remeasurements of equity instruments                                            38       115        47       115
+
+
+
+Income (loss) from investments accounted for using the equity method, net        0        (0)        0        (1)
+
+Items that will not be reclassified to profit or loss                           75       115       100       176
+
+
+
+Currency translation differences                                               192      (782)      659      (550)
+
+Derivative financial instruments                                               (42)      175      (110)      164
+
+  therein Income tax effects                                                    14       (90)       32       (82)
+
+
+
+Income (loss) from investments accounted for using the equity method, net        1         2         1       (20)
+
+Items that may be reclassified subsequently to profit or loss                  151      (605)      550      (405)
+
+
+
+Other comprehensive income (loss), net of income taxes                         226      (490)      650      (229)
+
+
+
+Total comprehensive income (loss)                                             1,414      207      3,419     1,220
+
+
+
+Attributable to:
+
+  Non-controlling interests                                                    115        68       268       192
+
+  Shareholders of Siemens Energy AG                                           1,299      139      3,151     1,029
+
+
+
+
+                                                                                                                IV
+Consolidated Statements of Financial Position
+
+(in millions of €)                                                     Jun 30, 2026   Sep 30, 2025
+
+Assets
+  Cash and cash equivalents                                                 11,088          9,162
+  Trade and other receivables                                                8,313          7,571
+  Other financial assets                                                     1,600          1,031
+  Contract assets                                                            5,859          4,295
+  Inventories                                                               11,996         10,377
+  Income tax assets                                                            362            418
+  Other assets                                                               1,391          1,212
+  Assets classified as held for disposal                                         5            386
+Total current assets                                                        40,612         34,453
+  Goodwill                                                                   9,279          9,037
+  Other intangible assets                                                    2,445          2,450
+  Property, plant and equipment                                              7,666          7,140
+  Investments accounted for using the equity method                          1,853            703
+  Other financial assets                                                       626          1,531
+  Deferred tax assets                                                          847            904
+  Other assets                                                                 507            419
+Total non-current assets                                                    23,223         22,184
+Total assets                                                                63,836         56,637
+
+
+
+
+Liabilities and equity
+  Debt                                                                         407          1,528
+  Trade and other payables                                                   6,756          5,993
+  Other financial liabilities                                                1,011            782
+  Contract liabilities                                                      28,071         22,321
+  Provisions                                                                 2,622          2,778
+  Income tax liabilities                                                       558            523
+  Other liabilities                                                          5,490          4,332
+  Liabilities associated with assets classified as held for disposal            —             233
+Total current liabilities                                                   44,914         38,491
+  Debt                                                                       2,552          2,438
+  Provisions for pensions and similar obligations                              410            406
+  Deferred tax liabilities                                                     851            634
+  Provisions                                                                 3,095          3,065
+  Other financial liabilities                                                  294            401
+  Other liabilities                                                            547            528
+Total non-current liabilities                                                7,751          7,471
+Total liabilities                                                           52,665         45,962
+Equity
+  Issued capital                                                               861            861
+  Capital reserve                                                           14,466         14,465
+  Retained earnings                                                         (1,971)        (3,990)
+  Other components of equity                                                  (314)          (807)
+  Treasury shares, at cost                                                  (2,345)          (228)
+Total equity attributable to shareholders of Siemens Energy AG              10,698         10,301
+  Non-controlling interests                                                    473            375
+Total equity                                                                11,171         10,675
+Total liabilities and equity                                                63,836         56,637
+
+
+
+
+                                                                                                     V
+Consolidated Statements of Cash Flows
+                                                                                                           Q3              Q1 - Q3
+
+(in millions of €)                                                                           FY 2026   FY 2025   FY 2026   FY 2025
+
+Cash flows from operating activities
+Net income (loss)                                                                              1,188      697      2,769     1,450
+Adjustments to reconcile net income (loss) to cash flows from operating activities
+        Amortization, depreciation and impairments                                              405       365      1,176     1,367
+        Income tax expenses (benefits)                                                          382       149       920       464
+        Interest (income) expenses, net                                                         (34)       35       (85)       44
+        (Income) loss related to investing activities                                            (8)     (479)       34      (567)
+        Other non-cash (income) expenses                                                        (27)      (45)       81        58
+        Change in operating net working capital
+           Contract assets                                                                     (899)     (142)   (1,469)     (206)
+           Inventories                                                                         (521)     (230)   (1,335)   (1,198)
+           Trade and other receivables                                                          (16)     (380)     (548)     (592)
+           Trade and other payables                                                             354      (250)      639       (30)
+           Contract liabilities                                                                 881       452      5,359     3,269
+        Change in other assets and liabilities                                                  952       625       469       106
+        Income taxes paid                                                                      (209)     (152)     (529)     (397)
+        Dividends received                                                                        7         8        50        26
+        Interest received                                                                        69        64       229       186
+  Cash flows from operating activities                                                         2,525      718      7,759     3,979
+Cash flows from investing activities
+        Purchase of intangible assets and property, plant and equipment                        (414)     (451)   (1,125)   (1,039)
+        Acquisitions of businesses, net of cash acquired                                         (0)       (0)      (95)      (68)
+        Purchase of investments and financial assets                                           (533)      (31)   (1,173)      (59)
+        Disposal of intangibles and property, plant and equipment                                 1        21        35        24
+        Disposal of businesses, net of cash disposed                                              0        (1)       72       126
+        Disposal of investments and financial assets                                            105        (0)      666       100
+  Cash flows from investing activities                                                         (842)     (463)   (1,621)     (916)
+Cash flows from financing activities
+        Purchase of treasury shares                                                          (1,408)     (170)   (2,288)     (170)
+        Other transactions with non-controlling interests                                         —         —       (10)         1
+        Issuance (repayment) of notes and bonds                                                (750)        —      (750)        —
+        Repayment of lease liabilities                                                         (120)      (91)     (338)     (276)
+        Change in debt and other financing activities                                            49      (139)     (145)       25
+        Interest paid                                                                           (87)     (155)     (143)     (199)
+        Dividends paid to shareholders of Siemens Energy AG                                       —         —      (601)        —
+        Dividends attributable to non-controlling interests                                     (35)      (10)     (171)     (109)
+  Cash flows from financing activities                                                       (2,351)     (565)   (4,446)     (728)
+Effect of changes in exchange rates on cash and cash equivalents                                 61      (178)      147      (180)
+Change in cash and cash equivalents                                                            (607)     (487)     1,839     2,155
+Cash and cash equivalents at beginning of period                                              11,695     9,005     9,249     6,363
+Cash and cash equivalents at end of period                                                    11,088     8,518    11,088     8,518
+Less: Cash and cash equivalents of assets classified as held for disposal at end of period        —        28         —        28
+Cash and cash equivalents at end of period (Consolidated Statements of Financial
+                                                                                              11,088     8,489    11,088     8,489
+Position)
+
+
+
+
+                                                                                                                                 VI
+Overview of Segment figures
+                                                                                                                   Profit before Special          Profit margin                            Free cash flow
+                                                                   Orders                                Revenue                  Items    before Special Items              Assets               pre tax
+
+                                                  Q3              Change                  Q3             Change                      Q3                     Q3    Jun 30,   Sep 30,                   Q3
+
+(in millions of €)                  FY 2026   FY 2025    Actual    Comp.    FY 2026   FY 2025   Actual    Comp.    FY 2026     FY 2025     FY 2026    FY 2025       2026      2025    FY 2026   FY 2025
+
+Gas Services                          9,967     6,180    61.3%     61.9%      3,756     3,118   20.5%     20.8%        648         406      17.3%       13.0%     (2,635)    1,083      1,720        736
+Grid Technologies                     5,367     4,218    27.3%     27.6%      3,624     2,819   28.6%     28.6%        722         448      19.9%       15.9%     (1,940)    (386)       896         356
+Transformation of Industry            1,809     1,356    33.5%     31.5%      1,527     1,361   12.2%     11.5%        218         157      14.3%       11.5%      1,905     1,689       180         182
+Siemens Gamesa                        1,050     4,890   (78.5)%   (77.0)%     2,743     2,506    9.4%     13.5%         75        (438)       2.7%     (17.5)%       751    (1,236)     (518)      (758)
+
+Total segments                       18,194    16,644                        11,650     9,805                        1,663         573                            (1,918)    1,150      2,278        516
+
+Reconciliation to
+                                      (267)      (31)                         (202)      (59)                         (40)         (76)                           65,754    55,487        41        (97)
+Consolidated Financial Statements
+Siemens Energy                       17,926    16,613     7.9%      8.5%     11,447     9,745   17.5%     18.5%      1,623         497      14.2%         5.1%    63,836    56,637      2,319        419
+
+
+
+
+                                                                                                                   Profit before Special          Profit margin                            Free cash flow
+                                                                   Orders                                Revenue                  Items    before Special Items              Assets               pre tax
+
+                                              Q1 - Q3             Change              Q1 - Q3            Change                 Q1 - Q3                Q1 - Q3    Jun 30,   Sep 30,              Q1 - Q3
+
+(in millions of €)                  FY 2026   FY 2025    Actual    Comp.    FY 2026   FY 2025   Actual    Comp.    FY 2026     FY 2025     FY 2026    FY 2025       2026      2025    FY 2026   FY 2025
+
+Gas Services                         27,587    18,227    51.4%     55.9%     10,331     9,105   13.5%     16.6%      1,715       1,329      16.6%       14.6%     (2,635)    1,083      5,473      2,550
+Grid Technologies                    18,328    14,543    26.0%     30.6%      9,744     8,160   19.4%     22.3%      1,784       1,328      18.3%       16.3%     (1,940)    (386)      3,471      2,242
+Transformation of Industry            4,643     4,373     6.2%      7.9%      4,251     4,109    3.5%      5.9%        543         469      12.8%       11.4%      1,905     1,689       320         640
+Siemens Gamesa                        3,452     8,201   (57.9)%   (55.6)%     7,624     7,631   (0.1)%     5.8%       (15)      (1,061)     (0.2)%     (13.9)%       751    (1,236)   (1,717)    (1,658)
+
+Total segments                       54,010    45,344                        31,950    29,004                        4,028       2,065                            (1,918)    1,150      7,548      3,774
+
+Reconciliation to
+                                      (725)     (631)                         (534)     (355)                         (82)        (181)                           65,754    55,487      (385)      (437)
+Consolidated Financial Statements
+Siemens Energy                       53,284    44,714    19.2%     23.1%     31,416    28,649    9.7%     13.4%      3,946       1,884      12.6%         6.6%    63,836    56,637      7,163      3,336
+
+
+
+
+                                                                                                                                                                                                           VII
+EBITDA Reconciliation
+                                                                                                           Amortization of intangi-
+                                                                                                             ble assets acquired in
+                                                                                                            business combinations                                Amortization,
+                                                                                                                      and goodwill                            depreciation and
+                                          Profit before SI       Special items (SI)               Profit               impairment                  EBIT           impairments               EBITDA
+
+                                                       Q3                       Q3                  Q3                          Q3                  Q3                     Q3                  Q3
+
+(in millions of €)                  FY 2026      FY 2025     FY 2026      FY 2025     FY 2026   FY 2025     FY 2026       FY 2025     FY 2026   FY 2025   FY 2026     FY 2025    FY 2026   FY 2025
+
+Gas Services                           648           406         (3)           (4)       645        402          (5)           (2)       640       401        60           44       700       445
+Grid Technologies                      722           448         (4)           (2)       718        447          (0)           (1)       718       446        31           24       748       470
+Transformation of Industry             218           157         (4)           (3)       214        154          (5)           (5)       209       149        19           20       228       169
+Siemens Gamesa                          75          (438)       (20)            13        56      (425)         (12)          (12)        44      (437)      177          148       221      (289)
+
+Total segments                        1,663          573        (31)             5      1,633       578         (23)          (19)      1,610      559       286          236      1,896      795
+
+Reconciliation to
+                                       (40)          (76)       (29)          453        (69)       377         (26)          (27)       (95)      350       119          129        23       480
+Consolidated Financial Statements
+Siemens Energy                        1,623          497        (59)          458       1,564       956         (49)          (46)      1,515      909       405          365      1,920     1,275
+
+
+
+                                                                                                           Amortization of intangi-
+                                                                                                             ble assets acquired in
+                                                                                                            business combinations                                Amortization,
+                                                                                                                      and goodwill                            depreciation and
+                                          Profit before SI       Special items (SI)               Profit               impairment                  EBIT           impairments               EBITDA
+
+                                                  Q1 - Q3                  Q1 - Q3              Q1 - Q3                    Q1 - Q3              Q1 - Q3                Q1 - Q3             Q1 - Q3
+
+(in millions of €)                  FY 2026      FY 2025     FY 2026      FY 2025     FY 2026   FY 2025     FY 2026       FY 2025     FY 2026   FY 2025   FY 2026     FY 2025    FY 2026   FY 2025
+
+Gas Services                          1,715         1,329        43            (9)      1,759     1,320         (11)           (5)      1,748     1,315      157          133      1,904     1,448
+Grid Technologies                     1,784         1,328        (9)           (8)      1,775     1,320          (1)           (2)      1,774     1,318       85           67      1,859     1,385
+Transformation of Industry             543           469        (10)           (9)       532        460         (15)          (18)       517       442        54           55       571       497
+Siemens Gamesa                         (15)       (1,061)      (189)         (297)      (204)   (1,358)         (35)          (59)      (239)   (1,417)      527          742       287      (675)
+
+Total segments                        4,028         2,065      (166)         (323)      3,862     1,742         (63)          (84)      3,799     1,658      822          998      4,622     2,656
+
+Reconciliation to
+                                       (82)         (181)      (100)          472       (182)       291         (78)          (84)      (260)      207       354          369        93       576
+Consolidated Financial Statements
+Siemens Energy                        3,946         1,884      (266)          149       3,680     2,033        (140)         (167)      3,539     1,866     1,176       1,367      4,715     3,232
+
+
+
+
+                                                                                                                                                                                                 VIII
+Orders & Revenue by region (location of customer)
+
+
+Orders                                              Q3              Change              Q1 - Q3             Change
+
+(in millions of €)                    FY 2026   FY 2025    Actual    Comp.    FY 2026   FY 2025    Actual    Comp.
+
+
+Europe, C.I.S., Middle East, Africa     6,757     8,592   (21.4)%   (20.6)%    22,093    23,025    (4.0)%    (3.5)%
+
+  therein Germany                       1,007      917      9.9%      9.9%      3,028     2,680    13.0%     12.8%
+
+Americas                                9,220     6,967    32.3%     32.9%     24,824    17,503    41.8%     50.5%
+
+  therein U.S.                          8,048     5,830    38.0%     39.7%     21,644    13,515    60.2%     70.9%
+
+Asia, Australia                         1,950     1,054    85.0%     84.4%      6,366     4,185    52.1%     54.5%
+
+  therein China                          542       301     79.9%     74.6%      1,189      915     29.8%     32.2%
+
+Siemens Energy                         17,926    16,613     7.9%      8.5%     53,284    44,714    19.2%     23.1%
+
+
+
+
+Revenue                                             Q3              Change              Q1 - Q3             Change
+
+(in millions of €)                    FY 2026   FY 2025    Actual    Comp.    FY 2026   FY 2025    Actual    Comp.
+
+
+Europe, C.I.S., Middle East, Africa     5,631     5,026    12.0%     12.6%     16,604    15,030    10.5%     11.9%
+
+  therein Germany                        943       921      2.4%      2.2%      3,242     2,811    15.3%     15.2%
+
+Americas                                4,387     3,332    31.7%     32.3%     10,815     8,739    23.8%     30.3%
+
+  therein U.S.                          3,595     2,469    45.6%     47.6%      8,549     6,454    32.5%     41.0%
+
+Asia, Australia                         1,430     1,387     3.1%      6.8%      3,997     4,880   (18.1)%   (12.2)%
+
+  therein China                          330       371    (11.0)%   (13.8)%      912      1,142   (20.2)%   (17.6)%
+
+Siemens Energy                         11,447     9,745    17.5%     18.5%     31,416    28,649     9.7%     13.4%
+
+
+
+
+                                                                                                                      IX
+Disaggregation of external revenue of segments
+
+                                                           Q3              Q1 - Q3
+
+(in millions of €)                          FY 2026    FY 2025   FY 2026   FY 2025
+
+Siemens Energy New Units                      7,733      6,518    21,181    18,649
+
+  therein
+
+     Gas Services                             1,458      1,098     4,050     2,888
+
+     Grid Technologies                        3,371      2,659     9,040     7,528
+
+     Transformation of Industry                  825      716      2,330     2,202
+
+     Siemens Gamesa                           2,078      2,045     5,761     6,032
+
+
+
+Siemens Energy Service                        3,712      3,215    10,227     9,958
+
+  therein
+
+     Gas Services                             2,209      1,994     6,084     6,114
+
+     Grid Technologies                           188      149       498       459
+
+     Transformation of Industry                  650      610      1,783     1,786
+
+     Siemens Gamesa                              665      461      1,863     1,599
+
+
+
+
+                                                                                     X
+Published by
+
+Siemens Energy AG
+Otto-Hahn-Ring 6
+81739 München
+Germany
+
+Media Relations: mediarelations@siemens-energy.com
+Investor Relations: investorrelations@siemens-energy.com
+
+siemens-energy.com
+© Siemens Energy, 2026
+Siemens Energy is a trademark licensed by Siemens AG.
+

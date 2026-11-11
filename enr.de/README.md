@@ -6,6 +6,10 @@
 **Headquarters:** Munich, Germany  
 **Founded:** 1866 (spun out from Siemens AG in September 2020)
 
+> **Latest results (11 Nov 2026): FY2026 / Q4 FY26.** Official pack in [quarterly/](quarterly/) `2026_Q4_*` (earnings release, analyst presentation, company-compiled consensus, pre-close call transcript), plus Q1–Q3 FY26 earnings releases. Checked figures: [analysis/2026_11_q4_fy26_results_summary.md](analysis/2026_11_q4_fy26_results_summary.md). Changes against the May set: [analysis/2026_11_delta_analysis.md](analysis/2026_11_delta_analysis.md). FY26: orders €68.1bn, revenue €44.2bn (+15.5% comp.), profit before SI €5,486m (12.4%), net income €4,129m, FCF pre tax €8,799m, backlog €164bn, adjusted net cash €7.8bn; FY27 guide +14–16% revenue, 14–16% margin, net income ~€5bn, FCF pre tax ~€10bn; FY30 target 20–22% margin.
+>
+> **The rest of this README is dated 6 May 2026 and is stale.** The rating, price target, snapshot and monitoring baselines predate Q2–Q4 FY26. Several figures are known to be wrong (Q1 gross margin, aerospace items in the growth-driver section); see the delta note.
+
 ---
 
 ## Investment Thesis Summary
