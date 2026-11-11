@@ -27,7 +27,7 @@ From the orbital model (`spcx/orbital/`):
 - The constraint that kills it is launch rate. 100 GW a year needs ~18 Starship flights a day. After that comes cooling, which needs radiator fields kilometres across.
 - Baker's ~$30B per GW doesn't add up even on his own inputs ($35B IT + $5B launch = $40B). Only the bull case gets near it.
 
-**So the market is paying ~$1.6T (base case) for a business that is still more expensive per GW than the ground and needs a launch rate nobody has reached.** The alternative explanations are a Tesla merger premium, or a Musk premium.
+**So the market is paying ~$1.8T (base case; ~$1.0T even in the bull case) for a business that is still more expensive per GW than the ground and needs a launch rate nobody has reached.** The alternative explanations are a Tesla merger premium, or a Musk premium.
 
 ## 4. Are they paying for "free electricity"?
 
