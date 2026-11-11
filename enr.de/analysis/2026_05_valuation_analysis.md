@@ -1,6 +1,6 @@
 # Siemens Energy AG (ENR.DE) – Valuation Analysis
 
-> **Stale (11 Nov 2026):** built at €185.84 on May 2026 consensus. The share price and earnings base have since changed materially; see [2026_11_delta_analysis.md](2026_11_delta_analysis.md). Not refreshed.
+> **Stale (11 Nov 2026):** built at €185.84 on May 2026 consensus. The share price and earnings base have since changed materially; see [2026_11_investment_thesis.md](2026_11_investment_thesis.md) and [2026_11_delta_analysis.md](2026_11_delta_analysis.md). Not refreshed; kept as history.
 
 **Date:** May 6, 2026  
 **Current Price:** €185.84  

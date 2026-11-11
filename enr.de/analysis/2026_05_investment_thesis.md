@@ -1,6 +1,6 @@
 # Siemens Energy AG (ENR.DE) – Investment Thesis
 
-> **Superseded in part (11 Nov 2026):** FY2026 results and the proposed thesis changes are in [2026_11_delta_analysis.md](2026_11_delta_analysis.md). This May document is kept as history; its price target, valuation and capital-allocation statements predate Q2–Q4 FY26.
+> **Superseded (11 Nov 2026) by [2026_11_investment_thesis.md](2026_11_investment_thesis.md).** FY2026 changes are in [2026_11_delta_analysis.md](2026_11_delta_analysis.md). This May document is kept as history; its price target, valuation and capital-allocation statements predate Q2–Q4 FY26.
 
 **Date:** May 6, 2026  
 **Recommendation:** BUY  
