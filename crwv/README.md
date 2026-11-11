@@ -2,6 +2,8 @@
 
 This repository contains financial analysis and research materials for CoreWeave, a leading AI hyperscaler specializing in GPU-accelerated computing and AI infrastructure.
 
+**Latest results pack:** [2026-11-10-Q3/](2026-11-10-Q3/) — Q3 2026 8-K, official press release, earnings presentation, call transcript, and a figures summary. The Q3 10-Q had not yet been filed when that folder was assembled.
+
 ## Overview
 
 CoreWeave is a specialized AI hyperscaler that focuses on:
