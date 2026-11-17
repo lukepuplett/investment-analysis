@@ -1,6 +1,6 @@
 # Anthropic (ANT) — IPO notes
 
-Status: not held. IPO pending; price range filed 10 Nov 2026 ($70–$78, Nasdaq Global Select: ANT). Started 29 Oct 2026.
+Status: not held. IPO pending; price range still $70–$78 in S-1/A No. 3 (17 Nov 2026). Nasdaq has approved ANT. Pricing expected 18 Nov, trading 19 Nov. Unofficial 17 Nov press reports of a price above $80 are not in the filed range. Started 29 Oct 2026.
 
 ## Filings (SEC EDGAR, CIK 2130357)
 
@@ -10,9 +10,20 @@ Status: not held. IPO pending; price range filed 10 Nov 2026 ($70–$78, Nasdaq 
 | 2026-07-13 to 2026-10-09 | DRS/A ×5 | — |
 | 2026-10-26 | S-1 (public) | [anthropicpbc-sx1.htm](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm) |
 | 2026-11-02 | S-1/A No. 1 (commitment totals) | [anthropicpbc-sx1ax1.htm](https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm) |
-| 2026-11-10 | **S-1/A No. 2 (price range, deal size, ARR) — latest** | [anthropicpbc-sx1ax2.htm](https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm) · [index](https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/0001628280-26-072484-index.html) |
+| 2026-11-10 | S-1/A No. 2 (price range, deal size, ARR) | [anthropicpbc-sx1ax2.htm](https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm) · [index](https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/0001628280-26-072484-index.html) |
+| 2026-11-17 | **S-1/A No. 3 (Nasdaq approval; range unchanged) — latest** | [anthropicpbc-sx1ax3.htm](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm) · [index](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/0001628280-26-074338-index.html) |
+| 2026-11-17 | 8-A12B (Nasdaq Class A registration) | [anthropic-8xa12b.htm](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074342/anthropic-8xa12b.htm) |
 
-Filing index: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2130357 · File No. 333-299633. S-1/A No. 2 is accession 0001628280-26-072484, accepted 10 Nov 2026 06:29 ET (11:29 London), cover dated "Subject to Completion. Dated November 10, 2026".
+Filing index: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2130357 · File No. 333-299633. S-1/A No. 2 is accession 0001628280-26-072484, accepted 10 Nov 2026 06:29 ET (11:29 London). S-1/A No. 3 is accession 0001628280-26-074338, accepted 17 Nov 2026 11:26 London, cover dated "Subject to Completion. Dated November 17, 2026". The 8-A12B is accession 0001628280-26-074342, accepted 11:49 London.
+
+## S-1/A No. 3 (17 Nov 2026)
+
+**Source:** [S-1/A No. 3](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm) and the [8-A12B](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074342/anthropic-8xa12b.htm). Short update only; the No. 2 deal terms below still apply.
+
+- The estimated IPO range is unchanged at **$70.00–$78.00** for 825,000,000 Class A shares. There is no $80 figure, and no 424B had been filed as of the evening of 17 Nov.
+- The cover now says Anthropic **has been approved** to list on the Nasdaq Global Select Market under "ANT." The 8-A12B registers the Class A shares on The Nasdaq Stock Market LLC.
+- Outstanding after IPO + PIPE remains **13,086,672,593**. The filing's fully diluted table still reconciles to **18,012,993,381**.
+- Afternoon press reports (WSJ, people familiar) that advisers have discussed pricing above $80 and a fully diluted valuation around $1.5–$1.6tn are unofficial and are not in this amendment. See the 17 Nov diary entry.
 
 ## Ownership (from the S-1, 26 Oct 2026; S-1/A No. 2 figures in the section below)
 
