@@ -1,0 +1,26 @@
+NVIDIA Corporation (NVDA) — Q3 FY2027 summary
+Period ended: 2026-10-25 (Sunday)
+Earnings 8-K filed: 2026-11-17 (accession 0001045810-26-000088; primary nvda-20261117.htm)
+Exhibits: 99.1 press release (q3fy27pr.htm); 99.2 CFO commentary (q3fy27cfocommentary.htm); supplemental financial information (supplementalfinancialinfor.htm)
+10-Q: not yet filed (CFO commentary: "in the coming weeks")
+
+Key metrics (GAAP unless noted; $ in millions except as stated):
+- Revenue: $115,844 (+103% YoY vs $57,006; +20% QoQ vs Q2 FY27 $96,221)
+- Data Center revenue: $107.6 billion (+110% YoY vs $51.2 billion; +21% QoQ vs $89.0 billion). China Hopper shipments $2.4 billion.
+- Gross margin: 74.8% GAAP / 74.9% non-GAAP (GAAP −0.2 pts QoQ, +1.4 pts YoY)
+- Operating income: $77,520
+- Net income: $65,287
+- Diluted EPS: $2.70 (non-GAAP $2.68); diluted weighted-average shares 24,186 million
+- Capital returned: $28.1 billion, of which $22,122 share repurchases
+- Share repurchase authorization: +$150 billion approved September 2026, no expiration; ~$227.3 billion remaining at quarter-end (to be used through FY2028, per CFO commentary)
+- Cash, cash equivalents and marketable debt securities: $53.5 billion (CFO commentary)
+
+Q4 FY2027 outlook (company says the quarter includes an additional week):
+- Revenue $130.0 billion ±3%, assuming no Data Center compute revenue from China
+- GAAP and non-GAAP gross margins 71.0%–72.0%
+- GAAP / non-GAAP operating expenses approximately $11.0 billion / $10.7 billion
+- Full-year FY2027 tax rate 16.0%–18.0%, excluding discrete items
+
+Leadership: 8-K and release identify Colette Kress as Interim CEO, EVP and CFO. The results narrative does not name Jensen Huang. Forward-looking statements in the release and CFO commentary refer to the leadership transition and CEO search, an ongoing investigation by an independent committee of the board, and litigation / government and regulatory inquiries.
+
+Sources: SEC 8-K 0001045810-26-000088 (17 Nov 2026); q3fy27pr.htm; q3fy27cfocommentary.htm
