@@ -3,7 +3,7 @@ description: File things the user posts into the current month's journal (diary/
 allowed-tools: Bash, Read, Edit, Write, Grep
 ---
 
-File what the user posted into `diary/YYYY-MM.md` in this repo, matching the existing entries. Don't comment on it, fact-check it or draw links to the portfolio unless they ask. Finish by committing and pushing (step 6).
+File what the user posted into `diary/YYYY-MM.md` in this repo, matching the existing entries. Don't fact-check it or draw links to the portfolio unless they ask. You may add a short thought of your own (see below). Finish by committing and pushing (step 6).
 
 Now (UK time): !`TZ=Europe/London date '+%Y-%m-%d %H:%M'`
 
@@ -38,6 +38,7 @@ Tags: #Author #TICKER #Topic
    - Add a `See also:` line only when an earlier entry in the same file is obviously about the same thing, naming it by its heading.
    - Tags: author or outlet, tickers mentioned, two or three topics.
    - Use they/them for any person whose pronouns the post doesn't state.
+   - **Your own thoughts (optional).** The user has said you may chime in. When you have something worth saying, add one to three sentences on its own line, after the quote and any `Luke's note:`, and before `See also:`, in the form `Claude: <thought>`. Say what stands out, what it contradicts or echoes in earlier entries, or what to watch. Keep it clearly yours: don't put it inside the blockquote, don't state unchecked facts as fact (say "I haven't checked" or frame it as inference), and skip it when you have nothing to add. Never alter the quoted text to fit your thought.
 6. **Commit and push on completion.** The user has authorised this for diary filings, so don't ask first.
    - Stage only the files this filing touched: the month file and the new image in `diary/assets/`. Never `git add -A`, and never stage anything else that happens to be modified.
    - Commit with the message `diary: file <source> clip on <topic>` (for a month file you created, the same message is fine), ending with the attribution trailer the session gives for commits.
@@ -47,5 +48,5 @@ Tags: #Author #TICKER #Topic
 ## Don't
 
 - Don't commit or push anything outside a diary filing, and don't bundle unrelated changes into the diary commit.
-- Don't add checks, commentary or analysis to the entry unless the user asks.
+- Don't add fact-checks, long commentary or analysis to the entry unless the user asks; a short `Claude:` thought is the limit.
 - Don't touch other months' files, other folders, or anything outside `diary/`.
