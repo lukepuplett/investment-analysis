@@ -90,7 +90,7 @@ curl -sS -L -A "YourOrg ResearchBot contact@example.com" \
   -o /tmp/example_10q.htm
 ```
 
-Step-by-step: **[README.md](README.md)** (*Downloading the primary 10-Q iXBRL `.htm` with curl*).
+Step-by-step: **[README.md](README.md)** (*Downloading the primary 10-Q iXBRL `.htm` with curl*). Automated: `python3 scripts/edgar_snapshot.py TICKER --price` (skill `fetch-quarterly`).
 
 **Browse filing index HTML (Obscura fallback):**
 

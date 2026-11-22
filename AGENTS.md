@@ -63,7 +63,10 @@ company_ticker/
 │       └── yahoo_stats.md
 ├── quarterly/                   # Primary source: all period-specific documents
 │   ├── YYYY_Q#_10q.htm                    # SEC 10-Q iXBRL primary document
-│   ├── YYYY_Q#_10q_facts.json             # Extracted XBRL numeric facts
+│   ├── YYYY_Q#_10q_facts.tsv              # Numeric XBRL facts with accession and filed date (scripts/edgar_snapshot.py)
+│   ├── YYYY_Q#_10q_ratio_inputs.json      # TTM revenue/net income, shares, cash, equity, price, ratios, with provenance
+│   ├── YYYY_FY_20f.htm                    # 20-F annual report for foreign filers (annual basis only)
+│   ├── YYYY_Q#_manual_inputs.json         # Hand-filled inputs for non-SEC companies, every number sourced
 │   ├── YYYY_Q#_md_and_a.txt               # Management Discussion & Analysis (text)
 │   ├── YYYY_Q#_earnings_call.txt          # Earnings call transcript (if available)
 │   ├── YYYY_Q#_investor_presentation.pdf  # Earnings presentation slides
@@ -991,6 +994,7 @@ After completing all analysis documents:
 3. Location: `quarterly/` directory
 4. Content: Complete quarterly report filed with SEC
 5. Form 8-K (Item 2.02 results announcement): `YYYY_Q#_8k.htm`, same location
+6. Form 20-F (foreign private issuers): `YYYY_FY_20f.htm`, same location; facts and inputs files follow the same stem
 
 ### Financial Statements
 1. Format: `YYYY_MM/statement_type.md`
@@ -1202,7 +1206,9 @@ After completing all analysis documents:
 
 ### Quick Reference
 
-**Downloading a 10-Q:** Prefer **`data.sec.gov/submissions/CIK…json`** + **`curl`** to **`www.sec.gov/Archives/edgar/data/.../{primaryDocument}`** with a descriptive **`User-Agent`** (see **[README.md](README.md)** → **Downloading the primary 10-Q iXBRL `.htm` with curl**). Use **Obscura** when browse-edgar or Archives blocks plain HTTP.
+**Snapshot a filing (preferred):** `python3 scripts/edgar_snapshot.py TICKER [--price]` (skill: `fetch-quarterly`) finds the latest 10-Q/10-K/20-F on EDGAR, checks page one against the period, and saves the filing, a facts TSV and a ratio-inputs JSON (TTM, cover-page shares by class, cash, equity, price, P/S, P/E) with accession numbers into `<ticker>/quarterly/`. It needs `SEC_USER_AGENT` set to a descriptive string with a contact (the SEC returns 403 without one). 20-F filers are annual only; non-SEC companies go through `scripts/manual_inputs_template.json` and `--ratios-from`.
+
+**Downloading a 10-Q (by hand):** Prefer **`data.sec.gov/submissions/CIK…json`** + **`curl`** to **`www.sec.gov/Archives/edgar/data/.../{primaryDocument}`** with a descriptive **`User-Agent`** (see **[README.md](README.md)** → **Downloading the primary 10-Q iXBRL `.htm` with curl**). Use **Obscura** when browse-edgar or Archives blocks plain HTTP.
 
 **Parsing facts:** Prefer **ixbrlparse** or **`scripts/export_ixbrl_readable.py`** — iXBRL is a **flat fact store**: join **value + period + segments (context)** and **dedupe**; export **TSV/JSON**, not raw HTML. **Arelle `--facts`** was **not usable** on tested primary filings — README → **Parsing facts** → **Arelle caveat**. Full checklist: README → **How to think about iXBRL (checklist)**.
 

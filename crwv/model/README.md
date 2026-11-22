@@ -2,7 +2,7 @@
 
 `python3 crwv_residual_model.py` writes `output.md` plus four charts: `coverage.png`, `cash_after_capex.png`, `leverage.png` and `residual_range.png`. It needs Python 3, numpy and matplotlib. Units are $m and millions of shares.
 
-It is a toy model of what is left for equity after lenders, lessors, depreciation, cash capex and dilution. It is not a production DCF, has no price target and makes no recommendation. Update it when the Q3 2026 Form 10-Q is filed: that filing was **not** on EDGAR on 11 Nov 2026, so the debt and lease schedule is a gap. Do not download a 10-Q from the IR site without checking the period on page one; the CloudFront PDF on the results page was the Q2 10-Q (period ended 30 Jun 2026).
+It is a toy model of what is left for equity after lenders, lessors, depreciation, cash capex and dilution. It is not a production DCF, has no price target and makes no recommendation. The Q3 2026 Form 10-Q was filed on 12 Nov 2026 and is saved as `../quarterly/2026_Q3_10q.htm` (facts in `_10q_facts.tsv`), but this version still uses the 11 Nov proxies: the debt maturity ladder, lease schedule, convert terms and share counts in the filing have not yet replaced them. Do not download a 10-Q from the IR site without checking the period on page one; the CloudFront PDF on the results page was the Q2 10-Q (period ended 30 Jun 2026).
 
 ## Where inputs live
 - `OFFICIAL`: figures from Exhibit 99.1 to the 10 Nov 8-K ([acc. 0001769628-26-000461](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/0001769628-26-000461-index.html)), the presentation (backlog tenor chart read from the slide 13 image, not the .txt), and management call comments. The call items are tagged `Call` and are claims, not facts. Each has a source string.

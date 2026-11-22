@@ -12,13 +12,18 @@ Needs: Python 3, ixbrlparse (scripts/requirements-ixbrl.txt). Set SEC_USER_AGENT
 string with a contact, as the SEC asks, e.g.  export SEC_USER_AGENT="YourOrg research you@example.com".
 The script never embeds a contact of its own.
 
-Foreign private issuers (20-F / 6-K filers) and companies that are not SEC registrants are reported as
-unsupported; the script does not guess.
+20-F filers (foreign private issuers that file inline XBRL, e.g. ASML) are supported on an ANNUAL basis only:
+facts use the ifrs-full taxonomy, the TTM figure is the latest fiscal year, and the output says how stale it is.
+Their quarterly and half-year numbers arrive as 6-K press releases with no structured data, so they are not read.
+Companies that are not SEC registrants are reported as unsupported; for those, fill a manual inputs file
+(scripts/manual_inputs_template.json) and compute ratios with --ratios-from.
 
 Examples:
   python3 scripts/edgar_snapshot.py CRWV --price
   python3 scripts/edgar_snapshot.py NET --outdir cloudflare/quarterly
   python3 scripts/edgar_snapshot.py DDOG --period 2026-09-30 --outdir /tmp/ddog
+  python3 scripts/edgar_snapshot.py ASML --price                 # 20-F, annual basis
+  python3 scripts/edgar_snapshot.py --ratios-from enr/quarterly/2026_FY_manual_inputs.json
 """
 from __future__ import annotations
 
@@ -36,14 +41,25 @@ from pathlib import Path
 
 warnings.filterwarnings("ignore", module="ixbrlparse")  # unimplemented ixt formats on non-numeric text facts
 REPO = Path(__file__).resolve().parent.parent
-FORMS = ("10-Q", "10-K")
-REVENUE_TAGS = ("Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax",
-                "RevenueFromContractWithCustomerIncludingAssessedTax", "SalesRevenueNet")
-NET_INCOME_TAGS = ("NetIncomeLoss", "ProfitLoss")
-DILUTED_SHARES_TAG = "WeightedAverageNumberOfDilutedSharesOutstanding"
-CASH_TAGS = ("CashAndCashEquivalentsAtCarryingValue", "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents")
-EQUITY_TAGS = ("StockholdersEquity", "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest")
-DEBT_NAME = re.compile(r"Debt|Notes|Borrowings|Loan", re.I)
+FORMS = ("10-Q", "10-K", "20-F")
+TAGS = {  # taxonomy -> metric -> candidate tags, in order of preference
+    "us-gaap": {
+        "revenue": ("Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax",
+                    "RevenueFromContractWithCustomerIncludingAssessedTax", "SalesRevenueNet"),
+        "net_income": ("NetIncomeLoss", "ProfitLoss"),
+        "diluted_shares": ("WeightedAverageNumberOfDilutedSharesOutstanding",),
+        "cash": ("CashAndCashEquivalentsAtCarryingValue", "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"),
+        "equity": ("StockholdersEquity", "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"),
+    },
+    "ifrs-full": {
+        "revenue": ("Revenue", "RevenueFromContractsWithCustomers"),
+        "net_income": ("ProfitLossAttributableToOwnersOfParent", "ProfitLoss"),
+        "diluted_shares": ("AdjustedWeightedAverageShares", "WeightedAverageShares"),
+        "cash": ("CashAndCashEquivalents",),
+        "equity": ("EquityAttributableToOwnersOfParent", "Equity"),
+    },
+}
+DEBT_NAME = re.compile(r"Debt|Notes|Borrowings|Loan|Lease", re.I)
 DAY = dt.timedelta(days=1)
 
 
@@ -94,7 +110,7 @@ def pick_filing(subs: dict, period: str | None) -> dict:
                  accn=r["accessionNumber"][i], doc=r["primaryDocument"][i]) for i in range(len(r["form"]))]
     cands = [x for x in rows if x["form"] in FORMS and (period is None or x["report"] == period)]
     if not cands:
-        other = sorted({x["form"] for x in rows if x["form"] in ("20-F", "40-F", "6-K")})
+        other = sorted({x["form"] for x in rows if x["form"] in ("40-F", "6-K")})
         hint = f" It files {', '.join(other)} instead; this script does not support those." if other else ""
         raise SnapshotError("Unable to find a 10-Q or 10-K" + (f" for period {period}" if period else "") + f".{hint}")
     return max(cands, key=lambda x: (x["report"], x["filed"]))
@@ -134,11 +150,29 @@ def cover_shares(ix) -> dict:
             seg = ctx_segments(v.context) or "(single class)"
             by_class[seg] = float(v.value)
             asof = str(getattr(v.context, "instant", "")) or asof
-    return {"as_of": asof, "by_class": by_class, "total": sum(by_class.values()) if by_class else None}
+    basis = "cover page"
+    if not by_class:  # 20-F filers often have no cover count; fall back to the period-end balance
+        for v in ix.numeric:
+            if v.name in ("NumberOfSharesOutstanding", "SharesOutstanding") and not ctx_segments(v.context) and getattr(v.context, "instant", None):
+                by_class["(period-end, no class split)"] = float(v.value)
+                asof = str(v.context.instant)
+        basis = "period-end balance (no cover-page count found)"
+    return {"as_of": asof, "basis": basis, "by_class": by_class, "total": sum(by_class.values()) if by_class else None}
 
 
 def parse_d(s: str) -> dt.date:
     return dt.date.fromisoformat(s)
+
+
+def doc_period_iso(text: str | None) -> str | None:
+    if not text:
+        return None
+    for fmt in ("%B %d, %Y", "%Y-%m-%d", "%d %B %Y", "%b %d, %Y"):
+        try:
+            return dt.datetime.strptime(text.strip(), fmt).date().isoformat()
+        except ValueError:
+            pass
+    return None
 
 
 def dedupe_durations(rows: list[dict]) -> list[dict]:
@@ -161,9 +195,19 @@ def near(a: dt.date, b: dt.date, tol: int = 7) -> bool:
     return abs((a - b).days) <= tol
 
 
-def ttm_for(facts: dict, tags: tuple, period_end: str, unit: str = "USD") -> dict:
+def pick_unit(facts: dict, tags: tuple) -> str | None:
+    """The unit with the most rows for the first tag that has any (USD, EUR, ...; never shares or pure)."""
+    for tag in tags:
+        units = {u: rs for u, rs in facts.get(tag, {}).get("units", {}).items() if "/" not in u and u not in ("shares", "pure")}
+        if units:
+            return max(units, key=lambda u: len(units[u]))
+    return None
+
+
+def ttm_for(facts: dict, tags: tuple, period_end: str, unit: str | None = None) -> dict:
     """TTM ending at period_end from deduped duration facts: FY(prior) + YTD(current) - YTD(prior year)."""
     end = parse_d(period_end)
+    unit = unit or pick_unit(facts, tags) or "USD"
     for tag in tags:
         rows = dedupe_durations([dict(r, tag=tag) for r in facts.get(tag, {}).get("units", {}).get(unit, [])])
         cur = [r for r in rows if parse_d(r["end"]) == end and duration_days(r) >= 80]
@@ -172,39 +216,41 @@ def ttm_for(facts: dict, tags: tuple, period_end: str, unit: str = "USD") -> dic
         cur = max(cur, key=duration_days)
         used = [cur]
         if duration_days(cur) >= 350:
-            return {"tag": tag, "value": cur["val"], "method": "latest fiscal year", "rows": used}
+            return {"tag": tag, "value": cur["val"], "unit": unit, "method": "latest fiscal year", "rows": used}
         cstart = parse_d(cur["start"])
         fy = [r for r in rows if duration_days(r) >= 350 and near(parse_d(r["end"]), cstart - DAY)]
         py = [r for r in rows if near(parse_d(r["start"]), cstart.replace(year=cstart.year - 1))
               and near(parse_d(r["end"]), end.replace(year=end.year - 1)) and abs(duration_days(r) - duration_days(cur)) <= 7]
         if not fy or not py:
-            return {"tag": tag, "value": None, "method": "missing prior fiscal year or prior-year YTD", "rows": used}
+            return {"tag": tag, "value": None, "unit": unit, "method": "missing prior fiscal year or prior-year YTD", "rows": used}
         fy, py = max(fy, key=lambda r: r["end"]), max(py, key=lambda r: r["filed"])
         used += [fy, py]
-        return {"tag": tag, "value": fy["val"] + cur["val"] - py["val"],
+        return {"tag": tag, "value": fy["val"] + cur["val"] - py["val"], "unit": unit,
                 "method": "FY(prior) + YTD(current) - YTD(prior year)", "rows": used}
     return {"tag": None, "value": None, "method": "no matching tag at the period end", "rows": []}
 
 
-def instant_value(facts: dict, tags: tuple, period_end: str, unit: str = "USD") -> dict:
+def instant_value(facts: dict, tags: tuple, period_end: str, unit: str | None = None) -> dict:
+    unit = unit or pick_unit(facts, tags) or "USD"
     for tag in tags:
         rows = [r for r in facts.get(tag, {}).get("units", {}).get(unit, []) if r["end"] == period_end and "start" not in r]
         if rows:
             r = max(rows, key=lambda r: r["filed"])
-            return {"tag": tag, "value": r["val"], "filed": r["filed"], "accn": r["accn"]}
+            return {"tag": tag, "value": r["val"], "unit": unit, "filed": r["filed"], "accn": r["accn"]}
     return {"tag": None, "value": None}
 
 
-def latest_quarter_shares(facts: dict, period_end: str) -> dict:
+def latest_quarter_shares(facts: dict, tags: tuple, period_end: str) -> dict:
     end = parse_d(period_end)
-    rows = dedupe_durations([r for r in facts.get(DILUTED_SHARES_TAG, {}).get("units", {}).get("shares", [])])
-    q = [r for r in rows if parse_d(r["end"]) == end and 80 <= duration_days(r) <= 100]
-    if not q:
-        q = [r for r in rows if parse_d(r["end"]) == end]
-    if not q:
-        return {"value": None}
-    r = min(q, key=duration_days)
-    return {"tag": DILUTED_SHARES_TAG, "value": r["val"], "start": r["start"], "end": r["end"], "accn": r["accn"]}
+    for tag in tags:
+        rows = dedupe_durations([r for r in facts.get(tag, {}).get("units", {}).get("shares", [])])
+        q = [r for r in rows if parse_d(r["end"]) == end and 80 <= duration_days(r) <= 100]
+        if not q:
+            q = [r for r in rows if parse_d(r["end"]) == end]
+        if q:
+            r = min(q, key=duration_days)
+            return {"tag": tag, "value": r["val"], "start": r["start"], "end": r["end"], "accn": r["accn"]}
+    return {"value": None}
 
 
 def yahoo_close(ticker: str) -> dict:
@@ -221,19 +267,55 @@ def yahoo_close(ticker: str) -> dict:
 def label(ix, filing: dict) -> tuple[str, str]:
     fp = (dei_text(ix, "DocumentFiscalPeriodFocus") or "").upper()
     fy = dei_text(ix, "DocumentFiscalYearFocus") or filing["report"][:4]
+    if filing["form"] == "20-F":
+        return f"{fy}_FY", "20f"
     if filing["form"] == "10-K" or fp == "FY":
         return f"{fy}_FY", "10k"
     return f"{fy}_{fp}", "10q"
 
 
+def ratios_from_manual(path: Path) -> int:
+    """Compute market cap, P/S, P/E and EV/Sales from a hand-filled inputs file (see manual_inputs_template.json)."""
+    d = json.loads(path.read_text(encoding="utf-8"))
+    need = {"ttm_revenue": d.get("ttm_revenue", {}).get("value"), "shares": d.get("shares", {}).get("value"),
+            "price": d.get("price", {}).get("value")}
+    missing = [k for k, v in need.items() if not v]
+    if missing:
+        print(f"ERROR: Unable to compute ratios. Missing values: {', '.join(missing)}.", file=sys.stderr)
+        return 1
+    cur, pcur = d.get("currency"), d["price"].get("currency")
+    if cur and pcur and cur != pcur:
+        print(f"ERROR: Unable to compute ratios. Financials are in {cur} but the price is in {pcur}; convert first.", file=sys.stderr)
+        return 1
+    mc = need["shares"] * need["price"]
+    ni = d.get("ttm_net_income", {}).get("value")
+    out = {"market_cap": mc, "price_to_sales": mc / need["ttm_revenue"],
+           "price_to_earnings": (mc / ni) if ni and ni > 0 else "n/m"}
+    debt, cash = d.get("debt", {}).get("value"), d.get("cash", {}).get("value")
+    if debt is not None and cash is not None:
+        ev = mc + debt + (d.get("leases", {}).get("value") or 0) - cash
+        out["enterprise_value"], out["ev_to_sales"] = ev, ev / need["ttm_revenue"]
+    d["ratios"] = out
+    d["ratios_computed"] = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+    path.write_text(json.dumps(d, indent=2, default=str) + "\n", encoding="utf-8")
+    print(f"{d.get('ticker')} ({cur}): market cap {mc:,.0f}  P/S {out['price_to_sales']:.2f}  P/E {out['price_to_earnings']}"
+          + (f"  EV/Sales {out['ev_to_sales']:.2f}" if "ev_to_sales" in out else "  (no debt/cash given: EV skipped)"))
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("ticker")
+    ap.add_argument("ticker", nargs="?")
+    ap.add_argument("--ratios-from", type=Path, help="compute ratios from a manual inputs JSON (no EDGAR call)")
     ap.add_argument("--period", help="period end date YYYY-MM-DD (default: latest 10-Q or 10-K)")
     ap.add_argument("--outdir", type=Path, help="default: <repo>/<ticker lowercase>/quarterly")
     ap.add_argument("--price", action="store_true", help="add the last close and P/S, P/E")
     ap.add_argument("--force", action="store_true", help="overwrite existing files")
     a = ap.parse_args()
+    if a.ratios_from:
+        return ratios_from_manual(a.ratios_from)
+    if not a.ticker:
+        ap.error("ticker is required unless --ratios-from is given")
     try:
         ua = user_agent()
         cik, title = resolve_cik(a.ticker, ua)
@@ -248,7 +330,7 @@ def main() -> int:
         ix = facts_from_doc(tmp)
         # guard: the document on page one must be the period we asked EDGAR for
         doc_end = dei_text(ix, "DocumentPeriodEndDate")
-        doc_end_iso = dt.datetime.strptime(doc_end, "%B %d, %Y").date().isoformat() if doc_end else None
+        doc_end_iso = doc_period_iso(doc_end)
         if doc_end_iso != f["report"]:
             tmp.unlink()
             raise SnapshotError(f"Unable to verify the filing. Page one says period {doc_end}, EDGAR says {f['report']}.")
@@ -268,18 +350,22 @@ def main() -> int:
             for r in sorted(rows):
                 out.write("\t".join(r) + f"\t{f['accn']}\t{f['filed']}\n")
         # structured inputs
-        facts = json.loads(get(f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:010d}.json", ua))["facts"].get("us-gaap", {})
+        all_facts = json.loads(get(f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:010d}.json", ua))["facts"]
         end = f["report"]
-        rev, ni = ttm_for(facts, REVENUE_TAGS, end), ttm_for(facts, NET_INCOME_TAGS, end)
-        cover, wa = cover_shares(ix), latest_quarter_shares(facts, end)
+        ns = next((n for n in TAGS if ttm_for(all_facts.get(n, {}), TAGS[n]["revenue"], end)["tag"]), "us-gaap")
+        facts, tg = all_facts.get(ns, {}), TAGS[ns]
+        rev, ni = ttm_for(facts, tg["revenue"], end), ttm_for(facts, tg["net_income"], end)
+        cover, wa = cover_shares(ix), latest_quarter_shares(facts, tg["diluted_shares"], end)
+        age = (dt.date.today() - parse_d(end)).days
         debt = sorted({(v.name, float(v.value)) for v in ix.numeric
                        if not ctx_segments(v.context) and getattr(v.context, "instant", None) and str(v.context.instant) == end
-                       and DEBT_NAME.search(v.name) and v.schema == "us-gaap"})
+                       and DEBT_NAME.search(v.name) and v.schema in ("us-gaap", "ifrs-full")})
         inputs = {
             "ticker": a.ticker.upper(), "company": title, "cik": cik, "form": f["form"], "period_end": end,
             "fiscal_label": stem, "accession": f["accn"], "filed": f["filed"], "source_url": url,
+            "taxonomy": ns, "currency": rev.get("unit"), "basis": ("annual only: fiscal year ended %s, %d days before this snapshot" % (end, age)) if f["form"] == "20-F" else ("TTM to %s" % end),
             "ttm_revenue": rev, "ttm_net_income": ni, "cover_shares": cover, "diluted_weighted_shares": wa,
-            "cash": instant_value(facts, CASH_TAGS, end), "equity": instant_value(facts, EQUITY_TAGS, end),
+            "cash": instant_value(facts, tg["cash"], end), "equity": instant_value(facts, tg["equity"], end),
             "debt_candidates_review_balance_sheet": [{"concept": n, "value": v} for n, v in debt],
             "notes": ["Debt tags vary by company: confirm debt and lease balances on the balance sheet before computing EV.",
                       "Values from companyfacts are deduplicated by period, latest filing wins (later filings re-round)."],
@@ -290,6 +376,9 @@ def main() -> int:
             inputs["price"] = px
             shares = {"cover_total": cover["total"], "diluted_weighted": wa.get("value")}
             ratios = {}
+            if px.get("currency") and rev.get("unit") and px["currency"] != rev["unit"]:
+                inputs["ratios_skipped"] = f"currency mismatch: financials in {rev['unit']}, price in {px['currency']}; convert before computing ratios"
+                shares = {}
             for name, sh in shares.items():
                 if sh and rev["value"]:
                     mc = sh * px["price"]
@@ -303,12 +392,15 @@ def main() -> int:
     print(f"{inputs['ticker']} {inputs['company']}: {f['form']} period {end}, filed {f['filed']}, accession {f['accn']}")
     for p in paths.values():
         print("  wrote", p)
+    print(f"  basis          {inputs['basis']}  | taxonomy {ns}, currency {rev.get('unit')}")
     print(f"  TTM revenue    {rev['value']}  ({rev['method']}, tag {rev['tag']})")
     print(f"  TTM net income {ni['value']}  ({ni['method']}, tag {ni['tag']})")
     print(f"  cover shares   {cover['total']}  as of {cover['as_of']}  {cover['by_class']}")
     print(f"  diluted WASO   {wa.get('value')}")
     if a.price:
         print(f"  price {inputs['price']['price']} on {inputs['price']['date']}")
+        if "ratios_skipped" in inputs:
+            print("  ratios skipped:", inputs["ratios_skipped"])
         for k, v in inputs["ratios"].items():
             print(f"  [{k}] mcap {v['market_cap']:,.0f}  P/S {v['price_to_sales']:.2f}  P/E {v['price_to_earnings']}")
     return 0

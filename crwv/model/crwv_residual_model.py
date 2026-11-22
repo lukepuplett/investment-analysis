@@ -570,7 +570,7 @@ def write_output(res, base, st_q4, q4_range, A):
     def ps(n, m): return res[n]["terminal"]["per_share_at_mult"][m]
     n1a, n1b, n2, n3 = names
     L.append("# CoreWeave (CRWV) — equity residual toy model (Q3 2026 pack, 10 Nov 2026)\n")
-    L.append("*Toy model, not a production DCF and not a recommendation. Written for the Q3 2026 8-K/Ex.99.1, presentation and call. The Q3 10-Q was not on EDGAR on 11 Nov 2026, so debt and lease schedules, coupons, converts and diluted shares are explicit gaps. $ millions unless stated.*\n")
+    L.append("*Toy model, not a production DCF and not a recommendation. Written for the Q3 2026 8-K/Ex.99.1, presentation and call. The Q3 10-Q was filed on 12 Nov 2026 (crwv/quarterly/2026_Q3_10q.htm) but this version still uses the 11 Nov proxies, so debt and lease schedules, coupons, converts and diluted shares are not yet taken from it. $ millions unless stated.*\n")
     L.append("## Punchline\n")
     q4 = q4_range["mid"]
     Q4K = "Q4'26"

@@ -1,6 +1,6 @@
 # CoreWeave (CRWV) — equity residual toy model (Q3 2026 pack, 10 Nov 2026)
 
-*Toy model, not a production DCF and not a recommendation. Written for the Q3 2026 8-K/Ex.99.1, presentation and call. The Q3 10-Q was not on EDGAR on 11 Nov 2026, so debt and lease schedules, coupons, converts and diluted shares are explicit gaps. $ millions unless stated.*
+*Toy model, not a production DCF and not a recommendation. Written for the Q3 2026 8-K/Ex.99.1, presentation and call. The Q3 10-Q was filed on 12 Nov 2026 (crwv/quarterly/2026_Q3_10q.htm) but this version still uses the 11 Nov proxies, so debt and lease schedules, coupons, converts and diluted shares are not yet taken from it. $ millions unless stated.*
 
 ## Punchline
 

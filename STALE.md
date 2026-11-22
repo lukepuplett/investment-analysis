@@ -34,7 +34,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **JCI** | Johnson Controls | — | FY2025 Q4 (~Sep 2025) | `2025_Q4_earnings_summary.md` | Stale |
 | **EMR** | Emerson | — | FY2025 Q4 (~Sep 2025) | `2025_Q4_earnings_summary.md` | Stale |
 | **ASML** | ASML | Yes | 2026 Q1 | `2026_Q1_earnings_transcript.txt` | Recent |
-| **CRWV** | CoreWeave | Yes | 2026 Q3 | `2026_Q3_press_release.txt` | Current |
+| **CRWV** | CoreWeave | Yes | 2026 Q3 | `2026_Q3_10q.htm` (filed 12 Nov 2026; facts and ratio inputs saved) | Current |
 | **DDOG** | Datadog | Yes | Q3 2026 (9/30/2026) | `ddog/2026-11-Q3-delta.md` (8-K Ex 99.1; 10-Q filed 4 Nov, not yet reconciled) | ✅ Fresh — Q3 printed 4 Nov 2026; rev $1.197B (+35%), non-GAAP EPS $0.81; Q4 guide ~flat seq → −14% tape |
 | **ENR.DE** | Siemens Energy | Yes | FY2026 Q4 (9/30/2026) | `quarterly/2026_Q4_earnings_release.txt`; `analysis/2026_11_delta_analysis.md` | ✅ Fresh — FY26 printed 11 Nov 2026 (preliminary; Annual Report due ~early Dec); rev €44.2bn (+15.5% comp.), margin before SI 12.4%, FCF pre tax €8.8bn, backlog €164bn; FY27 guide 14–16% / 14–16%; README and May thesis still dated May |
 | **GRRR** | Gorilla Technology | — | 2026 Q1 | `2026_Q1_earnings_call.txt` | Recent |

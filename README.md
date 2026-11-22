@@ -94,6 +94,8 @@ obscura fetch "https://www.sec.gov/Archives/edgar/data/1477333/00014773332500014
   --stealth --dump text --wait 8000
 ```
 
+> **Quickest path:** `python3 scripts/edgar_snapshot.py TICKER --price` does everything below and saves the filing, facts and ratio inputs with provenance (set `SEC_USER_AGENT` first; see the `fetch-quarterly` skill). The manual curl steps remain for reference.
+
 ### Downloading the primary 10-Q iXBRL `.htm` with curl
 
 Modern filings expose the financial statements as **one primary HTML/iXBRL file** named in **`primaryDocument`** (e.g. `cloud-20250930.htm` for Cloudflare NET).

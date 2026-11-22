@@ -39,9 +39,10 @@ It writes, with the repo's `YYYY_Q#_` names (fiscal labels from the filing's cov
 - **You must still:** read the balance sheet for debt and lease balances (tag names vary; the JSON lists candidates, and the maturity ladder is in the facts TSV), and compute EV/Sales from them with the working shown. P/S alone flatters leveraged companies (CRWV: P/S 2.2x, EV/Sales about 6.4x).
 - **Negative earnings:** P/E is `n/m`, never a negative number.
 
-## When the script says no
+## Other kinds of company
 
-- **Not an SEC registrant** (DRO.AX, ENR.DE, RYCEY) or **a 20-F / 6-K filer** (e.g. ASML): say so plainly and point to the company's own reports. Don't fall back to a guess.
+- **20-F filers** (foreign private issuers on EDGAR, e.g. ASML) are supported on an **annual basis only**. The output states the basis and how many days old it is (ASML: 326 days). Their quarterly and half-year numbers come as 6-K press releases with no structured data, so TTM cannot be built from EDGAR: treat the ratio as stale and, if a current one is needed, use the manual route below. If the financials are in a different currency from the price (ASML: EUR vs USD), the script skips the ratios; convert before comparing.
+- **Not an SEC registrant** (DRO.AX, ENR.DE, RYCEY) or a **6-K / 40-F only** filer: the script says so. Don't fall back to a guess. Copy `scripts/manual_inputs_template.json` to `<ticker>/quarterly/YYYY_Q#_manual_inputs.json`, fill every number from the company's own report with its source, use `null` for anything not found, then run `python3 scripts/edgar_snapshot.py --ratios-from <file>`. It computes market cap, P/S, P/E and, if debt and cash are given, EV/Sales, and refuses on missing values or a currency mismatch.
 - **8-K results (Item 2.02) and press releases:** list filings from `https://data.sec.gov/submissions/CIK{cik}.json` with the same User-Agent, save the 8-K as `YYYY_Q#_8k.htm` and the Exhibit 99.1 text as `YYYY_Q#_press_release.txt`.
 
 ## After

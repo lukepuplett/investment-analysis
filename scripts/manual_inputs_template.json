@@ -1,0 +1,16 @@
+{
+  "ticker": "",
+  "company": "",
+  "period_end": "YYYY-MM-DD",
+  "currency": "EUR",
+  "basis": "TTM, fiscal year or half-year: say which, and how it was built",
+  "ttm_revenue": {"value": null, "source": "company report URL, document and page"},
+  "ttm_net_income": {"value": null, "source": ""},
+  "shares": {"value": null, "basis": "diluted weighted average or period-end basic", "as_of": "YYYY-MM-DD", "source": ""},
+  "cash": {"value": null, "source": ""},
+  "debt": {"value": null, "source": ""},
+  "leases": {"value": null, "source": ""},
+  "price": {"value": null, "date": "YYYY-MM-DD", "currency": "EUR", "source": "Yahoo Finance chart API, last regular close"},
+  "notes": ["Write values in the currency above, in full units (not millions), so they match the automated files.",
+            "Every number needs a source. Use null, not a guess, for anything you could not find."]
+}
