@@ -1,0 +1,172 @@
+{
+  "ticker": "CRWV",
+  "company": "CoreWeave, Inc.",
+  "cik": 1769628,
+  "form": "10-Q",
+  "period_end": "2026-09-30",
+  "fiscal_label": "2026_Q3",
+  "accession": "0001769628-26-000465",
+  "filed": "2026-11-12",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+  "ttm_revenue": {
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "value": 9886000000,
+    "method": "FY(prior) + YTD(current) - YTD(prior year)",
+    "rows": [
+      {
+        "start": "2026-01-01",
+        "end": "2026-09-30",
+        "val": 8314000000,
+        "accn": "0001769628-26-000465",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-11-12",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 5131000000,
+        "accn": "0001769628-26-000104",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-03-02",
+        "frame": "CY2025",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-09-30",
+        "val": 3559000000,
+        "accn": "0001769628-26-000465",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-11-12",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    ]
+  },
+  "ttm_net_income": {
+    "tag": "NetIncomeLoss",
+    "value": -2528000000,
+    "method": "FY(prior) + YTD(current) - YTD(prior year)",
+    "rows": [
+      {
+        "start": "2026-01-01",
+        "end": "2026-09-30",
+        "val": -2075000000,
+        "accn": "0001769628-26-000465",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-11-12",
+        "tag": "NetIncomeLoss"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": -1168000000,
+        "accn": "0001769628-26-000191",
+        "fy": null,
+        "fp": null,
+        "form": "DEF 14A",
+        "filed": "2026-04-22",
+        "frame": "CY2025",
+        "tag": "NetIncomeLoss"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-09-30",
+        "val": -715000000,
+        "accn": "0001769628-26-000465",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-11-12",
+        "tag": "NetIncomeLoss"
+      }
+    ]
+  },
+  "cover_shares": {
+    "as_of": "2026-10-30",
+    "by_class": {
+      "us-gaap:StatementClassOfStockAxis=us-gaap:CommonClassAMember": 465847732.0,
+      "us-gaap:StatementClassOfStockAxis=us-gaap:CommonClassBMember": 90277992.0,
+      "us-gaap:StatementClassOfStockAxis=us-gaap:CommonClassCMember": 0.0
+    },
+    "total": 556125724.0
+  },
+  "diluted_weighted_shares": {
+    "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "value": 559000000,
+    "start": "2026-07-01",
+    "end": "2026-09-30",
+    "accn": "0001769628-26-000465"
+  },
+  "cash": {
+    "tag": "CashAndCashEquivalentsAtCarryingValue",
+    "value": 4122000000,
+    "filed": "2026-11-12",
+    "accn": "0001769628-26-000465"
+  },
+  "equity": {
+    "tag": "StockholdersEquity",
+    "value": 4025000000,
+    "filed": "2026-11-12",
+    "accn": "0001769628-26-000465"
+  },
+  "debt_candidates_review_balance_sheet": [
+    {
+      "concept": "DebtInstrumentCarryingAmount",
+      "value": 47505000000.0
+    },
+    {
+      "concept": "LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+      "value": 10974000000.0
+    },
+    {
+      "concept": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+      "value": 4247000000.0
+    },
+    {
+      "concept": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+      "value": 4727000000.0
+    },
+    {
+      "concept": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+      "value": 5479000000.0
+    },
+    {
+      "concept": "LongTermDebtMaturitiesRepaymentsOfPrincipalRemainderOfFiscalYear",
+      "value": 2433000000.0
+    }
+  ],
+  "notes": [
+    "Debt tags vary by company: confirm debt and lease balances on the balance sheet before computing EV.",
+    "Values from companyfacts are deduplicated by period, latest filing wins (later filings re-round)."
+  ],
+  "snapshot_taken": "2026-11-22T17:04Z",
+  "price": {
+    "price": 39.5099983215332,
+    "date": "2026-11-20",
+    "source": "Yahoo Finance chart API, last regular close",
+    "currency": "USD"
+  },
+  "ratios": {
+    "cover_total": {
+      "shares": 556125724.0,
+      "market_cap": 21972526421.801437,
+      "price_to_sales": 2.2225901701195063,
+      "price_to_earnings": "n/m"
+    },
+    "diluted_weighted": {
+      "shares": 559000000,
+      "market_cap": 22086089061.73706,
+      "price_to_sales": 2.234077388401483,
+      "price_to_earnings": "n/m"
+    }
+  }
+}
