@@ -21,6 +21,7 @@ PRESS_RELEASE_NAMES = ["2026_Q3_press_release.txt"]
 X99 = "Ex.99.1"   # Exhibit 99.1 to the 8-K of 10 Nov 2026 (acc. 0001769628-26-000461)
 PRES = "Presentation"  # CoreWeave-3Q26-Earnings-Presentation-Final.pdf
 CALL = "Call"          # CoreWeave-3Q26-Transcript.pdf (commentary, NOT a financial statement)
+TENQ = "10-Q (acc. 0001769628-26-000465, crwv/quarterly/2026_Q3_10q_facts.tsv)"  # Form 10-Q for the quarter ended 30 Sep 2026, filed 12 Nov 2026
 
 # =============================================================================
 # 1. OFFICIAL INPUTS  (value, source)
@@ -79,7 +80,7 @@ OFFICIAL = {
     "exit_arr_high": (21000, X99),
     "active_power_gw_ye": (1.85, X99 + ": >1.85 GW active power at year-end"),
     "prepay_next_3m": (9000, X99 + ": ~$9bn prepayments and deposits next three months; >$3bn is recontracting existing infrastructure (" + CALL + ")"),
-    "convert_raise": (4200, X99 + ": ~$4.2bn upsized convertible senior notes (terms NOT in pack)"),
+    "convert_raise": (4200, X99 + ": ~$4.2bn upsized convertible senior notes; terms now in the 10-Q (convert_2033)"),
     "atm_shares_max": (35.0, X99 + ": inaugural ATM, up to 35m Class A (take-up NOT disclosed)"),
     "ddtl_55": (2600, X99 + ": $2.6bn DDTL 5.5 closed"),
     "undrawn_ddtl": (5000, CALL + ": nearly $5bn undrawn under committed DDTLs"),
@@ -102,6 +103,20 @@ OFFICIAL = {
     "gpus_off_contract_2027": (130000, CALL), "gpus_off_contract_2028": (170000, CALL),
     "renewal_arr_2027": (4000, CALL + ": 2027 renewals ~ approaching $4bn incremental annualised revenue, no new capex (claim)"),
     "renewal_arr_through_2028": (10000, CALL + ": ~nearly $10bn cumulative incl. 2028 renewals (claim)"),
+    # --- Q3 10-Q (filed 12 Nov 2026): debt maturity ladder, instruments, converts, leases, shares ---
+    "ladder_remainder_fy26": (2433, TENQ + ": LongTermDebtMaturities...RemainderOfFiscalYear"),
+    "ladder_year1": (10974, TENQ + ": ...InNextTwelveMonths (Oct 2026 - Sep 2027; includes the Q4 2026 remainder)"),
+    "ladder_year2": (5479, TENQ + ": ...InYearTwo (Oct 2027 - Sep 2028)"),
+    "ladder_year3": (4727, TENQ + ": ...InYearThree"),
+    "ladder_year4": (4247, TENQ + ": ...InYearFour"),
+    "debt_principal_total": (47505, TENQ + ": DebtInstrumentCarryingAmount, total principal"),
+    "instrument_weighted_effective_rate": (0.0793, TENQ + ": carrying-amount weighted effective rate across 18 instruments ($46,305m); the filing rounds each rate to whole percent. Confirms the call's 7.9%"),
+    "convert_2033": ((4200, 97.85, 199.70), TENQ + ": 2033 convertible senior notes $4.2bn, 2.875% stated, conversion price $97.85, capped-call cap $199.70"),
+    "convert_2032": ((4000, 119.60, 230.00), TENQ + ": 2032 convertible senior notes $4.0bn, 1.75% stated, conversion price $119.60, cap $230.00"),
+    "convert_2031_carrying": (2588, TENQ + ": 2031 convertible senior notes carrying $2,588m, ~2% effective; conversion price not separately tagged, so not converted below"),
+    "op_lease_payments_due_12m": (2375, TENQ + ": operating lease payments due in the next twelve months"),
+    "op_lease_payments_undiscounted": (32954, TENQ + ": total undiscounted operating lease payments; weighted discount rate 10%"),
+    "shares_cover_30oct": (556.125724, TENQ + " cover: Class A 465,847,732 + Class B 90,277,992 + Class C 0 at 30 Oct 2026"),
     "price_close_10nov": (48.73, "README / Yahoo regular close 10 Nov 2026 (prior close 48.98)"),
 }
 
@@ -123,7 +138,7 @@ ASSUMPTIONS = {
     "cash_floor": (3000, "ASSUMPTION: minimum usable cash (cash + securities); Dec-25 usable cash was $3.1bn"),
     "cash_ratio_q4": (1.00, "ASSUMPTION: Q4 cash capex = pres capex (Q3 deliveries pulled forward; payables unwind). 9M history 0.73, Q3 0.65"),
     "cash_ratio_fwd": (0.90, "ASSUMPTION: cash capex / pres capex in 2027-28; the rest is OEM/vendor/finance-lease financed and added to debt. 9M26 actual 0.73"),
-    "amort_rate_debt": (None, "DERIVED from balance sheet: current debt / total debt (set below)"),
+    "amort_rate_debt": (None, "DERIVED from balance sheet: current debt / total debt. Used only for NEW asset-level debt; existing debt now follows the 10-Q maturity ladder"),
     "amort_rate_lease": (None, "DERIVED: current operating lease liability / total (set below)"),
     "noncash_interest_share": (None, "DERIVED: 9M debt-discount amortisation / 9M interest = 143/2,022 (set below)"),
     "ar_ratio": (None, "DERIVED: receivables / Q3 annualised revenue (set below)"),
@@ -136,8 +151,7 @@ ASSUMPTIONS = {
     "q4_ddtl_share": (0.75, "ASSUMPTION: share of Q4 cash capex funded by asset-level debt (mgmt 70-100%)"),
     "q4_undrawn_check": (None, "see OFFICIAL undrawn_ddtl"),
     "atm_fee": (0.015, "ASSUMPTION: ATM commission/fees"),
-    "convert_conv_price": (75.0, "ASSUMPTION placeholder: $4.2bn converts at ~55% premium to $48.73; terms not in pack"),
-    "convert_in_debt_already": (True, "ASSUMPTION: the $4.2bn is inside the 30 Sep debt (Q3 capped-call purchase $566m suggests Q3 closing); if it settled in Q4, Q4 debt is $4.2bn higher"),
+    "convert_in_debt_already": (True, "CONFIRMED by the 10-Q: the 2033 convertible notes ($4,200m) are in the 30 Sep 2026 instrument list"),
     # terminal / residual
     "useful_life_yrs": (6.0, "ASSUMPTION: GPU fleet economic life; not in the pack"),
     "residual_value_pct": (0.10, "ASSUMPTION: used-GPU resale as % of cost at end of life; not in the pack"),
@@ -222,6 +236,15 @@ SCENARIOS = {
 # =============================================================================
 # 4. CORE ENGINE
 # =============================================================================
+def ladder_repayments() -> dict:
+    """Existing-debt principal due by model period, from the 10-Q ladder (12-month windows from 30 Sep 2026).
+    Within a window repayments are assumed even, so FY27 = the rest of year 1 + a quarter of year 2."""
+    q4 = O("ladder_remainder_fy26")
+    return {"Q4": q4,
+            2027: (O("ladder_year1") - q4) + 0.25 * O("ladder_year2"),
+            2028: 0.75 * O("ladder_year2") + 0.25 * O("ladder_year3")}
+
+
 def opening_state(A):
     debt = O("recourse_debt_cur") + O("recourse_debt_noncur") + O("nonrecourse_debt_cur") + O("nonrecourse_debt_noncur")
     return {
@@ -233,7 +256,7 @@ def opening_state(A):
         "deferred": O("deferred_rev_cur") + O("deferred_rev_noncur"),
         "ppe_in": O("ppe_net") - O("cip_q3_26"),
         "arr": 4 * O("q3_revenue"),
-        "shares": O("q3_wtd_shares"),
+        "shares": O("shares_cover_30oct"),
         "atm_shares_left": O("atm_shares_max"),
         "r_legacy": None,
     }
@@ -265,7 +288,7 @@ def period_step(A, st, P):
         sbc = a(A, "sbc_annual") * yrs
         gaap_oi = adj_oi - sbc - a(A, "other_adj_per_year") * yrs
         # --- debt roll ---
-        leg_am = a(A, "amort_rate_debt") * yrs * st["legacy"]
+        leg_am = P["legacy_repay"]
         ddtl_am = a(A, "amort_rate_debt") * yrs * st["ddtl"]
         ddtl_draw = P["ddtl_share"] * cash_capex
         if P["ddtl_cap"] is not None:
@@ -360,7 +383,7 @@ def q4_inputs(A, mode="mid"):
         "years": 0.25, "revenue_override": fy_rev - O("m9_revenue"), "adj_oi_override": fy_oi - O("m9_adj_oi"),
         "arr_exit_override": lerp("exit_arr_low", "exit_arr_high"),
         "capex_plan": fy_capex - pres9, "cash_ratio": a(A, "cash_ratio_q4"),
-        "interest_target": lerp("q4_interest_low", "q4_interest_high"),
+        "interest_target": lerp("q4_interest_low", "q4_interest_high"), "legacy_repay": ladder_repayments()["Q4"],
         "ddtl_share": a(A, "q4_ddtl_share"), "ddtl_cap": O("undrawn_ddtl"), "parent_raise": (0.0, "rate_parent_new"),
         "receipts_fixed": O("prepay_next_3m"), "receipt_rate": 0.0, "arr_share": 1.0, "cip_completion": 0.0, "renewal_arr_add": 0.0, "lease_adds": 0.0, "capped_calls": 0.0,
         "atm_price": a(A, "atm_price_normal"), "flex": False,
@@ -372,7 +395,7 @@ def year_inputs(A, scn, yr, st):
         c = a(A, "maintenance_pct_net_ppe") * st["ppe_in"]
     rc_amt, rc_rate = scn["parent_raise"][yr]
     return {
-        "years": 1.0, "capex_plan": c, "cash_ratio": a(A, "cash_ratio_fwd"), "renewal_arr_add": scn["renewal_arr_add"][yr],
+        "years": 1.0, "legacy_repay": ladder_repayments()[yr], "capex_plan": c, "cash_ratio": a(A, "cash_ratio_fwd"), "renewal_arr_add": scn["renewal_arr_add"][yr],
         "ddtl_share": scn["ddtl_share"][yr], "ddtl_cap": scn["ddtl_cap"][yr], "parent_raise": (rc_amt, rc_rate),
         "receipts_fixed": scn["recontract_prepay"][yr], "receipt_rate": a(A, "receipt_rate_new"), "arr_share": scn["arr_share"], "cip_completion": scn["cip_completion"].get(yr, 0.0), "lease_adds": scn["lease_adds"][yr], "capped_calls": 0.0,
         "atm_price": a(A, scn["atm_price"]), "flex": scn["capex_flex"],
@@ -451,6 +474,18 @@ def verify_official():
         ("presentation capex Q3 = $14.5bn vs cash PPE $9.4bn (different series)", O("q3_pres_capex") != O("q3_cash_ppe")),
     ]
     for label, ok in checks: out.append((label, ok))
+    # 10-Q ladder and share figures present in the saved facts file
+    facts_path = os.path.join(HERE, "..", "quarterly", "2026_Q3_10q_facts.tsv")
+    if os.path.exists(facts_path):
+        ft = open(facts_path, encoding="utf-8", errors="ignore").read()
+        for key, concept in (("ladder_remainder_fy26", "RemainderOfFiscalYear"), ("ladder_year1", "InNextTwelveMonths"), ("ladder_year2", "InYearTwo"),
+                             ("ladder_year3", "InYearThree"), ("ladder_year4", "InYearFour")):
+            ok = any(concept in ln and f"{O(key) * 1_000_000:.1f}" in ln for ln in ft.splitlines() if "LongTermDebtMaturities" in ln)
+            out.append((f"10-Q facts: {key} {O(key):,}m matches {concept}", ok))
+        out.append(("10-Q facts: cover shares Class A 465,847,732", "465847732" in ft))
+        out.append(("ladder year1 includes the Q4 remainder", O("ladder_year1") > O("ladder_remainder_fy26")))
+    else:
+        out.append(("10-Q facts file found (crwv/quarterly/2026_Q3_10q_facts.tsv)", False))
     # strings present in the press release extract
     txt = None
     for d in PACK_DIRS:
@@ -580,10 +615,10 @@ def write_output(res, base, st_q4, q4_range, A):
     L.append(f"**Demand printed. Whether anything reaches equity is decided by funding, replacement capex and the multiple a buyer pays, not by the outlook raise. On the hard measures the claim is tight: in the keep-building path debt + leases rise from about 66bn to {fb(p1a['FY28']['debt_leases'])}bn against {fb(p1a['FY28']['equity'])}bn of book equity, and each 1x of EV/EBITDA moves equity by about ${per_turn:,.0f} a share (toy count), so equity is a levered option on the multiple.**\n")
     L.append(f"- **The Q4 guide does not cover its own interest.** FY adj. OI guide ($1.275-1.375bn) less 9M actual $528m implies Q4 adj. OI of about $747-847m (mid {f0(q4['adj_oi'])}); Q4 net interest is guided at $1.05-1.15bn (mid {f0(q4['interest'])}). Adj. OI minus interest in Q4 is **{f0(q4['adj_oi']-q4['interest'])}** at the midpoint; model GAAP OI is about {f0(q4['gaap_oi'])}, so GAAP OI / interest is **{fx(q4['cov_gaap_oi'])}**.")
     L.append(f"- **Keep building (1A) is funded by lenders, not by operations.** FY27 cash after interest and cash capex excluding prepayments is {fb(p1a['FY27']['fcf_ex'])}bn ({fb(p1a['FY27']['fcf_incl'])}bn with net prepayments), covered by about {fb(p1a['FY27']['ddtl_draw']+p1a['FY27']['parent_draw']+p1a['FY27']['oem_financed'])}bn of new debt-like funding against {fb(O('undrawn_ddtl'))}bn of undrawn DDTLs today. GAAP OI / interest is {fx(p1a['FY27']['cov_gaap_oi'])} in FY27 and {fx(p1a['FY28']['cov_gaap_oi'])} in FY28. At steady state on the exit-2028 run-rate, owner earnings after replacement capex, interest, tax and SBC are {fb(t1a['owner'])}bn.")
-    L.append(f"- **Harvest (2) turns cash after capex positive by design ({fb(p2['FY27']['fcf_ex'])}bn FY27, {fb(p2['FY28']['fcf_ex'])}bn FY28 excluding prepayments), but it does not reach equity cleanly.** It still falls {fb(p2['FY27']['unfunded']+p2['FY28']['unfunded'])}bn short of the scheduled-principal proxy over two years (refinancing or ATM; ATM draws {fs(p2['FY27']['atm_shares']+p2['FY28']['atm_shares'])}m shares), prepayments unwind (net {fb(p2['FY27']['net_prepay'])}bn in FY27), its maintenance capex of {fb(p2['FY28']['cash_capex'])}bn is below steady-state fleet replacement of {fb(res[n2]['terminal']['repl'])}bn, and it gives up growth: FY28 revenue {fb(p2['FY28']['revenue'])}bn vs {fb(p1a['FY28']['revenue'])}bn in 1A. Steady-state owner earnings are {fb(res[n2]['terminal']['owner'])}bn.")
-    L.append(f"- **Funding stress (3)** has no parent unsecured issuance. Capex flexes down to what can be funded: FY27 pres capex {fb(p3['FY27']['capex_pres'])}bn of {fb(p3['FY27']['capex_plan'])}bn planned and FY28 {fb(p3['FY28']['capex_pres'])}bn. The ATM is needed in FY27 (35.0m shares, about {fb(p3['FY27']['atm_amt'])}bn at the $34 stress price), is then exhausted, and a {fb(p3['FY28']['unfunded'])}bn FY28 shortfall remains even at zero growth capex on the scheduled-principal proxy. Toy end-2028 share count {fs(res[n3]['end_state']['shares'])}m vs {fs(res[n1a]['end_state']['shares'])}m in 1A.")
-    L.append(f"- Reference only: 10 Nov close ${price:.2f} x 559m weighted shares = about ${price*O('q3_wtd_shares')/1000:,.1f}bn (not a fully diluted market cap). Debt + all leases at 30 Sep were about $66.2bn against $4.0bn of book equity.")
-    L.append("- The residual is a function of a few assumptions that the pack does not give: **(1) useful life and residual GPU value, (2) EV/EBITDA a buyer pays, (3) cash vs presentation capex, (4) what the 10-Q says about debt cost and maturities.** See sensitivity and the closing list.\n")
+    L.append(f"- **Harvest (2) turns cash after capex positive by design ({fb(p2['FY27']['fcf_ex'])}bn FY27, {fb(p2['FY28']['fcf_ex'])}bn FY28 excluding prepayments), but it does not reach equity cleanly.** Against the 10-Q maturity ladder it is short by {fb(p2['FY27']['unfunded'])}bn in FY27 and {fb(p2['FY28']['unfunded'])}bn in FY28 of scheduled principal (met from refinancing or the ATM; ATM draws {fs(p2['FY27']['atm_shares']+p2['FY28']['atm_shares'])}m shares), prepayments unwind (net {fb(p2['FY27']['net_prepay'])}bn in FY27), its maintenance capex of {fb(p2['FY28']['cash_capex'])}bn is below steady-state fleet replacement of {fb(res[n2]['terminal']['repl'])}bn, and it gives up growth: FY28 revenue {fb(p2['FY28']['revenue'])}bn vs {fb(p1a['FY28']['revenue'])}bn in 1A. Steady-state owner earnings are {fb(res[n2]['terminal']['owner'])}bn.")
+    L.append(f"- **Funding stress (3)** has no parent unsecured issuance. Capex flexes down to what can be funded: FY27 pres capex {fb(p3['FY27']['capex_pres'])}bn of {fb(p3['FY27']['capex_plan'])}bn planned and FY28 {fb(p3['FY28']['capex_pres'])}bn of {fb(p3['FY28']['capex_plan'])}bn. The ATM is needed in FY27 (35.0m shares, about {fb(p3['FY27']['atm_amt'])}bn at the $34 stress price) and is then exhausted; the FY28 unfunded gap is {fb(p3['FY28']['unfunded'])}bn. Toy end-2028 share count {fs(res[n3]['end_state']['shares'])}m vs {fs(res[n1a]['end_state']['shares'])}m in 1A.")
+    L.append(f"- Reference only: 10 Nov close ${price:.2f} x 556.1m shares on the 10-Q cover (30 Oct 2026) = about ${price*O('shares_cover_30oct')/1000:,.1f}bn (basic, not fully diluted). Debt + all leases at 30 Sep were about $66.2bn against $4.0bn of book equity.")
+    L.append("- The residual is a function of a few assumptions that the pack does not give: **(1) useful life and residual GPU value, (2) EV/EBITDA a buyer pays, (3) cash vs presentation capex, (4) how much of the 9.2% implied interest rate is coupon versus capitalised-interest and fee effects.** See sensitivity and the closing list.\n")
     # verification
     L.append("## Checks against the pack\n")
     vr = verify_official(); bad = [l for l, ok in vr if not ok]
@@ -670,17 +705,22 @@ def write_output(res, base, st_q4, q4_range, A):
     L.append(f"Base: **${bv:,.0f} per share**, owner earnings {f0(bo)}.\n")
     L.append(table(["Change (low / high)", "$/share, first", "$/share, second", "Owner earnings, first", "Owner earnings, second"], [(r[0], f"${r[1]:,.0f}", f"${r[2]:,.0f}", f0(r[3]), f0(r[4])) for r in srows]))
     # dilution
-    L.append("## Dilution placeholders\n")
-    conv_sh = O("convert_raise") / a(A, "convert_conv_price")
-    rows = [["Q3 weighted-average shares (basic and diluted, official)", fs(O("q3_wtd_shares")), "Ex.99.1; a loss quarter, so converts and RSUs are anti-dilutive and excluded"],
+    L.append("## Dilution (10-Q terms)\n")
+    c33, c32 = O("convert_2033"), O("convert_2032")
+    sh33, sh32 = c33[0] / c33[1], c32[0] / c32[1]
+    rows = [["Cover-page shares, 30 Oct 2026 (Class A 465.8m + Class B 90.3m)", fs(O("shares_cover_30oct")), "10-Q cover; the model's opening share count"],
+            ["Q3 weighted-average shares (basic and diluted)", fs(O("q3_wtd_shares")), "Ex.99.1; a loss quarter, so converts and RSUs are anti-dilutive and excluded"],
             ["ATM, up to", fs(O("atm_shares_max")), f"OFFICIAL cap; take-up unknown; at $48.73 raises up to ${O('atm_shares_max')*price*(1-a(A,'atm_fee'))/1000:,.1f}bn net"],
-            ["Convert placeholder if converted", fs(conv_sh), f"ASSUMPTION: $4.2bn / ${a(A,'convert_conv_price'):.0f}; terms not in the pack. Treated as DEBT in the model above"],
-            ["Toy count end-2028, scenario 1A", fs(res[n1a]["end_state"]["shares"]), "559 + SBC $/price + ATM drawn"],
+            ["2033 converts if converted ($4,200m at $97.85)", fs(sh33), f"10-Q; capped call to ${c33[2]:.2f}. Price is ${price:.2f}, so far out of the money and treated as DEBT"],
+            ["2032 converts if converted ($4,000m at $119.60)", fs(sh32), f"10-Q; capped call to ${c32[2]:.2f}. Treated as DEBT"],
+            ["2031 converts ($2,588m carrying)", "n/a", "conversion price not separately tagged in the filing; treated as DEBT"],
+            ["Toy count end-2028, scenario 1A", fs(res[n1a]["end_state"]["shares"]), "556.1 + SBC $/price + ATM drawn"],
             ["Toy count end-2028, scenario 3", fs(res[n3]["end_state"]["shares"]), "stress price $34 for ATM"]]
     L.append(table(["Item", "Shares (m)", "Source / note"], rows))
     t1 = res[n1a]["terminal"]
-    conv_alt = (t1["equity_at_mult"][mid] + O("convert_raise")) / (t1["shares"] + conv_sh)
-    L.append(f"*If the converts were converted instead of repaid (1A at {mid:.0f}x): equity ${t1['equity_at_mult'][mid]+O('convert_raise'):,.0f}m over {fs(t1['shares']+conv_sh)}m shares = ${conv_alt:,.0f} per share, against ${t1['per_share_at_mult'][mid]:,.0f} with the notes as debt. Placeholder arithmetic only.*\n")
+    conv_sh = sh33 + sh32
+    conv_alt = (t1["equity_at_mult"][mid] + c33[0] + c32[0]) / (t1["shares"] + conv_sh)
+    L.append(f"*If both the 2032 and 2033 converts were converted instead of repaid (1A at {mid:.0f}x): equity ${t1['equity_at_mult'][mid]+c33[0]+c32[0]:,.0f}m over {fs(t1['shares']+conv_sh)}m shares = ${conv_alt:,.0f} per share, against ${t1['per_share_at_mult'][mid]:,.0f} with the notes as debt. Arithmetic only: conversion needs the stock above $97.85 and $119.60.*\n")
     # inputs
     L.append("## Inputs\n")
     L.append("### OFFICIAL (value, source)\n")
@@ -697,10 +737,10 @@ def write_output(res, base, st_q4, q4_range, A):
     # change the answer
     L.append("## What would change the answer\n")
     for s in [
-        "**Q3 10-Q debt and lease schedule**: instrument-level coupons, maturities, secured vs unsecured vs converts, covenants and the true size of 2027 maturities. The model uses current debt / total debt (22.6%) as an amortisation proxy and an effective legacy rate backed out of the Q4 interest guide.",
+        "**Q3 10-Q, now partly used**: existing-debt repayments follow its maturity ladder (Q4'26 $2.4bn, FY27 about $9.9bn, FY28 about $5.3bn, assuming even repayment within each 12-month window) and the 2033/2032 convert terms and cover-page shares are in. Still open: the model backs the interest rate out of the Q4 guide (about 9.2%) instead of building it from each instrument's coupon; the 10-Q's weighted effective rate is 7.9%, so the gap of about 1.3 points is non-coupon cost (capitalised interest unwinding, fees, amortisation; an inference). Covenants and the new-DDTL repayment profile are not modelled.",
         "**Current bond prices and yields**: asset-level loans were said to trade near par; the unsecured 2032 yield (mid-October press report of about 15%, unverified) is used only as a stress rate in scenario 3.",
-        "**Convertible terms**: conversion price, coupon, maturity, capped-call strike, and whether the $4.2bn is already in the 30 Sep debt.",
-        "**Fully diluted share count**: period-end basic, RSUs, options, convert if-converted, and ATM take-up. 559m is a weighted-average placeholder.",
+        "**Converts**: terms are now in the 10-Q ($97.85 and $119.60 conversion prices against a $39.51 share price, so they behave as debt). The 2031 notes' conversion price is not separately tagged and is not modelled.",
+        "**Fully diluted share count**: the model now opens at the 556.1m cover-page shares (30 Oct 2026); RSUs, options and ATM take-up are still not in the filing data used.",
         "**Residual / used-GPU values and depreciation lives**: drive replacement capex and the terminal multiple; the pack gives neither. Management says depreciation 'dissipates' after contracts outlast depreciable lives.",
         "**Backlog conversion by year in dollars, customer concentration, termination rights**, and how much of the 36% < 24-month bucket is already delivering.",
         "**Cash vs presentation capex**: 9M cash PPE was 73% of the presentation series; how much of the gap is payables, finance leases and vendor financing (all debt-like) is not in the pack.",
