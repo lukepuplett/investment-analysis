@@ -1,352 +1,49 @@
 ---
 name: fetch-quarterly
-description: Fetch and structure quarterly financial data for companies. Interactive workflow that gathers requirements, fetches data from SEC EDGAR and APIs, and confirms before saving to repo.
-argument-hint: [TICKER] [QUARTER]
-context: fork
-agent: general-purpose
-allowed-tools: WebSearch Bash(curl *) Bash(python3 *) Read Grep
-disable-model-invocation: false
+description: Snapshot a company's latest 10-Q or 10-K from SEC EDGAR into the repo with provenance. Saves the filing, a facts TSV and TTM/share/price ratio inputs under <ticker>/quarterly/. Use when asked to fetch, refresh, pull or update quarterly data, or to check a P/S, P/E or market-cap figure against filings.
+argument-hint: <TICKER> [period YYYY-MM-DD]
+allowed-tools: Bash(python3 *) Bash(curl *) Read Grep
 ---
 
-# Fetch Quarterly Financial Data
+# Fetch a filing snapshot from EDGAR
 
-Fetching data for: **$ARGUMENTS**
+Target: **$ARGUMENTS**
 
-## Your Mission
+EDGAR is the only authority for financials. One tested script does the work: `scripts/edgar_snapshot.py`. Do not hand-roll curl calls or use third-party financial APIs for the numbers; they can disagree with the filing.
 
-You are an intelligent financial data agent. Your job is to:
-1. Clarify what the user needs
-2. Fetch data from the primary source — **SEC 10-Q filings** (via SEC EDGAR API and FMP)
-3. Show findings for review
-4. Save to the repo in standard format
+## Before you run
 
-**Key Insight:** The SEC 10-Q filing is your authoritative source for financial data. It contains:
-- ✅ Complete financial statements (income, balance sheet, cash flow)
-- ✅ Management's Discussion & Analysis (strategy, risks, guidance)
-- ✅ Risk factors and competitive positioning
-- ✅ Segment performance and historical trends
-- ✅ 5+ years of comparative financial data
+- `SEC_USER_AGENT` must be set in the environment to a descriptive string with a contact (the SEC blocks requests without one; a generic agent got HTTP 403). If it is not set, stop and tell the user. Never put the user's email, or any contact you invented, in a request header on your own.
+- Ticker and "latest" are enough; don't ask questions in the obvious case. Ask only if there is no ticker, or the ticker folder doesn't exist (folder names don't always match, e.g. NET is `cloudflare/`; pass `--outdir`).
 
-You are NOT brittle — adapt to what the user asks for, try alternative sources if one fails, and ask clarifying questions.
+## Run
 
----
-
-## Step 1: Understand What's Needed
-
-Ask the user to clarify (if not obvious from their command):
-
-**Required:**
-- **Ticker:** Which stock? (e.g., HOOD, INTC, MSFT)
-- **Time period:** Which quarter(s)? (e.g., "Q1 2026", "latest", "last 4 quarters")
-
-**Optional (confirm preferred):**
-- **Data types:** What should I fetch? 
-  - ☐ Latest 10-Q filing (financial statements)
-  - ☐ Stock metrics (P/E, market cap, price)
-  - ☐ Press release / earnings announcement
-  - ☐ All of the above
-- **Save location:** Should I save these files to the repo? (usually yes)
-
-Example response to user:
-```
-Got it. You want Q1 2026 data for INTC.
-
-What would be most useful?
-- [A] Financial statements (from SEC 10-Q)
-- [B] Stock metrics (price, P/E, market cap)
-- [C] Press release / earnings summary
-- [D] All of the above
-
-(Default: A + B)
-```
-
----
-
-## Step 2: Gather Data
-
-Based on user's needs, fetch from these sources in order of preference:
-
-### For Financial Statements (10-Q, Income Statement, Balance Sheet, Cash Flow)
-
-**Source 1: SEC EDGAR API (Best — Official, Free)**
 ```bash
-# Get company CIK and recent filings
-curl -H "User-Agent: Mozilla/5.0" \
-  "https://data.sec.gov/submissions/CIK{cik}.json" 
-
-# Extract: filing date, accession number, size
-# Then construct URL to actual document
+python3 scripts/edgar_snapshot.py TICKER --price            # latest 10-Q or 10-K, into <ticker>/quarterly/
+python3 scripts/edgar_snapshot.py TICKER --period 2026-09-30 --outdir some/quarterly
 ```
 
-**Data available:**
-- Income statement (revenue, operating expenses, net income)
-- Balance sheet (assets, liabilities, equity)
-- Cash flow statement (operating, investing, financing activities)
-- Segment data (by product/geography if applicable)
-- MD&A (management discussion & analysis)
+It writes, with the repo's `YYYY_Q#_` names (fiscal labels from the filing's cover tags, `YYYY_FY_10k` for a 10-K), and refuses to overwrite without `--force`:
 
-**Expected output:** HTML document ~500KB-2MB
-**Freshness:** 48 hours after company files
+| File | Content |
+|---|---|
+| `YYYY_Q#_10q.htm` | the primary iXBRL document |
+| `YYYY_Q#_10q_facts.tsv` | every numeric fact with period, segments, accession number and filed date |
+| `YYYY_Q#_10q_ratio_inputs.json` | TTM revenue and net income (with the rows used), cover-page shares by class, diluted weighted shares, cash, equity, debt candidates, and with `--price` the close, market cap, P/S and P/E on both share bases |
 
-### For Financial Statements (Income Statement, Balance Sheet, Cash Flow)
+## What the script already guards, and what you must still check
 
-**Source: Financial Modeling Prep API (✅ WORKING)**
+- **Period guard:** it aborts if page one of the document doesn't match the period EDGAR lists. (Once a Q2 10-Q was mistaken for the Q3 one.)
+- **TTM** = latest fiscal year − prior-year YTD + current YTD, from facts deduplicated by period with the latest filing winning (later filings restate and re-round, so a figure can move by 1m). Q4 is never a reported quarter.
+- **Shares:** the cover-page count is per class and is absent from the `companyfacts` feed for multi-class companies, so the script reads it from the document. Report both bases (cover total and diluted weighted average) and say which one a figure uses. They can differ a lot (SMCI: 659m vs 749m).
+- **You must still:** read the balance sheet for debt and lease balances (tag names vary; the JSON lists candidates, and the maturity ladder is in the facts TSV), and compute EV/Sales from them with the working shown. P/S alone flatters leveraged companies (CRWV: P/S 2.2x, EV/Sales about 6.4x).
+- **Negative earnings:** P/E is `n/m`, never a negative number.
 
-**Setup:** Set your FMP API key in environment:
-```bash
-export FMP_API_KEY="your_api_key"
-```
+## When the script says no
 
-**Then fetch:**
-```bash
-# Income statement (quarterly & annual)
-curl "https://financialmodelingprep.com/stable/income-statement?symbol=INTC&apikey=${FMP_API_KEY}"
+- **Not an SEC registrant** (DRO.AX, ENR.DE, RYCEY) or **a 20-F / 6-K filer** (e.g. ASML): say so plainly and point to the company's own reports. Don't fall back to a guess.
+- **8-K results (Item 2.02) and press releases:** list filings from `https://data.sec.gov/submissions/CIK{cik}.json` with the same User-Agent, save the 8-K as `YYYY_Q#_8k.htm` and the Exhibit 99.1 text as `YYYY_Q#_press_release.txt`.
 
-# Balance sheet
-curl "https://financialmodelingprep.com/stable/balance-sheet-statement?symbol=INTC&apikey=${FMP_API_KEY}"
+## After
 
-# Cash flow
-curl "https://financialmodelingprep.com/stable/cash-flow-statement?symbol=INTC&apikey=${FMP_API_KEY}"
-```
-
-**Data available:** 
-- Revenue, gross profit, operating income, net income
-- Assets, liabilities, equity
-- Operating cash flow, capex, free cash flow
-- EPS, shares outstanding
-- And 50+ other metrics
-
-**Note:** Using `/stable/` endpoint (v3/v4 endpoints are deprecated). Get your free API key at https://financialmodelingprep.com
-
-### For Press Release / Earnings Announcement
-
-**Source 1: Company press release sites**
-- Search: `[COMPANY] Q1 2026 earnings release` OR `[COMPANY] earnings announcement`
-- Often found on investor relations pages or SEC 8-K filings
-
-**Source 2: SEC EDGAR 8-K filings** (for material event announcements)
-```bash
-curl -H "User-Agent: Mozilla/5.0" \
-  "https://data.sec.gov/submissions/CIK{cik}.json" | grep 8-K
-```
-
-**Source 3: Yahoo Finance news API** (if available)
-
-### Optional: Narrative Data From 10-Q
-
-The 10-Q filing also contains valuable narrative sections beyond financial statements:
-
-**Available from 10-Q directly:**
-- **Management's Discussion & Analysis (MD&A)** — Strategy, results commentary, forward guidance
-- **Risk Factors** — Comprehensive risk assessment and mitigation strategies
-- **Business Description** — Competitive positioning, market dynamics, segment detail
-- **Forward-Looking Statements** — Management expectations for future periods
-
-**How to extract:**
-These sections are in the raw 10-Q HTML/text. You can:
-1. Save the raw 10-Q document (`2026_Q1_10q.txt`)
-2. Use grep/sed to extract sections by pattern
-3. Manual review for key insights
-
-**Note:** This is optional. For your initial implementation, focus on:
-- ✅ Financial statements (automated via FMP)
-- ✅ Stock metrics (automated via Alpha Vantage)
-- ✅ Press releases (optional manual)
-
-Extract narrative sections when building deeper analysis documents.
-
----
-
-## Step 3: Preview & Confirm
-
-Before saving anything, show the user what you found:
-
-```markdown
-## Data Collected for INTC Q1 2026
-
-### ✅ Financial Statements (10-Q)
-- **Filed:** 2026-04-24
-- **Document:** intc-20260331.htm (9 MB)
-- **Key metrics found:**
-  - Revenue: $19.2B
-  - Operating income: $4.1B
-  - Net income: $3.2B
-
-### ✅ Stock Metrics
-- **Current price:** $34.52
-- **P/E ratio:** 12.4x
-- **Market cap:** $145.3B
-- **Shares outstanding:** 4.21B
-
-### ✅ Press Release
-- Found: INTC Q1 2026 earnings announcement
-- Contains: guidance, revenue breakdown by segment
-- 📋 Preview available
-
----
-
-**Ready to save these to the repo?**
-- Income statement → `intc/financials/2026_04/income_statement.md`
-- Balance sheet → `intc/financials/2026_04/balance_sheet.md`
-- Cash flow → `intc/financials/2026_04/cashflow.md`
-- Stock metrics → `intc/financials/2026_04/yahoo_stats.md`
-
-Confirm: **Yes / No / Edit (which files to skip)**
-```
-
----
-
-## Step 4: Save to Repository
-
-**ONLY after user confirms**, save to appropriate directories:
-
-### Raw Filing Data
-```
-company_ticker/quarterly/
-  └── 2026_Q1_10q.txt        (raw text from SEC document)
-  └── 2026_Q1_press_release.txt
-```
-
-### Parsed Financial Statements
-```
-company_ticker/financials/2026_04/
-  ├── income_statement.md      (parsed table format)
-  ├── balance_sheet.md
-  ├── cashflow.md
-  └── yahoo_stats.md           (stock metrics in table format)
-```
-
-### Format Standards
-Follow the repo's CLAUDE.md standards for formatting:
-- Tables: 3 columns (Metric | Value | Period)
-- Currency: $M or $B with appropriate units
-- Percentages: Include % symbol
-- Numbers: Right-aligned, comma-separated
-- Include abbreviations legend (MRQ, TTM, YoY)
-
-### Example Income Statement Format
-```markdown
-# INTC Income Statement
-
-| Metric | TTM | Q1 2026 | Q1 2025 |
-|--------|-----|---------|---------|
-| Revenue | $19.2B | $4.8B | $4.2B |
-| Gross Profit | $12.4B | $3.2B | $2.8B |
-| Operating Income | $4.1B | $1.1B | $0.9B |
-| Net Income | $3.2B | $0.8B | $0.7B |
-
-*Abbreviations: TTM = Trailing Twelve Months, MRQ = Most Recent Quarter*
-```
-
----
-
-## Step 5: Report Completion
-
-After saving:
-
-```markdown
-## ✅ Complete
-
-Files saved to repo:
-- intc/quarterly/2026_Q1_10q.txt
-- intc/financials/2026_04/income_statement.md
-- intc/financials/2026_04/balance_sheet.md
-- intc/financials/2026_04/cashflow.md
-- intc/financials/2026_04/yahoo_stats.md
-
-Next suggested steps:
-1. Review financial trends (compare to prior quarter)
-2. Update analysis documents (analysis/2026_04_financial_analysis.md)
-3. Check valuation multiples against peers
-4. Review risk factors from 10-Q
-
-Any other quarters needed?
-```
-
----
-
-## Important Rules & Notes
-
-### Error Handling
-- **SEC EDGAR down?** Try Yahoo Finance scraping or cached data
-- **API rate limit hit?** Ask user to wait, or use fallback source
-- **No data found?** Tell user clearly, suggest alternative quarter or source
-- **Ambiguous ticker?** Ask which exchange (NASDAQ vs NYSE, etc.)
-
-### Data Validation
-- **Sanity checks:** Revenue should be positive, assets ≥ liabilities
-- **Compare to prior:** Flag if metrics changed dramatically (may indicate data error)
-- **Document source:** Include footnote about data source in saved files
-- **When uncertain:** Show raw data and ask user to verify
-
-### Rate Limits & Politeness
-- **SEC EDGAR:** No formal limit but be reasonable (~1 req/sec). Always include User-Agent header.
-- **Alpha Vantage:** 25 calls/day free tier (sufficient for 25 companies, 1 per week)
-- **Yahoo Finance:** May block if too aggressive; use Obscura's stealth mode if scraping
-
-### What NOT to Do
-- ❌ Don't assume company ticker exists (verify with SEC first)
-- ❌ Don't save without user confirmation
-- ❌ Don't guess at missing data (ask user or skip)
-- ❌ Don't mix fiscal quarters (Q1 = Jan-Mar for most, but Dec-Feb for some)
-- ❌ Don't commit secrets to repo (API keys should be in .env, never committed)
-- ❌ **Don't attempt to fetch earnings call transcripts** — Web scraping transcript sources is unreliable. Use manual collection instead (see `FINANCIAL_DATA_SOURCES.md` for best practices)
-
-### API Keys Needed
-If fetching stock metrics:
-- **Alpha Vantage:** Needs free API key (ask user if they have one)
-- **Financial Modeling Prep:** Optional, better if available
-- **SEC EDGAR:** No key needed, but always use User-Agent header
-
-Prompt user:
-```
-To fetch stock metrics, I can use:
-1. Alpha Vantage (need your API key) — more reliable
-2. Yahoo Finance scraping — works without key but less structured
-
-Which prefer? (Or skip stock metrics for now?)
-```
-
----
-
-## Available Data Sources (Reference)
-
-| Source | Best For | Freshness | Cost | Access |
-|--------|----------|-----------|------|--------|
-| SEC EDGAR API | Company info, filing dates | 48h | Free | curl, no auth |
-| SEC 10-Q document | Financial statements | 48h | Free | Obscura or curl |
-| Alpha Vantage | Stock price, P/E, market cap | Real-time | Free (25/day) | API key |
-| Yahoo Finance | Stock metrics | Real-time | Free | Web scrape or API |
-| Company press release | Earnings announcements | Real-time | Free | Company IR pages |
-| SEC 8-K | Material events | Real-time | Free | SEC EDGAR |
-
----
-
-## Example Invocations
-
-```
-/fetch-quarterly HOOD
-→ "Got it. Which quarter? Latest? Or Q1 2026?"
-
-/fetch-quarterly INTC Q1 2026
-→ "Fetching Q1 2026 for INTC. Need financial statements + stock metrics + press release? [Y/N]"
-
-/fetch-quarterly MSFT latest 4 quarters
-→ "Fetching latest 4 quarters for MSFT. This will create 4 sets of files. Confirm? [Y/N]"
-
-/fetch-quarterly CRWV all available
-→ "CRWV (CoreWeave) - finding all available quarters. Note: early-stage company, may have limited data."
-```
-
----
-
-## References for Your Work
-
-- **Repo structure:** See `CLAUDE.md` in root directory
-- **Company list:** See root `README.md` (22+ companies with tickers)
-- **Data sources:** See `FINANCIAL_DATA_SOURCES.md` (includes transcript collection strategy)
-- **Format standards:** See `CLAUDE.md` → "Document Formatting Standards"
-- **SEC EDGAR guide & transcript testing:** See `OBSCURA_EXPLORATION_FINDINGS.md`
-- **Transcript collection best practices:** See `FINANCIAL_DATA_SOURCES.md` → "Earnings Call Transcripts: Collection Strategy"
-- **Data collection phases:** See `DATA_COLLECTION_STRATEGY.md` (Phase 3 covers transcripts)
-
+Show the summary and the file list. Do not commit unless asked. If you changed a number that a diary table or model quotes, say which one.
