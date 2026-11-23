@@ -23,6 +23,34 @@ PRES = "Presentation"  # CoreWeave-3Q26-Earnings-Presentation-Final.pdf
 CALL = "Call"          # CoreWeave-3Q26-Transcript.pdf (commentary, NOT a financial statement)
 TENQ = "10-Q (acc. 0001769628-26-000465, crwv/quarterly/2026_Q3_10q_facts.tsv)"  # Form 10-Q for the quarter ended 30 Sep 2026, filed 12 Nov 2026
 
+# Debt instruments at 30 Sep 2026 from the 10-Q debt note: (name, class, principal $m, effective rate, recourse). The filing rounds each
+# effective rate to a whole percent. Classes: secured = DDTLs, OEM financing and the revolver; notes = unsecured senior notes; converts.
+DEBT_INSTRUMENTS = (
+    ("OEM financing (recourse)", "secured", 6891, 0.10), ("OEM financing (non-recourse)", "secured", 770, 0.09),
+    ("DDTL 1.0", "secured", 1139, 0.15), ("DDTL 2.0", "secured", 2796, 0.11), ("DDTL 2.1", "secured", 2494, 0.09),
+    ("DDTL 3.0", "secured", 2323, 0.09), ("DDTL 4.0 (non-recourse)", "secured", 4583, 0.07), ("DDTL 5.0", "secured", 2749, 0.09),
+    ("DDTL 5.5", "secured", 1555, 0.11), ("Revolving credit facility", "secured", 1200, 0.07),
+    ("2030 senior notes", "notes", 2000, 0.10), ("2031 senior notes 9.00%", "notes", 1750, 0.10),
+    ("2031 senior notes 9.75%", "notes", 2750, 0.10), ("2032 senior notes 9.625%", "notes", 1250, 0.10),
+    ("2032 EUR senior notes 8.5%", "notes", 2272, 0.09),
+    ("2031 convertible senior notes", "converts", 2588, 0.02), ("2032 convertible senior notes 1.75%", "converts", 4000, 0.02),
+    ("2033 convertible senior notes 2.875%", "converts", 4200, 0.03),
+    ("Magnetar loan", "other", 195, 0.12),
+)
+BUCKET_ORDER = ("secured", "notes", "converts", "other")  # ASSUMPTION: scheduled repayments hit secured/OEM debt first
+
+
+def bucket_rates() -> dict:
+    out = {}
+    for b in BUCKET_ORDER:
+        rows = [(c, r) for _, k, c, r in DEBT_INSTRUMENTS if k == b]
+        out[b] = sum(c * r for c, r in rows) / sum(c for c, _ in rows)
+    return out
+
+
+INSTRUMENT_PRINCIPAL = sum(c for _, _, c, _ in DEBT_INSTRUMENTS)
+INSTRUMENT_WEIGHTED_RATE = sum(c * r for _, _, c, r in DEBT_INSTRUMENTS) / INSTRUMENT_PRINCIPAL
+
 # =============================================================================
 # 1. OFFICIAL INPUTS  (value, source)
 # =============================================================================
@@ -110,7 +138,7 @@ OFFICIAL = {
     "ladder_year3": (4727, TENQ + ": ...InYearThree"),
     "ladder_year4": (4247, TENQ + ": ...InYearFour"),
     "debt_principal_total": (47505, TENQ + ": DebtInstrumentCarryingAmount, total principal"),
-    "instrument_weighted_effective_rate": (0.0793, TENQ + ": carrying-amount weighted effective rate across 18 instruments ($46,305m); the filing rounds each rate to whole percent. Confirms the call's 7.9%"),
+    "instrument_weighted_effective_rate": (INSTRUMENT_WEIGHTED_RATE, TENQ + ": principal-weighted effective rate across the 19 instruments in DEBT_INSTRUMENTS ($47,505m); the filing rounds each rate to whole percent. Confirms the call's 7.9%"),
     "convert_2033": ((4200, 97.85, 199.70), TENQ + ": 2033 convertible senior notes $4.2bn, 2.875% stated, conversion price $97.85, capped-call cap $199.70"),
     "convert_2032": ((4000, 119.60, 230.00), TENQ + ": 2032 convertible senior notes $4.0bn, 1.75% stated, conversion price $119.60, cap $230.00"),
     "convert_2031_carrying": (2588, TENQ + ": 2031 convertible senior notes carrying $2,588m, ~2% effective; conversion price not separately tagged, so not converted below"),
@@ -158,6 +186,7 @@ ASSUMPTIONS = {
     "gross_up": (1.35, "ASSUMPTION: gross / net PPE for a young fleet (about a quarter depreciated)"),
     "maintenance_pct_net_ppe": (0.10, "ASSUMPTION: harvest-case maintenance pres capex as % of opening in-service net PPE; steady-state replacement is 1/life = 16.7%"),
     "ev_ebitda_multiples": ((4.0, 6.0, 8.0), "ASSUMPTION: EV / terminal adj. EBITDA range for a capital-intensive GPU lessor; not market data"),
+    "nc_persistence": (1.0, "ASSUMPTION: share of the Q4-implied non-coupon cost on existing debt (capitalised interest unwinding, fees, amortisation; inferred, not disclosed) that persists after Q4; 1.0 = in full as a spread on existing debt"),
     "owner_cap_rate": (0.12, "ASSUMPTION: capitalisation rate on steady-state owner earnings"),
     "atm_price_normal": (48.73, "Official 10 Nov close, used as issue price"),
     "atm_price_stress": (34.0, "ASSUMPTION: ~30% below 10 Nov close for the stress case"),
@@ -248,7 +277,9 @@ def ladder_repayments() -> dict:
 def opening_state(A):
     debt = O("recourse_debt_cur") + O("recourse_debt_noncur") + O("nonrecourse_debt_cur") + O("nonrecourse_debt_noncur")
     return {
-        "legacy": debt, "ddtl": 0.0, "parent": 0.0,
+        "legacy": debt, "lb": {b: v * debt / INSTRUMENT_PRINCIPAL for b, v in
+                               ((b, sum(c for _, k, c, _ in DEBT_INSTRUMENTS if k == b)) for b in BUCKET_ORDER)},
+        "nc_spread": None, "ddtl": 0.0, "parent": 0.0,
         "op_lease": O("op_lease_liab_cur") + O("op_lease_liab_noncur"),
         "fin_lease": O("fin_lease_liab_cur") + O("fin_lease_liab_noncur"),
         "equity": O("equity"),
@@ -294,17 +325,25 @@ def period_step(A, st, P):
         if P["ddtl_cap"] is not None:
             ddtl_draw = min(ddtl_draw, P["ddtl_cap"])
         parent_draw, parent_rate = P["parent_raise"]
-        leg_close = st["legacy"] - leg_am
+        lb_close, left = dict(st["lb"]), leg_am
+        for b in BUCKET_ORDER:  # secured/OEM debt repays first (ASSUMPTION), then notes, converts, other
+            take = min(lb_close[b], left)
+            lb_close[b] -= take; left -= take
+        leg_close = sum(lb_close.values())
         ddtl_close = st["ddtl"] - ddtl_am + ddtl_draw + oem
         par_close = st["parent"] + parent_draw
         rate_ddtl = a(A, "rate_ddtl_new"); rate_par = a(A, parent_rate)
         other_int = (rate_ddtl * (st["ddtl"] + ddtl_close) / 2 + rate_par * (st["parent"] + par_close) / 2) * yrs
-        if P.get("interest_target") is not None:      # Q4: calibrate the effective legacy rate to the official guide
+        avg_leg = (st["legacy"] + leg_close) / 2
+        brate = bucket_rates()
+        coupon_int = sum(brate[b] * (st["lb"][b] + lb_close[b]) / 2 for b in BUCKET_ORDER) * yrs
+        if P.get("interest_target") is not None:      # Q4: back the non-coupon cost out of the official interest guide
             interest = P["interest_target"]
-            r_leg = (interest - other_int) / (yrs * (st["legacy"] + leg_close) / 2)
+            nc = (interest - other_int - coupon_int) / (yrs * avg_leg)
         else:
-            r_leg = st["r_legacy"]
-            interest = r_leg * yrs * (st["legacy"] + leg_close) / 2 + other_int
+            nc = st["nc_spread"] * a(A, "nc_persistence")
+            interest = coupon_int + nc * yrs * avg_leg + other_int
+        r_leg = (coupon_int + nc * yrs * avg_leg) / (yrs * avg_leg)
         cash_interest = interest * (1 - a(A, "noncash_interest_share"))
         pretax = gaap_oi - interest + a(A, "other_income_annual") * yrs
         tax = a(A, "tax_rate") * max(0.0, pretax)
@@ -333,7 +372,8 @@ def period_step(A, st, P):
         liq_close = st["liquidity"] - from_cash + atm_amt + max(0.0, -gap0)
         ns = dict(st)
         ns.update({
-            "legacy": leg_close, "ddtl": ddtl_close, "parent": par_close,
+            "legacy": leg_close, "lb": lb_close, "ddtl": ddtl_close, "parent": par_close,
+            "nc_spread": nc if P.get("interest_target") is not None else st["nc_spread"],
             "op_lease": st["op_lease"] + P["lease_adds"] - a(A, "amort_rate_lease") * yrs * st["op_lease"],
             "equity": st["equity"] + net_income + sbc + atm_amt - capped,
             "liquidity": liq_close,
@@ -357,7 +397,8 @@ def period_step(A, st, P):
             "debt": debt_close, "debt_like": debt_close + st["fin_lease"], "op_lease": ns["op_lease"],
             "debt_leases": debt_close + st["fin_lease"] + ns["op_lease"],
             "equity": ns["equity"], "shares": ns["shares"], "liquidity": liq_close, "deferred": ns["deferred"],
-            "r_legacy": r_leg, "scale": scale,
+            "r_legacy": r_leg, "coupon_rate_legacy": coupon_int / (yrs * avg_leg), "nc_spread": nc, "coupon_int": coupon_int,
+            "legacy_avg": avg_leg, "scale": scale,
             "cov_ebitda": ebitda / interest, "cov_gaap_oi": gaap_oi / interest,
             "dscr_ex": ocf_ex / (cash_interest + repay),
         }
@@ -408,7 +449,9 @@ def terminal(A, st, m_last):
     dep_t = fleet_cost / a(A, "useful_life_yrs")
     repl = dep_t * (1 - a(A, "residual_value_pct"))
     rate_ddtl = a(A, "rate_ddtl_new")
-    interest_t = st["r_legacy"] * st["legacy"] + rate_ddtl * st["ddtl"] + m_last["parent_rate_used"] * st["parent"]
+    brate = bucket_rates()
+    legacy_int_t = sum(brate[b] * st["lb"][b] for b in BUCKET_ORDER) + st["nc_spread"] * a(A, "nc_persistence") * st["legacy"]
+    interest_t = legacy_int_t + rate_ddtl * st["ddtl"] + m_last["parent_rate_used"] * st["parent"]
     sbc = a(A, "sbc_annual")
     taxable = ebitda_t - dep_t - interest_t - sbc
     tax = a(A, "tax_rate") * max(0.0, taxable)
@@ -484,6 +527,10 @@ def verify_official():
             out.append((f"10-Q facts: {key} {O(key):,}m matches {concept}", ok))
         out.append(("10-Q facts: cover shares Class A 465,847,732", "465847732" in ft))
         out.append(("ladder year1 includes the Q4 remainder", O("ladder_year1") > O("ladder_remainder_fy26")))
+        out.append(("19 instruments sum to the 10-Q total principal 47,505m", INSTRUMENT_PRINCIPAL == O("debt_principal_total")))
+        out.append(("instrument-weighted effective rate rounds to management's 7.9%", abs(INSTRUMENT_WEIGHTED_RATE - O("wacd")) < 0.0005))
+        missing = [n for n, _, c, _ in DEBT_INSTRUMENTS if f"{c * 1_000_000:.1f}" not in ft]
+        out.append(("every instrument principal appears in the 10-Q facts" + (f" (missing: {', '.join(missing)})" if missing else ""), not missing))
     else:
         out.append(("10-Q facts file found (crwv/quarterly/2026_Q3_10q_facts.tsv)", False))
     # strings present in the press release extract
@@ -543,6 +590,7 @@ def sensitivity(A):
     tweak("Useful life 5 / 7 years", "useful_life_yrs", 5.0, 7.0)
     tweak("Residual value 0% / 20%", "residual_value_pct", 0.0, 0.20)
     tweak("New DDTL rate 10.5% / 6.5%", "rate_ddtl_new", 0.105, 0.065)
+    tweak("Non-coupon interest persistence 0% / 100%", "nc_persistence", 0.0, 1.0)
     A2 = copy.deepcopy(A); A2["ev_ebitda_multiples"] = ((4.0, 4.0, 8.0), "s"); lo = val(A2)
     A2["ev_ebitda_multiples"] = ((4.0, 8.0, 8.0), "s"); hi = val(A2)
     rows.append(("EV/EBITDA multiple 4x / 8x", lo[0], hi[0], base_o, base_o))
@@ -632,6 +680,25 @@ def write_output(res, base, st_q4, q4_range, A):
     L.append(table(["Case", "Q4 revenue", "Q4 adj. OI", "Q4 interest", "Adj. OI - interest", "Q4 GAAP OI (model)", "GAAP OI / interest", "Q4 pres capex"], rows))
     L.append(f"*FY less nine months: revenue 13,000-13,300 less {f0(O('m9_revenue'))}; adj. OI 1,275-1,375 less {f0(O('m9_adj_oi'))}; pres capex 37-39bn less 32.1bn (8.2 + 9.4 + 14.5). Low end pairs with the low end of every guide. Q4 GAAP OI = adj. OI - SBC - other adjustments (ASSUMPTION, Q3 bridge). The implied effective rate on existing debt that reproduces the Q4 interest guide is **{q4_rate}**, against management's 7.9% weighted average cost of debt; the gap is lease interest, fees and amortisation, and lower capitalised interest as CIP falls (inference, not disclosed).*\n")
     # scenario tables
+    # interest build
+    brate = bucket_rates()
+    fp2 = lambda x: f"{x*100:.2f}%"
+    L.append("## Existing-debt interest, built from the 10-Q instruments\n")
+    rows = []
+    for b in BUCKET_ORDER:
+        bal = sum(c for _, k, c, _ in DEBT_INSTRUMENTS if k == b)
+        rows.append([b, f0(bal), fp2(brate[b]), f0(bal * brate[b])])
+    rows.append(["Total (19 instruments)", f0(INSTRUMENT_PRINCIPAL), fp2(INSTRUMENT_WEIGHTED_RATE), f0(INSTRUMENT_PRINCIPAL * INSTRUMENT_WEIGHTED_RATE)])
+    L.append(table(["Class (secured = DDTLs, OEM financing, revolver)", "Principal 30 Sep 2026", "Weighted effective rate", "Annual coupon-type interest"], rows))
+    qm = q4_range["mid"]
+    L.append(f"*Principal ties to the 10-Q's $47,505m. Effective rates are the filing's, rounded to whole percent. In Q4 the guide midpoint is {f0(qm['interest'])}m. Coupon-type interest on existing debt explains {f0(qm['coupon_int'])}m of it ({fp2(qm['coupon_rate_legacy'])} on an average {fb(qm['legacy_avg'])}bn). The rest, about {f0(qm['interest'] - qm['coupon_int'])}m, is new-debt interest plus a **non-coupon cost of {fp2(qm['nc_spread'])} a year on existing debt** (about {f0(qm['nc_spread'] * qm['legacy_avg'] * 0.25)}m a quarter). That cost is inferred from the guide: likely capitalised interest unwinding as CIP falls, plus fees and amortisation, but the filing does not say. The model carries it forward at {fp(a(A, 'nc_persistence'))} of the Q4 level (a sensitivity row below).*\n")
+    rows = []
+    for k in ("Q4'26", "FY27", "FY28"):
+        pm = res[n1a]["periods"][k]; yrs_k = 0.25 if k == "Q4'26" else 1.0
+        nc_i = pm["nc_spread"] * yrs_k * pm["legacy_avg"] if k == "Q4'26" else a(A, "nc_persistence") * pm["nc_spread"] * yrs_k * pm["legacy_avg"]
+        rows.append([k, f0(pm["coupon_int"]), fp2(pm["coupon_rate_legacy"]), f0(nc_i), f0(pm["interest"] - pm["coupon_int"] - nc_i), f0(pm["interest"])])
+    L.append("Scenario 1A, interest by source ($m). High-rate DDTLs and OEM debt repay first (ASSUMPTION: the call says contract cash flow pays down the DDTLs, and the notes and converts are named for 2030-33), so the cheap converts and 9-10% notes make up more of what remains:\n")
+    L.append(table(["Period", "Coupon-type, existing debt", "Rate on existing debt", "Non-coupon cost", "New-debt interest", "Total interest"], rows))
     L.append("## Scenarios (all go through to cash after interest, leases, capex)\n")
     L.append("**Where leases enter:** operating lease cost is already inside adj. EBITDA and GAAP OI, so every coverage ratio below is after lease cost. Finance-lease / OEM-financed capex is added to debt and pays interest at the new-asset rate. Operating lease liabilities are added to debt in the leverage lines. Lease additions are ASSUMPTIONS per scenario.\n")
     L.append("Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge from FY27. 2027 'committed backlog only' follows management: capex in line with 2026 and revenue and EBITDA grow significantly; revenue itself is an ASSUMPTION.\n")
@@ -737,7 +804,7 @@ def write_output(res, base, st_q4, q4_range, A):
     # change the answer
     L.append("## What would change the answer\n")
     for s in [
-        "**Q3 10-Q, now partly used**: existing-debt repayments follow its maturity ladder (Q4'26 $2.4bn, FY27 about $9.9bn, FY28 about $5.3bn, assuming even repayment within each 12-month window) and the 2033/2032 convert terms and cover-page shares are in. Still open: the model backs the interest rate out of the Q4 guide (about 9.2%) instead of building it from each instrument's coupon; the 10-Q's weighted effective rate is 7.9%, so the gap of about 1.3 points is non-coupon cost (capitalised interest unwinding, fees, amortisation; an inference). Covenants and the new-DDTL repayment profile are not modelled.",
+        "**Q3 10-Q, now largely used**: repayments of existing debt follow its maturity ladder (Q4'26 $2.4bn, FY27 about $9.9bn, FY28 about $5.3bn, assuming even repayment within each 12-month window), interest on existing debt is built from its 19 instruments' effective rates (7.9% weighted), and the 2033/2032 convert terms and cover-page shares are in. Still open: which instruments the ladder actually repays (modelled secured/OEM first), the roughly 1.4-point non-coupon cost inferred from the Q4 guide and how long it lasts (sensitivity row), covenants, and the repayment profile of new DDTLs.",
         "**Current bond prices and yields**: asset-level loans were said to trade near par; the unsecured 2032 yield (mid-October press report of about 15%, unverified) is used only as a stress rate in scenario 3.",
         "**Converts**: terms are now in the 10-Q ($97.85 and $119.60 conversion prices against a $39.51 share price, so they behave as debt). The 2031 notes' conversion price is not separately tagged and is not modelled.",
         "**Fully diluted share count**: the model now opens at the 556.1m cover-page shares (30 Oct 2026); RSUs, options and ATM take-up are still not in the filing data used.",

@@ -4,18 +4,18 @@
 
 ## Punchline
 
-**Demand printed. Whether anything reaches equity is decided by funding, replacement capex and the multiple a buyer pays, not by the outlook raise. On the hard measures the claim is tight: in the keep-building path debt + leases rise from about 66bn to 118.8bn against 4.6bn of book equity, and each 1x of EV/EBITDA moves equity by about $43 a share (toy count), so equity is a levered option on the multiple.**
+**Demand printed. Whether anything reaches equity is decided by funding, replacement capex and the multiple a buyer pays, not by the outlook raise. On the hard measures the claim is tight: in the keep-building path debt + leases rise from about 66bn to 118.8bn against 4.9bn of book equity, and each 1x of EV/EBITDA moves equity by about $43 a share (toy count), so equity is a levered option on the multiple.**
 
 - **The Q4 guide does not cover its own interest.** FY adj. OI guide ($1.275-1.375bn) less 9M actual $528m implies Q4 adj. OI of about $747-847m (mid 797); Q4 net interest is guided at $1.05-1.15bn (mid 1,100). Adj. OI minus interest in Q4 is **-303** at the midpoint; model GAAP OI is about 625, so GAAP OI / interest is **0.57x**.
-- **Keep building (1A) is funded by lenders, not by operations.** FY27 cash after interest and cash capex excluding prepayments is -26.4bn (-19.5bn with net prepayments), covered by about 33.5bn of new debt-like funding against 5.0bn of undrawn DDTLs today. GAAP OI / interest is 0.90x in FY27 and 1.00x in FY28. At steady state on the exit-2028 run-rate, owner earnings after replacement capex, interest, tax and SBC are -3.9bn.
-- **Harvest (2) turns cash after capex positive by design (4.4bn FY27, 5.8bn FY28 excluding prepayments), but it does not reach equity cleanly.** Against the 10-Q maturity ladder it is short by 0.9bn in FY27 and ~0bn in FY28 of scheduled principal (met from refinancing or the ATM; ATM draws 35.0m shares), prepayments unwind (net -1.5bn in FY27), its maintenance capex of 5.1bn is below steady-state fleet replacement of 10.9bn, and it gives up growth: FY28 revenue 23.0bn vs 35.9bn in 1A. Steady-state owner earnings are -0.3bn.
-- **Funding stress (3)** has no parent unsecured issuance. Capex flexes down to what can be funded: FY27 pres capex 19.3bn of 38.0bn planned and FY28 9.3bn of 38.0bn. The ATM is needed in FY27 (35.0m shares, about 1.2bn at the $34 stress price) and is then exhausted; the FY28 unfunded gap is ~0bn. Toy end-2028 share count 632.1m vs 585.7m in 1A.
+- **Keep building (1A) is funded by lenders, not by operations.** FY27 cash after interest and cash capex excluding prepayments is -26.3bn (-19.4bn with net prepayments), covered by about 33.5bn of new debt-like funding against 5.0bn of undrawn DDTLs today. GAAP OI / interest is 0.92x in FY27 and 1.03x in FY28. At steady state on the exit-2028 run-rate, owner earnings after replacement capex, interest, tax and SBC are -3.7bn.
+- **Harvest (2) turns cash after capex positive by design (4.4bn FY27, 5.9bn FY28 excluding prepayments), but it does not reach equity cleanly.** Against the 10-Q maturity ladder it is short by 0.9bn in FY27 and ~0bn in FY28 of scheduled principal (met from refinancing or the ATM; ATM draws 35.0m shares), prepayments unwind (net -1.5bn in FY27), its maintenance capex of 5.1bn is below steady-state fleet replacement of 10.9bn, and it gives up growth: FY28 revenue 23.0bn vs 35.9bn in 1A. Steady-state owner earnings are ~0bn.
+- **Funding stress (3)** has no parent unsecured issuance. Capex flexes down to what can be funded: FY27 pres capex 19.8bn of 38.0bn planned and FY28 10.0bn of 38.0bn. The ATM is needed in FY27 (35.0m shares, about 1.2bn at the $34 stress price) and is then exhausted; the FY28 unfunded gap is ~0bn. Toy end-2028 share count 632.1m vs 585.7m in 1A.
 - Reference only: 10 Nov close $48.73 x 556.1m shares on the 10-Q cover (30 Oct 2026) = about $27.1bn (basic, not fully diluted). Debt + all leases at 30 Sep were about $66.2bn against $4.0bn of book equity.
 - The residual is a function of a few assumptions that the pack does not give: **(1) useful life and residual GPU value, (2) EV/EBITDA a buyer pays, (3) cash vs presentation capex, (4) how much of the 9.2% implied interest rate is coupon versus capitalised-interest and fee effects.** See sensitivity and the closing list.
 
 ## Checks against the pack
 
-38 of 38 arithmetic/provenance checks passed.
+41 of 41 arithmetic/provenance checks passed.
 
 ## Q4 2026 implied by the official guide
 
@@ -26,6 +26,26 @@
 | High end | 4,986 | 847 | 1,150 | -303 | 675 | 0.59x | 6,900 |
 
 *FY less nine months: revenue 13,000-13,300 less 8,314; adj. OI 1,275-1,375 less 528; pres capex 37-39bn less 32.1bn (8.2 + 9.4 + 14.5). Low end pairs with the low end of every guide. Q4 GAAP OI = adj. OI - SBC - other adjustments (ASSUMPTION, Q3 bridge). The implied effective rate on existing debt that reproduces the Q4 interest guide is **9.2%**, against management's 7.9% weighted average cost of debt; the gap is lease interest, fees and amortisation, and lower capitalised interest as CIP falls (inference, not disclosed).*
+
+## Existing-debt interest, built from the 10-Q instruments
+
+| Class (secured = DDTLs, OEM financing, revolver) | Principal 30 Sep 2026 | Weighted effective rate | Annual coupon-type interest |
+|---|---:|---:|---:|
+| secured | 26,500 | 9.41% | 2,494 |
+| notes | 10,022 | 9.77% | 979 |
+| converts | 10,788 | 2.39% | 258 |
+| other | 195 | 12.00% | 23 |
+| Total (19 instruments) | 47,505 | 7.90% | 3,754 |
+
+*Principal ties to the 10-Q's $47,505m. Effective rates are the filing's, rounded to whole percent. In Q4 the guide midpoint is 1,100m. Coupon-type interest on existing debt explains 897m of it (7.86% on an average 45.7bn). The rest, about 203m, is new-debt interest plus a **non-coupon cost of 1.36% a year on existing debt** (about 156m a quarter). That cost is inferred from the guide: likely capitalised interest unwinding as CIP falls, plus fees and amortisation, but the filing does not say. The model carries it forward at 100% of the Q4 level (a sensitivity row below).*
+
+Scenario 1A, interest by source ($m). High-rate DDTLs and OEM debt repay first (ASSUMPTION: the call says contract cash flow pays down the DDTLs, and the notes and converts are named for 2030-33), so the cheap converts and 9-10% notes make up more of what remains:
+
+| Period | Coupon-type, existing debt | Rate on existing debt | Non-coupon cost | New-debt interest | Total interest |
+|---|---:|---:|---:|---:|---:|
+| Q4'26 | 897 | 7.86% | 156 | 47 | 1,100 |
+| FY27 | 3,009 | 7.62% | 538 | 1,785 | 5,332 |
+| FY28 | 2,294 | 7.19% | 434 | 4,231 | 6,959 |
 
 ## Scenarios (all go through to cash after interest, leases, capex)
 
@@ -45,19 +65,19 @@ Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge
 | D&A | 2,213 | 10,343 | 14,420 |
 | Adj. operating income | 797 | 5,595 | 7,879 |
 | GAAP operating income | 625 | 4,907 | 7,191 |
-| Net interest expense | 1,100 | 5,428 | 7,172 |
-| Net income (toy) | -462 | -469 | 56 |
+| Net interest expense | 1,100 | 5,332 | 6,959 |
+| Net income (toy) | -462 | -373 | 224 |
 | Pres capex (placed in service) | 5,900 | 38,000 | 38,000 |
 | Cash capex | 5,900 | 34,200 | 34,200 |
 |   of which OEM/vendor-financed (added to debt) | 0 | 3,800 | 3,800 |
-| Op. cash flow excl. net prepayments | 265 | 7,848 | 12,573 |
+| Op. cash flow excl. net prepayments | 265 | 7,937 | 12,726 |
 | Net prepayments (receipts less released to revenue) | 7,912 | 6,866 | 4,806 |
-| Op. cash flow incl. prepayments | 8,177 | 14,714 | 17,379 |
-| Cash after interest and capex, excl. prepayments | -5,635 | -26,352 | -21,627 |
-| Cash after interest and capex, incl. prepayments | 2,277 | -19,486 | -16,821 |
-| Adj. EBITDA / interest | 2.73x | 2.93x | 3.10x |
-| GAAP OI / interest | 0.57x | 0.90x | 1.00x |
-| Op. CF ex-prepay / (cash interest + scheduled principal) | 0.08x | 0.49x | 0.65x |
+| Op. cash flow incl. prepayments | 8,177 | 14,802 | 17,532 |
+| Cash after interest and capex, excl. prepayments | -5,635 | -26,263 | -21,474 |
+| Cash after interest and capex, incl. prepayments | 2,277 | -19,398 | -16,668 |
+| Adj. EBITDA / interest | 2.73x | 2.98x | 3.20x |
+| GAAP OI / interest | 0.57x | 0.92x | 1.03x |
+| Op. CF ex-prepay / (cash interest + scheduled principal) | 0.08x | 0.50x | 0.66x |
 
 **Sources and uses** (funding identity: uses = sources + unfunded)
 
@@ -67,10 +87,10 @@ Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge
 | Uses: scheduled debt principal | 2,433 | 10,909 | 12,706 |
 | Uses: capped calls | 0 | 0 | 0 |
 | Uses total | 8,333 | 45,109 | 46,906 |
-| Sources: op. cash flow (incl. net prepayments) | 8,177 | 14,714 | 17,379 |
+| Sources: op. cash flow (incl. net prepayments) | 8,177 | 14,802 | 17,532 |
 | Sources: asset-level debt draws | 4,425 | 25,650 | 25,650 |
 | Sources: parent-level raise | 0 | 4,000 | 2,000 |
-| Sources: cash drawdown to floor | 0 | 745 | 1,877 |
+| Sources: cash drawdown to floor | 0 | 656 | 1,724 |
 | Sources: ATM equity | 0 | 0 | 0 |
 | UNFUNDED gap | 0 | 0 | 0 |
 | Surplus added to cash | 4,269 | 0 | 0 |
@@ -81,14 +101,14 @@ Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge
 | Finance lease liabilities | 649 | 649 | 649 |
 | Operating lease liabilities | 18,530 | 23,868 | 28,015 |
 | Debt + all leases | 68,044 | 95,923 | 118,814 |
-| Book equity (toy roll-forward) | 3,723 | 3,894 | 4,590 |
-| (Debt + leases) / book equity | 18.28x | 24.63x | 25.88x |
+| Book equity (toy roll-forward) | 3,723 | 3,990 | 4,854 |
+| (Debt + leases) / book equity | 18.28x | 24.04x | 24.48x |
 | Share count (m): 559 + SBC + ATM | 559.4 | 572.5 | 585.7 |
 |   ATM shares issued in period (m) | 0.0 | 0.0 | 0.0 |
-| Usable cash + securities | 8,453 | 7,708 | 5,831 |
+| Usable cash + securities | 8,453 | 7,796 | 6,073 |
 | Deferred revenue balance | 17,914 | 24,780 | 29,586 |
 
-**Terminal (steady state at exit-2028 run-rate 41.0bn):** EBITDA 25,432; replacement capex 20,736 (life 6y, residual 10%); interest 7,965; tax 0; SBC 640; **owner earnings -3,909**; (EBITDA - replacement) / interest 0.59x. Equity bridge: EV - debt 90,150 - finance leases 649 + usable cash 5,831 - cost to serve deferred revenue 11,243.
+**Terminal (steady state at exit-2028 run-rate 41.0bn):** EBITDA 25,432; replacement capex 20,736 (life 6y, residual 10%); interest 7,711; tax 0; SBC 640; **owner earnings -3,655**; (EBITDA - replacement) / interest 0.61x. Equity bridge: EV - debt 90,150 - finance leases 649 + usable cash 6,073 - cost to serve deferred revenue 11,243.
 
 ### 1B Keep building (optional growth, higher capex + renewals)
 
@@ -102,19 +122,19 @@ Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge
 | D&A | 2,213 | 11,228 | 16,944 |
 | Adj. operating income | 797 | 6,955 | 12,709 |
 | GAAP operating income | 625 | 6,267 | 12,021 |
-| Net interest expense | 1,100 | 5,873 | 8,419 |
-| Net income (toy) | -462 | 352 | 2,887 |
+| Net interest expense | 1,100 | 5,778 | 8,206 |
+| Net income (toy) | -462 | 428 | 3,055 |
 | Pres capex (placed in service) | 5,900 | 50,000 | 50,000 |
 | Cash capex | 5,900 | 45,000 | 45,000 |
 |   of which OEM/vendor-financed (added to debt) | 0 | 5,000 | 5,000 |
-| Op. cash flow excl. net prepayments | 265 | 7,469 | 15,315 |
+| Op. cash flow excl. net prepayments | 265 | 7,538 | 15,468 |
 | Net prepayments (receipts less released to revenue) | 7,912 | 9,926 | 6,948 |
-| Op. cash flow incl. prepayments | 8,177 | 17,395 | 22,263 |
-| Cash after interest and capex, excl. prepayments | -5,635 | -37,531 | -29,685 |
-| Cash after interest and capex, incl. prepayments | 2,277 | -27,605 | -22,737 |
-| Adj. EBITDA / interest | 2.73x | 3.09x | 3.52x |
-| GAAP OI / interest | 0.57x | 1.07x | 1.43x |
-| Op. CF ex-prepay / (cash interest + scheduled principal) | 0.08x | 0.46x | 0.68x |
+| Op. cash flow incl. prepayments | 8,177 | 17,463 | 22,416 |
+| Cash after interest and capex, excl. prepayments | -5,635 | -37,462 | -29,532 |
+| Cash after interest and capex, incl. prepayments | 2,277 | -27,537 | -22,584 |
+| Adj. EBITDA / interest | 2.73x | 3.14x | 3.61x |
+| GAAP OI / interest | 0.57x | 1.08x | 1.46x |
+| Op. CF ex-prepay / (cash interest + scheduled principal) | 0.08x | 0.46x | 0.69x |
 
 **Sources and uses** (funding identity: uses = sources + unfunded)
 
@@ -124,13 +144,13 @@ Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge
 | Uses: scheduled debt principal | 2,433 | 10,909 | 14,804 |
 | Uses: capped calls | 0 | 0 | 0 |
 | Uses total | 8,333 | 55,909 | 59,804 |
-| Sources: op. cash flow (incl. net prepayments) | 8,177 | 17,395 | 22,263 |
+| Sources: op. cash flow (incl. net prepayments) | 8,177 | 17,463 | 22,416 |
 | Sources: asset-level debt draws | 4,425 | 33,750 | 33,750 |
 | Sources: parent-level raise | 0 | 5,000 | 3,000 |
-| Sources: cash drawdown to floor | 0 | 0 | 791 |
+| Sources: cash drawdown to floor | 0 | 0 | 638 |
 | Sources: ATM equity | 0 | 0 | 0 |
 | UNFUNDED gap | 0 | 0 | 0 |
-| Surplus added to cash | 4,269 | 236 | 0 |
+| Surplus added to cash | 4,269 | 304 | 0 |
 
 | $m | Q4'26 | FY27 | FY28 |
 |---|---:|---:|---:|
@@ -138,14 +158,14 @@ Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge
 | Finance lease liabilities | 649 | 649 | 649 |
 | Operating lease liabilities | 18,530 | 27,868 | 36,872 |
 | Debt + all leases | 68,044 | 110,223 | 146,174 |
-| Book equity (toy roll-forward) | 3,723 | 4,715 | 8,242 |
-| (Debt + leases) / book equity | 18.28x | 23.38x | 17.73x |
+| Book equity (toy roll-forward) | 3,723 | 4,791 | 8,486 |
+| (Debt + leases) / book equity | 18.28x | 23.01x | 17.23x |
 | Share count (m): 559 + SBC + ATM | 559.4 | 572.5 | 585.7 |
 |   ATM shares issued in period (m) | 0.0 | 0.0 | 0.0 |
-| Usable cash + securities | 8,453 | 8,689 | 7,898 |
+| Usable cash + securities | 8,453 | 8,757 | 8,120 |
 | Deferred revenue balance | 17,914 | 27,840 | 34,788 |
 
-**Terminal (steady state at exit-2028 run-rate 57.5bn):** EBITDA 35,650; replacement capex 24,906 (life 6y, residual 10%); interest 9,568; tax 0; SBC 640; **owner earnings 536**; (EBITDA - replacement) / interest 1.12x. Equity bridge: EV - debt 108,652 - finance leases 649 + usable cash 7,898 - cost to serve deferred revenue 13,219.
+**Terminal (steady state at exit-2028 run-rate 57.5bn):** EBITDA 35,650; replacement capex 24,906 (life 6y, residual 10%); interest 9,313; tax 0; SBC 640; **owner earnings 790**; (EBITDA - replacement) / interest 1.15x. Equity bridge: EV - debt 108,652 - finance leases 649 + usable cash 8,120 - cost to serve deferred revenue 13,219.
 
 ### 2 Harvest (capex falls to maintenance)
 
@@ -159,19 +179,19 @@ Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge
 | D&A | 2,213 | 8,605 | 8,819 |
 | Adj. operating income | 797 | 4,931 | 5,496 |
 | GAAP operating income | 625 | 4,243 | 4,808 |
-| Net interest expense | 1,100 | 3,998 | 3,263 |
-| Net income (toy) | -462 | 235 | 1,262 |
+| Net interest expense | 1,100 | 3,903 | 3,050 |
+| Net income (toy) | -462 | 310 | 1,430 |
 | Pres capex (placed in service) | 5,900 | 5,116 | 5,698 |
 | Cash capex | 5,900 | 4,605 | 5,128 |
 |   of which OEM/vendor-financed (added to debt) | 0 | 512 | 570 |
-| Op. cash flow excl. net prepayments | 265 | 8,977 | 10,900 |
+| Op. cash flow excl. net prepayments | 265 | 9,046 | 11,053 |
 | Net prepayments (receipts less released to revenue) | 7,912 | -1,520 | -916 |
-| Op. cash flow incl. prepayments | 8,177 | 7,457 | 9,984 |
-| Cash after interest and capex, excl. prepayments | -5,635 | 4,372 | 5,772 |
-| Cash after interest and capex, incl. prepayments | 2,277 | 2,852 | 4,856 |
-| Adj. EBITDA / interest | 2.73x | 3.37x | 4.37x |
-| GAAP OI / interest | 0.57x | 1.06x | 1.47x |
-| Op. CF ex-prepay / (cash interest + scheduled principal) | 0.08x | 0.61x | 1.18x |
+| Op. cash flow incl. prepayments | 8,177 | 7,526 | 10,137 |
+| Cash after interest and capex, excl. prepayments | -5,635 | 4,441 | 5,925 |
+| Cash after interest and capex, incl. prepayments | 2,277 | 2,921 | 5,009 |
+| Adj. EBITDA / interest | 2.73x | 3.46x | 4.68x |
+| GAAP OI / interest | 0.57x | 1.09x | 1.58x |
+| Op. CF ex-prepay / (cash interest + scheduled principal) | 0.08x | 0.62x | 1.23x |
 
 **Sources and uses** (funding identity: uses = sources + unfunded)
 
@@ -181,12 +201,12 @@ Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge
 | Uses: scheduled debt principal | 2,433 | 10,909 | 6,179 |
 | Uses: capped calls | 0 | 0 | 0 |
 | Uses total | 8,333 | 15,514 | 11,307 |
-| Sources: op. cash flow (incl. net prepayments) | 8,177 | 7,457 | 9,984 |
+| Sources: op. cash flow (incl. net prepayments) | 8,177 | 7,526 | 10,137 |
 | Sources: asset-level debt draws | 4,425 | 0 | 0 |
 | Sources: parent-level raise | 0 | 0 | 0 |
-| Sources: cash drawdown to floor | 0 | 5,453 | 1,323 |
+| Sources: cash drawdown to floor | 0 | 5,453 | 1,170 |
 | Sources: ATM equity | 0 | 1,680 | 0 |
-| UNFUNDED gap | 0 | 923 | 0 |
+| UNFUNDED gap | 0 | 855 | 0 |
 | Surplus added to cash | 4,269 | 0 | 0 |
 
 | $m | Q4'26 | FY27 | FY28 |
@@ -195,14 +215,14 @@ Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge
 | Finance lease liabilities | 649 | 649 | 649 |
 | Operating lease liabilities | 18,530 | 17,868 | 17,230 |
 | Debt + all leases | 68,044 | 56,985 | 50,737 |
-| Book equity (toy roll-forward) | 3,723 | 6,278 | 8,179 |
-| (Debt + leases) / book equity | 18.28x | 9.08x | 6.20x |
+| Book equity (toy roll-forward) | 3,723 | 6,353 | 8,423 |
+| (Debt + leases) / book equity | 18.28x | 8.97x | 6.02x |
 | Share count (m): 559 + SBC + ATM | 559.4 | 607.5 | 620.7 |
 |   ATM shares issued in period (m) | 0.0 | 35.0 | 0.0 |
-| Usable cash + securities | 8,453 | 4,680 | 3,357 |
+| Usable cash + securities | 8,453 | 4,680 | 3,510 |
 | Deferred revenue balance | 17,914 | 16,395 | 15,479 |
 
-**Terminal (steady state at exit-2028 run-rate 23.0bn):** EBITDA 14,267; replacement capex 10,906 (life 6y, residual 10%); interest 3,005; tax 0; SBC 640; **owner earnings -284**; (EBITDA - replacement) / interest 1.12x. Equity bridge: EV - debt 32,858 - finance leases 649 + usable cash 3,357 - cost to serve deferred revenue 5,882.
+**Terminal (steady state at exit-2028 run-rate 23.0bn):** EBITDA 14,267; replacement capex 10,906 (life 6y, residual 10%); interest 2,751; tax 0; SBC 640; **owner earnings -30**; (EBITDA - replacement) / interest 1.22x. Equity bridge: EV - debt 32,858 - finance leases 649 + usable cash 3,510 - cost to serve deferred revenue 5,882.
 
 ### 3 Funding stress (no parent unsecured; capex flexes to funding)
 
@@ -210,36 +230,36 @@ Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge
 
 | $m | Q4'26 | FY27 | FY28 |
 |---|---:|---:|---:|
-| Revenue | 4,836 | 23,111 | 26,980 |
-| Exit run-rate revenue (ARR) | 20,500 | 25,721 | 28,238 |
-| Adj. EBITDA | 2,998 | 14,329 | 16,727 |
-| D&A | 2,213 | 8,968 | 9,758 |
-| Adj. operating income | 797 | 5,409 | 7,017 |
-| GAAP operating income | 625 | 4,721 | 6,329 |
-| Net interest expense | 1,100 | 4,578 | 4,603 |
-| Net income (toy) | -462 | 154 | 1,404 |
-| Pres capex (placed in service) | 5,900 | 19,337 | 9,323 |
-| Cash capex | 5,900 | 17,404 | 8,391 |
-|   of which OEM/vendor-financed (added to debt) | 0 | 1,934 | 932 |
-| Op. cash flow excl. net prepayments | 265 | 8,508 | 11,341 |
-| Net prepayments (receipts less released to revenue) | 7,912 | 2,107 | -1,079 |
-| Op. cash flow incl. prepayments | 8,177 | 10,614 | 10,262 |
-| Cash after interest and capex, excl. prepayments | -5,635 | -8,896 | 2,950 |
-| Cash after interest and capex, incl. prepayments | 2,277 | -6,789 | 1,871 |
-| Adj. EBITDA / interest | 2.73x | 3.13x | 3.63x |
-| GAAP OI / interest | 0.57x | 1.03x | 1.37x |
-| Op. CF ex-prepay / (cash interest + scheduled principal) | 0.08x | 0.56x | 0.88x |
+| Revenue | 4,836 | 23,167 | 27,189 |
+| Exit run-rate revenue (ARR) | 20,500 | 25,833 | 28,545 |
+| Adj. EBITDA | 2,998 | 14,363 | 16,857 |
+| D&A | 2,213 | 8,998 | 9,868 |
+| Adj. operating income | 797 | 5,413 | 7,037 |
+| GAAP operating income | 625 | 4,725 | 6,349 |
+| Net interest expense | 1,100 | 4,493 | 4,427 |
+| Net income (toy) | -462 | 224 | 1,559 |
+| Pres capex (placed in service) | 5,900 | 19,752 | 10,044 |
+| Cash capex | 5,900 | 17,777 | 9,039 |
+|   of which OEM/vendor-financed (added to debt) | 0 | 1,975 | 1,004 |
+| Op. cash flow excl. net prepayments | 265 | 8,570 | 11,536 |
+| Net prepayments (receipts less released to revenue) | 7,912 | 2,213 | -927 |
+| Op. cash flow incl. prepayments | 8,177 | 10,782 | 10,609 |
+| Cash after interest and capex, excl. prepayments | -5,635 | -9,207 | 2,497 |
+| Cash after interest and capex, incl. prepayments | 2,277 | -6,995 | 1,570 |
+| Adj. EBITDA / interest | 2.73x | 3.20x | 3.81x |
+| GAAP OI / interest | 0.57x | 1.05x | 1.43x |
+| Op. CF ex-prepay / (cash interest + scheduled principal) | 0.08x | 0.57x | 0.90x |
 
 **Sources and uses** (funding identity: uses = sources + unfunded)
 
 | $m | Q4'26 | FY27 | FY28 |
 |---|---:|---:|---:|
-| Uses: cash capex | 5,900 | 17,404 | 8,391 |
-| Uses: scheduled debt principal | 2,433 | 10,909 | 8,659 |
+| Uses: cash capex | 5,900 | 17,777 | 9,039 |
+| Uses: scheduled debt principal | 2,433 | 10,909 | 8,715 |
 | Uses: capped calls | 0 | 0 | 0 |
-| Uses total | 8,333 | 28,312 | 17,050 |
-| Sources: op. cash flow (incl. net prepayments) | 8,177 | 10,614 | 10,262 |
-| Sources: asset-level debt draws | 4,425 | 9,572 | 4,615 |
+| Uses total | 8,333 | 28,686 | 17,754 |
+| Sources: op. cash flow (incl. net prepayments) | 8,177 | 10,782 | 10,609 |
+| Sources: asset-level debt draws | 4,425 | 9,777 | 4,972 |
 | Sources: parent-level raise | 0 | 1,500 | 1,000 |
 | Sources: cash drawdown to floor | 0 | 5,453 | 1,172 |
 | Sources: ATM equity | 0 | 1,172 | 0 |
@@ -248,29 +268,29 @@ Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge
 
 | $m | Q4'26 | FY27 | FY28 |
 |---|---:|---:|---:|
-| Debt (recourse + non-recourse + new) | 48,865 | 50,962 | 48,850 |
+| Debt (recourse + non-recourse + new) | 48,865 | 51,209 | 49,470 |
 | Finance lease liabilities | 649 | 649 | 649 |
 | Operating lease liabilities | 18,530 | 20,868 | 22,122 |
-| Debt + all leases | 68,044 | 72,479 | 71,622 |
-| Book equity (toy roll-forward) | 3,723 | 5,689 | 7,734 |
-| (Debt + leases) / book equity | 18.28x | 12.74x | 9.26x |
+| Debt + all leases | 68,044 | 72,726 | 72,242 |
+| Book equity (toy roll-forward) | 3,723 | 5,760 | 7,959 |
+| (Debt + leases) / book equity | 18.28x | 12.63x | 9.08x |
 | Share count (m): 559 + SBC + ATM | 559.4 | 613.2 | 632.1 |
 |   ATM shares issued in period (m) | 0.0 | 35.0 | 0.0 |
 | Usable cash + securities | 8,453 | 4,172 | 3,000 |
-| Deferred revenue balance | 17,914 | 20,021 | 18,942 |
+| Deferred revenue balance | 17,914 | 20,127 | 19,200 |
 
-*Capex flexed to funding: FY27 pres capex delivered 19,337 of 38,000 planned; FY28 9,323 of 38,000.*
+*Capex flexed to funding: FY27 pres capex delivered 19,752 of 38,000 planned; FY28 10,044 of 38,000.*
 
-**Terminal (steady state at exit-2028 run-rate 28.2bn):** EBITDA 17,508; replacement capex 12,373 (life 6y, residual 10%); interest 4,527; tax 0; SBC 640; **owner earnings -32**; (EBITDA - replacement) / interest 1.13x. Equity bridge: EV - debt 48,850 - finance leases 649 + usable cash 3,000 - cost to serve deferred revenue 7,198.
+**Terminal (steady state at exit-2028 run-rate 28.5bn):** EBITDA 17,698; replacement capex 12,574 (life 6y, residual 10%); interest 4,326; tax 0; SBC 640; **owner earnings 158**; (EBITDA - replacement) / interest 1.18x. Equity bridge: EV - debt 49,470 - finance leases 649 + usable cash 3,000 - cost to serve deferred revenue 7,296.
 
 ## Residual to equity (end-2028, toy)
 
 | Scenario | EV/EBITDA 4x: equity $m (per share) | EV/EBITDA 6x: equity $m (per share) | EV/EBITDA 8x: equity $m (per share) | Owner earnings / 12% | Shares (m) |
 |---|---:|---:|---:|---:|---:|
-| 1A Keep building | 5,518 ($9) | 56,383 ($96) | 107,248 ($183) | -32,571 ($-56) | 585.7 |
-| 1B Growth capex | 27,977 ($48) | 99,277 ($170) | 170,577 ($291) | 4,470 ($8) | 585.7 |
-| 2 Harvest | 21,035 ($34) | 49,568 ($80) | 78,102 ($126) | -2,364 ($-4) | 620.7 |
-| 3 Funding stress | 16,334 ($26) | 51,349 ($81) | 86,365 ($137) | -263 ($-0) | 632.1 |
+| 1A Keep building | 5,760 ($10) | 56,625 ($97) | 107,490 ($184) | -30,454 ($-52) | 585.7 |
+| 1B Growth capex | 28,199 ($48) | 99,499 ($170) | 170,799 ($292) | 6,587 ($11) | 585.7 |
+| 2 Harvest | 21,188 ($34) | 49,722 ($80) | 78,255 ($126) | -247 ($-0) | 620.7 |
+| 3 Funding stress | 16,376 ($26) | 51,772 ($82) | 87,168 ($138) | 1,319 ($2) | 632.1 |
 
 *Negative = equity is out of the money under that multiple. Per-share values use the toy share count above (559m + SBC + ATM), not a diluted count. EV/EBITDA multiples and the cap rate are ASSUMPTIONS, not market data. This is a range under stated assumptions, not a price target.*
 
@@ -289,23 +309,24 @@ Q4 2026 is common to all scenarios (official guide, midpoint). Scenarios diverge
 | 1A Keep building | 57.4 | 47.7 | 1.20x | 41.0 | 25.2 |
 | 1B Growth capex | 69.9 | 47.7 | 1.47x | 57.5 | 25.2 |
 | 2 Harvest | 43.8 | 47.7 | 0.92x | 23.0 | 25.2 |
-| 3 Funding stress | 48.2 | 47.7 | 1.01x | 28.2 | 25.2 |
+| 3 Funding stress | 48.4 | 47.7 | 1.01x | 28.5 | 25.2 |
 
 *A ratio above 1.0x means the scenario needs bookings and renewals beyond today's < 24-month backlog. The 25-48 month bucket averages well below the modelled exit run-rate, so the later years depend on renewals and new contracts. Backlog is not a revenue floor.*
 
 ## Sensitivity (scenario 1A; equity per share at 6x EV/EBITDA, and owner earnings)
 
-Base: **$96 per share**, owner earnings -3,909.
+Base: **$97 per share**, owner earnings -3,655.
 
 | Change (low / high) | $/share, first | $/share, second | Owner earnings, first | Owner earnings, second |
 |---|---:|---:|---:|---:|
-| Adj. EBITDA margin 60% / 64% | $85 | $108 | -4,743 | -3,074 |
-| Revenue per $ capex 0.22 / 0.32 | $70 | $122 | -6,265 | -1,553 |
-| Cash capex / pres capex 1.00 / 0.80 | $96 | $96 | -3,765 | -4,052 |
-| Useful life 5 / 7 years | $96 | $96 | -8,056 | -946 |
-| Residual value 0% / 20% | $96 | $96 | -6,213 | -1,605 |
-| New DDTL rate 10.5% / 6.5% | $94 | $98 | -4,978 | -2,839 |
-| EV/EBITDA multiple 4x / 8x | $9 | $183 | -3,909 | -3,909 |
+| Adj. EBITDA margin 60% / 64% | $85 | $108 | -4,489 | -2,820 |
+| Revenue per $ capex 0.22 / 0.32 | $71 | $122 | -6,011 | -1,299 |
+| Cash capex / pres capex 1.00 / 0.80 | $97 | $96 | -3,511 | -3,798 |
+| Useful life 5 / 7 years | $97 | $97 | -7,802 | -692 |
+| Residual value 0% / 20% | $97 | $97 | -5,959 | -1,351 |
+| New DDTL rate 10.5% / 6.5% | $95 | $98 | -4,724 | -2,585 |
+| Non-coupon interest persistence 0% / 100% | $98 | $97 | -3,256 | -3,655 |
+| EV/EBITDA multiple 4x / 8x | $10 | $184 | -3,655 | -3,655 |
 
 ## Dilution (10-Q terms)
 
@@ -320,7 +341,7 @@ Base: **$96 per share**, owner earnings -3,909.
 | Toy count end-2028, scenario 1A | 585.7 | 556.1 + SBC $/price + ATM drawn |
 | Toy count end-2028, scenario 3 | 632.1 | stress price $34 for ATM |
 
-*If both the 2032 and 2033 converts were converted instead of repaid (1A at 6x): equity $64,583m over 662.0m shares = $98 per share, against $96 with the notes as debt. Arithmetic only: conversion needs the stock above $97.85 and $119.60.*
+*If both the 2032 and 2033 converts were converted instead of repaid (1A at 6x): equity $64,825m over 662.0m shares = $98 per share, against $97 with the notes as debt. Arithmetic only: conversion needs the stock above $97.85 and $119.60.*
 
 ## Inputs
 
@@ -425,7 +446,7 @@ Base: **$96 per share**, owner earnings -3,909.
 | ladder_year3 | 4727 | 10-Q (acc. 0001769628-26-000465, crwv/quarterly/2026_Q3_10q_facts.tsv): ...InYearThree |
 | ladder_year4 | 4247 | 10-Q (acc. 0001769628-26-000465, crwv/quarterly/2026_Q3_10q_facts.tsv): ...InYearFour |
 | debt_principal_total | 47505 | 10-Q (acc. 0001769628-26-000465, crwv/quarterly/2026_Q3_10q_facts.tsv): DebtInstrumentCarryingAmount, total principal |
-| instrument_weighted_effective_rate | 0.0793 | 10-Q (acc. 0001769628-26-000465, crwv/quarterly/2026_Q3_10q_facts.tsv): carrying-amount weighted effective rate across 18 instruments ($46,305m); the filing rounds each rate to whole percent. Confirms the call's 7.9% |
+| instrument_weighted_effective_rate | 0.07902852331333544 | 10-Q (acc. 0001769628-26-000465, crwv/quarterly/2026_Q3_10q_facts.tsv): principal-weighted effective rate across the 19 instruments in DEBT_INSTRUMENTS ($47,505m); the filing rounds each rate to whole percent. Confirms the call's 7.9% |
 | convert_2033 | (4200, 97.85, 199.7) | 10-Q (acc. 0001769628-26-000465, crwv/quarterly/2026_Q3_10q_facts.tsv): 2033 convertible senior notes $4.2bn, 2.875% stated, conversion price $97.85, capped-call cap $199.70 |
 | convert_2032 | (4000, 119.6, 230.0) | 10-Q (acc. 0001769628-26-000465, crwv/quarterly/2026_Q3_10q_facts.tsv): 2032 convertible senior notes $4.0bn, 1.75% stated, conversion price $119.60, cap $230.00 |
 | convert_2031_carrying | 2588 | 10-Q (acc. 0001769628-26-000465, crwv/quarterly/2026_Q3_10q_facts.tsv): 2031 convertible senior notes carrying $2,588m, ~2% effective; conversion price not separately tagged, so not converted below |
@@ -467,6 +488,7 @@ Base: **$96 per share**, owner earnings -3,909.
 | gross_up | 1.35 | ASSUMPTION: gross / net PPE for a young fleet (about a quarter depreciated) |
 | maintenance_pct_net_ppe | 0.1 | ASSUMPTION: harvest-case maintenance pres capex as % of opening in-service net PPE; steady-state replacement is 1/life = 16.7% |
 | ev_ebitda_multiples | (4.0, 6.0, 8.0) | ASSUMPTION: EV / terminal adj. EBITDA range for a capital-intensive GPU lessor; not market data |
+| nc_persistence | 1 | ASSUMPTION: share of the Q4-implied non-coupon cost on existing debt (capitalised interest unwinding, fees, amortisation; inferred, not disclosed) that persists after Q4; 1.0 = in full as a spread on existing debt |
 | owner_cap_rate | 0.12 | ASSUMPTION: capitalisation rate on steady-state owner earnings |
 | atm_price_normal | 48.73 | Official 10 Nov close, used as issue price |
 | atm_price_stress | 34 | ASSUMPTION: ~30% below 10 Nov close for the stress case |
@@ -482,7 +504,7 @@ Base: **$96 per share**, owner earnings -3,909.
 
 ## What would change the answer
 
-- **Q3 10-Q, now partly used**: existing-debt repayments follow its maturity ladder (Q4'26 $2.4bn, FY27 about $9.9bn, FY28 about $5.3bn, assuming even repayment within each 12-month window) and the 2033/2032 convert terms and cover-page shares are in. Still open: the model backs the interest rate out of the Q4 guide (about 9.2%) instead of building it from each instrument's coupon; the 10-Q's weighted effective rate is 7.9%, so the gap of about 1.3 points is non-coupon cost (capitalised interest unwinding, fees, amortisation; an inference). Covenants and the new-DDTL repayment profile are not modelled.
+- **Q3 10-Q, now largely used**: repayments of existing debt follow its maturity ladder (Q4'26 $2.4bn, FY27 about $9.9bn, FY28 about $5.3bn, assuming even repayment within each 12-month window), interest on existing debt is built from its 19 instruments' effective rates (7.9% weighted), and the 2033/2032 convert terms and cover-page shares are in. Still open: which instruments the ladder actually repays (modelled secured/OEM first), the roughly 1.4-point non-coupon cost inferred from the Q4 guide and how long it lasts (sensitivity row), covenants, and the repayment profile of new DDTLs.
 - **Current bond prices and yields**: asset-level loans were said to trade near par; the unsecured 2032 yield (mid-October press report of about 15%, unverified) is used only as a stress rate in scenario 3.
 - **Converts**: terms are now in the 10-Q ($97.85 and $119.60 conversion prices against a $39.51 share price, so they behave as debt). The 2031 notes' conversion price is not separately tagged and is not modelled.
 - **Fully diluted share count**: the model now opens at the 556.1m cover-page shares (30 Oct 2026); RSUs, options and ATM take-up are still not in the filing data used.
