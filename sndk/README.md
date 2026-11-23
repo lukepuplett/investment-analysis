@@ -1,6 +1,6 @@
 # Sandisk (SNDK) — first-pass coverage
 
-**Status:** watchlist, new coverage started 23 Nov 2026. Not held. First pass from the FY2026 Form 10-K and the latest Form 10-Q only. The seven required analysis documents, the revenue-driver section and a monitoring schedule are **not written yet** (see "Still to do"). Nothing here is a recommendation. Sister page: [../mu/README.md](../mu/README.md) (Micron).
+**Status:** watchlist, new coverage started 23 Nov 2026. Not held. First pass from the FY2026 Form 10-K and the latest Form 10-Q only. The seven required analysis documents, the revenue-driver section and a monitoring schedule are **not written yet** (see "Still to do"). Nothing here is a recommendation. Side-by-side scoring against Micron, Moderna and Lilly: [value scoring of Micron, SanDisk, Moderna and Lilly](../consolidated/2026_11_23_value_scoring_mu_sndk_mrna_lly.md). Sister page: [../mu/README.md](../mu/README.md) (Micron).
 
 **Sources** (all in [quarterly/](quarterly/), made by `scripts/edgar_snapshot.py`):
 - Form 10-Q for the quarter ended 2 Oct 2026 (first quarter of FY2027), filed 30 Oct 2026, accession 0001628280-26-068601: [2027_Q1_10q.htm](quarterly/2027_Q1_10q.htm), with facts and ratio inputs
@@ -69,6 +69,8 @@ The 10-Q says holders of record on 9 Nov receive seven additional shares per sha
 | 52-week closing range | $24.30 (3 Dec 2025) to $291.88 (25 Jun 2026) |
 | Recent moves | about –6% 1 week, –39% 1 month, –49% 3 months, +220% year to date |
 | Off the 52-week high | about –67% |
+
+*Price update, 23 Nov 2026 close: **$90.49** (Friday 20 Nov closed at $79.24, a fall of 16.1%, and Monday rebounded 14.2%). Market cap about $103bn to $112bn, P/E 5.3x to 5.7x, P/S 3.6x to 3.9x, and about 3.2x to 3.4x on the latest quarter annualised. The table above used an earlier intraday price on the same day.*
 
 ## Debt and obligations check (10-Q for the quarter to 2 Oct 2026)
 

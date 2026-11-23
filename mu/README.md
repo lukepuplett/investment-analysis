@@ -1,6 +1,6 @@
 # Micron Technology (MU) — first-pass coverage
 
-**Status:** watchlist, new coverage started 23 Nov 2026. Not held. First pass from the FY2026 Form 10-K only; the seven required analysis documents, the revenue-driver section and a monitoring schedule are **not written yet** (see "Still to do"). Nothing here is a recommendation.
+**Status:** watchlist, new coverage started 23 Nov 2026. Not held. First pass from the FY2026 Form 10-K only; the seven required analysis documents, the revenue-driver section and a monitoring schedule are **not written yet** (see "Still to do"). Nothing here is a recommendation. Side-by-side scoring against SanDisk, Moderna and Lilly: [value scoring of Micron, SanDisk, Moderna and Lilly](../consolidated/2026_11_23_value_scoring_mu_sndk_mrna_lly.md).
 
 **Source:** Form 10-K for the fiscal year ended 3 Sep 2026, filed 9 Oct 2026, accession 0000723125-26-000023, saved as [quarterly/2026_FY_10k.htm](quarterly/2026_FY_10k.htm) with [facts](quarterly/2026_FY_10k_facts.tsv) and [ratio inputs](quarterly/2026_FY_10k_ratio_inputs.json) (made by `scripts/edgar_snapshot.py`). Prices are Yahoo closes on 23 Nov 2026.
 
@@ -53,6 +53,8 @@
 | 52-week range | $223.93 (24 Nov 2025) to $1,213.56 (25 Jun 2026) |
 | Recent moves | −0.8% 1 week, −18.7% 1 month, −21.6% 3 months, +150% year to date |
 | Off 52-week high | −41.2% |
+
+*Price update, 23 Nov 2026 close: **$705.50** (Friday 20 Nov closed at $594.51, a fall of 13.9%, and Monday rebounded 18.7%). Market cap about $798bn to $806bn, P/E 9.4x to 9.5x, P/S about 6.0x, enterprise value to operating income about 7.4x. The table above used an earlier intraday price on the same day.*
 
 ## Where the revenue comes from (FY2026)
 
