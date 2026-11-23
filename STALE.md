@@ -1,6 +1,6 @@
 # Data Staleness Table
 
-**Last updated: 2026-11-11**
+**Last updated: 2026-11-23**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
@@ -13,12 +13,12 @@ Sorted most stale → most current as of the last-updated date above.
 |--------|---------|-------|------------------------|------------|-----------|
 | **NVDA** | NVIDIA | Yes | FY2027 Q2 (7/26/2026) | `nvda/quarterly/2026_Q2_summary.txt` / `2026_Q2_10q.htm` | ✅ Fresh — first-pass Oct 2026; Q2 rev $96.2B; Q3 guide $108B; next print ~Nov 18, 2026 |
 | **AVGO** | Broadcom | Yes | FY2026 Q3 (8/2/2026) | `avgo/quarterly/2026_Q3_summary.txt` / `2026_Q3_10q.htm` | ✅ Fresh — first-pass Sep 2026; Q3 record revenue/FCF; AI semi $16.7B |
-| **MRNA** | Moderna | No (watchlist / interest) | Q2 2026 (6/30/2026) | `mrna/quarterly/2026_Q2_summary.txt` | ✅ Fresh — first-pass Sep 2026; Ph3 INT melanoma Aug 19; **Q3 print expected ~6 Nov 2026** (FMP calendar; no Item 2.02 as of 5 Nov morning) |
-| **LASE** | Laser Photonics | No (watchlist) | Q2 2026 (6/30/2026) | `financials/2026_09/income_statement.md`; `lase/analysis/2026_11_pre_q3_update.md` (Oct 8-Ks) | Recent — Q3 not yet printed; **confirmed 12 Nov 2026 BMO**; Oct: founder Nikitin Exec Chair, CFO permanent, Nasdaq $1 bid notice (cure by 19 Apr 2027) |
+| **MRNA** | Moderna | No (watchlist / interest) | Q3 2026 (9/30/2026) | `analysis/2026_11_q3_delta_analysis.md`; 8-K 6 Nov | ✅ Fresh — Q3 rev $1.3B (+29%); FY26 growth guide 15–25%; YE cash $8.1–8.3B; INT Ph3 at ESMO |
+| **LASE** | Laser Photonics | No (watchlist) | Q3 2026 (9/30/2026) | `analysis/2026_11_q3_delta_analysis.md`; 10-Q 12 Nov | ✅ Fresh — Q3 GM −39.2% vs 18% target; going concern; Nasdaq bid deadline 19 Apr 2027; AVOID unchanged |
 | **RYCEY** | Rolls-Royce | Yes | H1 2026 (30 Jul 2026) | `quarterly/2026_H1_results.txt` | ✅ Fresh — H1 2026 results; FY26 guidance raised |
 | **MSFT** | Microsoft | Yes | FY2027 Q1 (9/30/2026) | `msft/analysis/2026_10_delta_analysis.md` (8-K; 10-Q not yet reconciled) | ✅ Fresh — FY27 Q1 printed 28 Oct 2026 |
 | **MNTN** | MNTN | No (watchlist) | 2025 Q2 | `2025_Q2_presentation.md` | ⚠️ Very stale |
-| **SPCE** | Virgin Galactic | Yes | Q2 2026 (6/30/2026) | `quarterly/2026_Q2_summary.txt` | ✅ Fresh — Q2 2026 data; going concern, $286M cash |
+| **SPCE** | Virgin Galactic | Yes | Q3 2026 (9/30/2026) | `analysis/2026_11_q3_delta_analysis.md`; `quarterly/2026_Q3_figures.md` | ✅ Fresh — liquidity $184M; Q4 FCF guide −$80–90M; $250M ATM filed 12 Nov; going concern |
 | **DUK** | Duke Energy | No (watchlist) | 2025 Q2 | `2025_Q2_transcript.txt` | ⚠️ Very stale |
 | **FLR** | Fluor | — | 2025 Q2 | `2025_Q2_presentation.txt` | ⚠️ Very stale |
 | **CAT** | Caterpillar | No (watchlist) | 2025 Q2 | `2025_Q2_financial_review_presentation.md` | ⚠️ Very stale |
@@ -41,22 +41,23 @@ Sorted most stale → most current as of the last-updated date above.
 | **HOOD** | Robinhood | Yes | Q3 2026 (9/30/2026) | `hood/2026_10_27_q3_2026_results.md` | ✅ Fresh — Q3 note already filed (SHA 0d4cb79 cluster); next LASE-related watch is separate |
 | **IBM** | IBM | — | 2026 Q1 | `2026_Q1_earnings_call.txt` | Recent |
 | **PLAB** | Photronics | — | FY2026 Q1 | `2026_Q1_earnings_call_transcript.txt` | Recent |
-| **RKLB** | Rocket Lab | Yes | Q2 2026 (6/30/2026) | `quarterly/2026_Q2_summary.txt` / `financials/2026_06/` | ✅ Fresh — Q2 2026 + Sep Iridium financing / Electron ops |
+| **RKLB** | Rocket Lab | Yes | Q3 2026 (9/30/2026) | `analysis/2026_11_q3_delta_analysis.md`; 8-K 9 Nov | ✅ Fresh — Q3 rev $267.8M (+73%); backlog $3.57B; Q4 guide $270–290M; Neutron NET 2027 |
 | **TT** | Trane Technologies | Yes | Q3 2026 (9/30/2026) | `tt/analysis/2026_10_delta_analysis.md` (8-K Ex 99.1; 10-Q filed 29 Oct, not yet reconciled) | ✅ Fresh — Q3 printed 29 Oct 2026; backlog $12.5B; FY rev guide raised |
 | **NET** | Cloudflare (`cloudflare/`) | Yes | Q3 2026 (9/30/2026) | `cloudflare/analysis/2026_11_delta_analysis.md` (8-K Ex 99.1; 10-Q filed 5 Nov, not yet reconciled) | ✅ Fresh — Q3 printed 5 Nov 2026; rev $782.5M (+39%); Current RPO +37% y/y; FY26 rev guide ~$2.963B |
-| **AMAT** | Applied Materials | Yes | FY2026 Q2 | `2026_Q2_press_release.txt` | Fresh |
+| **AMAT** | Applied Materials | Yes | FY2026 Q4 (10/25/2026) | `analysis/2026_11_q4_fy26_delta_analysis.md`; `quarterly/2026_Q4_figures.md` | ✅ Fresh — Q4 rev $10.41B (+53%); Q1 guide $11.1B; Besi stake to ~20% |
 | **GLW** | Corning | Yes | Q3 2026 (9/30/2026) | `glw/analysis/2026_10_delta_analysis.md` (8-K Ex 99; 10-Q filed 29 Oct, not yet reconciled) | ✅ Fresh — Q3 printed 27 Oct 2026; core sales +19% |
-| **KLIC** | Kulicke & Soffa | Yes | FY2026 Q3 (7/4/2026) | `quarterly/2026_Q3_10q.htm` / `financials/2026_10/` | ✅ Fresh — Q3 beat; Q4 guide $375M; next print est. Nov 17–18, 2026 |
+| **KLIC** | Kulicke & Soffa | Yes | FY2026 Q4 (10/3/2026) | `analysis/2026_11_q4_fy26_delta_analysis.md`; 8-K 18 Nov, 10-K 19 Nov | ✅ Fresh — Q4 rev $410.3M vs $375M guide; Q1 FY27 guide $410M; backlog $720M; next print ~Feb 2027 |
 | **PH** | Parker-Hannifin | Yes | FY2027 Q1 (9/30/2026) | `ph/analysis/2026_11_delta_analysis.md` (8-K Ex 99.1; 10-Q filed 5 Nov, not yet reconciled) | ✅ Fresh — Q1 FY27 printed 5 Nov 2026; net sales $5.99B; organic +11.5%; backlog record $13.7B; adj EPS guide raised to $36.45–37.25 |
 | **INTC** | Intel | Yes | Q3 2026 (ended 9/26/26) | `intc/analysis/2026_10_delta_analysis.md` (8-K Ex 99.1; 10-Q not yet reconciled) | ✅ Fresh — Q3 printed 29 Oct 2026; DCAI +78% |
 | **GOOG** | Alphabet | Yes | Q3 2026 (ended 9/30/26) | `goog/analysis/2026_10_delta_analysis.md` (8-K; 10-Q not yet reconciled) | Fresh — Q3 printed 28 Oct 2026 |
 | **TSLA** | Tesla | Yes | Q3 2026 (ended 9/30/26) | `tsla/analysis/2026_10_delta_analysis.md` (8-K deck + 10-Q filed 2026-10-22) / `financials/2026_06/` | Fresh (Q3 financials folder not yet pulled) |
-| **CSCO** | Cisco | Yes | FY2026 Q4 (ended ~Jul 2026) | `2026_Q4_press_release.htm` | Fresh — most recent fiscal quarter closed |
+| **CSCO** | Cisco | Yes | FY2027 Q1 (10/24/2026) | `analysis/2026_11_q1_fy27_delta_analysis.md`; `quarterly/2027_Q1_figures.md` | ✅ Fresh — Q1 rev $18.5B (+24%); FY27 guide raised to $74.8–75.8B; AI $9B hyperscaler |
 | **GTLB** | GitLab | Yes | FY2026 Q4 (~Jan 2026 FYE) | `2026_Q4_earnings_call.txt` | Fresh |
 | **SMCI** | Super Micro Computer | Yes | FY2027 / Q1 (to 30 Sep 2026) | 8-K Ex. 99.1 (3 Nov, prelim); `analysis/2026_11_04_Q1FY27_delta.md` | ✅ Fresh — Q1 FY27 delta 2026-11-04 (10-Q not yet reconciled) |
 
 ## Notes
 
+- **2026-11-23:** Post-print delta notes filed for KLIC (FQ4 FY26, 18 Nov), MRNA (Q3, 6 Nov), LASE (Q3 10-Q, 12 Nov), RKLB (Q3, 9 Nov), AMAT (FQ4 FY26, 12 Nov), CSCO (FQ1 FY27, 12 Nov) and SPCE (Q3, 12 Nov), all as `analysis/2026_11_*_delta_analysis.md`. Light notes from 8-K/10-Q/press release; no call transcripts reviewed.
 - **2026-11-11 (evening UK):** **ENR.DE** FY2026 / Q4 FY26 printed 11 Nov 07:00 CET. Official pack filed in `enr.de/quarterly/2026_Q4_*` (earnings release, analyst presentation, company-compiled consensus, 30 Sep pre-close transcript) plus the Q1–Q3 FY26 earnings releases the repo was missing. Notes: `enr.de/analysis/2026_11_q4_fy26_results_summary.md`, `enr.de/analysis/2026_11_delta_analysis.md`. Record year; FY27 net income guide (~€5bn) below the pre-results consensus (€5.53bn); Q4 firm Gas orders only ~2 GW. No analyst-call transcript on IR yet; Annual Report 2026 not yet out. README and the `2026_05_*` thesis/valuation carry pointer banners only, and a rewrite is recommended.
 - **2026-11-06:** **PH** FY27 Q1 and **NET** Q3 printed **5 Nov 2026** (8-Ks: PH accession 0000076334-26-000170 Ex 99.1; NET 0001477333-26-000060 Ex 99.1). Delta notes: `ph/analysis/2026_11_delta_analysis.md`, `cloudflare/analysis/2026_11_delta_analysis.md`. Form 10-Qs filed same day (**0000076334-26-000172**, **0001477333-26-000061**) — **not reconciled** in those notes. **MRNA** Q3 print watch unchanged (~6 Nov). **LASE** still 12 Nov BMO.
 - **2026-11-05 (morning UK):** **DDOG** Q3 printed 4 Nov (8-K accession 0001628280-26-069792): rev $1.197B (+35%), non-GAAP OI $334M (28% margin), non-GAAP EPS $0.81; Q4 rev guide $1.19–1.20B (~flat sequential) → stock −14.4% to $188.72. Note: `ddog/analysis/2026_11_delta_analysis.md`. **PH** (FY27 Q1, BMO / call ~16:00 UK) and **NET** (Q3 after close) — no Item 2.02 yet as of ~09:45 UK (both filed later 5 Nov; see **2026-11-06** line). **MRNA** Q3 still expected ~**6 Nov** (FMP; no 8-K). **LASE** still 12 Nov BMO.
