@@ -1,0 +1,241 @@
+{
+  "ticker": "CAT",
+  "company": "CATERPILLAR INC",
+  "cik": 18230,
+  "form": "10-Q",
+  "period_end": "2026-09-30",
+  "fiscal_label": "2026_Q3",
+  "accession": "0000018230-26-000057",
+  "filed": "2026-11-04",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/cat-20260930.htm",
+  "taxonomy": "us-gaap",
+  "currency": "USD",
+  "basis": "TTM to 2026-09-30",
+  "ttm_revenue": {
+    "tag": "Revenues",
+    "value": 77773000000,
+    "unit": "USD",
+    "method": "FY(prior) + YTD(current) - YTD(prior year)",
+    "rows": [
+      {
+        "start": "2026-01-01",
+        "end": "2026-09-30",
+        "val": 58640000000,
+        "accn": "0000018230-26-000057",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "tag": "Revenues"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 67589000000,
+        "accn": "0000018230-26-000013",
+        "fy": null,
+        "fp": null,
+        "form": "8-K",
+        "filed": "2026-03-26",
+        "frame": "CY2025",
+        "tag": "Revenues"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-09-30",
+        "val": 48456000000,
+        "accn": "0000018230-26-000057",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "tag": "Revenues"
+      }
+    ]
+  },
+  "ttm_net_income": {
+    "tag": "ProfitLoss",
+    "value": 11828000000,
+    "unit": "USD",
+    "method": "FY(prior) + YTD(current) - YTD(prior year)",
+    "rows": [
+      {
+        "start": "2026-01-01",
+        "end": "2026-09-30",
+        "val": 9427000000,
+        "accn": "0000018230-26-000057",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "tag": "ProfitLoss"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 8882000000,
+        "accn": "0000018230-26-000008",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-13",
+        "frame": "CY2025",
+        "tag": "ProfitLoss"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-09-30",
+        "val": 6481000000,
+        "accn": "0000018230-26-000057",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "tag": "ProfitLoss"
+      }
+    ]
+  },
+  "cover_shares": {
+    "as_of": "2026-09-30",
+    "basis": "cover page",
+    "by_class": {
+      "(single class)": 457594174.0
+    },
+    "total": 457594174.0
+  },
+  "diluted_weighted_shares": {
+    "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "value": 460900000,
+    "start": "2026-07-01",
+    "end": "2026-09-30",
+    "accn": "0000018230-26-000057"
+  },
+  "cash": {
+    "tag": "CashAndCashEquivalentsAtCarryingValue",
+    "value": 7929000000,
+    "unit": "USD",
+    "filed": "2026-11-04",
+    "accn": "0000018230-26-000057"
+  },
+  "equity": {
+    "tag": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+    "value": 21482000000,
+    "unit": "USD",
+    "filed": "2026-11-04",
+    "accn": "0000018230-26-000057"
+  },
+  "debt_candidates_review_balance_sheet": [
+    {
+      "concept": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
+      "value": 4102000000.0
+    },
+    {
+      "concept": "AvailableForSaleSecuritiesDebtMaturitiesAfterFiveThroughTenYearsAmortizedCost",
+      "value": 475000000.0
+    },
+    {
+      "concept": "AvailableForSaleSecuritiesDebtMaturitiesAfterFiveThroughTenYearsFairValue",
+      "value": 454000000.0
+    },
+    {
+      "concept": "AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsAmortizedCost",
+      "value": 1717000000.0
+    },
+    {
+      "concept": "AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue",
+      "value": 1690000000.0
+    },
+    {
+      "concept": "AvailableForSaleSecuritiesDebtMaturitiesAfterTenYearsAmortizedCost",
+      "value": 199000000.0
+    },
+    {
+      "concept": "AvailableForSaleSecuritiesDebtMaturitiesAfterTenYearsFairValue",
+      "value": 197000000.0
+    },
+    {
+      "concept": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearAmortizedCost",
+      "value": 918000000.0
+    },
+    {
+      "concept": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue",
+      "value": 916000000.0
+    },
+    {
+      "concept": "AvailableForSaleSecuritiesDebtSecurities",
+      "value": 3994000000.0
+    },
+    {
+      "concept": "DebtSecuritiesAvailableForSaleAccumulatedGrossUnrealizedGainLossBeforeTax",
+      "value": -108000000.0
+    },
+    {
+      "concept": "DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger",
+      "value": 825000000.0
+    },
+    {
+      "concept": "DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLongerAccumulatedLoss",
+      "value": 52000000.0
+    },
+    {
+      "concept": "DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months",
+      "value": 2715000000.0
+    },
+    {
+      "concept": "DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12MonthsAccumulatedLoss",
+      "value": 60000000.0
+    },
+    {
+      "concept": "DebtSecuritiesAvailableForSaleUnrealizedLossPosition",
+      "value": 3540000000.0
+    },
+    {
+      "concept": "DebtSecuritiesAvailableForSaleUnrealizedLossPositionAccumulatedLoss",
+      "value": 112000000.0
+    },
+    {
+      "concept": "NotesAndLoansReceivableNetCurrent",
+      "value": 11051000000.0
+    },
+    {
+      "concept": "NotesAndLoansReceivableNetNoncurrent",
+      "value": 14402000000.0
+    },
+    {
+      "concept": "NotesReceivableGross",
+      "value": 25731000000.0
+    }
+  ],
+  "notes": [
+    "Debt tags vary by company: confirm debt and lease balances on the balance sheet before computing EV.",
+    "Values from companyfacts are deduplicated by period, latest filing wins (later filings re-round)."
+  ],
+  "snapshot_taken": "2026-11-23T19:31Z",
+  "price": {
+    "price": 547.0050048828125,
+    "date": "2026-11-23",
+    "source": "Yahoo Finance chart API, last regular close (split-adjusted)",
+    "currency": "USD",
+    "splits": []
+  },
+  "split_adjustment": {
+    "splits_found": [],
+    "factor_cover_shares": 1.0,
+    "factor_diluted_shares": 1.0,
+    "note": "Share counts in the filing are as of the cover date / filing date; shares are scaled by splits dated after those so they match the split-adjusted price."
+  },
+  "ratios": {
+    "cover_total": {
+      "shares": 457594174.0,
+      "market_cap": 250306303383.21655,
+      "price_to_sales": 3.218421603682725,
+      "price_to_earnings": 21.162183241732883
+    },
+    "diluted_weighted": {
+      "shares": 460900000.0,
+      "market_cap": 252114606750.48828,
+      "price_to_sales": 3.2416726466831456,
+      "price_to_earnings": 21.31506651593577
+    }
+  }
+}
