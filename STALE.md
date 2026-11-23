@@ -14,6 +14,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **NVDA** | NVIDIA | Yes | FY2027 Q2 (7/26/2026) | `nvda/quarterly/2026_Q2_summary.txt` / `2026_Q2_10q.htm` | ✅ Fresh — first-pass Oct 2026; Q2 rev $96.2B; Q3 guide $108B; next print ~Nov 18, 2026 |
 | **AVGO** | Broadcom | Yes | FY2026 Q3 (8/2/2026) | `avgo/quarterly/2026_Q3_summary.txt` / `2026_Q3_10q.htm` | ✅ Fresh — first-pass Sep 2026; Q3 record revenue/FCF; AI semi $16.7B |
 | **MRNA** | Moderna | No (watchlist / interest) | Q3 2026 (9/30/2026) | `analysis/2026_11_q3_delta_analysis.md`; 8-K 6 Nov | ✅ Fresh — Q3 rev $1.3B (+29%); FY26 growth guide 15–25%; YE cash $8.1–8.3B; INT Ph3 at ESMO |
+| **MU** | Micron | No (watchlist / interest) | FY2026 (9/3/2026) | `mu/quarterly/2026_FY_10k.htm` (+ facts TSV and ratio inputs) | ✅ Fresh — first pass 23 Nov 2026; FY26 rev $133.2B, net income $85.0B, P/E ~9.5; next print FQ1 FY27 (date not checked) |
 | **LASE** | Laser Photonics | No (watchlist) | Q3 2026 (9/30/2026) | `analysis/2026_11_q3_delta_analysis.md`; 10-Q 12 Nov | ✅ Fresh — Q3 GM −39.2% vs 18% target; going concern; Nasdaq bid deadline 19 Apr 2027; AVOID unchanged |
 | **RYCEY** | Rolls-Royce | Yes | H1 2026 (30 Jul 2026) | `quarterly/2026_H1_results.txt` | ✅ Fresh — H1 2026 results; FY26 guidance raised |
 | **MSFT** | Microsoft | Yes | FY2027 Q1 (9/30/2026) | `msft/analysis/2026_10_delta_analysis.md` (8-K; 10-Q not yet reconciled) | ✅ Fresh — FY27 Q1 printed 28 Oct 2026 |

@@ -1,0 +1,222 @@
+{
+  "ticker": "MU",
+  "company": "MICRON TECHNOLOGY INC",
+  "cik": 723125,
+  "form": "10-K",
+  "period_end": "2026-09-03",
+  "fiscal_label": "2026_FY",
+  "accession": "0000723125-26-000023",
+  "filed": "2026-10-09",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+  "taxonomy": "us-gaap",
+  "currency": "USD",
+  "basis": "TTM to 2026-09-03",
+  "ttm_revenue": {
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "value": 133188000000,
+    "unit": "USD",
+    "method": "latest fiscal year",
+    "rows": [
+      {
+        "start": "2025-08-29",
+        "end": "2026-09-03",
+        "val": 133188000000,
+        "accn": "0000723125-26-000023",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-10-09",
+        "frame": "CY2026",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    ]
+  },
+  "ttm_net_income": {
+    "tag": "NetIncomeLoss",
+    "value": 84969000000,
+    "unit": "USD",
+    "method": "latest fiscal year",
+    "rows": [
+      {
+        "start": "2025-08-29",
+        "end": "2026-09-03",
+        "val": 84969000000,
+        "accn": "0000723125-26-000023",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-10-09",
+        "frame": "CY2026",
+        "tag": "NetIncomeLoss"
+      }
+    ]
+  },
+  "cover_shares": {
+    "as_of": "2026-10-02",
+    "basis": "cover page",
+    "by_class": {
+      "(single class)": 1131423212.0
+    },
+    "total": 1131423212.0
+  },
+  "diluted_weighted_shares": {
+    "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "value": 1143000000,
+    "start": "2025-08-29",
+    "end": "2026-09-03",
+    "accn": "0000723125-26-000023"
+  },
+  "cash": {
+    "tag": "CashAndCashEquivalentsAtCarryingValue",
+    "value": 38364000000,
+    "unit": "USD",
+    "filed": "2026-10-09",
+    "accn": "0000723125-26-000023"
+  },
+  "equity": {
+    "tag": "StockholdersEquity",
+    "value": 138378000000,
+    "unit": "USD",
+    "filed": "2026-10-09",
+    "accn": "0000723125-26-000023"
+  },
+  "debt_candidates_review_balance_sheet": [
+    {
+      "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+      "value": 5070000000.0
+    },
+    {
+      "concept": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
+      "value": 30019000000.0
+    },
+    {
+      "concept": "DebtAndCapitalLeaseObligations",
+      "value": 5179000000.0
+    },
+    {
+      "concept": "DebtCurrent",
+      "value": 491000000.0
+    },
+    {
+      "concept": "DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCostsNet",
+      "value": 16000000.0
+    },
+    {
+      "concept": "FinanceLeaseLiability",
+      "value": 2387000000.0
+    },
+    {
+      "concept": "FinanceLeaseLiabilityCurrent",
+      "value": 491000000.0
+    },
+    {
+      "concept": "FinanceLeaseLiabilityNoncurrent",
+      "value": 1896000000.0
+    },
+    {
+      "concept": "FinanceLeaseLiabilityPaymentsDueAfterYearFive",
+      "value": 659000000.0
+    },
+    {
+      "concept": "FinanceLeaseLiabilityPaymentsDueNextTwelveMonths",
+      "value": 577000000.0
+    },
+    {
+      "concept": "FinanceLeaseLiabilityPaymentsDueYearFive",
+      "value": 130000000.0
+    },
+    {
+      "concept": "FinanceLeaseLiabilityPaymentsDueYearFour",
+      "value": 349000000.0
+    },
+    {
+      "concept": "FinanceLeaseLiabilityPaymentsDueYearThree",
+      "value": 500000000.0
+    },
+    {
+      "concept": "FinanceLeaseLiabilityPaymentsDueYearTwo",
+      "value": 560000000.0
+    },
+    {
+      "concept": "FinanceLeaseLiabilityUndiscountedExcessAmount",
+      "value": 388000000.0
+    },
+    {
+      "concept": "FinanceLeaseRightOfUseAsset",
+      "value": 2400000000.0
+    },
+    {
+      "concept": "FinanceLeaseWeightedAverageDiscountRatePercent",
+      "value": 0.0471
+    },
+    {
+      "concept": "LongTermDebt",
+      "value": 2792000000.0
+    },
+    {
+      "concept": "LongTermDebtAndCapitalLeaseObligations",
+      "value": 4688000000.0
+    },
+    {
+      "concept": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
+      "value": 2808000000.0
+    },
+    {
+      "concept": "LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+      "value": 0.0
+    },
+    {
+      "concept": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
+      "value": 0.0
+    },
+    {
+      "concept": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+      "value": 0.0
+    },
+    {
+      "concept": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+      "value": 0.0
+    },
+    {
+      "concept": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+      "value": 0.0
+    },
+    {
+      "concept": "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization",
+      "value": 70866000000.0
+    },
+    {
+      "concept": "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization",
+      "value": 63310000000.0
+    },
+    {
+      "concept": "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetBeforeAccumulatedDepreciationAndAmortization",
+      "value": 134176000000.0
+    }
+  ],
+  "notes": [
+    "Debt tags vary by company: confirm debt and lease balances on the balance sheet before computing EV.",
+    "Values from companyfacts are deduplicated by period, latest filing wins (later filings re-round)."
+  ],
+  "snapshot_taken": "2026-11-23T15:23Z",
+  "price": {
+    "price": 713.5599975585938,
+    "date": "2026-11-23",
+    "source": "Yahoo Finance chart API, last regular close",
+    "currency": "USD"
+  },
+  "ratios": {
+    "cover_total": {
+      "shares": 1131423212.0,
+      "market_cap": 807338344392.4563,
+      "price_to_sales": 6.061644775748989,
+      "price_to_earnings": 9.501563445403104
+    },
+    "diluted_weighted": {
+      "shares": 1143000000,
+      "market_cap": 815599077209.4727,
+      "price_to_sales": 6.123667877057037,
+      "price_to_earnings": 9.598783994274061
+    }
+  }
+}
