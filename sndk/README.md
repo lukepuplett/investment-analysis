@@ -51,7 +51,8 @@ The 10-Q says holders of record on 9 Nov receive seven additional shares per sha
 | Inventory | 3.0 (2.7 at 3 Jul) |
 | Stockholders' equity | 18.1 (15.7 at 3 Jul, 9.2 at 27 Jun 2025) |
 | Share repurchases, FQ1 FY27 | **5.0** (none in the same quarter a year earlier) |
-| Debt | a term loan B and a revolving credit facility are described in the 10-Q; amounts not yet extracted |
+| Debt | none outstanding: the $2.0bn term loan B was repaid in full with cash on 4 Mar 2026; the $1.5bn revolver is undrawn |
+| Operating lease liability | 0.2 |
 
 ## Valuation snapshot (23 Nov 2026, split-adjusted)
 
@@ -60,6 +61,7 @@ The 10-Q says holders of record on 9 Nov receive seven additional shares per sha
 | Price | about $95.23 |
 | Shares (after the 8:1 split) | about 1,138m (cover page) to 1,232m (diluted) |
 | Market cap | $108bn to $117bn |
+| Net cash (cash $5.1bn, no debt) and enterprise value | about $5bn; EV about $103bn to $112bn |
 | Trailing (to 2 Oct 2026) revenue / net income | $29.0bn / $19.4bn |
 | P/E (trailing) | 5.6x to 6.0x |
 | P/S (trailing) | 3.7x to 4.1x |
@@ -68,11 +70,25 @@ The 10-Q says holders of record on 9 Nov receive seven additional shares per sha
 | Recent moves | about –6% 1 week, –39% 1 month, –49% 3 months, +220% year to date |
 | Off the 52-week high | about –67% |
 
+## Debt and obligations check (10-Q for the quarter to 2 Oct 2026)
+
+| Check | Finding | Source |
+|---|---|---|
+| Instruments | No borrowings outstanding. The $2.0bn term loan B was settled in full on 4 Mar 2026 using cash on hand, with a loss on early extinguishment from writing off issuance costs. | 10-Q debt note |
+| Maturity ladder | Not applicable; the revolver's maturity was extended from 21 Feb 2030 to 9 Sep 2031 (Amendment No. 1, 9 Sep 2026). | 10-Q debt note |
+| Leases | Operating lease liability $201m ($23m current), discount rate 7.4%, undiscounted payments $297m. No finance leases found in the tags (not checked in the text). | Lease note |
+| Converts | None found. | Facts and text search |
+| Funding access | $1.5bn revolving credit facility, undrawn, subject to a maximum leverage ratio covenant. Share repurchase programmes: $6.0bn (announced 30 Apr 2026) plus $14.0bn (5 Aug 2026), $20bn in all; $5.0bn was spent in the first quarter of FY27. | 10-Q debt and equity notes |
+| Coverage, the hard way | Interest expense $2m in the quarter against operating income $8.78bn. | Income statement |
+| Off balance sheet | Purchase obligations $6.8bn as tagged: $1.4bn in the rest of FY27, then $2.0bn, $2.3bn and $1.0bn in the next three years, and under $0.1bn after. Counterparty not yet identified. | Purchase obligation facts |
+
+*The check closed the "debt not extracted" gap on this page. The buyback authorisations are large relative to the roughly $108bn to $117bn market cap, and the 5.0bn spent in one quarter was funded from cash flow, not debt.*
+
 ## Still to do (required by AGENTS.md)
 
 - [ ] The seven analysis documents (financial, market, competitive, technical, risk, thesis, valuation) in `analysis/`, plus the five-table framework
 - [ ] Why the shares have fallen so far since June (not researched yet), and what the market may be pricing
-- [ ] Debt, buyback authorisation terms and the relationship with its manufacturing partner (not extracted yet)
+- [ ] Who the purchase obligations are owed to, and the relationship with its manufacturing partner (not extracted yet)
 - [ ] Revenue breakdown and growth drivers: NAND pricing, data-centre mix, customers
 - [ ] Supply additions at rivals (Micron, Samsung, SK Hynix, Kioxia) and the supply/demand balance
 - [ ] Next earnings date and a monitoring schedule (date not checked)

@@ -32,8 +32,11 @@
 | Item | $bn |
 |---|---:|
 | Cash and equivalents | 38.4 (9.6 a year earlier) |
-| Debt (long-term 2.8 + current 0.5) | 3.3 |
-| Net cash (cash less that debt; short-term investments not counted) | about 35 |
+| Investment securities (available-for-sale debt: 5.1 current, 30.0 non-current) | 35.1 |
+| Total cash and securities | 73.5 |
+| Debt: senior notes | 2.8 |
+| Finance lease liabilities (0.5 current) | 2.4 |
+| Net cash (cash and securities less notes and finance leases) | about 68 |
 | Inventory | 10.4 (8.4 a year earlier) |
 | Stockholders' equity | 138.4 (54.2 a year earlier) |
 | Share buybacks / dividends paid, FY26 | 0.65 / 0.61 |
@@ -46,7 +49,7 @@
 | Market cap | $807bn (cover-page shares, 1,131m) to $816bn (diluted, 1,143m) |
 | P/E (trailing, FY2026) | 9.5–9.6x |
 | P/S | 6.1x |
-| Enterprise value / operating income | about 7.8x (market cap less about $35bn net cash, on $99.3bn) |
+| Enterprise value / operating income | about 7.4x to 7.5x (market cap less about $68bn net cash, on $99.3bn) |
 | 52-week range | $223.93 (24 Nov 2025) to $1,213.56 (25 Jun 2026) |
 | Recent moves | −0.8% 1 week, −18.7% 1 month, −21.6% 3 months, +150% year to date |
 | Off 52-week high | −41.2% |
@@ -65,6 +68,20 @@
 | Taiwan / China / Hong Kong | 17.0 / 8.3 / 6.3 | |
 
 *Segment and product splits are from the 10-K's tagged facts. Business-unit shares do not sum to exactly 100% because of rounding and small other items.*
+
+## Debt and obligations check (FY2026 10-K, 3 Sep 2026)
+
+| Check | Finding | Source |
+|---|---|---|
+| Instruments | Eight unsecured senior note issues, $2.81bn principal, stated rates 2.7% to 6.05% (effective 2.8% to 6.1%), maturities 2032 to 2051 (the largest, a $1.0bn green bond, is due 2032). The 2029 and 2030 notes and the 2029 Term Loan A show $0. | Debt note facts |
+| Maturity ladder | $0 due in each of the next five years; $2.81bn after year five. | Maturity facts |
+| Leases | Finance leases $2.39bn (0.49 current), discount rate 4.7%, undiscounted payments $0.58bn, 0.56, 0.50, 0.35, 0.13, then 0.66 after year five. Operating leases "not material" per the 10-K. | Lease note |
+| Converts | None found. | Facts and text search |
+| Funding access | $2.0bn revolving credit facility due March 2030, undrawn. Covenants exist (the 10-K mentions CHIPS Act-related ones; terms not extracted). Share repurchase authorisation of up to $10bn; $0.65bn spent in FY26, remaining amount not extracted. | 10-K text |
+| Coverage, the hard way | Interest expense $106m against operating income $99.3bn (about 940 times); cash interest paid $197m. Debt plus finance leases $5.2bn against equity $138.4bn (3.7%). | Income statement, cash flow |
+| Off balance sheet | Unrecorded unconditional purchase obligations $10.8bn: $1.3bn, 1.8, 1.4, 1.1 and 0.8 in years one to five, and $4.4bn after. | Purchase obligation facts |
+
+*Correction made by this check: an earlier version of this page counted $0.5bn of "current debt"; it is the current portion of finance leases, and it left out $35bn of investment securities.*
 
 ## What the 10-K says about the cycle
 
