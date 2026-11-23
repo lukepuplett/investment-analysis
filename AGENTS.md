@@ -91,6 +91,8 @@ Source files never go in dated subfolders at the company root; file them in `qua
 
 This folder is intentionally flat (not year/quarter subdirectories) for easy discovery and consistency across companies. Name files `YYYY_Q#_` for chronological sorting.
 
+**Thinking and lessons files:** read **[THINKING_FRAMEWORK.md](THINKING_FRAMEWORK.md)** (fundamentals, value capture, price, and its checklist) and **[LESSONS_AND_MITIGATIONS.md](LESSONS_AND_MITIGATIONS.md)** (practical checks on finances and outlook, including the debt and obligations check) before analysing a new name. They sit above the mechanics below.
+
 **Analysis Framework**: This document contains the comprehensive investment analysis framework that governs all analysis in this repository. It defines:
 - Business model analysis standards
 - Financial metrics tracking requirements
@@ -137,7 +139,7 @@ Financial data tables must follow consistent formatting:
 - Include abbreviations legend: MRQ = Most Recent Quarter, TTM = Trailing Twelve Months
 
 ### Standard Analysis Table Framework
-Use the following five tables in every full update (earnings, major thesis review). Keep layouts consistent to enable fast comparisons across companies.
+Use the following six tables in every full update (earnings, major thesis review). Keep layouts consistent to enable fast comparisons across companies.
 
 1. **Three-Scenario Revenue Model**  
    - *Purpose:* Frame bull/base/bear revenue outcomes over the next 2–3 fiscal periods.  
@@ -164,9 +166,14 @@ Use the following five tables in every full update (earnings, major thesis revie
    - *Structure:* `Driver | Base Assumption | +10% Impact | -10% Impact | Valuation Delta`.  
    - *Usage:* Recalculate with every material model change; rank drivers by absolute valuation impact to focus monitoring.
 
+6. **Debt and Obligations Check**  
+   - *Purpose:* Find every claim ahead of equity before valuing the equity, so a headline debt figure cannot hide leases, converts or a short maturity ladder (the CoreWeave lesson).  
+   - *Structure:* `Check | Figure | Source (filing, note, accession)`, covering instruments, maturity ladder, leases, converts, funding access, hard-way coverage and off-balance-sheet commitments. The full list and the reasons are in **[LESSONS_AND_MITIGATIONS.md](LESSONS_AND_MITIGATIONS.md)** → *The debt and obligations check*.  
+   - *Usage:* Required in every full analysis and refreshed when the capital structure changes. If a row cannot be filled from the filings, write "not extracted" or "not disclosed"; do not omit it.
+
 **Quick Workflow (≈30 minutes):**  
-1) Build the revenue scenarios, 2) score the moat, 3) run the red flag audit, 4) check thesis coherence, 5) map valuation sensitivity. Summaries from these tables must feed into the BLUF and recommendation sections.  
-**Prompting Tip:** When requesting LLM support for a new company, explicitly ask for outputs in the five-table format above, followed by conviction, recommendation, and probability-weighted price target.
+1) Build the revenue scenarios, 2) score the moat, 3) run the red flag audit, 4) check thesis coherence, 5) map valuation sensitivity, 6) run the debt and obligations check. Summaries from these tables must feed into the BLUF and recommendation sections.  
+**Prompting Tip:** When requesting LLM support for a new company, explicitly ask for outputs in the six-table format above, followed by conviction, recommendation, and probability-weighted price target.
 
 ### Revenue Breakdown & Growth Drivers Analysis
 
@@ -1251,7 +1258,7 @@ See the following dedicated documents for complete information:
 
 ### Known Gotchas (things that have caught us out)
 
-Check these before writing a ratio, a market cap or a data-source claim into the repo. If a multiple looks implausible (a P/E under about 2 or over about 500, a market cap far from the news), stop and find the cause before recording it.
+Check these before writing a ratio, a market cap or a data-source claim into the repo. These are data-handling traps; analytical lessons (leverage, cyclical peaks, funding stress) live in [LESSONS_AND_MITIGATIONS.md](LESSONS_AND_MITIGATIONS.md). If a multiple looks implausible (a P/E under about 2 or over about 500, a market cap far from the news), stop and find the cause before recording it.
 
 - **Stock splits.** Yahoo prices are split-adjusted; share counts in a filing are not. A split after the filing makes market cap and P/E wrong by the split ratio (SNDK, 8-for-1 on 20 Nov 2026, showed a P/E of 0.7). `scripts/edgar_snapshot.py` now scales for this and prints a WARNING; check for splits when computing by hand.
 - **Share basis.** Cover-page shares and diluted weighted-average shares differ (SMCI 659m vs 749m). Say which one a figure uses. Multi-class companies (CRWV, DDOG) have no cover-page count in the `companyfacts` feed; read it from the filing.
@@ -1260,7 +1267,6 @@ Check these before writing a ratio, a market cap or a data-source claim into the
 - **Currency and staleness.** A 20-F is annual only, in the company's currency (ASML reports in EUR, the price is in USD). Do not compute a ratio across currencies, and say how old an annual figure is.
 - **Two capex series.** Presentation capex (placed in service, includes finance leases) and cash purchases of PPE differ (CRWV Q3: $14.5bn vs $9.4bn). Never swap them silently.
 - **Pasted prices.** Cashtag prices that come through when copying posts from X are page artefacts, not quotes ($0.0697 for ANT, $1.00 for MU). Do not use them.
-- **Peak-cycle earnings.** A low trailing P/E at record margins (Micron 9.5x, SanDisk about 6x) can mean peak earnings, not cheap. Check how much of the jump is price versus volume.
 - **Shell chains.** Join git commands with `&&`, not `;`, and check for conflict markers before staging. macOS `sed` rejects some GNU syntax; once a failed `sed` let a commit with conflict markers through.
 
 ### Quick Workflow Example
