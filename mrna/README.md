@@ -6,7 +6,9 @@
 
 **Supplement (2026-11-06):** [Platform and pipeline notes](analysis/2026_11_platform_and_pipeline_notes.md) — mechanism vs gene-silencing RNA modalities, FDA/EMA anchors for flu/RSV labeling pages, CMV congenital program discontinuation, terminated MMA study, evidence-stage caveats for INT, and risks (manufacturing, competition, funding). Keeps the September 2026 analysis files as the baseline snapshot.
 
-**Notes (2026-11-23):** [Profitability and intismeran timing](analysis/2026_11_23_profitability_and_intismeran_timing.md): Q3 was a one-quarter profit, BLA targeted end-2026, approval H2 2027 at the earliest, existing products alone unlikely to sustain profit.
+**Scoring (2026-11-23):** [value scoring of Micron, SanDisk, Moderna and Lilly](../consolidated/2026_11_23_value_scoring_mu_sndk_mrna_lly.md) (Moderna scored –1.9 on the shared eight-row rubric).
+
+**Notes (2026-11-23):** [Profitability and intismeran timing](analysis/2026_11_23_profitability_and_intismeran_timing.md): Q3 was a one-quarter profit, BLA targeted end-2026, approval H2 2027 at the earliest, existing products alone unlikely to sustain profit. Also: [debt and obligations check](analysis/2026_11_23_debt_and_obligations_check.md) and a [toy projection of income, free cash flow and balance sheet to 2030](model/README.md) (none of its three scenarios reaches the 2028 cash break-even target).
 
 ## BLUF
 

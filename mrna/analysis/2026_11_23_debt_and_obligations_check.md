@@ -1,0 +1,17 @@
+# MRNA — Debt and obligations check (23 Nov 2026)
+
+Run under the sixth standard table in [AGENTS.md](../../AGENTS.md), with the checks described in [LESSONS_AND_MITIGATIONS.md](../../LESSONS_AND_MITIGATIONS.md). Source: Form 10-Q for the quarter ended 30 Sep 2026, accession 0001682852-26-000197, filed 6 Nov 2026 (debt note and liquidity discussion). The 10-Q is not yet saved in `mrna/quarterly/`; pull it with `scripts/edgar_snapshot.py MRNA`. MRNA is watchlist, not held.
+
+| Check | Finding | Source |
+|---|---|---|
+| Instruments | **Term loan:** $600m outstanding (carrying $591m), senior secured by a first-priority lien on substantially all assets, guaranteed by certain subsidiaries, Ares-led, SOFR + 5.50% (9.23% at 30 Sep 2026), no amortisation. **Convertible notes:** $3.0bn 0.00% senior unsecured notes due 1 Mar 2032, issued 1 Sep 2026 (including a $400m option); no regular interest. | 10-Q debt note |
+| Maturity ladder | $600m on 24 Nov 2030; $3.0bn on 1 Mar 2032; nothing earlier. | 10-Q debt note |
+| Leases | Operating and finance lease liabilities $680m ($50m current); right-of-use assets $711m. | Lease facts |
+| Converts | Conversion price about $210 (about 47% premium at issue), capped call to about $392. The stock closed at $210.72 on 23 Nov, so the notes are at the money. If converted: 3,000 / 210 = about 14.3m shares (about 3.5% of 404.6m). Holders can convert early if the stock is at least 150% of the conversion price for 20 of 30 trading days (from quarters after 31 Dec 2026), and freely from 1 Dec 2031. Net proceeds were $2.6bn after the capped call. | 10-Q convertible note |
+| Funding access | $900m of delayed-draw term loans, undrawn: $400m available to 24 Nov 2027 and $500m to 24 Nov 2028, the latter conditional on regulatory approval milestones for certain products. **Covenants:** minimum cash and available-for-sale securities of $500m ($750m if more than $1.0bn is drawn), tested only if the 30-day average market cap is below $5.0bn; restrictive covenants limit extra debt, liens, investments, asset sales and restricted payments. In compliance at 30 Sep 2026. | 10-Q debt note |
+| Coverage, the hard way | Operating income –$2.07bn and operating cash flow –$2.72bn for the nine months, so there is no coverage from operations. The only cash coupon is the term loan: about $55m a year (9.23% x $600m, my arithmetic). Debt service is paid from cash on hand: cash and investments $7.98bn (cash 1.20, investments 3.98 current and 2.81 non-current). Debt principal plus leases $4.28bn against equity $6.84bn. Interest expense is not extracted separately. | Income statement, cash flow, balance sheet |
+| Off balance sheet | Not extracted: firm purchase commitments are small in the facts (losses of $7m and $24m recorded on them) but their size is not. A litigation settlement (Arbutus/Genevant) was paid in 2026; see [the Q3 delta note](2026_11_q3_delta_analysis.md). | 10-Q text |
+
+**Reading it:** the balance sheet is adequate and not stressed. Net cash after the loan and converts is about $4.4bn ($3.7bn after leases), but the company is burning cash (about $2.7bn in nine months), so liquidity depends on the burn falling. The convert being at the money matters for dilution, not for solvency. See the [projection](../model/README.md) for how cash evolves under three scenarios.
+
+**Still open:** interest expense, purchase-commitment size, the lien and guarantee detail, and the settlement cash outflow.

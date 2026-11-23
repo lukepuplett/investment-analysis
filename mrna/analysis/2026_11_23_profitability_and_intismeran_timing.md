@@ -3,8 +3,10 @@
 Brief notes from a conversation with Luke. MRNA is still watchlist, not held.
 
 ## Is Moderna profitable?
-- Only in Q3 2026: net income $162M (GAAP EPS $0.38) vs a $200M loss in Q3 2025 ([Q3 8-K EX-99.1](https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/exhibit9912026q3pressrelea.htm)).
+- Recently only in Q3 2026 (Q3 2024 was a small profit, +$13M on $1.86B of revenue): net income $162M (GAAP EPS $0.38) vs a $200M loss in Q3 2025 ([Q3 8-K EX-99.1](https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/exhibit9912026q3pressrelea.htm)).
 - Q3 is the seasonal autumn vaccine quarter. Q2 2026 was a $782M loss on $145M of revenue, so FY2026 is still a substantial loss.
+- Net income by quarter ($M, from the 10-Q facts): Q3 2024 +13; Q1 2025 −971; Q2 2025 −825; Q3 2025 −200; Q1 2026 −1,343 (includes the settlement charge); Q2 2026 −782; Q3 2026 +162. Revenue ($M): 1,862; 108; 142; 1,016; 389; 145; 1,313. Q4 is not reported separately.
+- Projection of income, free cash flow and balance sheet to 2030: [model/output.md](../model/output.md). In none of its three scenarios is 2028 cash break-even reached.
 - Management targets cash break-even in 2028.
 
 ## When does the oncology drug (intismeran + Keytruda, with Merck) ship?
