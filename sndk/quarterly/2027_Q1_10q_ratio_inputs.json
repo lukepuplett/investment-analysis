@@ -1,0 +1,223 @@
+{
+  "ticker": "SNDK",
+  "company": "Sandisk Corp",
+  "cik": 2023554,
+  "form": "10-Q",
+  "period_end": "2026-10-02",
+  "fiscal_label": "2027_Q1",
+  "accession": "0001628280-26-068601",
+  "filed": "2026-10-30",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm",
+  "taxonomy": "us-gaap",
+  "currency": "USD",
+  "basis": "TTM to 2026-10-02",
+  "ttm_revenue": {
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "value": 28971000000,
+    "unit": "USD",
+    "method": "FY(prior) + YTD(current) - YTD(prior year)",
+    "rows": [
+      {
+        "start": "2026-07-04",
+        "end": "2026-10-02",
+        "val": 11031000000,
+        "accn": "0001628280-26-068601",
+        "fy": 2027,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "frame": "CY2026Q3",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "start": "2025-06-28",
+        "end": "2026-07-03",
+        "val": 20248000000,
+        "accn": "0001628280-26-057406",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-08-17",
+        "frame": "CY2026",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "start": "2025-06-28",
+        "end": "2025-10-03",
+        "val": 2308000000,
+        "accn": "0001628280-26-068601",
+        "fy": 2027,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "frame": "CY2025Q3",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    ]
+  },
+  "ttm_net_income": {
+    "tag": "NetIncomeLoss",
+    "value": 19422000000,
+    "unit": "USD",
+    "method": "FY(prior) + YTD(current) - YTD(prior year)",
+    "rows": [
+      {
+        "start": "2026-07-04",
+        "end": "2026-10-02",
+        "val": 8101000000,
+        "accn": "0001628280-26-068601",
+        "fy": 2027,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "frame": "CY2026Q3",
+        "tag": "NetIncomeLoss"
+      },
+      {
+        "start": "2025-06-28",
+        "end": "2026-07-03",
+        "val": 11433000000,
+        "accn": "0001308179-26-000423",
+        "fy": null,
+        "fp": null,
+        "form": "DEF 14A",
+        "filed": "2026-10-06",
+        "frame": "CY2026",
+        "tag": "NetIncomeLoss"
+      },
+      {
+        "start": "2025-06-28",
+        "end": "2025-10-03",
+        "val": 112000000,
+        "accn": "0001628280-26-068601",
+        "fy": 2027,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "frame": "CY2025Q3",
+        "tag": "NetIncomeLoss"
+      }
+    ]
+  },
+  "cover_shares": {
+    "as_of": "2026-10-26",
+    "basis": "cover page",
+    "by_class": {
+      "(single class)": 142289365.0
+    },
+    "total": 142289365.0
+  },
+  "diluted_weighted_shares": {
+    "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "value": 154000000,
+    "start": "2026-07-04",
+    "end": "2026-10-02",
+    "accn": "0001628280-26-068601"
+  },
+  "cash": {
+    "tag": "CashAndCashEquivalentsAtCarryingValue",
+    "value": 5136000000,
+    "unit": "USD",
+    "filed": "2026-10-30",
+    "accn": "0001628280-26-068601"
+  },
+  "equity": {
+    "tag": "StockholdersEquity",
+    "value": 18134000000,
+    "unit": "USD",
+    "filed": "2026-10-30",
+    "accn": "0001628280-26-068601"
+  },
+  "debt_candidates_review_balance_sheet": [
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsDue",
+      "value": 297000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths",
+      "value": 30000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsDueYearFour",
+      "value": 23000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsDueYearThree",
+      "value": 23000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsDueYearTwo",
+      "value": 27000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsRemainderOfFiscalYear",
+      "value": 28000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
+      "value": 96000000.0
+    },
+    {
+      "concept": "OperatingLeaseLiability",
+      "value": 201000000.0
+    },
+    {
+      "concept": "OperatingLeaseLiabilityCurrent",
+      "value": 23000000.0
+    },
+    {
+      "concept": "OperatingLeaseLiabilityNoncurrent",
+      "value": 178000000.0
+    },
+    {
+      "concept": "OperatingLeaseRightOfUseAsset",
+      "value": 192000000.0
+    },
+    {
+      "concept": "OperatingLeaseWeightedAverageDiscountRatePercent",
+      "value": 0.07400000000000001
+    }
+  ],
+  "notes": [
+    "Debt tags vary by company: confirm debt and lease balances on the balance sheet before computing EV.",
+    "Values from companyfacts are deduplicated by period, latest filing wins (later filings re-round)."
+  ],
+  "snapshot_taken": "2026-11-23T15:26Z",
+  "price": {
+    "price": 95.22949981689453,
+    "date": "2026-11-23",
+    "source": "Yahoo Finance chart API, last regular close (split-adjusted)",
+    "currency": "USD",
+    "splits": [
+      {
+        "date": "2026-11-20",
+        "ratio": 8.0
+      }
+    ]
+  },
+  "split_adjustment": {
+    "splits_found": [
+      {
+        "date": "2026-11-20",
+        "ratio": 8.0
+      }
+    ],
+    "factor_cover_shares": 8.0,
+    "factor_diluted_shares": 8.0,
+    "note": "Share counts in the filing are as of the cover date / filing date; shares are scaled by splits dated after those so they match the split-adjusted price."
+  },
+  "ratios": {
+    "cover_total": {
+      "shares": 1138314920.0,
+      "market_cap": 108401160465.70831,
+      "price_to_sales": 3.741712763304971,
+      "price_to_earnings": 5.5813593072653855
+    },
+    "diluted_weighted": {
+      "shares": 1232000000.0,
+      "market_cap": 117322743774.41406,
+      "price_to_sales": 4.049661515805946,
+      "price_to_earnings": 6.040713818062716
+    }
+  }
+}

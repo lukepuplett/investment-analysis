@@ -1,0 +1,158 @@
+{
+  "ticker": "SNDK",
+  "company": "Sandisk Corp",
+  "cik": 2023554,
+  "form": "10-K",
+  "period_end": "2026-07-03",
+  "fiscal_label": "2026_FY",
+  "accession": "0001628280-26-057406",
+  "filed": "2026-08-17",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
+  "taxonomy": "us-gaap",
+  "currency": "USD",
+  "basis": "TTM to 2026-07-03",
+  "ttm_revenue": {
+    "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "value": 20248000000,
+    "unit": "USD",
+    "method": "latest fiscal year",
+    "rows": [
+      {
+        "start": "2025-06-28",
+        "end": "2026-07-03",
+        "val": 20248000000,
+        "accn": "0001628280-26-057406",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-08-17",
+        "frame": "CY2026",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    ]
+  },
+  "ttm_net_income": {
+    "tag": "NetIncomeLoss",
+    "value": 11433000000,
+    "unit": "USD",
+    "method": "latest fiscal year",
+    "rows": [
+      {
+        "start": "2025-06-28",
+        "end": "2026-07-03",
+        "val": 11433000000,
+        "accn": "0001308179-26-000423",
+        "fy": null,
+        "fp": null,
+        "form": "DEF 14A",
+        "filed": "2026-10-06",
+        "frame": "CY2026",
+        "tag": "NetIncomeLoss"
+      }
+    ]
+  },
+  "cover_shares": {
+    "as_of": "2026-08-07",
+    "basis": "cover page",
+    "by_class": {
+      "(single class)": 146419001.0
+    },
+    "total": 146419001.0
+  },
+  "diluted_weighted_shares": {
+    "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "value": 155000000,
+    "start": "2025-06-28",
+    "end": "2026-07-03",
+    "accn": "0001628280-26-057406"
+  },
+  "cash": {
+    "tag": "CashAndCashEquivalentsAtCarryingValue",
+    "value": 4762000000,
+    "unit": "USD",
+    "filed": "2026-10-30",
+    "accn": "0001628280-26-068601"
+  },
+  "equity": {
+    "tag": "StockholdersEquity",
+    "value": 15736000000,
+    "unit": "USD",
+    "filed": "2026-10-30",
+    "accn": "0001628280-26-068601"
+  },
+  "debt_candidates_review_balance_sheet": [
+    {
+      "concept": "DebtInstrumentCarryingAmount",
+      "value": 0.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsDue",
+      "value": 299000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
+      "value": 162000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths",
+      "value": 38000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsDueYearFive",
+      "value": 22000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsDueYearFour",
+      "value": 22000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsDueYearThree",
+      "value": 26000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityPaymentsDueYearTwo",
+      "value": 29000000.0
+    },
+    {
+      "concept": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
+      "value": 98000000.0
+    },
+    {
+      "concept": "LongTermDebt",
+      "value": 0.0
+    },
+    {
+      "concept": "LongTermDebtCurrent",
+      "value": 0.0
+    },
+    {
+      "concept": "LongTermDebtNoncurrent",
+      "value": 0.0
+    },
+    {
+      "concept": "OperatingLeaseLiability",
+      "value": 201000000.0
+    },
+    {
+      "concept": "OperatingLeaseLiabilityCurrent",
+      "value": 24000000.0
+    },
+    {
+      "concept": "OperatingLeaseLiabilityNoncurrent",
+      "value": 177000000.0
+    },
+    {
+      "concept": "OperatingLeaseRightOfUseAsset",
+      "value": 193000000.0
+    },
+    {
+      "concept": "OperatingLeaseWeightedAverageDiscountRatePercent",
+      "value": 0.07400000000000001
+    }
+  ],
+  "notes": [
+    "Debt tags vary by company: confirm debt and lease balances on the balance sheet before computing EV.",
+    "Values from companyfacts are deduplicated by period, latest filing wins (later filings re-round)."
+  ],
+  "snapshot_taken": "2026-11-23T15:27Z"
+}

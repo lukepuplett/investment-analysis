@@ -1,0 +1,692 @@
+concept	value	unit	period	segments	accession	filed
+dei:EntityCommonStockSharesOutstanding	142289365.0	xbrli:shares	instant=2026-10-26		0001628280-26-068601	2026-10-30
+ecd:TrdArrSecuritiesAggAvailAmt	4000.0	xbrli:shares	instant=2026-10-02	ecd:IndividualAxis=sndk:SandraEngCaulfieldRevocableTrustMember	0001628280-26-068601	2026-10-30
+sndk:AggregateCollateralHeldByThirdPartyFinancialInstitutionsAmount	12800000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+sndk:BusinessSeparationCosts	0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+sndk:BusinessSeparationCosts	9000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+sndk:CostOfGoodsAndServiceAdjusted	1617000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+sndk:CostOfGoodsAndServiceAdjusted	1647000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+sndk:DisposalGroupIncludingDiscontinuedOperationConsiderationReceivable	102000000.0	iso4217:USD	instant=2026-07-03	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:StatementOfFinancialPositionLocationBalanceAxis=us-gaap:OtherAssetsNoncurrent; None=us-gaap:OtherAssetsNoncurrent; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+sndk:DisposalGroupIncludingDiscontinuedOperationConsiderationReceivable	103000000.0	iso4217:USD	instant=2026-10-02	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+sndk:DisposalGroupIncludingDiscontinuedOperationConsiderationReceivable	139000000.0	iso4217:USD	instant=2026-07-03	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+sndk:DisposalGroupIncludingDiscontinuedOperationConsiderationReceivable	37000000.0	iso4217:USD	instant=2026-07-03	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:StatementOfFinancialPositionLocationBalanceAxis=us-gaap:OtherAssetsCurrent; None=us-gaap:OtherAssetsCurrent; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+sndk:DisposalGroupIncludingDiscontinuedOperationConsiderationReceivable	37000000.0	iso4217:USD	instant=2026-10-02	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:StatementOfFinancialPositionLocationBalanceAxis=us-gaap:OtherAssetsCurrent; None=us-gaap:OtherAssetsCurrent; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+sndk:DisposalGroupIncludingDiscontinuedOperationConsiderationReceivable	66000000.0	iso4217:USD	instant=2026-10-02	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:StatementOfFinancialPositionLocationBalanceAxis=us-gaap:OtherAssetsNoncurrent; None=us-gaap:OtherAssetsNoncurrent; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+sndk:DisposalGroupIncludingDiscontinuedOperationPresentValueDiscount	10000000.0	iso4217:USD	instant=2026-10-02	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+sndk:DisposalGroupNumberOfInstallments	3	sndk:installment	duration=2024-09-28..2024-09-28	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+sndk:DisposalGroupPercentOfOwnershipSold	0.8	xbrli:pure	instant=2024-09-28	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+sndk:DisposalGroupPeriodicPayment	27000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+sndk:DisposalGroupPeriodicPayment	37000000.0	iso4217:USD	duration=2024-09-28..2024-09-28	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearFive	10000000.0	iso4217:USD	instant=2026-10-02	us-gaap:GuaranteeObligationsByNatureAxis=sndk:PaymentOfPrincipalAmortizationMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearFive	70000000.0	iso4217:USD	instant=2026-10-02	us-gaap:GuaranteeObligationsByNatureAxis=sndk:PurchaseOptionExercisePriceMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearFive	80000000.0	iso4217:USD	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearFour	41000000.0	iso4217:USD	instant=2026-10-02	us-gaap:GuaranteeObligationsByNatureAxis=sndk:PaymentOfPrincipalAmortizationMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearFour	58000000.0	iso4217:USD	instant=2026-10-02	us-gaap:GuaranteeObligationsByNatureAxis=sndk:PurchaseOptionExercisePriceMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearFour	99000000.0	iso4217:USD	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearOne	205000000.0	iso4217:USD	instant=2026-10-02	us-gaap:GuaranteeObligationsByNatureAxis=sndk:PaymentOfPrincipalAmortizationMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearOne	279000000.0	iso4217:USD	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearOne	74000000.0	iso4217:USD	instant=2026-10-02	us-gaap:GuaranteeObligationsByNatureAxis=sndk:PurchaseOptionExercisePriceMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearThree	129000000.0	iso4217:USD	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearThree	50000000.0	iso4217:USD	instant=2026-10-02	us-gaap:GuaranteeObligationsByNatureAxis=sndk:PurchaseOptionExercisePriceMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearThree	79000000.0	iso4217:USD	instant=2026-10-02	us-gaap:GuaranteeObligationsByNatureAxis=sndk:PaymentOfPrincipalAmortizationMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearTwo	158000000.0	iso4217:USD	instant=2026-10-02	us-gaap:GuaranteeObligationsByNatureAxis=sndk:PaymentOfPrincipalAmortizationMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearTwo	251000000.0	iso4217:USD	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:GuaranteeObligationsMaximumExposureYearTwo	93000000.0	iso4217:USD	instant=2026-10-02	us-gaap:GuaranteeObligationsByNatureAxis=sndk:PurchaseOptionExercisePriceMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:IncreaseDecreaseInContractWithCustomerRefundLiability	25000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+sndk:IncreaseDecreaseInContractWithCustomerRefundLiability	97000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+sndk:IndemnificationLiability	0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+sndk:InvestmentFundingCommitments	0.5	xbrli:pure	instant=2026-10-02	srt:RangeAxis=srt:MaximumMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+sndk:InvestmentFundingCommitments	0.5	xbrli:pure	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+sndk:LesseeOperatingLeaseLiabilityToBePaidAfterYearFour	166000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+sndk:LongTermPurchaseCommitmentPurchases	139000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	srt:CounterpartyNameAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:LongTermPurchaseCommitmentByCategoryOfItemPurchasedAxis=sndk:CertainFlashBasedProductsMember	0001628280-26-068601	2026-10-30
+sndk:LongTermPurchaseCommitmentPurchases	141000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	srt:CounterpartyNameAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:LongTermPurchaseCommitmentByCategoryOfItemPurchasedAxis=sndk:CertainFlashBasedProductsMember	0001628280-26-068601	2026-10-30
+sndk:NotesReceivableAndInvestmentsInRelatedPartiesNoncurrent	678000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+sndk:NotesReceivableAndInvestmentsInRelatedPartiesNoncurrent	678000000.0	iso4217:USD	instant=2026-07-03	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:NotesReceivableAndInvestmentsInRelatedPartiesNoncurrent	827000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+sndk:NotesReceivableAndInvestmentsInRelatedPartiesNoncurrent	827000000.0	iso4217:USD	instant=2026-10-02	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+sndk:OtherCommitmentExchangeRate	157.56	xbrli:pure	instant=2026-10-02	us-gaap:OtherCommitmentsAxis=sndk:FutureBuildingDepreciationPaymentsMember; srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:FlashVenturesMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+sndk:OtherMiscellaneousLiabilitiesNoncurrent	71000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+sndk:OtherMiscellaneousLiabilitiesNoncurrent	73000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+sndk:PurchaseObligationToBePaidAfterYearFour	71000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+sndk:ResearchAndDevelopmentExpenseAdjusted	293000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+sndk:ResearchAndDevelopmentExpenseAdjusted	350000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+sndk:SellingGeneralAndAdministrativeExpenseAdjusted	153000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+sndk:SellingGeneralAndAdministrativeExpenseAdjusted	163000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+sndk:ShareBasedCompensationArrangementByShareBasedPaymentTargetPerformancePercentage	0.0	xbrli:pure	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=us-gaap:PerformanceSharesMember; srt:RangeAxis=srt:MinimumMember	0001628280-26-068601	2026-10-30
+sndk:ShareBasedCompensationArrangementByShareBasedPaymentTargetPerformancePercentage	3.0	xbrli:pure	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=us-gaap:PerformanceSharesMember; srt:RangeAxis=srt:MaximumMember	0001628280-26-068601	2026-10-30
+sndk:ShareBasedPaymentArrangementPlanModificationExpectedIncrementalCost	41000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+sndk:ShareBasedPaymentArrangementPlanModificationIncrementalCostRemainingCost	9000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+sndk:ShortTermInvestmentsFairValueDisclosure	0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+sndk:ShortTermInvestmentsFairValueDisclosure	0	iso4217:USD	instant=2026-07-03	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+sndk:ShortTermInvestmentsFairValueDisclosure	0	iso4217:USD	instant=2026-07-03	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+sndk:ShortTermInvestmentsFairValueDisclosure	0	iso4217:USD	instant=2026-07-03	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+sndk:ShortTermInvestmentsFairValueDisclosure	0	iso4217:USD	instant=2026-10-02	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+sndk:ShortTermInvestmentsFairValueDisclosure	0	iso4217:USD	instant=2026-10-02	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+sndk:ShortTermInvestmentsFairValueDisclosure	70000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+sndk:ShortTermInvestmentsFairValueDisclosure	70000000.0	iso4217:USD	instant=2026-10-02	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+sndk:SpinOffTransactionProRataDistributionOutstandingShares	116035464.0	xbrli:shares	instant=2025-02-21	dei:LegalEntityAxis=sndk:WesternDigitalCorporationMember	0001628280-26-068601	2026-10-30
+sndk:SpinOffTransactionProRataDistributionOutstandingSharesPercentage	0.8009999999999999	xbrli:pure	instant=2025-02-21	dei:LegalEntityAxis=sndk:WesternDigitalCorporationMember	0001628280-26-068601	2026-10-30
+sndk:SpinOffTransactionRightToReceivePerShareRatio	0.33	xbrli:pure	instant=2025-02-21	dei:LegalEntityAxis=sndk:WesternDigitalCorporationMember	0001628280-26-068601	2026-10-30
+sndk:TaxLiabilityIndemnification	112000000.0	iso4217:USD	instant=2025-02-21	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+sndk:TaxLiabilityIndemnification	128000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+sndk:TaxLiabilityIndemnification	128000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+sndk:TaxLiabilityIndemnification	132000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+sndk:TaxLiabilityIndemnification	132000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+sndk:TaxLiabilityIndemnification	132000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+srt:StockRepurchaseProgramAuthorizedAmount1	14000000000.0	iso4217:USD	instant=2026-08-05		0001628280-26-068601	2026-10-30
+srt:StockRepurchaseProgramAuthorizedAmount1	6000000000.0	iso4217:USD	instant=2026-04-30		0001628280-26-068601	2026-10-30
+us-gaap:AccountsPayableCurrent	318000000.0	iso4217:USD	instant=2026-07-03	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=us-gaap:EquityMethodInvesteeMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:AccountsPayableCurrent	392000000.0	iso4217:USD	instant=2026-10-02	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=us-gaap:EquityMethodInvesteeMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:AccountsPayableCurrent	460000000.0	iso4217:USD	instant=2026-07-03	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:AccountsPayableCurrent	516000000.0	iso4217:USD	instant=2026-07-03	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:NonrelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:AccountsPayableCurrent	549000000.0	iso4217:USD	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:AccountsPayableCurrent	736000000.0	iso4217:USD	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:NonrelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:AccountsPayableCurrentAndNoncurrent	143000000.0	iso4217:USD	instant=2026-07-03	srt:CounterpartyNameAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:LongTermPurchaseCommitmentByCategoryOfItemPurchasedAxis=sndk:CertainFlashBasedProductsMember	0001628280-26-068601	2026-10-30
+us-gaap:AccountsPayableCurrentAndNoncurrent	157000000.0	iso4217:USD	instant=2026-10-02	srt:CounterpartyNameAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:LongTermPurchaseCommitmentByCategoryOfItemPurchasedAxis=sndk:CertainFlashBasedProductsMember	0001628280-26-068601	2026-10-30
+us-gaap:AccountsReceivableNetCurrent	4700000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:AccountsReceivableNetCurrent	4708000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:AccountsReceivableNetCurrent	6585000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AccountsReceivableNetCurrent	6600000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AccruedIncomeTaxesCurrent	1286000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:AccruedIncomeTaxesCurrent	1516000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AccruedIncomeTaxesNoncurrent	258000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:AccruedIncomeTaxesNoncurrent	431000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AccruedLiabilitiesCurrent	313000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:AccruedLiabilitiesCurrent	329000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment	1536000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment	1560000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax	-248000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax	-256000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:AdditionalPaidInCapital	10211000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AdditionalPaidInCapital	10879000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue	53000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue	53000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:AdditionalPaidInCapitalMember	0001628280-26-068601	2026-10-30
+us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue	91000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue	91000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:AdditionalPaidInCapitalMember	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	19000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=us-gaap:EmployeeStockMember	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	2000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:AwardTypeAxis=us-gaap:EmployeeStockMember	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	23000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementOfIncomeLocationBalanceAxis=us-gaap:ResearchAndDevelopmentExpense; None=us-gaap:ResearchAndDevelopmentExpense	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	26000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementOfIncomeLocationBalanceAxis=us-gaap:SellingGeneralAndAdministrativeExpense; None=us-gaap:SellingGeneralAndAdministrativeExpense	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	34000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementOfIncomeLocationBalanceAxis=us-gaap:ResearchAndDevelopmentExpense; None=us-gaap:ResearchAndDevelopmentExpense	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	4000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementOfIncomeLocationBalanceAxis=us-gaap:CostOfGoodsAndServicesSold; None=us-gaap:CostOfGoodsAndServicesSold	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	51000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	51000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementOfIncomeLocationBalanceAxis=us-gaap:SellingGeneralAndAdministrativeExpense; None=us-gaap:SellingGeneralAndAdministrativeExpense	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	53000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	53000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	53000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	6000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementOfIncomeLocationBalanceAxis=us-gaap:CostOfGoodsAndServicesSold; None=us-gaap:CostOfGoodsAndServicesSold	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	72000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	91000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	91000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpense	91000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax	47000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax	84000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AmortizationOfFinancingCosts	0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=sndk:TermBLoanMember	0001628280-26-068601	2026-10-30
+us-gaap:AmortizationOfFinancingCosts	2000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=sndk:TermBLoanMember	0001628280-26-068601	2026-10-30
+us-gaap:AmortizationOfFinancingCostsAndDiscounts	1000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AmortizationOfFinancingCostsAndDiscounts	2000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:Assets	22507000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:Assets	25793000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AssetsCurrent	12780000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:AssetsCurrent	15352000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AssetsFairValueDisclosure	0	iso4217:USD	instant=2026-07-03	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+us-gaap:AssetsFairValueDisclosure	0	iso4217:USD	instant=2026-10-02	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+us-gaap:AssetsFairValueDisclosure	4477000000.0	iso4217:USD	instant=2026-10-02	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+us-gaap:AssetsFairValueDisclosure	4549000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:AssetsFairValueDisclosure	4640000000.0	iso4217:USD	instant=2026-07-03	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+us-gaap:AssetsFairValueDisclosure	4646000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:AssetsFairValueDisclosure	6000000.0	iso4217:USD	instant=2026-07-03	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+us-gaap:AssetsFairValueDisclosure	72000000.0	iso4217:USD	instant=2026-10-02	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+us-gaap:CapitalExpendituresIncurredButNotYetPaid	0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:CapitalExpendituresIncurredButNotYetPaid	20000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:CashAndCashEquivalentsAtCarryingValue	4762000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:CashAndCashEquivalentsAtCarryingValue	5136000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:CashAndCashEquivalentsFairValueDisclosure	0	iso4217:USD	instant=2026-07-03	us-gaap:CashAndCashEquivalentsAxis=us-gaap:MoneyMarketFundsMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+us-gaap:CashAndCashEquivalentsFairValueDisclosure	0	iso4217:USD	instant=2026-07-03	us-gaap:CashAndCashEquivalentsAxis=us-gaap:MoneyMarketFundsMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+us-gaap:CashAndCashEquivalentsFairValueDisclosure	0	iso4217:USD	instant=2026-10-02	us-gaap:CashAndCashEquivalentsAxis=us-gaap:MoneyMarketFundsMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+us-gaap:CashAndCashEquivalentsFairValueDisclosure	0	iso4217:USD	instant=2026-10-02	us-gaap:CashAndCashEquivalentsAxis=us-gaap:MoneyMarketFundsMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+us-gaap:CashAndCashEquivalentsFairValueDisclosure	2188000000.0	iso4217:USD	instant=2026-10-02	us-gaap:CashAndCashEquivalentsAxis=us-gaap:MoneyMarketFundsMember	0001628280-26-068601	2026-10-30
+us-gaap:CashAndCashEquivalentsFairValueDisclosure	2188000000.0	iso4217:USD	instant=2026-10-02	us-gaap:CashAndCashEquivalentsAxis=us-gaap:MoneyMarketFundsMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+us-gaap:CashAndCashEquivalentsFairValueDisclosure	2863000000.0	iso4217:USD	instant=2026-07-03	us-gaap:CashAndCashEquivalentsAxis=us-gaap:MoneyMarketFundsMember	0001628280-26-068601	2026-10-30
+us-gaap:CashAndCashEquivalentsFairValueDisclosure	2863000000.0	iso4217:USD	instant=2026-07-03	us-gaap:CashAndCashEquivalentsAxis=us-gaap:MoneyMarketFundsMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents	1442000000.0	iso4217:USD	instant=2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents	1481000000.0	iso4217:USD	instant=2025-06-27		0001628280-26-068601	2026-10-30
+us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents	4762000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents	5136000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect	-39000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect	374000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:CommitmentsAndContingencies	0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:CommitmentsAndContingencies	0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:CommonStockParOrStatedValuePerShare	0.01	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:CommonStockParOrStatedValuePerShare	0.01	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:CommonStockParOrStatedValuePerShare	0.01	iso4217:USD	instant=2026-10-29	us-gaap:SubsequentEventTypeAxis=us-gaap:SubsequentEventMember; us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:CommonStockSharesAuthorized	3600000000.0	xbrli:shares	instant=2026-10-29	us-gaap:SubsequentEventTypeAxis=us-gaap:SubsequentEventMember	0001628280-26-068601	2026-10-30
+us-gaap:CommonStockSharesAuthorized	450000000.0	xbrli:shares	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:CommonStockSharesAuthorized	450000000.0	xbrli:shares	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:CommonStockSharesAuthorized	450000000.0	xbrli:shares	instant=2026-10-28	us-gaap:SubsequentEventTypeAxis=us-gaap:SubsequentEventMember	0001628280-26-068601	2026-10-30
+us-gaap:CommonStockSharesIssued	149000000.0	xbrli:shares	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:CommonStockSharesIssued	150000000.0	xbrli:shares	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:CommonStockSharesOutstanding	144000000.0	xbrli:shares	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:CommonStockSharesOutstanding	146000000.0	xbrli:shares	instant=2025-06-27	us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:CommonStockSharesOutstanding	146000000.0	xbrli:shares	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:CommonStockSharesOutstanding	147000000.0	xbrli:shares	instant=2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:CommonStockSharesOutstanding	149000000.0	xbrli:shares	instant=2026-07-03	us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:CommonStockSharesOutstanding	150000000.0	xbrli:shares	instant=2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:CommonStockValue	1000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:CommonStockValue	2000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ComprehensiveIncomeNetOfTax	127000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:ComprehensiveIncomeNetOfTax	8109000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ConcentrationRiskPercentage1	0.004	xbrli:pure	duration=2026-07-04..2026-10-02	us-gaap:ConcentrationRiskByTypeAxis=us-gaap:ProductConcentrationRiskMember; us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:RevenueFromContractWithCustomerMember; srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:UnisVentureMember	0001628280-26-068601	2026-10-30
+us-gaap:ConcentrationRiskPercentage1	0.01	xbrli:pure	duration=2025-06-28..2026-07-03	us-gaap:ConcentrationRiskByTypeAxis=us-gaap:CustomerConcentrationRiskMember; srt:MajorCustomersAxis=sndk:UnisVentureMember; us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:AccountsReceivableMember	0001628280-26-068601	2026-10-30
+us-gaap:ConcentrationRiskPercentage1	0.013000000000000001	xbrli:pure	duration=2025-06-28..2025-10-03	us-gaap:ConcentrationRiskByTypeAxis=us-gaap:ProductConcentrationRiskMember; us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:RevenueFromContractWithCustomerMember; srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:UnisVentureMember	0001628280-26-068601	2026-10-30
+us-gaap:ConcentrationRiskPercentage1	0.1	xbrli:pure	duration=2025-06-28..2026-07-03	us-gaap:ConcentrationRiskByTypeAxis=us-gaap:CustomerConcentrationRiskMember; srt:MajorCustomersAxis=sndk:Customer3Member; us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:AccountsReceivableMember	0001628280-26-068601	2026-10-30
+us-gaap:ConcentrationRiskPercentage1	0.11	xbrli:pure	duration=2026-07-04..2026-10-02	us-gaap:ConcentrationRiskByTypeAxis=us-gaap:CustomerConcentrationRiskMember; srt:MajorCustomersAxis=sndk:Customer3Member; us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:AccountsReceivableMember	0001628280-26-068601	2026-10-30
+us-gaap:ConcentrationRiskPercentage1	0.12	xbrli:pure	duration=2025-06-28..2026-07-03	us-gaap:ConcentrationRiskByTypeAxis=us-gaap:CustomerConcentrationRiskMember; srt:MajorCustomersAxis=sndk:Customer2Member; us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:AccountsReceivableMember	0001628280-26-068601	2026-10-30
+us-gaap:ConcentrationRiskPercentage1	0.12	xbrli:pure	duration=2026-07-04..2026-10-02	us-gaap:ConcentrationRiskByTypeAxis=us-gaap:CustomerConcentrationRiskMember; srt:MajorCustomersAxis=sndk:CustomerOneMember; us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:RevenueFromContractWithCustomerMember	0001628280-26-068601	2026-10-30
+us-gaap:ConcentrationRiskPercentage1	0.12	xbrli:pure	duration=2026-07-04..2026-10-02	us-gaap:ConcentrationRiskByTypeAxis=us-gaap:CustomerConcentrationRiskMember; srt:MajorCustomersAxis=sndk:CustomerTwoMember; us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:RevenueFromContractWithCustomerMember	0001628280-26-068601	2026-10-30
+us-gaap:ConcentrationRiskPercentage1	0.15	xbrli:pure	duration=2026-07-04..2026-10-02	us-gaap:ConcentrationRiskByTypeAxis=us-gaap:CustomerConcentrationRiskMember; srt:MajorCustomersAxis=sndk:Customer2Member; us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:AccountsReceivableMember	0001628280-26-068601	2026-10-30
+us-gaap:ConcentrationRiskPercentage1	0.16	xbrli:pure	duration=2026-07-04..2026-10-02	us-gaap:ConcentrationRiskByTypeAxis=us-gaap:CustomerConcentrationRiskMember; srt:MajorCustomersAxis=sndk:Customer1Member; us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:AccountsReceivableMember	0001628280-26-068601	2026-10-30
+us-gaap:ConcentrationRiskPercentage1	0.19	xbrli:pure	duration=2025-06-28..2026-07-03	us-gaap:ConcentrationRiskByTypeAxis=us-gaap:CustomerConcentrationRiskMember; srt:MajorCustomersAxis=sndk:Customer1Member; us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:AccountsReceivableMember	0001628280-26-068601	2026-10-30
+us-gaap:ContractWithCustomerLiability	1200000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:ContractWithCustomerLiability	1500000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ContractWithCustomerLiabilityCumulativeCatchUpAdjustmentToRevenueChangeInEstimateOfTransactionPrice	1500000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ContractWithCustomerLiabilityCurrent	777000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ContractWithCustomerLiabilityCurrent	849000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:ContractWithCustomerLiabilityNoncurrent	393000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:ContractWithCustomerLiabilityNoncurrent	752000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ContractWithCustomerLiabilityRevenueRecognized	281000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ContractWithCustomerRefundLiabilityCurrent	1500000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:ContractWithCustomerRefundLiabilityCurrent	1500000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:ContractWithCustomerRefundLiabilityCurrent	1597000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ContractWithCustomerRefundLiabilityCurrent	1600000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:CostOfGoodsAndServicesSold	1621000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:CostOfGoodsAndServicesSold	1653000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:CustomerRefundLiabilityCurrent	20000000.0	iso4217:USD	instant=2026-10-02	srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:UnisVentureMember	0001628280-26-068601	2026-10-30
+us-gaap:DebtInstrumentBasisSpreadOnVariableRate1	0.00375	xbrli:pure	duration=2026-09-09..2026-09-09	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember; us-gaap:VariableRateAxis=us-gaap:BaseRateMember	0001628280-26-068601	2026-10-30
+us-gaap:DebtInstrumentBasisSpreadOnVariableRate1	0.00375	xbrli:pure	duration=2026-09-09..2026-09-09	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember; us-gaap:VariableRateAxis=us-gaap:BaseRateMember	0001628280-26-068601	2026-10-30
+us-gaap:DebtInstrumentBasisSpreadOnVariableRate1	0.01	xbrli:pure	duration=2025-02-21..2025-02-21	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember; us-gaap:VariableRateAxis=us-gaap:BaseRateMember	0001628280-26-068601	2026-10-30
+us-gaap:DebtInstrumentBasisSpreadOnVariableRate1	0.01375	xbrli:pure	duration=2026-09-09..2026-09-09	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember; us-gaap:VariableRateAxis=us-gaap:SecuredOvernightFinancingRateSofrMember	0001628280-26-068601	2026-10-30
+us-gaap:DebtInstrumentBasisSpreadOnVariableRate1	0.01375	xbrli:pure	duration=2026-09-09..2026-09-09	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember; us-gaap:VariableRateAxis=us-gaap:SecuredOvernightFinancingRateSofrMember	0001628280-26-068601	2026-10-30
+us-gaap:DebtInstrumentBasisSpreadOnVariableRate1	0.02	xbrli:pure	duration=2025-02-21..2025-02-21	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember; us-gaap:VariableRateAxis=us-gaap:SecuredOvernightFinancingRateSofrMember	0001628280-26-068601	2026-10-30
+us-gaap:DeferredFinanceCostsNet	7000000.0	iso4217:USD	instant=2026-10-02	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember	0001628280-26-068601	2026-10-30
+us-gaap:DeferredIncomeTaxAssetsNet	66000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:DeferredIncomeTaxAssetsNet	69000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:DeferredIncomeTaxExpenseBenefit	-20000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:DeferredIncomeTaxExpenseBenefit	3000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:DeferredIncomeTaxLiabilitiesNet	144000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:DeferredIncomeTaxLiabilitiesNet	161000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:DepreciationAndAmortization	36000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:DepreciationAndAmortization	43000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:DerivativeAssets	0	iso4217:USD	instant=2026-07-03	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeAssets	0	iso4217:USD	instant=2026-07-03	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeAssets	0	iso4217:USD	instant=2026-10-02	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeAssets	0	iso4217:USD	instant=2026-10-02	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeAssets	2000000.0	iso4217:USD	instant=2026-10-02	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeAssets	2000000.0	iso4217:USD	instant=2026-10-02	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeAssets	6000000.0	iso4217:USD	instant=2026-07-03	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeAssets	6000000.0	iso4217:USD	instant=2026-07-03	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeLiabilities	0	iso4217:USD	instant=2026-07-03	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeLiabilities	0	iso4217:USD	instant=2026-07-03	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeLiabilities	0	iso4217:USD	instant=2026-10-02	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeLiabilities	0	iso4217:USD	instant=2026-10-02	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeLiabilities	2000000.0	iso4217:USD	instant=2026-07-03	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeLiabilities	2000000.0	iso4217:USD	instant=2026-07-03	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeLiabilities	9000000.0	iso4217:USD	instant=2026-10-02	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember	0001628280-26-068601	2026-10-30
+us-gaap:DerivativeLiabilities	9000000.0	iso4217:USD	instant=2026-10-02	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember; us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+us-gaap:DisposalGroupIncludingDiscontinuedOperationConsideration	659000000.0	iso4217:USD	instant=2024-09-28	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+us-gaap:EarningsPerShareBasic	0.1	iso4217:USD	duration=2025-06-28..2025-10-03	srt:StatementScenarioAxis=srt:ProFormaMember	0001628280-26-068601	2026-10-30
+us-gaap:EarningsPerShareBasic	0.77	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:EarningsPerShareBasic	0.77	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:EarningsPerShareBasic	55.49	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:EarningsPerShareBasic	55.49	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:EarningsPerShareBasic	6.94	iso4217:USD	duration=2026-07-04..2026-10-02	srt:StatementScenarioAxis=srt:ProFormaMember	0001628280-26-068601	2026-10-30
+us-gaap:EarningsPerShareDiluted	0.09	iso4217:USD	duration=2025-06-28..2025-10-03	srt:StatementScenarioAxis=srt:ProFormaMember	0001628280-26-068601	2026-10-30
+us-gaap:EarningsPerShareDiluted	0.75	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:EarningsPerShareDiluted	0.75	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:EarningsPerShareDiluted	52.6	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:EarningsPerShareDiluted	52.6	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:EarningsPerShareDiluted	6.58	iso4217:USD	duration=2026-07-04..2026-10-02	srt:StatementScenarioAxis=srt:ProFormaMember	0001628280-26-068601	2026-10-30
+us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents	3000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents	4000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:EffectiveIncomeTaxRateContinuingOperations	0.1	xbrli:pure	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:EffectiveIncomeTaxRateContinuingOperations	0.13	xbrli:pure	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:EmployeeRelatedLiabilitiesCurrent	447000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:EmployeeRelatedLiabilitiesCurrent	657000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized	1298000000.0	iso4217:USD	instant=2026-10-02	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized	1350000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized	52000000.0	iso4217:USD	instant=2026-10-02	us-gaap:AwardTypeAxis=us-gaap:EmployeeStockMember	0001628280-26-068601	2026-10-30
+us-gaap:EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense	6000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense	7000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:EquityMethodInvestmentOwnershipPercentage	0.2	xbrli:pure	instant=2024-09-28	srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member	0001628280-26-068601	2026-10-30
+us-gaap:EquityMethodInvestmentOwnershipPercentage	0.2	xbrli:pure	instant=2024-09-28	srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member	0001628280-26-068601	2026-10-30
+us-gaap:EquityMethodInvestmentOwnershipPercentage	0.2	xbrli:pure	instant=2024-09-28	srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member	0001628280-26-068601	2026-10-30
+us-gaap:EquityMethodInvestmentOwnershipPercentage	0.48	xbrli:pure	instant=2026-10-02	srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:UnisVentureMember	0001628280-26-068601	2026-10-30
+us-gaap:EquityMethodInvestmentOwnershipPercentage	0.48	xbrli:pure	instant=2026-10-02	srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:UnisVentureMember	0001628280-26-068601	2026-10-30
+us-gaap:EquityMethodInvestmentOwnershipPercentage	0.499	xbrli:pure	instant=2026-10-02	srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:FlashVenturesMember	0001628280-26-068601	2026-10-30
+us-gaap:EquityMethodInvestmentOwnershipPercentage	0.52	xbrli:pure	instant=2026-10-02	dei:LegalEntityAxis=sndk:UnissoftWuxiGroupCoLtd.Member; srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:UnisVentureMember	0001628280-26-068601	2026-10-30
+us-gaap:EquityMethodInvestments	168000000.0	iso4217:USD	instant=2026-10-02	srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member	0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFVNINoncurrent	1777000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFVNINoncurrent	2289000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiCurrentAndNoncurrent	0	iso4217:USD	instant=2026-07-03	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiCurrentAndNoncurrent	0	iso4217:USD	instant=2026-07-03	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiCurrentAndNoncurrent	0	iso4217:USD	instant=2026-10-02	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiCurrentAndNoncurrent	0	iso4217:USD	instant=2026-10-02	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiCurrentAndNoncurrent	1777000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiCurrentAndNoncurrent	1777000000.0	iso4217:USD	instant=2026-07-03	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiCurrentAndNoncurrent	2289000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiCurrentAndNoncurrent	2289000000.0	iso4217:USD	instant=2026-10-02	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiUnrealizedGainLoss	-512000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	srt:OwnershipAxis=sndk:NanyaTechnologyCorporationMember	0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiUnrealizedGainLoss	0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiUnrealizedGainLoss	0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiUnrealizedGainLoss	513000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:EquitySecuritiesFvNiUnrealizedGainLoss	513000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ForeignCurrencyTransactionGainLossUnrealized	-1000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:ForeignCurrencyTransactionGainLossUnrealized	15000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:GainLossOnDerivativeInstrumentsNetPretax	-3000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember	0001628280-26-068601	2026-10-30
+us-gaap:GainLossOnDerivativeInstrumentsNetPretax	-7000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:DerivativeInstrumentRiskAxis=us-gaap:ForeignExchangeContractMember	0001628280-26-068601	2026-10-30
+us-gaap:GainLossOnSaleOfBusiness	-10000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:GainLossOnSaleOfBusiness	-10000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:GainLossOnSaleOfBusiness	-10000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+us-gaap:GainLossOnSaleOfBusiness	0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:GainLossOnSaleOfBusiness	0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:Goodwill	4994000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:Goodwill	4995000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:Goodwill	5000000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:Goodwill	5000000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:GoodwillImpairmentLoss	0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:GoodwillImpairmentLoss	0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:GrossProfit	687000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:GrossProfit	9378000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:GuaranteeObligationsMaximumExposure	132000000000.0	iso4217:JPY	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:GuaranteeObligationsMaximumExposure	345000000.0	iso4217:USD	instant=2026-10-02	us-gaap:GuaranteeObligationsByNatureAxis=sndk:PurchaseOptionExercisePriceMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+us-gaap:GuaranteeObligationsMaximumExposure	493000000.0	iso4217:USD	instant=2026-10-02	us-gaap:GuaranteeObligationsByNatureAxis=sndk:PaymentOfPrincipalAmortizationMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+us-gaap:GuaranteeObligationsMaximumExposure	838000000.0	iso4217:USD	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:EquityMethodInvesteeMember	0001628280-26-068601	2026-10-30
+us-gaap:GuaranteeObligationsMaximumExposure	838000000.0	iso4217:USD	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:GuaranteeObligationsMaximumExposure	838000000.0	iso4217:USD	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest	124000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest	124000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest	9319000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest	9319000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncomeLossFromEquityMethodInvestments	-18000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncomeLossFromEquityMethodInvestments	-27000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncomeTaxExpenseBenefit	12000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncomeTaxExpenseBenefit	12000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncomeTaxExpenseBenefit	12000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:IncomeTaxExpenseBenefit	1218000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncomeTaxExpenseBenefit	1218000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncomeTaxExpenseBenefit	1218000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:IncomeTaxesPaidNet	39000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncomeTaxesPaidNet	865000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncomeTaxesReceivable	22000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:IncomeTaxesReceivable	41000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncomeTaxesReceivableNoncurrent	169000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:IncomeTaxesReceivableNoncurrent	186000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInAccountsPayableRelatedParties	86000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInAccountsPayableRelatedParties	89000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInAccountsPayableTrade	197000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInAccountsPayableTrade	30000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInAccountsReceivable	125000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInAccountsReceivable	1877000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInAccruedIncomeTaxesPayable	-40000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInAccruedIncomeTaxesPayable	403000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInAccruedLiabilities	-24000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInAccruedLiabilities	-65000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInContractWithCustomerLiability	-3000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInContractWithCustomerLiability	287000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInEmployeeRelatedLiabilities	-215000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInEmployeeRelatedLiabilities	35000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInInventories	-172000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInInventories	318000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInOtherOperatingCapitalNet	-135000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:IncreaseDecreaseInOtherOperatingCapitalNet	-14000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:InterestExpenseDebt	0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=sndk:TermBLoanMember	0001628280-26-068601	2026-10-30
+us-gaap:InterestExpenseDebt	37000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=sndk:TermBLoanMember	0001628280-26-068601	2026-10-30
+us-gaap:InterestExpenseNonoperating	2000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:InterestExpenseNonoperating	40000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:InterestPaidNet	2000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:InterestPaidNet	48000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:InventoryFinishedGoodsNetOfReserves	344000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:InventoryFinishedGoodsNetOfReserves	447000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:InventoryGross	1279000000.0	iso4217:USD	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:InventoryNet	2698000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:InventoryNet	2698000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:InventoryNet	3016000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:InventoryNet	3016000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:InventoryRawMaterialsAndSuppliesNetOfReserves	1938000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:InventoryRawMaterialsAndSuppliesNetOfReserves	2386000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:InventoryValuationReserves	125000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:InventoryValuationReserves	127000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:InventoryWorkInProcessNetOfReserves	286000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:InventoryWorkInProcessNetOfReserves	313000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:InventoryWriteDown	22000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:InventoryWriteDown	7000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:InvestmentIncomeInterest	16000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:InvestmentIncomeInterest	51000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:Investments	0	iso4217:USD	instant=2026-07-03	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=sndk:FlashForwardLtdMember	0001628280-26-068601	2026-10-30
+us-gaap:Investments	0	iso4217:USD	instant=2026-10-02	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=sndk:FlashForwardLtdMember	0001628280-26-068601	2026-10-30
+us-gaap:Investments	23000000.0	iso4217:USD	instant=2026-10-02	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=sndk:FlashPartnersLtdMember	0001628280-26-068601	2026-10-30
+us-gaap:Investments	25000000.0	iso4217:USD	instant=2026-07-03	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=sndk:FlashPartnersLtdMember	0001628280-26-068601	2026-10-30
+us-gaap:Investments	76000000.0	iso4217:USD	instant=2026-07-03	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=sndk:FlashAllianceLtdMember	0001628280-26-068601	2026-10-30
+us-gaap:Investments	77000000.0	iso4217:USD	instant=2026-10-02	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=sndk:FlashAllianceLtdMember	0001628280-26-068601	2026-10-30
+us-gaap:LesseeOperatingLeaseLiabilityPaymentsDue	297000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths	30000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearFour	23000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearThree	23000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearTwo	27000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:LesseeOperatingLeaseLiabilityPaymentsRemainderOfFiscalYear	28000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:LesseeOperatingLeaseLiabilityUndiscountedExcessAmount	96000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:LettersOfCreditOutstandingAmount	0	iso4217:USD	instant=2026-10-02	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember	0001628280-26-068601	2026-10-30
+us-gaap:Liabilities	6771000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:Liabilities	7659000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:LiabilitiesAndStockholdersEquity	22507000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:LiabilitiesAndStockholdersEquity	25793000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:LiabilitiesCurrent	5581000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:LiabilitiesCurrent	5951000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:LiabilitiesFairValueDisclosure	0	iso4217:USD	instant=2026-07-03	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+us-gaap:LiabilitiesFairValueDisclosure	0	iso4217:USD	instant=2026-07-03	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+us-gaap:LiabilitiesFairValueDisclosure	0	iso4217:USD	instant=2026-10-02	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel1Member	0001628280-26-068601	2026-10-30
+us-gaap:LiabilitiesFairValueDisclosure	0	iso4217:USD	instant=2026-10-02	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel3Member	0001628280-26-068601	2026-10-30
+us-gaap:LiabilitiesFairValueDisclosure	2000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:LiabilitiesFairValueDisclosure	2000000.0	iso4217:USD	instant=2026-07-03	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+us-gaap:LiabilitiesFairValueDisclosure	9000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:LiabilitiesFairValueDisclosure	9000000.0	iso4217:USD	instant=2026-10-02	us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member	0001628280-26-068601	2026-10-30
+us-gaap:LineOfCreditFacilityMaximumBorrowingCapacity	150000000.0	iso4217:USD	instant=2025-02-21	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:LetterOfCreditMember	0001628280-26-068601	2026-10-30
+us-gaap:LineOfCreditFacilityMaximumBorrowingCapacity	1500000000.0	iso4217:USD	instant=2025-02-21	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember	0001628280-26-068601	2026-10-30
+us-gaap:LineOfCreditFacilityMaximumBorrowingCapacity	2000000000.0	iso4217:USD	instant=2025-02-21	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=sndk:TermBLoanMember	0001628280-26-068601	2026-10-30
+us-gaap:LineOfCreditFacilityMaximumBorrowingCapacity	2000000000.0	iso4217:USD	instant=2025-02-21	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=sndk:TermBLoanMember	0001628280-26-068601	2026-10-30
+us-gaap:LineOfCreditFacilityRemainingBorrowingCapacity	1500000000.0	iso4217:USD	instant=2026-10-02	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember	0001628280-26-068601	2026-10-30
+us-gaap:LineOfCreditFacilityUnusedCapacityCommitmentFeePercentage	0.0017499999999999998	xbrli:pure	duration=2026-09-09..2026-09-09	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember	0001628280-26-068601	2026-10-30
+us-gaap:LineOfCreditFacilityUnusedCapacityCommitmentFeePercentage	0.0017499999999999998	xbrli:pure	duration=2026-09-09..2026-09-09	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember	0001628280-26-068601	2026-10-30
+us-gaap:LineOfCreditFacilityUnusedCapacityCommitmentFeePercentage	0.003	xbrli:pure	duration=2025-02-21..2025-02-21	us-gaap:LongtermDebtTypeAxis=us-gaap:LineOfCreditMember; us-gaap:CreditFacilityAxis=us-gaap:RevolvingCreditFacilityMember	0001628280-26-068601	2026-10-30
+us-gaap:LongTermPurchaseCommitmentAmount	550000000.0	iso4217:USD	duration=2024-09-29..2024-09-29	srt:CounterpartyNameAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member	0001628280-26-068601	2026-10-30
+us-gaap:MinorityInterestOwnershipPercentageByNoncontrollingOwners	0.19899999999999998	xbrli:pure	instant=2025-02-22	dei:LegalEntityAxis=sndk:WesternDigitalCorporationMember; srt:OwnershipAxis=sndk:SandiskCorporationMember	0001628280-26-068601	2026-10-30
+us-gaap:NetCashProvidedByUsedInFinancingActivities	-515000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:NetCashProvidedByUsedInFinancingActivities	-5755000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:NetCashProvidedByUsedInInvestingActivities	-15000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:NetCashProvidedByUsedInInvestingActivities	-238000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:NetCashProvidedByUsedInOperatingActivities	488000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:NetCashProvidedByUsedInOperatingActivities	6363000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	112000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	112000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	112000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	112000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	112000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	112000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	srt:StatementScenarioAxis=srt:ProFormaMember	0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	112000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	112000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:RetainedEarningsMember	0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	8101000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	8101000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	8101000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	8101000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	8101000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	8101000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	srt:StatementScenarioAxis=srt:ProFormaMember	0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	8101000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:NetIncomeLoss	8101000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:RetainedEarningsMember	0001628280-26-068601	2026-10-30
+us-gaap:NonoperatingIncomeExpense	-52000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:NonoperatingIncomeExpense	-52000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:NonoperatingIncomeExpense	539000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:NonoperatingIncomeExpense	539000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:NotesReceivableNet	13000000.0	iso4217:USD	instant=2026-07-03	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=sndk:FlashAllianceLtdMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:NotesReceivableNet	21000000.0	iso4217:USD	instant=2026-07-03	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=sndk:FlashPartnersLtdMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:NotesReceivableNet	22000000.0	iso4217:USD	instant=2026-10-02	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=sndk:FlashPartnersLtdMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:NotesReceivableNet	33000000.0	iso4217:USD	instant=2026-10-02	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=sndk:FlashAllianceLtdMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:NotesReceivableNet	543000000.0	iso4217:USD	instant=2026-07-03	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=sndk:FlashForwardLtdMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:NotesReceivableNet	672000000.0	iso4217:USD	instant=2026-10-02	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=sndk:FlashForwardLtdMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:NumberOfOperatingSegments	1	sndk:segment	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:NumberOfReportableSegments	1	sndk:segment	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:NumberOfReportingUnits	1	sndk:reporting_unit	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OperatingExpenses	511000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OperatingExpenses	598000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OperatingIncomeLoss	176000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OperatingIncomeLoss	176000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:OperatingIncomeLoss	8780000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OperatingIncomeLoss	8780000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseCost	11000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseCost	12000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseLiability	201000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseLiability	201000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseLiability	201000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseLiabilityCurrent	23000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseLiabilityCurrent	24000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseLiabilityNoncurrent	177000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseLiabilityNoncurrent	177000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseLiabilityNoncurrent	178000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseLiabilityNoncurrent	178000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeasePayments	10000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeasePayments	10000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseRightOfUseAsset	192000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseRightOfUseAsset	193000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseWeightedAverageDiscountRatePercent	0.073	xbrli:pure	instant=2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OperatingLeaseWeightedAverageDiscountRatePercent	0.07400000000000001	xbrli:pure	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherAssetsCurrent	574000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherAssetsCurrent	590000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherAssetsNoncurrent	1369000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherAssetsNoncurrent	1370000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherCommitment	1200000000.0	iso4217:USD	instant=2026-01-29	us-gaap:OtherCommitmentsAxis=sndk:ExtensionAgreementsMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherCommitment	137000000.0	iso4217:USD	instant=2026-10-02	us-gaap:StatementOfFinancialPositionLocationBalanceAxis=us-gaap:OtherAssetsCurrent; None=us-gaap:OtherAssetsCurrent; us-gaap:OtherCommitmentsAxis=sndk:FutureBuildingDepreciationPaymentsMember; srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:K1K2AndY7FacilitiesMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherCommitment	459000000.0	iso4217:USD	instant=2026-10-02	us-gaap:OtherCommitmentsAxis=sndk:FutureBuildingDepreciationPaymentsMember; srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:FlashVenturesMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherCommitment	698000000.0	iso4217:USD	instant=2026-10-02	us-gaap:StatementOfFinancialPositionLocationBalanceAxis=us-gaap:OtherAssetsNoncurrent; None=us-gaap:OtherAssetsNoncurrent; us-gaap:OtherCommitmentsAxis=sndk:FutureBuildingDepreciationPaymentsMember; srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:K1K2AndY7FacilitiesMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherCommitment	835000000.0	iso4217:USD	instant=2026-10-02	us-gaap:OtherCommitmentsAxis=sndk:FutureBuildingDepreciationPaymentsMember; srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:K1K2AndY7FacilitiesMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherCommitmentDueInNextTwelveMonths	253000000.0	iso4217:USD	instant=2026-10-02	us-gaap:OtherCommitmentsAxis=sndk:FutureBuildingDepreciationPaymentsMember; srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:FlashVenturesMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherCommitmentDueInSecondYear	71000000.0	iso4217:USD	instant=2026-10-02	us-gaap:OtherCommitmentsAxis=sndk:FutureBuildingDepreciationPaymentsMember; srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:FlashVenturesMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherCommitmentDueInThirdYear	31000000.0	iso4217:USD	instant=2026-10-02	us-gaap:OtherCommitmentsAxis=sndk:FutureBuildingDepreciationPaymentsMember; srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:FlashVenturesMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherCommitmentsFutureMinimumPaymentsRemainderOfFiscalYear	104000000.0	iso4217:USD	instant=2026-10-02	us-gaap:OtherCommitmentsAxis=sndk:FutureBuildingDepreciationPaymentsMember; srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=sndk:FlashVenturesMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossBeforeTaxPortionAttributableToParent	25000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossBeforeTaxPortionAttributableToParent	8000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossBeforeTaxPortionAttributableToParent	8000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedTranslationAdjustmentMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationBeforeTax	0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationBeforeTax	0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedOtherComprehensiveIncomeMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationBeforeTax	29000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationBeforeTax	29000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedOtherComprehensiveIncomeMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossBeforeReclassificationAndTax	0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossBeforeReclassificationAndTax	39000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentBeforeTax	-14000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentBeforeTax	-14000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentBeforeTax	-14000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedOtherComprehensiveIncomeMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentBeforeTax	8000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentBeforeTax	8000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentBeforeTax	8000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedOtherComprehensiveIncomeMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent	15000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent	8000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent	8000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedTranslationAdjustmentMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossTaxPortionAttributableToParent1	0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossTaxPortionAttributableToParent1	0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedTranslationAdjustmentMember	0001628280-26-068601	2026-10-30
+us-gaap:OtherComprehensiveIncomeLossTaxPortionAttributableToParent1	10000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherLiabilitiesNoncurrent	378000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherLiabilitiesNoncurrent	378000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherLiabilitiesNoncurrent	381000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherLiabilitiesNoncurrent	381000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherNonoperatingIncomeExpense	-23000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:OtherNonoperatingIncomeExpense	-28000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherOperatingActivitiesCashFlowStatement	-6000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:OtherOperatingActivitiesCashFlowStatement	4000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PaymentsForRepurchaseOfCommonStock	0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:PaymentsForRepurchaseOfCommonStock	5000000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PaymentsOfDividends	1500000000.0	iso4217:USD	duration=2025-02-21..2025-02-21	srt:CounterpartyNameAxis=sndk:WesternDigitalCorporationMember	0001628280-26-068601	2026-10-30
+us-gaap:PaymentsRelatedToTaxWithholdingForShareBasedCompensation	15000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:PaymentsRelatedToTaxWithholdingForShareBasedCompensation	755000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PaymentsToAcquireEquityMethodInvestments	900000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=us-gaap:EquityMethodInvesteeMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:PaymentsToAcquireEquityMethodInvestments	941000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:AccountsNotesLoansAndFinancingReceivablesByLegalEntityOfCounterpartyTypeAxis=us-gaap:EquityMethodInvesteeMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:PaymentsToAcquireNotesReceivable	151000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PaymentsToAcquireNotesReceivable	87000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:PaymentsToAcquirePropertyPlantAndEquipment	50000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:PaymentsToAcquirePropertyPlantAndEquipment	54000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PaymentsToAcquireShortTermInvestments	0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:PaymentsToAcquireShortTermInvestments	70000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ProceedsFromCollectionOfNotesReceivable	3000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ProceedsFromCollectionOfNotesReceivable	97000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:ProceedsFromDivestitureOfBusinesses	25000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:ProceedsFromDivestitureOfBusinesses	34000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ProceedsFromDivestitureOfBusinesses	536000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member; us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember	0001628280-26-068601	2026-10-30
+us-gaap:ProceedsFromInterestReceived	16000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:ProceedsFromInterestReceived	51000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	1564000000.0	iso4217:USD	instant=2026-07-03	us-gaap:PropertyPlantAndEquipmentByTypeAxis=us-gaap:MachineryAndEquipmentMember	0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	1597000000.0	iso4217:USD	instant=2026-10-02	us-gaap:PropertyPlantAndEquipmentByTypeAxis=us-gaap:MachineryAndEquipmentMember	0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	176000000.0	iso4217:USD	instant=2026-07-03	us-gaap:PropertyPlantAndEquipmentByTypeAxis=sndk:ComputerEquipmentandSoftwareMember	0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	18000000.0	iso4217:USD	instant=2026-07-03	us-gaap:PropertyPlantAndEquipmentByTypeAxis=us-gaap:FurnitureAndFixturesMember	0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	183000000.0	iso4217:USD	instant=2026-10-02	us-gaap:PropertyPlantAndEquipmentByTypeAxis=sndk:ComputerEquipmentandSoftwareMember	0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	19000000.0	iso4217:USD	instant=2026-10-02	us-gaap:PropertyPlantAndEquipmentByTypeAxis=us-gaap:FurnitureAndFixturesMember	0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	2210000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	2265000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	397000000.0	iso4217:USD	instant=2026-07-03	us-gaap:PropertyPlantAndEquipmentByTypeAxis=us-gaap:BuildingAndBuildingImprovementsMember	0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	404000000.0	iso4217:USD	instant=2026-10-02	us-gaap:PropertyPlantAndEquipmentByTypeAxis=us-gaap:BuildingAndBuildingImprovementsMember	0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	46000000.0	iso4217:USD	instant=2026-07-03	us-gaap:PropertyPlantAndEquipmentByTypeAxis=us-gaap:ConstructionInProgressMember	0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	53000000.0	iso4217:USD	instant=2026-10-02	us-gaap:PropertyPlantAndEquipmentByTypeAxis=us-gaap:ConstructionInProgressMember	0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	9000000.0	iso4217:USD	instant=2026-07-03	us-gaap:PropertyPlantAndEquipmentByTypeAxis=us-gaap:LandMember	0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentGross	9000000.0	iso4217:USD	instant=2026-10-02	us-gaap:PropertyPlantAndEquipmentByTypeAxis=us-gaap:LandMember	0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentNet	674000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentNet	674000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentNet	705000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PropertyPlantAndEquipmentNet	705000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PurchaseObligation	6794000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PurchaseObligationDueInFourthYear	20000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PurchaseObligationDueInNextTwelveMonths	1986000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PurchaseObligationDueInSecondYear	2271000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PurchaseObligationDueInThirdYear	1038000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:PurchaseObligationFutureMinimumPaymentsRemainderOfFiscalYear	1408000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:RelatedPartyTransactionAmountsOfTransaction	0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:RelatedPartyTransactionAxis=sndk:ReimbursementOfShortTermEmployeeIncentivesMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:RelatedPartyTransactionAmountsOfTransaction	22000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:RelatedPartyTransactionAxis=sndk:ReimbursementOfShortTermEmployeeIncentivesMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:RelatedPartyTransactionAmountsOfTransaction	88000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:RelatedPartyTransactionAxis=sndk:ResearchAndDevelopmentCommitmentsMember; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:RepaymentsOfDebt	0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:RepaymentsOfDebt	500000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:ResearchAndDevelopmentExpense	316000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:ResearchAndDevelopmentExpense	384000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:RestructuringCharges	-3000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:RestructuringCharges	0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:RetainedEarningsAccumulatedDeficit	17750000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:RetainedEarningsAccumulatedDeficit	9649000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	11031000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	11031000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	11031000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	11031000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	1387000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	srt:ProductOrServiceAxis=sndk:EdgeMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	1515000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	srt:StatementGeographicalAxis=srt:AsiaMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	2308000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	2308000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	2308000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	2308000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	269000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	srt:ProductOrServiceAxis=sndk:DatacenterMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	3257000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	srt:StatementGeographicalAxis=srt:AmericasMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	387000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	srt:StatementGeographicalAxis=us-gaap:EMEAMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	397000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	srt:ProductOrServiceAxis=sndk:ConsumerMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	406000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	srt:StatementGeographicalAxis=srt:AmericasMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	4802000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	srt:ProductOrServiceAxis=sndk:DatacenterMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	558000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	srt:StatementGeographicalAxis=us-gaap:EMEAMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	5832000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	srt:ProductOrServiceAxis=sndk:EdgeMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	652000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	srt:ProductOrServiceAxis=sndk:ConsumerMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax	7216000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	srt:StatementGeographicalAxis=srt:AsiaMember	0001628280-26-068601	2026-10-30
+us-gaap:RevenueRemainingPerformanceObligation	88900000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:RevenueRemainingPerformanceObligationPercentage	0.2	xbrli:pure	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability	2000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability	6000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:SegmentReportingOtherItemAmount	0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:SegmentReportingOtherItemAmount	16000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementBusinessSegmentsAxis=sndk:ReportableSegmentMember	0001628280-26-068601	2026-10-30
+us-gaap:SellingGeneralAndAdministrativeExpense	179000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:SellingGeneralAndAdministrativeExpense	214000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensation	53000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensation	91000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod	0	xbrli:shares	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeituresWeightedAverageGrantDateFairValue	62.05	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod	1000000.0	xbrli:shares	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=us-gaap:PerformanceSharesMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod	400000.0	xbrli:shares	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue	1652.24	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedNumber	4000000.0	xbrli:shares	instant=2026-10-02	us-gaap:AwardTypeAxis=us-gaap:PerformanceSharesMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedNumber	5700000.0	xbrli:shares	instant=2026-10-02	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedNumber	6600000.0	xbrli:shares	instant=2026-07-03	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedWeightedAverageGrantDateFairValue	0	iso4217:USD	instant=2026-10-02	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedWeightedAverageGrantDateFairValue	53.99	iso4217:USD	instant=2026-07-03	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod	1300000.0	xbrli:shares	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodTotalFairValue	2700000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodTotalFairValue	48000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodWeightedAverageGrantDateFairValue	44.49	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAuthorized	24000000.0	xbrli:shares	instant=2026-10-02	us-gaap:PlanNameAxis=sndk:A2025LongTermIncentivePlanMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAuthorized	4000000.0	xbrli:shares	instant=2026-10-02	us-gaap:AwardTypeAxis=us-gaap:EmployeeStockMember	0001628280-26-068601	2026-10-30
+us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardPlanModificationIncrementalCompensationCost	3000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:ShareRepurchaseProgramExciseTaxPayable	0	iso4217:USD	instant=2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:ShareRepurchaseProgramExciseTaxPayable	47000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardPurchasePriceOfCommonStockPercent	0.9500000000000001	xbrli:pure	duration=2026-07-04..2026-10-02	us-gaap:AwardTypeAxis=us-gaap:EmployeeStockMember	0001628280-26-068601	2026-10-30
+us-gaap:StandardProductWarrantyAccrual	40000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StandardProductWarrantyAccrual	40000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StandardProductWarrantyAccrual	48000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:StandardProductWarrantyAccrual	48000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:StandardProductWarrantyAccrualCurrent	19000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StandardProductWarrantyAccrualCurrent	23000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:StandardProductWarrantyAccrualNoncurrent	21000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StandardProductWarrantyAccrualNoncurrent	25000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:StandardProductWarrantyAccrualPayments	4000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StandardProductWarrantyAccrualPreexistingIncreaseDecrease	-11000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StandardProductWarrantyAccrualWarrantiesIssued	7000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StockGrantedDuringPeriodValueSharebasedCompensation	-15000000.0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:StockGrantedDuringPeriodValueSharebasedCompensation	-15000000.0	iso4217:USD	duration=2025-06-28..2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:AdditionalPaidInCapitalMember	0001628280-26-068601	2026-10-30
+us-gaap:StockGrantedDuringPeriodValueSharebasedCompensation	-758000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StockGrantedDuringPeriodValueSharebasedCompensation	-759000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:AdditionalPaidInCapitalMember	0001628280-26-068601	2026-10-30
+us-gaap:StockIssuedDuringPeriodSharesShareBasedCompensation	1000000.0	xbrli:shares	duration=2025-06-28..2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:StockIssuedDuringPeriodSharesShareBasedCompensation	1000000.0	xbrli:shares	duration=2026-07-04..2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:StockRepurchaseProgramRemainingAuthorizedRepurchaseAmount1	10500000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StockRepurchasedDuringPeriodShares	3000000.0	xbrli:shares	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StockRepurchasedDuringPeriodValue	5000000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	-1672000000.0	iso4217:USD	instant=2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:RetainedEarningsMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	-1784000000.0	iso4217:USD	instant=2025-06-27	us-gaap:StatementEquityComponentsAxis=us-gaap:RetainedEarningsMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	-234000000.0	iso4217:USD	instant=2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedOtherComprehensiveIncomeMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	-248000000.0	iso4217:USD	instant=2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedOtherComprehensiveIncomeMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	-248000000.0	iso4217:USD	instant=2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedTranslationAdjustmentMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	-249000000.0	iso4217:USD	instant=2025-06-27	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedOtherComprehensiveIncomeMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	-256000000.0	iso4217:USD	instant=2026-07-03	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedOtherComprehensiveIncomeMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	-256000000.0	iso4217:USD	instant=2026-07-03	us-gaap:StatementEquityComponentsAxis=us-gaap:AccumulatedTranslationAdjustmentMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	-4537000000.0	iso4217:USD	instant=2026-07-03	us-gaap:StatementEquityComponentsAxis=us-gaap:TreasuryStockCommonMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	-9581000000.0	iso4217:USD	instant=2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:TreasuryStockCommonMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	0	iso4217:USD	instant=2025-06-27	us-gaap:StatementEquityComponentsAxis=us-gaap:TreasuryStockCommonMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	0	iso4217:USD	instant=2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:TreasuryStockCommonMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	1000000.0	iso4217:USD	instant=2025-06-27	us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	1000000.0	iso4217:USD	instant=2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	1000000.0	iso4217:USD	instant=2026-07-03	us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	10211000000.0	iso4217:USD	instant=2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:AdditionalPaidInCapitalMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	10879000000.0	iso4217:USD	instant=2026-07-03	us-gaap:StatementEquityComponentsAxis=us-gaap:AdditionalPaidInCapitalMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	11248000000.0	iso4217:USD	instant=2025-06-27	us-gaap:StatementEquityComponentsAxis=us-gaap:AdditionalPaidInCapitalMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	11286000000.0	iso4217:USD	instant=2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:AdditionalPaidInCapitalMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	15736000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	15736000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	17750000000.0	iso4217:USD	instant=2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:RetainedEarningsMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	18134000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	18134000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	2000000.0	iso4217:USD	instant=2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	9216000000.0	iso4217:USD	instant=2025-06-27		0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	9381000000.0	iso4217:USD	instant=2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquity	9649000000.0	iso4217:USD	instant=2026-07-03	us-gaap:StatementEquityComponentsAxis=us-gaap:RetainedEarningsMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquityNoteStockSplitConversionRatio1	7	xbrli:pure	duration=2026-11-19..2026-11-19	srt:StatementScenarioAxis=srt:ScenarioForecastMember; us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:StockholdersEquityNoteStockSplitConversionRatio1	8	xbrli:pure	duration=2026-10-29..2026-10-29	us-gaap:SubsequentEventTypeAxis=us-gaap:SubsequentEventMember; us-gaap:StatementEquityComponentsAxis=us-gaap:CommonStockMember	0001628280-26-068601	2026-10-30
+us-gaap:TreasuryStockCommonShares	0	xbrli:shares	instant=2025-06-27	us-gaap:StatementEquityComponentsAxis=us-gaap:TreasuryStockCommonMember	0001628280-26-068601	2026-10-30
+us-gaap:TreasuryStockCommonShares	0	xbrli:shares	instant=2025-10-03	us-gaap:StatementEquityComponentsAxis=us-gaap:TreasuryStockCommonMember	0001628280-26-068601	2026-10-30
+us-gaap:TreasuryStockCommonShares	3000000.0	xbrli:shares	instant=2026-07-03	us-gaap:StatementEquityComponentsAxis=us-gaap:TreasuryStockCommonMember	0001628280-26-068601	2026-10-30
+us-gaap:TreasuryStockCommonShares	6000000.0	xbrli:shares	instant=2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:TreasuryStockCommonMember	0001628280-26-068601	2026-10-30
+us-gaap:TreasuryStockCommonValue	4537000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:TreasuryStockCommonValue	9581000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:TreasuryStockSharesAcquired	3000000.0	xbrli:shares	duration=2026-07-04..2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:TreasuryStockCommonMember	0001628280-26-068601	2026-10-30
+us-gaap:TreasuryStockValueAcquiredCostMethod	0	iso4217:USD	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:TreasuryStockValueAcquiredCostMethod	5044000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:TreasuryStockValueAcquiredCostMethod	5044000000.0	iso4217:USD	duration=2026-07-04..2026-10-02	us-gaap:StatementEquityComponentsAxis=us-gaap:TreasuryStockCommonMember	0001628280-26-068601	2026-10-30
+us-gaap:UnbilledContractsReceivable	87400000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:UnrecognizedTaxBenefits	323000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:UnrecognizedTaxBenefits	323000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:UnrecognizedTaxBenefits	350000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:UnrecognizedTaxBenefits	350000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions	0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestAccrued	16000000.0	iso4217:USD	instant=2026-07-03		0001628280-26-068601	2026-10-30
+us-gaap:UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestAccrued	17000000.0	iso4217:USD	instant=2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:UnrecognizedTaxBenefitsIncreasesResultingFromCurrentPeriodTaxPositions	24000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions	3000000.0	iso4217:USD	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:VariableInterestEntityEntityMaximumLossExposureAmount	100000000.0	iso4217:USD	instant=2026-10-02	us-gaap:StatementOfFinancialPositionLocationBalanceAxis=us-gaap:EquitySecuritiesFVNINoncurrent; None=us-gaap:EquitySecuritiesFVNINoncurrent; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:VariableInterestEntityEntityMaximumLossExposureAmount	2944000000.0	iso4217:USD	instant=2026-10-02	us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:VariableInterestEntityEntityMaximumLossExposureAmount	727000000.0	iso4217:USD	instant=2026-10-02	us-gaap:StatementOfFinancialPositionLocationBalanceAxis=sndk:NotesReceivableAndInvestmentsInRelatedPartiesNoncurrent; None=sndk:NotesReceivableAndInvestmentsInRelatedPartiesNoncurrent; us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember	0001628280-26-068601	2026-10-30
+us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding	1192000000.0	xbrli:shares	duration=2025-06-28..2025-10-03	srt:StatementScenarioAxis=srt:ProFormaMember	0001628280-26-068601	2026-10-30
+us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding	1232000000.0	xbrli:shares	duration=2026-07-04..2026-10-02	srt:StatementScenarioAxis=srt:ProFormaMember	0001628280-26-068601	2026-10-30
+us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding	149000000.0	xbrli:shares	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding	149000000.0	xbrli:shares	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding	154000000.0	xbrli:shares	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding	154000000.0	xbrli:shares	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:WeightedAverageNumberOfSharesOutstandingBasic	1168000000.0	xbrli:shares	duration=2025-06-28..2025-10-03	srt:StatementScenarioAxis=srt:ProFormaMember	0001628280-26-068601	2026-10-30
+us-gaap:WeightedAverageNumberOfSharesOutstandingBasic	1168000000.0	xbrli:shares	duration=2026-07-04..2026-10-02	srt:StatementScenarioAxis=srt:ProFormaMember	0001628280-26-068601	2026-10-30
+us-gaap:WeightedAverageNumberOfSharesOutstandingBasic	146000000.0	xbrli:shares	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:WeightedAverageNumberOfSharesOutstandingBasic	146000000.0	xbrli:shares	duration=2025-06-28..2025-10-03		0001628280-26-068601	2026-10-30
+us-gaap:WeightedAverageNumberOfSharesOutstandingBasic	146000000.0	xbrli:shares	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
+us-gaap:WeightedAverageNumberOfSharesOutstandingBasic	146000000.0	xbrli:shares	duration=2026-07-04..2026-10-02		0001628280-26-068601	2026-10-30
