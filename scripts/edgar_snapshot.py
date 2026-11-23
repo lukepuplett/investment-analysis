@@ -254,14 +254,27 @@ def latest_quarter_shares(facts: dict, tags: tuple, period_end: str) -> dict:
 
 
 def yahoo_close(ticker: str) -> dict:
-    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?range=5d&interval=1d"
+    """Last regular close plus any stock splits in the last two years (Yahoo prices are split-adjusted, filing share counts are not)."""
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?range=2y&interval=1d&events=split"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
         res = json.load(r)["chart"]["result"][0]
     closes = [(t, c) for t, c in zip(res["timestamp"], res["indicators"]["quote"][0]["close"]) if c is not None]
     t, c = closes[-1]
+    splits = sorted(({"date": dt.datetime.fromtimestamp(v["date"], dt.timezone.utc).strftime("%Y-%m-%d"),
+                      "ratio": v["numerator"] / v["denominator"]} for v in res.get("events", {}).get("split", res.get("events", {}).get("splits", {})).values()),
+                    key=lambda x: x["date"]) if res.get("events") else []
     return {"price": c, "date": dt.datetime.fromtimestamp(t, dt.timezone.utc).strftime("%Y-%m-%d"),
-            "source": "Yahoo Finance chart API, last regular close", "currency": res["meta"].get("currency")}
+            "source": "Yahoo Finance chart API, last regular close (split-adjusted)", "currency": res["meta"].get("currency"), "splits": splits}
+
+
+def split_factor(px: dict, after: str | None) -> float:
+    """Product of split ratios dated after `after` (a share count taken before a split must be scaled to today's basis)."""
+    f = 1.0
+    for sp in px.get("splits", []):
+        if after and sp["date"] > after:
+            f *= sp["ratio"]
+    return f
 
 
 def label(ix, filing: dict) -> tuple[str, str]:
@@ -374,7 +387,10 @@ def main() -> int:
         if a.price:
             px = yahoo_close(a.ticker)
             inputs["price"] = px
-            shares = {"cover_total": cover["total"], "diluted_weighted": wa.get("value")}
+            f_cover = split_factor(px, cover.get("as_of")); f_dil = split_factor(px, f["filed"])
+            shares = {"cover_total": (cover["total"] or 0) * f_cover or None, "diluted_weighted": (wa.get("value") or 0) * f_dil or None}
+            inputs["split_adjustment"] = {"splits_found": px["splits"], "factor_cover_shares": f_cover, "factor_diluted_shares": f_dil,
+                                          "note": "Share counts in the filing are as of the cover date / filing date; shares are scaled by splits dated after those so they match the split-adjusted price."}
             ratios = {}
             if px.get("currency") and rev.get("unit") and px["currency"] != rev["unit"]:
                 inputs["ratios_skipped"] = f"currency mismatch: financials in {rev['unit']}, price in {px['currency']}; convert before computing ratios"
@@ -399,6 +415,9 @@ def main() -> int:
     print(f"  diluted WASO   {wa.get('value')}")
     if a.price:
         print(f"  price {inputs['price']['price']} on {inputs['price']['date']}")
+        sa = inputs["split_adjustment"]
+        if sa["factor_cover_shares"] != 1.0 or sa["factor_diluted_shares"] != 1.0:
+            print(f"  WARNING: split after the filing {[x for x in sa['splits_found']]}: shares scaled x{sa['factor_cover_shares']:g} (cover) / x{sa['factor_diluted_shares']:g} (diluted) before computing ratios")
         if "ratios_skipped" in inputs:
             print("  ratios skipped:", inputs["ratios_skipped"])
         for k, v in inputs["ratios"].items():

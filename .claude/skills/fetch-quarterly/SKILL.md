@@ -37,6 +37,7 @@ It writes, with the repo's `YYYY_Q#_` names (fiscal labels from the filing's cov
 - **TTM** = latest fiscal year − prior-year YTD + current YTD, from facts deduplicated by period with the latest filing winning (later filings restate and re-round, so a figure can move by 1m). Q4 is never a reported quarter.
 - **Shares:** the cover-page count is per class and is absent from the `companyfacts` feed for multi-class companies, so the script reads it from the document. Report both bases (cover total and diluted weighted average) and say which one a figure uses. They can differ a lot (SMCI: 659m vs 749m).
 - **You must still:** read the balance sheet for debt and lease balances (tag names vary; the JSON lists candidates, and the maturity ladder is in the facts TSV), and compute EV/Sales from them with the working shown. P/S alone flatters leveraged companies (CRWV: P/S 2.2x, EV/Sales about 6.4x).
+- **Stock splits:** Yahoo prices are split-adjusted but filing share counts are not, so the script scales shares by any split dated after the cover date (cover shares) or the filing date (diluted shares) and prints a WARNING when it does. SNDK's 8-for-1 split on 20 Nov 2026 made the unadjusted P/E 0.7.
 - **Negative earnings:** P/E is `n/m`, never a negative number.
 
 ## Other kinds of company
