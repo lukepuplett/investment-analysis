@@ -6,6 +6,8 @@
 
 **Supplement (2026-11-06):** [Platform and pipeline notes](analysis/2026_11_platform_and_pipeline_notes.md) — mechanism vs gene-silencing RNA modalities, FDA/EMA anchors for flu/RSV labeling pages, CMV congenital program discontinuation, terminated MMA study, evidence-stage caveats for INT, and risks (manufacturing, competition, funding). Keeps the September 2026 analysis files as the baseline snapshot.
 
+**Notes (2026-11-23):** [Profitability and intismeran timing](analysis/2026_11_23_profitability_and_intismeran_timing.md): Q3 was a one-quarter profit, BLA targeted end-2026, approval H2 2027 at the earliest, existing products alone unlikely to sustain profit.
+
 ## BLUF
 
 **WATCH / selective ACCUMULATE on pullbacks — do not chase the post–Phase 3 spike blind.**
