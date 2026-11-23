@@ -5,7 +5,7 @@ Held: yes, a large position (per Luke, 29 Oct 2026).
 ## 2026-10-29 — after Q3 2026 results
 
 - Market: on track for its biggest post-earnings drop on record, over −13% intraday and about −$520B of market cap (Kobeissi, unverified). See diary/2026-10.md.
-- Results (see 2026-10-Q3-delta.md and the call transcript in quarterly/): revenue $127.58B (+25%); Search +12% to $63B, with FX "the single largest driver" of the slowdown and most AI Mode queries incremental; Google Cloud $30.7B (+103%), $11.1B operating income (about 36% margin), $561B backlog; capex $51.4B, FCF −$9.1B; 2026 capex guide $195–205B, 2027 to "increase significantly"; TPU revenue to ramp meaningfully in 2027; Gemini app 1B users. EPS $2.12 vs about $3.01 expected, mostly an −$8.2B other-income swing from an unrealized loss on the SpaceX stake.
+- Results (see analysis/2026_10_delta_analysis.md and the call transcript in quarterly/): revenue $127.58B (+25%); Search +12% to $63B, with FX "the single largest driver" of the slowdown and most AI Mode queries incremental; Google Cloud $30.7B (+103%), $11.1B operating income (about 36% margin), $561B backlog; capex $51.4B, FCF −$9.1B; 2026 capex guide $195–205B, 2027 to "increase significantly"; TPU revenue to ramp meaningfully in 2027; Gemini app 1B users. EPS $2.12 vs about $3.01 expected, mostly an −$8.2B other-income swing from an unrealized loss on the SpaceX stake.
 - Bilello chart: 25% revenue growth is the fastest since the 2021 spike, accelerating for about five quarters from 12% in 2025.
 - Cloud vs Azure this quarter: Google Cloud +103% on $30.7B (includes Workspace) vs Azure +48% on $33.2B; Microsoft commercial RPO $677B (+73%).
 

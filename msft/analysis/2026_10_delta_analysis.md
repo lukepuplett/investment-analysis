@@ -16,7 +16,7 @@ Source: Microsoft 8-K Ex 99.1 filed 28 Oct 2026 ([EDGAR](https://www.sec.gov/Arc
 - Windows OEM −22% is the weak spot (PC cycle). Guidance was on the call; not captured here.
 - Thesis unchanged. Hold/trim is Luke's call.
 
-Call transcript: [quarterly/2027_Q1_earnings_call_transcript.txt](quarterly/2027_Q1_earnings_call_transcript.txt) (full transcript, Motley Fool)
+Call transcript: [quarterly/2027_Q1_earnings_call_transcript.txt](../quarterly/2027_Q1_earnings_call_transcript.txt) (full transcript, Motley Fool)
 
 ## Call highlights (verbatim)
 - **Azure capacity.** Amy Hood: "Customer demand continues to exceed available supply." / "Azure revenue was ahead of expectations and increased 48%, even with the 3P capacity delays noted earlier, driven by Foundry and improved CPU monetization." / "we had some supply we were counting on Q2 move out into H2."

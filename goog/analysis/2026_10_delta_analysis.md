@@ -18,7 +18,7 @@ Source: Alphabet 8-K Ex 99.1 filed 28 Oct 2026 ([EDGAR](https://www.sec.gov/Arch
 - Watch: negative FCF from capex; identify the other-income loss (likely equity-security marks) in the 10-Q.
 - Thesis unchanged. Hold/trim is Luke's call.
 
-Call transcript: [quarterly/2026_Q3_earnings_call_transcript.txt](quarterly/2026_Q3_earnings_call_transcript.txt) (full transcript, Motley Fool)
+Call transcript: [quarterly/2026_Q3_earnings_call_transcript.txt](../quarterly/2026_Q3_earnings_call_transcript.txt) (full transcript, Motley Fool)
 
 ## Call highlights (verbatim)
 - **Search slowdown / AI cannibalisation.** Philipp Schindler: "in Q3, Search grew 12% year-over-year to $63 billion... FX. It was the single largest driver of Search deceleration relative to Q2." / "the strong growth in AI Mode queries had an impact because of the lower monetization we were seeing in AI Mode." (The 15% estimate was not mentioned on the call.)

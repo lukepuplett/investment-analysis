@@ -7,7 +7,7 @@
 **Founded**: 2019 (public via SPAC/IPO 2022)  
 **Employees**: ~94  
 **Principal executive**: Dmitri Nikitin (founder), Executive Chairman from 12 Oct 2026. Wayne Tupuola was on health leave from June 2026 (Ann Tewari interim President) and resigned as CEO effective 13 Oct 2026  
-**CFO**: Timothy A. Peterman (acting from 8 Sep 2026, permanent from 6 Oct 2026). Q3 2026 results due 12 Nov 2026 BMO; see `2026-11-pre-Q3-update.md`
+**CFO**: Timothy A. Peterman (acting from 8 Sep 2026, permanent from 6 Oct 2026). Q3 2026 results due 12 Nov 2026 BMO; see `analysis/2026_11_pre_q3_update.md`
 
 Laser Photonics is a micro-cap industrial laser systems company specializing in eco-friendly alternatives to traditional methods like sandblasting, abrasives, and chemicals.
 
