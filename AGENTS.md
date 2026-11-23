@@ -1249,6 +1249,20 @@ See the following dedicated documents for complete information:
 - **Primary 10-Q file:** Resolve **`primaryDocument`** from **`data.sec.gov/submissions/CIK….json`**, build **`Archives`** URL (hyphen-free accession segment), **`curl -L -o`** with a descriptive **`User-Agent`** — see **[README.md](README.md)** (*Downloading the primary 10-Q iXBRL `.htm` with curl*).
 - **iXBRL fact extraction:** Treat filings as **tagged fact databases**, not finished statements — always interpret with **context** (period + dimensions). Prefer **ixbrlparse** + **[README.md](README.md)** checklist; **`scripts/export_ixbrl_readable.py`** for TSV/JSON. **Arelle** remains documented for DTS-heavy cases but **`--facts` output failed smoke tests** on sample primary `.htm` — see README **Arelle caveat**. Ad hoc: **lxml/ElementTree** on `ix:hidden` / inline tags when you only need a few concepts.
 
+### Known Gotchas (things that have caught us out)
+
+Check these before writing a ratio, a market cap or a data-source claim into the repo. If a multiple looks implausible (a P/E under about 2 or over about 500, a market cap far from the news), stop and find the cause before recording it.
+
+- **Stock splits.** Yahoo prices are split-adjusted; share counts in a filing are not. A split after the filing makes market cap and P/E wrong by the split ratio (SNDK, 8-for-1 on 20 Nov 2026, showed a P/E of 0.7). `scripts/edgar_snapshot.py` now scales for this and prints a WARNING; check for splits when computing by hand.
+- **Share basis.** Cover-page shares and diluted weighted-average shares differ (SMCI 659m vs 749m). Say which one a figure uses. Multi-class companies (CRWV, DDOG) have no cover-page count in the `companyfacts` feed; read it from the filing.
+- **TTM.** Q4 is never a reported quarter: derive it as the full year less nine months. The `companyfacts` feed repeats each period across filings with different rounding; keep the latest filing.
+- **Right filing, right period.** Check the period on page one of any filing downloaded from an IR site or a PDF (a Q2 10-Q was once mistaken for Q3). The script does this check for EDGAR downloads.
+- **Currency and staleness.** A 20-F is annual only, in the company's currency (ASML reports in EUR, the price is in USD). Do not compute a ratio across currencies, and say how old an annual figure is.
+- **Two capex series.** Presentation capex (placed in service, includes finance leases) and cash purchases of PPE differ (CRWV Q3: $14.5bn vs $9.4bn). Never swap them silently.
+- **Pasted prices.** Cashtag prices that come through when copying posts from X are page artefacts, not quotes ($0.0697 for ANT, $1.00 for MU). Do not use them.
+- **Peak-cycle earnings.** A low trailing P/E at record margins (Micron 9.5x, SanDisk about 6x) can mean peak earnings, not cheap. Check how much of the jump is price versus volume.
+- **Shell chains.** Join git commands with `&&`, not `;`, and check for conflict markers before staging. macOS `sed` rejects some GNU syntax; once a failed `sed` let a commit with conflict markers through.
+
 ### Quick Workflow Example
 
 ```bash
