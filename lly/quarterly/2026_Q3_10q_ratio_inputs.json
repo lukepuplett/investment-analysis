@@ -1,0 +1,169 @@
+{
+  "ticker": "LLY",
+  "company": "ELI LILLY & Co",
+  "cik": 59478,
+  "form": "10-Q",
+  "period_end": "2026-09-30",
+  "fiscal_label": "2026_Q3",
+  "accession": "0000059478-26-000108",
+  "filed": "2026-10-29",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+  "taxonomy": "us-gaap",
+  "currency": "USD",
+  "basis": "TTM to 2026-09-30",
+  "ttm_revenue": {
+    "tag": "Revenues",
+    "value": 86462000000,
+    "unit": "USD",
+    "method": "FY(prior) + YTD(current) - YTD(prior year)",
+    "rows": [
+      {
+        "start": "2026-01-01",
+        "end": "2026-09-30",
+        "val": 67170000000,
+        "accn": "0000059478-26-000108",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "tag": "Revenues"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 65179000000,
+        "accn": "0000059478-26-000013",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-12",
+        "frame": "CY2025",
+        "tag": "Revenues"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-09-30",
+        "val": 45887000000,
+        "accn": "0000059478-26-000108",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "tag": "Revenues"
+      }
+    ]
+  },
+  "ttm_net_income": {
+    "tag": "NetIncomeLoss",
+    "value": 27580000000,
+    "unit": "USD",
+    "method": "FY(prior) + YTD(current) - YTD(prior year)",
+    "rows": [
+      {
+        "start": "2026-01-01",
+        "end": "2026-09-30",
+        "val": 20942000000,
+        "accn": "0000059478-26-000108",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "tag": "NetIncomeLoss"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 20640000000,
+        "accn": "0000059478-26-000013",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-02-12",
+        "frame": "CY2025",
+        "tag": "NetIncomeLoss"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-09-30",
+        "val": 14002000000,
+        "accn": "0000059478-26-000108",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "tag": "NetIncomeLoss"
+      }
+    ]
+  },
+  "cover_shares": {
+    "as_of": "2026-10-26",
+    "basis": "cover page",
+    "by_class": {
+      "(single class)": 940745031.0
+    },
+    "total": 940745031.0
+  },
+  "diluted_weighted_shares": {
+    "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "value": 893400000,
+    "start": "2026-07-01",
+    "end": "2026-09-30",
+    "accn": "0000059478-26-000108"
+  },
+  "cash": {
+    "tag": "CashAndCashEquivalentsAtCarryingValue",
+    "value": 4885000000,
+    "unit": "USD",
+    "filed": "2026-10-29",
+    "accn": "0000059478-26-000108"
+  },
+  "equity": {
+    "tag": "StockholdersEquity",
+    "value": 40271000000,
+    "unit": "USD",
+    "filed": "2026-10-29",
+    "accn": "0000059478-26-000108"
+  },
+  "debt_candidates_review_balance_sheet": [
+    {
+      "concept": "DebtCurrent",
+      "value": 2517000000.0
+    },
+    {
+      "concept": "LongTermDebtNoncurrent",
+      "value": 46986000000.0
+    }
+  ],
+  "notes": [
+    "Debt tags vary by company: confirm debt and lease balances on the balance sheet before computing EV.",
+    "Values from companyfacts are deduplicated by period, latest filing wins (later filings re-round)."
+  ],
+  "snapshot_taken": "2026-11-24T21:20Z",
+  "price": {
+    "price": 1407.5899658203125,
+    "date": "2026-11-24",
+    "source": "Yahoo Finance chart API, last regular close (split-adjusted)",
+    "currency": "USD",
+    "splits": []
+  },
+  "split_adjustment": {
+    "splits_found": [],
+    "factor_cover_shares": 1.0,
+    "factor_diluted_shares": 1.0,
+    "note": "Share counts in the filing are as of the cover date / filing date; shares are scaled by splits dated after those so they match the split-adjusted price."
+  },
+  "ratios": {
+    "cover_total": {
+      "shares": 940745031.0,
+      "market_cap": 1324183266030.919,
+      "price_to_sales": 15.315205130935196,
+      "price_to_earnings": 48.012446194014466
+    },
+    "diluted_weighted": {
+      "shares": 893400000.0,
+      "market_cap": 1257540875463.8672,
+      "price_to_sales": 14.544434265502385,
+      "price_to_earnings": 45.596115861634054
+    }
+  }
+}
