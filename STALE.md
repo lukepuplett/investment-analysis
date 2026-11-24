@@ -1,6 +1,6 @@
 # Data Staleness Table
 
-**Last updated: 2026-11-23**
+**Last updated: 2026-11-24**
 
 This table tracks how current each covered company's data is, based on the latest quarterly/period document present in its `quarterly/` or `financials/` directory. Regenerate periodically (suggest monthly, or before any cross-portfolio review) by checking the latest filename/period in each ticker folder against the current date.
 
@@ -8,14 +8,17 @@ Sorted most stale → most current as of the last-updated date above.
 
 **Held?** = whether this is an active position, as distinct from a name we merely research/watch. Confirmed / updated by the user as of **2026-09-18** (interest open): **held** = AAPL, AMAT, AMZN, ASML, AVGO, CLOUDFLARE/NET, CRWV, CSCO, DDOG, DRO, ENR.DE, GLW, GOOG, GTLB, HOOD, INTC, KLIC, MSFT, NVDA, PH, RKLB, RYCEY, SMCI, SPCE, TSLA, TT; **not held (watchlist)** = MNTN, DUK, CAT, CVCO, LASE. Sep 2026 additions / explicit confirms vs 2026-09-12 list: **AVGO, NVDA, AAPL, PH**. Prior held names (CSCO, GLW, CLOUDFLARE/NET, DRO, AMZN, SPCE, etc.) retained — user said *add*, not replace. `aapl/` folder created 2026-11-03 (FQ4 FY26 delta note; no full thesis doc yet) (AVGO added 2026-09-28; **NVDA** added 2026-10-02).
 
+**Update 2026-11-24:** MU, LLY and CAT are now held, and NVDA was added to; the 18 Sep list above is out of date for them. **Position sizes are deliberately not recorded in this repo** (decided 2026-11-24): held flags only.
+
 
 | Ticker | Company | Held? | Latest Period on File | Source Doc | Staleness |
 |--------|---------|-------|------------------------|------------|-----------|
 | **NVDA** | NVIDIA | Yes | FY2027 Q2 (7/26/2026) | `nvda/quarterly/2026_Q2_summary.txt` / `2026_Q2_10q.htm` | ✅ Fresh — first-pass Oct 2026; Q2 rev $96.2B; Q3 guide $108B; next print ~Nov 18, 2026 |
 | **AVGO** | Broadcom | Yes | FY2026 Q3 (8/2/2026) | `avgo/quarterly/2026_Q3_summary.txt` / `2026_Q3_10q.htm` | ✅ Fresh — first-pass Sep 2026; Q3 record revenue/FCF; AI semi $16.7B |
 | **MRNA** | Moderna | No (watchlist / interest) | Q3 2026 (9/30/2026) | `analysis/2026_11_q3_delta_analysis.md`; 8-K 6 Nov | ✅ Fresh — Q3 rev $1.3B (+29%); FY26 growth guide 15–25%; YE cash $8.1–8.3B; INT Ph3 at ESMO |
-| **MU** | Micron | No (watchlist / interest) | FY2026 (9/3/2026) | `mu/quarterly/2026_FY_10k.htm` (+ facts TSV and ratio inputs) | ✅ Fresh — first pass 23 Nov 2026; FY26 rev $133.2B, net income $85.0B, P/E ~9.5; next print FQ1 FY27 (date not checked) |
+| **MU** | Micron | Yes (from 2026-11-24) | FY2026 (9/3/2026) | `mu/quarterly/2026_FY_10k.htm` (+ facts TSV and ratio inputs) | ✅ Fresh — first pass 23 Nov 2026; FY26 rev $133.2B, net income $85.0B, P/E ~9.5; next print FQ1 FY27 (date not checked) |
 | **SNDK** | Sandisk | No (watchlist / interest) | FQ1 FY2027 (10/2/2026) | `sndk/quarterly/2027_Q1_10q.htm`, `2026_FY_10k.htm` (+ facts TSV and ratio inputs) | ✅ Fresh — first pass 23 Nov 2026; FQ1 rev $11.0B, GM 85%, net income $8.1B; 8-for-1 split 20 Nov (share counts scaled); next print FQ2 FY27 (date not checked) |
+| **LLY** | Eli Lilly | Yes (from 2026-11-24) | Q3 2026 (9/30/2026) | `lly/quarterly/2026_Q3_10q.htm` (+ facts TSV and ratio inputs) | ✅ Data fresh, first pass only — Q3 rev $24.4B (+39%); P/E ~46–48; debt $49.5B; leases/obligations need the 10-K |
 | **LASE** | Laser Photonics | No (watchlist) | Q3 2026 (9/30/2026) | `analysis/2026_11_q3_delta_analysis.md`; 10-Q 12 Nov | ✅ Fresh — Q3 GM −39.2% vs 18% target; going concern; Nasdaq bid deadline 19 Apr 2027; AVOID unchanged |
 | **RYCEY** | Rolls-Royce | Yes | H1 2026 (30 Jul 2026) | `quarterly/2026_H1_results.txt` | ✅ Fresh — H1 2026 results; FY26 guidance raised |
 | **MSFT** | Microsoft | Yes | FY2027 Q1 (9/30/2026) | `msft/analysis/2026_10_delta_analysis.md` (8-K; 10-Q not yet reconciled) | ✅ Fresh — FY27 Q1 printed 28 Oct 2026 |
@@ -23,7 +26,7 @@ Sorted most stale → most current as of the last-updated date above.
 | **SPCE** | Virgin Galactic | Yes | Q3 2026 (9/30/2026) | `analysis/2026_11_q3_delta_analysis.md`; `quarterly/2026_Q3_figures.md` | ✅ Fresh — liquidity $184M; Q4 FCF guide −$80–90M; $250M ATM filed 12 Nov; going concern |
 | **DUK** | Duke Energy | No (watchlist) | 2025 Q2 | `2025_Q2_transcript.txt` | ⚠️ Very stale |
 | **FLR** | Fluor | — | 2025 Q2 | `2025_Q2_presentation.txt` | ⚠️ Very stale |
-| **CAT** | Caterpillar | No (watchlist) | 2025 Q2 | `2025_Q2_financial_review_presentation.md` | ⚠️ Very stale |
+| **CAT** | Caterpillar | Yes (from 2026-11-24) | Q3 2026 (9/30/2026) | `cat/quarterly/2026_Q3_10q.htm` (+ facts TSV and ratio inputs); `analysis/2026_11_24_debt_and_obligations_check.md` | ✅ Data fresh, analysis docs stale (Oct 2025) — 10-Q to 30 Sep 2026; P/E ~21.2, P/S ~3.2; about $45bn debt, mostly the finance arm |
 | **CVCO** | Cavco Industries | No (watchlist) | FY2026 Q2 (~Sep 2025) | `2025_Q2_transcript.txt` | ⚠️ Very stale |
 | **AAPL** | Apple | Yes | FY2026 Q4 (9/26/2026) | `aapl/analysis/2026_11_delta_analysis.md` (8-K Ex 99.1; 10-K not yet reconciled) | ✅ Fresh — FQ4 printed 2 Nov 2026; rev $114.5B (+12%), iPhone +17.5%, FY FCF ~$136B; no thesis doc yet |
 | **AMZN** | Amazon | Yes | Q3 2026 (9/30/2026) | `amzn/analysis/2026_10_delta_analysis.md` (8-K Ex 99.1; 10-Q not yet reconciled) | ✅ Fresh — Q3 printed 29 Oct 2026; AWS +39%, OI $28.1B |

@@ -14,7 +14,8 @@ This is an investment analysis repository for tracking and analyzing public comp
 
 ## Companies Covered
 - **MRNA**: Moderna — mRNA platform (vaccines + oncology INT); watchlist Sep 2026
-- **MU**: Micron Technology — DRAM and NAND memory; watchlist, first-pass coverage Nov 2026 ([mu/](mu/README.md))
+- **MU**: Micron Technology — DRAM and NAND memory; held from Nov 2026, first-pass coverage ([mu/](mu/README.md))
+- **LLY**: Eli Lilly and Company — GLP-1 and pharmaceuticals; held from Nov 2026, first-pass data only ([lly/](lly/README.md))
 - **SNDK**: Sandisk — NAND flash storage (spun out of Western Digital); watchlist, first-pass coverage Nov 2026 ([sndk/](sndk/README.md))
 
 _Top-level ticker folders mirror these symbols (mixed case preserved, e.g. **CVCO**)._

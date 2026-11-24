@@ -1,6 +1,6 @@
 # Micron Technology (MU) — first-pass coverage
 
-**Status:** watchlist, new coverage started 23 Nov 2026. Not held. First pass from the FY2026 Form 10-K only; the seven required analysis documents, the revenue-driver section and a monitoring schedule are **not written yet** (see "Still to do"). Nothing here is a recommendation. Side-by-side scoring against SanDisk, Moderna and Lilly: [value scoring of Micron, SanDisk, Moderna and Lilly](../consolidated/2026_11_23_value_scoring_mu_sndk_mrna_lly.md).
+**Status:** held from 24 Nov 2026 (flag only; no position size is recorded in this repo); coverage started 23 Nov 2026. First pass from the FY2026 Form 10-K only; the seven required analysis documents, the revenue-driver section and a monitoring schedule are **not written yet** (see "Still to do"). Nothing here is a recommendation. Side-by-side scoring against SanDisk, Moderna and Lilly: [value scoring of Micron, SanDisk, Moderna and Lilly](../consolidated/2026_11_23_value_scoring_mu_sndk_mrna_lly.md).
 
 **Source:** Form 10-K for the fiscal year ended 3 Sep 2026, filed 9 Oct 2026, accession 0000723125-26-000023, saved as [quarterly/2026_FY_10k.htm](quarterly/2026_FY_10k.htm) with [facts](quarterly/2026_FY_10k_facts.tsv) and [ratio inputs](quarterly/2026_FY_10k_ratio_inputs.json) (made by `scripts/edgar_snapshot.py`). Prices are Yahoo closes on 23 Nov 2026.
 
