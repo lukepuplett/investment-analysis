@@ -74,6 +74,10 @@ CoreWeave surfaces its value proposition through:
    - Cost optimization tools
    - Usage analytics and reporting
 
+## November 2026: refinancing watch update (25 Nov)
+
+2032 unsecured notes (9.625%) trade at about 75.5, **16.44% yield** (24 Nov), versus about 15% reported in October and 9.625% at issue; unsecured has not thawed. Management said on 10 Nov it will not issue more parent-level unsecured debt, and is reportedly marketing a $4B+ Meta-contract-backed loan at about 7–7.5% (not yet confirmed or priced). Detail: [analysis/2026_11_25_refinancing_watch.md](analysis/2026_11_25_refinancing_watch.md).
+
 ## October 2026: debt and credit scare
 
 _Added 2026-10-15. Sources: Yahoo price data; contemporaneous news found via search (Benzinga, Yahoo Finance, Bloomberg via CNBC TV18, Reuters, Motley Fool, MarketScreener). Items marked "reported" have not been checked against primary sources._
