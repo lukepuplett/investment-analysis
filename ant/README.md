@@ -159,3 +159,25 @@ The ARR growth of +85% and +46%, revenue growth of +145% and +69%, $130bn+ of 20
 - **"Compute is 70–80% of revenue, so it's a utility" needs refining.** The cost of serving customers is only ~15% of revenue, a software-like ~85% gross margin. The heavy cost is training and research compute (R&D $19.2bn, 58% of 9M revenue), plus a pile of $895bn of fixed commitments that don't flex if prices keep falling 5% a quarter. The risk is operating leverage on fixed capacity, not thin unit margins.
 - **$1.5tn still prices in the bull case.** It is ~22x the 3Q26 annualised revenue and ~50% above the Series H mark, so buying at the IPO leaves little cushion if growth keeps decelerating.
 - **Concentration is falling but worth watching.** The top-5 share fell from ~36% to ~21% while their dollars hit records, so the "slowing big customers" story is weaker than the thread says. The bigger tell is that net new revenue fell ~21% QoQ with $600m of price cuts in the same quarter.
+
+## Cashflow vs commitments: can Anthropic self-fund? (25 Nov 2026)
+
+Prompted by Luke's point (diary, 25 Nov): "At some point the spenders will need to spend from cashflow only, and the returns on spend so far may be needed."
+
+**Inputs (S-1/A No. 2):**
+- Run-Rate Revenue is about $81bn at 31 Oct 2026, up $10bn in October.
+- Commitments total $900.9bn: $70.7bn in the next 12 months and $451.6bn before end-2030 (about $110bn a year on average); $186.2bn of the total is terminable or contingent.
+- Compute and infrastructure ran at 57% of revenue in 9M26 and 58% in 3Q26. Cost of serving is about 15%, a gross margin of about 85%.
+- Cash and short-term investments were $131.8bn at 30 Sep 2026, plus about $85bn of net IPO and PIPE proceeds, so over $200bn.
+
+**If trends hold:**
+- Revenue grows into the commitments. Even at about 50% a year, revenue is about $120bn in 2027 and $180bn in 2028, above the roughly $110bn a year due through 2030, with $200bn+ of cash as a buffer.
+- A cashflow-only regime does not bind Anthropic for years. It binds the neoclouds and their lenders first (see the CRWV 2032 notes at 75.5, about 16.4% yield to worst, on 24 Nov 2026).
+
+**Where it breaks:**
+- Growth is slowing: quarter-on-quarter revenue growth was +144% in 2Q26 and +47% in 3Q26, and price cuts cost about 5% a quarter.
+- If growth falls to about 20% a year by 2028, revenue stalls near $110–130bn. About $450bn of commitments after 2030 is still due, and the cash buffer starts being drawn down.
+
+**What to watch over the first two public quarters:** ARR growth against commitments falling due, the share of revenue going to compute, the gross margin, and further price cuts.
+
+These are rough scenario figures worked out in conversation, not outputs of `model/ant_model.py`.
